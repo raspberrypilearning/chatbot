@@ -1,0 +1,10 @@
+title: chatbot
+hero_image: images/banner.png
+subtitle: chatbot subtitle
+description: chatbot description
+original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+theme: cc-prototype
+published: false
+steps:
+  - title: Step one
+    duration: 60
