@@ -21,9 +21,7 @@ Here's how your code should look:
 ![screenshot](images/chatbot-ask-code.png)
 {: .hint-content .hint-3 }
 
-### Save your project
-
-+ Your chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply, by making use of the user's answer?
++ Your ChatBot simply replies "What a lovely name!" every time. Can you personalise your ChatBot's reply, by making use of the user's answer?
 
     Test and save: Your ChatBot should say hello using the user's name.
 
