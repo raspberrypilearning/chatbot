@@ -8,3 +8,15 @@ published: true
 steps:
   - title: Introduction
     duration: 10
+  - title: What you'll need
+    duration: 0
+  - title: Your ChatBot
+    duration: 0
+  - title: A talking ChatBot
+    duration: 0
+  - title: Making decisions
+    duration: 0
+  - title: Changing Location
+    duration: 0
+  - title: Challenge: Make your own ChatBot
+    duration: 0

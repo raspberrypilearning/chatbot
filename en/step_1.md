@@ -8,8 +8,9 @@ Click the green flag to start the program. When the ChatBot asks a question, typ
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
-  <img src="images/chatbot-final.png">
 </div>
+
+(The rest of this page's content should be collapsed)
 
 #### What you'll learn
 
