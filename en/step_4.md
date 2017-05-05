@@ -1,6 +1,6 @@
-# Step 2: A talking chatbot
+# Step 2: A talking ChatBot
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+Now that you have a ChatBot with a personality, let's program it to talk to you.
 
 + Add code to your ChatBot so that when it's clicked it asks for your name, and then says "What a lovely name!".
 
@@ -23,7 +23,7 @@ Here's how your code should look:
 
 ### Save your project
 
-+ Your chatbot simply replies `What a lovely name!` every time. Can you personalise your chatbot's reply, by making use of the user's answer?
++ Your chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply, by making use of the user's answer?
 
     Test and save: Your ChatBot should say hello using the user's name.
 
@@ -31,7 +31,7 @@ Here's how your code should look:
 
 ### Hint 1
 {: .hint-heading #hint-1 }
-When the ChatBot__sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "Hi", followed by the user's __answer__.
+When the ChatBot __sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "Hi", followed by the user's __answer__.
 {: .hint-content .hint-1 }
 
 ### Hint 2
