@@ -8,7 +8,7 @@ published: true
 steps:
   - title: Introduction
     duration: 10
-  - title: What you'll neede
+  - title: What you'll need
     duration: 0
   - title: Your ChatBot
     duration: 0
