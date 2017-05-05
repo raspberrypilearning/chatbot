@@ -1,10 +1,10 @@
-title: chatbot
-hero_image: images/banner.png
-subtitle: chatbot subtitle
-description: chatbot description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+title: ChatBot
+hero_image: images/chatbot.png
+subtitle:
+description: Learn how to program your own talking robot!
+original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: cc-prototype
-published: false
+published: true
 steps:
-  - title: Step one
-    duration: 60
+  - title: Introduction
+    duration: 10
