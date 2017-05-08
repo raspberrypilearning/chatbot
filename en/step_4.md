@@ -46,8 +46,13 @@ Here's how your code should look:
 
 + If you store the user's answer in a variable, then it can be used later. Create a new variable called `name` to store the user's name.
 
-##### 'Creating a new Scratch variable' ingredient (collapsable).
+--- collapse ---
+---
+title: Creating a new Scratch variable
+image: images/image.png
+---
 [[[scratch-add-variable]]]
+--- /collapse ---
 
 + Can you store the user's answer in your `name` variable, and use it in your ChatBot's reply?
 

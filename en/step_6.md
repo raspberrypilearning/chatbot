@@ -6,7 +6,7 @@ You can also code your chatbot to change its location.
 
 	![screenshot](images/chatbot-moon.png)
 
-##### 'Add backdrop' ingredient (collapsed):
+
 [[[backdrop-from-library]]]
 
 + Can you code your ChatBot to ask "Would you like to go to the moon?" and then change location if the user answers "yes"?

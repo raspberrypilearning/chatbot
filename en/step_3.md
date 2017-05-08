@@ -11,7 +11,7 @@
 --- collapse ---
 ---
 title: Creating a new Scratch project
-image: images/scratch-new.png
+image: images/image.png
 ---
 [[[new-scratch-project]]]
 --- /collapse ---
@@ -23,7 +23,7 @@ image: images/scratch-new.png
 --- collapse ---
 ---
 title: Adding a sprite from the Scratch library
-image: images/scratch-sprite.png
+image: images/image.png
 ---
 [[[add-sprite-from-library]]]
 --- /collapse ---
@@ -35,7 +35,7 @@ image: images/scratch-sprite.png
 --- collapse ---
 ---
 title: Adding a backdrop from the Scratch library
-image: images/scratch-backdrop.png
+image: images/image.png
 ---
 [[[backdrop-from-library]]]
 --- /collapse ---
