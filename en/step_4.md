@@ -74,7 +74,7 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-variable-hide.png)
 
-## Challenge: More questions { .challenge }
+## Challenge: More questions
 
 Program your chatbot to ask another question. Can you store their answer in a variable?
 
