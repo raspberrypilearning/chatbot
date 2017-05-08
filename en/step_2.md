@@ -28,7 +28,10 @@ image: images/image.png
 
 --- /collapse ---
 
-#### Solution (logged in club leaders only)
+#### Additional Resources
+
+For logged in club leaders only... display a message if not logged in:
+    "If you're an educator, please log in to see the solutions."
 
 + [ChatBot solution online Scratch project](http://scratch.mit.edu/projects/26762091/#editor)
 + [ChatBot solution offline Scratch project](resources/ChatBot-Solution.sb2){:download='ChatBot-Solution.sb2'}

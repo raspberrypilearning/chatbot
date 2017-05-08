@@ -14,3 +14,5 @@ steps:
     duration: 10
   - title: A talking ChatBot
     duration: 10
+  - title: Making decisions
+    duration: 10
