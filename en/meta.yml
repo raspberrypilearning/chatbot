@@ -16,3 +16,7 @@ steps:
     duration: 10
   - title: Making decisions
     duration: 10
+  - title: Changing Location
+    duration: 10
+  - title: 'Challenge: Make your own ChatBot'
+    duration: 10
