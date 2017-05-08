@@ -8,3 +8,5 @@ published: true
 steps:
   - title: Introduction
     duration: 10
+  - title: What youll need
+    duration: 10
