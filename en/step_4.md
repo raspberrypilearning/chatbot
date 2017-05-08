@@ -1,4 +1,4 @@
-# Step 2: A talking ChatBot
+## Step 2: A talking ChatBot
 
 Now that you have a ChatBot with a personality, let's program it to talk to you.
 
