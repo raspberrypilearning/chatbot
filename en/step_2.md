@@ -6,27 +6,7 @@
 
 #### Software
 
-+ Scratch 2.0.
-
---- collapse ---
----
-title: Scratch online setup
-image: images/image.png
----
-
-[[[scratch-online-setup]]]
-
---- /collapse ---
-
---- collapse ---
----
-title: Installing Scratch
-image: images/image.png
----
-
-[[[scratch-install]]]
-
---- /collapse ---
++ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
 
 #### Additional Resources
 

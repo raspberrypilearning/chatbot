@@ -9,7 +9,7 @@ You can also code your chatbot to change its location.
 --- collapse ---
 ---
 title: Adding a backdrop from the Scratch library
-image: images/scratch-backdrop.png
+image: images/image.png
 ---
 [[[backdrop-from-library]]]
 --- /collapse ---

@@ -44,8 +44,13 @@ Here's how your code should look:
 
 + If you store the user's answer in a variable, then it can be used later. Create a new variable called `name` to store the user's name.
 
-##### 'Creating a new Scratch variable' ingredient (collapsable).
+--- collapse ---
+---
+title: Creating a new Scratch variable
+image: images/image.png
+---
 [[[scratch-add-variable]]]
+--- /collapse ---
 
 + Can you store the user's answer in your `name` variable, and use it in your ChatBot's reply?
 
@@ -55,7 +60,7 @@ Here's how your code should look:
 
 --- hints ---
 --- hint ---
-When the ChatBot__sprite is clicked__, it should __ask__ for your name. You should then __set__ your __name__ variable to the user's __answer__. The ChatBot should then __say__ "Hi", followed by the user's __name__.
+When the ChatBot __sprite is clicked__, it should __ask__ for your name. You should then __set__ your __name__ variable to the user's __answer__. The ChatBot should then __say__ "Hi", followed by the user's __name__.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
@@ -71,8 +76,10 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-variable-hide.png)
 
+--- challenge ---
 ## Challenge: More questions
 
 Program your chatbot to ask another question. Can you store their answer in a variable?
 
 ![screenshot](images/chatbot-question.png)
+--- /challenge ---

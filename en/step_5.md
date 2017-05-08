@@ -12,7 +12,7 @@ You can program your ChatBot to decide what to say or do, based on the user's re
 
 --- hints ---
 --- hint ---
-After your ChatBot has said hello, it should now also __ask__ "Are you OK?". __If__ the user answers "yes" then the ChatBot should __say__ "That's great to hear!".
+After your ChatBot has said "Hi", it should now also __ask__ "Are you OK?". __If__ the user answers "yes" then the ChatBot should __say__ "That's great to hear!".
 --- /hint ---
 --- hint ---
 Here are the extra code blocks you'll need:
@@ -72,13 +72,17 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-costume-bug-test.png)
 
-    Test and save: Run your code and type "no", so that your ChatBot looks unhappy. When you run your code again, your ChatBot should change back to a smiling face.
+    Test and save: Run your code and type "no", so that your ChatBot looks unhappy. When you run your code again, your ChatBot should change back to a smiling face before asking your name.
 
     ![screenshot](images/chatbot-costume-fix-test.png)
 
 --- hints ---
 --- hint ---
-When the __flag is clicked__, your ChatBot should __switch costume__ to a smiling face.
+When the __sprite is clicked__, your ChatBot should first __switch costume__ to a smiling face.
+--- /hint ---
+--- hint ---
+Here's the code block you'll need to add:
+![screenshot](images/chatbot-costume-fix-blocks.png)
 --- /hint ---
 --- hint ---
 Here's how your code should look:
