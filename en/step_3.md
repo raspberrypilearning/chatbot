@@ -18,7 +18,7 @@ image: images/scratch-new.png
 
 + Choose one of these character sprites, and add them to your project:
 
-![screenshot](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 --- collapse ---
 ---
@@ -30,7 +30,7 @@ image: images/scratch-sprite.png
 
 + Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
 
-![screenshot](images/chatbot-sprite.png)
+![Choose a backdrop](images/chatbot-backdrop.png)
 
 --- collapse ---
 ---
