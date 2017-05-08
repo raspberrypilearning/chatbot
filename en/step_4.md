@@ -8,22 +8,20 @@ Now that you have a ChatBot with a personality, let's program it to talk to you.
 
     ![screenshot](images/chatbot-ask-test.png)
 
-### Hint 1
-{: .hint-heading #hint-1 }
+### Hints
+--- hints ---
+--- hint ---
 When the ChatBot__sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "What a lovely name!".
-{: .hint-content .hint-1 }
-
-### Hint 2
-{: .hint-heading #hint-2 }
+--- /hint ---
+--- hint ---
 Here are the code blocks you'll need:
 ![screenshot](images/chatbot-ask-blocks.png)
-{: .hint-content .hint-2 }
-
-### Hint 3
-{: .hint-heading #hint-3 }
+--- /hint ---
+--- hint ---
 Here's how your code should look:
 ![screenshot](images/chatbot-ask-code.png)
-{: .hint-content .hint-3 }
+--- /hint ---
+--- /hints ---
 
 + Your ChatBot simply replies "What a lovely name!" every time. Can you personalise your ChatBot's reply, by making use of the user's answer?
 
@@ -31,22 +29,20 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-answer-test.png)
 
-### Hint 1
-{: .hint-heading #hint-1 }
+### Hints
+--- hints ---
+--- hint ---
 When the ChatBot __sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "Hi", followed by the user's __answer__.
-{: .hint-content .hint-1 }
-
-### Hint 2
-{: .hint-heading #hint-2 }
+--- /hint ---
+--- hint ---
 Here are the code blocks you'll need:
 ![screenshot](images/chatbot-answer-blocks.png)
-{: .hint-content .hint-2 }
-
-### Hint 3
-{: .hint-heading #hint-3 }
+--- /hint ---
+--- hint ---
 Here's how your code should look:
 ![screenshot](images/chatbot-answer-code.png)
-{: .hint-content .hint-3 }
+--- /hint ---
+--- /hints ---
 
 + If you store the user's answer in a variable, then it can be used later. Create a new variable called `name` to store the user's name.
 
@@ -59,22 +55,20 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-ask-test.png)
 
-### Hint 1
-{: .hint-heading #hint-1 }
+### Hints
+--- hints ---
+--- hint ---
 When the ChatBot__sprite is clicked__, it should __ask__ for your name. You should then __set__ your __name__ variable to the user's __answer__. The ChatBot should then __say__ "Hi", followed by the user's __name__.
-{: .hint-content .hint-1 }
-
-### Hint 2
-{: .hint-heading #hint-2 }
+--- /hint ---
+--- hint ---
 Here are the code blocks you'll need:
 ![screenshot](images/chatbot-variable-blocks.png)
-{: .hint-content .hint-2 }
-
-### Hint 3
-{: .hint-heading #hint-3 }
+--- /hint ---
+--- hint ---
 Here's how your code should look:
 ![screenshot](images/chatbot-variable-code.png)
-{: .hint-content .hint-3 }
+--- /hint ---
+--- /hints ---
 
 + If you'd rather not see the variables on your stage, you can click the tick next to the variable names in the 'Scripts' tab to hide them.
 

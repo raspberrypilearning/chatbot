@@ -23,26 +23,24 @@ image: images/scratch-backdrop.png
 [[[backdrop-from-library]]]
 --- /collapse ---
 
-### Hint 1
-{: .hint-heading #hint-1 }
+### Hints
+--- hints ---
+--- hint ---
 Your ChatBot should __ask__ the user "Would you like to go to the moon?". __If__ the user's __answer__ is "yes" then your ChatBot should __change costume__ to look happy and the stage __backdrop__ should change.
 
 If the user answers "no", the ChatBot should __change costume__ to look sad and __say__ "OK...bye!"
 
 You'll also need to add code to start your ChatBot in the right place when the __flag is clicked__.
-{: .hint-content .hint-1 }
-
-### Hint 2
-{: .hint-heading #hint-2 }
+--- /hint ---
+--- hint ---
 Here are the code blocks you'll need to use:
 ![screenshot](images/chatbot-backdrop-blocks.png)
-{: .hint-content .hint-2 }
-
-### Hint 3
-{: .hint-heading #hint-3 }
+--- /hint ---
+--- hint ---
 Here's how your code should look:
 ![screenshot](images/chatbot-backdrop-code.png)
-{: .hint-content .hint-3 }
+--- /hint ---
+--- /hints ---
 
 + Can you add code to make your ChatBot jump for joy if the user wants to go to the moon?
 
@@ -50,19 +48,17 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-jump-test.png)
 
-### Hint 1
-{: .hint-heading #hint-1 }
+### Hints
+--- hints ---
+--- hint ---
 Your ChatBot should jump by __changing__ its __y position__ by a small amount, and then changing its position back after a short __wait__. You may want to __repeat__ this a few times.
-{: .hint-content .hint-1 }
-
-### Hint 2
-{: .hint-heading #hint-2 }
+--- /hint ---
+--- hint ---
 Here are the code blocks you'll need to use:
 ![screenshot](images/chatbot-jump-blocks.png)
-{: .hint-content .hint-2 }
-
-### Hint 3
-{: .hint-heading #hint-3 }
+--- /hint ---
+--- hint ---
 Here's how your code should look:
 ![screenshot](images/chatbot-jump-code.png)
-{: .hint-content .hint-3 }
+--- /hint ---
+--- /hints ---

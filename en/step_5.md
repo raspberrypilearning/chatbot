@@ -10,22 +10,20 @@ You can program your ChatBot to decide what to say or do, based on the user's re
 
     ![screenshot](images/chatbot-if-test.png)
 
-### Hint 1
-{: .hint-heading #hint-1 }
+### Hints
+--- hints ---
+--- hint ---
 After your ChatBot has said hello, it should now also __ask__ "Are you OK?". __If__ the user answers "yes" then the ChatBot should __say__ "That's great to hear!".
-{: .hint-content .hint-1 }
-
-### Hint 2
-{: .hint-heading #hint-2 }
+--- /hint ---
+--- hint ---
 Here are the extra code blocks you'll need:
 ![screenshot](images/chatbot-if-blocks.png)
-{: .hint-content .hint-2 }
-
-### Hint 3
-{: .hint-heading #hint-3 }
+--- /hint ---
+--- hint ---
 Here's how your code should look:
 ![screenshot](images/chatbot-if-code.png)
-{: .hint-content .hint-3 }
+--- /hint ---
+--- /hints ---
 
 + The trouble with your chatbot is that it doesn't give a reply if the user answers "no". Can you change your ChatBot so that it also replies "Oh no!" if you answer "no" to the question?
 
