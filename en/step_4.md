@@ -10,7 +10,7 @@ Now that you have a ChatBot with a personality, let's program it to talk to you.
 
 --- hints ---
 --- hint ---
-When the ChatBot__sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "What a lovely name!".
+When the ChatBot __sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "What a lovely name!".
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
