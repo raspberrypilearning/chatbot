@@ -6,7 +6,7 @@ Now that you have a ChatBot with a personality, let's program it to talk to you.
 
     Test and save: your ChatBot should ask for your name and then tell you what a lovely name you have!
 
-    ![screenshot](images/chatbot-ask-test.png)
+    ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
 --- hints ---
 --- hint ---
@@ -14,11 +14,11 @@ When the ChatBot __sprite is clicked__, it should __ask__ for your name. The Cha
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/chatbot-ask-blocks.png)
+![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png)
 --- /hint ---
 --- hint ---
 Here's how your code should look:
-![screenshot](images/chatbot-ask-code.png)
+![Code for a ChatBot reply](images/chatbot-ask-code.png)
 --- /hint ---
 --- /hints ---
 
@@ -26,7 +26,7 @@ Here's how your code should look:
 
     Test and save: Your ChatBot should say hello using the user's name.
 
-    ![screenshot](images/chatbot-answer-test.png)
+    ![Testing a personalised reply](images/chatbot-answer-test.png)
 
 --- hints ---
 --- hint ---
@@ -34,11 +34,11 @@ When the ChatBot __sprite is clicked__, it should __ask__ for your name. The Cha
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/chatbot-answer-blocks.png)
+![Blocks for a personalised reply](images/chatbot-answer-blocks.png)
 --- /hint ---
 --- hint ---
 Here's how your code should look:
-![screenshot](images/chatbot-answer-code.png)
+![Code for a personalised reply](images/chatbot-answer-code.png)
 --- /hint ---
 --- /hints ---
 
@@ -56,7 +56,7 @@ image: images/image.png
 
     Save and test: Your code should work as before, saying hello using the user's name.
 
-    ![screenshot](images/chatbot-ask-test.png)
+    ![Testing a 'name' variable](images/chatbot-ask-test.png)
 
 --- hints ---
 --- hint ---
@@ -64,22 +64,22 @@ When the ChatBot __sprite is clicked__, it should __ask__ for your name. You sho
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
-![screenshot](images/chatbot-variable-blocks.png)
+![Blocks for a 'name' variable](images/chatbot-variable-blocks.png)
 --- /hint ---
 --- hint ---
 Here's how your code should look:
-![screenshot](images/chatbot-variable-code.png)
+![Code for a 'name' variable](images/chatbot-variable-code.png)
 --- /hint ---
 --- /hints ---
 
 + If you'd rather not see the variables on your stage, you can click the tick next to the variable names in the 'Scripts' tab to hide them.
 
-    ![screenshot](images/chatbot-variable-hide.png)
+    ![Hiding a variable](images/chatbot-variable-hide.png)
 
 --- challenge ---
 ## Challenge: More questions
 
 Program your chatbot to ask another question. Can you store their answer in a variable?
 
-![screenshot](images/chatbot-question.png)
+![More questions](images/chatbot-question.png)
 --- /challenge ---

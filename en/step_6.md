@@ -4,7 +4,7 @@ You can also code your chatbot to change its location.
 
 + Add another backdrop to your stage, for example the 'moon' backdrop.
 
-	![screenshot](images/chatbot-moon.png)
+	![Adding a 'moon' backdrop](images/chatbot-moon.png)
 
 --- collapse ---
 ---
@@ -18,7 +18,7 @@ image: images/image.png
 
     Test and save: If you answer "yes", your ChatBot should change location. Your ChatBot should look sad and say "OK... bye!" if any other answer is given.
 
-    ![screenshot](images/chatbot-backdrop-test.png)
+    ![Testing a changing backdrop](images/chatbot-backdrop-test.png)
 
 --- hints ---
 --- hint ---
@@ -30,11 +30,11 @@ You'll also need to add code to start your ChatBot in the right place when the _
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need to use:
-![screenshot](images/chatbot-backdrop-blocks.png)
+![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png)
 --- /hint ---
 --- hint ---
 Here's how your code should look:
-![screenshot](images/chatbot-backdrop-code.png)
+![Code for changing the backdrop](images/chatbot-backdrop-code.png)
 --- /hint ---
 --- /hints ---
 
@@ -42,7 +42,7 @@ Here's how your code should look:
 
     Test and save: If your user answers "yes", your ChatBot should jump up and down. Your ChatBot shouldn't jump if any other answer is given.
 
-    ![screenshot](images/chatbot-jump-test.png)
+    ![Testing a jumping ChatBot](images/chatbot-jump-test.png)
 
 --- hints ---
 --- hint ---
@@ -50,10 +50,10 @@ Your ChatBot should jump by __changing__ its __y position__ by a small amount, a
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need to use:
-![screenshot](images/chatbot-jump-blocks.png)
+![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png)
 --- /hint ---
 --- hint ---
 Here's how your code should look:
-![screenshot](images/chatbot-jump-code.png)
+![Code for a jumping ChatBot](images/chatbot-jump-code.png)
 --- /hint ---
 --- /hints ---
