@@ -10,3 +10,5 @@ steps:
     duration: 10
   - title: What you'll need
     duration: 10
+  - title: Your ChatBot
+    duration: 10
