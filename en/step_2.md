@@ -9,7 +9,6 @@
 + Scratch 2.0.
 
 --- collapse ---
-
 ---
 title: Scratch online setup
 image: images/image.png
@@ -20,9 +19,8 @@ image: images/image.png
 --- /collapse ---
 
 --- collapse ---
-
 ---
-title: Installing Scratch 
+title: Installing Scratch
 image: images/image.png
 ---
 
