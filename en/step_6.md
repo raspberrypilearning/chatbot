@@ -6,15 +6,6 @@ You can also code your chatbot to change its location.
 
 	![screenshot](images/chatbot-moon.png)
 
-##### 'Add backdrop' ingredient (collapsed):
-[[[backdrop-from-library]]]
-
-+ Can you code your ChatBot to ask "Would you like to go to the moon?" and then change location if the user answers "yes"?
-
-    Test and save: If you answer "yes", your ChatBot should change location. Your ChatBot should look sad and say "OK... bye!" if any other answer is given.
-
-    ![screenshot](images/chatbot-backdrop-test.png)
-
 --- collapse ---
 ---
 title: Adding a backdrop from the Scratch library
@@ -23,7 +14,12 @@ image: images/scratch-backdrop.png
 [[[backdrop-from-library]]]
 --- /collapse ---
 
-### Hints
++ Can you code your ChatBot to ask "Would you like to go to the moon?" and then change location if the user answers "yes"?
+
+    Test and save: If you answer "yes", your ChatBot should change location. Your ChatBot should look sad and say "OK... bye!" if any other answer is given.
+
+    ![screenshot](images/chatbot-backdrop-test.png)
+
 --- hints ---
 --- hint ---
 Your ChatBot should __ask__ the user "Would you like to go to the moon?". __If__ the user's __answer__ is "yes" then your ChatBot should __change costume__ to look happy and the stage __backdrop__ should change.
@@ -48,7 +44,6 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-jump-test.png)
 
-### Hints
 --- hints ---
 --- hint ---
 Your ChatBot should jump by __changing__ its __y position__ by a small amount, and then changing its position back after a short __wait__. You may want to __repeat__ this a few times.
