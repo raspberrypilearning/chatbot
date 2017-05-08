@@ -86,8 +86,10 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-## Challenge: More decisions { .challenge }
+--- challenge ---
+## Challenge: More decisions
 
 Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your ChatBot respond to the answer?
 
 ![screenshot](images/chatbot-joke.png)
+--- /challenge ---
