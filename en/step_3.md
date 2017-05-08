@@ -1,4 +1,4 @@
-# Step 2: Your ChatBot
+## Step 2: Your ChatBot
 
 + Before you start making your chatbot, you need to decide on its personality. __Think about__:
 
