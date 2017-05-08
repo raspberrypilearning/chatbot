@@ -11,7 +11,7 @@
 --- collapse ---
 
 ---
-title: Ingredient Title
+title: Scratch online setup
 image: images/image.png
 ---
 
@@ -22,7 +22,7 @@ image: images/image.png
 --- collapse ---
 
 ---
-title: Ingredient Title
+title: Installing Scratch 
 image: images/image.png
 ---
 
