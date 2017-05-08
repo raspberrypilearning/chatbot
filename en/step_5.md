@@ -10,7 +10,6 @@ You can program your ChatBot to decide what to say or do, based on the user's re
 
     ![screenshot](images/chatbot-if-test.png)
 
-### Hints
 --- hints ---
 --- hint ---
 After your ChatBot has said hello, it should now also __ask__ "Are you OK?". __If__ the user answers "yes" then the ChatBot should __say__ "That's great to hear!".
@@ -31,22 +30,19 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-if-else-test.png)
 
-### Hint 1
-{: .hint-heading #hint-1 }
+--- hints ---
+--- hint ---
 Your ChatBot should now say "That's great to hear!" __If__ the user answers "yes", but should say "Oh no!" if the user answers something __else__.
-{: .hint-content .hint-1 }
-
-### Hint 2
-{: .hint-heading #hint-2 }
+--- /hint ---
+--- hint ---
 Here are the code blocks you'll need to use:
 ![screenshot](images/chatbot-if-else-blocks.png)
-{: .hint-content .hint-2 }
-
-### Hint 3
-{: .hint-heading #hint-3 }
+--- /hint ---
+--- hint ---
 Here's how your code should look:
 ![screenshot](images/chatbot-if-else-code.png)
-{: .hint-content .hint-3 }
+--- /hint ---
+--- /hints ---
 
 + You can put any code inside an `if` or `else` block, not just code to make your chatbot speak. If you click your ChatBot's 'costume' tab, you'll see that there is more than one.
 
@@ -58,22 +54,19 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-costume-test.png)
 
-### Hint 1
-{: .hint-heading #hint-1 }
+--- hints ---
+--- hint ---
 Your ChatBot should now also __switch costume__ depending on the answer given.
-{: .hint-content .hint-1 }
-
-### Hint 2
-{: .hint-heading #hint-2 }
+--- /hint ---
+--- hint ---
 Here are the code blocks you'll need to use:
 ![screenshot](images/chatbot-costume-blocks.png)
-{: .hint-content .hint-2 }
-
-### Hint 3
-{: .hint-heading #hint-3 }
+--- /hint ---
+--- hint ---
 Here's how your code should look:
 ![screenshot](images/chatbot-costume-code.png)
-{: .hint-content .hint-3 }
+--- /hint ---
+--- /hints ---
 
 + Have you noticed that your ChatBot's costume stays the same as the last time you spoke to it? Can you fix this problem?
 
@@ -83,16 +76,15 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-costume-fix-test.png)
 
-### Hint 1
-{: .hint-heading #hint-1 }
+--- hints ---
+--- hint ---
 When the __flag is clicked__, your ChatBot should __switch costume__ to a smiling face.
-{: .hint-content .hint-1 }
-
-### Hint 2
-{: .hint-heading #hint-2 }
+--- /hint ---
+--- hint ---
 Here's how your code should look:
 ![screenshot](images/chatbot-costume-fix-code.png)
-{: .hint-content .hint-2 }
+--- /hint ---
+--- /hints ---
 
 ## Challenge: More decisions { .challenge }
 

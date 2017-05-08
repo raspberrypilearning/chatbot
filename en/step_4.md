@@ -8,7 +8,6 @@ Now that you have a ChatBot with a personality, let's program it to talk to you.
 
     ![screenshot](images/chatbot-ask-test.png)
 
-### Hints
 --- hints ---
 --- hint ---
 When the ChatBot__sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "What a lovely name!".
@@ -29,7 +28,6 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-answer-test.png)
 
-### Hints
 --- hints ---
 --- hint ---
 When the ChatBot __sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "Hi", followed by the user's __answer__.
@@ -55,7 +53,6 @@ Here's how your code should look:
 
     ![screenshot](images/chatbot-ask-test.png)
 
-### Hints
 --- hints ---
 --- hint ---
 When the ChatBot__sprite is clicked__, it should __ask__ for your name. You should then __set__ your __name__ variable to the user's __answer__. The ChatBot should then __say__ "Hi", followed by the user's __name__.
