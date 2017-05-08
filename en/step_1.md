@@ -13,5 +13,7 @@ Click the green flag to start the program. When the ChatBot asks a question, typ
 #### What you'll need
 
 -- collapse ---
-Learning objectives here!
++ You'll make use of variables to store the answers given to questions.
++ You'll make use of selection to control how your ChatBot responds to the answers given.
++ You'll make use of repetition to make your ChatBot jump for joy!
 --- /collapse ---
