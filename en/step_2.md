@@ -31,4 +31,4 @@ image: images/image.png
 #### Solution (logged in club leaders only)
 
 + [ChatBot solution online Scratch project](http://scratch.mit.edu/projects/26762091/#editor)
-+ [ChatBot solution offline Scratch project](resources/ChatBot-Solution){:download='ChatBot-Solution.sb2'}
++ [ChatBot solution offline Scratch project](resources/ChatBot-Solution.sb2){:download='ChatBot-Solution.sb2'}
