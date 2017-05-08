@@ -11,21 +11,31 @@ You can also code your chatbot to change its location.
 
 + Can you code your ChatBot to ask "Would you like to go to the moon?" and then change location if the user answers "yes"?
 
-    Test and save: If you answer "yes", your ChatBot should change location. Your ChatBot should stay where it is if any other answer is given.
+    Test and save: If you answer "yes", your ChatBot should change location. Your ChatBot should look sad and say "OK... bye!" if any other answer is given.
 
     ![screenshot](images/chatbot-backdrop-test.png)
 
+	--- collapse ---
+    ---
+    title: Adding a backdrop from the Scratch library
+    image: images/scratch-backdrop.png
+    ---
+    [[[backdrop-from-library]]]
+    --- /collapse ---
+
 ### Hint 1
 {: .hint-heading #hint-1 }
-Your ChatBot should __ask__ the user "Would you like to go to the moon?". __If__ the user's __answer__ is "yes" then your stage __backdrop__ should change.
+Your ChatBot should __ask__ the user "Would you like to go to the moon?". __If__ the user's __answer__ is "yes" then your ChatBot should __change costume__ to look happy and the stage __backdrop__ should change.
 
-You'll also need to add code to start your ChatBot in the right place.
+If the user answers "no", the ChatBot should __change costume__ to look sad and __say__ "OK...bye!"
+
+You'll also need to add code to start your ChatBot in the right place when the __flag is clicked__.
 {: .hint-content .hint-1 }
 
 ### Hint 2
 {: .hint-heading #hint-2 }
 Here are the code blocks you'll need to use:
-![screenshot](images/chatbot-cbackdrop-blocks.png)
+![screenshot](images/chatbot-backdrop-blocks.png)
 {: .hint-content .hint-2 }
 
 ### Hint 3

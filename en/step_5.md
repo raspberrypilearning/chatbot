@@ -1,6 +1,6 @@
 # Step 3: Making decisions
 
-You can program your ChatBot to decide what to do, based on the user's responses.
+You can program your ChatBot to decide what to say or do, based on the user's responses.
 
 + Ask the user another question "Are you OK?", and code your ChatBot to reply "That's great to hear!" only __if__ the user answers "yes".
 
@@ -50,7 +50,11 @@ Here's how your code should look:
 ![screenshot](images/chatbot-if-else-code.png)
 {: .hint-content .hint-3 }
 
-+ You can put any code inside an `if` or `else` block, not just code to make your chatbot speak. Can you change the ChatBot's costume to match the response?
++ You can put any code inside an `if` or `else` block, not just code to make your chatbot speak. If you click your ChatBot's 'costume' tab, you'll see that there is more than one.
+
+    ![screenshot](images/chatbot-costume-view.png)
+
++ Can you change the ChatBot's costume to match the response?
 
     Test and save: You should see your ChatBot's face change, depending on the user's answer.
 
@@ -72,6 +76,25 @@ Here are the code blocks you'll need to use:
 Here's how your code should look:
 ![screenshot](images/chatbot-costume-code.png)
 {: .hint-content .hint-3 }
+
++ Have you noticed that your ChatBot's costume stays the same as the last time you spoke to it? Can you fix this problem?
+
+    ![screenshot](images/chatbot-costume-bug-test.png)
+
+    Test and save: Run your code and type "no", so that your ChatBot looks unhappy. When you run your code again, your ChatBot should change back to a smiling face.
+
+    ![screenshot](images/chatbot-costume-fix-test.png)
+
+### Hint 1
+{: .hint-heading #hint-1 }
+When the __flag is clicked__, your ChatBot should __switch costume__ to a smiling face.
+{: .hint-content .hint-1 }
+
+### Hint 2
+{: .hint-heading #hint-2 }
+Here's how your code should look:
+![screenshot](images/chatbot-costume-fix-code.png)
+{: .hint-content .hint-2 }
 
 ## Challenge: More decisions { .challenge }
 
