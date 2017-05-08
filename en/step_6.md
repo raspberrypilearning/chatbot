@@ -15,13 +15,13 @@ You can also code your chatbot to change its location.
 
     ![screenshot](images/chatbot-backdrop-test.png)
 
-	--- collapse ---
-    ---
-    title: Adding a backdrop from the Scratch library
-    image: images/scratch-backdrop.png
-    ---
-    [[[backdrop-from-library]]]
-    --- /collapse ---
+--- collapse ---
+---
+title: Adding a backdrop from the Scratch library
+image: images/scratch-backdrop.png
+---
+[[[backdrop-from-library]]]
+--- /collapse ---
 
 ### Hint 1
 {: .hint-heading #hint-1 }

@@ -4,6 +4,10 @@ Now that you have a ChatBot with a personality, let's program it to talk to you.
 
 + Add code to your ChatBot so that when it's clicked it asks for your name, and then says "What a lovely name!".
 
+    Test and save: your ChatBot should ask for your name and then tell you what a lovely name you have!
+
+    ![screenshot](images/chatbot-ask-test.png)
+
 ### Hint 1
 {: .hint-heading #hint-1 }
 When the ChatBot__sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "What a lovely name!".
@@ -25,7 +29,7 @@ Here's how your code should look:
 
     Test and save: Your ChatBot should say hello using the user's name.
 
-    ![screenshot](images/chatbot-ask-test.png)
+    ![screenshot](images/chatbot-answer-test.png)
 
 ### Hint 1
 {: .hint-heading #hint-1 }
@@ -74,7 +78,7 @@ Here's how your code should look:
 
 + If you'd rather not see the variables on your stage, you can click the tick next to the variable names in the 'Scripts' tab to hide them.
 
-    ![screenshot](images/chatbot-variable.png)
+    ![screenshot](images/chatbot-variable-hide.png)
 
 ## Challenge: More questions { .challenge }
 
