@@ -13,5 +13,5 @@ Click the green flag to start the program. When the ChatBot asks a question, typ
 #### What you'll need
 
 -- collapse ---
-Learning objectives here...
+Learning objectives here!
 --- /collapse ---
