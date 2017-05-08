@@ -26,7 +26,7 @@ Your ChatBot should __ask__ the user "Would you like to go to the moon?". __If__
 
 If the user answers "no", the ChatBot should __change costume__ to look sad and __say__ "OK...bye!"
 
-You'll also need to add code to start your ChatBot in the right place when the __flag is clicked__.
+You'll also need to add code to start your ChatBot in the right place __when clicked__.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need to use:
