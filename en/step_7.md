@@ -1,4 +1,4 @@
---- chalenge ---
+--- challenge ---
 ## Challenge: Make your own ChatBot
 
 Use what you've learnt to finish creating your interactive ChatBot. Here are some ideas:
