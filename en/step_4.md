@@ -49,7 +49,7 @@ Here's how your code should look:
 title: Creating a new Scratch variable
 image: images/image.png
 ---
-[[[scratch-add-variable]]]
+[[[generic-scratch-add-variable]]]
 --- /collapse ---
 
 + Can you store the user's answer in your `name` variable, and use it in your ChatBot's reply?

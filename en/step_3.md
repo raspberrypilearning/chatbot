@@ -13,7 +13,7 @@
 title: Creating a new Scratch project
 image: images/image.png
 ---
-[[[new-scratch-project]]]
+[[[generic-scratch-new-project]]]
 --- /collapse ---
 
 + Choose one of these character sprites, and add them to your project:
@@ -25,7 +25,7 @@ image: images/image.png
 title: Adding a sprite from the Scratch library
 image: images/image.png
 ---
-[[[add-sprite-from-library]]]
+[[[generic-scratch-sprite-from-library]]]
 --- /collapse ---
 
 + Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
@@ -37,5 +37,5 @@ image: images/image.png
 title: Adding a backdrop from the Scratch library
 image: images/image.png
 ---
-[[[backdrop-from-library]]]
+[[[generic-scratch-backdrop-from-library]]]
 --- /collapse ---

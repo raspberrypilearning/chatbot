@@ -11,7 +11,7 @@ You can also code your chatbot to change its location.
 title: Adding a backdrop from the Scratch library
 image: images/image.png
 ---
-[[[backdrop-from-library]]]
+[[[generic-scratch-backdrop-from-library]]]
 --- /collapse ---
 
 + Can you code your ChatBot to ask "Would you like to go to the moon?" and then change location if the user answers "yes"?
