@@ -8,6 +8,14 @@ Now that you have a ChatBot with a personality, let's program it to talk to you.
 
     ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
+--- collapse ---
+---
+title: Saving a Scratch project
+image: images/image.png
+---
+[[[generic-scratch-saving]]]
+--- /collapse ---
+
 --- hints ---
 --- hint ---
 When the ChatBot __sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "What a lovely name!".
