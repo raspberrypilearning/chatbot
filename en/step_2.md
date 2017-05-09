@@ -13,5 +13,5 @@
 For logged in club leaders only... display a message if not logged in:
     "If you're an educator, please log in to see the solutions."
 
-+ [ChatBot solution online Scratch project](http://scratch.mit.edu/projects/26762091/#editor)
-+ [ChatBot solution offline Scratch project](resources/ChatBot-Solution.sb2){:download='ChatBot-Solution.sb2'}
++ [ChatBot online completed project](http://scratch.mit.edu/projects/26762091/#editor)
++ [ChatBot offline completed project](resources/ChatBot-Finished.sb2){:download='ChatBot-Finished.sb2'}

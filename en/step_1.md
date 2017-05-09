@@ -14,9 +14,9 @@ Click the green flag, and then click the ChatBot to start a conversation. When t
 
 -- collapse ---
 
-+ You'll make use of variables to store the answers given to questions.
-+ You'll make use of selection to control how your ChatBot responds to the answers given.
-+ You'll make use of repetition to make your ChatBot jump for joy!
++ You'll use variables to store the answers given to questions.
++ You'll use selection to control how your ChatBot responds to the answers given.
++ You'll use repetition to make your ChatBot jump for joy!
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
