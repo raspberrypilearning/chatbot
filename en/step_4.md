@@ -80,10 +80,6 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ If you'd rather not see the variables on your stage, you can click the tick next to the variable names in the 'Scripts' tab to hide them.
-
-    ![Hiding a variable](images/chatbot-variable-hide.png)
-
 --- challenge ---
 ## Challenge: More questions
 
