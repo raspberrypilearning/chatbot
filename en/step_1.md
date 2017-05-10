@@ -10,9 +10,11 @@ Click the green flag, and then click the ChatBot to start a conversation. When t
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-#### What you'll learn
-
 --- collapse ---
+---
+title: What you'll learn
+image: images/image.png
+---
 
 + You'll make use of variables to store the answers given to questions.
 + You'll make use of selection to control how your ChatBot responds to the answers given.
