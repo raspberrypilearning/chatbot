@@ -1,22 +1,19 @@
 title: ChatBot
 hero_image: images/banner.png
-subtitle: Not sure one is needed.
 description: Learn how to program your own talking robot!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot
+original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: cc-prototype
-published: false
+duration: 2
+listed: false
+ingredient: false
+copyedit: true
+interests:
+technologies:
 steps:
   - title: Introduction
-    duration: 10
   - title: What you'll need
-    duration: 10
-  - title: Your ChatBot
-    duration: 10
-  - title: A talking ChatBot
-    duration: 10
-  - title: Making decisions
-    duration: 10
-  - title: Changing Location
-    duration: 10
+  - title: 'Step 1: Your ChatBot'
+  - title: 'Step 2: A talking ChatBot'
+  - title: 'Step 3: Making decisions'
+  - title: 'Step 4: Changing Location'
   - title: 'Challenge: Make your own ChatBot'
-    duration: 10
