@@ -7,8 +7,8 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-interests:
-technologies:
+interests: "social"
+technologies: "scratch"
 steps:
   - title: Introduction
   - title: What you'll need
