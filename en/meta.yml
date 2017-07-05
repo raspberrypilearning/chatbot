@@ -6,6 +6,7 @@ theme: cc-prototype
 duration: 2
 listed: false
 ingredient: false
+copyedit: true
 interests:
 technologies:
 steps:
