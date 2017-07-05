@@ -4,17 +4,9 @@ Now that you have a ChatBot with a personality, let's program it to talk to you.
 
 + Add code to your ChatBot so that when it's clicked it asks for your name, and then says "What a lovely name!".
 
-    Test and save: your ChatBot should ask for your name and then tell you what a lovely name you have!
-
     ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
---- collapse ---
----
-title: Saving a Scratch project
-image: images/image.png
----
 [[[generic-scratch-saving]]]
---- /collapse ---
 
 --- hints ---
 --- hint ---
@@ -31,8 +23,6 @@ Here's how your code should look:
 --- /hints ---
 
 + Your ChatBot simply replies "What a lovely name!" every time. Can you personalise your ChatBot's reply, by making use of the user's answer?
-
-    Test and save: Your ChatBot should say hello using the user's name.
 
     ![Testing a personalised reply](images/chatbot-answer-test.png)
 
@@ -52,17 +42,11 @@ Here's how your code should look:
 
 + If you store the user's answer in a variable, then it can be used later. Create a new variable called `name` to store the user's name.
 
---- collapse ---
----
-title: Creating a new Scratch variable
-image: images/image.png
----
 [[[generic-scratch-add-variable]]]
---- /collapse ---
 
 + Can you store the user's answer in your `name` variable, and use it in your ChatBot's reply?
 
-    Save and test: Your code should work as before, saying hello using the user's name.
+    Your code should work as before, saying hello using the user's name.
 
     ![Testing a 'name' variable](images/chatbot-ask-test.png)
 
