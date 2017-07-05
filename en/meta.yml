@@ -6,14 +6,14 @@ theme: cc-prototype
 duration: 2
 listed: false
 ingredient: false
-copyedit: true
+copyedit: false
 interests:
 technologies:
 steps:
   - title: Introduction
   - title: What you'll need
-  - title: 'Step 1: Your ChatBot'
-  - title: 'Step 2: A talking ChatBot'
-  - title: 'Step 3: Making decisions'
-  - title: 'Step 4: Changing Location'
+  - title: 'Your ChatBot'
+  - title: 'A talking ChatBot'
+  - title: 'Making decisions'
+  - title: 'Changing Location'
   - title: 'Challenge: Make your own ChatBot'
