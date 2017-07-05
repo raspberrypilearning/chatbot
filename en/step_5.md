@@ -4,7 +4,7 @@ You can program your ChatBot to decide what to say or do, based on the user's re
 
 + Can you ask the question "Are you OK?", and code your ChatBot to reply "That's great to hear!" only __if__ the user answers "yes".
 
-    Test and save: To test your new code properly, you should test it __twice__, once answering "yes", and once answering "no".
+    To test your new code properly, you should test it __twice__, once answering "yes", and once answering "no".
 
     Your ChatBot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
 
