@@ -22,7 +22,7 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ Your chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
++ Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
 
     ![Testing a personalised reply](images/chatbot-answer-test.png)
 
@@ -40,7 +40,7 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ If you store your answer in a variable, then it can be used later. Create a new variable called `name` to store your name.
++ If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
 
 [[[generic-scratch-add-variable]]]
 
