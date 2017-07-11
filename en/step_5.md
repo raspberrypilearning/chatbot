@@ -8,7 +8,7 @@ You can program your chatbot to decide what to say or do based on your responses
 
     Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
 
-    ![Testing a ChatBot reply](images/chatbot-if-test.png)
+    ![Testing a chatbot reply](images/chatbot-if-test.png)
 
 --- hints ---
 --- hint ---
@@ -16,11 +16,11 @@ After your chatbot has said "Hi", it should now also __ask__ "Are you OK?". __If
 --- /hint ---
 --- hint ---
 Here are the extra code blocks you'll need:
-![Blocks for a ChatBot reply](images/chatbot-if-blocks.png)
+![Blocks for a chatbot reply](images/chatbot-if-blocks.png)
 --- /hint ---
 --- hint ---
 Here's how your code should look:
-![Code for a ChatBot reply](images/chatbot-if-code.png)
+![Code for a chatbot reply](images/chatbot-if-code.png)
 --- /hint ---
 --- /hints ---
 
@@ -46,7 +46,7 @@ Here's how your code should look:
 
 + You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one.
 
-    ![ChstBot costumes](images/chatbot-costume-view.png)
+    ![chatbot costumes](images/chatbot-costume-view.png)
 
 + Can you change the chatbot's costume to match your response?
 
