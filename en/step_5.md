@@ -1,4 +1,4 @@
-## Making decisions
+## Step 3: Making decisions
 
 You can program your chatbot to decide what to say or do based on your responses to its questions.
 
@@ -24,15 +24,15 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ The trouble with your chatbot is that it doesn't reply if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
++ At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
 
-    Test and save: Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the __else__ in an `if/else` block means __otherwise__).
+    Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the __else__ in an `if/else` block means __otherwise__).
 
     ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 --- hints ---
 --- hint ---
-Your chatbot should now say "That's great to hear!" __if__ your answer is "yes", but should say "Oh no!" if you answer with something __else__.
+Your chatbot should now say "That's great to hear!" __if__ your answer is "yes", but should say "Oh no!" if you answer something __else__.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need to use:
@@ -44,13 +44,13 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one.
++ You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
 
     ![chatbot costumes](images/chatbot-costume-view.png)
 
 + Can you change the chatbot's costume to match your response?
 
-    Test and save: You should see your chatbot's face change depending on your answer.
+    Test and save. You should see your chatbot's face change depending on your answer.
 
     ![Testing a changing costume](images/chatbot-costume-test.png)
 
@@ -68,7 +68,7 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ Have you noticed that your chatbot's costume stays the one it changed to the last time you spoke to it? Can you fix this problem?
++ Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
 
     ![Costume bug](images/chatbot-costume-bug-test.png)
 
