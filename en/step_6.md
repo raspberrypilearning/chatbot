@@ -8,7 +8,7 @@ You can also code your chatbot to change its location.
 
 + Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
 
-    Test and save: If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+    Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
 
     ![Testing a changing backdrop](images/chatbot-backdrop-test.png)
 
@@ -16,7 +16,7 @@ You can also code your chatbot to change its location.
 --- hint ---
 Your chatbot should __ask__ "Would you like to go to the moon?". __If__ your __answer__ is "yes", then your chatbot should __change costume__ to look happy and the stage __backdrop__ should change.
 
-If the user answers "no", the chatbot should __change costume__ to look sad and __say__ "OK...bye!"
+If you answer "no", the chatbot should __change costume__ to look sad and __say__ "OK...bye!"
 
 You'll also need to add code to start your chatbot in the right place __when clicked__.
 --- /hint ---
@@ -32,7 +32,7 @@ Here's how your code should look:
 
 + Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
 
-    Test and save: If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+    Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
 
     ![Testing a jumping ChatBot](images/chatbot-jump-test.png)
 
