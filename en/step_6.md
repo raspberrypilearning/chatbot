@@ -1,4 +1,4 @@
-## Step 4: Changing location
+## Changing location
 
 You can also code your chatbot to change its location.
 

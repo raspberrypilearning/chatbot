@@ -1,4 +1,4 @@
-## Step 3: Making decisions
+## Making decisions
 
 You can program your chatbot to decide what to say or do based on your responses to its questions.
 
