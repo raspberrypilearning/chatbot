@@ -1,5 +1,5 @@
 --- challenge ---
-## Challenge: make your own chatbot
+## Challenge: finish your chatbot
 
 Use what you've learnt to finish creating your interactive chatbot. Here are some ideas:
 
