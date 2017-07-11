@@ -4,7 +4,7 @@ You are going to learn how to program your own talking robot!
 
 ### Instructions
 
-Click the green flag, and then click the ChatBot to start a conversation. When the ChatBot asks a question, type your answer into the box at the bottom of the stage and click the tick (or press enter).
+Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
