@@ -1,8 +1,8 @@
-## Step 2: A talking ChatBot
+## Step 2: A talking chatbot
 
-Now that you have a ChatBot with a personality, let's program it to talk to you.
+Now that you have a chatbot with a personality, let's program it to talk to you.
 
-+ Add code to your ChatBot so that when it's clicked it asks for your name, and then says "What a lovely name!".
++ Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
 
     ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
@@ -10,7 +10,7 @@ Now that you have a ChatBot with a personality, let's program it to talk to you.
 
 --- hints ---
 --- hint ---
-When the ChatBot __sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "What a lovely name!".
+When the chatbot __sprite is clicked__, it should __ask__ for your name. The chatbot should then __say__ "What a lovely name!"
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
@@ -22,13 +22,13 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ Your ChatBot simply replies "What a lovely name!" every time. Can you personalise your ChatBot's reply, by making use of the user's answer?
++ Your chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
 
     ![Testing a personalised reply](images/chatbot-answer-test.png)
 
 --- hints ---
 --- hint ---
-When the ChatBot __sprite is clicked__, it should __ask__ for your name. The ChatBot should then __say__ "Hi", followed by the user's __answer__.
+When the chatbot __sprite is clicked__, it should __ask__ for your name. The chatbot should then __say__ "Hi", followed by your __answer__.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
@@ -40,19 +40,19 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ If you store the user's answer in a variable, then it can be used later. Create a new variable called `name` to store the user's name.
++ If you store your answer in a variable, then it can be used later. Create a new variable called `name` to store your name.
 
 [[[generic-scratch-add-variable]]]
 
-+ Can you store the user's answer in your `name` variable, and use it in your ChatBot's reply?
++ Can you store your answer in the `name` variable and use it in your chatbot's reply?
 
-    Your code should work as before, saying hello using the user's name.
+    Your code should work as before: your chatbot should say hello using your name.
 
     ![Testing a 'name' variable](images/chatbot-ask-test.png)
 
 --- hints ---
 --- hint ---
-When the ChatBot __sprite is clicked__, it should __ask__ for your name. You should then __set__ your __name__ variable to the user's __answer__. The ChatBot should then __say__ "Hi", followed by the user's __name__.
+When the chatbot __sprite is clicked__, it should __ask__ for your name. You should then __set__ the `name` variable to your __answer__. The chatbot should then __say__ "Hi", followed by your __name__.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need:
@@ -65,9 +65,9 @@ Here's how your code should look:
 --- /hints ---
 
 --- challenge ---
-## Challenge: More questions
+## Challenge: more questions
 
-Program your chatbot to ask another question. Can you store their answer in a variable?
+Program your chatbot to ask another question. Can you store the answer in a new variable?
 
 ![More questions](images/chatbot-question.png)
 --- /challenge ---
