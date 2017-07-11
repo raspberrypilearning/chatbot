@@ -1,10 +1,10 @@
-## Step 1: Your ChatBot
+## Step 1: Your chatbot
 
 + Before you start making your chatbot, you need to decide on its personality. __Think about__:
 
 	+ What is their name?
 	+ Where do they live?
-	+ Are they happy? serious? funny? shy? friendly?
+	+ Are they happy? Serious? Funny? Shy? Friendly?
 
 + Open a new empty Scratch project.
 
