@@ -1,6 +1,6 @@
 ## Step 1: Your chatbot
 
-+ Before you start making your chatbot, you need to decide on its personality. __Think about__:
++ Before you start making your chatbot, you need to decide on its personality. __Think about the following questions__:
 
 	+ What is their name?
 	+ Where do they live?
