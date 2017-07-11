@@ -2,7 +2,7 @@
 
 ### Hardware
 
-+ Computer capable of running Scratch 2.0.
++ Computer capable of running Scratch 2.0
 
 ### Software
 
