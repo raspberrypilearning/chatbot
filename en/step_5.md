@@ -26,13 +26,13 @@ Here's how your code should look:
 
 + The trouble with your chatbot is that it doesn't reply if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
 
-    Test and save: Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the __else__ in an if/else block means __otherwise__).
+    Test and save: Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the __else__ in an `if/else` block means __otherwise__).
 
     ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 --- hints ---
 --- hint ---
-Your ChatBot should now say "That's great to hear!" __if__ your answer is "yes", but should say "Oh no!" if you answer with something __else__.
+Your chatbot should now say "That's great to hear!" __if__ your answer is "yes", but should say "Oh no!" if you answer with something __else__.
 --- /hint ---
 --- hint ---
 Here are the code blocks you'll need to use:
@@ -44,7 +44,7 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ You can put any code inside an `if` or `else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one.
++ You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one.
 
     ![ChstBot costumes](images/chatbot-costume-view.png)
 
