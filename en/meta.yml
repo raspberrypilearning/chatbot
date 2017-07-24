@@ -1,3 +1,4 @@
+---
 title: Chatbot
 hero_image: images/banner.png
 description: Learn how to program your own talking robot!
@@ -7,14 +8,15 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: true
-interests: "social"
-technology: "scratch"
+interests: social
+technology: scratch
 site_areas: codeclub, scratch
 steps:
-  - title: Introduction
-  - title: What you will need
-  - title: Your chatbot
-  - title: A talking chatbot
-  - title: Making decisions
-  - title: Changing location
-  - title: 'Challenge: finish your chatbot'
+- title: Introduction
+- title: What you will need
+- title: Your chatbot
+- title: A talking chatbot
+- title: Making decisions
+- title: Changing location
+- title: 'Challenge: finish your chatbot'
+
