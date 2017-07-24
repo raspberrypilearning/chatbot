@@ -18,7 +18,7 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ### Additional information for club leaders
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberry-pi.org/en/projects/chatbot/print).
+If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 --- collapse ---
 ---
