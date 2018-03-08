@@ -17,14 +17,14 @@ Una versione completa di questo progetto può essere trovata <a href="http://scr
 ## Obiettivi di apprendimento
 + Entrata del Testo;
 + Decisioni;
-	+ affermazioni `se ... allora` {.blockcontrol};
-	+ affermazioni `se ... allora ... altrimenti` {.blockcontrol};
+	+ affermazioni `se ... allora`{:class="blockcontrol"};
+	+ affermazioni `se ... allora ... altrimenti`{:class="blockcontrol"};
 
 Questo progetto copre elementi contenuti nei seguenti filoni di [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Utilizzo di costrutti di programmazione di base per la creazione di semplici programmi.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## Sfide
-+ "Altre domande" - consolida l'apprendimento dell'entrata e il blocco 'risposta' {.blocksensing};
++ "Altre domande" - consolida l'apprendimento dell'entrata e il blocco `risposta`{:class="blocksensing"};
 + "Altre decisioni" - usa decisioni;
 + "Crea il tuo ChatterBot" - consolida l'apprendimento di questo e dei precedenti progetti;
