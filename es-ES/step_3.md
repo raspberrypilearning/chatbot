@@ -22,19 +22,19 @@ Ahora que ya tienes un robot parlanchín con personalidad, vamos a programarlo p
 		decir <unir [Hola] (respuesta)> por (2) segundos
 	```
 
-	Para crear este último bloque, primero tendrás que seleccionar un bloque verde `unir` {.blockoperators}, y arrastrarlo sobre el bloque `decir` {.blocklooks} .
+	Para crear este último bloque, primero tendrás que seleccionar un bloque verde `unir`{:class="blockoperators"}, y arrastrarlo sobre el bloque `decir`{:class="blocklooks"} .
 
 	![screenshot](images/chatbot-join.png)
 
-	Puedes cambiar el texto `hello` por `Hola`, y arrastrar el bloque azul `respuesta` {.blocksensing} (de la sección 'Sensores') sobre el texto `world`.
+	Puedes cambiar el texto `hello` por `Hola`, y arrastrar el bloque azul `respuesta`{:class="blocksensing"} (de la sección 'Sensores') sobre el texto `world`.
 
 	![screenshot](images/chatbot-answer.png)
 
 + Prueba este nuevo programa. ¿Funciona como esperabas? ¿Puedes solucionar los problemas que ves? (Pista: ¡puedes intentar añadir un espacio en alguna parte!)
 
-+ Puede que quieras guardar el nombre del usuario en una variable, para poder usarlo de nuevo en el futuro. Crea una nueva variable que se llame `nombre` {.blockdata}. Si has olvidado cómo se hace, el proyecto "Globos" puede ayudarte.
++ Puede que quieras guardar el nombre del usuario en una variable, para poder usarlo de nuevo en el futuro. Crea una nueva variable que se llame `nombre`{:class="blockdata"}. Si has olvidado cómo se hace, el proyecto "Globos" puede ayudarte.
 
-+ La información que has escrito ya está almacenada en una variable especial llamada `respuesta` {.blocksensing}. Ve a la sección de bloques Sensores y haz clic en el bloque de respuesta para que aparezca una marca de verificación. El valor actual en `respuesta` {.blocksensing} debería aparecer en la parte superior izquierda del escenario.
++ La información que has escrito ya está almacenada en una variable especial llamada `respuesta`{:class="blocksensing"}. Ve a la sección de bloques Sensores y haz clic en el bloque de respuesta para que aparezca una marca de verificación. El valor actual en `respuesta`{:class="blocksensing"} debería aparecer en la parte superior izquierda del escenario.
 
 + Una vez hayas creado tu nueva variable, asegúrate de que el código de tu robot parlanchín sea como éste:
 
@@ -45,7 +45,7 @@ Ahora que ya tienes un robot parlanchín con personalidad, vamos a programarlo p
 		decir <unir [Hola ] (nombre)> por (2) segundos
 	```
 
-+ Si pruebas el programa una vez más, verás que la respuesta se guarda en la variable `nombre` {.blockdata}, y aparece en la parte superior izquierda del escenario. La variable `nombre` {.blockdata} debería ahora contener el mismo valor que la variable `respuesta` {.blocksensing} .
++ Si pruebas el programa una vez más, verás que la respuesta se guarda en la variable `nombre`{:class="blockdata"}, y aparece en la parte superior izquierda del escenario. La variable `nombre`{:class="blockdata"} debería ahora contener el mismo valor que la variable `respuesta`{:class="blocksensing"} .
 
 	![screenshot](images/chatbot-variable.png)
 
