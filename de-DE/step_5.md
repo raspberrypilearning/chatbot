@@ -25,9 +25,9 @@ Ende
 
 + Ändert sich der Aufenthaltsort des SprechBots, wenn Du `nein` als Antwort eintippst? Was passiert, wenn Du `Ich bin mir nicht sicher` antwortest?
 
-+ Du kannst auch diesen Code in Deinen `wenn` {.blockcontrol}-Block hinzufügen, um Deinen SprechBot vier Mal hoch- und runterspringen zu lassen, wenn die Antwort `ja` lautet:
++ Du kannst auch diesen Code in Deinen `wenn`{:class="blockcontrol"}-Block hinzufügen, um Deinen SprechBot vier Mal hoch- und runterspringen zu lassen, wenn die Antwort `ja` lautet:
 
-	```scratch
+	```blocks
   wiederhole (4) mal
    ändere y um (10)
    warte (0.1) Sek.
