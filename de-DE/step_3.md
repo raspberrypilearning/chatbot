@@ -24,11 +24,11 @@ Jetzt, wo Du einen SprechBot mit einer echten Persönlichkeit hast, lass uns ihm
 
 Um den letzten Block zu erstellen, wirst du zunächst auf den grünen `verbinde`{:class="blockoperators"}-Block klicken und ihn in den `sage`{:class="blocklooks"}-Block ziehen müssen.
 
-	![screenshot](images/chatbot-join.png)
+![screenshot](images/chatbot-join.png)
 
 Du kannst dann den Text `hello` zu, sagen wir mal, `Hallo` ändern, und den hellblauen `Antwort`{:class="blocksensing"}-Block (aus dem Bereich 'Fühlen') in den `world`-Text ziehen.
 
-	![screenshot](images/chatbot-answer.png)
+![screenshot](images/chatbot-answer.png)
 
 + Teste dieses neue Programm. Funktioniert es so, wie Du es erwartet hast? Kannst Du eines der Probleme lösen, die Du entdeckst? (Tipp: Du kannst versuchen irgendwo ein Leerzeichen einzufügen!)
 
