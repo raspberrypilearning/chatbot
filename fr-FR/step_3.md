@@ -22,19 +22,19 @@ Maintenant que vous avez un chatbot avec une personnalité, programmons-le pour 
 		dire <regroupe [Salut] (Réponse)> pendant (2) secondes
 	```
 
-	Pour créer le dernier bloc, vous devrez ajouter un bloc vert `regroupe` {.blockoperators} et déplacer celui-ci sur le bloc `dire` {.blocklooks}.
+	Pour créer le dernier bloc, vous devrez ajouter un bloc vert `regroupe`{:class="blockoperators"} et déplacer celui-ci sur le bloc `dire`{:class="blocklooks"}.
 
 	![screenshot](images/chatbot-join.png)
 
-	Vous pouvez alors changer le texte `bonjour` et dire `salut`, et puis déplacer le bloc bleu clair `réponse` {.blocksensing} ( dans la section 'capteur') sur le texte `Monde`.
+	Vous pouvez alors changer le texte `bonjour` et dire `salut`, et puis déplacer le bloc bleu clair `réponse`{:class="blocksensing"} ( dans la section 'capteur') sur le texte `Monde`.
 
 	![screenshot](images/chatbot-answer.png)
 
 + Testez ce nouveau programme. Est-ce qu'il marche comme vous le voulez ? Pouvez-vous réparer les problèmes que vous pouvez voir ? (PS: vous pouvez essayer d'ajouter un espace quelque part !)
 
-+ Peut-être que vous voulez stocker le nom de l'utilisateur dans une variable pour que vous puissiez l'utiliser de nouveau plus tard. Créez une nouvelle variable appelée `nom` {.blockdata}. Si vous avez oublié comment faire ceci, le projet 'Ballons' vous aidera.
++ Peut-être que vous voulez stocker le nom de l'utilisateur dans une variable pour que vous puissiez l'utiliser de nouveau plus tard. Créez une nouvelle variable appelée `nom`{:class="blockdata"}. Si vous avez oublié comment faire ceci, le projet 'Ballons' vous aidera.
 
-+ Les informations que vous avez entrées sont déjà stockées dans une variable spéciale appelée `réponse` {.blocksensing}. Allez dans le groupe de blocs 'capteur' et cliquez sur le bloc de réponse pour qu'une case cochante apparaisse. La valeur actuelle dans `réponse` {.blocksensing} devrait alors s'afficher en haut à gauche de l'étape.
++ Les informations que vous avez entrées sont déjà stockées dans une variable spéciale appelée `réponse`{:class="blocksensing"}. Allez dans le groupe de blocs 'capteur' et cliquez sur le bloc de réponse pour qu'une case cochante apparaisse. La valeur actuelle dans `réponse`{:class="blocksensing"} devrait alors s'afficher en haut à gauche de l'étape.
 
 + Une fois que vous avez créé votre nouvelle variable, assurez-vous que le code de votre chatbot ressemble à ceci :
 
@@ -45,7 +45,7 @@ Maintenant que vous avez un chatbot avec une personnalité, programmons-le pour 
 		dire <regroupe [Salut] (nom)> pendant (2) secondes
 	```
 
-+ Si vous testez votre programme de nouveau, vous remarquerez que la réponse est stockée dans le `nom` {.blockdata} en montrant la variable en haut à gauche de l'étape. La variable `nom` {.blockdata} devrait maintenant contenir la même valeur que la variable `réponse` {.blocksensing}.
++ Si vous testez votre programme de nouveau, vous remarquerez que la réponse est stockée dans le `nom`{:class="blockdata"} en montrant la variable en haut à gauche de l'étape. La variable `nom`{:class="blockdata"} devrait maintenant contenir la même valeur que la variable `réponse`{:class="blocksensing"}.
 
 	![screenshot](images/chatbot-variable.png)
 
