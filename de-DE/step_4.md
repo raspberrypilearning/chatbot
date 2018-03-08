@@ -17,9 +17,9 @@ Du kannst Deinen SprechBot so programmieren, dass er eine Entscheidung basierend
 
 	Bemerke, dass jetzt, wo Du den Namen des Nutzers in einer Variablen gespeichert hast, Du ihn sooft verwenden kannst, wie Du möchtest!
 
-+ Um das Spiel korrekt zu testen, müsstest Du es zwei Mal spielen - ein Mal, wo Du als Antwort `nein` eingibst und ein Mal, wo Deine Antwort `ja` lautet. Du solltest nur dann eine Antwort vom SprechBot erhalten, `wenn` {.blockcontrol} die Antwort `ja` ist.
++ Um das Spiel korrekt zu testen, müsstest Du es zwei Mal spielen - ein Mal, wo Du als Antwort `nein` eingibst und ein Mal, wo Deine Antwort `ja` lautet. Du solltest nur dann eine Antwort vom SprechBot erhalten, `wenn`{:class="blockcontrol"} die Antwort `ja` ist.
 
-+ Das Problem mir Deinem SprechBot ist, dass er nicht antwortet, wenn der Nutzer `nein` sagt. Du kannst das Problem schnell lösen, indem Du den `wenn` {.blockcontrol}-Block zu einem `wenn/sonst` {.blockcontrol}-Block änderst, so dass der Code folgendermaßen aussieht:
++ Das Problem mir Deinem SprechBot ist, dass er nicht antwortet, wenn der Nutzer `nein` sagt. Du kannst das Problem schnell lösen, indem Du den `wenn`{:class="blockcontrol"}-Block zu einem `wenn/sonst`{:class="blockcontrol"}-Block änderst, so dass der Code folgendermaßen aussieht:
 
 	```blocks
 		Wenn ich angeklickt werde
@@ -38,7 +38,7 @@ Du kannst Deinen SprechBot so programmieren, dass er eine Entscheidung basierend
 
 	![screenshot](images/chatbot-else.png)
 
-+ Du kannst zu jeder Art von Code einen `wenn` {.blockcontrol}- oder `sonst` {.blockcontrol}-Block einfügen, nicht nur zum Code, der Deinen Roboter zum Sprechen bringt. Du könntest beispielsweise das Kostüm bzw. den Ausdruck des SprechBots passend zu der Antwort wechseln.
++ Du kannst zu jeder Art von Code einen `wenn`{:class="blockcontrol"}- oder `sonst`{:class="blockcontrol"}-Block einfügen, nicht nur zum Code, der Deinen Roboter zum Sprechen bringt. Du könntest beispielsweise das Kostüm bzw. den Ausdruck des SprechBots passend zu der Antwort wechseln.
 
 	Wenn Du Dir die Kostüme Deines SprechBots anschaust, sieht Du, dass es mehr als eins gibt. (Wenn nicht, kannst Du jederzeit selbst welche hinzufügen!)
 
