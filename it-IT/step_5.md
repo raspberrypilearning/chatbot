@@ -25,7 +25,7 @@ Puoi anche programmare il tuo chatterbot a cambiare la sua posizione.
 
 + Il tuo chatterbot cambia posizione se digiti 'no'? Che succede se digiti 'non lo so'?
 
-+ Puoi anche aggiungere questo codice dentro il blocco 'se' {.blockcontrol}, per far saltare il tuo chatterbot su e giù per 4 volte se la risposta è 'sì':
++ Puoi anche aggiungere questo codice dentro il blocco `se`{:class="blockcontrol"}, per far saltare il tuo chatterbot su e giù per 4 volte se la risposta è 'sì':
 
 	```blocks
 	ripeti (4) volte
