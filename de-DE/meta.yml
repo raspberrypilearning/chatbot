@@ -1,0 +1,21 @@
+---
+title: SprechBot
+hero_image: images/chatbot.png
+description: In diesem Projekt wirst Du lernen, wie Du Deinen eigenen sprechenden Roboter programmieren kannst!
+original_url: https://projects.raspberrypi.org/en/projects/chatbot
+theme: violet
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+interests: social
+technology: scratch
+site_areas: codeclub, scratch
+steps:
+- title: Einführung
+- title: Dein SprechBot
+- title: Ein sprechender Roboter
+- title: Entscheidungen treffen
+- title: Ort ändern
+- title: "Herausforderung: Mache Deinen eigenen SprechBot"
+
