@@ -17,10 +17,10 @@ Vous pouvez trouver une version complétée de ce projet <a href="http://scratch
 ## Objectifs d'apprentissage
 + Text input;
 + Decisions:
-	+ `si ... alors` {.blockcontrol} statements;
-	+ `si ... alors ... sinon` {.blockcontrol} statements.
+	+ `si ... alors`{:class="blockcontrol"} statements;
+	+ `si ... alors ... sinon`{:class="blockcontrol"} statements.
 
 ## Défis
-+ "Plus de questions" - consolidant l'apprentissage de saisie et 'réponse' {.blocksensing} bloc;
++ "Plus de questions" - consolidant l'apprentissage de saisie et `réponse`{:class="blocksensing"} bloc;
 + "Plus de décisions" - utilisation de décisions;
 + "Faites votre propre chatbot" - la consolidation d'apprentissage et des projets passés.
