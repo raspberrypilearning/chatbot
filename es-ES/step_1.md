@@ -17,10 +17,10 @@ La versión completa de este proyecto se puede encontrar <a href="http://scratch
 ## Objetivos de aprendizaje
 + Entrada de texto;
 + Decisiones:
-	+ instrucciones `si ... entonces` {.blockcontrol};
-	+ instrucciones `si ... entonces ... si no` {.blockcontrol}.
+	+ instrucciones `si ... entonces`{:class="blockcontrol"};
+	+ instrucciones `si ... entonces ... si no`{:class="blockcontrol"}.
 
 ## Desafíos
-+ "Más preguntas " – consolidar el aprendizaje de las entradas y del bloque `respuesta` {.blocksensing};
++ "Más preguntas " – consolidar el aprendizaje de las entradas y del bloque `respuesta`{:class="blocksensing"};
 + "Más decisiones" – usar decisiones;
 + "Crea tu propio robot parlanchín " – consolidar el aprendizaje de éste y de proyectos anteriores.
