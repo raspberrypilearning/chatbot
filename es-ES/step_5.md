@@ -25,9 +25,9 @@ También puedes programar a tu robot parlanchín para que cambie su ubicación.
 
 + ¿Cambia de ubicación tu robot parlanchín si escribes `no`? ¿Y qué pasa si escribes `No estoy seguro`?
 
-+ También puedes agregar este código dentro de tu bloque `si` {.blockcontrol}, para hacer que tu robot parlanchín salte 4 veces si la respuesta es `sí`:
++ También puedes agregar este código dentro de tu bloque `si`{:class="blockcontrol"}, para hacer que tu robot parlanchín salte 4 veces si la respuesta es `sí`:
 
-	```scratch
+	```blocks
 	repetir (4)
 		cambiar y por (10)
 		esperar (0.1) segundos
