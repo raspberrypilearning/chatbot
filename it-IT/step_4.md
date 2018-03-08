@@ -17,9 +17,9 @@ Puoi programmare il tuo chatterbot a decidere cosa fare, a seconda delle rispost
 
 	Nota che hai ora salvato il nome dell'utente in una variabile, e puoi usarlo ogni volta che vorrai.
 
-+ Per testare correttamente questo programma, dovrai provarlo due volte - una volta digitando 'no' come risposta, e un'altra volta digitando 'sì'. Otterrai una reazione dal tuo chatterbot `se` {.blockcontrol} rispondi 'sì'.
++ Per testare correttamente questo programma, dovrai provarlo due volte - una volta digitando 'no' come risposta, e un'altra volta digitando 'sì'. Otterrai una reazione dal tuo chatterbot `se`{:class="blockcontrol"} rispondi 'sì'.
 
-+ Il problema del chatterbot è che non dà una risposta se l'utente risponde 'no'. Puoi risolvere questo problema cambiando il blocco 'se' {.blockcontrol} a un blocco `se/altrimenti` {.blockcontrol}, in modo che il tuo codice adesso sia così:
++ Il problema del chatterbot è che non dà una risposta se l'utente risponde 'no'. Puoi risolvere questo problema cambiando il blocco `se`{:class="blockcontrol"} a un blocco `se/altrimenti`{:class="blockcontrol"}, in modo che il tuo codice adesso sia così:
 
 	```blocks
 		quando si clicca questo sprite
@@ -34,11 +34,11 @@ Puoi programmare il tuo chatterbot a decidere cosa fare, a seconda delle rispost
 		end
 	```
 
-+ Se provi il tuo codice, vedrai che avrai una reazione quando rispondi 'sì' o 'no'. Il tuo chatterbot risponderà 'Mi fa piacere!' quando tu rispondi 'sì', ma risponderà 'Oh no!' se digiti qualsiasi altra risposta (`altrimenti` {.blockcontrol} significa 'diversamente').
++ Se provi il tuo codice, vedrai che avrai una reazione quando rispondi 'sì' o 'no'. Il tuo chatterbot risponderà 'Mi fa piacere!' quando tu rispondi 'sì', ma risponderà 'Oh no!' se digiti qualsiasi altra risposta (`altrimenti`{:class="blockcontrol"} significa 'diversamente').
 
 	![screenshot](images/chatbot-else.png)
 
-+ Dentro un blocco `se` {.blockcontrol} o `altrimenti` {.blockcontrol} puoi mettere qualsiasi codice, e non solo il codice che fa parlare il tuo chatterbot. Per esempio, puoi cambiare il costume del chatterbot er farlo combaciare con la risposta.
++ Dentro un blocco `se`{:class="blockcontrol"} o `altrimenti`{:class="blockcontrol"} puoi mettere qualsiasi codice, e non solo il codice che fa parlare il tuo chatterbot. Per esempio, puoi cambiare il costume del chatterbot er farlo combaciare con la risposta.
 
 	Se dai un'occhiata agli costummi del chatterbot, noterai che ce ne sono più di uno. (Se non ci sono, puoi sempre aggiungerli tu!)
 
