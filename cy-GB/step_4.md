@@ -19,7 +19,7 @@ Mae modd rhaglenni dy SgwrsBot i ddewis beth i wneud, yn ddibynol ar ymateb y de
 
 + I brofi y rhaglen yma yn iawn, bydd angen i ti ei brofi ddwywaith - unwaith yn teipio 'nac ydw' fel dy ateb, ac unwaith yn teipio 'ydw'.  Fe ddyle ti ond gael ateb gan dy Sgwrsbot 'os' wyt ti'n ateb 'ydw'.
 
-+ Y broblem gyda dy SgwrsBot yw nad yw e'n ateb os yw'r defnyddiwr yn ateb 'nac ydw'.  Mae modd trwsio hyn trwy newid y bloc {.blockcontrol} 'os' i floc 'os/wedyn' {.blockcontrol}, fel bod dy gôd yn edrych fel hyn:
++ Y broblem gyda dy SgwrsBot yw nad yw e'n ateb os yw'r defnyddiwr yn ateb 'nac ydw'.  Mae modd trwsio hyn trwy newid y bloc `os`{:class="blockcontrol"} i floc `os/wedyn`{:class="blockcontrol"}, fel bod dy gôd yn edrych fel hyn:
 
 	```blocks
 		pan caiff y cymeriad ei glicio
@@ -34,11 +34,11 @@ Mae modd rhaglenni dy SgwrsBot i ddewis beth i wneud, yn ddibynol ar ymateb y de
 		end
 	```
 
-+ Os wyt ti'n profi dy gôd, fe wnei di nawr weld dy fod yn cal ymateb pan wyt ti'n ateb 'ie' neu 'na'.  Os yw dy sgwrsbot yn ymateb gyda 'Mae hynny'n wych i glywed!' pan wyt ti'n ateb 'ie', ond yn ymateb gyda 'O na!' os wyt ti'n teipio unrhywbeth heblaw 'ie' (`else` {.blockcontrol} means 'otherwise').
++ Os wyt ti'n profi dy gôd, fe wnei di nawr weld dy fod yn cal ymateb pan wyt ti'n ateb 'ie' neu 'na'.  Os yw dy sgwrsbot yn ymateb gyda 'Mae hynny'n wych i glywed!' pan wyt ti'n ateb 'ie', ond yn ymateb gyda 'O na!' os wyt ti'n teipio unrhywbeth heblaw 'ie' (`else`{:class="blockcontrol"} means 'otherwise').
 
 	![screenshot](images/chatbot-else.png)
 
-+ Mae modd i ti roi unrhyw côd yn y bloc 'os' {.blockcontrol}  neu 'arall' {.blockcontrol}, nid dim ond y côd sy'n gwneud i dy Sgwrsbot siarad. Er enghraifft, mae modd i ti newid gwisg y SgwrsBot i fod yr un peth â'r ymateb.
++ Mae modd i ti roi unrhyw côd yn y bloc `os`{:class="blockcontrol"}  neu `arall`{:class="blockcontrol"}, nid dim ond y côd sy'n gwneud i dy Sgwrsbot siarad. Er enghraifft, mae modd i ti newid gwisg y SgwrsBot i fod yr un peth â'r ymateb.
 
 	Os wyt ti'n edrych ar wisgoedd y SgwrsBot, mae'n bosib y byddi di'n gweld bod mwy nag un. (Os na, mae modd i ti ychwanegu mwy dy hunan!)
 
