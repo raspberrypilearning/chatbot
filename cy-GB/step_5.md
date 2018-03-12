@@ -25,7 +25,7 @@ Mae modd i ti hefyd raglenni dy SgwrsBot i newid lleoliad.
 
 + Ydy dy SgwrsBot yn newid lleoliad os wyt ti'n teipio 'na'? Beth am os wyt ti'n teipio 'Dwi ddim yn siwr'?
 
-+ Mae modd i ti hefyd ychwanegu y côd yma yn dy floc 'os' {.blockcontrol} i wneud i dy SgwrsBot yn neidio fyny ac i lawr 4 o weithiau os mai 'ie' yw'r ateb:
++ Mae modd i ti hefyd ychwanegu y côd yma yn dy floc `os`{:class="blockcontrol"} i wneud i dy SgwrsBot yn neidio fyny ac i lawr 4 o weithiau os mai 'ie' yw'r ateb:
 
 	```blocks
 	ailwna (4)
