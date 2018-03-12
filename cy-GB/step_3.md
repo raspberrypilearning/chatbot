@@ -4,11 +4,7 @@ Nawr bod gen ti SgwrsBot sydd â phersonoliaeth, awn ni ati nesaf i raglenni'r S
 
 + Clicia giplun dy SgwrsBot, ac ychwanega y côd yma:
 
-	```blocks
-		pan caiff y cymeriad ei glicio
-		gofyn [Helo! Beth yw dy enw?] ac aros
-		dweud [Am enw hyfryd!] am (2) eiliad
-	```
+	![screenshot](images/screenshot1.png)
 
 + Clicia ar dy sgwrsbot i'w brofi.  Ar ôl i ti ofyn ei enw, teipia fe mewn i'r bocs ar hyd gwaelod y llwyfan.
 
@@ -16,11 +12,8 @@ Nawr bod gen ti SgwrsBot sydd â phersonoliaeth, awn ni ati nesaf i raglenni'r S
 
 + Mae eich sgwrsbot yn ateb 'Am enw hyfryd!' bob tro.  Mae modd personoleiddio ymateb y sgwrsbot, wrth ddefnyddio ateb y defnyddiwr.  Newida gôd y sgwrsbot, fel ei fod yn edrych fel hyn:
 
-	```blocks
-		pan caiff y cymeriad ei glicio
-		gofyn [Helo! Beth yw dy enw?] ac aros
-		dweud <uno [Helo] (ateb)> am (2) eiliad
-	```
+  ![screenshot](images/screenshot2.png)
+
 	I greu y bloc olaf, bydd angen yn gyntaf llusgo y bloc gwyrdd `uno`{:class="blockoperators"}, a'i lusgo ar y bloc `dweud`{:class="blocklooks"}.
 
 	![screenshot](images/chatbot-join.png)
@@ -38,12 +31,7 @@ Nawr bod gen ti SgwrsBot sydd â phersonoliaeth, awn ni ati nesaf i raglenni'r S
 
 + Unwaith dy fod di wedi creu y newidyn newydd, gwna yn siwr bod côd dy SgwrsBot yn edrych fel hyn:
 
-	```blocks
-		pan caiff y cymeriad ei glicio
-		gofyn [Helo! Beth yw dy enw?] ac aros
-		gosod [enw v] i (ateb)
-		dweud <uno [Helo] (enw)> am (2) eiliad
-	```
+  ![screenshot](images/screenshot3.png)
 
 + Os wyt ti'n profi dy raglen eto, fe fyddi di'n sylwi bod yr ateb yn cael ei arbed yn y newidyn `enw`{:class="blockdata"}, ac yn ymddangos ar ochr top-chwith y llwyfan.  Fe ddylai'r newidyn `enw`{:class="blockdata"} nawr ond gynnwys yr un gwerth â'r newidyn' `ateb`{:class="blocksensing"}.
 
