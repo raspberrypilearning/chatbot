@@ -4,16 +4,7 @@ Mae modd rhaglenni dy SgwrsBot i ddewis beth i wneud, yn ddibynol ar ymateb y de
 
 + Awn ati i wneud i dy SgwrsBot ofyn cwestiwn i'r defnyddiwr sydd ag ateb 'ydw' neu 'nac ydw'. Dyma enghraifft, ond mae modd i ti hefyd newid y cwestiwn:
 
-	```blocks
-		pan caiff y cymeriad ei glicio
-		gofyn [Helo! Beth yw dy enw?] ac aros
-		gosod [enw v] i (ateb)
-		dweud <uno [Helo] (enw)> am (2) eiliad
-		gofyn <uno [Wyt ti'n iawn] (enw)> ac aros
-		os ((ateb) = [ydw]) wedyn
-   		dweud [Mae'n dda i glywed!] am (2) eiliad
-		end
-	```
+	![screenshot](images/screenshot4.png)
 
 	Sylwa nawr dy fod di wedi arbed dy enw defnyddiwr fel amrywiad, mae modd i ti ei ddefnyddio cymaint a hoffet ti.
 
@@ -21,18 +12,7 @@ Mae modd rhaglenni dy SgwrsBot i ddewis beth i wneud, yn ddibynol ar ymateb y de
 
 + Y broblem gyda dy SgwrsBot yw nad yw e'n ateb os yw'r defnyddiwr yn ateb 'nac ydw'.  Mae modd trwsio hyn trwy newid y bloc `os`{:class="blockcontrol"} i floc `os/wedyn`{:class="blockcontrol"}, fel bod dy gôd yn edrych fel hyn:
 
-	```blocks
-		pan caiff y cymeriad ei glicio
-		gofyn [Helo! Beth yw dy enw?] ac aros
-		gosod [enw v] i (ateb)
-		dweud <uno [Helo] (enw)> am (2) eiliad
-		gofyn <uno [Wyt ti'n iawn?] (name)> ac aros
-		os ((ateb) = [ydw]) wedyn
-		dweud [Mae'n dda i glywed!] am (2) eiliad
-			fel arall
-   		dweud [O na!] am (2) eiliad
-		end
-	```
+	![screenshot](images/screenshot5.png)
 
 + Os wyt ti'n profi dy gôd, fe wnei di nawr weld dy fod yn cal ymateb pan wyt ti'n ateb 'ie' neu 'na'.  Os yw dy sgwrsbot yn ymateb gyda 'Mae hynny'n wych i glywed!' pan wyt ti'n ateb 'ie', ond yn ymateb gyda 'O na!' os wyt ti'n teipio unrhywbeth heblaw 'ie' (`else`{:class="blockcontrol"} means 'otherwise').
 
