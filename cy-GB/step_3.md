@@ -21,20 +21,20 @@ Nawr bod gen ti SgwrsBot sydd â phersonoliaeth, awn ni ati nesaf i raglenni'r S
 		gofyn [Helo! Beth yw dy enw?] ac aros
 		dweud <uno [Helo] (ateb)> am (2) eiliad
 	```
-	I greu y bloc olaf, bydd angen yn gyntaf llusgo y bloc gwyrdd 'uno' {.blockoperators}, a'i lusgo ar y bloc 'dweud' {.blocklooks}.
+	I greu y bloc olaf, bydd angen yn gyntaf llusgo y bloc gwyrdd `uno`{:class="blockoperators"}, a'i lusgo ar y bloc `dweud`{:class="blocklooks"}.
 
 	![screenshot](images/chatbot-join.png)
 
-	Mae modd wedyn newid y testun 'Hello' i ddweud 'Helo', a llusgo y bloc glas golau 'ateb' {.blocksensing} (o'r adran 'Synhwyro') ar y testun 'world'.
+	Mae modd wedyn newid y testun 'Hello' i ddweud 'Helo', a llusgo y bloc glas golau `ateb`{:class="blocksensing"} (o'r adran 'Synhwyro') ar y testun 'world'.
 
 	![screenshot](images/chatbot-answer.png)
 
 + Profa y rhaglen newydd yma.  Ydy e'n gweithio fel roeddet ti'n disgwyl? Wyt ti'n gallu trwsio unrhyw broblemau wyt ti'n gallu gweld? (Awgrym: beth am drio ychwanegu bwlch yn rhywle!)
 
-+ Mae'n bosib dy fod di eisiau storio enw'r defnyddiwr fel amrywiad, fel dy fod yn gallu ei ddefnyddio eto.  Cer ati i greu amrywiad newydd 'enw' {.blockdata}.  Os wyt ti wedi anghofio sut i wneud hyn, bydd y prosiect 'Ghostbusters' yn gallu dy helpu.
++ Mae'n bosib dy fod di eisiau storio enw'r defnyddiwr fel amrywiad, fel dy fod yn gallu ei ddefnyddio eto.  Cer ati i greu amrywiad newydd `enw`{:class="blockdata"}.  Os wyt ti wedi anghofio sut i wneud hyn, bydd y prosiect 'Ghostbusters' yn gallu dy helpu.
 
 
-+ Mae'r wybodaeth rwyt ti wedi ei roi i mewn wedi cael ei arbed fel newidyn o'r enw 'ateb' {.blocksensing}. Cer i'r grŵp o flociau Synhwyro a chlicia y bloc ateb fel bod tic yn ymddangos.  Fe ddylai gwerth presennol 'ateb' {.blocksensing} ymddangos ar ochr top chwith y llwyfan.
++ Mae'r wybodaeth rwyt ti wedi ei roi i mewn wedi cael ei arbed fel newidyn o'r enw `ateb`{:class="blocksensing"}. Cer i'r grŵp o flociau Synhwyro a chlicia y bloc ateb fel bod tic yn ymddangos.  Fe ddylai gwerth presennol `ateb`{:class="blocksensing"} ymddangos ar ochr top chwith y llwyfan.
 
 + Unwaith dy fod di wedi creu y newidyn newydd, gwna yn siwr bod côd dy SgwrsBot yn edrych fel hyn:
 
@@ -45,7 +45,7 @@ Nawr bod gen ti SgwrsBot sydd â phersonoliaeth, awn ni ati nesaf i raglenni'r S
 		dweud <uno [Helo] (enw)> am (2) eiliad
 	```
 
-+ Os wyt ti'n profi dy raglen eto, fe fyddi di'n sylwi bod yr ateb yn cael ei arbed yn y newidyn 'enw' {.blockdata}, ac yn ymddangos ar ochr top-chwith y llwyfan.  Fe ddylai'r newidyn 'enw' {.blockdata} nawr ond gynnwys yr un gwerth â'r newidyn' 'ateb' {.blocksensing}.
++ Os wyt ti'n profi dy raglen eto, fe fyddi di'n sylwi bod yr ateb yn cael ei arbed yn y newidyn `enw`{:class="blockdata"}, ac yn ymddangos ar ochr top-chwith y llwyfan.  Fe ddylai'r newidyn `enw`{:class="blockdata"} nawr ond gynnwys yr un gwerth â'r newidyn' `ateb`{:class="blocksensing"}.
 
 	![screenshot](images/chatbot-variable.png)
 
