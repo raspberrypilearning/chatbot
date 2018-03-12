@@ -17,14 +17,14 @@ Mae modd gweld y prosiect wedi ei gwblhau yma <a href="http://scratch.mit.edu/pr
 ## Nodau Dysgu
 + Mewnbynu testun;
 + Penderfyniadau:
-	+ datganiadau `os ... wedyn` {.blockcontrol};
-	+ datganiadau `os ... wedyn ... fel arall` {.blockcontrol}.
+	+ datganiadau `os ... wedyn`{:class="blockcontrol"};
+	+ datganiadau `os ... wedyn ... fel arall`{:class="blockcontrol"}.
 
 Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llafur Gwneud Digidol Raspberry Pi](http://rpf.io/curriculum):
 
 + [Defnyddio cystrawen iaith raglennu sylfaenol i greu rhaglenni syml.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## Heriau
-+ "Mwy o gwestiynau" - atgyfnerthu dysgu mewnbynu a'r 'ateb' {.blocksensing} block;
++ "Mwy o gwestiynau" - atgyfnerthu dysgu mewnbynu a'r `ateb`{:class="blocksensing"} block;
 + "Mwy o benderfyniadau" - defnyddio penderfyniadau;
 + "Creu SgwrsBot dy hunan" - atgyfnerthu dysgu o hyn a phrosiectau'r gorffennol. 
