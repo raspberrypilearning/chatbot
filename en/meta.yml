@@ -8,11 +8,16 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: builder, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: social
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: ''
 technology: scratch
-site_areas: codeclub, scratch
-steps:
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps: 
 - title: Introduction
 - title: What you will need
 - title: Your chatbot
@@ -20,4 +25,3 @@ steps:
 - title: Making decisions
 - title: Changing location
 - title: 'Challenge: finish your chatbot'
-

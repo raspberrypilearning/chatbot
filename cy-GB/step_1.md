@@ -7,6 +7,11 @@ Rwyt ti mynd i ddysgu sut i raglenni robot dy hunan sydd yn siarad!
   <img src="images/chatbot-final.png">
 </div>
 
+--- collapse ---
+---
+title: Nodiadau i Wirfoddolwyr
+---
+
 ## Adnoddau
 Ar gyfer y prosiect yma, dylid defnyddio Scratch 2.  Mae modd defnyddio Scratch 2 arlein yma [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) neu mae modd ei lawrlwytho yma [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) a'i ddefnyddio heb gysylltiad gwe.
 
@@ -28,3 +33,5 @@ Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llaf
 + "Mwy o gwestiynau" - atgyfnerthu dysgu mewnbynu a'r `ateb`{:class="blocksensing"} block;
 + "Mwy o benderfyniadau" - defnyddio penderfyniadau;
 + "Creu SgwrsBot dy hunan" - atgyfnerthu dysgu o hyn a phrosiectau'r gorffennol. 
+
+--- /collapse ---
