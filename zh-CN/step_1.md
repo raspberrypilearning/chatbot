@@ -47,7 +47,7 @@ title: 俱乐部领导备注
 + [使用基本编程结构创建简单程序。](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## 挑战
-+ “更多问题” - 巩固输入及`answer`（回答）{:class="blocksensing"} 代码块的学习；
++ “更多问题” - 巩固输入及`answer`{:class="blocksensing"}（回答 代码块的学习；
 + “更多判定” - 运用判定；
 + “制作你自己的聊天机器人” - 巩固从本项目和以往项目所学的内容。
 
