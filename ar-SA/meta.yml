@@ -1,0 +1,34 @@
+---
+title: روبوت الدردشة
+hero_image: images/chatbot.png
+description: تعلَّم كيفية برمجة روبوتك المُحاوِر!
+original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
+theme: violet
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: ''
+technology: scratch
+site_areas: codeclub, scratch
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: المقدمة
+  - 
+    title: ما ستحتاج إليه
+  - 
+    title: روبوتك
+  - 
+    title: روبوت مُحاوِر
+  - 
+    title: صناعة القرارات
+  - 
+    title: تغيير المكان
+  - 
+    title: 'التحدي: إكمال إنشاء روبوتك'
