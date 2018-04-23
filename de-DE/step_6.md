@@ -1,27 +1,27 @@
-## Changing location
+## Ortswechsel
 
-You can also code your chatbot to change its location.
+Du kannst deinen Chatbot auch programmieren, seinen Standort zu wechseln.
 
-+ Add another backdrop to your Stage, for example the 'moon' backdrop.
++ Füge deiner Bühne ein neues Bühnenbild hinzu, z. B. das Mond- ("moon"-) Bild.
     
     ![Adding a 'moon' backdrop](images/chatbot-moon.png)
 
-+ Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
++ Kannst Du deinen Chatbot programmieren zu fragen: "Würdest du gerne zum Mond fliegen?" und dann den Standort ändern, wenn die Antwort "Ja" ist?
     
-    Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+    Testen und speichern. Wenn Du "Ja" antwortest, sollte dein Chatbot den Standort wechseln. Er sollte ein trauriges Gesicht machen und "OK... Tschüss!" sagen, wenn irgendeine andere Antwort gegeben wird.
     
     ![Testing a changing backdrop](images/chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+\--- hints \--- \--- hint \--- Dein Chatbot sollte **fragen** "Würdest Du gerne zum Mond fliegen?". **Falls** deine **Antwort** "ja" lautet, sollte dein Chatbot sein **Kostüm ändern** und ein fröhliches Gesicht machen und das **Bühnenbild** sollte wechseln.
 
-If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
+Wenn Du mit "nein" antwortest, sollte der Chatbot das **Kostüm wechseln **, traurig aussehen und ** sagen: ** "OK... Tschüss!"
 
-You'll also need to add code to start your chatbot in the right place **when clicked**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
+Du musst auch Code hinzufügen, damit dein Chatbot am richtigen Ort gestartet wird, **wenn die grüne Fahne angeklickt** wird. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
 
-+ Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
++ Kannst Du Code hinzufügen, der deinen Chatbot vor Freude in die Luft springen lässt, wenn Du ihm sagst, dass Du zum Mond fliegen möchtest?
     
-    Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+    Testen und speichern. Wenn Du "Ja" antwortest, sollte dein Chatbot auf und ab hüpfen. Er sollte nicht hüpfen, wenn irgendeine andere Antwort gegeben wird.
     
     ![Testing a jumping ChatBot](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should jump by **changing** its **y position** by a small amount, and then changing its position back after a short **wait**. You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \---Dein Chatbot sollte hoch hüpfen, indem Du **y um** einen kleinen Betrag **änderst** und nach einer kurzen **Warte**zeit zur Ausgangsposition zurückkehren. Vielleicht möchtest Du das einige Male **wiederholen**. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
