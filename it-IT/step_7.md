@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: finish your chatbot
+## Sfida: Completa il tuo ChatterBot
 
-Use what you've learnt to finish creating your interactive chatbot. Here are some ideas:
+Utilizza quello che hai imparato per completare la creazione del tuo ChiacchieRobot interattivo. Ecco alcune idee:
 
-![ChatBot ideas](images/chatbot-ideas.png)
+![Idee per un ChiacchieRobot](images/chatbot-ideas.png)
 
-Once you've finished making your chatbot, get your friends to have a conversation with it! Do they like your character? Did they spot any problems? \--- /challenge \---
+Una volta finito di creare il tuo ChiacchieRobot, invita i tuoi amici a fare una conversazione con lui! Ai tuoi amici piace il tuo personaggio? Hanno notato qualche problema? \--- /challenge \---
