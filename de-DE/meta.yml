@@ -1,30 +1,34 @@
 ---
-title: Chatbot
+title: SprechBot
 hero_image: images/chatbot.png
-description: Learn how to program your own talking robot!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
+description: In diesem Projekt wirst Du lernen, wie Du Deinen eigenen sprechenden Roboter programmieren kannst!
+original_url: https://projects.raspberrypi.org/en/projects/chatbot
 theme: violet
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: builder, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: social
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: ''
 technology: scratch
-site_areas: codeclub, scratch
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: Einleitung
   - 
-    title: What you will need
+    title: Dein SprechBot
   - 
-    title: Your chatbot
+    title: Ein sprechender Roboter
   - 
-    title: A talking chatbot
+    title: Entscheidungen treffen
   - 
-    title: Making decisions
+    title: Ort ändern
   - 
-    title: Changing location
+    title: 'Herausforderung: Mache Deinen eigenen SprechBot'
   - 
-    title: 'Challenge: finish your chatbot'
-
+    title: 'Challenge: Vervollständige deinen Chatbot'
