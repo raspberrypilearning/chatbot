@@ -1,0 +1,34 @@
+---
+title: চ্যাটবট
+hero_image: images/chatbot.png
+description: কিভাবে নিজের তৈরি চ্যাটবট বা কথাবলা রোবট তৈরি করা যায় তা শিখুন!
+original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
+theme: violet
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: ''
+technology: scratch
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: পরিচিতি
+  - 
+    title: যা যা প্রয়োজন
+  - 
+    title: আপনার চ্যাটবট
+  - 
+    title: একটি কথা বলা চ্যাটবট
+  - 
+    title: সিদ্ধান্ত নেয়া
+  - 
+    title: অবস্থান পরিবর্তন
+  - 
+    title: 'Challenge: আপনার চ্যাটবট বানানো শেষ করুন'
