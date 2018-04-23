@@ -1,0 +1,34 @@
+---
+title: SgwrsBot
+hero_image: images/chatbot.png
+description: Dysga sut i raglenni robot dy hunan sydd yn siarad!
+original_url: https://projects.raspberrypi.org/en/projects/chatbot
+theme: violet
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: ''
+technology: scratch
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Cyflwyniad
+  - 
+    title: Dy SgwrsBot
+  - 
+    title: SgwrsBot sy'n siarad
+  - 
+    title: Gwneud penderfyniadau
+  - 
+    title: Newid lleoliad
+  - 
+    title: 'Her: Gwneud dy SgwrsBot dy hunan'
+  - 
+    title: 'Challenge: finish your chatbot'
