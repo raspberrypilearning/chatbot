@@ -1,27 +1,27 @@
-## Changing location
+## Cambiare posizione
 
-You can also code your chatbot to change its location.
+Puoi anche programmare il tuo ChiacchieRobot a cambiare la sua posizione.
 
-+ Add another backdrop to your Stage, for example the 'moon' backdrop.
++ Aggiungi un altro scenario al tuo quadro, per esempio lo scenario ‘luna’.
     
-    ![Adding a 'moon' backdrop](images/chatbot-moon.png)
+    ![Aggiunta dello sfondo 'luna'](images/chatbot-moon.png)
 
-+ Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
++ Sapresti programmare il tuo ChiacchieRobot in modo che ti chieda "Vado sulla luna. Vuoi venire con me?" e cambi la sua posizione se la tua risposta è "sì"?
     
-    Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+    Prova il tuo codice e salvalo. Se la tua risposta è "sì", il ChiacchieRobot dovrebbe cambiare posizione. Se la tua risposta è un'altra, il ChiacchieRobot dovrebbe essere triste e dire "Ok... Addio!".
     
-    ![Testing a changing backdrop](images/chatbot-backdrop-test.png)
+    ![Testare un cambio di sfondo](images/chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+\--- hints \--- \--- hint \--- Il tuo ChiacchieRobot dovrebbe **chiederti** "Vado sulla luna. Vuoi venire con me?". **Se** la tua **risposta** è "sì", il tuo ChiacchieRobot dovrebbe **cambiare costume** ed essere felice, e lo **sfondo** dovrebbe cambiare.
 
-If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
+Se la tua risposta è "no", il tuo ChiacchieRobot dovrebbe **cambiare costume** ed essere triste, e **dirti** "Ok... Addio!"
 
-You'll also need to add code to start your chatbot in the right place **when clicked**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
+Devi anche assicurarti che il tuo ChiacchieRobot sia fuori quando **inizi a parlarci**. Aggiungi un blocco in cima al codice del ChiacchieRobot. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
 
-+ Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
++ Potresti aggiungere un codice per far sì che il tuo ChiacchieRobot saltelli di felicità se gli dici che vuoi andare sulla luna?
     
-    Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+    Prova il tuo codice e salvalo. Se la tua risposta è "sì", il ChiacchieRobot dovrebbe saltare su e giù. Se la tua risposta è un'altra, il ChiacchieRobot non dovrebbe saltare.
     
-    ![Testing a jumping ChatBot](images/chatbot-jump-test.png)
+    ![Provare a far saltellare il ChiacchieRobot](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should jump by **changing** its **y position** by a small amount, and then changing its position back after a short **wait**. You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Il tuo ChiacchieRobot dovrebbe saltare **cambiando** la sua **posizione y** di poco, e poi cambiandola di nuovo dopo una breve **attesa**. Ti consigliamo di **ripetere** questa operazione un paio di volte. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
