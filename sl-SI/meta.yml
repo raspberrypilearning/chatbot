@@ -1,0 +1,34 @@
+---
+title: Chatbot
+hero_image: slike / chatbot.png
+description: Preberite, kako programirati svoj lasten govorni robot!
+original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
+theme: vijolična
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+interests: ''
+technology: praska
+site_areas: projects
+technologies: scratch
+hardware: ''
+software: scratch
+version: 4
+last_tested: 2017-01-01
+steps:
+  - 
+    title: Uvod
+  - 
+    title: Kaj boste potrebovali
+  - 
+    title: Vaš chatbot
+  - 
+    title: Pogovorni klepet
+  - 
+    title: Odločanje
+  - 
+    title: Spreminjanje lokacije
+  - 
+    title: 'Izziv: dokončajte pogovor'
