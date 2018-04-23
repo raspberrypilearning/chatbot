@@ -1,67 +1,67 @@
-## Introduction
+## Introduzione
 
-You are going to learn how to program your own talking robot!
+Imparerai a programmare il tuo robot parlante!
 
-### What you will make
+### Cosa creerai
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+Clicca sulla bandierina verde, e poi clicca sul tuo robot per iniziare una conversazione. Quando il robot ti fa una domanda, digita la tua risposta nella casella in basso e fai click sulla spunta (oppure premi `Invio`).
 
-### What you will learn
+### Cosa imparerai
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Utilizzare i costrutti base di un linguaggio di programmazione per creare programmi semplici.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### Ulteriori informazioni per gli organizzatori dei club
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Note per i volontari
 
-## Introduction:
+## Introduzione:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+In questo progetto, i bambini impareranno come usare l'istruzione ‘if’ (ovvero 'se') per prendere decisioni nei loro programmi.
 
-## Resources
+## Risorse
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Per questo progetto, andrebbe usato Scratch 2. Scratch 2 può essere usato online su [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) oppure può essere scaricato da [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) ed essere usato in modalità offline.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Una versione completa di questo progetto può essere trovata [online](http://scratch.mit.edu/projects/26762091/#editor), o può essere scaricata cliccando il link ‘Materiali del Progetto’, che contiene:
 
 + ChatBot.sb2
 
-## Learning Objectives
+## Obiettivi di apprendimento
 
-+ Text input;
-+ Decisions: 
-    + `if ... then`{:class="blockcontrol"} statements;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
++ Inserimento di testo;
++ Decisioni: 
+    + Istruzioni `se ... allora`{:class="blockcontrol"};
+    + Istruzioni `se ... allora ... altrimenti`{:class="blockcontrol"}.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Utilizzare i costrutti base di un linguaggio di programmazione per creare programmi semplici.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Sfide
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ “Altre domande” - consolida l’apprendimento del testo immesso e del blocco `risposta`{:class="blocksensing"};
++ “Altre decisioni” - utilizzare decisioni;
++ “Crea il tuo ChiacchieRobot” - consolida l’apprendimento di questo progetto e dei progetti precedenti.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materiali del progetto
 
-## Club leader resources
+## Risorse per gli organizzatori del club
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [Progetto Scratch 2 completo scaricabile](resources/ChatBot.sb2)
++ [Progetto Scratch 2 completo online](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
