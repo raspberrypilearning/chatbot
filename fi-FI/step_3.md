@@ -1,23 +1,23 @@
-## Your chatbot
+## Chatbotisi
 
-+ Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
++ Ennen kuin aloitat chatbotin tekemisen, sinun on päätettävä sen persoonallisuudesta. **Ajattele seuraavia kysymyksiä**:
     
-    + What is their name?
-    + Where do they live?
-    + Are they happy? Serious? Funny? Shy? Friendly?
+    + Mikä on heidän nimensä?
+    + Missä he asuvat?
+    + Ovatko he onnellisia? Vakava? Hauska? Ujo? Ystävällinen?
 
-+ Open a new empty Scratch project.
++ Avaa uusi tyhjä Scratch-projekti.
 
 [[[generic-scratch-new-project]]]
 
-+ Choose one of these character sprites, and add them to your project:
++ Valitse yksi näistä hahmojen spritseistä ja lisää ne projektiin:
 
-![Choose a character](images/chatbot-characters.png)
+![Valitse merkki](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
++ Valitse tausta, joka sopii chatbotin persoonallisuuteen. Tässä on esimerkki, vaikka sinun ei tarvitse näyttää tältä:
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![Valitse taustalla](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
