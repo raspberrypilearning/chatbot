@@ -1,37 +1,37 @@
-## A talking chatbot
+## Puhuva chatbot
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+Nyt kun sinulla on persoonallisuus chatbot, ohjelmoida sen puhua sinulle.
 
-+ Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
++ Lisää koodi chatbotsi niin, että kun sitä napsautetaan, se kysyy nimeäsi ja sitten sanoo "Mikä kaunis nimi!"
     
-    ![Testing a ChatBot response](images/chatbot-ask-test.png)
+    ![ChatBot-vastauksen testaaminen](images/chatbot-ask-test.png)
 
 [[[generic-scratch-saving]]]
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- vinkit \--- \--- vinkit \--- Kun 123b_block **sprite napsautetaan**, **pyydä** nimesi puolesta. Chatbotin pitäisi sitten **sanoa** "Mikä kaunis nimi!" \--- / hint \--- \--- vinkki \--- Tässä on tarvittavat koodilohkot: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- / hint \--- \--- vinkki \--- Näin sinun koodisi pitäisi näyttää: ![Code for a ChatBot reply](images/chatbot-ask-code.png) - - / hint \--- \--- / vinkit \---
 
-+ Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
++ Nyt chatbot vastaa vain "Mikä kaunis nimi!" joka kerta. Voitko muokata chatbotin vastausta käyttämällä vastaustasi?
     
-    ![Testing a personalised reply](images/chatbot-answer-test.png)
+    ![Henkilökohtaisen vastauksen testaaminen](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- vinkit \--- \--- vinkit \--- Kun 123b_block **sprite napsautetaan**, **pyydä** nimesi puolesta. Chatbotin pitäisi sitten **sanoa** "Hi", jonka jälkeen **vastauksesi**. \--- / hint \--- \--- vinkki \--- Tässä on tarvittavat koodilohkot: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- / hint \--- \--- vinkki \--- Näin koodisi pitäisi näyttää: ![Code for a personalised reply](images/chatbot-answer-code.png) - - / hint \--- \--- / vinkit \---
 
-+ If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
++ Jos tallennat vastauksesi **-muuttujalle**, sitä voidaan käyttää myöhemmin. Luo uusi muuttuja nimeltä `nimi` tallentaaksesi nimesi.
 
 [[[generic-scratch-add-variable]]]
 
-+ Can you store your answer in the `name` variable and use it in your chatbot's reply?
++ Voitko tallentaa vastauksesi `-nimiseen` -muuttujaan ja käyttää sitä chatbotin vastauksessa?
     
-    Your code should work as before: your chatbot should say hello using your name.
+    Sinun koodisi pitäisi toimia kuten aiemmin: chatbotin pitäisi sanoa hello nimesi kautta.
     
-    ![Testing a 'name' variable](images/chatbot-ask-test.png)
+    !["Nimi" -muuttujan testaus](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- vinkit \--- \--- vinkit \--- Kun 123b_block **sprite napsautetaan**, **pyydä** nimesi puolesta. Sitten **asettaa** `-nimeä` muuttuja **-vastauksestasi**. Chatbotin pitäisi sitten **sanoa** "Hi", jota seuraa **nimi**. \--- / hint \--- \--- vinkki \--- Tässä on tarvittavat koodilohkot: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- / hint \--- \--- vinkki \--- Näin koodisi pitäisi näyttää: ![Code for a 'name' variable](images/chatbot-variable-code.png) - - / hint \--- \--- / vinkit \---
 
-\--- challenge \---
+\--- haaste \---
 
-## Challenge: more questions
+## Haaste: lisää kysymyksiä
 
-Program your chatbot to ask another question. Can you store the answer in a new variable?
+Ohjelmoi chatbot ja kysyy toinen kysymys. Voitko tallentaa vastauksen uuteen muuttujaan?
 
-![More questions](images/chatbot-question.png) \--- /challenge \---
+![Lisää kysymyksiä](images/chatbot-question.png) \--- /haaste \---
