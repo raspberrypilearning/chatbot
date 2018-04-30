@@ -1,9 +1,9 @@
-\--- challenge \---
+\--- haaste \---
 
-## Challenge: finish your chatbot
+## Haaste: viimeistele chatbot
 
-Use what you've learnt to finish creating your interactive chatbot. Here are some ideas:
+Käytä mitä olet oppinut lopettamaan vuorovaikutteisen chatbotin luomisen. Seuraavassa on joitain ideoita:
 
-![ChatBot ideas](images/chatbot-ideas.png)
+![ChatBot-ideoita](images/chatbot-ideas.png)
 
-Once you've finished making your chatbot, get your friends to have a conversation with it! Do they like your character? Did they spot any problems? \--- /challenge \---
+Kun olet valmis tekemään chatbot, ota ystäväsi keskustelemaan sen kanssa! Pidätkö heistä hahmossasi? Näkivätkö he ongelmat? \--- /haaste \---
