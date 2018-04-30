@@ -1,67 +1,67 @@
-## Introduction
+## esittely
 
-You are going to learn how to program your own talking robot!
+Aiot oppia ohjelmoimaan omaa puhuvaa robottiasi!
 
-### What you will make
+### Mitä teet
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+Napsauta vihreää lippua ja käynnistä keskustelu napsauttamalla chatbota. Kun chatbot kysyy kysymyksen, kirjoita vastauksesi vaiheen alareunassa olevaan ruutuun ja napsauta rasti (tai paina `Enter`).
 
-### What you will learn
+### Mitä opit
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Tämä hanke kattaa [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osista:
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Käytä perusohjelmointirakenteita yksinkertaisten ohjelmien luomiseen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### Lisätietoja klubin johtajille
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Jos haluat tulostaa tämän projektin, käytä [Tulostettava versio](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
-## \--- collapse \---
+## \--- romahdus \---
 
-## title: Club leader notes
+## otsikko: Klubin johtajat
 
-## Introduction:
+## Johdanto:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+Tässä hankkeessa lapset oppivat käyttämään "jos" lausuntoja tekemään päätöksiä ohjelmissaan.
 
-## Resources
+## voimavarat
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Tätä hanketta varten olisi käytettävä Scratch 2 -ohjelmaa. Scratch 2 voidaan joko käyttää verkossa [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) tai ladata [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) ja käyttää offline-tilassa.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Löydät tämän projektin valmiin version [verkossa](http://scratch.mit.edu/projects/26762091/#editor)tai se voidaan ladata klikkaamalla tämän projektin 'Projektin materiaalit' -linkkiä, joka sisältää:
 
 + ChatBot.sb2
 
-## Learning Objectives
+## Oppimistavoitteet
 
-+ Text input;
-+ Decisions: 
-    + `if ... then`{:class="blockcontrol"} statements;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
++ Tekstinsyöttö;
++ Päätökset: 
+    + `jos ... sitten`{: class = "blockcontrol"} lausunnot;
+    + `jos ... sitten ... muuten`{: class = "blockcontrol"} lausunnot.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Tämä hanke kattaa [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osista:
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Käytä perusohjelmointirakenteita yksinkertaisten ohjelmien luomiseen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## haasteet
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ "Lisää kysymyksiä" - tulosten oppimisen vahvistaminen ja `vastaus`{: class = "blockensing"} -lohko;
++ "Lisää päätöksiä" - päätösten tekeminen;
++ "Tee oma chatbot" - oppimisen vakiinnuttaminen tästä ja aiemmista projekteista.
 
-\--- /collapse \---
+\--- / romahdus \---
 
-## \--- collapse \---
+## \--- romahdus \---
 
-## title: Project materials
+## otsikko: Projektimateriaalit
 
-## Club leader resources
+## Klubin johtajien resurssit
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [Ladattava valmis Scratch 2 -projekti](resources/ChatBot.sb2)
++ [Online valmistunut Scratch 2 -projekti](http://scratch.mit.edu/projects/26762091/#editor)
 
-\--- /collapse \---
+\--- / romahdus \---
