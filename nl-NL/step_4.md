@@ -8,13 +8,13 @@ Nu dat je een chatbot met een persoonlijkheid hebt, ga je het programmeren om me
 
 [[[generic-scratch-saving]]]
 
---- hints --- --- hint --- Wanneer op de chatbot **sprite wordt geklikt**, moet het naar je naam **vragen**. De chatbot moet dan **zeggen** "wat een mooie naam!" --- /hint --- --- hint --- Dit zij de code blokken die je nodig hebt: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a ChatBot reply](images/chatbot-ask-code.png) --- /hint --- --- /hints --
+--- hints --- --- hint --- Wanneer op de chatbot **sprite wordt geklikt**, moet het naar je naam **vragen**. De chatbot moet dan **zeggen** "wat een mooie naam!" --- /hint --- --- hint --- Dit zij de code blokken die je nodig hebt: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a ChatBot reply](images/chatbot-ask-code.png) --- /hint --- --- /hints ---
 
 + Nu antwoordt de chatbot elke keer met "Wat een mooie naam!". Kunt je het antwoord van je chatbot personaliseren door gebruik te maken van je antwoord?
     
     ![Testing a personalised reply](images/chatbot-answer-test.png)
 
---- hints --- --- hint --- Wanneer op de chatbot **sprite wordt geklikt **, moet het naar je naam **vragen**. De chatbot zou dan **moeten zeggen** "Hallo", gevolgt door je **antwoord**. --- /hint --- --- hint --- Dit zij de code blokken die je nodig hebt: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a personalised reply](images/chatbot-answer-code.png) --- /hint --- --- /hints ---
+--- hints --- --- hint --- Wanneer op de chatbot **sprite wordt geklikt**, moet het naar je naam **vragen**. De chatbot zou dan **moeten zeggen** "Hallo", gevolgt door je **antwoord**. --- /hint --- --- hint --- Dit zij de code blokken die je nodig hebt: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a personalised reply](images/chatbot-answer-code.png) --- /hint --- --- /hints ---
 
 + Als je jouw antwoord opslaat in een **variabele**, dan kan dit later worden gebruikt. Maak een nieuwe variabele genaamd `naam` aan om je antwoord in op te slaan.
 
