@@ -30,8 +30,10 @@ Nu dat je een chatbot met een persoonlijkheid hebt, ga je het programmeren om me
 
 --- challenge ---
 
-## Challenge: meer vragen
+## Uitdaging: meer vragen
 
-Programmeer je chatbot om een ​​andere vraag te stellen. Kun je het antwoord opslaan in een nieuwe variabele?
+Programmeer je chatbot om een andere vraag te stellen. Kun je het antwoord opslaan in een nieuwe variabele?
 
-![More questions](images/chatbot-question.png) --- /challenge ---
+![More questions](images/chatbot-question.png) 
+
+--- /challenge ---
