@@ -1,61 +1,37 @@
-## Prendere decisioni
+## Un ChiacchieRobot parlante
 
-Puoi programmare il tuo chatterbot a decidere cosa fare, a seconda delle risposte dell'utente.
+Adesso che hai un ChiacchieRobot con una personalità tutta sua, programmiamolo per farlo parlare.
 
-+ Facciamo in modo che il tuo chatterbot faccia una domanda all'utente che abbia come risposta 'sì' o 'no'. Ecco un esempio, ma se preferisci puoi cambiare la domanda:
++ Aggiungi un codice per fare in modo che quando si clicca sul ChiacchieRobot, questi chieda il tuo nome e poi dica "Che bel nome!"
+    
+    ![Testare la risposta del ChiacchieRobot](images/chatbot-ask-test.png)
 
-	```blocks
-		quando si clicca questo sprite
-		chiedi [Ehi! Come ti chiami?] e attendi
-		porta [nome v] a (risposta)
-		dire (unione di [Ciao ] e (nome)) per (2) secondi
-		chiedi (unione di [Stai bene ] e (nome)) e attendi
-		se ((risposta) = [si]) allora
-  			dire [Mi fa piacere!] per (2) secondi
-		end
-	```
+[[[generic-scratch-saving]]]
 
-	Nota che hai ora salvato il nome dell'utente in una variabile, e puoi usarlo ogni volta che vorrai.
+--- hints --- --- hint --- **Quando clicchi sullo sprite** del tuo ChiacchieRobot, questi dovrebbe **chiederti** il tuo nome. Il ChiacchieRobot dovrebbe poi **dirti** "Che bel nome!" --- /hint --- --- hint --- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) --- /hint --- --- hint --- Ecco come dovrebbe apparire il tuo codice: ![Code for a ChatBot reply](images/chatbot-ask-code.png) --- /hint --- --- /hints ---
 
-+ Per testare correttamente questo programma, dovrai provarlo due volte - una volta digitando 'no' come risposta, e un'altra volta digitando 'sì'. Otterrai una reazione dal tuo chatterbot `se`{:class="blockcontrol"} rispondi 'sì'.
++ Il tuo chiacchieRobot risponderà semplicemente ‘Che bel nome!’ ogni volta. Puoi personalizzare la risposta del chiacchieRobot usando la tua risposta?
+    
+    ![Testare una risposta personalizzata](images/chatbot-answer-test.png)
 
-+ Il problema del chatterbot è che non dà una risposta se l'utente risponde 'no'. Puoi risolvere questo problema cambiando il blocco `se`{:class="blockcontrol"} a un blocco `se/altrimenti`{:class="blockcontrol"}, in modo che il tuo codice adesso sia così:
+--- hints --- --- hint --- **Quando clicchi sullo sprite** del tuo ChiacchieRobot, questi dovrebbe **chiederti** il tuo nome. Il ChiacchieRobot dovrebbe poi **dirti** "Ciao", seguito dalla tua **risposta**. --- /hint --- --- hint --- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) --- /hint --- --- hint --- Ecco come dovrebbe apparire il tuo codice: ![Code for a personalised reply](images/chatbot-answer-code.png) --- /hint --- --- /hints ---
 
-	```blocks
-		quando si clicca questo sprite
-		chiedi [Ehi! Come ti chiami?] e attendi
-		porta [nome v] a (risposta)
-		dire (unione di [Ciao ] e (nome)) per (2) secondi
-		chiedi (unione di [Stai bene ] e (nome)) e attendi
-		se ((risposta) = [si]) allora
-  			dire [Mi fa piacere!] per (2) secondi
-  		altrimenti
-  			dire [Oh no!] per (2) secondi
-		end
-	```
++ Puoi anche salvare il tuo nome in una **variabile**, in modo che tu possa usarlo di nuovo. Crea una nuova variabile chiamata `nome` per salvare il tuo nome.
 
-+ Se provi il tuo codice, vedrai che avrai una reazione quando rispondi 'sì' o 'no'. Il tuo chatterbot risponderà 'Mi fa piacere!' quando tu rispondi 'sì', ma risponderà 'Oh no!' se digiti qualsiasi altra risposta (`altrimenti`{:class="blockcontrol"} significa 'diversamente').
+[[[generic-scratch-add-variable]]]
 
-	![screenshot](images/chatbot-else.png)
++ Puoi salvare il `nome` in una variabile e usarla nella risposta del ChiacchieRobot?
+    
+    Il tuo codice dovrebbe funzionare come prima: il tuo ChiacchieRobot dovrebbe dire ciao usando il tuo nome.
+    
+    ![Applicare la variabile 'nome'](images/chatbot-ask-test.png)
 
-+ Dentro un blocco `se`{:class="blockcontrol"} o `altrimenti`{:class="blockcontrol"} puoi mettere qualsiasi codice, e non solo il codice che fa parlare il tuo chatterbot. Per esempio, puoi cambiare il costume del chatterbot er farlo combaciare con la risposta.
-
-	Se dai un'occhiata agli costummi del chatterbot, noterai che ce ne sono più di uno. (Se non ci sono, puoi sempre aggiungerli tu!)
-
-	![screenshot](images/chatbot-costumes.png)
-
-	Puoi usare questi costumii come parte della risposta del tuo chatterbot, aggiungendo questo codice:
-
-	![screenshot](images/chatbot-costumes-code.png)
-
-+ Prova il tuo programma e vedrai che la faccia del tuo chatterbot cambierà in base alla risposta che dai.
-
-	![screenshot](images/chatbot-face.png)
+--- hints --- --- hint --- **Quando clicchi sullo sprite** del tuo ChiacchieRobot, questi dovrebbe **chiederti** il tuo nome. Dovresti **inserire** la variabile `nome` nella tua **risposta**. Il ChiacchieRobot dovrebbe poi **dirti** "Ciao", seguito dal tuo **nome**. --- /hint --- --- hint --- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) --- /hint --- --- hint --- Ecco come dovrebbe apparire il tuo codice: ![Code for a 'name' variable](images/chatbot-variable-code.png) --- /hint --- --- /hints ---
 
 --- challenge ---
-## Sfida: Altre decisioni
 
-Programma il tuo chatterbot a fare un'altra domanda - che abbia come risposta 'sì' o 'no'. Sai come far reagire il tuo chatterbot alla risposta?
+## Sfida: Altre domande
 
-![screenshot](images/chatbot-joke.png)
---- /challenge ---
+Programma il tuo ChiacchieRobot perché faccia un’altra domanda. Riesci a salvare la sua risposta in una variabile?
+
+![Altre domande](images/chatbot-question.png) --- /challenge ---
