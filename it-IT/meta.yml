@@ -1,26 +1,27 @@
 ---
-title: ChatterBot
+title: ChiacchieRobot
 hero_image: images/chatbot.png
 description: Impara a programmare il tuo robot parlante!
-original_url: https://projects.raspberrypi.org/en/projects/chatbot
+original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 interests: ''
 technology: scratch
 site_areas: projects
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 technologies: scratch
 hardware: ''
 software: scratch
 version: 4
 last_tested: 2017-01-01
-steps: 
-- title: Introduzione
-- title: Il tuo chatterbot
-- title: Un chatterbot parlante
-- title: Prendere decisioni
-- title: Cambia posizione
-- title: "Sfida: Crea il tuo chatterbot"
+steps:
+  - title: Introduzione
+  - title: Di cosa avrai bisogno
+  - title: Il tuo ChiacchieRobot
+  - title: Un ChiacchieRobot parlante
+  - title: Prendere decisioni
+  - title: Cambiare posizione
+  - title: 'Sfida: Completa il tuo ChiacchieRobot'
