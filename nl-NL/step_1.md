@@ -57,7 +57,7 @@ Dit project behandelt elementen uit de volgende onderdelen van het [ Raspberry P
 
 --- collapse ---
 ---
-##title: Projectmaterialen
+title: Projectmaterialen
 ---
 ## Club leider middelen
 
