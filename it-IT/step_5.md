@@ -48,4 +48,6 @@ Puoi programmare il tuo ChiacchieRobot perché decida cosa dire o cosa fare in b
 
 Programma il tuo ChiacchieRobot a fare un’altra domanda che abbia come risposta "sì" o "no". Sapresti come far reagire il ChiacchieRobot alla tua risposta?
 
-![screenshot](images/chatbot-joke.png) --- /challenge ---
+![screenshot](images/chatbot-joke.png) 
+
+--- /challenge ---
