@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Sfida: Completa il tuo ChatterBot
+## Sfida: Completa il tuo ChiacchieBot
 
 Utilizza quello che hai imparato per completare la creazione del tuo ChiacchieRobot interattivo. Ecco alcune idee:
 
