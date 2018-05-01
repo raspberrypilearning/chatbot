@@ -34,4 +34,6 @@ Adesso che hai un ChiacchieRobot con una personalità tutta sua, programmiamolo 
 
 Programma il tuo ChiacchieRobot perché faccia un’altra domanda. Riesci a salvare la sua risposta in una variabile?
 
-![Altre domande](images/chatbot-question.png) --- /challenge ---
+![Altre domande](images/chatbot-question.png) 
+
+--- /challenge ---
