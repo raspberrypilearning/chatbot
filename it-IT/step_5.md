@@ -1,4 +1,4 @@
-## Passo 3: Prendere decisioni
+## Prendere decisioni
 
 Puoi programmare il tuo ChiacchieRobot perché decida cosa dire o cosa fare in base alle risposte dell’utente.
 
@@ -10,7 +10,7 @@ Puoi programmare il tuo ChiacchieRobot perché decida cosa dire o cosa fare in b
     
     ![Testare la risposta del ChiacchieRobot](images/chatbot-if-test.png)
 
---- hints --- --- hint --- Dopo che il ChiacchieRobot ha detto "Ciao", dovrebbe anche **chiederti** "Stai bene?". **Se** la tua risposta è "sì", il ChiacchieRobot dovrebbe **dirti** "Mi fa piacere!". --- /hint --- --- hint --- Ecco di quali altri blocchi di codice avrai bisogno: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \-- /hint \-- --- hint --- Ecco come dovrebbe apparire il tuo codice: ![Code for a chatbot reply](images/chatbot-if-code.png) --- /hint --- --- /hints ---
+--- hints --- --- hint --- Dopo che il ChiacchieRobot ha detto "Ciao", dovrebbe anche **chiederti** "Stai bene?". **Se** la tua risposta è "sì", il ChiacchieRobot dovrebbe **dirti** "Mi fa piacere!". --- /hint --- --- hint --- Ecco di quali altri blocchi di codice avrai bisogno: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) --- /hint --- --- hint --- Ecco come dovrebbe apparire il tuo codice: ![Code for a chatbot reply](images/chatbot-if-code.png) --- /hint --- --- /hints ---
 
 + Al momento, il tuo ChiacchieRobot non dice nulla se rispondi "no". Puoi programmare il tuo ChiacchieRobot in modo che ti dica "Oh no!" se rispondi "no" alla sua domanda?
     
