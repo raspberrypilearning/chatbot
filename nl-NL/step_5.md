@@ -1,4 +1,4 @@
-## Stap 3: Beslissingen nemen
+## Beslissingen nemen
 
 Je kunt je chatbot programmeren zodat datgene wat het zegt of doet gebaseerd is op jouw antwoorden op zijn vragen.
 
@@ -14,11 +14,11 @@ Je kunt je chatbot programmeren zodat datgene wat het zegt of doet gebaseerd is 
 
 + Op dit moment zegt je chatbot niets als je "nee" antwoordt. Kun je je chatbot veranderen zodat deze antwoordt "Oh nee!" als je "nee" op zijn vraag antwoordt?
     
-    Testen en opslaan. Je chatbot zou nu moeten zeggen "Oh nee!" als je "nee" antwoordt. In feite zal het "Nee!" zeggen als je antwoordt met iets anders dan "ja" antwoord. (de ** anders ** in een ` als dan / anders ` blok betekent **doe iets anders als het antwoord niet gelijk is**).
+    Testen en opslaan. Je chatbot zou nu moeten zeggen "Oh nee!" als je "nee" antwoordt. In feite zal het "Nee!" zeggen als je antwoordt met iets anders dan "ja" antwoord. (de **anders** in een ` als dan / anders ` blok betekent **doe iets anders als het antwoord niet gelijk is**).
     
     ![Een ja / nee-antwoord testen](images/chatbot-if-else-test.png)
 
---- hints--- \--- hint --- Je chatbot zou nu moeten zeggen: "Dat is goed om te horen!" **als** je antwoord "ja" is, maar zou moeten zeggen "Oh nee!" als je iets anders **antwoordt **. --- /hint --- --- hint --- Dit zijn de code blokken die je nodig hebt: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a yes/no reply](images/chatbot-if-else-code.png) --- /hint --- --- /hints ---
+--- hints--- --- hint --- Je chatbot zou nu moeten zeggen: "Dat is goed om te horen!" **als** je antwoord "ja" is, maar zou moeten zeggen "Oh nee!" als je iets anders **antwoordt**. --- /hint --- --- hint --- Dit zijn de code blokken die je nodig hebt: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a yes/no reply](images/chatbot-if-else-code.png) --- /hint --- --- /hints ---
 
 + Je kunt elke code in een `als dan / anders` blok plaatsen, niet alleen code om je chatbot te laten spreken. Als je op het **Uiterlijken tabblad** van je chatbot klikt, zul je zien dat het meer dan één uiterlijk heeft.
     
