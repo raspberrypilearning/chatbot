@@ -1,6 +1,6 @@
 ## Jouw chatbot
 
-+ Voordat je begint met het maken van je chatbot, moet je beslissen over zijn persoonlijkheid. ** Denk aan de volgende vragen **:
++ Voordat je begint met het maken van je chatbot, moet je beslissen over zijn persoonlijkheid. **Denk aan de volgende vragen**:
     
     + Wat is zijn/haar naam?
     + Waar woont hij/zij?
