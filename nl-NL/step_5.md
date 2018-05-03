@@ -2,50 +2,70 @@
 
 Je kunt je chatbot programmeren zodat datgene wat het zegt of doet gebaseerd is op jouw antwoorden op zijn vragen.
 
-+ Kun je de chatbot de vraag stellen "Alles goed?", en hem coderen om te antwoorden "Dat is geweldig om te horen!" alleen **als** antwoordt van de gebruiker "ja" is?
-    
-    Om je nieuwe code goed te testen, moet je deze **twee keer testen**, eenmaal met het antwoord "ja", en één keer met het antwoord "nee".
-    
-    Je chatbot zou moeten antwoorden "Dat is goed om te horen!!" als je "ja" antwoordt, maar zegt niets als je "nee" antwoordt.
-    
-    ![Een reactie van een ChatBot testen](images/chatbot-if-test.png)
+\--- task \---
 
-\--- hints \--- \--- hint \--- Nadat je chatbot "Hallo" heeft gezegd, zou het nu ook **moeten vragen** "Alles goed?". ** Als ** je antwoordt "ja" is, dan moet de chatbot **zeggen** "Dat is goed om te horen!". \--- /hint \--- \--- hint \--- Dit zijn de code blokken die je nodig hebt: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
 
-+ Op dit moment zegt je chatbot niets als je "nee" antwoordt. Kun je je chatbot veranderen zodat deze antwoordt "Oh nee!" als je "nee" op zijn vraag antwoordt?
-    
-    Testen en opslaan. Je chatbot zou nu moeten zeggen "Oh nee!" als je "nee" antwoordt. In feite zal het "Nee!" zeggen als je antwoordt met iets anders dan "ja" antwoord. (de ** anders ** in een ` als dan / anders ` blok betekent **doe iets anders als het antwoord niet gelijk is**).
-    
-    ![Een ja / nee-antwoord testen](images/chatbot-if-else-test.png)
+To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
 
-\--- hints \--- \--- hint \--- Je chatbot zou nu moeten zeggen: "Dat is goed om te horen!" ** als ** je antwoord "ja" is, maar zou moeten zeggen "Oh nee!" als je iets anders ** antwoordt **. \--- /hint \--- \--- hint \--- Dit zijn de code blokken die je nodig hebt: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
 
-+ Je kunt elke code in een ` als dan / anders ` blok plaatsen, niet alleen code om je chatbot te laten spreken. Als je op het **Uiterlijken tabblad** van je chatbot klikt, zul je zien dat het meer dan één uiterlijk heeft.
-    
-    ![chatbot uiterlijken](images/chatbot-costume-view.png)
+![Testing a chatbot reply](images/chatbot-if-test.png)
 
-+ Kun je het uiterlijk van de chatbot aanpassen aan je reactie?
-    
-    Testen en opslaan. Het gezicht van je chatbot gezicht zou moeten veranderen afhankelijk van je antwoord.
-    
-    ![Testen van het veranderen van een uiterlijk](images/chatbot-costume-test.png)
+\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
-\--- hints \--- \--- hint \--- Je chatbot zou nu ook ** van uiterlijk moeten veranderen ** afhankelijk van het gegeven antwoord. \--- /hint \--- \--- hint \--- Dit zijn de code blokken die je nodig hebt: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- /task \---
 
-+ Is het je opgevallen dat het uiterlijk van je chatbot hetzelfde blijft als de laatste keer dat je hem sprak? Kun je dit probleem oplossen?
-    
-    ![Uiterlijken fout](images/chatbot-costume-bug-test.png)
-    
-    Testen en opslaan: Voer je code uit en typ "nee", zodat je chatbot er ongelukkig uit ziet. Wanneer je jouw code opnieuw uitvoert, moet je chatbot terug naar een lachend gezicht veranderen alvorens je naam te vragen.
-    
-    ![Testen van een uiterlijk-oplossing](images/chatbot-costume-fix-test.png)
+\--- task \---
 
-\--- hints \--- \--- hint \--- Wanneer op de sprite ** wordt geklikt **, moet je chatbot eerst ** veranderen van uiterlijk ** naar een lachend gezicht. \--- /hint \--- \--- hint \--- Dit zijn de code blokken die je nodig hebt: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+
+Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
+
+\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view.png)
+
+\--- /task \---
+
+\--- task \---
+
+Can you change the chatbot's costume to match your response?
+
+Test and save. You should see your chatbot's face change depending on your answer.
+
+![Testing a changing costume](images/chatbot-costume-test.png)
+
+\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+
+![Costume bug](images/chatbot-costume-bug-test.png)
+
+Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
+
+\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
 
 \--- challenge \---
 
 ## Challenge: meer beslissingen
 
-Programmeer je chatbot om een ​​andere vraag te stellen - iets met een "ja" of "nee" antwoord. Kun je je chatbot laten reageren op het antwoord?
+Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
 
 ![screenshot](images/chatbot-joke.png) \--- /challenge \---
