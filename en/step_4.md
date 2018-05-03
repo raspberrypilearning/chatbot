@@ -6,7 +6,7 @@ Now that you have a chatbot with a personality, let's program it to talk to you.
 
 Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
 
-    ![Testing a ChatBot response](images/chatbot-ask-test.png)
+![Testing a ChatBot response](images/chatbot-ask-test.png)
 
 --- hints ---
 --- hint ---
@@ -28,7 +28,7 @@ Here's how your code should look:
 
 Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
 
-    ![Testing a personalised reply](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 --- hints ---
 --- hint ---
@@ -58,9 +58,9 @@ If you store your answer in a **variable**, then it can be used later. Create a 
 
 Can you store your answer in the `name` variable and use it in your chatbot's reply?
 
-    Your code should work as before: your chatbot should say hello using your name.
+Your code should work as before: your chatbot should say hello using your name.
 
-    ![Testing a 'name' variable](images/chatbot-ask-test.png)
+![Testing a 'name' variable](images/chatbot-ask-test.png)
 
 --- hints ---
 --- hint ---
