@@ -4,7 +4,7 @@ Je kunt je chatbot programmeren zodat datgene wat het zegt of doet gebaseerd is 
 
 \--- task \---
 
-Kun je de chatbot de vraag stellen "Alles goed?", en hem coderen om te antwoorden "Dat is geweldig om te horen!" alleen **als** antwoordt van de gebruiker "ja" is?
+Kun je de chatbot de vraag stellen "Alles goed?", en hem coderen om te antwoorden "Dat is geweldig om te horen!" alleen **als** het antwoordt van de gebruiker "ja" is?
 
 Om je nieuwe code goed te testen, moet je deze **twee keer testen**, eenmaal met het antwoord "ja", en één keer met het antwoord "nee".
 
@@ -40,7 +40,7 @@ Je kunt elke code in een ` als dan / anders ` blok plaatsen, niet alleen code om
 
 Kun je het uiterlijk van de chatbot aanpassen aan je reactie?
 
-Testen en opslaan. Het gezicht van je chatbot gezicht zou moeten veranderen afhankelijk van je antwoord.
+Testen en opslaan. Het gezicht van je chatbot zou moeten veranderen afhankelijk van je antwoord.
 
 ![Testing a changing costume](images/chatbot-costume-test.png)
 
