@@ -6,7 +6,7 @@ Voordat je begint met het maken van je chatbot, moet je beslissen over zijn pers
 
     + Wat is hun naam? 
     + Waar wonen ze? 
-    + Zijn ze blij? Serious? Grappig? Verlegen? Vriendelijk?
+    + Zijn ze blij? Serieus? Grappig? Verlegen? Vriendelijk?
     
 
 \---/task\---
