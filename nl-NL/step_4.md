@@ -4,7 +4,7 @@ Nu dat je een chatbot met een persoonlijkheid hebt, ga je het programmeren om me
 
 \--- task \---
 
-Voeg code toe aan je chatbot, zodat wanneer je op klikt, deze naar je naam vraagt ​​en vervolgens zegt: "Wat een mooie naam!"
+Voeg code toe aan je chatbot, zodat wanneer je er op klikt, deze naar je naam vraagt ​​en vervolgens zegt: "Wat een mooie naam!"
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
@@ -18,7 +18,7 @@ Nu antwoordt de chatbot elke keer met "Wat een mooie naam!". Kunt je het antwoor
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- Wanneer op de chatbot **sprite wordt geklikt**, moet het naar je naam **vragen**. De chatbot zou dan **moeten zeggen** "Hallo", gevolgt door je **antwoord**. \--- /hint \--- \--- hint \--- Dit zij de code blokken die je nodig hebt: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Wanneer op de chatbot **sprite wordt geklikt**, moet het naar je naam **vragen**. De chatbot zou dan **moeten zeggen** "Hallo", gevolgd door je **antwoord**. \--- /hint \--- \--- hint \--- Dit zij de code blokken die je nodig hebt: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
