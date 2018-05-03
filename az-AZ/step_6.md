@@ -2,26 +2,38 @@
 
 Ayrıca, yerini dəyişdirmək üçün chatbot kodunuzu da kodlaşdıra bilərsiniz.
 
-+ Səhnəyə başqa bir fon əlavə edin, məsələn 'ay' fonunda.
-    
-    ![Bir 'ay' fonunu əlavə etmək](images/chatbot-moon.png)
+\--- task \---
 
-+ "Aya getmək istərdinizmi?" Soruşmaq üçün chatbotunuzu kodlaya bilərsinizmi? və "bəli" cavab verdiyiniz yeri dəyişə bilərsinizmi?
-    
-    Test edin və qənaət edin. "Bəli" cavabınız varsa, şifrənizin yeri yerini dəyişdirməlidir. Çatışmanızın kədərli görünməsi və "OK ... bye" demək lazımdır. əgər başqa bir cavab verilirsə.
-    
-    ![Dəyişən zəminin yoxlanılması](images/chatbot-backdrop-test.png)
+Add another backdrop to your Stage, for example the 'moon' backdrop.
 
-\--- İpuçları \--- \--- ipucu \--- Sizin chatbot **** "Aya getmək istəyirsinizmi?" **Əgər** **cavabınız** </strong> cavabınız "yes", onda 12313_321 **kostyumunu** xoşbəxt etməlidir və **mərhələsinin** səhnəsi dəyişdirilməlidir.
+![Adding a 'moon' backdrop](images/chatbot-moon.png)
 
-Əgər "yox" cavab verərsinizsə, chatbot **kostyumları** kədərləndirmək və **demək** "Tamam ... bye!" Demək lazımdır.
+\--- /task \---
 
-You'll also need to add code to start your chatbot in the right place **when clicked**. \--- / ipucu \--- \--- ipucu \--- İşdə istifadə etmək üçün lazım olan kod blokları: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- / hint \--- \--- ipucu \--- Kodunuzun necə görünməsi lazımdır: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- / ipucu \--- \--- / göstərişlər \---
+\--- task \---
 
-+ Aya getmək istədiyini söyləsəniz, chatbotun atlamasını sevinc üçün kod əlavə edə bilərsinizmi?
-    
-    Test edin və qənaət edin. Əgər "bəli" cavabınız varsa, chatbotunuz yuxarıya və aşağı atılmalıdır. Hər hansı digər cavab verildiyi halda, chatbotunuz atlamamalıdır.
-    
-    ![Bir atlama ChatBot test](images/chatbot-jump-test.png)
+Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
 
-\--- göstərişlər \--- \--- ipucu \--- Sizin chatbot **** onun **y mövqeyi** az bir məbləği ilə dəyişdirmək və sonra qısa **gözləyin** sonra mövqeyini dəyişdirmək lazımdır. Bir neçə dəfə **təkrar** təkrar edə bilərsiniz. \--- / ipucu \--- \--- ipucu \--- İşdə istifadə etmək üçün lazım olan kod blokları: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- / hint \--- \--- ipucu \--- Kodunuzun necə görünməsi lazımdır: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- / ipucu \--- \--- / göstərişlər \---
+Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+
+![Testing a changing backdrop](images/chatbot-backdrop-test.png)
+
+\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+
+If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
+
+You'll also need to add code to start your chatbot in the right place **when clicked**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
+
+Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+
+![Testing a jumping ChatBot](images/chatbot-jump-test.png)
+
+\--- hints \--- \--- hint \--- Your chatbot should jump by **changing** its **y position** by a small amount, and then changing its position back after a short **wait**. You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
