@@ -2,15 +2,21 @@
 
 You can also code your chatbot to change its location.
 
-+ Add another backdrop to your Stage, for example the 'moon' backdrop.
+--- task ---
 
-	![Adding a 'moon' backdrop](images/chatbot-moon.png)
+Add another backdrop to your Stage, for example the 'moon' backdrop.
 
-+ Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
+![Adding a 'moon' backdrop](images/chatbot-moon.png)
 
-    Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+--- /task ---
 
-    ![Testing a changing backdrop](images/chatbot-backdrop-test.png)
+--- task ---
+
+Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
+
+Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+
+![Testing a changing backdrop](images/chatbot-backdrop-test.png)
 
 --- hints ---
 --- hint ---
@@ -30,11 +36,15 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
+--- /task ---
 
-    Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+--- task ---
 
-    ![Testing a jumping ChatBot](images/chatbot-jump-test.png)
+Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
+
+Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+
+![Testing a jumping ChatBot](images/chatbot-jump-test.png)
 
 --- hints ---
 --- hint ---
@@ -49,3 +59,5 @@ Here's how your code should look:
 ![Code for a jumping ChatBot](images/chatbot-jump-code.png)
 --- /hint ---
 --- /hints ---
+
+--- /task ---

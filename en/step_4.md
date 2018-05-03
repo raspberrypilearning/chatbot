@@ -2,11 +2,11 @@
 
 Now that you have a chatbot with a personality, let's program it to talk to you.
 
-+ Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+--- task ---
 
-    ![Testing a ChatBot response](images/chatbot-ask-test.png)
+Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
 
-[[[generic-scratch-saving]]]
+![Testing a ChatBot response](images/chatbot-ask-test.png)
 
 --- hints ---
 --- hint ---
@@ -22,9 +22,13 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+--- /task ---
 
-    ![Testing a personalised reply](images/chatbot-answer-test.png)
+--- task ---
+
+Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 --- hints ---
 --- hint ---
@@ -40,15 +44,23 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
+--- /task ---
+
+--- task ---
+
+If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
 
 [[[generic-scratch-add-variable]]]
 
-+ Can you store your answer in the `name` variable and use it in your chatbot's reply?
+--- /task ---
 
-    Your code should work as before: your chatbot should say hello using your name.
+--- task ---
 
-    ![Testing a 'name' variable](images/chatbot-ask-test.png)
+Can you store your answer in the `name` variable and use it in your chatbot's reply?
+
+Your code should work as before: your chatbot should say hello using your name.
+
+![Testing a 'name' variable](images/chatbot-ask-test.png)
 
 --- hints ---
 --- hint ---
@@ -63,6 +75,8 @@ Here's how your code should look:
 ![Code for a 'name' variable](images/chatbot-variable-code.png)
 --- /hint ---
 --- /hints ---
+
+--- /task ---
 
 --- challenge ---
 ## Challenge: more questions
