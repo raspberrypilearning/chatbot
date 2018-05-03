@@ -14,7 +14,7 @@ Voeg nog een achtergrond toe aan je werkgebied, bijvoorbeeld de achtergrond 'maa
 
 Kun je je chatbot coderen om te vragen "Ga je mee naar de maan?" en verander van locatie als je 'ja' antwoordt?
 
-Testen en opslaan. Als je "ja" beantwoordt, moet je chatbot van locatie wijzigen. Je chatbot moet triest kijken en "OK... tot ziens!" zeggen bij elke ander antwoord dat wordt gegeven.
+Testen en opslaan. Als je "ja" antwoordt, moet je chatbot van locatie wijzigen. Je chatbot moet triest kijken en "OK... tot ziens!" zeggen bij elke ander antwoord dat wordt gegeven.
 
 ![Testing a changing backdrop](images/chatbot-backdrop-test.png)
 
@@ -34,6 +34,6 @@ Test en opslaan. Als je "ja" antwoordt, moet je chatbot op en neer springen. Je 
 
 ![Testing a jumping ChatBot](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- Je chatbot zou moeten springen door zijn ** y-positie ** met een kleine hoeveelheid ** te veranderen **, en dan zijn positie weer terug te veranderen na een korte **wachttijd **. Je kunt dit misschien een paar keer ** herhalen **. \--- /hint \--- \--- hint \--- Dit zijn de code blokken die je nodig hebt: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Je chatbot zou moeten springen door zijn ** y-positie ** met een kleine hoeveelheid ** te veranderen **, en dan na een korte **wachttijd zijn positie weer terug te veranderen **. Je kunt dit misschien een paar keer ** herhalen **. \--- /hint \--- \--- hint \--- Dit zijn de code blokken die je nodig hebt: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
