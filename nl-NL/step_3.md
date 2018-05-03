@@ -1,23 +1,48 @@
 ## Jouw chatbot
 
-+ Voordat je begint met het maken van je chatbot, moet je beslissen over zijn persoonlijkheid. ** Denk aan de volgende vragen **:
-    
-    + Wat is zijn/haar naam?
-    + Waar woont hij/zij?
-    + Is hij/zij blij? Serieus? Grappig? Verlegen? Vriendelijk?
+\--- task \---
 
-+ Open een nieuw leeg Scratch-project.
+Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+
+    + What is their name?
+    + Where do they live?
+    + Are they happy? Serious? Funny? Shy? Friendly?
+    
+
+\--- /task \---
+
+\--- task \---
+
+Open a new empty Scratch project.
 
 [[[generic-scratch-new-project]]]
 
-+ Kies één van de karakter-sprites en voeg deze toe aan je project:
+\--- /task \---
+
+\--- task \---
+
+Choose one of these character sprites, and add them to your project:
 
 ![Choose a character](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Kies een achtergrond die past bij de persoonlijkheid van je chatbot. Hier is een voorbeeld, hoewel het jouwe er niet zo hoeft uit te zien:
+\--- /task \---
+
+\--- task \---
+
+Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
 
 ![Choose a backdrop](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
+
+\--- /task \---
+
+\--- task \---
+
+Save your project.
+
+[[[generic-scratch-saving]]]
+
+\--- /task \---
