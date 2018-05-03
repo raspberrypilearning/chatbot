@@ -1,23 +1,48 @@
 ## Sizin şifrəniz
 
-+ Sohbet brifeninizi etməməyə başlamazdan əvvəl onun şəxsiyyətinə dair qərar verməlisiniz. **Aşağıdakı suallar haqqında düşünün**:
-    
-    + Onların adı nədir?
-    + Harada yaşayırlar?
-    + Onlar xoşbəxtmi? Ciddi mi? Funny? Shy? Dostluq?
+\--- task \---
 
-+ Yeni boş Scratch layihəsini açın.
+Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+
+    + What is their name?
+    + Where do they live?
+    + Are they happy? Serious? Funny? Shy? Friendly?
+    
+
+\--- /task \---
+
+\--- task \---
+
+Open a new empty Scratch project.
 
 [[[generic-scratch-new-project]]]
 
-+ Bu xarakterli spritlardan birini seçin və onları layihəyə əlavə edin:
+\--- /task \---
 
-![Bir xarakter seçin](images/chatbot-characters.png)
+\--- task \---
+
+Choose one of these character sprites, and add them to your project:
+
+![Choose a character](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Chatbotunuzun şəxsiyyətinə uyğun olan bir fon seçin. Burada belə bir nümunə var, baxmayaraq ki bu sizin kimi olmur:
+\--- /task \---
 
-![Bir fon seçin](images/chatbot-backdrop.png)
+\--- task \---
+
+Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+
+![Choose a backdrop](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
+
+\--- /task \---
+
+\--- task \---
+
+Save your project.
+
+[[[generic-scratch-saving]]]
+
+\--- /task \---
