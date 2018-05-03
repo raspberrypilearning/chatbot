@@ -2,38 +2,38 @@
 
 Μπορείς επίσης να γράψεις κώδικα ώστε το chatbot να αλλάζει τοποθεσία.
 
-\--- task \---
+\--- task --
 
-Add another backdrop to your Stage, for example the 'moon' backdrop.
+Πρόσθεσε ένα άλλο υπόβαθρο στο Σκηνικό σου, για παράδειγμα το 'moon'.
 
-![Adding a 'moon' backdrop](images/chatbot-moon.png)
-
-\--- /task \---
-
-\--- task \---
-
-Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
-
-Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
-
-![Testing a changing backdrop](images/chatbot-backdrop-test.png)
-
-\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
-
-If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
-
-You'll also need to add code to start your chatbot in the right place **when clicked**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
+![Προσθέτοντας το υπόβαθρο 'moon'](images/chatbot-moon.png)
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
-Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
+Μπορείς να προγραμματίσεις το chatbot να ρωτά "Θα ήθελες να πας στο φεγγάρι;" και στη συνέχεια να αλλάζει τοποθεσία αν απαντήσεις "ναι";
 
-Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+Δοκίμασε και αποθήκευσε. Εάν απαντήσεις "ναι", το chatbot θα πρέπει να αλλάζει τοποθεσία. Το chatbot θα πρέπει να φαίνεται λυπημένο και να λέει "Εντάξει... αντίο!" αν δοθεί όποια άλλη απάντηση.
 
-![Testing a jumping ChatBot](images/chatbot-jump-test.png)
+![Δοκιμάζοντας ένα μεταβαλλόμενο υπόβαθρο](images/chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should jump by **changing** its **y position** by a small amount, and then changing its position back after a short **wait**. You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Το chatbot πρέπει να **ρωτά** «Θα θέλατε να πάτε στο φεγγάρι;». **Εάν** η **απάντησή** σου είναι "ναι", τότε το chatbot θα πρέπει να **αλλάζει ενδυμασία** για να φαίνεται ευτυχισμένο καθώς επίσης θα πρέπει να αλλάζει και το **υπόβαθρο**.
+
+Εάν απαντήσεις "όχι", το chatbot θα πρέπει να **αλλάζει ενδυμασία** για να φαίνεται λυπημένο και **να πει** "Εντάξει... αντίο!"
+
+Θα χρειαστείς επίσης να προσθέσεις κώδικα για να ξεκινά το chatbot από τη σωστή θέση **όταν πατηθεί**. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστείς: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task --
+
+Μπορείς να προσθέσεις κώδικα για να κάνεις το chatbot να πηδά από χαρά αν του πεις ότι θέλεις να πας στο φεγγάρι;
+
+Δοκίμασε και αποθήκευσε. Εάν απαντήσεις "ναι", το chatbot πρέπει να πηδά πάνω κάτω. Το chatbot δεν πρέπει να πηδά αν δοθεί όποια άλλη απάντηση.
+
+![Δοκιμάζοντας ένα αλτικό ChatBot](images/chatbot-jump-test.png)
+
+\--- hints \--- \--- hint \--- Το chatbot πρέπει να αναπηδά **αλλάζοντας** τη **συντεταγμένη y** κατά μία μικρή τιμή και στη συνέχεια να επανέρχεται στη θέση του μετά από μια σύντομη **αναμονή**. Μπορείς αν θες να **επαναλάβεις** αυτό μερικές φορές. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστείς: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
