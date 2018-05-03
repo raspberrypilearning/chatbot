@@ -15,7 +15,7 @@ site_areas: hankkeet
 technologies: naarmu
 hardware: ''
 software: naarmu
-version: 4
+version: 4.1.0
 last_tested: 01.1.2017
 steps:
   - 
