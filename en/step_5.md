@@ -2,7 +2,9 @@
 
 You can program your chatbot to decide what to say or do based on your responses to its questions.
 
-+ Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only __if__ the user answers "yes"?
+--- task ---
+
+Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only __if__ the user answers "yes"?
 
     To test your new code properly, you should test it __twice__, once with the answer "yes", and once with the answer "no".
 
@@ -24,7 +26,11 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+--- /task ---
+
+--- task ---
+
+At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
 
     Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the __else__ in an `if/else` block means __otherwise__).
 
@@ -44,11 +50,19 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+--- /task ---
+
+--- task ---
+
+You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
 
     ![chatbot costumes](images/chatbot-costume-view.png)
 
-+ Can you change the chatbot's costume to match your response?
+--- /task ---
+
+--- task ---
+
+Can you change the chatbot's costume to match your response?
 
     Test and save. You should see your chatbot's face change depending on your answer.
 
@@ -68,7 +82,11 @@ Here's how your code should look:
 --- /hint ---
 --- /hints ---
 
-+ Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+--- /task ---
+
+--- task ---
+
+Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
 
     ![Costume bug](images/chatbot-costume-bug-test.png)
 
@@ -89,6 +107,8 @@ Here's how your code should look:
 ![Code for a costume fix](images/chatbot-costume-fix-code.png)
 --- /hint ---
 --- /hints ---
+
+--- /task ---
 
 --- challenge ---
 ## Challenge: more decisions
