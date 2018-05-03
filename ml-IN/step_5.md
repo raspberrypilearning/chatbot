@@ -2,63 +2,70 @@
 
 ചോദ്യങ്ങൾക്ക് നിങ്ങളുടെ പ്രതികരണങ്ങളെ അടിസ്ഥാനമാക്കി എന്താണ് പറയുക അല്ലെങ്കിൽ ചെയ്യണമെന്ന് തീരുമാനിക്കാൻ ചാറ്റ്ബോട്ട് പ്രോഗ്രാം ചെയ്യാൻ കഴിയും.
 
-+ "നിങ്ങൾ ശരിയാണോ?" എന്ന ചോദ്യം ചോദിക്കാൻ ചാറ്റ്ബോട്ട് നടത്താൻ കഴിയുമോ, "അത് കേൾക്കാൻ വലിയതാണ്!" **എന്നത്** ആണെങ്കിൽ ഉപയോക്താവ് "അതെ" എന്ന് ഉത്തരം നൽകും?
-    
-    നിങ്ങളുടെ പുതിയ കോഡ് ശരിയായി പരിശോധിക്കുന്നതിനായി, **രണ്ടുതവണ**, "അതെ" എന്ന ഉത്തരം ഉപയോഗിച്ച് ഒരിക്കൽ പരിശോധിക്കുക, ഒരു തവണ ഉത്തരം "ഇല്ല" എന്ന് ഒരിക്കൽ കൂടി പരിശോധിക്കണം.
-    
-    നിങ്ങളുടെ ചാറ്റ് ബോട്ട് മറുപടി നൽകണം "ഇത് കേൾക്കാൻ അത്യധികം നല്ലതാണ്!" നിങ്ങൾ "അതെ" എന്ന് ഉത്തരം നൽകിയാൽ, "ഇല്ല" എന്ന് ഉത്തരം പറഞ്ഞാൽ ഒന്നുമില്ല.
-    
-    ![ഒരു ചാറ്റ്ബോട്ട് മറുപടി പരീക്ഷിക്കുക](images/chatbot-if-test.png)
+\--- task \---
 
-\--- hints \--- \--- hint \--- നിങ്ങളുടെ ചാറ്റ് ബോട്ട് "ഹായ്" പറഞ്ഞു കഴിഞ്ഞാൽ, അത് ഇപ്പോൾ **** "നിങ്ങൾ ശരിയാണോ?" എന്ന് ചോദിക്കണം. **** നിങ്ങൾ "അതെ" എന്ന് ഉത്തരം നൽകിയാൽ, ചാറ്റ്ബോട്ട് **എന്നുപറയണം** "ഇത് കേൾക്കാൻ അത്യധികം നല്ലതാണ്!". \--- / hint \--- \--- സൂചന \--- നിങ്ങൾക്ക് ആവശ്യമുള്ള അധിക കോഡ് ബ്ലോക്കുകൾ ഇതാ: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- / സൂചന \--- \--- സൂചന \--- ഇവിടെ നിങ്ങളുടെ കോഡ് എങ്ങനെ നോക്കണം: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- / സൂചന \--- \--- / സൂചനകൾ \---
+Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
 
-+ ഇപ്പോൾ "അല്ല" എന്നു മറുപടി പറയുമ്പോൾ നിങ്ങളുടെ ചാറ്റ്ബോട്ട് ഒന്നും പറയുന്നില്ല. നിങ്ങളുടെ ചാറ്റ്ബോട്ട് മാറ്റാൻ കഴിയുമോ, അതോ അത് "ഓ ഇല്ല" എന്ന് മറുപടിക്കും താങ്കളുടെ ചോദ്യത്തിന് "ഇല്ല" എന്ന് മറുപടി പറയുമോ?
-    
-    പരിശോധിക്കുകയും സംരക്ഷിക്കുകയും ചെയ്യുക. നിങ്ങളുടെ ചാറ്റ് ബോട്ട് ഇപ്പോൾ "ഓ! ഇല്ല" എന്നു പറയണം നിങ്ങൾ "ഇല്ല" എന്ന് ഉത്തരം നൽകുകയാണെങ്കിൽ. In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
-    
-    ![ഒരു ഉത്തരം തേടുന്നു / ഉത്തരം ഇല്ല](images/chatbot-if-else-test.png)
+To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
 
-\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- / hint \--- \--- സൂചന \--- നിങ്ങൾ ഉപയോഗിക്കുന്ന കോഡ് ബ്ലോക്കുകൾ ഇതാ: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- / സൂചന \--- \--- സൂചന \--- ഇവിടെ നിങ്ങളുടെ കോഡ് എങ്ങനെ നോക്കണം: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- / സൂചന \--- \--- / / സൂചനകൾ \---
+Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
 
-+ നിങ്ങളുടെ ചാറ്റ്ബോട്ട് സംസാരിക്കാനുള്ള കോഡ് മാത്രമല്ല,</code> ബ്ലോക്കിന് ഉള്ളിൽ ഏതെങ്കിലും കോഡ് നിങ്ങൾക്ക് നൽകാൻ കഴിയും. നിങ്ങളുടെ ചാറ്റ് ബോട്ടിന്റെ <strong>കോസ്റ്റ്യൂം</strong> ടാബിൽ നിങ്ങൾ ക്ലിക്കുചെയ്താൽ, അതിന് ഒന്നിലധികം വോളണ്ടികൾ ഉണ്ടെന്ന് നിങ്ങൾ കാണും.</p>
+![Testing a chatbot reply](images/chatbot-if-test.png)
 
-<p><img src="images/chatbot-costume-view.png" alt="ചാറ്റ്ബോട്ട് വസ്ത്രം" /></p></li>
-<li><p>നിങ്ങളുടെ പ്രതികരണം പൊരുത്തപ്പെടുത്തുന്നതിന് നിങ്ങൾ ചാറ്റ്ബോട്ടിന്റെ വേഷ്ടമാറ്റം മാറ്റാനാകുമോ?</p>
+\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
-<p>പരിശോധിക്കുകയും സംരക്ഷിക്കുകയും ചെയ്യുക. നിങ്ങളുടെ ഉത്തരത്തിന് അനുസൃതമായി നിങ്ങളുടെ ചാറ്റ്ബോട്ടിന്റെ മുഖം മാറ്റം കാണും.</p>
+\--- /task \---
 
-<p><img src="images/chatbot-costume-test.png" alt="മാറിക്കൊണ്ടിരിക്കുന്ന ഒരു വേഷവും പരീക്ഷിക്കുക" /></p></li>
-</ul>
+\--- task \---
 
-<p>--- സൂചനകൾ --- --- സൂചന --- നിങ്ങളുടെ ചാറ്റ് ബോട്ടിന് ഉത്തരം നൽകുമ്പോൾ ഉത്തരം നൽകേണ്ട <strong>വസ്ത്രവ്യതിയാനവും</strong> ആയിരിക്കണം.
---- / hint --- --- സൂചന --- നിങ്ങൾ ഉപയോഗിക്കുന്ന കോഡ് ബ്ലോക്കുകൾ ഇതാ:
-<img src="images/chatbot-costume-blocks.png" alt="Blocks for a changing costume" />
---- / സൂചന --- --- സൂചന --- ഇവിടെ നിങ്ങളുടെ കോഡ് എങ്ങനെ നോക്കണം:
-<img src="images/chatbot-costume-code.png" alt="Code for a changing costume" />
---- / സൂചന --- --- / / സൂചനകൾ ---</p>
+At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
 
-<ul>
-<li><p>നിങ്ങളുടെ ചാറ്റ് ബോട്ടിന്റെ വേഷം അത് നിങ്ങൾ അവസാനമായി ഒരിടത്തേക്ക് മാറ്റിയതായി നിങ്ങൾ ശ്രദ്ധിച്ചിട്ടുണ്ടോ? ഈ പ്രശ്നം പരിഹരിക്കാൻ കഴിയുമോ?</p>
+Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
 
-<p><img src="images/chatbot-costume-bug-test.png" alt="കോസ്റ്റ്യൂം ബഗ്" /></p>
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
-<p>ടെസ്റ്റ് ചെയ്ത് സംരക്ഷിക്കുക: നിങ്ങളുടെ കോഡ് പ്രവർത്തിപ്പിച്ച് "ഇല്ല" എന്ന് ടൈപ്പുചെയ്യുക, അതുവഴി നിങ്ങളുടെ ചാറ്റ്ബോട്ട് അസന്തുഷ്ടനാകും. നിങ്ങൾ വീണ്ടും കോഡ് പ്രവർത്തിപ്പിക്കുമ്പോൾ, നിങ്ങളുടെ പേജിനോട് ചോദിക്കുന്നതിനുമുമ്പ് നിങ്ങളുടെ ചാറ്റ്ബോട്ട് പുഞ്ചിരിക്കുന്ന മുഖത്തിലേക്ക് മാറിയിരിക്കണം.</p>
+\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
-<p><img src="images/chatbot-costume-fix-test.png" alt="ഒരു വസ്ത്രധാരണ പരിഹാരം പരീക്ഷിക്കുക" /></p></li>
-</ul>
+\--- /task \---
 
-<p>--- hints --- --- സൂചന --- <strong>സ്പ്രൈറ്റ്</strong>ക്ലിക്ക് ചെയ്യുമ്പോൾ, നിങ്ങളുടെ ചാറ്റ്ബോട്ട് ആദ്യം <strong>ഒരു പുഞ്ചിരി മുഖം</strong> ലേക്ക് മാറണം.
---- / hint --- --- സൂചന --- ഇവിടെ നിങ്ങൾ ചേർക്കേണ്ട കോഡ് ബ്ലോക്ക്:
-<img src="images/chatbot-costume-fix-blocks.png" alt="Blocks for a costume fix" />
---- / സൂചന --- --- സൂചന --- ഇവിടെ നിങ്ങളുടെ കോഡ് എങ്ങനെ നോക്കണം:
-<img src="images/chatbot-costume-fix-code.png" alt="Code for a costume fix" />
---- / സൂചന --- --- / സൂചനകൾ ---</p>
+\--- task \---
 
-<p>--- വെല്ലുവിളി ---</p>
+You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
 
-<h2>വെല്ലുവിളി: കൂടുതൽ തീരുമാനങ്ങൾ</h2>
+![chatbot costumes](images/chatbot-costume-view.png)
 
-<p>നിങ്ങളുടെ ചാറ്റ്ബോട്ട് മറ്റൊരു ചോദ്യം ചോദിക്കാൻ പ്രോഗ്രാം ചെയ്യുക - ഒരു "ഉവ്വ്" അല്ലെങ്കിൽ "ഇല്ല" എന്ന ഉത്തരം ഉപയോഗിച്ച് എന്തെങ്കിലും. നിങ്ങളുടെ ചാറ്റ്ബോട്ട് ഉത്തരത്തിന് പ്രതികരിക്കാൻ കഴിയുമോ?</p>
+\--- /task \---
 
-<p><img src="images/chatbot-joke.png" alt="സ്ക്രീൻഷോട്ട്" />
---- / വെല്ലുവിളി ---</p>
+\--- task \---
+
+Can you change the chatbot's costume to match your response?
+
+Test and save. You should see your chatbot's face change depending on your answer.
+
+![Testing a changing costume](images/chatbot-costume-test.png)
+
+\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+
+![Costume bug](images/chatbot-costume-bug-test.png)
+
+Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
+
+\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- challenge \---
+
+## വെല്ലുവിളി: കൂടുതൽ തീരുമാനങ്ങൾ
+
+Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
+
+![screenshot](images/chatbot-joke.png) \--- /challenge \---
