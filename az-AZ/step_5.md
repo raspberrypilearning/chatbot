@@ -2,50 +2,70 @@
 
 Suallarınıza cavablarınıza əsaslanaraq nə demək və ya qərar verməyə qərar vermək üçün söhbət proqramınızı tərtib edə bilərsiniz.
 
-+ Çatqoşa verə bilərikmi "Siz yaxşısınız?" Sualını soruşa bilərsiniz və cavab vermək üçün kodu "Eşitmək çox xoşdur!" **əgər** istifadəçi "yes" cavabını verirsə?
-    
-    Yeni kodunuzu düzgün sınaqdan keçirmək üçün onu **iki dəfə**, bir dəfə "yes" cavabını və bir dəfə "yox" cavabını test etməliyəm.
-    
-    Sizin cavab vermiş olduğunuz şifrə "Bu eşitmək çox xoşdur!" "bəli" cavabını verirsənsə, yoxsa "yox" deyə cavab verə bilməyəcəksiniz.
-    
-    ![Bir chatbot cavab test](images/chatbot-if-test.png)
+\--- task \---
 
-\--- İpuçları \--- \--- ipucu \--- Çatibənizin "Salam" dedikdən sonra, indi də **** "Yaxşısınızmı?" **** "yes" cavabını verdiyiniz halda, chatbot **deməlidir** "Bu eşitmək böyük!". \--- / ipucu \--- \--- işarə \--- Sizə lazım olan əlavə kod blokları: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- / hint \--- \--- ipucu \--- Kodunuz necə olmalıdır: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- / ipucu \--- \--- / göstərişlər \---
+Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
 
-+ Halbuki "cavabsız" cavab verdiyiniz halda, chatbot heç bir şey demir. Çatqaz blokunuzu dəyişdirə bilərsinizmi ki, o da "Oh no!" Cavab verir. sualına "yox" cavab verərsən?
-    
-    Test edin və qənaət edin. Çatdırılmağınız artıq "Oh no!" "yox" deyə cavab verirsən. In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
-    
-    ![Bəli / yox cavab test](images/chatbot-if-else-test.png)
+To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
 
-\--- İpuçları \--- \--- ipucu \--- Sizin chatbot indi demək lazımdır "Bu eşitmək üçün böyük!" **cavabınız "yes" isə** isə "Oh no!" **başqa bir cavabınız varsa**. \--- / ipucu \--- \--- ipucu \--- İşdə istifadə etmək üçün lazım olan kod blokları: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- / hint \--- \--- ipucu \--- Kodunuzun necə görünməsi lazımdır: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- / ipucu \--- \--- / göstərişlər \---
+Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
 
-+ `if / else` bloku daxilində hər hansı bir kodu yaza bilərsiniz. Sohbet bloğunuzun **Costume** sekmesini tıklasanız, birdən çox kostyum olduğunu görürsünüz.
-    
-    ![chatbot kostyumları](images/chatbot-costume-view.png)
+![Testing a chatbot reply](images/chatbot-if-test.png)
 
-+ Cavabınıza uyğun olaraq chatbotun kostyumunu dəyişə bilərsinizmi?
-    
-    Test edin və qənaət edin. Cavabınıza uyğun olaraq, chatbotun üzünü dəyişməlisiniz.
-    
-    ![Değişen kostyumu test etmə](images/chatbot-costume-test.png)
+\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
-\--- İpuçları \--- \--- ipucu \--- Verdiyiniz cavabdan asılı olaraq chatbotunuz da **kostyum kostyumunu** qoymalıdır. \--- / ipucu \--- \--- ipucu \--- İşdə istifadə etmək üçün lazım olan kod blokları: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- / hint \--- \--- ipucu \--- Kodunuzun necə görünməsi lazımdır: ![Code for a changing costume](images/chatbot-costume-code.png) \--- / ipucu \--- \--- / göstərişlər \---
+\--- /task \---
 
-+ Çatqbotunuzun kostyumunun sonuncu dəfə dəyişdiyini dəyişdiyini fərq etdinizmi? Bu problemi düzəldə bilərsinizmi?
-    
-    ![Kostyum səhv](images/chatbot-costume-bug-test.png)
-    
-    Test edin və qeyd edin: Sizin kodunuzu işləyin və "yox" yazın, çünki söhbətiniz bədbəxt görünür. Kodunuzu yenidən çalıştırdığınızda, ismarıcınızı soruşmadan əvvəl, chatbotunuz gülümsəyən bir üzə dönməlidir.
-    
-    ![Kostyum düzəltmə testi](images/chatbot-costume-fix-test.png)
+\--- task \---
 
-\--- ipuçları \--- \--- ipucu \--- **sprite**tıklandığında, chatbotunuz ilk olaraq **kostyum kostümünü** gülümseyen bir üzə keçməlidir. \--- / ipucu \--- \--- işarə \--- Əlavə etmək lazımdır kod blokudur: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- / hint \--- \--- ipucu \--- Kodunuzun necə görünməsi lazım: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- / ipucu \--- \--- / göstərişlər \---
+At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
 
-\--- çağırış \---
+Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
+
+\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view.png)
+
+\--- /task \---
+
+\--- task \---
+
+Can you change the chatbot's costume to match your response?
+
+Test and save. You should see your chatbot's face change depending on your answer.
+
+![Testing a changing costume](images/chatbot-costume-test.png)
+
+\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+
+![Costume bug](images/chatbot-costume-bug-test.png)
+
+Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
+
+\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- challenge \---
 
 ## Çağırış: daha çox qərar
 
-"Bəli" və ya "yox" cavabı ilə bir şey soruşmaq üçün chatbot proqramınızı hazırlayın. Çatışan cavab verməyə cavab verə bilərsinizmi?
+Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
 
-![ekran görüntüsü](images/chatbot-joke.png) \--- / problem
+![screenshot](images/chatbot-joke.png) \--- /challenge \---
