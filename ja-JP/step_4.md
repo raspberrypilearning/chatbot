@@ -2,36 +2,50 @@
 
 チャットボットのせいかくが決まったので、おしゃべりができるようにプログラムしましょう。
 
-+ クリックされた時に、チャットボットが名前を聞いたら「すてきな名前だね！」と答えるように、コードを入れてみましょう。
-    
-    ![チャットボットの答え](images/chatbot-ask-test.png)
+\--- task \---
 
-[[[generic-scratch-saving]]]
+Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
 
-\--- hints \--- \--- hint \--- チャットボットが **クリックされた時**に、名前を**聞く** ようにしましょう。 チャットボットは「すてきな名前だね！」と**言います**。 \--- /hint \--- \--- hint \--- 使うブロックはこちらです。 ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+![Testing a ChatBot response](images/chatbot-ask-test.png)
 
-+ チャットボットは毎回「すてきな名前だね!」と答えます。チャットボットの返答を個性的に変えることができますか？
-    
-    ![答えをかえてみる](images/chatbot-answer-test.png)
+\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
-\--- hints \--- \--- hint \--- チャットボットが **クリックされた時**に、名前を**聞く** ようにしましょう。 チャットボットは「やあ！」と**言います**。その後に、自分の**答え**が続きます。 \--- /hint \--- \--- hint \--- 使うブロックはこちらです。 ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- /task \---
 
-+ 答えを**変数（へんすう）**に入れると、後でも使うことができます。`名前`という変数を新しく作りましょう。
+\--- task \---
+
+Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+
+![Testing a personalised reply](images/chatbot-answer-test.png)
+
+\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
 
 [[[generic-scratch-add-variable]]]
 
-+ 自分の答えを`名前` 変数に入れて、チャットボットの答えに使ってみましょう。
-    
-    前と同じようにコードは動きます。チャットボットは入力された名前を使って話します。
-    
-    ![名前変数のテスト](images/chatbot-ask-test.png)
+\--- /task \---
 
-\--- hints \--- \--- hint \--- チャットボットが **クリックされた時**に、名前を**聞く** ようにしましょう。 `名前` 変数を**答え**にします。 そしてチャットボットは「やあ！」と**答えます**。その後に、自分の**名前**が続きます。 \--- /hint \--- \--- hint \--- 使うブロックはこちらです。 ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- task \---
+
+Can you store your answer in the `name` variable and use it in your chatbot's reply?
+
+Your code should work as before: your chatbot should say hello using your name.
+
+![Testing a 'name' variable](images/chatbot-ask-test.png)
+
+\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
 
 \--- challenge \---
 
 ## チャレンジ：質問（しつもん）をふやす
 
-チャットボットがもう一つ他のことを聞いてくるようにプログラムしてみましょう。 答えを変数に入れられるでしょうか?
+Program your chatbot to ask another question. Can you store the answer in a new variable?
 
-![質問をふやす](images/chatbot-question.png) \--- /challenge \---
+![More questions](images/chatbot-question.png) \--- /challenge \---
