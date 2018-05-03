@@ -1,23 +1,48 @@
 ## നിങ്ങളുടെ ചാറ്റ് ബോട്ട്
 
-+ നിങ്ങൾ ചാറ്റ്ബോട്ട് നടത്തുന്നതിന് മുമ്പ്, നിങ്ങൾ അതിൻറെ വ്യക്തിത്വത്തെക്കുറിച്ച് തീരുമാനിക്കേണ്ടതുണ്ട്. **ഇനിപ്പറയുന്ന ചോദ്യങ്ങൾ പരിചിന്തിക്കുക**:
-    
-    + അവരുടെ പേരെന്താണ്?
-    + അവർ എവിടെ താമസിക്കുന്നു?
-    + അവർ സന്തുഷ്ടരാണോ? ഗുരുതരമായ രസകരമാണോ? ഭയപ്പെടേണ്ടതല്ലേ? സൗഹൃദം?
+\--- task \---
 
-+ ഒരു പുതിയ ശൂന്യ സ്ക്രോച്ച് പ്രോജക്റ്റ് തുറക്കുക.
+Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+
+    + What is their name?
+    + Where do they live?
+    + Are they happy? Serious? Funny? Shy? Friendly?
+    
+
+\--- /task \---
+
+\--- task \---
+
+Open a new empty Scratch project.
 
 [[[generic-scratch-new-project]]]
 
-+ ഈ പ്രതീകങ്ങളുടെ സ്പെൈറ്റുകളിൽ ഒരെണ്ണം തിരഞ്ഞെടുക്കുക, ഒപ്പം അവ നിങ്ങളുടെ പ്രോജക്ടിൽ ചേർക്കുക:
+\--- /task \---
 
-![ഒരു പ്രതീകം തിരഞ്ഞെടുക്കുക](images/chatbot-characters.png)
+\--- task \---
+
+Choose one of these character sprites, and add them to your project:
+
+![Choose a character](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ നിങ്ങളുടെ ചാറ്റ്ബോട്ടിന്റെ വ്യക്തിത്വത്തിന് അനുയോജ്യമായ ഒരു ബാക്ക്ഡ്രോപ്പ് തിരഞ്ഞെടുക്കുക. ഇതാ ഒരു ഉദാഹരണം, നിങ്ങളുടേതുപോലുണ്ടായിരുന്നില്ല ഇങ്ങനെ:
+\--- /task \---
 
-![ഒരു ബാക്ക്ട്രോപ്പ് തിരഞ്ഞെടുക്കുക](images/chatbot-backdrop.png)
+\--- task \---
+
+Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+
+![Choose a backdrop](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
+
+\--- /task \---
+
+\--- task \---
+
+Save your project.
+
+[[[generic-scratch-saving]]]
+
+\--- /task \---
