@@ -2,50 +2,70 @@
 
 Program chatbot lahko programirate tako, da se odločite, kaj želite povedati ali storiti na podlagi odgovorov na vprašanja.
 
-+ Ali lahko klepetalnico zastavi vprašanje »Ali ste v redu?« In kodo odgovorite »To je super slišati!« samo **, če uporabnik odgovori »da«**?
-    
-    Če želite pravilno preizkusiti novo kodo, jo morate preskusiti **dvakrat**, enkrat z odgovorom "da" in enkrat z odgovorom "ne".
-    
-    Vaš chatbot bi moral odgovoriti: "To je super, da slišiš!" če odgovorite "da", vendar ne odgovorite nič, če odgovorite "ne".
-    
-    ![Preizkušanje odgovora za klepet](images/chatbot-if-test.png)
+\--- task \---
 
-\--- namige \--- \--- nasvet \--- Po tem, ko je tvoj chatbot povedal, "Zdravo", bi moral zdaj tudi **vprašati** "Ste v redu?". **Če** odgovorite z "da", potem chatbot mora **reči** "To je super slišati!". \--- / namig \--- \--- namig \--- Tukaj so dodatni koda bloki, ki jih potrebujete: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- / hint \--- \--- namig \--- Evo, kako naj bo vaša koda videti: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- / namig \--- \--- / namigi \---
+Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
 
-+ Trenutno vaš klepet ne pove ničesar, če odgovorite "ne". Ali lahko spremenite svojo chatbot tako, da bo odgovoril tudi "Oh ne!" če odgovorite na vprašanje "ne"?
-    
-    Preizkusite in shranite. Vaš chatbot bi zdaj moral reči "Oh ne!" če odgovorite "ne". Pravzaprav bo rekel "Na ne!" če odgovorite z nečim drugim, kot je "da" ( **drugo** v `if / else` blok pomeni **drugače**).
-    
-    ![Preizkušanje odgovora da / ne](images/chatbot-if-else-test.png)
+To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
 
-\--- namig \--- \--- nasvet \--- Vaš chatbot bi zdaj moral reči: "To je super slišati!" **če je** tvoj odgovor "da", ampak bi moral reči "Oh ne!" če odgovorite na kaj **drugo**. \--- / namig \--- \--- namig \--- Tukaj so bloki kode, ki jih boste morali uporabiti: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- / hint \--- \--- namig \--- Evo, kako naj bo vaša koda videti: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- / namig \--- \--- / namigi \---
+Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
 
-+ Lahko vnesete poljubno kodo v `if / else` blok, ne samo kodo, da bi vaš chatbot govoril. Če kliknete zavihek **kostum** v klepetu v klepetu, boste videli, da ima več kot en kostum.
-    
-    ![kostumi za klepet](images/chatbot-costume-view.png)
+![Testing a chatbot reply](images/chatbot-if-test.png)
 
-+ Ali lahko spremenite kostum klepetalnice, da ustreza vašemu odzivu?
-    
-    Preizkusite in shranite. Videti morate, da se obraz vašega klepeta spremeni glede na vaš odgovor.
-    
-    ![Preizkušanje spremenjenega kostuma](images/chatbot-costume-test.png)
+\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
-\--- nasveti \--- \--- nasvet \--- Vaš chatbot zdaj mora tudi **preklopiti kostum** odvisno od odgovora. \--- / namig \--- \--- nasvet \--- Tukaj so bloki kode, ki jih boste morali uporabiti: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- / hint \--- \--- namig \--- Tukaj naj bo vaša koda videti: ![Code for a changing costume](images/chatbot-costume-code.png) \--- / namig \--- \--- / namigi \---
+\--- /task \---
 
-+ Ste opazili, da kostum klepeta ostaja enak, da se je to spremenilo, ko ste nazadnje govorili z njim? Ali lahko odpravite to težavo?
-    
-    ![Costume bug](images/chatbot-costume-bug-test.png)
-    
-    Preizkusite in shranite: zaženite kodo in vnesite »ne«, tako da vaš klepet ne bo zadovoljen. Ko znova zaženete kodo, se mora pogovorno okno spremeniti nazaj na nasmejan obraz, preden vprašate svoje ime.
-    
-    ![Preizkušanje kostumov](images/chatbot-costume-fix-test.png)
+\--- task \---
 
-\--- namige \--- \--- nakazovanje \--- Ko kliknete **sprite**, bi moral klepetalniku najprej preklopiti kostum **** na nasmejan obraz. \--- / namig \--- \--- nasvet \--- Tukaj je kodni blok, ki ga boste morali dodati: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- / hint \--- \--- namig \--- Evo, kako naj bo vaša koda videti: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- / namig \--- \--- / namigi \---
+At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
 
-\--- izziv \---
+Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
+
+\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view.png)
+
+\--- /task \---
+
+\--- task \---
+
+Can you change the chatbot's costume to match your response?
+
+Test and save. You should see your chatbot's face change depending on your answer.
+
+![Testing a changing costume](images/chatbot-costume-test.png)
+
+\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+
+![Costume bug](images/chatbot-costume-bug-test.png)
+
+Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
+
+\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- challenge \---
 
 ## Izziv: več odločitev
 
-Programirajte svoj pogovorni klepet, če želite postaviti drugo vprašanje - nekaj z odgovorom »da« ali »ne«. Ali lahko klepetate odgovorite na odgovor?
+Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
 
-![screenshot](images/chatbot-joke.png) \--- / izziv \---
+![screenshot](images/chatbot-joke.png) \--- /challenge \---
