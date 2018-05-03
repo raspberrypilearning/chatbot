@@ -2,36 +2,50 @@
 
 ഇപ്പോൾ നിങ്ങൾക്ക് ഒരു വ്യക്തിത്വവുമായി ഒരു ചാറ്റ്ബോട്ട് ഉണ്ട്, നിങ്ങളോട് സംസാരിക്കാൻ അതിനെ പ്രോഗ്രാം ചെയ്യുക.
 
-+ നിങ്ങളുടെ ചാറ്റ് ബോട്ടിലേക്ക് കോഡ് ചേർത്ത് അത് ക്ലിക്കുചെയ്യുമ്പോൾ അത് നിങ്ങളുടെ പേര് ചോദിക്കുകയും തുടർന്ന് "എന്തൊരു സുന്ദര നാമം!" എന്നുപറയുകയും ചെയ്യുന്നു.
-    
-    ![ഒരു ChatBot പ്രതികരണം പരിശോധിക്കുന്നു](images/chatbot-ask-test.png)
+\--- task \---
 
-[[[generic-scratch-saving]]]
+Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
 
-\--- സൂചനകൾ \--- \--- സൂചന \--- ചാറ്റ്ബോട്ട് **സ്പ്രൈറ്റ്**ക്ലിക്ക് ചെയ്യുമ്പോൾ, **നിങ്ങളുടെ പേരിൽ** ചോദിക്കണം. അപ്പോൾ ചാറ്റാണ് **എന്നുപറയുക** "എന്തൊരു സുന്ദര നാമം!" \--- / hint \--- \--- സൂചന \--- നിങ്ങൾക്ക് ആവശ്യമുള്ള കോഡ് ബ്ലോക്കുകൾ ഇവിടെയുണ്ട്: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- / സൂചന \--- \--- സൂചന \--- നിങ്ങളുടെ കോഡ് എങ്ങനെ കാണണം എന്നത്: ![Code for a ChatBot reply](images/chatbot-ask-code.png) - - / സൂചന \--- \--- / സൂചനകൾ \---
+![Testing a ChatBot response](images/chatbot-ask-test.png)
 
-+ ഇപ്പോൾ ചാറ്റ്ബോട്ടിന് മറുപടിയായി "എന്തൊരു സുന്ദര നാമം!" എപ്പോഴും. നിങ്ങളുടെ ഉത്തരം ഉപയോഗിച്ചു കൊണ്ട് നിങ്ങളുടെ ചാറ്റ്ബോട്ട് മറുപടി വ്യക്തിഗതമാക്കാനാകുമോ?
-    
-    ![വ്യക്തിപരമായ മറുപടി പരിശോധിക്കുക](images/chatbot-answer-test.png)
+\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
-\--- സൂചനകൾ \--- \--- സൂചന \--- ചാറ്റ്ബോട്ട് **സ്പ്രൈറ്റ്**ക്ലിക്ക് ചെയ്യുമ്പോൾ, **നിങ്ങളുടെ പേരിൽ** ചോദിക്കണം. തുടർന്ന്, **എന്നുപറഞ്ഞാൽ** "ഹായ്", തുടർന്ന് നിങ്ങളുടെ **മറുപടി**. \--- / hint \--- \--- സൂചന \--- നിങ്ങൾക്ക് ആവശ്യമുള്ള കോഡ് ബ്ലോക്കുകൾ ഇവിടെയുണ്ട്: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- / സൂചന \--- \--- സൂചന \--- നിങ്ങളുടെ കോഡ് എങ്ങനെ കാണണം എന്നത് ഇതാ: ![Code for a personalised reply](images/chatbot-answer-code.png) - - / സൂചന \--- \--- / സൂചനകൾ \---
+\--- /task \---
 
-+ നിങ്ങളുടെ ഉത്തരം ഒരു **വേരിയബിളില്**ആക്കുകയാണെങ്കില്, പിന്നീട് ഇത് ഉപയോഗിക്കാം. നിങ്ങളുടെ പേര് സൂക്ഷിക്കുന്നതിന് `പേര്` എന്ന പുതിയ വേരിയബിൾ സൃഷ്ടിക്കുക.
+\--- task \---
+
+Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+
+![Testing a personalised reply](images/chatbot-answer-test.png)
+
+\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
 
 [[[generic-scratch-add-variable]]]
 
-+ `പേര്` വേരിയബിളിൽ നിങ്ങളുടെ ഉത്തരം സൂക്ഷിക്കാനാകുമോ, നിങ്ങളുടെ ചാറ്റ്ബോട്ടിന്റെ മറുപടിയിൽ ഇത് ഉപയോഗിക്കുമോ?
-    
-    നിങ്ങളുടെ കോഡ് മുമ്പത്തേതു പോലെ പ്രവർത്തിക്കണം: നിങ്ങളുടെ പേരുകൾ ഉപയോഗിച്ച് നിങ്ങളുടെ ഹലോ പറയുക.
-    
-    ![ഒരു 'പേര്' വേരിയബിള് പരിശോധിക്കുക](images/chatbot-ask-test.png)
+\--- /task \---
 
-\--- സൂചനകൾ \--- \--- സൂചന \--- ചാറ്റ്ബോട്ട് **സ്പ്രൈറ്റ്**ക്ലിക്ക് ചെയ്യുമ്പോൾ, **നിങ്ങളുടെ പേരിൽ** ചോദിക്കണം. You should then **set** the `name` variable to your **answer**. തുടർന്ന് **എന്നുപറഞ്ഞാൽ** "ഹായ്", തുടർന്ന് നിങ്ങളുടെ **പേര്** എന്നുപറയണം. \--- / hint \--- \--- സൂചന \--- നിങ്ങൾക്ക് ആവശ്യമുള്ള കോഡ് ബ്ലോക്കുകൾ ഇവിടെയുണ്ട്: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- / സൂചന \--- \--- സൂചന \--- നിങ്ങളുടെ കോഡ് എങ്ങനെ കാണണം എന്നത് ഇതാ: ![Code for a 'name' variable](images/chatbot-variable-code.png) - - / സൂചന \--- \--- / സൂചനകൾ \---
+\--- task \---
 
-\--- വെല്ലുവിളി \---
+Can you store your answer in the `name` variable and use it in your chatbot's reply?
+
+Your code should work as before: your chatbot should say hello using your name.
+
+![Testing a 'name' variable](images/chatbot-ask-test.png)
+
+\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- challenge \---
 
 ## വെല്ലുവിളി: കൂടുതൽ ചോദ്യങ്ങൾ
 
-നിങ്ങളുടെ ചാറ്റ്ബോട്ട് മറ്റൊരു ചോദ്യം ചോദിക്കാൻ പ്രോഗ്രാം ചെയ്യുക. ഒരു പുതിയ വേരിയബിളിൽ നിങ്ങൾക്ക് ഉത്തരം സംഭരിക്കാനാകുമോ?
+Program your chatbot to ask another question. Can you store the answer in a new variable?
 
-![കൂടുതൽ ചോദ്യങ്ങൾ](images/chatbot-question.png) \--- / വെല്ലുവിളി \---
+![More questions](images/chatbot-question.png) \--- /challenge \---
