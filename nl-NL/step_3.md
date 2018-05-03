@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+Voordat je begint met het maken van je chatbot, moet je beslissen over zijn persoonlijkheid. **Denk aan de volgende vragen**:
 
     + What is their name?
     + Where do they live?
