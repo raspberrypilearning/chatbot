@@ -2,50 +2,70 @@
 
 Voit ohjelmoida chatbotsi päättää, mitä sanoa tai tehdä vastausten perusteella kysymyksiisi.
 
-+ Voitteko tehdä chatbot kysyä "Oletko kunnossa?" Ja koodata sitä vastaamaan "Se on hienoa kuulla!" vain **jos** käyttäjä vastaa "kyllä"?
-    
-    Testaa uusi koodi kunnolla, kokeile sitä **kahdesti**, kerran vastauksella "kyllä" ja kerran vastauksella "ei".
-    
-    Chatbotisi pitäisi vastata "Se on hienoa kuulla!" jos vastaat "kyllä", mutta älä sano mitään, jos vastaat "ei".
-    
-    ![Chatbot-vastauksen testaaminen](images/chatbot-if-test.png)
+\--- task \---
 
-\--- vinkit \--- \--- vinkki \--- Kun chatbot on sanonut "Hi", sen pitäisi nyt myös **kysyä** "Oletko kunnossa?". **Jos** vastaa "kyllä", chatbotin pitäisi **sanoa** "Se on hienoa kuulla!". \--- / hint \--- \--- vinkki \--- Tässä on tarvittavia ylimääräisiä koodilohkoja: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- / hint \--- \--- vinkki \--- Näin koodisi pitäisi näyttää: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- / hint \--- \--- / vinkit \---
+Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
 
-+ Tällä hetkellä chatbot ei sano mitään, jos vastaat "ei". Voitko vaihtaa chatbota niin, että se vastaa myös "Oh no!" jos vastaat kysymykseenne "ei"?
-    
-    Testaa ja tallenna. Chatbotisi pitäisi nyt sanoa "Oh no!" jos vastaat "ei". Itse asiassa se sanoo "Ei!" jos vastaat muuta kuin "kyllä" ( **muuten** `jos / muut` estää **muuten**).
-    
-    ![Kyllä / ei vastauksen testaaminen](images/chatbot-if-else-test.png)
+To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
 
-\--- vinkkejä \--- \--- vinkka \--- Sinun chatbot pitäisi nyt sanoa "Se on hienoa kuulla!" **jos** vastauksesi on "kyllä", mutta sen pitäisi sanoa "Oh no!" jos vastaat jotain **muuten**. \--- / hint \--- \--- vinkki \--- Tässä on koodilohkot, joita sinun on käytettävä: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- / hint \--- \--- vinkki \--- Näin sinun koodisi pitäisi näyttää: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- / hint \--- \--- / vinkit \---
+Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
 
-+ Voit laittaa minkä tahansa koodin `if / else` -lohkoon, ei pelkästään koodiin, jotta chatbotisi puhuisi. Jos napsautat chatbotin **Puku** -välilehteä, näet, että sillä on useampi kuin yksi puku.
-    
-    ![chatbot-puvut](images/chatbot-costume-view.png)
+![Testing a chatbot reply](images/chatbot-if-test.png)
 
-+ Voitko vaihtaa chatbotin puku vastaamaan vasteesi?
-    
-    Testaa ja tallenna. Sinun pitäisi nähdä chatbotin kasvot vaihtelevat vastauksen mukaan.
-    
-    ![Testaa muuttuva puku](images/chatbot-costume-test.png)
+\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
-\--- vinkit \--- \--- vinkka \--- Chatbotisi pitäisi nyt myös **vaihtaa puku** riippuen annetusta vastauksesta. \--- / hint \--- \--- vinkki \--- Tässä on koodilohkot, joita sinun on käytettävä: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- / hint \--- \--- vinkki \--- Näin sinun koodisi pitäisi näyttää: ![Code for a changing costume](images/chatbot-costume-code.png) \--- / hint \--- \--- / vinkit \---
+\--- /task \---
 
-+ Oletko huomannut, että chatbotin puku pysyy samana, että se muuttui viimeksi kun puhut siihen? Voitko korjata tämän ongelman?
-    
-    ![Pukusäätö](images/chatbot-costume-bug-test.png)
-    
-    Testaa ja tallenna: Suorita koodisi ja kirjoita "ei", jotta chatbotisi näyttää onnettomalta. Kun käytät koodia uudelleen, chatbot-tilisi tulee vaihtaa hymyileviin kasvoihin ennen kuin kysyy nimeäsi.
-    
-    ![Pukusuhteen testaaminen](images/chatbot-costume-fix-test.png)
+\--- task \---
 
-\--- vinkit \--- \--- vinkki \--- Kun **spriteä napsautetaan**, chatbotin tulee ensin **vaihtaa puku** hymyileviin kasvoihin. \--- / hint \--- \--- vinkki \--- Tässä on koodilohko, jonka sinun on lisättävä: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- / hint \--- \--- vinkki \--- Näin koodisi pitäisi näyttää: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- / hint \--- \--- / vinkit \---
+At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
 
-\--- haaste \---
+Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
+
+\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view.png)
+
+\--- /task \---
+
+\--- task \---
+
+Can you change the chatbot's costume to match your response?
+
+Test and save. You should see your chatbot's face change depending on your answer.
+
+![Testing a changing costume](images/chatbot-costume-test.png)
+
+\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+
+![Costume bug](images/chatbot-costume-bug-test.png)
+
+Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
+
+\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+
+\--- /task \---
+
+\--- challenge \---
 
 ## Haaste: enemmän päätöksiä
 
-Voit ohjelmoida chatbotisi kysymään toisen kysymyksen - jotain "kyllä" tai "ei" vastausta. Voitteko soittaa chatbotisi vastaamaan vastaukseen?
+Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
 
-![kuvakaappaus](images/chatbot-joke.png) \--- /haaste \---
+![screenshot](images/chatbot-joke.png) \--- /challenge \---
