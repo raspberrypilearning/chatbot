@@ -1,23 +1,48 @@
 ## Twój robot gaduła
 
-+ Zanim zaczniesz tworzyć swojego robota musisz zadecydować o jego osobowości. **Przemyśl te pytania**:
-    
-    + Jak ma mieć na imię?
-    + Gdzie mieszka?
-    + Czy jest wesoły, poważny, zabawny, nieśmiały, przyjacielski?
+\--- task \---
 
-+ Otwórz nowy projekt w Scratch-u.
+Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+
+    + What is their name?
+    + Where do they live?
+    + Are they happy? Serious? Funny? Shy? Friendly?
+    
+
+\--- /task \---
+
+\--- task \---
+
+Open a new empty Scratch project.
 
 [[[generic-scratch-new-project]]]
 
-+ Wybierz jednego z poniższych duszków i dodaj go do swojego projektu:
+\--- /task \---
 
-![Wybierz duszka](images/chatbot-characters.png)
+\--- task \---
+
+Choose one of these character sprites, and add them to your project:
+
+![Choose a character](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Wybierz tło pasujące do Twojego duszka. Może być takie jak w poniższym przykładzie, ale możesz wybrać inne, które bardziej Ci się spodoba:
+\--- /task \---
 
-![Wybierz tło](images/chatbot-backdrop.png)
+\--- task \---
+
+Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+
+![Choose a backdrop](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
+
+\--- /task \---
+
+\--- task \---
+
+Save your project.
+
+[[[generic-scratch-saving]]]
+
+\--- /task \---
