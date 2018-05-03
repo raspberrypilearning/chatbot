@@ -4,17 +4,17 @@ Nu dat je een chatbot met een persoonlijkheid hebt, ga je het programmeren om me
 
 \--- task \---
 
-Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+Voeg code toe aan je chatbot, zodat wanneer je op klikt, deze naar je naam vraagt ​​en vervolgens zegt: "Wat een mooie naam!"
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Wanneer op de chatbot **sprite wordt geklikt**, moet het naar je naam **vragen**. De chatbot moet dan **zeggen** "wat een mooie naam!" \--- /hint \--- \--- hint \--- Dit zij de code blokken die je nodig hebt: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Zo zou je code er moeten uitzien: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints --
 
 \--- /task \---
 
 \--- task \---
 
-Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+Nu antwoordt de chatbot elke keer met "Wat een mooie naam!". Kunt je het antwoord van je chatbot personaliseren door gebruik te maken van je antwoord?
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
