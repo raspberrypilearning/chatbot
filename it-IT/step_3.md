@@ -1,23 +1,48 @@
 ## Il tuo ChiacchieRobot
 
-+ Prima di iniziare a creare il tuo ChiacchieRobot, dovrai decidere la sua personalità. **Dai un'occhiata a queste domande**:
-    
-    + Come si chiama?
-    + Dove vive?
-    + È felice? Serio? Divertente? Timido? Simpatico?
+\--- task \---
 
-+ Inizia un nuovo progetto Scratch.
+Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+
+    + What is their name?
+    + Where do they live?
+    + Are they happy? Serious? Funny? Shy? Friendly?
+    
+
+\--- /task \---
+
+\--- task \---
+
+Open a new empty Scratch project.
 
 [[[generic-scratch-new-project]]]
 
-+ Scegli uno di questi sprite di personaggi e aggiungilo al tuo progetto:
+\--- /task \---
 
-![Scegli un personaggio](images/chatbot-characters.png)
+\--- task \---
+
+Choose one of these character sprites, and add them to your project:
+
+![Choose a character](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
-+ Scegli uno scenario che si adatti alla personalità del tuo ChiacchieRobot. Ecco un esempio, ma il tuo non deve essere uguale a questo:
+\--- /task \---
 
-![Scegli uno sfondo](images/chatbot-backdrop.png)
+\--- task \---
+
+Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+
+![Choose a backdrop](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
+
+\--- /task \---
+
+\--- task \---
+
+Save your project.
+
+[[[generic-scratch-saving]]]
+
+\--- /task \---
