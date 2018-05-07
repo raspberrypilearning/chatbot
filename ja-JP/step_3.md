@@ -2,18 +2,18 @@
 
 \--- task \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+作る前に、チャットボットのせいかくを決めましょう。 **こんな風に考えてみましょう。**
 
-    + What is their name?
-    + Where do they live?
-    + Are they happy? Serious? Funny? Shy? Friendly?
+    + 名前は？
+    + 住んでいる場所は？
+    + 明るい？まじめ？面白い？はずかしがりや？親切？
     
 
 \--- /task \---
 
 \--- task \---
 
-Open a new empty Scratch project.
+新しいScratchのプロジェクトを開きましょう。
 
 [[[generic-scratch-new-project]]]
 
@@ -21,9 +21,9 @@ Open a new empty Scratch project.
 
 \--- task \---
 
-Choose one of these character sprites, and add them to your project:
+キャラクターの絵をえらんで、プロジェクト内におきましょう。
 
-![Choose a character](images/chatbot-characters.png)
+![キャラクターをえらぼう](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -31,9 +31,9 @@ Choose one of these character sprites, and add them to your project:
 
 \--- task \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+キャラクターにあう背景（はいけい）をえらびましょう。こういう感じにしても良いですし、ちがう背景にすることもできます。
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![背景をえらぼう](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
@@ -41,7 +41,7 @@ Choose a backdrop that fits your chatbot's personality. Here's an example, altho
 
 \--- task \---
 
-Save your project.
+プロジェクトを保存しましょう。
 
 [[[generic-scratch-saving]]]
 
