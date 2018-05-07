@@ -36,7 +36,7 @@
 
 前と同じようにコードは動きます。チャットボットは入力された名前を使って話します。
 
-![Testing a 'name' variable](images/chatbot-ask-test.png)
+![「名前」変数のテスト](images/chatbot-ask-test.png)
 
 \--- hints \--- \--- hint \--- チャットボットが **クリックされた時**に、名前を**聞く** ようにしましょう。 `名前` 変数を**答え**に**します**。 そしてチャットボットは「やあ！」と**答えます**。その後に、自分の**名前**が続きます。 \--- /hint \--- \--- hint \--- 使うブロックはこちらです。 ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
