@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+Prima di iniziare a creare i tuoi ChiacchieRobot, dovrai decidere come sarà la loro personalità. **Dai un'occhiata a queste domande**:
 
     + What is their name?
     + Where do they live?
