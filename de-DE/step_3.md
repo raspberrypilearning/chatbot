@@ -2,18 +2,18 @@
 
 \--- task \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+Bevor Du mit deinem Chatbot beginnst, musst Du über seine Persönlichkeit entscheiden. ** Denke über folgende Fragen nach **:
 
-    + What is their name?
-    + Where do they live?
-    + Are they happy? Serious? Funny? Shy? Friendly?
+    + Wie heißt er?
+    + Wo lebt er?
+    + Ist er fröhlich? Ernst? Lustig? Schüchtern? Freundlich?
     
 
 \--- /task \---
 
 \--- task \---
 
-Open a new empty Scratch project.
+Öffne ein neues Scratch-Projekt.
 
 [[[generic-scratch-new-project]]]
 
@@ -21,7 +21,7 @@ Open a new empty Scratch project.
 
 \--- task \---
 
-Choose one of these character sprites, and add them to your project:
+Wähle eine dieser Figuren und füge sie deinem Projekt hinzu:
 
 ![Choose a character](images/chatbot-characters.png)
 
@@ -31,7 +31,7 @@ Choose one of these character sprites, and add them to your project:
 
 \--- task \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+Wähle ein Bühnenbild, das zur Persönlichkeit deines Chatbots passt. Hier ist ein Beispiel, deines muss aber nicht so aussehen:
 
 ![Choose a backdrop](images/chatbot-backdrop.png)
 
@@ -41,7 +41,7 @@ Choose a backdrop that fits your chatbot's personality. Here's an example, altho
 
 \--- task \---
 
-Save your project.
+Speichere dein Projekt.
 
 [[[generic-scratch-saving]]]
 
