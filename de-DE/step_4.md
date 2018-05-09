@@ -4,21 +4,21 @@ Jetzt, wo Du einen Chatbot mit einer eigenen Persönlichkeit hast, lass' uns ihn
 
 \--- task \---
 
-Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+Füge deinem Chatbot Code hinzu, so dass er nach deinem Namen fragt und dann sagt: "Was für ein hübscher Name!", wenn er angeklickt wird.
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \---Wenn die Chatbot- **Figur angeklickt wird**, sollte sie nach deinem Namen **fragen**. Der Chatbot sollte dann "Was für ein hübscher Name!" ** sagen **. \--- / hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: <1 /> \--- / hint \--- \--- hint \--- So sollte dein Code aussehen: Code für eine Chatbot-Antwort<2 /> \--- / hint \--- \--- / hint \---
 
 \--- /task \---
 
 \--- task \---
 
-Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+Im Moment antwortet der Chatbot einfach jedes Mal: "Was für ein hübscher Name!". Kannst du die Antwort deines Chatbots persönlicher machen, abhängig von deiner Antwort?
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \---Wenn die Chatbot- **Figur angeklickt wird**, sollte sie nach deinem Namen **fragen**. Der Chatbot sollte dann "Hi", gefolgt von deiner **Antwort** **sagen**. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
