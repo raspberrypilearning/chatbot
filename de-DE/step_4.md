@@ -24,7 +24,7 @@ Im Moment antwortet der Chatbot einfach jedes Mal: "Was für ein hübscher Name!
 
 \--- task \---
 
-If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
+Wenn Du deine Antwort in einer **Variablen** speicherst, kann sie auch später noch verwendet werden. Erstelle eine neue Variable namens `Name` und speichere Deinen Namen darin.
 
 [[[generic-scratch-add-variable]]]
 
@@ -32,13 +32,13 @@ If you store your answer in a **variable**, then it can be used later. Create a 
 
 \--- task \---
 
-Can you store your answer in the `name` variable and use it in your chatbot's reply?
+Kannst Du deine Antwort in der Variablen `Name` speichern und so für die Antwort des Chatbots verwenden?
 
-Your code should work as before: your chatbot should say hello using your name.
+Dein Code sollte wie zuvor funktionieren: dein Chatbot sollte dich mit deinem Namen begrüßen.
 
 ![Testing a 'name' variable](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \---Wenn die Chatbot- **Figur angeklickt wird**, sollte sie nach deinem Namen **fragen**. Du solltest dann die Variable `name` auf deine **Antwort** **setzen**. Der Chatbot sollte dann "Hi", gefolgt von deiner **Antwort** **sagen**. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -46,6 +46,6 @@ Your code should work as before: your chatbot should say hello using your name.
 
 ## Zusätzliche Fragen
 
-Program your chatbot to ask another question. Can you store the answer in a new variable?
+Programmiere deinen Chatbot so, dass er eine weitere Frage stellt. Kannst Du die neue Antwort in einer neuen Variablen speichern?
 
 ![More questions](images/chatbot-question.png) \--- /challenge \---
