@@ -23,7 +23,7 @@ Bevor Du mit deinem Chatbot beginnst, musst Du über seine Persönlichkeit entsc
 
 Wähle eine dieser Figuren und füge sie deinem Projekt hinzu:
 
-![Choose a character](images/chatbot-characters.png)
+![Wähle einen Charakter](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -33,7 +33,7 @@ Wähle eine dieser Figuren und füge sie deinem Projekt hinzu:
 
 Wähle ein Bühnenbild, das zur Persönlichkeit deines Chatbots passt. Hier ist ein Beispiel, deines muss aber nicht so aussehen:
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![Wähle einen Hintergrund](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
