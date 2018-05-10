@@ -1,6 +1,6 @@
-## esittely
+## Esittely
 
-Aiot oppia ohjelmoimaan omaa puhuvaa robottiasi!
+Opit ohjelmoimaan oman puhuvan robottisi!
 
 ### Mitä teet
 
@@ -8,7 +8,7 @@ Aiot oppia ohjelmoimaan omaa puhuvaa robottiasi!
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Napsauta vihreää lippua ja käynnistä keskustelu napsauttamalla chatbota. Kun chatbot kysyy kysymyksen, kirjoita vastauksesi vaiheen alareunassa olevaan ruutuun ja napsauta rasti (tai paina `Enter`).
+Napsauta vihreää lippua ja käynnistä keskustelu napsauttamalla juttelubottia. Kun juttelubotti kysyy kysymyksen, kirjoita vastauksesi esiintymislavan alareunassa olevaan ruutuun ja napsauta Ok-ikonia (tai paina `Enter`).
 
 ### Mitä opit
 
