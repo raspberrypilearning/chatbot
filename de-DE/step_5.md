@@ -4,33 +4,33 @@ Du kannst deinen Chatbot dazu programmieren, aufgrund deiner Antworten auf seine
 
 \--- task \---
 
-Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
+Kannst Du den Chatbot dazu programmieren, die Frage "Geht es dir gut?" zu stellen und dann mit "Das ist schön zu hören!" zurück zu antworten, aber nur **falls** die Antwort des Anwenders "ja" ist?
 
-To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
+Um deinen neuen Code korrekt zu testen, solltest Du ihn **zweimal** ausprobieren, einmal mit der Antwort "ja" und einmal mit "nein".
 
-Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
+Dein Chatbot sollte antworten "Das ist schön zu hören!" wenn Du "ja" antwortest, aber nichts sagen, wenn Du "nein" antwortest.
 
 ![Testing a chatbot reply](images/chatbot-if-test.png)
 
-\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Nachdem dein Chatbot "Hi" gesagt hat, sollte er nun **fragen**: "Geht es dir gut?". **Falls** Du mit "ja" antwortest, sollte der Chatbot "Das ist schön zu hören!" **sagen**. \--- /hint \--- \--- hint \--- Hier sind die zusätzlichen Code-Blöcke, die Du brauchen wirst: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+Im Moment sagt dein Chatbot nichts, wenn du mit "nein" antwortest. Kannst du deinen Chatbot so verändern, dass er auch, wenn du seine Frage mit "nein" beantwortest, zurück antwortet - mit "Oh nein!"?
 
-Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+Testen und speichern. Dein Chatbot sollte jetzt "Oh nein!" Sagen wenn Du mit "nein" antwortest. Er wird sogar "Oh nein!" sagen, wenn Du mit irgendetwas außer "ja" antwortest. (Das **sonst** im `falls/sonst`-Block bedeutet **in allen anderen Fällen**.)
 
 ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Dein Chatbot sollte jetzt sagen: "Das ist schön zu hören!" **falls** Du mit "ja" antwortest, sollte aber "Oh nein!" sagen, falls Du **sonst**etwas antwortest. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+Du kannst allen möglichen Code in einem `falls/sonst`-Block ablegen, nicht bloß Code, der deinen Chatbot sprechen lässt. Wenn Du im Medienbereich den **Kostüme**-Reiter für die Figur deines Chatbots anklickst, wirst Du sehen, dass sie mehrere Kostüme hat.
 
 ![chatbot costumes](images/chatbot-costume-view.png)
 
