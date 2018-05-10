@@ -10,7 +10,7 @@ Um deinen neuen Code korrekt zu testen, solltest Du ihn **zweimal** ausprobieren
 
 Dein Chatbot sollte antworten "Das ist schön zu hören!" wenn Du "ja" antwortest, aber nichts sagen, wenn Du "nein" antwortest.
 
-![Testing a chatbot reply](images/chatbot-if-test.png)
+![Eine ChatBot-Antwort ausprobieren](images/chatbot-if-test.png)
 
 \--- hints \--- \--- hint \--- Nachdem dein Chatbot "Hi" gesagt hat, sollte er nun **fragen**: "Geht es dir gut?". **Falls** Du mit "ja" antwortest, sollte der Chatbot "Das ist schön zu hören!" **sagen**. \--- /hint \--- \--- hint \--- Hier sind die zusätzlichen Code-Blöcke, die Du brauchen wirst: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
@@ -22,7 +22,7 @@ Im Moment sagt dein Chatbot nichts, wenn du mit "nein" antwortest. Kannst du dei
 
 Testen und speichern. Dein Chatbot sollte jetzt "Oh nein!" Sagen wenn Du mit "nein" antwortest. Er wird sogar "Oh nein!" sagen, wenn Du mit irgendetwas außer "ja" antwortest. (Das **sonst** im `falls/sonst`-Block bedeutet **in allen anderen Fällen**.)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Eine Ja/Nein-Antwort ausprobieren](images/chatbot-if-else-test.png)
 
 \--- hints \--- \--- hint \--- Dein Chatbot sollte jetzt sagen: "Das ist schön zu hören!" **falls** Du mit "ja" antwortest, sollte aber "Oh nein!" sagen, falls Du **sonst**etwas antwortest. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
@@ -32,7 +32,7 @@ Testen und speichern. Dein Chatbot sollte jetzt "Oh nein!" Sagen wenn Du mit "ne
 
 Du kannst allen möglichen Code in einem `falls/sonst`-Block ablegen, nicht bloß Code, der deinen Chatbot sprechen lässt. Wenn Du im Medienbereich den **Kostüme**-Reiter für die Figur deines Chatbots anklickst, wirst Du sehen, dass sie mehrere Kostüme hat.
 
-![chatbot costumes](images/chatbot-costume-view.png)
+![Chatbot Kostüme](images/chatbot-costume-view.png)
 
 \--- /task \---
 
@@ -42,7 +42,7 @@ Kannst du das Kostüm des Chatbots so anpassen, dass es zu deiner Antwort passt?
 
 Testen und speichern. Du solltest sehen, dass sich das Gesicht deines Chatbots in Abhängigkeit von deiner Antwort verändert.
 
-![Testing a changing costume](images/chatbot-costume-test.png)
+![Ein Kostüm wechseln und ausprobieren](images/chatbot-costume-test.png)
 
 \--- hints \--- \--- hint \---Dein Chatbot sollte jetzt zusätzlich je nach der gegebenen Antwort **wechsle zu Kostüm** ausführen. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
@@ -52,7 +52,7 @@ Testen und speichern. Du solltest sehen, dass sich das Gesicht deines Chatbots i
 
 Ist dir aufgefallen, dass das Kostüm deines Chatbots sich, seit Du das letzte Mal mit ihm sprachst, nicht mehr verändert hat? Kannst Du dieses Problem beheben?
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Kostüm-Bug](images/chatbot-costume-bug-test.png)
 
 Testen und speichern - Führe deinen Code aus und gebe "nein" ein, so dass dein Roboter traurig schaut. Wenn Du dein Programm erneut startest, sollte dein Chatbot wieder ein fröhliches Gesicht zeigen, bevor er nach deinem Namen fragt.
 
@@ -66,6 +66,6 @@ Testen und speichern - Führe deinen Code aus und gebe "nein" ein, so dass dein 
 
 ## Zusätzliche Entscheidungen
 
-Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
+Programmiere deinen Chatbot, eine weitere Frage zu stellen - irgendetwas, auf das man mit "ja" oder "nein" antwortet. Kannst du deinen Chatbot auf die Antwort reagieren lassen?
 
 ![screenshot](images/chatbot-joke.png) \--- /challenge \---
