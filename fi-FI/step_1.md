@@ -47,21 +47,21 @@ Tämä hanke kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](http:
 
 + [Käytä perusohjelmointirakenteita yksinkertaisten ohjelmien luomiseen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## haasteet
+## Haasteet
 
 + "Lisää kysymyksiä" - tulosten oppimisen vahvistaminen ja `vastaus`{: class = "blockensing"} -lohko;
-+ "Lisää päätöksiä" - päätösten tekeminen;
-+ "Tee oma chatbot" - oppimisen vakiinnuttaminen tästä ja aiemmista projekteista.
++ "Lisää päätelmiä" - päätelmien tekeminen;
++ "Tee oma juttelubotti" - oppimisen vakiinnuttaminen tästä ja aiemmista projekteista.
 
-\--- / romahdus \---
+\--- /collapse \---
 
-## \--- romahdus \---
+## \--- collapse \---
 
-## otsikko: Projektimateriaalit
+## otsikko: Projektiaineistot
 
-## Klubin johtajien resurssit
+## Opettajien aineistot
 
 + [Ladattava valmis Scratch 2 -projekti](resources/ChatBot.sb2)
-+ [Online valmistunut Scratch 2 -projekti](http://scratch.mit.edu/projects/26762091/#editor)
++ [Valmis Scratch 2 -projekti verkossa](http://scratch.mit.edu/projects/26762091/#editor)
 
-\--- / romahdus \---
+\--- /collapse \---
