@@ -12,38 +12,38 @@ Napsauta vihreää lippua ja käynnistä keskustelu napsauttamalla juttelubottia
 
 ### Mitä opit
 
-Tämä hanke kattaa [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osista:
+Tämä projekti kattaa osia[Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osioista:
 
 + [Käytä perusohjelmointirakenteita yksinkertaisten ohjelmien luomiseen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Lisätietoja klubin johtajille
+### Lisätietoja opettajille
 
 Jos haluat tulostaa tämän projektin, käytä [Tulostettava versio](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
-## \--- romahdus \---
+## \--- collapse \---
 
-## otsikko: Klubin johtajat
+## title: Opettajille
 
 ## Johdanto:
 
-Tässä hankkeessa lapset oppivat käyttämään "jos" lausuntoja tekemään päätöksiä ohjelmissaan.
+Tässä projektissa lapset oppivat käyttämään "jos" lauseita tekemään päätelmiä ohjelmissaan.
 
-## voimavarat
+## Aineistot
 
-Tätä hanketta varten olisi käytettävä Scratch 2 -ohjelmaa. Scratch 2 voidaan joko käyttää verkossa [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) tai ladata [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) ja käyttää offline-tilassa.
+Tässä projektissa tulisi käyttää Scratch 2 -ohjelmaa. Scratch 2 voidaan joko käyttää verkossa [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) tai ladata [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) ja käyttää offline-tilassa.
 
-Löydät tämän projektin valmiin version [verkossa](http://scratch.mit.edu/projects/26762091/#editor)tai se voidaan ladata klikkaamalla tämän projektin 'Projektin materiaalit' -linkkiä, joka sisältää:
+Löydät tämän projektin valmiin version [verkosta](http://scratch.mit.edu/projects/26762091/#editor), tai se voidaan ladata klikkaamalla tämän projektin 'Projektiaineistot' -linkkiä, joka sisältää:
 
 + ChatBot.sb2
 
 ## Oppimistavoitteet
 
 + Tekstinsyöttö;
-+ Päätökset: 
-    + `jos ... sitten`{: class = "blockcontrol"} lausunnot;
-    + `jos ... sitten ... muuten`{: class = "blockcontrol"} lausunnot.
++ Päätelmät: 
+    + `jos ... sitten`{: class = "blockcontrol"} lausekkeet;
+    + `jos ... sitten ... muuten`{: class = "blockcontrol"} lausekkeet.
 
-Tämä hanke kattaa [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osista:
+Tämä hanke kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osioista:
 
 + [Käytä perusohjelmointirakenteita yksinkertaisten ohjelmien luomiseen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
