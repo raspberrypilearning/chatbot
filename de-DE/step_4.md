@@ -6,7 +6,7 @@ Jetzt, wo Du einen Chatbot mit einer eigenen Persönlichkeit hast, lass' uns ihn
 
 Füge deinem Chatbot Code hinzu, so dass er nach deinem Namen fragt und dann sagt: "Was für ein hübscher Name!", wenn er angeklickt wird.
 
-![Testing a ChatBot response](images/chatbot-ask-test.png)
+![Eine ChatBot-Antwort ausprobieren](images/chatbot-ask-test.png)
 
 \--- hints \--- \--- hint \---Wenn die Chatbot- **Figur angeklickt wird**, sollte sie nach deinem Namen **fragen**. Der Chatbot sollte dann "Was für ein hübscher Name!" ** sagen **. \--- / hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: <1 /> \--- / hint \--- \--- hint \--- So sollte dein Code aussehen: Code für eine Chatbot-Antwort<2 /> \--- / hint \--- \--- / hint \---
 
@@ -16,7 +16,7 @@ Füge deinem Chatbot Code hinzu, so dass er nach deinem Namen fragt und dann sag
 
 Im Moment antwortet der Chatbot einfach jedes Mal: "Was für ein hübscher Name!". Kannst du die Antwort deines Chatbots persönlicher machen, abhängig von deiner Antwort?
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Eine personalisierte Antwort ausrobieren](images/chatbot-answer-test.png)
 
 \--- hints \--- \--- hint \---Wenn die Chatbot- **Figur angeklickt wird**, sollte sie nach deinem Namen **fragen**. Der Chatbot sollte dann "Hi", gefolgt von deiner **Antwort** **sagen**. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
@@ -36,7 +36,7 @@ Kannst Du deine Antwort in der Variablen `Name` speichern und so für die Antwor
 
 Dein Code sollte wie zuvor funktionieren: dein Chatbot sollte dich mit deinem Namen begrüßen.
 
-![Testing a 'name' variable](images/chatbot-ask-test.png)
+![Ausprobieren einer Variable namens "Name"](images/chatbot-ask-test.png)
 
 \--- hints \--- \--- hint \---Wenn die Chatbot- **Figur angeklickt wird**, sollte sie nach deinem Namen **fragen**. Du solltest dann die Variable `name` auf deine **Antwort** **setzen**. Der Chatbot sollte dann "Hi", gefolgt von deiner **Antwort** **sagen**. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
@@ -48,4 +48,4 @@ Dein Code sollte wie zuvor funktionieren: dein Chatbot sollte dich mit deinem Na
 
 Programmiere deinen Chatbot so, dass er eine weitere Frage stellt. Kannst Du die neue Antwort in einer neuen Variablen speichern?
 
-![More questions](images/chatbot-question.png) \--- /challenge \---
+![Zusätzliche Fragen](images/chatbot-question.png) \--- /challenge \---
