@@ -38,27 +38,27 @@ Du kannst allen möglichen Code in einem `falls/sonst`-Block ablegen, nicht blo�
 
 \--- task \---
 
-Can you change the chatbot's costume to match your response?
+Kannst du das Kostüm des Chatbots so anpassen, dass es zu deiner Antwort passt?
 
-Test and save. You should see your chatbot's face change depending on your answer.
+Testen und speichern. Du solltest sehen, dass sich das Gesicht deines Chatbots in Abhängigkeit von deiner Antwort verändert.
 
 ![Testing a changing costume](images/chatbot-costume-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \---Dein Chatbot sollte jetzt zusätzlich je nach der gegebenen Antwort **wechsle zu Kostüm** ausführen. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+Ist dir aufgefallen, dass das Kostüm deines Chatbots sich, seit Du das letzte Mal mit ihm sprachst, nicht mehr verändert hat? Kannst Du dieses Problem beheben?
 
 ![Costume bug](images/chatbot-costume-bug-test.png)
 
-Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+Testen und speichern - Führe deinen Code aus und gebe "nein" ein, so dass dein Roboter traurig schaut. Wenn Du dein Programm erneut startest, sollte dein Chatbot wieder ein fröhliches Gesicht zeigen, bevor er nach deinem Namen fragt.
 
 ![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Wenn die **Figur angeklickt** wird, sollte dein Chatbot zuerst **wechsle zu Kostüm** "fröhliches Gesicht" ausführen. \--- /hint \--- \--- hint \--- Hier sind die zusätzlichen Code-Blöcke, die Du brauchen wirst: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
