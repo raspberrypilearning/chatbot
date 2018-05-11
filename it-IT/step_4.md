@@ -18,7 +18,7 @@ Il tuo ChiacchieRobot risponderà semplicemente ‘Che bel nome!’ ogni volta. 
 
 ![Testare una risposta personalizzata](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- **Quando clicchi sullo sprite** il tuo ChiacchieRobot dovrebbe **chiederti** il tuo nome. Il ChiacchieRobot dovrebbe poi **dire** "Ciao", seguito dalla tua **risposta**. \--- /hint \--- \--- hint \--- Questi sono i blocchi di codice di cui avrai bisogno: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- **Quando clicchi sullo sprite** il tuo ChiacchieRobot dovrebbe **chiederti** il tuo nome. Il ChiacchieRobot dovrebbe poi **dire** "Ciao", seguito dalla tua **risposta**. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -38,7 +38,7 @@ Il tuo codice dovrebbe funzionare come prima: il tuo ChiacchieRobot dovrebbe dir
 
 ![Applicare la variabile 'nome'](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- **Quando clicchi sullo sprite** il tuo ChiacchieRobot dovrebbe **chiedere** il tuo nome. Dovresti **inserire** la variabile `nome` nella tua **risposta**. Il ChiacchieRobot dovrebbe poi **dirti** "Ciao" seguito dal tuo **nome**. \--- /hint \--- \--- hint \--- Questi sono i blocchi di codice di cui avrai bisogno: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- **Quando clicchi sullo sprite** il tuo ChiacchieRobot dovrebbe **chiedere** il tuo nome. Dovresti **inserire** la variabile `nome` nella tua **risposta**. Il ChiacchieRobot dovrebbe poi **dirti** "Ciao", seguito dal tuo **nome**. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
