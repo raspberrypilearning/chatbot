@@ -2,18 +2,18 @@
 
 \--- task \---
 
-Prima di iniziare a creare i tuoi ChiacchieRobot, dovrai decidere come sarà la loro personalità. **Dai un'occhiata a queste domande**:
+Prima di iniziare a creare il tuo ChiacchieRobot, dovrai decidere la sua personalità. **Dai un'occhiata a queste domande**:
 
-    + Come si chiamano?
-    + Dove vivono?
-    + Sono felici? Seri? Divertenti? Timidi? Amichevoli?
+    + Come si chiama?
+    + Dove abita?
+    + È allegro? Serio? Divertente? Timido? Amichevole?
     
 
 \--- /task \---
 
 \--- task \---
 
-Inizia un nuovo progetto Scratch.
+Avvia un nuovo progetto Scratch.
 
 [[[generic-scratch-new-project]]]
 
