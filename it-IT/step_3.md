@@ -31,7 +31,7 @@ Scegli uno di questi sprite e aggiungilo al tuo progetto:
 
 \--- task \---
 
-Scegli uno scenario che si adatti alla personalità del tuo ChiacchieRobot. Ecco un esempio, ma il tuo non deve per forza essere questo:
+Scegli uno scenario che si adatti alla personalità del tuo ChiacchieRobot. Ecco un esempio, ma il tuo non deve essere per forza uguale a questo:
 
 ![Scegli uno sfondo](images/chatbot-backdrop.png)
 
