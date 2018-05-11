@@ -12,7 +12,7 @@ Il tuo ChiacchieRobot dovrebbe rispondere "Mi fa piacere!" se la tua risposta è
 
 ![Testare la risposta del ChiacchieRobot](images/chatbot-if-test.png)
 
-\--- hints \--- \--- hint \--- Dopo che il ChiacchieRobot ha detto "Ciao", dovrebbe **chiedere** "Stai bene?". **Se** la tua risposta è "sì", il ChiacchieRobot dovrebbe **dire** "Mi fa piacere!". \--- /hint \--- \--- hint \--- Questi sono altri blocchi di codice di cui avrai bisogno: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Dopo che il ChiacchieRobot ha detto "Ciao", dovrebbe anche **chiederti** "Stai bene?". **Se** la tua risposta è "sì", il ChiacchieRobot dovrebbe **dirti** "Mi fa piacere!". \--- /hint \--- \--- hint \--- Ecco di quali altri blocchi di codice avrai bisogno: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -20,11 +20,11 @@ Il tuo ChiacchieRobot dovrebbe rispondere "Mi fa piacere!" se la tua risposta è
 
 Al momento, il tuo ChiacchieRobot non dice nulla se rispondi "no". Puoi programmare il tuo ChiacchieRobot in modo che ti dica "Oh no!" se rispondi "no" alla sua domanda?
 
-Prova il tuo codice e salvalo. Adesso il tuo ChiacchieRobot dovrebbe dire "Oh no!" se rispondi "no". In realtà ti dirà "Oh no!" se rispondi in qualsiasi altro modo che non sia "sì" (l'**altrimenti** nel blocco `se/altrimenti` significa **diversamente**).
+Prova il tuo codice e salvalo. Adesso il tuo ChiacchieRobot dovrebbe dirti "Oh no!" se rispondi "no". In realtà ti dirà "Oh no!" se rispondi in qualsiasi altro modo che non sia "sì" (l'**altrimenti** nel blocco `se/altrimenti` significa **diversamente**).
 
 ![Testare una risposta "sì"/"no"](images/chatbot-if-else-test.png)
 
-\--- hints \--- \--- hint \--- Ora il tuo ChiacchieRobot dovrebbe dire "Mi fa piacere!" **se** la tua risposta è "sì", ma dire "Oh no!" **altrimenti**. \--- /hint \--- \--- hint \--- Questi sono i blocchi di codice di cui avrai bisogno: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Ora il tuo ChiacchieRobot dovrebbe dire "Mi fa piacere!" **se** la tua risposta è "sì", **altrimenti** dovrebbe dire "Oh no!". \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
