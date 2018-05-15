@@ -23,7 +23,7 @@
 
 Виберіть один із цих символів і додайте їх до вашого проекту:
 
-![Choose a character](images/chatbot-characters.png)
+![Виберіть Аватарку](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -33,7 +33,7 @@
 
 Виберіть фон, який відповідає особистості вашого чат-боту. Ось приклад, але ваш не має мати такий вигляд:
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![Виберіть фон](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
@@ -41,8 +41,8 @@
 
 \--- task \---
 
-Save your project.
+Збережіть свій проект.
 
-[[[generic-scratch-saving]]]
+[generic-scratch-saving]
 
 \--- /task \---
