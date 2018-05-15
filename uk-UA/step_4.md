@@ -1,10 +1,10 @@
-## A talking chatbot
+## Чат-бот, що розмовляє
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+Тепер, коли у вас є чат-бот з особистістю, давайте запрограмуємо його розмовляти з вами.
 
 \--- task \---
 
-Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+Додайте до вашого чат-боту код, щоб після натискання, він запитував ваше ім'я, а потім казав: "Яке прекрасне ім'я!"
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
