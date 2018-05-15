@@ -22,7 +22,7 @@
 
 ## \--- collapse \---
 
-## заголовок: Нотатки керівника
+## title: Нотатки керівника
 
 ## Вступ:
 
@@ -40,24 +40,24 @@
 
 + Введення тексту;
 + Рішення: 
-    + `якщо ... потім`{:class="blockcontrol"} положення;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
+    + `якщо ... то`{:class="blockcontrol"} положення;
+    + `якщо ... то ... ще`{:class="blockcontrol"} положення.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Цей проект охоплює елементи з наступними стандартами [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Використайте основні конструкції для створення простих програм.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Завдання
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ "Більше питань" - об'єднання вивчення вхідних даних та `відповідь`{:class="blocksensing"} блок;
++ "Більше рішень" - використовуйте їх;
++ "Зробіть свого власного чат-бота" - об'єднання навчання з цього та минулих проектів.
 
-\--- /collapse \---
+\---collapse\---
 
-## \--- collapse \---
+## \---collapse\---
 
-## title: Project materials
+## title: Матеріали проекту
 
 ## Club leader resources
 
