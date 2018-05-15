@@ -31,7 +31,7 @@
 
 \--- task \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+Виберіть фон, який відповідає особистості вашого чат-боту. Ось приклад, але ваш не має мати такий вигляд:
 
 ![Choose a backdrop](images/chatbot-backdrop.png)
 
