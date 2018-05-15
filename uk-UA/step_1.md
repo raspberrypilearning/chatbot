@@ -59,9 +59,9 @@
 
 ## title: Матеріали проекту
 
-## Club leader resources
+## Ресурси лідера клубу
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [Повний проект Scratch 2 для завантаження](resources/ChatBot.sb2)
++ [Повний проект Scratch 2 онлайн](http://scratch.mit.edu/projects/26762091/#editor)
 
-\--- /collapse \---
+\---collapse\---
