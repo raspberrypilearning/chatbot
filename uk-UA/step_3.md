@@ -4,14 +4,16 @@
 
 Перш ніж почати розробку вашого чат-бота, вам потрібно подумати над його особистістю. ** Подумайте про наступні питання**:
 
-    + Як їх звуть? + Де вони живуть? + Вони щасливі? Серйозні? Смішні? Сором'язливі? Дружні?
+    + Як їх звуть? 
+    + Де вони живуть? 
+    + Вони щасливі? Серйозні? Смішні? Сором'язливі? Дружні?
     
 
 \--- /task \---
 
 \--- task \---
 
-Open a new empty Scratch project.
+Відкрийте новий порожній проект Scratch.
 
 [[[generic-scratch-new-project]]]
 
@@ -19,7 +21,7 @@ Open a new empty Scratch project.
 
 \--- task \---
 
-Choose one of these character sprites, and add them to your project:
+Виберіть один із цих символів і додайте їх до вашого проекту:
 
 ![Choose a character](images/chatbot-characters.png)
 
