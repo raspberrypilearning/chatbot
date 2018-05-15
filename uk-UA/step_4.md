@@ -24,7 +24,7 @@
 
 \--- task \---
 
-If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
+Якщо ви зберігаєте свою відповідь у **змінній**, то вона може бути використана пізніше. Створіть нову змінну `під назвою` зберегти своє ім'я.
 
 [[[generic-scratch-add-variable]]]
 
@@ -32,13 +32,13 @@ If you store your answer in a **variable**, then it can be used later. Create a 
 
 \--- task \---
 
-Can you store your answer in the `name` variable and use it in your chatbot's reply?
+Чи можете ви зберегти свою відповідь `під назвою` змінна та використати її у відповіді вашого чат-боту?
 
-Your code should work as before: your chatbot should say hello using your name.
+Ваш код повинен працювати як і раніше: ваш чат-бот повинен сказати привіт, використовуючи ваше ім'я.
 
-![Testing a 'name' variable](images/chatbot-ask-test.png)
+![Testing a 'name' variable](images / chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hints \--- Коли кнопка ** натиснута**, він повинен** запитати **ваше ім'я. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
