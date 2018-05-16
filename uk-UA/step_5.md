@@ -30,19 +30,19 @@
 
 \--- task \---
 
-You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+Ви можете помістити будь-який код всередину `якщо/інакше` блоку, не тільки код, щоб ваш чат-бот розмовляв. Якщо ви натиснете на вашому чат-боті на вкладку **костюм**, ви побачите, що в ньому більше одного костюма.
 
-![chatbot costumes](images/chatbot-costume-view.png)
+![chatbot costumes](images / chatbot-costume-view.png)
 
 \--- /task \---
 
 \--- task \---
 
-Can you change the chatbot's costume to match your response?
+Чи можете ви змінити костюм чат-бота, відповідно до ваших відповідей?
 
-Test and save. You should see your chatbot's face change depending on your answer.
+Перевірте та збережіть. Ви повинні побачити зміни на обличчі вашого чат-бота в залежності від вашої відповіді.
 
-![Testing a changing costume](images/chatbot-costume-test.png)
+![Testing a changing costume](images / chatbot-costume-test.png)
 
 \--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
