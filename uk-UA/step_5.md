@@ -20,9 +20,9 @@
 
 На даний момент ваш чат-бот не робить нічого, якщо ви відповідаєте "ні". Чи можна змінити вашого чат-бота, щоб він також відповідав "О ні!" якщо ви відповідаєте "ні" на запитання?
 
-Перевірте та збережіть. Тепер ваш чат-бот повинен сказати "О ні!" якщо ви відповідаєте "ні". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+Перевірте та збережіть. Тепер ваш чат-бот повинен сказати "О ні!" якщо ви відповідаєте "ні". Насправді він буде сказати "О ні!" на будь-яку відповідь, окрім "так" ( **інше** в `якщо/інше` блок означає **в іншому випадку**).
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Testing a yes/no reply](images / chatbot-if-else-test.png)
 
 \--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
