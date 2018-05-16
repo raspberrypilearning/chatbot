@@ -4,23 +4,23 @@
 
 \--- task \---
 
-Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
+Чи можете ви запрограмувати чат-бота запитувати "Ти в порядку?", і запрограмувати відповідати "Радий це чути!" тільки **якщо** відповідь користувача "так"?
 
-To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
+Щоб правильно перевірити свій новий код, потрібно перевірити його **двічі**, один раз з відповіддю "так", і один раз з відповіддю "ні".
 
-Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
+Ваш чат-бот повинен відповісти "Радий це чути!" якщо ви відповідаєте "так", але не казати нічого, якщо ви відповідаєте "ні".
 
-![Testing a chatbot reply](images/chatbot-if-test.png)
+![Testing a chatbot reply](images / chatbot-if-test.png)
 
-\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Після того, як ваш чат-бот сказав "Привіт", йому слід також **запитати** "Ти в порядку?". **Якщо** ви відповідаєте "так", тоді чат-бот повинен **сказати** "Радий це чути!". \--- /hint \--- \--- hint \--- Ось додаткові кодові блоки, які вам знадобляться: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+На даний момент ваш чат-бот не робить нічого, якщо ви відповідаєте "ні". Чи можна змінити вашого чат-бота, щоб він також відповідав "О ні!" якщо ви відповідаєте "ні" на запитання?
 
-Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+Перевірте та збережіть. Тепер ваш чат-бот повинен сказати "О ні!" якщо ви відповідаєте "ні". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
 
 ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
