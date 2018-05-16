@@ -10,7 +10,7 @@
 
 Ваш чат-бот повинен відповісти "Радий це чути!" якщо ви відповідаєте "так", але не казати нічого, якщо ви відповідаєте "ні".
 
-![Testing a chatbot reply](images / chatbot-if-test.png)
+![Тестування відповіді Чат-бота](images / chatbot-if-test.png)
 
 \--- hints \--- \--- hint \--- Після того, як ваш чат-бот сказав "Привіт", йому слід також **запитати** "Ти в порядку?". **Якщо** ви відповідаєте "так", тоді чат-бот повинен **сказати** "Радий це чути!". \--- /hint \--- \--- hint \--- Ось додаткові кодові блоки, які вам знадобляться: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
@@ -22,7 +22,7 @@
 
 Перевірте та збережіть. Тепер ваш чат-бот повинен сказати "О ні!" якщо ви відповідаєте "ні". Насправді він буде сказати "О ні!" на будь-яку відповідь, окрім "так" ( **інше** в `якщо/інше` блок означає **в іншому випадку**).
 
-![Testing a yes/no reply](images / chatbot-if-else-test.png)
+![Тестування позитивної/негативної відповіді](images / chatbot-if-else-test.png)
 
 \--- hints \--- \--- hint \--- Тепер ваш чат-бот має казати "Радий це чути!" **якщо** ваша відповідь "так", але казати "О ні!", якщо відповідь якась **інша**. \--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
@@ -32,7 +32,7 @@
 
 Ви можете помістити будь-який код всередину `якщо/інакше` блоку, не тільки код, щоб ваш чат-бот розмовляв. Якщо ви натиснете на вашому чат-боті на вкладку **костюм**, ви побачите, що в ньому більше одного костюма.
 
-![chatbot costumes](images / chatbot-costume-view.png)
+![вигляд чат-бота](images / chatbot-costume-view.png)
 
 \--- /task \---
 
@@ -42,7 +42,7 @@
 
 Перевірте та збережіть. Ви повинні побачити зміни на обличчі вашого чат-бота в залежності від вашої відповіді.
 
-![Testing a changing costume](images / chatbot-costume-test.png)
+![Тестування зміни вигляду](images / chatbot-costume-test.png)
 
 \--- hints \--- \--- hint \--- Тепер ваш чат-бот також може **змінювати вигляд** в залежності від даної відповіді. \--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
@@ -52,20 +52,20 @@
 
 Ви помітили, що вигляд вашого чат-бота залишається таким самим, яким був останнього разу, коли ви з ним говорили? Ви можете вирішити цю проблему?
 
-![Costume bug](images / chatbot-costume-bug-test.png)
+![Помилка вигляду](images / chatbot-costume-bug-test.png)
 
 Перевірте та збережіть: запустіть код і введіть "ні", щоб ваш чат-бот виглядав нещасливим. Коли ви знову запускаєте свій код, перед тим, як запитати ваше ім'я, ваш чат-бот повинен повернутися до посмішки.
 
-![Testing a costume fix](images / chatbot-costume-fix-test.png)
+![Тестування виправлення вигляду](images / chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- Коли **спрайт натиснуто**, ваш чат-бот має спершу **змінити вигляд** на усміхнене обличчя. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Коли **спрайт натиснуто**, ваш чат-бот має спершу **змінити вигляд** на усміхнене обличчя. \--- /hint \--- \--- hint \--- Ось кодові блоки, які вам потрібно буде додати: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- challenge \---
 
-## Challenge: more decisions
+## Challenge: більше рішень
 
-Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
+Запрограмуйте вашого чат-бота ставити інші питання - щось з відповіддю "так" або "ні". Чи можете ви заставити вашого чат-бота відповідати на запитання?
 
-![screenshot](images/chatbot-joke.png) \--- /challenge \---
+![знімок екрану](images / chatbot-joke.png) \--- /challenge \---
