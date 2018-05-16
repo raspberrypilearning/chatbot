@@ -1,34 +1,34 @@
 ---
-title: Chatbot
-hero_image: images/chatbot.png
-description: Learn how to program your own talking robot!
+title: Чат-бот
+hero_image: images / chatbot.png
+description: Дізнайтеся, як програмувати власного робота, що розмовляє!
 original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
-theme: violet
+theme: фіолетовий
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+curriculum: 1, дизайн-0, програмування-1, фізичні обчислення-0, виробництво-0, спільноти-0
 interests: ''
-technology: scratch
-site_areas: projects
-technologies: scratch
+technology: подряпати
+site_areas: проекти
+technologies: подряпати
 hardware: ''
-software: scratch
+software: подряпати
 version: 4.1.0
-last_tested: 2017-01-01
+last_tested: 01.01.2017
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: What you will need
+    title: Те, що вам знадобиться
   - 
-    title: Your chatbot
+    title: Ваш чат-бот
   - 
-    title: A talking chatbot
+    title: Чат-бот, що розмовляє
   - 
-    title: Making decisions
+    title: Прийняття рішень
   - 
-    title: Changing location
+    title: Зміна розташування
   - 
-    title: 'Challenge: finish your chatbot'
+    title: 'Challenge: завершення чат-боту'
