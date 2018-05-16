@@ -1,6 +1,6 @@
-## Step 3: Making decisions
+## Крок 3: Прийняття рішень
 
-You can program your chatbot to decide what to say or do based on your responses to its questions.
+Ви можете запрограмувати вашого чат-бота вирішувати, що казати або відштовхуватись від ваших відповідей на питання.
 
 \--- task \---
 
