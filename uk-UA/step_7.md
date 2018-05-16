@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: finish your chatbot
+## Challenge: завершення чат-боту
 
-Use what you've learnt to finish creating your interactive chatbot. Here are some ideas:
+Використовуйте те, чого ви навчилися, щоб закінчити створення вашого інтерактивного чат-боту. Ось деякі ідеї:
 
-![ChatBot ideas](images/chatbot-ideas.png)
+![Ідеї для чат-боту](images / chatbot-ideas.png)
 
-Once you've finished making your chatbot, get your friends to have a conversation with it! Do they like your character? Did they spot any problems? \--- /challenge \---
+Як тільки ви закінчите роботу над вашим чат-ботом, дозвольте вашим друзям поговорити з ним! Чи подобається їм ваш персонаж? Чи виявили вони якісь проблеми? \--- /challenge \---
