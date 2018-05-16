@@ -1,26 +1,26 @@
 ## Зміна розташування
 
-You can also code your chatbot to change its location.
+Ви також можете кодувати ваш чат-бот, щоб змінити його розташування.
 
 \--- task \---
 
-Add another backdrop to your Stage, for example the 'moon' backdrop.
+Додайте інший фон до вашої платформи, наприклад, фон "місяць".
 
-![Adding a 'moon' backdrop](images/chatbot-moon.png)
+![Adding a 'moon' backdrop](images / chatbot-moon.png)
 
 \--- /task \---
 
 \--- task \---
 
-Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
+Чи можете ви закодувати чат-бот запитати "Не хотіли б ви полетіти на Місяць?" а потім змінити розташування, якщо відповідь "так"?
 
-Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+Перевірте та збережіть. Якщо ви відповідаєте "так", ваш чат-бот повинен змінити місце розташування. Ваш чат-бот повинен виглядати сумним і говорити "окей... до побачення!" якщо надається будь-яка інша відповідь.
 
-![Testing a changing backdrop](images/chatbot-backdrop-test.png)
+![Testing a changing backdrop](images / chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+\--- hints \--- \--- hint \--- Ваш чат-бот має **запитати** "Чи не хотіли б ви полетіти на місяць?". **Якщо** ваша **відповідь** "так", тоді ваш чат-бот має **змінити вигляд** і виглядати щасливим і **фон** на платформі має змінитись.
 
-If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
+Якщо ви відповідаєте "ні",чат-бот має **змінити вигляд** на сумний і **сказати** "Окей... до побачення!"
 
 You'll also need to add code to start your chatbot in the right place **when clicked**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
 
