@@ -44,21 +44,21 @@
 
 ![Testing a changing costume](images / chatbot-costume-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Тепер ваш чат-бот також може **змінювати вигляд** в залежності від даної відповіді. \--- /hint \--- \--- hint \--- Ось кодові блоки, які вам знадобляться: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Так має виглядати ваш код: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+Ви помітили, що вигляд вашого чат-бота залишається таким самим, яким був останнього разу, коли ви з ним говорили? Ви можете вирішити цю проблему?
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Costume bug](images / chatbot-costume-bug-test.png)
 
-Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+Перевірте та збережіть: запустіть код і введіть "ні", щоб ваш чат-бот виглядав нещасливим. Коли ви знову запускаєте свій код, перед тим, як запитати ваше ім'я, ваш чат-бот повинен повернутися до посмішки.
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![Testing a costume fix](images / chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Коли **спрайт натиснуто**, ваш чат-бот має спершу **змінити вигляд** на усміхнене обличчя. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
