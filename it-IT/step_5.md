@@ -32,7 +32,7 @@ Prova il tuo codice e salvalo. Adesso il tuo ChiacchieRobot dovrebbe dirti "Oh n
 
 Dentro un blocco `se/altrimenti` puoi mettere qualsiasi codice, e non solo il codice che fa parlare il tuo ChiacchieRobot. Se dai un’occhiata ai **costumi** del ChiacchieRobot, noterai che ce ne sono più di uno.
 
-![costumi del ChiacchieRobot](images/chatbot-costume-view.png)
+![I costumi del ChiacchieRobot](images/chatbot-costume-view.png)
 
 \--- /task \---
 
@@ -44,7 +44,7 @@ Prova il tuo codice e salvalo. La faccia del tuo ChiacchieRobot dovrebbe cambiar
 
 ![Testare un cambio di costume](images/chatbot-costume-test.png)
 
-\--- hints \--- \--- hint \--- Il tuo ChiacchieRobot dovrebbe anche **cambiare costume** in base alla tua risposta. \--- /hint \--- \--- hint \--- Qusti sono i blocchi di codice di cui avrai bisogno: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Il tuo ChiacchieRobot dovrebbe anche **cambiare costume** in base alla tua risposta. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -58,7 +58,7 @@ Prova il tuo codice e salvalo. Esegui il codice e digita "no" per far sì che il
 
 ![Sistemare i costumi](images/chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- **Quando si clicca sullo sprite** il ChiacchieRobot dovrebbe **cambiare costume** e avere una faccia felice. \--- /hint \--- \--- hint \--- Qusti sono i blocchi di codice di cui avrai bisogno: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- **Quando si clicca sullo sprite** il ChiacchieRobot dovrebbe **cambiare costume** e avere una faccia felice. \--- /hint \--- \--- hint \--- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Ecco come dovrebbe apparire il tuo codice: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
