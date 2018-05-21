@@ -8,21 +8,21 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Haz clic en la bandera verde y luego haz clic en el chatbot para iniciar una conversación. Cuando el chatbot te haga una pregunta, escribe tu respuesta en el recuadro que se encuentra en la parte inferior del escenario y haz clic en el signo de verificación (o presiona ` Enter `).
+Haz clic en la bandera verde y luego haz clic en el chatbot para iniciar una conversación. Cuando el chatbot te haga una pregunta, escribe tu respuesta en el recuadro que se encuentra en la parte inferior del escenario y haz clic en el signo de verificación (o presiona `Enter`).
 
 ### Lo que aprenderás
 
 Este proyecto incluye elementos de los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Usa estructuras de programación básicos para crear programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Usa estructuras de programación básicas para crear programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ### Información adicional para los líderes del club
 
-Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Si necesita imprimir este proyecto, use la [versión para imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 ## \--- collapse \---
 
-## título: Notas para el líder del club
+## title: Notas para el líder del club
 
 ## Introducción:
 
