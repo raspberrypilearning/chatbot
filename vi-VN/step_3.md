@@ -1,48 +1,46 @@
-## Your chatbot
+## Chatbot của bạn
 
-\--- task \---
+\--- bài tập \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+Trước khi bắt đầu thực hiện chatbot, bạn cần quyết định tính cách của nó. **Suy nghĩ về các câu hỏi sau**:
 
-    + What is their name?
-    + Where do they live?
-    + Are they happy? Serious? Funny? Shy? Friendly?
+    + Tên của họ là gì? + Họ sống ở đâu? + Họ có hạnh phúc không? Nghiêm trọng? Buồn cười? Nhát? Thân thiện?
     
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Open a new empty Scratch project.
+Mở một dự án Scratch trống mới.
 
 [[[generic-scratch-new-project]]]
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Choose one of these character sprites, and add them to your project:
+Chọn một trong các sprites ký tự này và thêm chúng vào dự án của bạn:
 
-![Choose a character](images/chatbot-characters.png)
+![Chọn một nhân vật](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+Chọn phông nền phù hợp với tính cách của chatbot. Đây là một ví dụ, mặc dù bạn không phải trông như thế này:
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![Chọn phông nền](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Save your project.
+Lưu dự án của bạn.
 
 [[[generic-scratch-saving]]]
 
-\--- /task \---
+\--- /bài tập \---
