@@ -8,7 +8,7 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Haz clic en la bandera verde y luego haz clic en el chatbot para iniciar una conversación. Cuando el chatbot te haga una pregunta, escribe tu respuesta en el recuadro que se encuentra en la parte inferior del escenario y haz clic en el tic (o presiona ` Enter `).
+Haz clic en la bandera verde y luego haz clic en el chatbot para iniciar una conversación. Cuando el chatbot te haga una pregunta, escribe tu respuesta en el recuadro que se encuentra en la parte inferior del escenario y haz clic en el signo de verificación (o presiona ` Enter `).
 
 ### Lo que aprenderás
 
