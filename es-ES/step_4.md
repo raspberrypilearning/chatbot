@@ -38,7 +38,7 @@ Tu código debería funcionar como antes: tu chatbot debería decir hola usando 
 
 ![Comprobando la variable 'nombre'](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- Cuando se hace clic **clic en la figura** del chatbot, este debería **preguntar** por tu nombre. Entonces deberías **establecer** la variable `nombre` al contenido de tu **respuesta**. El chatbot debería entonces **decir** "Hola", seguido de tu **nombre**. \--- /hint \--- \--- hint \--- Estos son los bloques de código que vas a necesitar: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Tu código debería ser así: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Cuando se hace clic **clic en la figura** del chatbot, este debería **preguntar** por tu nombre. Entonces deberías **establecer** la variable `nombre` al contenido de tu **respuesta**. El chatbot debería entonces **decir** "Hola", seguido de tu **nombre**. \--- /hint \--- \--- hint \--- Estos son los bloques de código que vas a necesitar: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Tu código debería quedar así: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
