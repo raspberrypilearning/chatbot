@@ -1,6 +1,6 @@
 ## Cambio de posición
 
-También puede codificar tu chatbot para cambiar su posición.
+También puedes codificar tu chatbot para cambiar su posición.
 
 \--- task \---
 
