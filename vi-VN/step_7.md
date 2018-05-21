@@ -1,9 +1,9 @@
-\--- challenge \---
+\--- thử thách \---
 
-## Challenge: finish your chatbot
+## Thách thức: kết thúc chatbot của bạn
 
-Use what you've learnt to finish creating your interactive chatbot. Here are some ideas:
+Sử dụng những gì bạn đã học để hoàn thành việc tạo chatbot tương tác của bạn. Đây là một số ý tưởng:
 
-![ChatBot ideas](images/chatbot-ideas.png)
+![Ý tưởng ChatBot](images/chatbot-ideas.png)
 
-Once you've finished making your chatbot, get your friends to have a conversation with it! Do they like your character? Did they spot any problems? \--- /challenge \---
+Khi bạn đã hoàn tất việc chatbot, hãy kết bạn với bạn bè để trò chuyện với nó! Họ có thích nhân vật của bạn không? Họ có phát hiện ra bất kỳ vấn đề nào không? \--- /thử thách \---
