@@ -20,7 +20,7 @@ Prueba y guarda. Si respondes "sí", tu chatbot debería cambiar de ubicación. 
 
 \--- hints \--- \--- hint \--- Tu chatbot debería **preguntar** "¿Te gustaría ir a la luna?". **Si** tu **respuesta** es "sí", entonces tu chatbot debería **cambiar de disfraz** para parecer feliz y el **telón de fondo** del escenario debería cambiar.
 
-Si respondes "no", el chatbot debería **cambiar el disfraz** parecer triste y **decir** "¡OK...adios!"
+Si respondes "no", el chatbot debería **cambiar el disfraz** para parecer triste y **decir** "¡OK...adios!"
 
 También necesitarás agregar código para iniciar tu chatbot en el lugar correcto **cuando hagas clic en el**. \--- /hint \--- \--- hint \--- Estos son los bloques de código que necesitarás usar: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Tu código debería quedar así: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
 
@@ -34,6 +34,6 @@ Prueba y guarda. Si respondes "sí", tu chatbot debería saltar arriba y abajo. 
 
 ![Comprobar un chatbot que salta](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- Tu chatbot debería saltar **cambiando** su **posición y** ligeramente, y luego volver a su posición inicial después de una corta **espera**. Es posible que quieras **repetir** esto algunas veces. \--- /hint \--- \--- hint \--- Estos son los bloques de código que necesitarás: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Tu código debería quedar así: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Tu chatbot debería saltar **cambiando** su **posición y** ligeramente, y luego volver a su posición inicial después de una corta **espera**. Es posible que quieras **repetir** esto un par de veces. \--- /hint \--- \--- hint \--- Estos son los bloques de código que necesitarás: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Tu código debería quedar así: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
