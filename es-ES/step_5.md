@@ -30,7 +30,7 @@ Prueba y guarda. Tu chatbot ahora debería decir "¡Oh, no!" si respondes "no". 
 
 \--- task \---
 
-You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+Puedes poner cualquier código dentro de un bloque `si / si no`, no solo el código para hacer que tu chatbot hable. Si haces un clic en la pestaña **Disfraz** de tu chatbot, verás que tiene más de un disfraz.
 
 ![chatbot costumes](images/chatbot-costume-view.png)
 
@@ -38,23 +38,23 @@ You can put any code inside an `if/else` block, not just code to make your chatb
 
 \--- task \---
 
-Can you change the chatbot's costume to match your response?
+¿Puedes cambiar el disfraz de chatbot para que coincida con tu respuesta?
 
-Test and save. You should see your chatbot's face change depending on your answer.
+Prueba y guarda. Deberías ver que la cara de tu chatbot cambia según tu respuesta.
 
 ![Testing a changing costume](images/chatbot-costume-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Tu chatbot ahora también debería **cambiar de disfraz** dependiendo de la respuesta recibida. \--- /hint \--- \--- hint \--- Estos son los boques de código que necesitarás: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Tu código debería quedar así ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+¿Has notado que el disfraz de tu chatbot sigue siendo el mismo al que cambió la última vez que hablaste con él? ¿Puedes arreglar este problema?
 
 ![Costume bug](images/chatbot-costume-bug-test.png)
 
-Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+Prueba y guarda: Ejecuta tu código y escribe "no", para que tu chatbot parezca infeliz. Cuando vuelvas a ejecutar tu código, tu chatbot debería volver a tener una cara sonriente antes de preguntar tu nombre.
 
 ![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
