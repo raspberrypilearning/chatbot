@@ -4,17 +4,17 @@ Ahora que tienes un chatbot con personalidad, vamos a programarlo para que hable
 
 \--- task \---
 
-Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+Agrega código a tu chatbot para que cuando se haga clic en él, te pida tu nombre y luego diga "¡Qué nombre más bonito!"
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Cuando se haga **clic en la figura** del chatbot, debería **preguntarte** por tu nombre. Luego el chatbot debería **decir** "Que nombre más bonito!" \--- /hint \--- \--- hint \--- Estos son los bloques de código que vas a necesitar: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Este debería ser el aspecto de tu código: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+Ahora el chatbot simplemente responde "¡Qué nombre más bonito!" cada vez. ¿Puedes personalizar la respuesta de tu chatbot haciendo uso de tu respuesta?
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
