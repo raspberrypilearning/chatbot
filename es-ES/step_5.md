@@ -66,6 +66,6 @@ Prueba y guarda: Ejecuta tu código y escribe "no", para que tu chatbot parezca 
 
 ## Desafío: más decisiones
 
-Programa tu chatbot para hacer otra pregunta, algo con una respuesta "sí" o "no". ¿Puedes hacer que tu chatbot conteste a la respuesta?
+Programa tu chatbot para hacer otra pregunta - algo con una respuesta "sí" o "no". ¿Puedes hacer que tu chatbot conteste a la respuesta?
 
 ![screenshot](images/chatbot-joke.png) \--- /challenge \---
