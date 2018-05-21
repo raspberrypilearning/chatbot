@@ -1,67 +1,67 @@
-## Introduction
+## Giới thiệu
 
-You are going to learn how to program your own talking robot!
+Bạn sẽ học cách lập trình robot nói chuyện của riêng mình!
 
-### What you will make
+### Những gì bạn sẽ làm
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+Nhấp vào cờ màu xanh lá cây, sau đó nhấp vào chatbot để bắt đầu cuộc trò chuyện. Khi chatbot hỏi một câu hỏi, gõ câu trả lời của bạn vào hộp ở dưới cùng của giai đoạn và nhấp vào đánh dấu (hoặc nhấn `Enter`).
 
-### What you will learn
+### Những gì bạn sẽ học
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dự án này bao gồm các yếu tố từ các chuỗi sau đây của [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Sử dụng các cấu trúc lập trình cơ bản để tạo các chương trình đơn giản.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### Thông tin bổ sung cho các nhà lãnh đạo câu lạc bộ
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Nếu bạn cần in dự án này, hãy sử dụng [phiên bản thân thiện với máy in](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
-## \--- collapse \---
+## \--- sự sụp đổ \---
 
-## title: Club leader notes
+## title: Ghi chú của leader club
 
-## Introduction:
+## Giới thiệu:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+Trong dự án này, trẻ sẽ học cách sử dụng câu lệnh 'if' để đưa ra quyết định trong chương trình của mình.
 
-## Resources
+## Tài nguyên
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Đối với dự án này, Scratch 2 nên được sử dụng. Scratch 2 có thể được sử dụng trực tuyến tại [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) hoặc có thể tải xuống từ [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) và sử dụng ngoại tuyến.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Bạn có thể tìm thấy phiên bản hoàn thành của dự án này [trực tuyến](http://scratch.mit.edu/projects/26762091/#editor)hoặc có thể tải xuống bằng cách nhấp vào liên kết 'Tài liệu Dự án' cho dự án này, trong đó có:
 
 + ChatBot.sb2
 
-## Learning Objectives
+## Mục tiêu học tập
 
-+ Text input;
-+ Decisions: 
-    + `if ... then`{:class="blockcontrol"} statements;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
++ Nhập văn bản;
++ Quyết định: 
+    + `nếu ... thì câu lệnh`{: class = "blockcontrol"};
+    + `nếu ... thì ... else`{: class = "blockcontrol"} câu lệnh.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dự án này bao gồm các yếu tố từ các chuỗi sau đây của [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Sử dụng các cấu trúc lập trình cơ bản để tạo các chương trình đơn giản.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Thách thức
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ "Các câu hỏi khác" - củng cố việc học đầu vào và khối `trả lời`{: class = "blocksensing"};
++ "Các quyết định khác" - sử dụng các quyết định;
++ "Làm cho chatbot của riêng bạn" - củng cố học tập từ các dự án này và quá khứ.
 
-\--- /collapse \---
+\--- /sự sụp đổ \---
 
-## \--- collapse \---
+## \--- sự sụp đổ \---
 
-## title: Project materials
+## title: Tài liệu dự án
 
-## Club leader resources
+## Tài nguyên lãnh đạo câu lạc bộ
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [Dự án Scratch 2 hoàn thành có thể tải xuống](resources/ChatBot.sb2)
++ [Dự án Scratch 2 hoàn thành trực tuyến](http://scratch.mit.edu/projects/26762091/#editor)
 
-\--- /collapse \---
+\--- /sự sụp đổ \---
