@@ -1,51 +1,51 @@
-## A talking chatbot
+## Chatbot trò chuyện
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+Bây giờ bạn có một chatbot với cá tính, hãy lập trình nó để nói chuyện với bạn.
 
-\--- task \---
+\--- bài tập \---
 
-Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+Thêm mã vào chatbot của bạn để khi nó được nhấp, nó sẽ hỏi tên của bạn và sau đó nói "Thật là một cái tên đáng yêu!"
 
-![Testing a ChatBot response](images/chatbot-ask-test.png)
+![Kiểm tra phản hồi ChatBot](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- Khi chatbot **sprite được nhấp**, nó nên **yêu cầu** cho tên của bạn. Chatbot nên **nói** "Thật là một cái tên đáng yêu!" \--- / hint \--- \--- hint \--- Đây là các khối mã bạn sẽ cần: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là cách mã của bạn nên xem: ![Code for a ChatBot reply](images/chatbot-ask-code.png) - - / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+Bây giờ chatbot chỉ đơn giản trả lời "Thật là một cái tên đáng yêu!" mỗi lần. Bạn có thể cá nhân hóa câu trả lời của chatbot bằng cách sử dụng câu trả lời của bạn không?
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Kiểm tra câu trả lời được cá nhân hóa](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- Khi chatbot **sprite được nhấp**, nó nên **yêu cầu** cho tên của bạn. Các chatbot sau đó nên **nói** "Hi", theo sau là **câu trả lời của bạn**. \--- / hint \--- \--- hint \--- Đây là các khối mã bạn sẽ cần: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là cách mã của bạn nên xem: ![Code for a personalised reply](images/chatbot-answer-code.png) - - / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
+Nếu bạn lưu trữ câu trả lời của bạn trong một biến ****, sau đó nó có thể được sử dụng sau này. Tạo một biến mới có tên là `tên` để lưu trữ tên của bạn.
 
 [[[generic-scratch-add-variable]]]
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Can you store your answer in the `name` variable and use it in your chatbot's reply?
+Bạn có thể lưu trữ câu trả lời của bạn trong biến `name` và sử dụng nó trong câu trả lời của chatbot không?
 
-Your code should work as before: your chatbot should say hello using your name.
+Mã của bạn sẽ hoạt động như trước: chatbot của bạn nên nói xin chào bằng tên của bạn.
 
-![Testing a 'name' variable](images/chatbot-ask-test.png)
+![Thử nghiệm biến 'tên'](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- Khi chatbot **sprite được nhấp**, nó nên **yêu cầu** cho tên của bạn. Sau đó bạn nên **thiết lập** sự `tên` biến để bạn **câu trả lời**. Các chatbot sau đó nên **nói** "Hi", theo sau là **tên của bạn**. \--- / hint \--- \--- hint \--- Đây là các khối mã bạn sẽ cần: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là cách mã của bạn nên xem: ![Code for a 'name' variable](images/chatbot-variable-code.png) - - / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- challenge \---
+\--- thử thách \---
 
-## Challenge: more questions
+## Thử thách: thêm câu hỏi
 
-Program your chatbot to ask another question. Can you store the answer in a new variable?
+Lập trình chatbot của bạn để đặt một câu hỏi khác. Bạn có thể lưu trữ câu trả lời trong một biến mới không?
 
-![More questions](images/chatbot-question.png) \--- /challenge \---
+![Các câu hỏi khác](images/chatbot-question.png) \--- /thử thách \---
