@@ -1,39 +1,39 @@
-## Changing location
+## Thay đổi vị trí
 
-You can also code your chatbot to change its location.
+Bạn cũng có thể mã chatbot của bạn để thay đổi vị trí của nó.
 
-\--- task \---
+\--- bài tập \---
 
-Add another backdrop to your Stage, for example the 'moon' backdrop.
+Thêm phông nền khác vào Giai đoạn của bạn, ví dụ như phông nền 'trăng'.
 
-![Adding a 'moon' backdrop](images/chatbot-moon.png)
+![Thêm phông nền 'trăng'](images/chatbot-moon.png)
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
+Bạn có thể mã chatbot của bạn để hỏi "Bạn có muốn đi đến mặt trăng không?" và sau đó thay đổi vị trí nếu bạn trả lời "có"?
 
-Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+Kiểm tra và lưu. Nếu bạn trả lời "có", chatbot của bạn sẽ thay đổi vị trí. Chatbot của bạn sẽ trông buồn và nói "OK ... bye!" nếu có câu trả lời khác.
 
-![Testing a changing backdrop](images/chatbot-backdrop-test.png)
+![Thử nghiệm phông nền thay đổi](images/chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+\--- gợi ý \--- \--- gợi ý \--- chatbot của bạn nên **hỏi** "Bạn có muốn đi đến mặt trăng?". **Nếu** bạn **câu trả lời** là "có", sau đó chatbot bạn nên **thay đổi trang phục** để tìm hạnh phúc và giai đoạn **bối cảnh** nên thay đổi.
 
-If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
+Nếu bạn trả lời "không", chatbot nên **thay đổi trang phục** để trông buồn và **nói** "OK ... tạm biệt!"
 
-You'll also need to add code to start your chatbot in the right place **when clicked**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
+Bạn cũng sẽ cần thêm mã để bắt đầu chatbot của mình ở đúng vị trí **khi được nhấp**. \--- / hint \--- \--- hint \--- Dưới đây là các khối mã bạn sẽ cần phải sử dụng: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là cách mã của bạn nên xem xét: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
+Bạn có thể thêm mã để làm cho chatbot của bạn nhảy cho niềm vui nếu bạn nói với nó rằng bạn muốn đi đến mặt trăng?
 
-Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+Kiểm tra và lưu. Nếu bạn trả lời "có", chatbot của bạn sẽ nhảy lên và xuống. Chatbot của bạn không nên nhảy nếu có câu trả lời khác.
 
-![Testing a jumping ChatBot](images/chatbot-jump-test.png)
+![Thử nghiệm một ChatBot nhảy](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should jump by **changing** its **y position** by a small amount, and then changing its position back after a short **wait**. You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- chatbot của bạn nên nhảy bằng **thay đổi** vị trí **y của nó** bởi một số lượng nhỏ, và sau đó thay đổi vị trí của nó trở lại sau khi chờ đợi **ngắn**. Bạn có thể muốn **lặp lại** điều này một vài lần. \--- / hint \--- \--- hint \--- Dưới đây là các khối mã bạn sẽ cần phải sử dụng: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là cách mã của bạn nên xem xét: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
