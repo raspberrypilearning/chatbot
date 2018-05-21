@@ -45,23 +45,23 @@ Puedes encontrar una versión completa de este proyecto [en línea](http://scrat
 
 Este proyecto incluye elementos desde los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Usa estructuras de programación básicos para crear programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Usa estructuras de programación básicas para crear programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## Desafíos
 
-+ "Más preguntas": consolidación del aprendizaje de entrada y ` la respuesta` {: class = "blocksensing"}; bloque;
-+ "Más decisiones": usar decisiones;
-+ "Crea tu propio chatbot": consolidación del aprendizaje de este y de proyectos anteriores.
++ "Más preguntas": consolidación del aprendizaje de las entradas y el bloque de `la respuesta` {: class = "blocksensing"};
++ "Más decisiones" - usar decisiones;
++ "Crea tu propio chatbot" - consolidación de lo aprendido en este proyecto y en proyectos anteriores.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## título: materiales del proyecto
+## title: Materiales del proyecto
 
 ## Recursos del líder del club
 
-+ [Proyecto Scratch 2 acabado descargable](resources/ChatBot.sb2)
-+ [Proyecto Scratch 2 acabado en línea](http://scratch.mit.edu/projects/26762091/#editor)
++ [Proyecto de Scratch 2 acabado y descargable](resources/ChatBot.sb2)
++ [Proyecto de Scratch 2 acabado en línea](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
