@@ -1,71 +1,71 @@
-## Step 3: Making decisions
+## Bước 3: Ra quyết định
 
-You can program your chatbot to decide what to say or do based on your responses to its questions.
+Bạn có thể lập trình chatbot của bạn để quyết định những gì để nói hoặc làm dựa trên câu trả lời của bạn cho các câu hỏi của nó.
 
-\--- task \---
+\--- bài tập \---
 
-Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
+Bạn có thể làm cho chatbot đặt câu hỏi "Bạn có OK không?" Và viết mã để trả lời "Thật tuyệt vời khi nghe!" chỉ **nếu** người dùng trả lời "có"?
 
-To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
+Để kiểm tra mã mới của bạn đúng cách, bạn nên kiểm tra nó **hai lần**, một lần với câu trả lời "có" và một lần với câu trả lời "không".
 
-Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
+Chatbot của bạn sẽ trả lời "Thật tuyệt vời khi nghe!" nếu bạn trả lời "có", nhưng không nói gì nếu bạn trả lời "không".
 
-![Testing a chatbot reply](images/chatbot-if-test.png)
+![Kiểm tra trả lời của chatbot](images/chatbot-if-test.png)
 
-\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- Sau khi chatbot của bạn đã nói "Xin chào", bây giờ cũng nên **hỏi** "Bạn có ổn không?". **Nếu** bạn trả lời "có", thì chatbot nên **nói** "Thật tuyệt vời khi nghe!". \--- / hint \--- \--- hint \--- Dưới đây là các khối mã bổ sung bạn sẽ cần: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là cách mã của bạn nên xem xét: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+Tại thời điểm này chatbot của bạn không nói bất cứ điều gì nếu bạn trả lời "không". Bạn có thể thay đổi chatbot của bạn để nó cũng trả lời "Ồ không!" nếu bạn trả lời "không" cho câu hỏi của nó?
 
-Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+Kiểm tra và lưu. Chatbot của bạn bây giờ sẽ nói "Ồ không!" nếu bạn trả lời "không". Trong thực tế, nó sẽ nói "On no!" nếu bạn trả lời với bất cứ điều gì khác hơn là "có" ( **khác** trong một `nếu / else` khối có nghĩa là **nếu không**).
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Kiểm tra trả lời có / không](images/chatbot-if-else-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- Chatbot của bạn bây giờ nên nói "Thật tuyệt vời khi nghe!" **nếu** câu trả lời của bạn là "có", nhưng phải nói "Ồ không!" nếu bạn trả lời một cái gì đó **khác**. \--- / hint \--- \--- hint \--- Dưới đây là các khối mã bạn sẽ cần phải sử dụng: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là cách mã của bạn nên xem xét: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+Bạn có thể đặt bất kỳ mã nào bên trong khối `if / else` , không chỉ là mã để làm cho chatbot của bạn nói. Nếu bạn nhấp vào tab **Trang phục của** , bạn sẽ thấy rằng nó có nhiều hơn một trang phục.
 
-![chatbot costumes](images/chatbot-costume-view.png)
+![trang phục chatbot](images/chatbot-costume-view.png)
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Can you change the chatbot's costume to match your response?
+Bạn có thể thay đổi trang phục của chatbot để phù hợp với câu trả lời của bạn không?
 
-Test and save. You should see your chatbot's face change depending on your answer.
+Kiểm tra và lưu. Bạn sẽ thấy thay đổi khuôn mặt của chatbot tùy thuộc vào câu trả lời của bạn.
 
-![Testing a changing costume](images/chatbot-costume-test.png)
+![Kiểm tra trang phục đang thay đổi](images/chatbot-costume-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- chatbot của bạn bây giờ cũng **chuyển trang phục** tùy thuộc vào câu trả lời nhất định. \--- / hint \--- \--- hint \--- Dưới đây là các khối mã bạn sẽ cần phải sử dụng: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là cách mã của bạn nên xem xét: ![Code for a changing costume](images/chatbot-costume-code.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- task \---
+\--- bài tập \---
 
-Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+Bạn có nhận thấy rằng trang phục của chatbot vẫn giữ nguyên như vậy mà nó đã thay đổi đến lần cuối cùng bạn nói chuyện với nó? Bạn có thể khắc phục vấn đề này không?
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Lỗi trang phục](images/chatbot-costume-bug-test.png)
 
-Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+Kiểm tra và lưu: Chạy mã của bạn và nhập "không", để chatbot của bạn trông không vui. Khi bạn chạy lại mã của mình, chatbot của bạn sẽ đổi lại thành một khuôn mặt tươi cười trước khi hỏi tên bạn.
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![Thử nghiệm sửa trang phục](images/chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- gợi ý \--- \--- gợi ý \--- Khi **sprite được nhấp**, chatbot của bạn nên đầu tiên **chuyển trang phục** sang một khuôn mặt tươi cười. \--- / hint \--- \--- hint \--- Đây là khối mã bạn sẽ cần phải thêm: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- / hint \--- \--- hint \--- Dưới đây là cách mã của bạn nên xem xét: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- / gợi ý \--- \--- / gợi ý \---
 
-\--- /task \---
+\--- /bài tập \---
 
-\--- challenge \---
+\--- thử thách \---
 
-## Challenge: more decisions
+## Thách thức: quyết định khác
 
-Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
+Lập trình chatbot của bạn để đặt một câu hỏi khác - một câu hỏi có câu trả lời "có" hoặc "không". Bạn có thể làm cho chatbot của bạn trả lời câu trả lời không?
 
-![screenshot](images/chatbot-joke.png) \--- /challenge \---
+![ảnh chụp màn hình](images/chatbot-joke.png) \--- /thử thách \---
