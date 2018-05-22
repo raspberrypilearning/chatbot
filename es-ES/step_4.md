@@ -1,61 +1,51 @@
-## Tomar decisiones
+## Un chatbot parlanchín
 
-Puedes programar a tu robot parlanchín para que decida qué hacer, en función de las respuestas del usuario.
+Ahora que tienes un chatbot con personalidad, vamos a programarlo para que hable contigo.
 
-+ Vamos a hacer que tu robot parlanchín haga al usuario una pregunta con respuesta `sí` o `no`. Aquí te damos un ejemplo, pero puedes cambiar la pregunta si quieres:
+--- task ---
 
-	```blocks
-		al hacer clic en este objeto
-		preguntar [¡Hola! ¿Cómo te llamas?] y esperar
-		fijar [nombre v] a (respuesta)
-		decir <unir [Hola ] (nombre)> por (2) segundos
-		preguntar <unir [¿Estás bien ] (nombre)> y esperar
-		si ((respuesta)=[sí]) entonces
-			decir [¡Me alegra saber que estás bien!] por (2) segundos
-		fin
-	```
+Agrega código a tu chatbot para que cuando se haga clic en él, te pida tu nombre y luego diga "¡Qué nombre más bonito!"
 
-	Fíjate que ahora que has guardado el nombre del usuario en una variable, puedes usarlo tantas veces como quieras.
+![Comprobando una respuesta del chatbot](images/chatbot-ask-test.png)
 
-+ Para probar el programa adecuadamente, tendrás que probarlo dos veces, una escribiendo `no` como tu respuesta, y otra escribiendo `sí`. Sólo deberías obtener una respuesta de tu robot parlanchín `si`{:class="blockcontrol"} tu respuesta es `sí`.
+--- hints --- --- hint --- Cuando se haga **clic en la figura** del chatbot, debería **preguntarte** por tu nombre. Luego el chatbot debería **decir** "Que nombre más bonito!" --- /hint --- --- hint --- Estos son los bloques de código que vas a necesitar: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) --- /hint --- --- hint --- Tu código debería quedar así: ![Code for a ChatBot reply](images/chatbot-ask-code.png) --- /hint --- --- /hints ---
 
-+ El problema con tu robot parlanchín es que no te responde si el usuario contesta `no`. Puedes solucionar esto cambiando el bloque `si`{:class="blockcontrol"} por un bloque `si/si no`{:class="blockcontrol"}, para que tu nuevo código sea como éste:
+--- /task ---
 
-	```blocks
-		al hacer clic en este objeto
-		preguntar [¡Hola! ¿Cómo te llamas?] y esperar
-		fijar [nombre v] a (respuesta)
-		decir <unir [Hola ] (nombre)> por (2) segundos
-		preguntar <unir [Estás bien ] (nombre)> y esperar
-		si ((respuesta)=[sí]) entonces
-			decir [¡Me alegra saber que estás bien!] por (2) segundos
-		si no
-			decir [¡Oh, no!] por (2) segundos
-		fin
-	```
+--- task ---
 
-+ Si pruebas tu código, verás que ahora obtienes una respuesta si contestas `sí` o `no`. Tu robot parlanchín debería responder con `¡Me alegra saber que estás bien!` cuando contestas `sí`, pero responderá `¡Oh, no!` si escribes otra cosa que no sea `sí` (`si no`{:class="blockcontrol"} aquí significa "de otra manera").
+Ahora el chatbot simplemente responde "¡Qué nombre más bonito!" cada vez. ¿Puedes personalizar la respuesta de tu chatbot haciendo uso de tu respuesta?
 
-	![screenshot](images/chatbot-else.png)
+![Comprobando una respuesta personalizada](images/chatbot-answer-test.png)
 
-+ Puedes poner cualquier código dentro de un bloque `si`{:class="blockcontrol"} o `si no`{:class="blockcontrol"}, no sólo código para hacer que tu robot parlanchín hable. Por ejemplo, puedes cambiar el disfraz de tu robot parlanchín para que coincida con su respuesta.
+--- hints --- --- hint --- Cuando se hace **clic en la figura** del chatbot, este debería **preguntarte** por tu nombre. El chatbot debería entonces **decir** "Hola", seguido de tu **respuesta **. --- /hint --- --- hint --- Estos son los bloques de código que vas a necesitar: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) --- /hint --- --- hint --- Tu código debería ser así: ![Code for a personalised reply](images/chatbot-answer-code.png) --- /hint --- --- /hints ---
 
-	Si miras los disfraces de tu robot parlanchín, verás que hay más de uno. (Si no los hay, ¡siempre puedes añadir más tu mismo!)
+--- /task ---
 
-	![screenshot](images/chatbot-costumes.png)
+--- task ---
 
-	Puedes usar estos disfraces como parte de la respuesta de tu robot parlanchín, añadiendo este código:
+Si guardas tu respuesta en una **variable**, se podrá usar más tarde. Crea una nueva variable llamada `nombre` para guardar tu nombre.
 
-	![screenshot](images/chatbot-costumes-code.png)
+[[[generic-scratch-add-variable]]]
 
-+ Prueba tu programa, y deberías ver cómo la cara de tu robot parlanchín cambia dependiendo de la respuesta que le das.
+--- /task ---
 
-	![screenshot](images/chatbot-face.png)
+--- task ---
+
+¿Puedes almacenar tu respuesta en la variable `nombre` y usarla en la respuesta de tu chatbot?
+
+Tu código debería funcionar como antes: tu chatbot debería decir hola usando tu nombre.
+
+![Comprobando la variable 'nombre'](images/chatbot-ask-test.png)
+
+--- hints --- --- hint --- Cuando se hace clic **clic en la figura** del chatbot, este debería **preguntar** por tu nombre. Entonces deberías **establecer** la variable `nombre` al contenido de tu **respuesta**. El chatbot debería entonces **decir** "Hola", seguido de tu **nombre**. --- /hint --- --- hint --- Estos son los bloques de código que vas a necesitar: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) --- /hint --- --- hint --- Tu código debería quedar así: ![Code for a 'name' variable](images/chatbot-variable-code.png) --- /hint --- --- /hints ---
+
+--- /task ---
 
 --- challenge ---
-## Desafío: Más decisiones
 
-Programa a tu robot parlanchín para que haga otra pregunta, algo cuya respuesta sea `sí` o `no` . ¿Puedes hacer que tu robot parlanchín conteste a la respuesta?
+## Desafío: más preguntas
 
-![screenshot](images/chatbot-joke.png)
---- /challenge ---
+Programa tu chatbot para hacer otra pregunta. ¿Puedes almacenar la respuesta en una nueva variable?
+
+![Más preguntas](images/chatbot-question.png) --- /challenge ---

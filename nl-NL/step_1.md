@@ -32,7 +32,7 @@ In dit project leren kinderen 'als'-instructies te gebruiken om beslissingen te 
 
 Voor dit project dient Scratch 2 te worden gebruikt. Scratch 2 kan online worden gebruikt op [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) of gedownload van [jumpto.cc/scratchoff](http://jumpto.cc/scratch-off) en offline worden gebruikt.
 
-Je kunt een voltooide versie van dit project [online vinden](https://scratch.mit.edu/projects/219855286/#editor), of het kan worden gedownload door te klikken op de link 'Projectmaterialen' voor dit project, dat het volgende bevat:
+Je kunt een voltooide versie van dit project [ online vinden ](https://scratch.mit.edu/projects/219855286/#editor), of het kan worden gedownload door te klikken op de link 'Projectmaterialen' voor dit project, dat het volgende bevat:
 
 + ChatBot.sb2
 
@@ -43,7 +43,7 @@ Je kunt een voltooide versie van dit project [online vinden](https://scratch.mit
     + `als ... dan`{:class="blockcontrol"} commando's;
     + `als ... dan`{:class="blockcontrol"} commando's.
 
-Dit project behandelt elementen uit de volgende onderdelen van het [ Raspberry Pi Digital Making Curriculum ](http://rpf.io/curriculum):
+Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [Gebruik eenvoudige programmeerconstructies om simpele programma's te maken.](https://www.raspberrypi.org/curriculum/programming/creator)
 
