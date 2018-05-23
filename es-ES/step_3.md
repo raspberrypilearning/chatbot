@@ -4,9 +4,9 @@
 
 Antes de empezar a crear tu chatbot, necesitas decidir sobre su personalidad. **Piensa en las preguntas siguientes**:
 
-    + Como se llama?
-    + Donde vive?
-    + Es feliz? Está serio? Es divertido? Tímido? Amistoso?
+    + ¿Como se llama?
+    + ¿Donde vive?
+    + ¿Es feliz? ¿Está serio? ¿Es divertido? ¿Tímido? ¿Amistoso?
     
 
 \--- /task \---
