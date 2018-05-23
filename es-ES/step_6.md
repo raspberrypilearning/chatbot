@@ -1,4 +1,4 @@
-## Cambio de posición
+## Cambio de ubicación
 
 También puedes codificar tu chatbot para cambiar su posición.
 
