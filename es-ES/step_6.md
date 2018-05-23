@@ -1,6 +1,6 @@
 ## Cambio de ubicación
 
-También puedes codificar tu chatbot para cambiar su posición.
+También puede codificar tu chatbot para cambiar su ubicación.
 
 \--- task \---
 
@@ -12,7 +12,7 @@ Añade otro fondo a tu escenario, por ejemplo el fondo 'moon' (luna en inglés).
 
 \--- task \---
 
-¿Puedes añadir código a tu chatbot para preguntar "¿Te gustaría ir a la luna?" y luego cambiar de posición si respondes "sí"?
+¿Puedes añadir código a tu chatbot para preguntar "¿Te gustaría ir a la luna?" y luego cambiar de ubicación si respondes "sí"?
 
 Prueba y guarda. Si respondes "sí", tu chatbot debería cambiar de ubicación. Si escribes cualquier otra respuesta, tu chatbot debería parecer triste y decir "OK ​​... ¡adiós!".
 
@@ -20,7 +20,7 @@ Prueba y guarda. Si respondes "sí", tu chatbot debería cambiar de ubicación. 
 
 \--- hints \--- \--- hint \--- Tu chatbot debería **preguntar** "¿Te gustaría ir a la luna?". **Si** tu **respuesta** es "sí", entonces tu chatbot debería **cambiar de disfraz** para parecer feliz y el **telón de fondo** del escenario debería cambiar.
 
-Si respondes "no", el chatbot debería **cambiar el disfraz** para parecer triste y **decir** "¡OK...adios!"
+Si respondes "no", el chatbot debería **cambiar el disfraz** para parecer triste y **decir** "¡OK...adiós!"
 
 También necesitarás agregar código para iniciar tu chatbot en el lugar correcto **cuando hagas clic en el**. \--- /hint \--- \--- hint \--- Estos son los bloques de código que necesitarás usar: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Tu código debería quedar así: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
 
