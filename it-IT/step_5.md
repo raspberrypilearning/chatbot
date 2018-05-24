@@ -1,4 +1,4 @@
-## Passo 3: Prendere decisioni
+## Prendere decisioni
 
 Puoi programmare il tuo ChiacchieRobot perché decida cosa dire o cosa fare in base alle risposte dell’utente.
 
