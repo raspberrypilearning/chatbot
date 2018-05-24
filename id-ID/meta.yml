@@ -1,0 +1,34 @@
+---
+title: Chatbot
+hero_image: images / chatbot.png
+description: Pelajari cara memprogram robot bicara Anda sendiri!
+original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
+theme: ungu
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, desain-0, pemrograman-1, phys-comp-0, manufacture-0, community-0
+interests: ''
+technology: menggaruk
+site_areas: proyek
+technologies: menggaruk
+hardware: ''
+software: menggaruk
+version: 4.1.0
+last_tested: 2017-01-01
+steps:
+  - 
+    title: pengantar
+  - 
+    title: Apa yang Anda butuhkan
+  - 
+    title: Chatbot Anda
+  - 
+    title: Obrolan berbicara
+  - 
+    title: Membuat keputusan
+  - 
+    title: Mengubah lokasi
+  - 
+    title: 'Tantangan: selesaikan chatbot Anda'
