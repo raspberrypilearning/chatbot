@@ -1,6 +1,6 @@
 --- challenge ---
 
-## Challenge: maak je chatbot af
+## Uitdaging: maak je chatbot af
 
 Gebruik wat je hebt geleerd om je interactieve chatbot af te maken. Hier zijn enkele ideeën:
 
