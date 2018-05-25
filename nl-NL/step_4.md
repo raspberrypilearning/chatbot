@@ -8,7 +8,7 @@ Voeg code toe aan je chatbot, zodat wanneer je er op klikt, deze naar je naam vr
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
---- hints --- --- hint --- Wanneer op de chatbot **sprite wordt geklikt**, moet het naar je naam **vragen**. De chatbot moet dan **zeggen** "wat een mooie naam!" --- /hint --- --- hint --- Dit zij de code blokken die je nodig hebt: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a ChatBot reply](images/chatbot-ask-code.png) --- /hint --- --- /hints --
+--- hints --- --- hint --- Wanneer op de chatbot **sprite wordt geklikt**, moet het naar je naam **vragen**. De chatbot moet dan **zeggen** "wat een mooie naam!" --- /hint --- --- hint --- Dit zij de code blokken die je nodig hebt: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a ChatBot reply](images/chatbot-ask-code.png) --- /hint --- --- /hints ---
 
 --- /task ---
 
