@@ -44,7 +44,7 @@ Je code zou moeten werken zoals voorheen: je chatbot zou hallo en je naam moeten
 
 --- challenge ---
 
-## Challenge: meer vragen
+## Uitdaging: meer vragen
 
 Programmeer je chatbot om een ​​andere vraag te stellen. Kun je het antwoord opslaan in een nieuwe variabele?
 
