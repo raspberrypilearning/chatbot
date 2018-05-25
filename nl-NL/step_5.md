@@ -1,4 +1,4 @@
-## Stap 3: Beslissingen nemen
+## Beslissingen nemen
 
 Je kunt je chatbot programmeren zodat datgene wat het zegt of doet gebaseerd is op jouw antwoorden op zijn vragen.
 
@@ -12,7 +12,7 @@ Je chatbot zou moeten antwoorden "Dat is goed om te horen!!" als je "ja" antwoor
 
 ![Testing a ChatBot reply](images/chatbot-if-test.png)
 
---- hints --- --- hint --- Nadat je chatbot "Hallo" heeft gezegd, zou het nu ook **moeten vragen** "Alles goed?". ** Als ** je antwoordt "ja" is, dan moet de chatbot **zeggen** "Dat is goed om te horen!". --- /hint --- --- hint --- Dit zijn de code blokken die je nodig hebt: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a chatbot reply](images/chatbot-if-code.png) --- /hint --- --- /hints ---
+--- hints --- --- hint --- Nadat je chatbot "Hallo" heeft gezegd, zou het nu ook **moeten vragen** "Alles goed?". **Als** je antwoordt "ja" is, dan moet de chatbot **zeggen** "Dat is goed om te horen!". --- /hint --- --- hint --- Dit zijn de code blokken die je nodig hebt: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a chatbot reply](images/chatbot-if-code.png) --- /hint --- --- /hints ---
 
 --- /task ---
 
@@ -24,7 +24,7 @@ Testen en opslaan. Je chatbot zou nu moeten zeggen "Oh nee!" als je "nee" antwoo
 
 ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
---- hints --- --- hint --- Je chatbot zou nu moeten zeggen: "Dat is goed om te horen!" ** als ** je antwoord "ja" is, maar zou moeten zeggen "Oh nee!" als je iets anders ** antwoordt **. --- /hint --- --- hint --- Dit zijn de code blokken die je nodig hebt: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a yes/no reply](images/chatbot-if-else-code.png) --- /hint --- --- /hints ---
+--- hints --- --- hint --- Je chatbot zou nu moeten zeggen: "Dat is goed om te horen!" **als** je antwoord "ja" is, maar zou moeten zeggen "Oh nee!" als je iets anders **antwoordt**. --- /hint --- --- hint --- Dit zijn de code blokken die je nodig hebt: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a yes/no reply](images/chatbot-if-else-code.png) --- /hint --- --- /hints ---
 
 --- /task ---
 
