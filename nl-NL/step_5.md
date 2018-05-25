@@ -64,7 +64,7 @@ Testen en opslaan: Voer je code uit en typ "nee", zodat je chatbot er ongelukkig
 
 --- challenge ---
 
-## Challenge: meer beslissingen
+## Uitdaging: meer beslissingen
 
 Programmeer je chatbot om een ​​andere vraag te stellen - iets met een "ja" of "nee" antwoord. Kun je je chatbot laten reageren op het antwoord?
 
