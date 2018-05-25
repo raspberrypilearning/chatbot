@@ -10,11 +10,11 @@ Du wirst lernen, wie du deinen eigenen sprechenden Roboter programmieren kannst!
 
 Klicke auf die Grüne Flagge und danach auf den Chatbot, um eine Unterhaltung zu beginnen. Wenn der Chatbot eine Frage stellt, tippe deine Antwort in die Box am unteren Ende der Bühne ein und klicke auf den Haken (oder drücke die `Enter` -Taste).
 
-### Was Du lernen wirst
+### Was du lernen wirst
 
 Dieses Projekt deckt Elemente folgender Stränge des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
 
-+ [Verwendung elementarer Programmiersprachelemente, um einfache Programme zu erstellen.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Verwende grundlegende Programmierkonstrukte, um einfache Programme zu erstellen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ### Zusätzliche Informationen für Gruppenleiter
 
@@ -22,7 +22,7 @@ Falls du dieses Projekt ausdrucken musst, verwende die [druckerfreundliche Versi
 
 ## \--- collapse \---
 
-## Hinweise für Gruppenleiter
+## title: Hinweise für Gruppenleiter
 
 ## Einleitung:
 
