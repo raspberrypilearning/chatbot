@@ -2,13 +2,13 @@
 
 Du wirst lernen, wie du deinen eigenen sprechenden Roboter programmieren kannst!
 
-### Was Du tun wirst
+### Was du machen wirst
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Klicke die Grüne Flagge und danach den Chatbot an, um eine Unterhaltung zu beginnen. Wenn der Chatbot eine Frage stellt, tippe deine Antwort in die Box am unteren Ende der Bühne ein und klicke auf den Haken (oder drücke die `Enter` -Taste).
+Klicke auf die Grüne Flagge und danach auf den Chatbot, um eine Unterhaltung zu beginnen. Wenn der Chatbot eine Frage stellt, tippe deine Antwort in die Box am unteren Ende der Bühne ein und klicke auf den Haken (oder drücke die `Enter` -Taste).
 
 ### Was Du lernen wirst
 
