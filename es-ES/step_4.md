@@ -18,7 +18,7 @@ Ahora el chatbot simplemente responde "¡Qué nombre más bonito!" cada vez. ¿P
 
 ![Comprobando una respuesta personalizada](images/chatbot-answer-test.png)
 
---- hints --- --- hint --- Cuando se hace **clic en la figura** del chatbot, este debería **preguntarte** por tu nombre. El chatbot debería entonces **decir** "Hola", seguido de tu **respuesta **. --- /hint --- --- hint --- Estos son los bloques de código que vas a necesitar: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) --- /hint --- --- hint --- Tu código debería ser así: ![Code for a personalised reply](images/chatbot-answer-code.png) --- /hint --- --- /hints ---
+--- hints --- --- hint --- Cuando se hace **clic en la figura** del chatbot, este debería **preguntarte** por tu nombre. El chatbot debería entonces **decir** "Hola", seguido de tu **respuesta**. --- /hint --- --- hint --- Estos son los bloques de código que vas a necesitar: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) --- /hint --- --- hint --- Tu código debería ser así: ![Code for a personalised reply](images/chatbot-answer-code.png) --- /hint --- --- /hints ---
 
 --- /task ---
 
