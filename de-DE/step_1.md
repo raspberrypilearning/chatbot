@@ -59,9 +59,9 @@ Dieses Projekt deckt Elemente folgender Stränge des [Raspberry Pi Digital Makin
 
 ## title: Projektmaterialien
 
-## Ressourcen für Gruppenleiter
+## Ressourcen für Clubleiter
 
-+ [Vollständiges Scratch 2-Projekt zum Download](resources/ChatBot.sb2)
-+ [Vollständiges Scratch 2-Projekt online](http://scratch.mit.edu/projects/26762091/#editor)
++ [Fertiges Scratch 2-Projekt zum Download](resources/ChatBot.sb2)
++ [Fertiges Scratch 2-Projekt online](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
