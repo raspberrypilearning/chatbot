@@ -51,7 +51,7 @@ Dieses Projekt deckt Elemente folgender Stränge des [Raspberry Pi Digital Makin
 
 + "Zusätzliche Fragen" - Festigung des Gelernten über Texteingabe und den ` Antwort ` {: class = "blocksensing"} -Block;
 + "Zusätzliche Entscheidungen" - Entscheidungen anwenden;
-+ "Programmiere deinen eigenen Chatbot" - Festigung des Gelernten aus diesem und vorangegangenen Projekten.
++ "Mache deinen eigenen Chatbot" - Festigung des Gelernten aus diesem und vorangegangenen Projekten.
 
 \--- /collapse \---
 
