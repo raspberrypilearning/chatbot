@@ -30,9 +30,9 @@ In diesem Projekt lernen die Kinder, mit "falls"-Anweisungen in ihren Programmen
 
 ## Ressourcen
 
-Für dieses Projekt sollte Scratch 2 verwendet werden. Scratch 2 kann entweder online bei [ jumpto.cc/scratch-on verwendet werden ](http://jumpto.cc/scratch-on), oder unter [ jumpto.cc/scratch-off heruntergeladen ](http://jumpto.cc/scratch-off) und offline benutzt werden.
+Für dieses Projekt sollte Scratch 2 verwendet werden. Scratch 2 kann entweder online bei [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) verwendet werden, oder unter [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) heruntergeladen und offline benutzt werden.
 
-Sie finden eine vollständige Version dieses Projekts [ online ](http://scratch.mit.edu/projects/26762091/#editor) oder zum Download unter dem Link "Projektmaterialien" für dieses Projekt, der Folgendes enthält:
+Sie finden eine vollständige Version dieses Projekts [online](http://scratch.mit.edu/projects/26762091/#editor) oder zum Download unter dem Link "Projektmaterialien" für dieses Projekt, der Folgendes enthält:
 
 + ChatBot.sb2
 
@@ -40,12 +40,12 @@ Sie finden eine vollständige Version dieses Projekts [ online ](http://scratch.
 
 + Texteingabe;
 + Entscheidungen: 
-    + ` falls ... dann ` {: class = "blockcontrol"} Anweisungen;
-    + ` falls ... dann ... sonst ` {: class = "blockcontrol"} Anweisungen.
+    + `falls ... dann` {: class = "blockcontrol"} Anweisungen;
+    + `falls ... dann ... sonst`{: class = "blockcontrol"} Anweisungen.
 
 Dieses Projekt deckt Elemente folgender Stränge des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
 
-+ [Verwendung elementarer Programmiersprachelemente, um einfache Programme zu erstellen.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Verwendung grundlegender Programmierkonstrukte, um einfache Programme zu erstellen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## Herausforderungen
 
