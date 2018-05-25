@@ -1,10 +1,10 @@
-## Paso 3: Tomando decisiones
+## Tomando decisiones
 
 Puedes programar tu chatbot para que decida qué decir o hacer en función de tus respuestas a sus preguntas.
 
 --- task ---
 
-¿Puedes hacer que el chatbot haga la pregunta "¿Estás bien?" y añadir código para que responda "¡Esto es estupeneo!" solo ** si ** el usuario responde "sí"?
+¿Puedes hacer que el chatbot haga la pregunta "¿Estás bien?" y añadir código para que responda "¡Esto es estupeneo!" solo **si** el usuario responde "sí"?
 
 Para probar tu nuevo código correctamente, debes probarlo **dos veces**, una vez con la respuesta "sí", y una con la respuesta "no".
 
