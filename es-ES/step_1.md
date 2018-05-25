@@ -49,7 +49,7 @@ Este proyecto incluye elementos desde los siguientes aspectos del [currículo de
 
 ## Desafíos
 
-+ "Más preguntas": consolidación del aprendizaje de las entradas y el bloque de `la respuesta` {: class = "blocksensing"};
++ "Más preguntas": consolidación del aprendizaje de las entradas y el bloque de `la respuesta`{:class="blocksensing"};
 + "Más decisiones" - usar decisiones;
 + "Crea tu propio chatbot" - consolidación de lo aprendido en este proyecto y en proyectos anteriores.
 
