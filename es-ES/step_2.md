@@ -1,16 +1,9 @@
-## Tu robot parlanchín
+## Lo que necesitarás
 
-+ Antes de empezar a crear tu robot parlanchín, necesitas decidir sobre su personalidad.
-	+ ¿Cómo se llama?
-	+ ¿Dónde vive?
-	+ ¿Es feliz? ¿serio? ¿gracioso? ¿tímido? ¿amigable?
+### Hardware
 
-+ Crea un nuevo proyecto de Scratch, y borra el objeto gato para que tu proyecto esté vacío. Puedes encontrar el editor en línea de Scratch en <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
++ Ordenador capaz de ejecutar Scratch 2.0
 
-+ Elige uno de los personajes de este objeto, y añádelo a tu proyecto:
+### Software
 
-	![screenshot](images/chatbot-characters.png)
-
-+ Escoge un escenario que le vaya bien a la personalidad de tu robot parlanchín. Aquí tienes un ejemplo, aunque tu escenario puede ser diferente a éste:
-
-	![screenshot](images/chatbot-sprite.png)
++ Scratch 2.0 ([en línea](https://scratch.mit.edu/projects/editor/) o [sin conexión](https://scratch.mit.edu/scratch2download/))

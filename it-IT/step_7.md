@@ -1,18 +1,14 @@
 --- challenge ---
 
-## Sfida: Completa il tuo ChiacchieBot
+## Sfida: Completa il tuo ChiacchieRobot
 
 Utilizza quello che hai imparato per completare la creazione del tuo ChiacchieRobot interattivo. Ecco alcune idee:
 
 ![Idee per un ChiacchieRobot](images/chatbot-ideas.png)
 
-Una volta finito di creare il tuo ChiacchieRobot, invita i tuoi amici a fare una conversazione con lui! Ai tuoi amici piace il tuo personaggio? Hanno notato qualche problema? 
-
---- /challenge ---
-
+Una volta finito di creare il tuo ChiacchieRobot, invita i tuoi amici a fare una conversazione con lui! Ai tuoi amici piace il tuo personaggio? Hanno notato qualche problema? --- /challenge ---
 ***
-
-### Traduzioni della Community
+### Traduzioni della Community 
 
 Questo progetto è stato tradotto da **Silvia Caponio** e revisionato da **Alejandro Michetti**. 
 

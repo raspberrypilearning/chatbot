@@ -1,60 +1,48 @@
-## Un robot que habla
+## Tu chatbot
 
-Ahora que ya tienes un robot parlanchín con personalidad, vamos a programarlo para que te hable.
+--- task ---
 
-+ Haz clic en el personaje de tu robot parlanchín, y añade este código:
+Antes de empezar a crear tu chatbot, necesitas decidir sobre su personalidad. **Piensa en las preguntas siguientes**:
 
-	```blocks
-		al hacer clic en este objeto
-		preguntar [¡Hola! ¿Cómo te llamas?] y esperar
-		decir [¡Qué nombre más bonito!] por (2) segundos
-	```
+    + Como se llama?
+    + Donde vive?
+    + Es feliz? Está serio? Es divertido? Tímido? Amistoso?
+    
 
-+ Haz clic en tu robot parlanchín para probarlo. Después de que te haya preguntado tu nombre, escríbelo en el recuadro que aparece en la parte inferior del escenario.
+--- /task ---
 
-	![screenshot](images/chatbot-text.png)
+--- task ---
 
-+ Tu robot parlanchín simplemente responderá `¡Qué nombre más bonito!` cada vez. Puedes personalizar la respuesta de tu robot parlanchín, usando la respuesta del usuario. Cambia el código del robot parlanchín a éste:
+Abre un nuevo proyecto de Scratch vacío.
 
-	```blocks
-		al hacer clic en este objeto
-		preguntar [¡Hola! ¿Cómo te llamas?] y esperar
-		decir <unir [Hola] (respuesta)> por (2) segundos
-	```
+[[[generic-scratch-new-project]]]
 
-	Para crear este último bloque, primero tendrás que seleccionar un bloque verde `unir`{:class="blockoperators"}, y arrastrarlo sobre el bloque `decir`{:class="blocklooks"} .
+--- /task ---
 
-	![screenshot](images/chatbot-join.png)
+--- task ---
 
-	Puedes cambiar el texto `hello` por `Hola`, y arrastrar el bloque azul `respuesta`{:class="blocksensing"} (de la sección 'Sensores') sobre el texto `world`.
+Elige una de estas figuras de personaje y añádelas a tu proyecto:
 
-	![screenshot](images/chatbot-answer.png)
+![Elige un personaje](images/chatbot-characters.png)
 
-+ Prueba este nuevo programa. ¿Funciona como esperabas? ¿Puedes solucionar los problemas que ves? (Pista: ¡puedes intentar añadir un espacio en alguna parte!)
+[[[generic-scratch-sprite-from-library]]]
 
-+ Puede que quieras guardar el nombre del usuario en una variable, para poder usarlo de nuevo en el futuro. Crea una nueva variable que se llame `nombre`{:class="blockdata"}. Si has olvidado cómo se hace, el proyecto "Globos" puede ayudarte.
+--- /task ---
 
-+ La información que has escrito ya está almacenada en una variable especial llamada `respuesta`{:class="blocksensing"}. Ve a la sección de bloques Sensores y haz clic en el bloque de respuesta para que aparezca una marca de verificación. El valor actual en `respuesta`{:class="blocksensing"} debería aparecer en la parte superior izquierda del escenario.
+--- task ---
 
-+ Una vez hayas creado tu nueva variable, asegúrate de que el código de tu robot parlanchín sea como éste:
+Elige un fondo que encaje con la personalidad de tu chatbot. Aquí hay un ejemplo, aunque el tuyo no tiene por que ser así:
 
-	```blocks
-		al hacer clic en este objeto
-		preguntar [¡Hola! ¿Cómo te llamas?] y esperar
-		fijar [nombre v] a (respuesta)
-		decir <unir [Hola ] (nombre)> por (2) segundos
-	```
+![Elige un fondo](images/chatbot-backdrop.png)
 
-+ Si pruebas el programa una vez más, verás que la respuesta se guarda en la variable `nombre`{:class="blockdata"}, y aparece en la parte superior izquierda del escenario. La variable `nombre`{:class="blockdata"} debería ahora contener el mismo valor que la variable `respuesta`{:class="blocksensing"} .
+[[[generic-scratch-backdrop-from-library]]]
 
-	![screenshot](images/chatbot-variable.png)
+--- /task ---
 
-	Si prefieres no ver las variables en el escenario, puedes desactivar la marca de verificación junto al nombre de la variable en la pestaña "Programas" para esconderla.
+--- task ---
 
---- challenge ---
-## Desafío: Más preguntas
+Guarda tu proyecto.
 
-Programa a tu robot parlanchín para que haga otra pregunta. ¿Puedes guardar la respuesta en una variable?
+[[[generic-scratch-saving]]]
 
-![screenshot](images/chatbot-question.png)
---- /challenge ---
+--- /task ---

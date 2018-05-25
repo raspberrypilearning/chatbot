@@ -15,7 +15,7 @@ site_areas: projects
 technologies: scratch
 hardware: ''
 software: scratch
-version: 4
+version: 4.1.0
 last_tested: 2017-01-01
 steps:
   - title: Introduzione
