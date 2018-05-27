@@ -16,13 +16,13 @@ Dieses Projekt deckt Elemente folgender Stränge des [Raspberry Pi Digital Makin
 
 + [Verwende grundlegende Programmierkonstrukte, um einfache Programme zu erstellen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Zusätzliche Informationen für Gruppenleiter
+### Zusätzliche Informationen für Clubleiter
 
-Falls du dieses Projekt ausdrucken musst, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/chatbot/print){: target="_blank.
+Falls Sie dieses Projekt ausdrucken müssen, verwenden Sie bitte die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 ## \--- collapse \---
 
-## title: Hinweise für Gruppenleiter
+## title: Hinweise für Clubleiter
 
 ## Einleitung:
 
