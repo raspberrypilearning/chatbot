@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Bevor Du mit deinem Chatbot beginnst, musst Du über seine Persönlichkeit entscheiden. ** Denke über folgende Fragen nach **:
+Bevor du mit deinem Chatbot beginnst, musst du über seine Persönlichkeit entscheiden. **Denke über folgende Fragen nach**:
 
     + Wie heißt er?
     + Wo lebt er?
