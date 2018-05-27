@@ -12,7 +12,7 @@ Klicke auf die Grüne Flagge und danach auf den Chatbot, um eine Unterhaltung zu
 
 ### Was du lernen wirst
 
-Dieses Projekt deckt Elemente folgender Stränge des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
+Dieses Projekt deckt Elemente folgender Zweige des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
 
 + [Verwende grundlegende Programmierkonstrukte, um einfache Programme zu erstellen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
@@ -43,7 +43,7 @@ Sie finden eine vollständige Version dieses Projekts [online](http://scratch.mi
     + `falls ... dann` {: class = "blockcontrol"} Anweisungen;
     + `falls ... dann ... sonst`{: class = "blockcontrol"} Anweisungen.
 
-Dieses Projekt deckt Elemente folgender Stränge des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
+Dieses Projekt deckt Elemente folgender Zweige des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
 
 + [Verwendung grundlegender Programmierkonstrukte, um einfache Programme zu erstellen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
