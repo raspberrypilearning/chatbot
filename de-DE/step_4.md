@@ -8,7 +8,7 @@ Füge deinem Chatbot Code hinzu, so dass er nach deinem Namen fragt und dann sag
 
 ![Eine ChatBot-Antwort ausprobieren](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \---Wenn die Chatbot- **Figur angeklickt wird**, sollte sie nach deinem Namen **fragen**. Der Chatbot sollte dann "Was für ein hübscher Name!" ** sagen **. \--- / hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: <1 /> \--- / hint \--- \--- hint \--- So sollte dein Code aussehen: Code für eine Chatbot-Antwort<2 /> \--- / hint \--- \--- / hint \---
+\--- hints \--- \--- hint \--- Wenn die Chatbot- **Figur angeklickt wird**, sollte sie nach deinem Namen **fragen**. Der Chatbot sollte dann "Was für ein hübscher Name!" **sagen**. \--- / hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- / hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- / hint \--- \--- / hints \---
 
 \--- /task \---
 
