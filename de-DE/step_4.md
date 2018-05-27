@@ -24,7 +24,7 @@ Im Moment antwortet der Chatbot einfach jedes Mal: "Was für ein hübscher Name!
 
 \--- task \---
 
-Wenn Du deine Antwort in einer **Variablen** speicherst, kann sie auch später noch verwendet werden. Erstelle eine neue Variable namens `Name` und speichere Deinen Namen darin.
+Wenn du deine Antwort in einer **Variablen** speicherst, kann sie auch später noch verwendet werden. Erstelle eine neue Variable namens `Name` um deinen Namen darin zu speichern.
 
 [[[generic-scratch-add-variable]]]
 
