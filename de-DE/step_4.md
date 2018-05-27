@@ -1,6 +1,6 @@
 ## Ein sprechender Chatbot
 
-Jetzt, wo Du einen Chatbot mit einer eigenen Persönlichkeit hast, lass' uns ihn so programmieren, dass er mit dir spricht.
+Jetzt, wo du einen Chatbot mit einer eigenen Persönlichkeit hast, lass' uns ihn so programmieren, dass er mit dir spricht.
 
 \--- task \---
 
