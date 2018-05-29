@@ -1,10 +1,10 @@
-## Changing location
+## Alterando localização
 
-You can also code your chatbot to change its location.
+Você também pode codificar seu chatbot para mudar sua localização.
 
 \--- task \---
 
-Add another backdrop to your Stage, for example the 'moon' backdrop.
+Adicione outro pano de fundo ao seu Palco, por exemplo, o pano de fundo "lua".
 
 ![Adding a 'moon' backdrop](images/chatbot-moon.png)
 
@@ -12,28 +12,28 @@ Add another backdrop to your Stage, for example the 'moon' backdrop.
 
 \--- task \---
 
-Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
+Você pode codificar seu chatbot para perguntar "Você gostaria de ir para a lua?" e depois mudar de localização se você responder "sim"?
 
-Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+Teste e salve. Se você responder "sim", seu chatbot deve mudar de local. Seu chatbot deve ficar triste e dizer "Tá bom​​... tchau!" se alguma outra resposta for dada.
 
 ![Testing a changing backdrop](images/chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+\--- hints \--- \--- hint \--- Seu chatbot deve **perguntar** "Você gostaria de ir para a lua?". **se** sua **resposta** é "sim", então o seu chatbot deve **mudar de roupa ** para parecer feliz e o **cenário do palco** deve mudar.
 
-If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
+Se você responder "não", o chatbot deve **trocar de roupa** para parecer triste e **dizer** "Tá bom, tchau!"
 
-You'll also need to add code to start your chatbot in the right place **when clicked**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
+Você também precisará adicionar código para iniciar seu chatbot no lugar certo **quando clicado**. \--- /hint \--- \--- hint \--- Aqui estão os blocos de código que você precisará: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Isto é como seu código deve se parecer: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
+Você pode adicionar código para fazer o seu chatbot pular de alegria se você disser que quer ir para a lua?
 
-Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+Teste e salve. Se você responder "sim", seu chatbot deve mudar de local. Seu chatbot deve ficar triste e dizer "Tá bom​​... tchau!" se alguma outra resposta for dada.
 
 ![Testing a jumping ChatBot](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should jump by **changing** its **y position** by a small amount, and then changing its position back after a short **wait**. You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Seu chatbot deve pular **mudando** sua **posição y** por uma pequena quantidade e, em seguida, alterando sua posição de volta após uma breve **espera**. Você pode **repetir** isso algumas vezes. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
