@@ -1,8 +1,8 @@
-## Introduction
+## Introducción
 
-You are going to learn how to program your own talking robot!
+¡Vas a aprender a programar tu propio robot que habla!
 
-### What you will make
+### Lo que crearás
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
