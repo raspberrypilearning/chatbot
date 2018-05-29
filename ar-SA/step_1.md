@@ -8,15 +8,15 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-اضغط على اشارة العلم الأخضر، ثم اضغط على التشاتبوت لبدء الحوار. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+اضغط على اشارة العلم الأخضر، ثم اضغط على التشاتبوت لبدء الحوار. عندما يسأل تشاتبوت سؤالاً، اكتب إجابتك في المربع في الجزء السفلي من المنصة، وانقر فوق علامة الإشارة (أو اضغط ` إدخال`).
 
-### What you will learn
+### ما الذي ستتعلمه
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+يتناول هذا المشروع عناصر من الصفوف التالية من [منهج التصنيع الرقمي الخاص بـراسبيري باي](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [استخدم التراكيب البرمجية الأساسية لإنشاء برامج بسيطة.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### معلومات إضافية للمعلمين
 
 If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
