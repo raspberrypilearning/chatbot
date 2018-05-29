@@ -21,7 +21,7 @@ Abra um novo projeto Scratch vazio.
 
 \--- task \---
 
-Escolha um desses sprites de personagem e adicione-os ao seu projeto:
+Escolha um desses atores de personagem e adicione-os ao seu projeto:
 
 ![Escolha o personagem](images/chatbot-characters.png)
 
