@@ -1,45 +1,45 @@
-## Introduction
+## Introdução
 
-You are going to learn how to program your own talking robot!
+Aprenda a programar seu próprio robô falante!
 
-### What you will make
+### O que você vai fazer
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+Clique na bandeira verde e, em seguida, clique no chatbot para iniciar uma conversa. Quando o chatbot fizer uma pergunta, digite sua resposta na caixa na parte inferior do Palco e clique no sinal de confirmação (ou pressione ` Enter `).
 
-### What you will learn
+### O que você aprenderá
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Use construções básicas de programação para criar programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### Informações adicionais para líderes de clubes
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Se você precisar imprimir este projeto, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: notas do líder do clube
 
-## Introduction:
+## Introdução:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+Neste projeto, as crianças aprenderão como usar declarações 'se' para tomar decisões em seus programas.
 
 ## Resources
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Para este projeto, o Scratch 2 deve ser usado. O Scratch 2 pode ser usado online em [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) ou pode ser baixado de [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) e usado offline.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Você pode encontrar uma versão completa deste projeto [ online ](http://scratch.mit.edu/projects/26762091/#editor), ou pode ser baixado clicando no link 'Materiais de Projeto' para este projeto, que contém:
 
 + ChatBot.sb2
 
-## Learning Objectives
+## Objetivos de aprendizado
 
-+ Text input;
-+ Decisions: 
++ Entrada de texto;
++ Decisões: 
     + `if ... then`{:class="blockcontrol"} statements;
     + `if ... then ... else`{:class="blockcontrol"} statements.
 
