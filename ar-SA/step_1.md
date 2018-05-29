@@ -8,29 +8,29 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-اضغط على اشارة العلم الأخضر، ثم اضغط على التشاتبوت لبدء الحوار. عندما يسأل تشاتبوت سؤالاً، اكتب إجابتك في المربع في الجزء السفلي من المنصة، وانقر فوق علامة الإشارة (أو اضغط ` إدخال`).
+اضغط على اشارة العلم الأخضر، ثم اضغط على التشاتبوت لبدء الحوار. عندما يسأل تشاتبوت سؤالاً، اكتب إجابتك في المربع في الجزء السفلي من المنصة، وانقر فوق علامة الإشارة (أو اضغط `Enter`).
 
 ### ما الذي ستتعلمه
 
-يتناول هذا المشروع عناصر من الصفوف التالية من [منهج التصنيع الرقمي الخاص بـراسبيري باي](http://rpf.io/curriculum):
+يتناول هذا المشروع عناصر من الصفوف التالية من [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
 + [استخدم التراكيب البرمجية الأساسية لإنشاء برامج بسيطة.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ### معلومات إضافية للمعلمين
 
-إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [النسخة القابلة للطباعة](https://projects.raspberrypi.org/en/projects/chatbot/print).
+إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
-## \--- collapse \---
+## تجميع
 
-## title: Club leader notes
+## العنوان: ملاحظات المعلم
 
-## Introduction:
+## المقدمة:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+في هذا المشروع، سيتعلَّم الأطفال كيف يستخدمون جمل "if" لاتخاذ القرارات في برامجهم.
 
-## Resources
+## المصادر
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+في هذا المشروع، يجب استخدام النسخة الأولية رقم 2. يمكن استخدام النسخة الأولية رقم 2 إما من خلال استعراضها على الانترنت [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) أو من خلال تنزيلها من [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) ثم استخدامها في وضع عدم الاتصال.
 
 You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
 
