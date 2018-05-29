@@ -34,7 +34,7 @@
 
 يمكنك العثور على نسخة مكتملة من هذا المشروع [online](http://scratch.mit.edu/projects/26762091/#editor) أو يمكن تنزيله بالنقر فوق رابط "مواد المشروع" لهذا المشروع ، والذي يحتوي على:
 
-+ ChatBot.sb2
++ المادة ChatBot.sb2
 
 ## أهداف التعلم
 
@@ -61,7 +61,7 @@
 
 ## مصادر المعلم
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [النسخة الأولية رقم 2 المكتملة للمشروع والقابلة للتنزيل](resources/ChatBot.sb2)
++ [النسخة الأولية رقم 2 المكتملة للمشروع والتي يمكن استعراضها على الانترنت](http://scratch.mit.edu/projects/26762091/#editor)
 
-\--- /collapse \---
+تجميع
