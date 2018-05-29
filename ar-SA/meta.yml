@@ -11,10 +11,10 @@ copyedit: true
 curriculum: 1، التصميم-0، البرمجة-1، الحوسبة الفيزيائية-0، التصنيع-0، المجتمع-0
 interests: ''
 technology: البداية
-site_areas: projects
-technologies: scratch
+site_areas: المشاريع
+technologies: البداية
 hardware: ''
-software: scratch
+software: البداية
 version: 4.1.0
 last_tested: 2017-01-01
 steps:
@@ -23,12 +23,12 @@ steps:
   - 
     title: ما ستحتاج إليه
   - 
-    title: روبوتك
+    title: تشاتبوت الخاص بك
   - 
-    title: روبوت مُحاوِر
+    title: تشاتبوت متكلم
   - 
     title: صناعة القرارات
   - 
     title: تغيير المكان
   - 
-    title: 'التحدي: إكمال إنشاء روبوتك'
+    title: 'التحدي: إكمال إنشاء التشاتبوت الخاص بك'
