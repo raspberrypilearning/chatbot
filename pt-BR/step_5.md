@@ -4,15 +4,15 @@ Você pode programar o seu chatbot para decidir o que dizer ou fazer com base na
 
 \--- task \---
 
-Você pode fazer o chatbot fazer a pergunta "Você está bem?", e codificá-lo para responder "Isso é ótimo de ouvir!" somente **se** o usuário responder "sim"?
+Você pode fazer o chatbot fazer a pergunta "Você está bem?", e codificá-lo para responder "Que bom ouvir isso!" somente **se** o usuário responder "sim"?
 
 Para testar o seu novo código corretamente, você deve testá-lo **duas vezes**, uma vez com a resposta "sim" e uma vez com a resposta "não".
 
-Seu chatbot deve responder "Isso é ótimo de ouvir!" se você responder "sim", mas não diga nada se você responder "não".
+Seu chatbot deve responder "Que bom ouvir isso!" se você responder "sim", mas não diga nada se você responder "não".
 
 ![Testing a chatbot reply](images/chatbot-if-test.png)
 
-\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Após o seu chatbot ter dito "Oi", agora também deve **perguntar** "Você está bem?". **se** você responder "sim", então o chatbot deve **dizer** "Que bom ouvir isso!". \--- /hint \--- \--- hint \--- Aqui estão os blocos de código que você precisará: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Isto é como seu código deve se parecer: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
