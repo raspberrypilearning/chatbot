@@ -30,7 +30,7 @@ Testen und speichern. Dein Chatbot sollte jetzt "Oh nein!" sagen wenn du mit "ne
 
 \--- task \---
 
-Du kannst allen möglichen Code in einem `falls/sonst`-Block ablegen, nicht bloß Code, der deinen Chatbot sprechen lässt. Wenn Du im Medienbereich den **Kostüme**-Reiter für die Figur deines Chatbots anklickst, wirst Du sehen, dass sie mehrere Kostüme hat.
+Du kannst allen möglichen Code in einem `falls/sonst`-Block ablegen, nicht bloß Code, der deinen Chatbot sprechen lässt. Wenn du auf die Registerkarte Kostüme **Kostüme** für die Figur deines Chatbots klickst, wirst du sehen, dass sie mehrere Kostüme hat.
 
 ![Chatbot Kostüme](images/chatbot-costume-view.png)
 
@@ -44,27 +44,27 @@ Testen und speichern. Du solltest sehen, dass sich das Gesicht deines Chatbots i
 
 ![Ein Kostüm wechseln und ausprobieren](images/chatbot-costume-test.png)
 
-\--- hints \--- \--- hint \---Dein Chatbot sollte jetzt zusätzlich je nach der gegebenen Antwort **wechsle zu Kostüm** ausführen. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Dein Chatbot sollte jetzt zusätzlich je nach der gegebenen Antwort den Block **wechsle zu Kostüm** ausführen. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Ist dir aufgefallen, dass das Kostüm deines Chatbots sich, seit Du das letzte Mal mit ihm sprachst, nicht mehr verändert hat? Kannst Du dieses Problem beheben?
+Ist dir aufgefallen, dass das Kostüm deines Chatbots sich, seit du das letzte Mal mit ihm gesprochen hast, nicht mehr verändert hat? Kannst Du dieses Problem beheben?
 
 ![Kostüm-Bug](images/chatbot-costume-bug-test.png)
 
-Testen und speichern - Führe deinen Code aus und gebe "nein" ein, so dass dein Roboter traurig schaut. Wenn Du dein Programm erneut startest, sollte dein Chatbot wieder ein fröhliches Gesicht zeigen, bevor er nach deinem Namen fragt.
+Testen und speichern - Führe deinen Code aus und gib "nein" ein, so dass dein Roboter traurig schaut. Wenn du dein Programm erneut startest, sollte dein Chatbot wieder ein fröhliches Gesicht zeigen, bevor er nach deinem Namen fragt.
 
 ![Ein anderes Kostüm testen](images/chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- Wenn die **Figur angeklickt** wird, sollte dein Chatbot zuerst **wechsle zu Kostüm** "fröhliches Gesicht" ausführen. \--- /hint \--- \--- hint \--- Hier sind die zusätzlichen Code-Blöcke, die Du brauchen wirst: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Wenn die **Figur angeklickt** wird, sollte dein Chatbot zuerst ein **wechsle zu Kostüm** "fröhliches Gesicht" ausführen. \--- /hint \--- \--- hint \--- Hier sind die zusätzlichen Code-Blöcke, die du brauchen wirst: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- challenge \---
 
-## Zusätzliche Entscheidungen
+## Herausforderung: zusätzliche Entscheidungen
 
 Programmiere deinen Chatbot, eine weitere Frage zu stellen - irgendetwas, auf das man mit "ja" oder "nein" antwortet. Kannst du deinen Chatbot auf die Antwort reagieren lassen?
 
