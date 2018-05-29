@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: finish your chatbot
+## Desafio: termine seu chatbot
 
-Use what you've learnt to finish creating your interactive chatbot. Here are some ideas:
+Use o que aprendeu terminar de criar seu chatbot interativo. Aqui estão algumas ideias:
 
-![ChatBot ideas](images/chatbot-ideas.png)
+![Idéias do ChatBot](images/chatbot-ideas.png)
 
-Once you've finished making your chatbot, get your friends to have a conversation with it! Do they like your character? Did they spot any problems? \--- /challenge \---
+Uma vez você terminou de fazer seu chatbot, chame seus amigos para ter uma conversa com ele! Eles gostam de seu personagem? Viram algum problema? \---/challenge--
