@@ -1,14 +1,14 @@
-## Introduction
+## المقدمة
 
-You are going to learn how to program your own talking robot!
+سوف تتعلم كيفية برمجة الروبوت المتكلم الخاص بك!
 
-### What you will make
+### ما الذي ستصنعه
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+اضغط على اشارة العلم الأخضر، ثم اضغط على التشاتبوت لبدء الحوار. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
 
 ### What you will learn
 
