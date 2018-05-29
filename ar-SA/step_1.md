@@ -32,34 +32,34 @@
 
 في هذا المشروع، يجب استخدام النسخة الأولية رقم 2. يمكن استخدام النسخة الأولية رقم 2 إما من خلال استعراضها على الانترنت [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) أو من خلال تنزيلها من [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) ثم استخدامها في وضع عدم الاتصال.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+يمكنك العثور على نسخة مكتملة من هذا المشروع [online](http://scratch.mit.edu/projects/26762091/#editor) أو يمكن تنزيله بالنقر فوق رابط "مواد المشروع" لهذا المشروع ، والذي يحتوي على:
 
 + ChatBot.sb2
 
-## Learning Objectives
+## أهداف التعلم
 
-+ Text input;
-+ Decisions: 
-    + `if ... then`{:class="blockcontrol"} statements;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
++ إدخال النص;
++ القرارات: 
+    + جمل `if ... then`{:class="blockcontrol"}؛
+    + جمل `if ... then ... else`{:class="blockcontrol"}.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+يتناول هذا المشروع عناصر من الصفوف التالية من [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [استخدم أدوات البرمجة الأساسية لإنشاء برامج بسيطة.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## التحديات
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ "مزيد من الأسئلة" - دمج تعلم المدخلات و كتلة `answer`{:class="blocksensing"}؛
++ "المزيد من القرارات" - باستخدام القرارات؛
++ "اصنع تشاتبوت الخاص بك" - توطيد التعلم من هذا المشروع والمشاريع السابقة.
 
-\--- /collapse \---
+تجميع
 
-## \--- collapse \---
+## تجميع
 
-## title: Project materials
+## العنوان: مواد المشروع
 
-## Club leader resources
+## مصادر المعلم
 
 + [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
 + [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
