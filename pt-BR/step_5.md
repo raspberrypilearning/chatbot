@@ -18,9 +18,9 @@ Seu chatbot deve responder "Que bom ouvir isso!" se você responder "sim", mas n
 
 \--- task \---
 
-At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+No momento, o seu chatbot não diz nada se você responder "não". Você pode mudar seu chatbot para que ele também responda "Ah não!" se você responder "não" à sua pergunta?
 
-Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+Teste e salve. Seu chatbot agora deve dizer "Ah não!" se você responder "não". Na verdade, ele vai dizer "Ah não!" se você responder com algo diferente de "sim" (o **então** em um bloco `se/então` significa **caso contrário**).
 
 ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
