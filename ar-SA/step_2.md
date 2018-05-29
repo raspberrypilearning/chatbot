@@ -1,9 +1,9 @@
-## What you will need
+## ما ستحتاج إليه
 
-### Hardware
+### الأجهزة
 
-+ Computer capable of running Scratch 2.0
++ جهاز كمبيوتر يدعم تشغيل برنامج Scratch 2.0
 
-### Software
+### البرمجيات
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
++ برنامج Scratch 2.0 (سواء كان [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
