@@ -1,14 +1,14 @@
-## Step 3: Making decisions
+## Etapa 3: Tomando decisões
 
-You can program your chatbot to decide what to say or do based on your responses to its questions.
+Você pode programar o seu chatbot para decidir o que dizer ou fazer com base nas suas respostas às suas perguntas.
 
 \--- task \---
 
-Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
+Você pode fazer o chatbot fazer a pergunta "Você está bem?", e codificá-lo para responder "Isso é ótimo de ouvir!" somente **se** o usuário responder "sim"?
 
-To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
+Para testar o seu novo código corretamente, você deve testá-lo **duas vezes**, uma vez com a resposta "sim" e uma vez com a resposta "não".
 
-Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
+Seu chatbot deve responder "Isso é ótimo de ouvir!" se você responder "sim", mas não diga nada se você responder "não".
 
 ![Testing a chatbot reply](images/chatbot-if-test.png)
 
