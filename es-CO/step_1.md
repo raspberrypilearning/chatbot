@@ -43,25 +43,25 @@ Puede encontrar una versión completa de este proyecto [en línea](http://scratc
     + `if ... then`{:class="blockcontrol"} statements;
     + `if ... then ... else`{:class="blockcontrol"} statements.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este proyecto incluye elementos de los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Usar estructuras de programación básicas para crear programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Desafíos
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ "Más preguntas": consolidación del aprendizaje de las entradas y el bloque de `la respuesta` {: class = "blocksensing"};
++ "Más decisiones" - usar decisiones;
++ "Crea tu propio chatbot" - consolidación de lo aprendido en este proyecto y en proyectos anteriores.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## título: materiales del proyecto
 
-## Club leader resources
+## Recursos del líder del club
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [Proyecto de Scratch 2 acabado y descargable](resources/ChatBot.sb2)
++ [Proyecto de Scratch 2 acabado en línea](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
