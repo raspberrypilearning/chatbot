@@ -49,19 +49,19 @@ Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital 
 
 ## Desafios
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ "Mais perguntas" - consolidando a aprendizagem de entrada e o bloco `resposta ` {:class="blockensing"};
++ "Mais decisões" - usando decisões;
++ "Faça o seu próprio chatbot" - consolidação da aprendizagem deste e dos projetos anteriores.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Materiais do projeto
 
-## Club leader resources
+## Recursos do líder do clube
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [Download do projeto completo no Scratch 2](resources/ChatBot.sb2)
++ [Projeto completo no Scratch 2 online](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
