@@ -18,7 +18,7 @@
 
 ### معلومات إضافية للمعلمين
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [النسخة القابلة للطباعة](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 ## \--- collapse \---
 
