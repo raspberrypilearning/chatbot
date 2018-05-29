@@ -1,10 +1,10 @@
-## A talking chatbot
+## Um chatbot falante
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+Agora que você tem um chatbot com uma personalidade, vamos programá-lo para conversar com você.
 
 \--- task \---
 
-Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+Adicione o código ao seu chatbot para que, quando clicado, ele solicite seu nome e, em seguida, diga "Que nome adorável!"
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
