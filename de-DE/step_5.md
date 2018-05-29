@@ -52,7 +52,7 @@ Testen und speichern. Du solltest sehen, dass sich das Gesicht deines Chatbots i
 
 Ist dir aufgefallen, dass das Kostüm deines Chatbots sich, seit du das letzte Mal mit ihm gesprochen hast, nicht mehr verändert hat? Kannst Du dieses Problem beheben?
 
-![Kostüm-Bug](images/chatbot-costume-bug-test.png)
+![Kostüm-Fehler](images/chatbot-costume-bug-test.png)
 
 Testen und speichern - Führe deinen Code aus und gib "nein" ein, so dass dein Roboter traurig schaut. Wenn du dein Programm erneut startest, sollte dein Chatbot wieder ein fröhliches Gesicht zeigen, bevor er nach deinem Namen fragt.
 
@@ -66,6 +66,6 @@ Testen und speichern - Führe deinen Code aus und gib "nein" ein, so dass dein R
 
 ## Herausforderung: zusätzliche Entscheidungen
 
-Programmiere deinen Chatbot, eine weitere Frage zu stellen - irgendetwas, auf das man mit "ja" oder "nein" antwortet. Kannst du deinen Chatbot auf die Antwort reagieren lassen?
+Programmiere deinen Chatbot, um eine weitere Frage zu stellen - irgendetwas, auf das man mit "ja" oder "nein" antwortet. Kannst du deinen Chatbot auf die Antwort reagieren lassen?
 
 ![screenshot](images/chatbot-joke.png) \--- /challenge \---
