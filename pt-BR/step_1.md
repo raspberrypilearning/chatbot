@@ -40,14 +40,14 @@ Você pode encontrar uma versão completa deste projeto [ online ](http://scratc
 
 + Entrada de texto;
 + Decisões: 
-    + `if ... then`{:class="blockcontrol"} statements;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
+    + declarações ` se ... então ` {:class="blockcontrol"} ;
+    + declarações ` se ... então ... senão` {:class="blockcontrol"}.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Use construções básicas de programação para criar programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Desafios
 
 + "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
 + "More decisions" - using decisions;
