@@ -8,23 +8,23 @@ Adicione o código ao seu chatbot para que, quando clicado, ele solicite seu nom
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Quando o sprite do chatbot** é clicado **, ele deve ** perguntar ** pelo seu nome. O chatbot então deve **dizer** "Que nome adorável!" \--- /hint \--- \--- hint \--- Aqui estão alguns blocos de códigos que você vai precisar: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Aqui como seu código deve parecer: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+Agora o chatbot simplesmente responde "Que nome adorável!" toda vez. Você pode personalizar a resposta do seu chatbot, fazendo uso de sua resposta?
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Quando o sprite do chatbot** é clicado **, ele deve ** perguntar ** pelo seu nome. O chatbot deve então **dizer** "Olá", seguido da sua **resposta**. \--- /hint \--- \--- hint \--- Aqui estão os blocos de código que você precisará: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Isto é como seu código deve se parecer: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
+Se você armazenar sua resposta em uma **variável**, então pode ser usada mais tarde. Crie uma nova variável chamada `nome` para armazenar o seu nome.
 
 [[[generic-scratch-add-variable]]]
 
@@ -32,13 +32,13 @@ If you store your answer in a **variable**, then it can be used later. Create a 
 
 \--- task \---
 
-Can you store your answer in the `name` variable and use it in your chatbot's reply?
+Você pode armazenar sua resposta na variável de `nome` e usá-lo na resposta do seu chatbot?
 
-Your code should work as before: your chatbot should say hello using your name.
+Seu código deve funcionar como antes: seu chatbot deve dizer olá usando seu nome.
 
 ![Testing a 'name' variable](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Quando o sprite do chatbot** é clicado **, ele deve ** perguntar ** pelo seu nome. Você deve então **definir** a variável de `nome` para sua **resposta**. O chatbot deve, então, **dizer** "Oi", seguido de seu **nome**. \--- /hint \--- \--- hint \--- Aqui estão os blocos de código que você precisará: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Isto é como seu código deve se parecer: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
