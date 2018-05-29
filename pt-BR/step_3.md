@@ -13,7 +13,7 @@ Antes de começar a fazer seu chatbot, você precisa decidir sobre sua personali
 
 \--- task \---
 
-Open a new empty Scratch project.
+Abra um novo projeto Scratch vazio.
 
 [[[generic-scratch-new-project]]]
 
@@ -21,9 +21,9 @@ Open a new empty Scratch project.
 
 \--- task \---
 
-Choose one of these character sprites, and add them to your project:
+Escolha um desses sprites de personagem e adicione-os ao seu projeto:
 
-![Choose a character](images/chatbot-characters.png)
+![Escolha o personagem](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -31,9 +31,9 @@ Choose one of these character sprites, and add them to your project:
 
 \--- task \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+Escolha um cenário que se adapte à personalidade do seu chatbot. Aqui está um exemplo, embora o seu não tenha que ser assim:
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![Escolha um cenário](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
@@ -41,7 +41,7 @@ Choose a backdrop that fits your chatbot's personality. Here's an example, altho
 
 \--- task \---
 
-Save your project.
+Salve seu projeto.
 
 [[[generic-scratch-saving]]]
 
