@@ -50,7 +50,7 @@ Testen und speichern. Du solltest sehen, dass sich das Gesicht deines Chatbots i
 
 \--- task \---
 
-Ist dir aufgefallen, dass das Kostüm deines Chatbots sich, seit du das letzte Mal mit ihm gesprochen hast, nicht mehr verändert hat? Kannst Du dieses Problem beheben?
+Ist dir aufgefallen, dass sich das Kostüm deines Chatbots nicht verändert hat, seit du das letzte Mal mit ihm gesprochen hast? Kannst Du dieses Problem beheben?
 
 ![Kostüm-Fehler](images/chatbot-costume-bug-test.png)
 
