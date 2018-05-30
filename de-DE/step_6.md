@@ -1,6 +1,6 @@
 ## Ortswechsel
 
-Du kannst deinen Chatbot auch programmieren, seinen Standort zu wechseln.
+Du kannst deinen Chatbot auch programmieren, damit er seinen Standort wechselt.
 
 \--- task \---
 
