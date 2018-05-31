@@ -24,13 +24,13 @@ Testen und speichern. Dein Chatbot sollte jetzt "Oh nein!" sagen wenn du mit "ne
 
 ![Eine Ja/Nein-Antwort ausprobieren](images/chatbot-if-else-test.png)
 
-\--- hints \--- \--- hint \--- Dein Chatbot sollte jetzt sagen: "Das ist schön zu hören!" **falls** du mit "ja" antwortest, sollte aber "Oh nein!" sagen, falls du **sonst**etwas antwortest. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Dein Chatbot sollte jetzt sagen: "Das ist schön zu hören!" **falls** du mit "ja" antwortest, sollte aber "Oh nein!" sagen, falls du **sonst** etwas antwortest. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Du kannst allen möglichen Code in einem `falls/sonst`-Block ablegen, nicht bloß Code, der deinen Chatbot sprechen lässt. Wenn du auf die Registerkarte Kostüme **Kostüme** für die Figur deines Chatbots klickst, wirst du sehen, dass sie mehrere Kostüme hat.
+Du kannst allen möglichen Code in einem `falls/sonst`-Block ablegen, nicht bloß Code, der deinen Chatbot sprechen lässt. Wenn du auf die Registerkarte **Kostüme** für die Figur deines Chatbots klickst, wirst du sehen, dass sie mehrere Kostüme hat.
 
 ![Chatbot Kostüme](images/chatbot-costume-view.png)
 
