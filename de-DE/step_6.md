@@ -34,6 +34,6 @@ Testen und speichern. Wenn du "Ja" antwortest, sollte dein Chatbot auf und ab h�
 
 ![Einen springenden ChatBot testen](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \---Dein Chatbot sollte hoch hüpfen, indem du **y um** einen kleinen Betrag **änderst**, und nach einer kurzen **Wartezeit** zur Ausgangsposition zurückkehren. Vielleicht möchtest Du das einige Male **wiederholen**. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \---Dein Chatbot sollte hoch hüpfen, indem du **y um** einen kleinen Betrag **änderst**, und nach einer kurzen **Wartezeit** zur Ausgangsposition zurückkehren. Vielleicht möchtest du das einige Male **wiederholen**. \--- /hint \--- \--- hint \--- Hier sind die Code-Blöcke, die du brauchen wirst: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- So sollte dein Code aussehen: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
