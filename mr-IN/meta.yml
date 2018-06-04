@@ -1,0 +1,34 @@
+---
+title: चॅटबॉट
+hero_image: images / chatbot.png
+description: 'आपल्या स्वत: च्या बोलत रोबोट कसे वापरावे ते जाणून घ्या!'
+original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
+theme: गर्द जांभळा रंग
+duration: 2
+listed: true
+ingredient: false
+copyedit: true
+curriculum: 1, डिझाइन -1, प्रोग्रामिंग -1, फेज- comp-0, उत्पादन 0, समुदाय-0
+interests: ''
+technology: सुरवातीपासून
+site_areas: प्रकल्प
+technologies: सुरवातीपासून
+hardware: ''
+software: सुरवातीपासून
+version: 4.1.0
+last_tested: 2017-01-01
+steps:
+  - 
+    title: परिचय
+  - 
+    title: आपल्याला कशाची आवश्यकता लागेल
+  - 
+    title: आपले चॅटबॉट
+  - 
+    title: एक बोलत chatbot
+  - 
+    title: निर्णय घेणे
+  - 
+    title: स्थान बदलत आहे
+  - 
+    title: 'आव्हान: आपले चॅटबोट पूर्ण करा'
