@@ -1,20 +1,20 @@
 ---
-title: دردشة بوت
+title: روبوت الدردشة
 hero_image: images/chatbot.png
-description: تعلم كيفية برمجة الروبوت المتكلم الخاص بك!
+description: تعلَّم كيفية برمجة روبوتك المُحاوِر!
 original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
-theme: البنفسجي
+theme: violet
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1، التصميم-0، البرمجة-1، الحوسبة الفيزيائية-0، التصنيع-0، المجتمع-0
+curriculum: "1, design-0, programming-1, phys-comp-0, manufacture-0, community-0\n"
 interests: ''
-technology: البداية
-site_areas: المشاريع
-technologies: البداية
+technology: scratch
+site_areas: projects
+technologies: scratch
 hardware: ''
-software: البداية
+software: scratch
 version: 4.1.0
 last_tested: 2017-01-01
 steps:
@@ -23,9 +23,9 @@ steps:
   - 
     title: ما ستحتاج إليه
   - 
-    title: تشاتبوت الخاص بك
+    title: روبوتك
   - 
-    title: تشاتبوت متكلم
+    title: روبوت مُحاوِر
   - 
     title: صناعة القرارات
   - 
