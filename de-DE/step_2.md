@@ -1,16 +1,9 @@
-## Dein SprechBot
+## Was du brauchen wirst
 
-+ Bevor Du damit beginnst Deine SprechBots zu erstellen, musst Du Dich entscheiden, welche Persönlichkeit diese haben sollen.
-	+ Wie sollen sie heißen?
-	+ Wo leben sie?
-	+ Sind sie glücklich? Ernst? Lustig? Schüchtern? Freundlich?
+### Hardware
 
-+ Starte ein neues Scratch-Projekt und lösche die Katzenfigur, so dass Dein Projekt leer ist. Du findest das Scratch-Bearbeitungsprogramm online auf <a href="http://jumpto.cc/scratch-new">jumpto.cc/scratch-new</a>.
++ Computer, der Scratch 2.0 ausführen kann
 
-+ Wähle eine dieser Figuren aus und füge sie Deinem Projekt hinzu:
+### Software
 
-	![screenshot](images/chatbot-characters.png)
-
-+ Wähle einen Hintergrund aus, der zu der Persönlichkeit Deines SprechBots passt. Hier ist ein Beispiel, wobei Dein Hintergrund auch ganz anders aussehen kann:
-
-	![screenshot](images/chatbot-sprite.png)
++ Scratch 2.0 ([online](https://scratch.mit.edu/projects/editor/) oder [offline](https://scratch.mit.edu/scratch2download/))

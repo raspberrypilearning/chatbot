@@ -1,26 +1,67 @@
-## Einführung
+## Einleitung
 
-In diesem Projekt wirst Du lernen, wie Du Deinen eigenen sprechenden Roboter programmieren kannst!
+Du wirst lernen, wie du deinen eigenen sprechenden Roboter programmieren kannst!
+
+### Was du machen wirst
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
-  <img src="images/chatbot-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/227503253/?autostart=false" frameborder="0"></iframe>
 </div>
 
+Klicke auf die Grüne Flagge und danach auf den Chatbot, um eine Unterhaltung zu beginnen. Wenn der Chatbot eine Frage stellt, tippe deine Antwort in die Box am unteren Ende der Bühne ein und klicke auf den Haken (oder drücke die `Enter` -Taste).
+
+### Was du lernen wirst
+
+Dieses Projekt deckt Elemente folgender Zweige des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
+
++ [Verwende grundlegende Programmierkonstrukte, um einfache Programme zu erstellen.](https://www.raspberrypi.org/curriculum/programming/creator)
+
+### Zusätzliche Informationen für Clubleiter
+
+Falls Sie dieses Projekt ausdrucken müssen, verwenden Sie bitte die [druckerfreundliche Version](https://projects.raspberrypi.org/de-DE/projects/chatbot/print).
+
+--- collapse ---
+---
+title: Hinweise für Clubleiter
+---
+## Einleitung:
+
+In diesem Projekt lernen die Kinder, mit "falls"-Anweisungen in ihren Programmen Entscheidungen zu treffen.
+
 ## Ressourcen
-Für dieses Projekt sollte Scratch 2 benutzt werden. Scratch 2 kann entweder online unter  [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) benutzt werden oder unter  [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) heruntergeladen und offline genutzt werden.
 
-Eine vollständige Version des Projektes kann hier eingesehen <a href="http://scratch.mit.edu/projects/34874510/#editor">online</a> oder unter dem 'Download Project Materials'-Link, der folgendes enthält, heruntergeladen werden:
+Für dieses Projekt sollte Scratch 2 verwendet werden. Scratch 2 kann entweder online bei [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) verwendet werden, oder unter [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) heruntergeladen und offline benutzt werden.
 
-+ SprechBot.sb2
+Sie finden eine vollständige Version dieses Projekts [online](https://scratch.mit.edu/projects/227503253/#editor) oder zum Download unter dem Link "Projektmaterialien" für dieses Projekt, der Folgendes enthält:
+
++ ChatBot.sb2
 
 ## Lernziele
+
 + Texteingabe;
-+ Entscheidungen:
-	+ `wenn ... dann`{:class="blockcontrol"}-Aussagen;
-	+ `wenn ... dann ... sonst`{:class="blockcontrol"}-Aussagen.
++ Entscheidungen: 
+    + `falls ... dann`{:class="blockcontrol"} Anweisungen;
+    + `falls ... dann ... sonst`{:class="blockcontrol"} Anweisungen.
+
+Dieses Projekt deckt Elemente folgender Zweige des [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) ab:
+
++ [Verwendung grundlegender Programmierkonstrukte, um einfache Programme zu erstellen.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## Herausforderungen
-+ "Mehr Fragen" - Festigung des Gelernten über die Eingabe und den `Antwort`{:class="blocksensing"}-Block;
-+ "Mehr Entscheidungen" - Entscheidungen nutzen;
-+ "Mache Deinen eigenen SprechBot" - Festigung des Gelernten aus diesem und vorangegangenen Projekten.
+
++ "Mehr Fragen" - Festigung des Gelernten über Texteingabe und den `Antwort`{:class="blocksensing"} -Block;
++ "Zusätzliche Entscheidungen" - Entscheidungen anwenden;
++ "Mache deinen eigenen Chatbot" - Festigung des Gelernten aus diesem und vorangegangenen Projekten.
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Projektmaterialien
+---
+## Ressourcen für Clubleiter
+
++ [Fertiges Scratch 2-Projekt zum Download](resources/ChatBot.sb2)
++ [Fertiges Scratch 2-Projekt online](http://https://scratch.mit.edu/projects/227503253/#editor)
+
+--- /collapse ---
