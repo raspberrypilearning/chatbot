@@ -62,6 +62,6 @@ title: Projektmaterialien
 ## Ressourcen für Clubleiter
 
 + [Fertiges Scratch 2-Projekt zum Download](resources/ChatBot.sb2)
-+ [Fertiges Scratch 2-Projekt online](http://https://scratch.mit.edu/projects/227503253/#editor)
++ [Fertiges Scratch 2-Projekt online](http://scratch.mit.edu/projects/227503253/#editor)
 
 --- /collapse ---
