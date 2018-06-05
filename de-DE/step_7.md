@@ -10,6 +10,6 @@ Sobald du deinen Chatbot fertiggestellt hast, lasse deine Freunde mit ihm sprech
 ***
 ### Von der Community übersetzt
 
-Dieses Projekt wurde von **Thorsten Billib** übersetzt und von **Helmut Schlimper** überprüft. 
+Dieses Projekt wurde von **Thorsten Billib/Anastasia Heilmann** übersetzt und von **Helmut Schlimper** überprüft. 
 
 Unsere großartigen Freiwilligen helfen uns, Kindern auf der ganzen Welt die Möglichkeit zu geben, coden zu lernen. Sie können uns helfen, mehr Kinder zu erreichen, indem Sie unsere Projekte übersetzen - lesen Sie mehr unter [rpf.io/translators](https://rpf.io/translators).
