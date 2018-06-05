@@ -1,4 +1,4 @@
-## Schritt 3: Entscheidungen treffen
+## Entscheidungen treffen
 
 Du kannst deinen Chatbot dazu programmieren, aufgrund deiner Antworten auf seine Fragen zu entscheiden, was er sagt oder tut.
 
