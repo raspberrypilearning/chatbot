@@ -1,61 +1,51 @@
-## Entscheidungen treffen
+## Ein sprechender Chatbot
 
-Du kannst Deinen SprechBot so programmieren, dass er eine Entscheidung basierend darauf trifft, was der Nutzer antwortet.
+Jetzt, wo du einen Chatbot mit einer eigenen Persönlichkeit hast, lass' uns ihn so programmieren, dass er mit dir spricht.
 
-+ Lass uns Deinen SprechBot dazu bringen eine Frage zu stellen, die mit `ja` oder `nein` beantwortet werden kann. Hier ist ein Beispiel, aber Du kannst auch eine andere Frage wählen, wenn Du möchtest:
+--- task ---
 
-	```blocks
-		Wenn ich angeklickt werde
-		frage [Hey! Wie heißt Du?] und warte
-		setze [name v] auf (Antwort)
-		sage <verbinde [Hallo ] (Name)> für (2) Sek.
-		frage <verbinde [Geht es Dir gut?] (Name)> und warte
-		falls ((Antwort) = [ja]) dann
-			sage [Juhu! Das freut mich zu hören!] für (2) Sek.
-		end
-	```
+Füge deinem Chatbot Code hinzu, so dass er nach deinem Namen fragt und dann sagt: "Was für ein hübscher Name!", wenn er angeklickt wird.
 
-	Bemerke, dass jetzt, wo Du den Namen des Nutzers in einer Variablen gespeichert hast, Du ihn sooft verwenden kannst, wie Du möchtest!
+![Eine ChatBot-Antwort ausprobieren](images/chatbot-ask-test.png)
 
-+ Um das Spiel korrekt zu testen, müsstest Du es zwei Mal spielen - ein Mal, wo Du als Antwort `nein` eingibst und ein Mal, wo Deine Antwort `ja` lautet. Du solltest nur dann eine Antwort vom SprechBot erhalten, `wenn`{:class="blockcontrol"} die Antwort `ja` ist.
+--- hints --- --- hint --- Wenn die Chatbot- **Figur angeklickt wird**, sollte sie nach deinem Namen **fragen**. Der Chatbot sollte dann "Was für ein hübscher Name!" **sagen**. --- /hint --- --- hint --- Hier sind die Code-Blöcke, die du brauchen wirst: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![Code for a ChatBot reply](images/chatbot-ask-code.png) --- /hint --- --- /hints ---
 
-+ Das Problem mir Deinem SprechBot ist, dass er nicht antwortet, wenn der Nutzer `nein` sagt. Du kannst das Problem schnell lösen, indem Du den `wenn`{:class="blockcontrol"}-Block zu einem `wenn/sonst`{:class="blockcontrol"}-Block änderst, so dass der Code folgendermaßen aussieht:
+--- /task ---
 
-	```blocks
-		Wenn ich angeklickt werde
-		frage [Hey! Wie heißt Du?] und warte
-		setze [name v] auf (Antwort)
-		sage <verbinde [Hallo ] (Name)> für (2) Sek.
-		frage <verbinde (Name) [, geht es Dir gut?]> und warte
-		falls ((Antwort)=[ja]) dann
-			sage [Juhu! Das freut mich zu hören!] für (2) Sek.
-		sonst
-			sage [Oh!] für (2) Sek.
-		end
-	```
+--- task ---
 
-+ Wenn Du Deinen Code erneut testest, wirst Du sehen, dass Du sowohl eine Antwort erhältst, wenn Du `ja`, als auch wenn Du `nein` eingibst. Dein SprechBot sollte `Juhu! Das freut mich zu hören!` nur sagen, wenn die Antwort `ja` lautet und `Oh!`, wenn Du etwas anderes als `ja` eintippst.
+Im Moment antwortet der Chatbot einfach jedes Mal: "Was für ein hübscher Name!". Kannst du die Antwort deines Chatbots persönlicher machen, abhängig von deiner Antwort?
 
-	![screenshot](images/chatbot-else.png)
+![Eine personalisierte Antwort ausprobieren](images/chatbot-answer-test.png)
 
-+ Du kannst zu jeder Art von Code einen `wenn`{:class="blockcontrol"}- oder `sonst`{:class="blockcontrol"}-Block einfügen, nicht nur zum Code, der Deinen Roboter zum Sprechen bringt. Du könntest beispielsweise das Kostüm bzw. den Ausdruck des SprechBots passend zu der Antwort wechseln.
+--- hints --- --- hint ---Wenn die Chatbot- **Figur angeklickt wird**, sollte sie nach deinem Namen **fragen**. Der Chatbot sollte dann "Hi", gefolgt von deiner **Antwort** **sagen**. --- /hint --- --- hint --- Hier sind die Code-Blöcke, die Du brauchen wirst: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![Code for a personalised reply](images/chatbot-answer-code.png) --- /hint --- --- /hints ---
 
-	Wenn Du Dir die Kostüme Deines SprechBots anschaust, sieht Du, dass es mehr als eins gibt. (Wenn nicht, kannst Du jederzeit selbst welche hinzufügen!)
+--- /task ---
 
-	![screenshot](images/chatbot-costumes.png)
+--- task ---
 
-	Du kannst diese Kostüme als Teil der Antwort Deines SprechBots benutzen, indem Du diesen Code hinzufügst:
+Wenn du deine Antwort in einer **Variablen** speicherst, kann sie auch später noch verwendet werden. Erstelle eine neue Variable namens `Name` um deinen Namen darin zu speichern.
 
-	![screenshot](images/chatbot-costumes-code.png)
+[[[generic-scratch-add-variable]]]
 
-+ Teste Dein Programm und Du solltest sehen, dass sich die Reaktion des SprechBots entsprechend der Antwort verändert.
+--- /task ---
 
-	![screenshot](images/chatbot-face.png)
+--- task ---
+
+Kannst du deine Antwort in der Variablen `Name` speichern und so für die Antwort des Chatbots verwenden?
+
+Dein Code sollte wie zuvor funktionieren: dein Chatbot sollte dich mit deinem Namen begrüßen.
+
+![Ausprobieren einer Variable namens "Name"](images/chatbot-ask-test.png)
+
+--- hints --- --- hint --- Wenn die Chatbot- **Figur angeklickt wird**, sollte sie nach deinem Namen **fragen**. Du solltest dann die Variable `Name` auf deine **Antwort** **setzen**. Der Chatbot sollte dann "Hi", gefolgt von deiner **Antwort** **sagen**. --- /hint --- --- hint --- Hier sind die Code-Blöcke, die du brauchen wirst: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![Code for a 'name' variable](images/chatbot-variable-code.png) --- /hint --- --- /hints ---
+
+--- /task ---
 
 --- challenge ---
-## Herausforderung: Mehr Entscheidungen
 
-Programmiere Deinen SprechBot, um eine andere Frage zu stellen - etwas, das mit `ja` oder `nein` beantwortet werden kann. Kannst Du Deinen SprechBot dazu bringen auf diese Frage zu antworten?
+## Herausforderung: zusätzliche Fragen
 
-![screenshot](images/chatbot-joke.png)
---- /challenge ---
+Programmiere deinen Chatbot so, dass er eine weitere Frage stellt. Kannst du die neue Antwort in einer neuen Variablen speichern?
+
+![Zusätzliche Fragen](images/chatbot-question.png) --- /challenge ---

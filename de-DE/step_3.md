@@ -1,60 +1,48 @@
-## Ein sprechender Roboter
+## Dein Chatbot
 
-Jetzt, wo Du einen SprechBot mit einer echten Persönlichkeit hast, lass uns ihm das Sprechen beibringen!
+--- task ---
 
-+ Klicke auf Deine SprechBot-Figur und füge ihr diesen Code hinzu:
+Bevor du mit deinem Chatbot beginnst, musst du über seine Persönlichkeit entscheiden. **Denke über folgende Fragen nach**:
 
-	```blocks
-		Wenn ich angeklickt werde
-		frage [Hey! Wie heißt Du?] und warte
-		sage [Was für ein hübscher Name!] für (2) Sek.
-	```
+    + Wie heißt er?
+    + Wo lebt er?
+    + Ist er fröhlich? Ernst? Lustig? Schüchtern? Freundlich?
+    
 
-+ Klicke auf deinen SprechBot, um den Code zu testen. Wenn Du aufgefordert wirst Deinen Namen zu sagen, tippe diesen in die Box am unteren Rand der Bühne ein.
+--- /task ---
 
-	![screenshot](images/chatbot-text.png)
+--- task ---
 
-+ Dein SprechBot antwortet nun jedes Mal einfach `Was für ein hübscher Name!`. Personalisiere die Antwort Deines SprechBots, indem Du die Antwort des Nutzers gebrauchst. Ändere den Code des SprechBots, so dass dieser wie folgt aussieht.
+Öffne ein neues Scratch-Projekt.
 
-	```blocks
-		Wenn ich angeklickt werde
-		frage [Hey! Wie heißt Du?] und warte
-		sage <verbinde [Hallo] (Antwort)> für (2) Sek.
-	```
+[[[generic-scratch-new-project]]]
 
-Um den letzten Block zu erstellen, wirst du zunächst auf den grünen `verbinde`{:class="blockoperators"}-Block klicken und ihn in den `sage`{:class="blocklooks"}-Block ziehen müssen.
+--- /task ---
 
-![screenshot](images/chatbot-join.png)
+--- task ---
 
-Du kannst dann den Text `hello` zu, sagen wir mal, `Hallo` ändern, und den hellblauen `Antwort`{:class="blocksensing"}-Block (aus dem Bereich 'Fühlen') in den `world`-Text ziehen.
+Wähle eine dieser Figuren und füge sie deinem Projekt hinzu:
 
-![screenshot](images/chatbot-answer.png)
+![Wähle einen Charakter](images/chatbot-characters.png)
 
-+ Teste dieses neue Programm. Funktioniert es so, wie Du es erwartet hast? Kannst Du eines der Probleme lösen, die Du entdeckst? (Tipp: Du kannst versuchen irgendwo ein Leerzeichen einzufügen!)
+[[[generic-scratch-sprite-from-library]]]
 
-+ Vielleicht möchtest Du den Namen des Nutzers in einer Variable speichern, damit Du diesen später an anderer Stelle nutzen kannst. Erstelle eine neue Variable namens `Name`{:class="blockdata"}. Wenn Du vergessen hast wie man das macht, wird Dir das Ballons-Projekt auf die Sprünge helfen.
+--- /task ---
 
-+ Die Information, die Du eingegeben hast, ist in einer speziellen Variable namens `Antwort`{:class="blocksensing"} bereits gespeichert worden. Gehe in die Fühlen-Block-Gruppe und klicke auf den Antwort-Block, so dass ein Vermerk auftaucht. Der aktuelle Wert in `Antwort`{:class="blocksensing"} sollte in der oberen linken Ecke der Bühne angezeigt werden.
+--- task ---
 
-+ Sobald Du Deine neue Variable erstellt hast, stelle sicher, dass der Code Deines SprechBots so aussieht:
+Wähle ein Bühnenbild, das zur Persönlichkeit deines Chatbots passt. Hier ist ein Beispiel, deines muss aber nicht so aussehen:
 
-	```blocks
-		Wenn ich angeklickt werde
-		frage [Hey! Wie heißt Du?] und warte
-		setze [name v] auf (Antwort)
-		sage <verbinde [Hi] (name)> für (2) Sek.
-	```
+![Wähle einen Hintergrund](images/chatbot-backdrop.png)
 
-+ Wenn Du Dein Programm nochmals testest, wirst Du feststellen, dass die Antwort in der `Name`{:class="blockdata"}-Variable gespeichert worden ist und in der oberen linken Ecke der Bühne angezeigt wird. Die `Name`{:class="blockdata"}-Variable sollte nun den gleichen Wert enthalten wie die `Antwort`{:class="blocksensing"}-Variable.
+[[[generic-scratch-backdrop-from-library]]]
 
-	![screenshot](images/chatbot-variable.png)
+--- /task ---
 
-	Wenn Du die Variable lieber nicht auf der Bühne sehen möchtest, kannst Du auf das Kontrollkästchen neben der Namensvariablen in dem 'Skripte'-Reiter klicken, um diese zu verbergen.
+--- task ---
 
---- challenge ---
-## Herausforderung: Mehr Fragen
+Speichere dein Projekt.
 
-Programmiere Deinen SprechBot so, dass er eine weitere Frage stellt. Kannst die Antwort in einer Variablen speichern?
+[[[generic-scratch-saving]]]
 
-![screenshot](images/chatbot-question.png)
---- /challenge ---
+--- /task ---
