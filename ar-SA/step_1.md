@@ -38,30 +38,30 @@
 
 ## أهداف التعلم
 
-+ إدخال النص;
++ إدخال النصوص؛
 + القرارات: 
-    + جمل `if ... then`{:class="blockcontrol"}؛
-    + جمل `if ... then ... else`{:class="blockcontrol"}.
+    + عبارات `if ... then`{:class="blockcontrol"};
+    + عبارات `if ... then ... else`{:class="blockcontrol"}.
 
-يتناول هذا المشروع عناصر من الصفوف التالية من [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+يتناول هذا المشروع عناصر من الصفوف التالية من المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
 
-+ [استخدم أدوات البرمجة الأساسية لإنشاء برامج بسيطة.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [استخدام تراكيب البرمجة الأساسية لإنشاء برامج بسيطة.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## التحديات
 
-+ "مزيد من الأسئلة" - دمج تعلم المدخلات و كتلة `answer`{:class="blocksensing"}؛
-+ "المزيد من القرارات" - باستخدام القرارات؛
-+ "اصنع تشاتبوت الخاص بك" - توطيد التعلم من هذا المشروع والمشاريع السابقة.
++ "مزيد من الأسئلة" - دعم تعلم الإدخال وإنشاء قالب `الإجابة`{:class="blocksensing"} block؛
++ "مزيد من القرارات" - استخدام القرارات؛
++ "اصنع روبوتك الخاص بك" - دعم التعلم من هذا البرنامج والبرامج السابقة.
 
-تجميع
+\--- /collapse \---
 
-## تجميع
+## \--- collapse \---
 
 ## العنوان: مواد المشروع
 
-## مصادر المعلم
+## موارد نادي القادة
 
-+ [النسخة الأولية رقم 2 المكتملة للمشروع والقابلة للتنزيل](resources/ChatBot.sb2)
++ [مشروع Scratch 2 مكتمل قابل للتنزيل](resources/ChatBot.sb2)
 + [النسخة الأولية رقم 2 المكتملة للمشروع والتي يمكن استعراضها على الانترنت](http://scratch.mit.edu/projects/26762091/#editor)
 
 تجميع
