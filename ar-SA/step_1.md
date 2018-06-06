@@ -62,6 +62,6 @@
 ## موارد نادي القادة
 
 + [مشروع Scratch 2 مكتمل قابل للتنزيل](resources/ChatBot.sb2)
-+ [النسخة الأولية رقم 2 المكتملة للمشروع والتي يمكن استعراضها على الانترنت](http://scratch.mit.edu/projects/26762091/#editor)
++ [مشروع Scratch 2 مكتمل عبر الإنترنت](http://scratch.mit.edu/projects/26762091/#editor)
 
-تجميع
+\--- /collapse \---
