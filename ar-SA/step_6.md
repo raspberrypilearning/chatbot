@@ -6,7 +6,7 @@
 
 أضِف خلفية أخرى إلى منصتك، كخلفية 'القمر' مثلًا.
 
-![Adding a 'moon' backdrop](images/chatbot-moon.png)
+![إضافة خلفية "القمر"](images/chatbot-moon.png)
 
 \--- /task \---
 
@@ -16,7 +16,7 @@
 
 اختبر مشروعك وقم بحفظه. إذا كانت إجابتك هي "نعم"، فيجب أن يغير الروبوت مكانه، ويجب أن يبدو الروبوت حزينًا ويقول "حسنًا...إلى اللقاء!" إذا تم إدخال أي إجابة أخرى.
 
-![Testing a changing backdrop](images/chatbot-backdrop-test.png)
+![اختبار تغير الخلفية](images/chatbot-backdrop-test.png)
 
 \--- hints \--- \--- hint \--- يجب أن **يسأل** الروبوت "هل تود الصعود إلى سطح القمر؟". **إذا** كانت **إجابتك** هي "نعم"، فيجب أن **يتغير مظهر** الروبوت ليبدو سعيدًا ويجب أن تتغير **خلفية المنصة**.
 
@@ -32,8 +32,8 @@
 
 اختبر مشروعك وقم بحفظه. إذا كانت إجابتك هي "نعم"، فيجب أن يقفز الروبوت صعودًا وهبوطًا. ويجب ألّا يقفز الروبوت إذا تم إدخال أي إجابة أخرى.
 
-![Testing a jumping ChatBot](images/chatbot-jump-test.png)
+![اختبار قفز الروبوت](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- يجب أن يقفز الروبوت عن طريق **تغيير** **موقع ص**مسافة صغيرة إلى أعلى، ثم يعود إلى موقعه مرة أخرى بعد **الانتظار** لفترة قصيرة. You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- يجب أن يقفز الروبوت عن طريق **تغيير** **موقع ص** مسافة صغيرة إلى أعلى، ثم يعود إلى موقعه مرة أخرى بعد **الانتظار** لفترة قصيرة. قد تحتاج إلى **تكرار** ذلك عدة مرات. \--- /hint \--- \--- hint \--- فيما يلي قوالب التعليمات البرمجية التي ستحتاج إليها: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- جب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
