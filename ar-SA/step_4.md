@@ -14,17 +14,17 @@
 
 \--- task \---
 
-الأن الروبوت بكل بساطة يُجيب بعبارة "ياله من اسم جميل!" في كل مرة، هل يمكنك تخصيص إجابة الروبوتك باستخدام إجابتك؟
+الأن الروبوت بكل بساطة يُجيب بعبارة "ياله من اسم جميل!" في كل مرة، هل يمكنك تخصيص إجابة الروبوتك من خلال الإستفادة من إجابتك؟
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- **عند النقر على كائن الروبوت**، يجب أن **يسألك** الروبوت عن اسمك. ثم يجب أن **يقول** "مرحباً" يليها **إجابتك**. \--- /hint \--- \--- hint \--- فيما يلي قوالب التعليمات البرمجية التي ستحتاج إليها: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- جب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
+إذا خزَّنتَ إجابتك في **متغير**، فسيمكنك استخدامها لاحقًا، أنشئ متغيرًا جديدًا يُسمى `الاسم` لتخزين اسمك.
 
 [[[generic-scratch-add-variable]]]
 
@@ -32,13 +32,13 @@ If you store your answer in a **variable**, then it can be used later. Create a 
 
 \--- task \---
 
-Can you store your answer in the `name` variable and use it in your chatbot's reply?
+هل يمكنك تخزين إجابتك في المتغير `الاسم` واستخدام هذا المتغير في إجابة الروبوت؟
 
-Your code should work as before: your chatbot should say hello using your name.
+يجب أن تعمل التعليمة البرمجية التي تُدخلها كما سبق: يجب أن يقول الروبوت مرحبًا، يليها اسمك.
 
 ![Testing a 'name' variable](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- **عند النقر على كائن الروبوت**، يجب أن **يسألك** الروبوت عن اسمك. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
