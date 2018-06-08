@@ -1,10 +1,10 @@
-## Changing location
+## تغيير المكان
 
-You can also code your chatbot to change its location.
+يمكنك أيضًا برمجة روبوتك ليغيِّر مكانه.
 
 \--- task \---
 
-Add another backdrop to your Stage, for example the 'moon' backdrop.
+أضِف خلفية أخرى إلى منصتك، كخلفية 'القمر' مثلًا.
 
 ![Adding a 'moon' backdrop](images/chatbot-moon.png)
 
@@ -12,13 +12,13 @@ Add another backdrop to your Stage, for example the 'moon' backdrop.
 
 \--- task \---
 
-Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
+هل يمكنك برمجة روبوتك ليسأل "هل تود الصعود إلى سطح القمر؟" ثم يغيِّر مكانه إذا كانت إجابتك هي "نعم"؟
 
-Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+اختبر مشروعك وقم بحفظه. إذا كانت إجابتك هي "نعم"، فيجب أن يغير الروبوت مكانه، ويجب أن يبدو الروبوت حزينًا ويقول "حسنًا...إلى اللقاء!" إذا تم إدخال أي إجابة أخرى.
 
 ![Testing a changing backdrop](images/chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+\--- hints \--- \--- hint \--- يجب أن **يسأل** الروبوت "هل تود الصعود إلى سطح القمر؟". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
 
 If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
 
