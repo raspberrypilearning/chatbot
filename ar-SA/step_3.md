@@ -2,18 +2,18 @@
 
 \--- task \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+قبل أن تبدأ في إنشاء روبوتك، يجب أن تحدِّد شخصيته، **فكِّر في الأسئلة التالية**:
 
-    + What is their name?
-    + Where do they live?
-    + Are they happy? Serious? Funny? Shy? Friendly?
+    ما أسمهم؟
+    أين يعيشون؟
+    هل هو سُعداء؟ جادين؟ مرحين؟ خجولين؟ ودودين؟
     
 
 \--- /task \---
 
 \--- task \---
 
-Open a new empty Scratch project.
+افتح مشروع Scratch جديدًا وفارغًا.
 
 [[[generic-scratch-new-project]]]
 
@@ -21,7 +21,7 @@ Open a new empty Scratch project.
 
 \--- task \---
 
-Choose one of these character sprites, and add them to your project:
+اختر واحدًا من كائنات الشخصيات هذه، ثم أضِفه إلى مشروعك:
 
 ![Choose a character](images/chatbot-characters.png)
 
@@ -31,7 +31,7 @@ Choose one of these character sprites, and add them to your project:
 
 \--- task \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+اختر خلفية تتناسب مع شخصية روبوتك، إليك مثالًا للخلفية، وليس شرطًا أن تكون خلفيتك كتلك الموضحة في المثال:
 
 ![Choose a backdrop](images/chatbot-backdrop.png)
 
