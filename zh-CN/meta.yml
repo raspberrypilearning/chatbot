@@ -1,7 +1,7 @@
 ---
 title: 聊天机器人
 hero_image: images/chatbot.png
-description: 学习如何编写你自己的会说话的机器人程序！
+description: 学习如何编写你自己的聊天机器人！
 original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
 duration: 2
@@ -11,7 +11,7 @@ copyedit: true
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 interests: ''
 technology: scratch
-site_areas: codeclub, scratch
+site_areas: projects
 technologies: scratch
 hardware: ''
 software: scratch
@@ -19,15 +19,15 @@ version: 4.1.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: 介绍
+    title: 简介
   - 
-    title: 你将需要什么
+    title: 你需要哪些准备
   - 
     title: 你的聊天机器人
   - 
     title: 一台会说话的聊天机器人
   - 
-    title: 判定
+    title: 决策
   - 
     title: 改变位置
   - 
