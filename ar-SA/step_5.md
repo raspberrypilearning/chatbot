@@ -30,7 +30,7 @@
 
 \--- task \---
 
-يمكنك إدخال أي تعليمة برمجية في قالب `if/else`، لا مجرد الاقتصار على تعليمة برمجية تجعل روبوتك يتكلم فحسب. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+يمكنك إدخال أي تعليمة برمجية في قالب `if/else`، لا مجرد الاقتصار على تعليمة برمجية تجعل روبوتك يتكلم فحسب. إذا نقرتَ على علامة التبويب **المظهر** الخاصة بالروبوت، فسترى أكثر من مظهر واحد له.
 
 ![chatbot costumes](images/chatbot-costume-view.png)
 
@@ -38,34 +38,34 @@
 
 \--- task \---
 
-Can you change the chatbot's costume to match your response?
+هل يمكنك تغيير مظهر الروبوت بحيث يتناسب مع الإجابة التي تُدخلها؟
 
-Test and save. You should see your chatbot's face change depending on your answer.
+اختبر مشروعك وقم بحفظه. يجب أن ترى أن تعابير وجه الروبوت تتغير حسب إجابتك.
 
 ![Testing a changing costume](images/chatbot-costume-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- الروبوتك الأن يجب أن **يتغير مظهر** حسب الإجابة المُدخلة. \--- /hint \--- \--- hint \--- فيما يلي قوالب التعليمات البرمجية التي ستحتاج إلى استخدامها: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+هل لاحظتَ أن مظهر الروبوت يظل بالشكل نفسه الذي تغير إليه في آخر مرة تحدثتَ معه؟ هل يمكنك إصلاح هذه المشكلة؟
 
 ![Costume bug](images/chatbot-costume-bug-test.png)
 
-Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+اختبر مشروعك وقم بحفظه: شغِّل التعليمة البرمجية واكتب "لا"، لكي يبدو الروبوت حزينًا. عندما تشغِّل التعليمة البرمجية مرة أخرى، يجب أن يتغير وجه الروبوت ليصبح مبتسمًا كما كان قبل أن يسألك عن اسمك.
 
 ![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- **عند النقر على الكائن**، يجب أولًا أن **يتغير مظهر** الروبوت ليصبح وجهه مبتسمًا. \--- /hint \--- \--- hint \--- فيما يلي قوالب التعليمات البرمجية التي ستحتاج إلى استخدامها: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- challenge \---
 
-## Challenge: more decisions
+## التحدي: مزيد من القرارات
 
-Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
+برمِج روبوتك ليسأل سؤالًا آخر - يُجاب عنه بـ "نعم" أو"لا". هل يمكنك أن تجعل الروبوت يتجاوب مع الإجابة؟
 
 ![screenshot](images/chatbot-joke.png) \--- /challenge \---
