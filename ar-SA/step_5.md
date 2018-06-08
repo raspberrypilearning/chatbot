@@ -1,12 +1,12 @@
-## Step 3: Making decisions
+## الخطوة 3: صناعة القرارات
 
-You can program your chatbot to decide what to say or do based on your responses to its questions.
+يمكنك برمجة روبوتك ليقرِّر ما سيقوله أو سيفعله بناءً على إجاباتك عن أسئلته.
 
 \--- task \---
 
-Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
+هل يمكنك أن تجعل الروبوت يسأل السؤال "هل أنت بخير؟"، وتُبرمجه بحيث يكون ردُّه على المستخدم هو "سعيد لسماع ذلك!" فقط **إذا** كانت إجابة المستخدم عن السؤال هي "نعم"؟
 
-To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
+لاختبار التعليمة البرمجية الجديدة كما ينبغي، يجب أن تختبرها **مرتين**، بحيث تكون إجابتك في الاختبار الأول هي "نعم"، وتكون إجابتك في الاختبار الثاني هي "لا".
 
 Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
 
