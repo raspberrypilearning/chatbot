@@ -10,7 +10,7 @@
 
 يجب أن يكون رد الروبوت هو "سعيد لسماع ذلك!" إذا كانت إجابتك هي "نعم"، ولا يرد بأي شيء إذا كانت إجابتك هي "لا".
 
-![Testing a chatbot reply](images/chatbot-if-test.png)
+![اختبار استجابة الروبوت](images/chatbot-if-test.png)
 
 \--- hints \--- \--- hint \--- بعد أن قال الروبوت "مرحبًا"، يجب أن **يسأل** أيضًا "هل أنت بخير؟". **إذا** كانت إجابتك هي "نعم"، فيجب أن ي**قول** الروبوت "سعيد لسماع ذلك!". \--- /hint \--- \--- hint \--- فيما يلي قوالب التعليمات البرمجية التي ستحتاج إليها: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- جب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
@@ -22,7 +22,7 @@
 
 اختبر مشروعك وقم بحفظه. الأن يجب أن يقول روبوتك "آسف لسماع ذلك!" إذا كانت إجابتك هي "لا". في الواقع، سيقول الروبوت "آسف لسماع ذلك!" إذا أجبتَ بأي شيء بخلاف "نعم" (فكلمة **وإلا** في القالب `if/else` تعني **خلاف ذلك**).
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![اختبار الرد بنعم/لا](images/chatbot-if-else-test.png)
 
 \--- hints \--- \--- hint \--- يجب أن يقول روبوتك الآن "سعيد لسماع ذلك!" **إذا** كانت إجابتك هي "نعم"، ولكن يجب أن يقول "آسف لسماع ذلك!" إذا كانت إجابتك شيئًا آخر، أيْ **وإلا**. \--- /hint \--- \--- hint \--- فيما يلي قوالب التعليمات البرمجية التي ستحتاج إلى استخدامها: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
@@ -32,7 +32,7 @@
 
 يمكنك إدخال أي تعليمة برمجية في قالب `if/else`، لا مجرد الاقتصار على تعليمة برمجية تجعل روبوتك يتكلم فحسب. إذا نقرتَ على علامة التبويب **المظهر** الخاصة بالروبوت، فسترى أكثر من مظهر واحد له.
 
-![chatbot costumes](images/chatbot-costume-view.png)
+![مظاهر الروبوت](images/chatbot-costume-view.png)
 
 \--- /task \---
 
@@ -42,7 +42,7 @@
 
 اختبر مشروعك وقم بحفظه. يجب أن ترى أن تعابير وجه الروبوت تتغير حسب إجابتك.
 
-![Testing a changing costume](images/chatbot-costume-test.png)
+![اختبار تغير المظهر](images/chatbot-costume-test.png)
 
 \--- hints \--- \--- hint \--- الروبوتك الأن يجب أن **يتغير مظهر** حسب الإجابة المُدخلة. \--- /hint \--- \--- hint \--- فيما يلي قوالب التعليمات البرمجية التي ستحتاج إلى استخدامها: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
@@ -52,11 +52,11 @@
 
 هل لاحظتَ أن مظهر الروبوت يظل بالشكل نفسه الذي تغير إليه في آخر مرة تحدثتَ معه؟ هل يمكنك إصلاح هذه المشكلة؟
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![مظهر الحشرة](images/chatbot-costume-bug-test.png)
 
 اختبر مشروعك وقم بحفظه: شغِّل التعليمة البرمجية واكتب "لا"، لكي يبدو الروبوت حزينًا. عندما تشغِّل التعليمة البرمجية مرة أخرى، يجب أن يتغير وجه الروبوت ليصبح مبتسمًا كما كان قبل أن يسألك عن اسمك.
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![اختبار إصلاح المظهر](images/chatbot-costume-fix-test.png)
 
 \--- hints \--- \--- hint \--- **عند النقر على الكائن**، يجب أولًا أن **يتغير مظهر** الروبوت ليصبح وجهه مبتسمًا. \--- /hint \--- \--- hint \--- فيما يلي قوالب التعليمات البرمجية التي ستحتاج إلى استخدامها: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
@@ -68,4 +68,4 @@
 
 برمِج روبوتك ليسأل سؤالًا آخر - يُجاب عنه بـ "نعم" أو"لا". هل يمكنك أن تجعل الروبوت يتجاوب مع الإجابة؟
 
-![screenshot](images/chatbot-joke.png) \--- /challenge \---
+![لقطة الشاشة](images/chatbot-joke.png) \--- /challenge \---
