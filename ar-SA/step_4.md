@@ -1,6 +1,6 @@
-## A talking chatbot
+## روبوت مُحاوِر
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+الآن، بعد أن أصبح لديك روبوت بشخصية معينة، لنُبرمجْه ليتحدث معك.
 
 \--- task \---
 
