@@ -4,17 +4,17 @@
 
 \--- task \---
 
-Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+أضف تعليمة برمجية لروبوتك بحيث عندما تنقر عليه، يسألك عن اسمك ثم يقول "ياله من اسم جميل!"
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- **عند النقر على كائن الروبوت**، يجب أن **يسألك** الروبوت عن اسمك. ثم يجب أن **يقول** "ياله من اسم جميل!" \--- /hint \--- \--- hint \--- فيما يلي قوالب التعليمات البرمجية التي ستحتاج إليها: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- جب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+الأن الروبوت بكل بساطة يُجيب بعبارة "ياله من اسم جميل!" في كل مرة، هل يمكنك تخصيص إجابة الروبوتك باستخدام إجابتك؟
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
