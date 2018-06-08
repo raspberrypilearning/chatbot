@@ -20,17 +20,17 @@
 
 حاليًا، لا يقول روبوتك أي شيء عندما تكون إجابتك هي "لا"، هل يمكنك تغيير ذلك بحيث يكون رد الروبوت هو "آسف لسماع ذلك!" إذا كانت إجابتك عن سؤاله هي "لا"؟
 
-اختبر مشروعك وقم بحفظه. الأن يجب أن يقول روبوتك "آسف لسماع ذلك!" إذا كانت إجابتك هي "لا". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+اختبر مشروعك وقم بحفظه. الأن يجب أن يقول روبوتك "آسف لسماع ذلك!" إذا كانت إجابتك هي "لا". في الواقع، سيقول الروبوت "آسف لسماع ذلك!" إذا أجبتَ بأي شيء بخلاف "نعم" (فكلمة **وإلا** في القالب `if/else` تعني **خلاف ذلك**).
 
 ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- يجب أن يقول روبوتك الآن "سعيد لسماع ذلك!" **إذا** كانت إجابتك هي "نعم"، ولكن يجب أن يقول "آسف لسماع ذلك!" إذا كانت إجابتك شيئًا آخر، أيْ **وإلا**. \--- /hint \--- \--- hint \--- فيما يلي قوالب التعليمات البرمجية التي ستحتاج إلى استخدامها: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+يمكنك إدخال أي تعليمة برمجية في قالب `if/else`، لا مجرد الاقتصار على تعليمة برمجية تجعل روبوتك يتكلم فحسب. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
 
 ![chatbot costumes](images/chatbot-costume-view.png)
 
