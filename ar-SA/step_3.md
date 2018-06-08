@@ -23,7 +23,7 @@
 
 اختر واحدًا من كائنات الشخصيات هذه، ثم أضِفه إلى مشروعك:
 
-![Choose a character](images/chatbot-characters.png)
+![اختر شخصية](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -33,7 +33,7 @@
 
 اختر خلفية تتناسب مع شخصية روبوتك، إليك مثالًا للخلفية، وليس شرطًا أن تكون خلفيتك كتلك الموضحة في المثال:
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![اختر خلفية](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
@@ -41,7 +41,7 @@
 
 \--- task \---
 
-Save your project.
+احفظ مشروعك.
 
 [[[generic-scratch-saving]]]
 
