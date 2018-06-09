@@ -1,8 +1,8 @@
 ## 简介
 
-You are going to learn how to program your own talking robot!
+你即将学习如何编程实现你自己的聊天机器人！
 
-### What you will make
+### 你将做出什么
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
