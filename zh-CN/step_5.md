@@ -4,23 +4,23 @@
 
 \--- task \---
 
-Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
+你能让聊天机器人问“你好吗？”，然后编程让它**仅当**用户回答“好”的时候回复“真是太好了！”
 
-To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
+为了正确测试你的新代码，你需要测试**两次**，一次回答“好”，另一次回答“不好”。
 
-Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
+当你回答“好”时，聊天机器人回复“真是太好了！”，如果回答“不好”机器人将什么也不说。
 
 ![Testing a chatbot reply](images/chatbot-if-test.png)
 
-\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 聊天机器人说完“你好”后，还会**问**“你好吗？” **如果**你回答“好”，那么聊天机器人会**说**“真是太好了！”。 \--- /hint \--- \--- hint \--- 这是你需要用到的代码块： ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+此时当你说“不好”时，你的聊天机器人什么也不说。你能改造一下你的聊天机器人当你说“不好”时它会回复“哦，不！”吗？
 
-Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+测试并保存。 你的聊天机器人在你说”不好“时会说”哦，不！“。 实际上，只要你回答的不是“好”，它都会说“哦，不！”（**否则**在`如果/否则`代码块中表示**所有其他的情况**）。
 
 ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
