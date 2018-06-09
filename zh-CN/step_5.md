@@ -1,6 +1,6 @@
-## Step 3: Making decisions
+## 第3步：做出判断
 
-You can program your chatbot to decide what to say or do based on your responses to its questions.
+你可以编程让你的聊天机器人根据你对它问题的回复决定说什么或做什么。
 
 \--- task \---
 
