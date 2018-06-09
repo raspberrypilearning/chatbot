@@ -40,28 +40,28 @@
 
 + 文本输入；
 + 判断： 
-    + `if ... then`{:class="blockcontrol"} statements;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
+    + `如果...那么`{:class="blockcontrol"} 语句；
+    + `如果...那么...否则`{:class="blockcontrol"} 语句。
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+本项目涵盖[树莓派数字制作课程](http://rpf.io/curriculum)如下几方面内容：
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [利用基本编程结构创建简单程序。](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## 挑战
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ “更多问题” -- 巩固输入和`回答`{:class="blocksensing"} 代码块；
++ “更多判断” -- 使用条件判断；
++ “制作你自己的聊天机器人” -- 巩固本项目和以往项目学过的内容。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: 项目资源
 
-## Club leader resources
+## 导师资源
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [完整版 Scratch 2 项目下载](resources/ChatBot.sb2)
++ [完整版Scratch 2项目在线版](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
