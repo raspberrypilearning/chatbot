@@ -1,6 +1,6 @@
-## A talking chatbot
+## 会说话的机器人
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+现在你有了一个具有个性的机器人，接下来让我们编程让它可以跟你交谈，
 
 \--- task \---
 
