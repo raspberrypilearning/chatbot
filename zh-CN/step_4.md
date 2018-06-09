@@ -18,13 +18,13 @@
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- 当聊天机器人**角色被点击**时，它会**询问**你的名字。 The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 当聊天机器人**角色被点击**时，它会**询问**你的名字。 然后聊天机器人会**说**“你好”，后面跟着你的**回答**。 \--- /hint \--- \--- hint \--- 这是你需要用到的代码块： ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
+如果你将你的回答保存到**变量**中，那么就可以等后面需要的时候再使用。创建一个名叫`姓名`的新变量来保存你的姓名。
 
 [[[generic-scratch-add-variable]]]
 
@@ -32,13 +32,13 @@ If you store your answer in a **variable**, then it can be used later. Create a 
 
 \--- task \---
 
-Can you store your answer in the `name` variable and use it in your chatbot's reply?
+你能将你的回答保存到`姓名`变量并在聊天机器人回复时使用吗？
 
-Your code should work as before: your chatbot should say hello using your name.
+你的代码的运行结果应该跟之前一样：聊天机器人会说你好后面是你的名字。
 
 ![Testing a 'name' variable](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 当聊天机器人**角色被点击**时，它会**询问**你的名字。 然后你应该将`名字`变量**设置**为你的**回答**。 接着聊天机器人会**说**“你好”，后面跟你的**名字**。 \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
