@@ -1,12 +1,12 @@
-## Your chatbot
+## 聊天机器人
 
 \--- task \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+在开始动手制作你的聊天机器人之前，你需要确定其个性。**思考一下下面几个问题**：
 
-    + What is their name?
-    + Where do they live?
-    + Are they happy? Serious? Funny? Shy? Friendly?
+    + 它叫什么名字？
+    + 它住在哪儿？
+    + 它开心？严肃？搞笑？害羞？还是友善？
     
 
 \--- /task \---
