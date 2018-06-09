@@ -8,38 +8,38 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+点击绿旗，然后点击聊天机器人开始对话。 当聊天机器人问问题时，在舞台底部的输入框中国输入你的答案，然后点击对勾按钮（或按`回车`键）。
 
-### What you will learn
+### 你将学到什么
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+本项目涵盖[树莓派数字制作课程](http://rpf.io/curriculum)如下几方面内容：
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [利用基本编程结构创建简单程序。](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### 导师附加信息
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+如果你需要打印此项目，请使用[打印友好版](https://projects.raspberrypi.org/en/projects/chatbot/print)。
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: 导师笔记
 
-## Introduction:
+## 简介
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+在这个项目中，孩子们将学习如何使用 '如果' 语句在程序中做判断。
 
-## Resources
+## 资源
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+本项目使用Scratch 2。 Scratch 2 可以在线使用[jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ，也可以从[jumpto.cc/scratch-off](http://jumpto.cc/scratch-off)下载下来离线使用。
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+你可以[在线](http://scratch.mit.edu/projects/26762091/#editor)找到本项目的完整版，或者点击本项目的“项目资源”连接下载下来，包括：
 
 + ChatBot.sb2
 
-## Learning Objectives
+## 学习目标
 
-+ Text input;
-+ Decisions: 
++ 文本输入；
++ 判断： 
     + `if ... then`{:class="blockcontrol"} statements;
     + `if ... then ... else`{:class="blockcontrol"} statements.
 
