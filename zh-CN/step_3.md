@@ -13,7 +13,7 @@
 
 \--- task \---
 
-Open a new empty Scratch project.
+打开一个空白Scratch工程。
 
 [[[generic-scratch-new-project]]]
 
@@ -21,9 +21,9 @@ Open a new empty Scratch project.
 
 \--- task \---
 
-Choose one of these character sprites, and add them to your project:
+选择其中一个角色，并将其添加到项目中：
 
-![Choose a character](images/chatbot-characters.png)
+![选择角色](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -31,9 +31,9 @@ Choose one of these character sprites, and add them to your project:
 
 \--- task \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+挑选一个适合你的聊天机器人性格的背景。下面是一个例子，你不必跟例子做得一样：
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![选择背景](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
@@ -41,7 +41,7 @@ Choose a backdrop that fits your chatbot's personality. Here's an example, altho
 
 \--- task \---
 
-Save your project.
+保存项目
 
 [[[generic-scratch-saving]]]
 
