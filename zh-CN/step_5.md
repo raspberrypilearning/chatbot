@@ -24,7 +24,7 @@
 
 ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 现在**如果**你回答“好”，你的聊天机器人会说“这是太好了！”，但如果你回答**其他答案**，它会说“哦，不！”。 \--- /hint \--- \--- hint \--- 这是你需要用到的代码块： ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
