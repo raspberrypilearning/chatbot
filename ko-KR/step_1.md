@@ -1,36 +1,36 @@
-## Introduction
+## 들어가며
 
-You are going to learn how to program your own talking robot!
+자신만의 말하는 로봇을 프로그래밍 하는 방법에 대해 배울 거에요!
 
-### What you will make
+### 만들게 될 것
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+초록 깃발을 누른 후에, 챗봇을 눌러서 대화를 시작하세요. 챗봇이 질문을 하면, 스테이지 하단의 상자에 대답을 입력하고 눈금을 클릭하세요. (또는 `Enter`를 누르세요)
 
-### What you will learn
+### 배우게 될 것
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+이 프로젝트는 [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [기본 프로그래밍 구조를 이용해서 간단한 프로그램을 만듭니다.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### 교육자들을 위한 추가 정보
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/chatbot/print)을 사용하십시오.
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## 제목: 교육자 노트
 
-## Introduction:
+## 들어가며:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+이 프로젝트에는 아이들이 if문을 사용해서 결정을 내릴 방법에 대해서 알게 될 것입니다.
 
-## Resources
+## 자료
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+이 프로젝트에서는 Scratch 2를 사용합니다. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
 
 You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
 
