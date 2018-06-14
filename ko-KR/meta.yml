@@ -1,34 +1,34 @@
 ---
-title: Chatbot
+title: 챗봇
 hero_image: images/chatbot.png
-description: Learn how to program your own talking robot!
+description: 자신만의 말하는 로봇을 프로그래밍 하는 방법에 대해 배워보세요!
 original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
-theme: violet
+theme: 보라색
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
+curriculum: 1, 디자인 -0, 프로그래밍 -1, phys-comp-0, 제조 -0, 커뮤니티 -0
 interests: ''
-technology: scratch
-site_areas: projects
-technologies: scratch
+technology: 스크래치
+site_areas: 프로젝트
+technologies: 스크래치
 hardware: ''
-software: scratch
+software: 스크래치
 version: 4.1.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: 들어가며
   - 
-    title: What you will need
+    title: 준비물
   - 
-    title: Your chatbot
+    title: 당신의 챗봇
   - 
-    title: A talking chatbot
+    title: 말하는 챗봇
   - 
-    title: Making decisions
+    title: 결정하기
   - 
-    title: Changing location
+    title: 위치 변경
   - 
-    title: 'Challenge: finish your chatbot'
+    title: '과제: 챗봇 만드는 것을 완수하세요.'
