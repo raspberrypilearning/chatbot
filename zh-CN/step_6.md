@@ -1,39 +1,39 @@
-## Changing location
+## 改变位置
 
-You can also code your chatbot to change its location.
+你还可以通过编码来改变聊天机器人的位置。
 
 \--- task \---
 
-Add another backdrop to your Stage, for example the 'moon' backdrop.
+为舞台添加另一个背景，比如“月球“背景。
 
-![Adding a 'moon' backdrop](images/chatbot-moon.png)
+![添加”月球“背景](images/chatbot-moon.png)
 
 \--- /task \---
 
 \--- task \---
 
-Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
+你能编码让聊天机器人询问”你想去月球吗？“，如果你回答”是“则改变位置。
 
-Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+测试并保存。如果你回答”是“，聊天机器人会改变位置。如果你回答其他答案，聊天机器人会看上去很难过并说”啊...再见！“。
 
-![Testing a changing backdrop](images/chatbot-backdrop-test.png)
+![测试修改背景](images/chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+\--- hints \--- \--- hint \--- 聊天机器人会**问**”你想去月球吗？“ **如果**你**回答**”是“，那么聊天机器人会**切换造型**到开心造型并修改舞台**背景**。
 
-If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
+如果你回答”不“，聊天机器人应当**切换造型**到伤心造型并**说**”好吧...再见！“
 
-You'll also need to add code to start your chatbot in the right place **when clicked**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
+你还需要在正确的位置加入代码让聊天机器人**被点击时**启动。 \--- /hint \--- \--- hint \--- 这是你需要用到的代码块： ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
+你能为聊天机器人添加代码让它在得知你想去月球时高兴地跳起来吗？
 
-Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+测试并保存。如果你回答”是“，你的聊天机器人会跳起然后落下。如果你给出其他答案，机器人则不会跳起。
 
-![Testing a jumping ChatBot](images/chatbot-jump-test.png)
+![测试跳跃](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should jump by **changing** its **y position** by a small amount, and then changing its position back after a short **wait**. You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 你的聊天机器人应该稍微**改变**它的**y坐标**，然后**稍等**片刻返回原来位置。 你可能需要**重复**若干次这个动作。 \--- /hint \--- \--- hint \--- 这是你需要用到的代码块： ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- 你的代码应该如下图这样： ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
