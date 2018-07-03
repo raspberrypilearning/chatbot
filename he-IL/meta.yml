@@ -1,7 +1,7 @@
 ---
-title: Chatbot
+title: צ'אטבוט
 hero_image: images/chatbot.png
-description: Learn how to program your own talking robot!
+description: לימדו איך לתכנת רובוט מדבר משלכם!
 original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
 duration: 2
@@ -19,16 +19,16 @@ version: 4.1.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: הקדמה
   - 
-    title: What you will need
+    title: מה תצטרכו
   - 
-    title: Your chatbot
+    title: הצ'אטבוט שלכם
   - 
-    title: A talking chatbot
+    title: צ'אטבוט מדבר
   - 
-    title: Making decisions
+    title: קבלת החלטות
   - 
-    title: Changing location
+    title: שינוי מיקום
   - 
-    title: 'Challenge: finish your chatbot'
+    title: 'אתגר: סיים את הצ''אטבוט שלך'
