@@ -12,7 +12,7 @@ Clique na bandeira verde e, em seguida, clique no chatbot para iniciar uma conve
 
 ### O que você aprenderá
 
-Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este projeto abrange elementos das seguintes vertentes do [Currículo de Criação Digital Raspberry Pi](http://rpf.io/curriculum):
 
 + [Use construções básicas de programação para criar programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
