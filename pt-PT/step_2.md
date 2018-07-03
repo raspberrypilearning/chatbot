@@ -1,9 +1,9 @@
-## What you will need
+## O que vais precisar
 
 ### Hardware
 
-+ Computer capable of running Scratch 2.0
++ Computador capaz de executar o Scratch 2.0
 
 ### Software
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
++ Scratch 2.0 (ou [ online ](https://scratch.mit.edu/projects/editor/) ou [ off-line ](https://scratch.mit.edu/scratch2download/))
