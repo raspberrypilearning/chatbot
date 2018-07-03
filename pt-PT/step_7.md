@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: finish your chatbot
+## Desafio: termina o teu robô falante
 
-Use what you've learnt to finish creating your interactive chatbot. Here are some ideas:
+Usa o que aprendeste para terminar o teu robô falante interativo. Aqui estão algumas ideias:
 
 ![ChatBot ideas](images/chatbot-ideas.png)
 
-Once you've finished making your chatbot, get your friends to have a conversation with it! Do they like your character? Did they spot any problems? \--- /challenge \---
+Quando terminares o teu robô falante, pede aos teus amigos para conversarem com ele! Eles gostam do stu personagem? Eles identificaram algum problema? \--- / desafio \---
