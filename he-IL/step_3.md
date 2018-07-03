@@ -1,19 +1,19 @@
-## Your chatbot
+## הצ'אטבוט שלכם
 
 \--- task \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+לפני שתתחילו ליצור את הצ'אטבוט, עליכם להחליט על אישיותו. ** חשוב על השאלות הבאות **:
 
-    + What is their name?
-    + Where do they live?
-    + Are they happy? Serious? Funny? Shy? Friendly?
+    + מה השמות שלהם?
+    + איפה הם גרים?
+    + האם הם שמחים? רציניים? ביישנים? חברותיים?
     
 
 \--- /task \---
 
 \--- task \---
 
-Open a new empty Scratch project.
+פתח פרוייקט ריק חדש של Scratch.
 
 [[[generic-scratch-new-project]]]
 
@@ -21,9 +21,9 @@ Open a new empty Scratch project.
 
 \--- task \---
 
-Choose one of these character sprites, and add them to your project:
+בחרו אחת מדמויות אלו, והוסיפו אותה לפרוייקט שלך:
 
-![Choose a character](images/chatbot-characters.png)
+![בחרו דמות](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -31,9 +31,9 @@ Choose one of these character sprites, and add them to your project:
 
 \--- task \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+בחרו רקע שמתאים לאישיות הצ'אט שלכם. הנה דוגמה, אם כי שלכם לא חייב להיראות כך:
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![בחרו רקע](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
@@ -41,7 +41,7 @@ Choose a backdrop that fits your chatbot's personality. Here's an example, altho
 
 \--- task \---
 
-Save your project.
+שמרו את הפרויקט שלכם.
 
 [[[generic-scratch-saving]]]
 
