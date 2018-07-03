@@ -1,6 +1,6 @@
 ## Introdução
 
-Aprenda a programar seu próprio robô falante!
+Aprenda a programar o seu próprio robô falante!
 
 ### O que você vai fazer
 
@@ -16,23 +16,23 @@ Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital 
 
 + [Use construções básicas de programação para criar programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Informações adicionais para líderes de clubes
+### Informações adicionais para os líderes dos clubes
 
-Se você precisar imprimir este projeto, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Se você precisar imprimir este projeto, por favor, utilize a [versão para impressão](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 ## \--- collapse \---
 
-## title: notas do líder do clube
+## title: Notas dos líderes dos clubes
 
 ## Introdução:
 
-Neste projeto, as crianças aprenderão como usar declarações 'se' para tomar decisões em seus programas.
+Neste projeto, as crianças aprenderão como usar o comando 'se' para tomar decisões em seus programas.
 
-## Resources
+## Recursos
 
-Para este projeto, o Scratch 2 deve ser usado. O Scratch 2 pode ser usado online em [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) ou pode ser baixado de [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) e usado offline.
+Para este projeto, deverá ser utilizado o Scratch 2. O Scratch 2 esta disponível online em [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) ou poderá ser baixado em [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) e utilizado offline.
 
-Você pode encontrar uma versão completa deste projeto [ online ](http://scratch.mit.edu/projects/26762091/#editor), ou pode ser baixado clicando no link 'Materiais de Projeto' para este projeto, que contém:
+Você pode encontrar a versão completa deste projeto [ online](http://scratch.mit.edu/projects/26762091/#editor), ou poderá baixá-lo clicando no link 'Materiais do Projeto' para este projeto, que contém:
 
 + ChatBot.sb2
 
@@ -40,8 +40,8 @@ Você pode encontrar uma versão completa deste projeto [ online ](http://scratc
 
 + Entrada de texto;
 + Decisões: 
-    + declarações ` se ... então ` {:class="blockcontrol"} ;
-    + declarações ` se ... então ... senão` {:class="blockcontrol"}.
+    + comando ` se ... então ` {:class="blockcontrol"} ;
+    + comando ` se ... então ... senão` {:class="blockcontrol"}.
 
 Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
@@ -51,7 +51,7 @@ Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital 
 
 + "Mais perguntas" - consolidando a aprendizagem de entrada e o bloco `resposta ` {:class="blockensing"};
 + "Mais decisões" - usando decisões;
-+ "Faça o seu próprio chatbot" - consolidação da aprendizagem deste e dos projetos anteriores.
++ "Faça o seu próprio chatbot" - consolidação da aprendizagem deste projeto e dos anteriores.
 
 \--- /collapse \---
 
