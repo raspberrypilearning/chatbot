@@ -22,7 +22,7 @@
 
 ## \--- collapse \---
 
-## 제목: 교육자 노트
+## title: 교육자 노트
 
 ## 들어가며:
 
@@ -30,24 +30,24 @@
 
 ## 자료
 
-이 프로젝트에서는 Scratch 2를 사용합니다. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+이 프로젝트에서는 Scratch 2를 사용합니다. Scratch 2는 [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on)에서 온라인으로 사용하거나 [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off)에서 다운로드 할 수 있습니다.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+이 프로젝트의 완성 된 버전을 [온라인](http://scratch.mit.edu/projects/26762091/#editor)에서 확인하거나, '프로젝트 자료' 링크를 클릭하여 아래의 파일을 다운로드 할 수 있습니다.
 
 + ChatBot.sb2
 
-## Learning Objectives
+## 학습 목표
 
-+ Text input;
-+ Decisions: 
-    + `if ... then`{:class="blockcontrol"} statements;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
++ 텍스트 입력
++ 결정문들 
+    + `if ... then` {: class = "blockcontrol"} 구문
+    + `if ... then ... else` {: class = "blockcontrol"} 구문
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+이 프로젝트는 [라즈베리파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [기본 프로그래밍 문법으로 간단한 프로그램 만들기](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## 도전과제
 
 + "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
 + "More decisions" - using decisions;
@@ -57,11 +57,11 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: 프로젝트 자료
 
-## Club leader resources
+## 교육자를 위한 자료
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [다운로드 가능한 완성본 스크래치 2 프로젝트](resources/ChatBot.sb2)
++ [완성본 온라인 스크래치 2 프로젝트](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
