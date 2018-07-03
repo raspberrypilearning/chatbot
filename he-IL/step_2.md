@@ -1,9 +1,9 @@
-## What you will need
+## מה נדרש
 
-### Hardware
+### חומרה
 
-+ Computer capable of running Scratch 2.0
++ מחשב המסוגל להריץ Scratch 2.0
 
-### Software
+### תוכנה
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
++ Scratch 2.0 במצב [מכוון](https://scratch.mit.edu/projects/editor/) או [לא מקוון](https://scratch.mit.edu/scratch2download/))
