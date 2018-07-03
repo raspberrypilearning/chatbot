@@ -1,24 +1,24 @@
-## Um chatbot falante
+## Um ChatBot falante
 
-Agora que você tem um chatbot com uma personalidade, vamos programá-lo para conversar com você.
+Agora que você tem um ChatBot com uma personalidade, vamos programá-lo para conversar com você.
 
 \--- task \---
 
-Adicione o código ao seu chatbot para que, quando clicado, ele solicite seu nome e, em seguida, diga "Que nome adorável!"
+Adicione o código ao seu ChatBot para que, quando clicado, ele pergunte o seu nome e, em seguida, diga "Que nome adorável!"
 
-![Testando uma resposta do ChatBot](images/chatbot-ask-test.png)
+![Testing a ChatBot response](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- Quando o **ator do chatbot é clicado**, ele deve ** perguntar ** pelo seu nome. O chatbot então deve **dizer** "Que nome adorável!" \--- /hint \--- \--- hint \--- Aqui estão alguns blocos de códigos que você vai precisar: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Aqui como seu código deve parecer: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Quando o **ator do ChatBot** é clicado, ele deve ** perguntar ** o seu nome. O ChatBot então deve **dizer** "Que nome adorável!" \--- /hint \--- \--- hint \--- Aqui estão os blocos de códigos que você precisará: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Veja como seu código deve ficar: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Agora o chatbot simplesmente responde "Que nome adorável!" toda vez. Você pode personalizar a resposta do seu chatbot, fazendo uso de sua resposta?
+Agora o ChatBot simplesmente responde "Que nome adorável!" toda vez. Você pode personalizar a resposta do seu ChatBot, utilizando a sua resposta?
 
-![Testando uma resposta personalizada](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- Quando o **ator do chatbot é clicado **, ele deve ** perguntar ** pelo seu nome. O chatbot deve então **dizer** "Olá", seguido da sua **resposta**. \--- /hint \--- \--- hint \--- Aqui estão os blocos de código que você precisará: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Isto é como seu código deve se parecer: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Quando o **ator do ChatBot** é clicado, ele deve ** perguntar ** o seu nome. O ChatBot deve então **dizer** "Oi", seguido da sua **resposta**. \--- /hint \--- \--- hint \--- Aqui estão os blocos de códigos que você precisará: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Veja como seu código deve ficar: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -32,20 +32,20 @@ Se você armazenar sua resposta em uma **variável**, então pode ser usada mais
 
 \--- task \---
 
-Você pode armazenar sua resposta na variável de `nome` e usá-lo na resposta do seu chatbot?
+Você pode armazenar sua resposta na variável `nome` e utilizá-la na resposta do seu ChatBot?
 
-Seu código deve funcionar como antes: seu chatbot deve dizer olá usando seu nome.
+Seu código deve funcionar como antes: seu ChatBot deve dizer olá usando o seu nome.
 
-![Testando uma variável 'nome'](images/chatbot-ask-test.png)
+![Testing a 'name' variable](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- Quando o **ator do chatbot é clicado **, ele deve ** perguntar ** pelo seu nome. Você deve então **definir** a variável de `nome` para sua **resposta**. O chatbot deve, então, **dizer** "Oi", seguido de seu **nome**. \--- /hint \--- \--- hint \--- Aqui estão os blocos de código que você precisará: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Isto é como seu código deve se parecer: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Quando o **ator do ChatBot** é clicado, ele deve ** perguntar ** o seu nome. Você deve então **definir** a variável `nome` para a sua **resposta**. O ChatBot deve, então, **dizer** "Oi", seguido do seu **nome**. \--- /hint \--- \--- hint \--- Aqui estão os blocos de códigos que você precisará: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Veja como seu código deve ficar: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- challenge \---
 
-## Desafio: mais perguntas
+## Desafio: Mais perguntas
 
-Programe seu chatbot para fazer outra pergunta. Você pode armazenar a resposta em uma nova variável?
+Programe o seu ChatBot para fazer outra pergunta. Você pode armazenar a resposta em uma nova variável?
 
-![Mais perguntas](images/chatbot-question.png) \--- /challenge \---
+![More questions](images/chatbot-question.png) \--- /challenge \---
