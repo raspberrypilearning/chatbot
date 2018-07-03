@@ -1,57 +1,57 @@
-## Introduction
+## מבוא
 
-You are going to learn how to program your own talking robot!
+אתם הולכים ללמוד איך לתכנת רובוט מדבר משלכם!
 
-### What you will make
+### מה תכינו
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+לחצו על הדגל הירוק, ואז לחצו על הצ'אטבוט כדי להתחיל שיחה. כאשר הצ'אטבוט שואל שאלה, הקלידו את תשובתכם לתיבה בתחתית הבמה ולחצו על הסמן (או הקישו Enter).
 
-### What you will learn
+### מה תלמדו
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+פרויקט זה מכסה את הנושאים הבאים של [ תוכנית הלימודים הדיגיטלית של רספברי פי ](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [השתמש במבני תכנות בסיסיים כדי ליצור תוכניות פשוטות.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### מידע נוסף למורי המועדון
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 ## \--- collapse \---
 
 ## title: Club leader notes
 
-## Introduction:
+## מבוא:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+בפרויקט זה, ילדים ילמדו כיצד להשתמש בהצהרות 'If' כדי לקבל החלטות בתוכניות שלהם.
 
-## Resources
+## מקורות
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+עבור פרויקט זה, יש להשתמש ב- Scratch 2. ניתן להשתמש ב- Scratch 2 באופן מקוון ב- [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) או ניתן להוריד מ [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) ולהשתמש במצב לא מקוון.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+תוכלו למצוא גרסה מלאה של פרוייקט זה [ ברשת ](http://scratch.mit.edu/projects/26762091/#editor), או ניתן להוריד אותה על ידי לחיצה על הקישור 'חומרים פרויקט' לפרויקט זה, אשר מכיל:
 
 + ChatBot.sb2
 
-## Learning Objectives
+## מטרות למידה
 
-+ Text input;
-+ Decisions: 
-    + `if ... then`{:class="blockcontrol"} statements;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
++ קלט טקסט;
++ החלטות: 
+    + ` If ... ` {: class = "blockcontrol"} הצהרות;
+    + `if ... then ... else`{:class="blockcontrol"} הצהרות.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+פרויקט זה מכסה את הנושאים הבאים של [ תוכנית הלימודים הדיגיטלית של רספברי פי ](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [השתמש במבני תכנות בסיסיים כדי ליצור תוכניות פשוטות.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## אתגרים
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ "שאלות נוספות" - איחוד הלמידה של קלט ובלוק `התשובות`{:class="blocksensing"};
++ "החלטות נוספות" - שימוש בהחלטות;
++ "צור צ'אטבוט משלך" - איחוד של למידה זו בעבר פרויקטים.
 
 \--- /collapse \---
 
@@ -59,9 +59,9 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 ## title: Project materials
 
-## Club leader resources
+## משאבים למורה המועדון
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [פרוייקט Scratch 2 המלא להורדה](resources/ChatBot.sb2)
++ [פרוייקט Scratch 2 המלא ברשת](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
