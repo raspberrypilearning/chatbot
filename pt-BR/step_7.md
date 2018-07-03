@@ -6,4 +6,4 @@ Use o que você aprendeu para terminar de criar o seu ChatBot interativo. Aqui e
 
 ![ChatBot ideas](images/chatbot-ideas.png)
 
-Uma vez você terminou de fazer o seu ChatBot, chame os seus amigos para ter uma conversa com ele! Eles gostaram do seu personagem? Eles identificaram algum problema? ---/challenge--
+Uma vez você terminou de fazer o seu ChatBot, chame os seus amigos para ter uma conversa com ele! Eles gostaram do seu personagem? Eles identificaram algum problema? ---/challenge ---
