@@ -1,9 +1,9 @@
-\--- challenge \---
+\---challenge \---
 
-## Challenge: finish your chatbot
+## 挑战：完成你的聊天机器人
 
-Use what you've learnt to finish creating your interactive chatbot. Here are some ideas:
+利用你学到知识完成创建你的互动聊天机器人。下面是一些点子：
 
-![ChatBot ideas](images/chatbot-ideas.png)
+![聊天机器人点子](images/chatbot-ideas.png)
 
-Once you've finished making your chatbot, get your friends to have a conversation with it! Do they like your character? Did they spot any problems? \--- /challenge \---
+一旦你完成了你的聊天机器人的制作，邀请你的朋友来跟它进行对话！他们喜欢你的机器人吗？他们有发现什么问题吗？ \--- /challenge \---
