@@ -40,8 +40,8 @@ Você pode encontrar a versão completa deste projeto [online](http://scratch.mi
 
 + Entrada de texto;
 + Decisões: 
-    + comando `se ... então` {:class="blockcontrol"} ;
-    + comando `se ... então ... senão` {:class="blockcontrol"}.
+    + comando `se ... então`{:class="blockcontrol"} ;
+    + comando `se ... então ... senão`{:class="blockcontrol"}.
 
 Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
