@@ -1,36 +1,36 @@
-## Step 3: Making decisions
+## Etapa 3: Tomar decisões
 
-You can program your chatbot to decide what to say or do based on your responses to its questions.
+Podes programar o teu robô falante para que ele decida o que dizer ou fazer com base nas tuas respostas às suas perguntas.
 
 \--- task \---
 
-Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
+Podes fazer o robô falante fazer a pergunta "Estás bem?", e codificá-lo para responder "Ainda bem!" somente ** se ** o usuário responde "sim"?
 
-To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
+Para testares o teu novo código devidamente, deves testá-lo ** duas vezes **, uma vez com a resposta "sim", e uma vez com a resposta "não".
 
-Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
+O teu robô falante deve responder "Ainda bem!!" se você responder "sim", mas não dizer nada se responderes "não".
 
 ![Testing a chatbot reply](images/chatbot-if-test.png)
 
-\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Após o seu robô falante ter dito "Ola!", agora também deve ** perguntar ** "Estás bem??". ** Se **responderes "sim", então o robô falante deve ** dizer ** "Ainda bem!". \--- / hint \--- \--- hint \--- Aqui estão os blocos de código que vais precisar: <0 /> \--- / hint \--- \--- hint \--- Vê como o teu código deve ficar: <1 /> \--- / hint \--- \--- / hints \---
 
 \--- /task \---
 
 \--- task \---
 
-At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+De momento, o seu robô falante não diz nada se responderes "não". Podes mudar o teu robô falante para que ele também responda "Oh não!" se responderes "não" à pergunta dele?
 
-Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+Testa e guarda. O teu robô falante agora deve dizer "Oh não!" se você responder "não". Na verdade, ele dirá "Não!" se responderes com alguma resposta diferente de "sim" (o **senão** num bloco ` se / senão ` significa ** caso contrário **).
 
 ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- O teu robô falante agora diz "Ainda bem!" ** se ** a tua resposta for "sim", e deve dizer "Oh não!" se responderes ** outra coisa **. \--- / hint \--- \--- hint \--- Aqui estão os blocos de código que vais precisar: <0 /> \--- / hint \--- \--- hint \--- Vê como o teu código deve ficar: <1 /> \--- / hint \--- \--- / hints \---
 
 \--- /task \---
 
 \--- task \---
 
-You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+Podes colocar qualquer código dentro de um bloco` se / senão `, não apenas código para fazeres o teu robô falante falar. Se clicares no menu ** Trajes ** do robô falante, verás que tem mais de um traje.
 
 ![chatbot costumes](images/chatbot-costume-view.png)
 
@@ -38,34 +38,34 @@ You can put any code inside an `if/else` block, not just code to make your chatb
 
 \--- task \---
 
-Can you change the chatbot's costume to match your response?
+Consegues mudar o traje do robô falante para combinar com a tua resposta?
 
-Test and save. You should see your chatbot's face change depending on your answer.
+Testa e guarda. Deves ver o rosto do teu robô falante mudar de acordo com a tua resposta.
 
 ![Testing a changing costume](images/chatbot-costume-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- O teu robô falante agora também deve ** trocar de traje ** dependendo da resposta dada. \--- / hint \--- \--- hint \--- Aqui estão os blocos de código que vais precisar: <0 /> \--- / hint \--- \--- hint \--- Vê como o teu código deve ficar: <1 /> \--- / hint \--- \--- / hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+Reparaste que o traje do teu robô falante é o mesmo que era a última vez que falaste com ele? Podes corrigir esse problema?
 
 ![Costume bug](images/chatbot-costume-bug-test.png)
 
-Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+Testa e guarda: Executa o código e digita "não", para que o teu robô falante pareça infeliz. Quando executares o teu código novamente, o teu robô falante deve voltar para um rosto sorridente antes de perguntar o teu nome.
 
 ![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Quando o **actor é clicado **, o teu robô falante deve primeiro ** trocar de traje ** para um rosto sorridente. \--- / hint \--- \--- hint \--- Aqui está o bloco de código que vais precisar: <0 /> \--- / hint \--- \--- hint \--- Vê como o teu código deve ficar: <1 /> \--- / hint \--- \--- / hints \---
 
 \--- /task \---
 
 \--- challenge \---
 
-## Challenge: more decisions
+## Desafio: mais perguntas
 
-Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
+Programa o teu robô falante para fazer outra pergunta - algo com uma resposta "sim" ou "não". Consegues fazer o teu robô falante reagir à resposta?
 
 ![screenshot](images/chatbot-joke.png) \--- /challenge \---
