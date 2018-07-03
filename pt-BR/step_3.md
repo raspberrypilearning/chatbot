@@ -1,19 +1,19 @@
-## Seu chatbot
+## Seu ChatBot
 
 \--- task \---
 
-Antes de começar a fazer seu chatbot, você precisa decidir sobre sua personalidade. ** Pense nas seguintes questões **:
+Antes de começar a fazer seu ChatBot, você precisa decidir sobre sua personalidade. ** Pense nas seguintes questões **:
 
-    + Qual é o nome deles? 
-    + Onde eles moram? 
-    + Eles estão felizes? Sérios? Engraçados? Tímidos? Amigáveis?
+    + Qual é o nome dele? 
+    + Onde ele mora? 
+    + Ele está feliz? Sério? Divertido? Tímido? Amigável?
     
 
 \--- /task \---
 
 \--- task \---
 
-Abra um novo projeto Scratch vazio.
+Abra um novo projeto no Scratch.
 
 [[[generic-scratch-new-project]]]
 
@@ -21,9 +21,9 @@ Abra um novo projeto Scratch vazio.
 
 \--- task \---
 
-Escolha um desses atores de personagem e adicione-os ao seu projeto:
+Escolha um ator e adicione-o ao seu projeto:
 
-![Escolha o personagem](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -31,9 +31,9 @@ Escolha um desses atores de personagem e adicione-os ao seu projeto:
 
 \--- task \---
 
-Escolha um cenário que se adapte à personalidade do seu chatbot. Aqui está um exemplo, embora o seu não tenha que ser assim:
+Escolha um palco que se adapte à personalidade do seu ChatBot. Aqui está um exemplo, embora o seu não tenha que ser assim:
 
-![Escolha um cenário](images/chatbot-backdrop.png)
+![Choose a backdrop](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
@@ -41,7 +41,7 @@ Escolha um cenário que se adapte à personalidade do seu chatbot. Aqui está um
 
 \--- task \---
 
-Salve seu projeto.
+Salve o seu projeto.
 
 [[[generic-scratch-saving]]]
 
