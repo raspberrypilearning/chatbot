@@ -1,4 +1,4 @@
-## Etapa 3: Tomando decisões
+## Tomando decisões
 
 Você pode programar o que o ChatBot irá falar ou fazer, baseado nas suas respostas às perguntas dele.
 
