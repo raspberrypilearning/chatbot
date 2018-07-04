@@ -28,26 +28,26 @@ Hvis du har brug for at udskrive dette projekt, skal du bruge [Printervenlig ver
 
 I dette projekt, vil børnene lære at bruge 'if'-sætninger til at træffe beslutninger i deres programmer.
 
-## Resources
+## Ressourcer
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Til dette projekt skal Scratch 2 bruges. Scratch 2 kan enten anvendes online på [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) eller kan downloades fra [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) og anvendes offline.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Du kan finde en færdig version af dette projekt [online](http://scratch.mit.edu/projects/26762091/#editor), eller det kan downloades ved at klikke på linket 'Projekt materialer' for dette projekt, der indeholder:
 
 + ChatBot.sb2
 
-## Learning Objectives
+## Læringsmål
 
-+ Text input;
-+ Decisions: 
-    + `if ... then`{:class="blockcontrol"} statements;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
++ Tekstindtastning;
++ Beslutninger: 
+    + `if ... then`{:class="blockcontrol"} sætninger;
+    + `if ... then ... else`{:class="blockcontrol"} sætninger.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Brug grundlæggende programmeringskonstruktioner til at oprette enkle programmer.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Udfordringer
 
 + "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
 + "More decisions" - using decisions;
