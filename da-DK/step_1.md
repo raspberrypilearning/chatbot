@@ -1,32 +1,32 @@
-## Introduction
+## Introduktion
 
-You are going to learn how to program your own talking robot!
+Du skal lære at programmere din egen talende robot!
 
-### What you will make
+### Hvad du vil lave
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+Klik på det grønne flag, og klik derefter på chatbot for at starte en samtale. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
 
-### What you will learn
+### Hvad du vil lære
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Dette projekt dækker elementer fra følgende områder i [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Brug grundlæggende programmeringskonstruktioner til at oprette enkle programmer.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### Yderligere oplysninger til undervisere
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Hvis du har brug for at udskrive dette projekt, skal du bruge [Printervenlig version](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 ## \--- collapse \---
 
 ## title: Club leader notes
 
-## Introduction:
+## Introduktion:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+I dette projekt, vil børnene lære at bruge 'if'-sætninger til at træffe beslutninger i deres programmer.
 
 ## Resources
 
