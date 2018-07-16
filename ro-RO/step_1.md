@@ -1,67 +1,67 @@
-## Introducción
+## Introducere
 
-¡Vas a aprender a programar tu propio robot que habla!
+Veți învăța cum să programați propriul dvs. robot vorbitor!
 
-### Lo que crearás
+### Ce trebuie să faceți
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+Faceți clic pe steagul verde, apoi faceți clic pe chatbot pentru a începe o conversație. Când chat-botul pune o întrebare, tastează răspunsul tău in căsuța din josul paginii Scenei si apasă pe marcaj (sau apasă `Enter`).
 
-### What you will learn
+### Ce veți învăța
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Acest proiect acopera elemente din urmatoarele domenii [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Folosește elemente de bază din programare pentru a crea programe simple.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### Informații suplimentare pentru conducătorii de club
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Dacă doriți să imprimați acest proiect, vă rugăm să folosiți [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## titlu: Note pentru conducătorul clubului
 
-## Introduction:
+## Introducere:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+În acest proiect, copiii vor învăța cum să folosească modulele "dacă" pentru a lua decizii în programele lor.
 
-## Resources
+## Resurse
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Pentru acest proiect ar trebui folosit Scratch 2. Scratch 2 poate fi folosit online la adresa [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) sau poate fi descărcat de la adresa [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) și folosit offline.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Puteți găsi o versiune completă a acestui proiect [online](http://scratch.mit.edu/projects/26762091/#editor), sau puteți descărca accesând link-ul 'Project Materials' pentru acest proiect, care contine următoarele:
 
 + ChatBot.sb2
 
-## Learning Objectives
+## Obiectivele exercitiului
 
-+ Text input;
-+ Decisions: 
++ Introducere text;
++ Decizii: 
     + `if ... then`{:class="blockcontrol"} statements;
     + `if ... then ... else`{:class="blockcontrol"} statements.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Acest proiect acopera elemente din urmatoarele domenii [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Folosește elemente de bază din programare pentru a crea programe simple.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Provocări
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ "Alte întrebări" - însușirea cunoștiințelor de introducere date si raspuns`answer`{:class="blocksensing"};
++ "Alte decizii" - folosirea deciziilor;
++ "Creați-vă propriul chatbot" - consolidarea învățării din acest proiect și din cele anterioare.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## titlu: Materiale necesare
 
-## Club leader resources
+## Resursele liderului de club
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [Versiunea descărcare proiect Scratch 2](resources/ChatBot.sb2)
++ [Versiune completa online proiect Scratch 2](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
