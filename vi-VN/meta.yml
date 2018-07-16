@@ -1,20 +1,20 @@
 ---
 title: Chatbot
-hero_image: images / chatbot.png
-description: Tìm hiểu cách lập trình robot nói chuyện của riêng bạn!
+hero_image: images/chatbot.png
+description: Tìm hiểu cách lập trình robot biết trò chuyện của riêng bạn!
 original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: màu tím
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1, thiết kế-0, lập trình-1, phys-comp-0, sản xuất-0, cộng đồng-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 interests: ''
-technology: vết trầy
+technology: scratch
 site_areas: dự án
-technologies: vết trầy
+technologies: scratch
 hardware: ''
-software: vết trầy
+software: scratch
 version: 4.1.0
 last_tested: 2017-01-01
 steps:
@@ -25,10 +25,10 @@ steps:
   - 
     title: Chatbot của bạn
   - 
-    title: Chatbot trò chuyện
+    title: Robot biết trò chuyện
   - 
-    title: Ra quyết định
+    title: Đưa ra quyết định
   - 
     title: Thay đổi vị trí
   - 
-    title: 'Thách thức: kết thúc chatbot của bạn'
+    title: 'Thử thách: hoàn thành chatbot của bạn'
