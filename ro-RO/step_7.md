@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: finish your chatbot
+## Provocare: terminați chatbot-ul
 
-Use what you've learnt to finish creating your interactive chatbot. Here are some ideas:
+Utilizați ceea ce ați învățat pentru a finaliza crearea unui chatbot interactiv. Iată câteva idei:
 
-![ChatBot ideas](images/chatbot-ideas.png)
+![Idei pentru ChatBot](images/chatbot-ideas.png)
 
-Once you've finished making your chatbot, get your friends to have a conversation with it! Do they like your character? Did they spot any problems? \--- /challenge \---
+Odată ce ați terminat chatbot-ul, puneti-vă prietenii să aibă o conversație cu acesta! Le place? Au detectat vreo problemă? \--- /challenge\---
