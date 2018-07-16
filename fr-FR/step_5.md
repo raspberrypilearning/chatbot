@@ -44,7 +44,7 @@ Testez et enregistrez. Vous devriez voir le visage de votre chatbot changer en f
 
 ![Tester un costume changeant](images/chatbot-costume-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -59,14 +59,14 @@ Testez et enregistrez: exécutez votre code et tapez "non", afin que votre chatb
 
 ![Test d'une correction de costume](images/chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
-\--- challenge \---
+\--- Défi\---
 
 ## Challenge : plus d'objets
 
 Programmez votre chatbot pour poser une autre question - quelque chose avec une réponse «oui» ou «non». Pouvez-vous faire en sorte que votre chatbot réponde à la réponse?
 
-![capture d'écran](images/chatbot-joke.png) \--- /challenge \---
+![capture d'écran](images/chatbot-joke.png) \--- /défi \---
