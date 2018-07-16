@@ -1,46 +1,48 @@
 ## Chatbot của bạn
 
-\--- bài tập \---
+\--- task \---
 
 Trước khi bắt đầu thực hiện chatbot, bạn cần quyết định tính cách của nó. **Suy nghĩ về các câu hỏi sau**:
 
-    + Tên của họ là gì? + Họ sống ở đâu? + Họ có hạnh phúc không? Nghiêm trọng? Buồn cười? Nhát? Thân thiện?
+    + Tên của chúng là gì?
+    + Chúng sống ở đâu?
+    + Chúng có hạnh phúc không? Nghiêm túc? Vui tính? Nhút nhát? Thân thiện?
     
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- bài tập \---
+\--- task \---
 
 Mở một dự án Scratch trống mới.
 
 [[[generic-scratch-new-project]]]
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- bài tập \---
+\--- task \---
 
-Chọn một trong các sprites ký tự này và thêm chúng vào dự án của bạn:
+Chọn một trong các Đối tượng này và thêm chúng vào dự án của bạn:
 
 ![Chọn một nhân vật](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- bài tập \---
+\--- task \---
 
-Chọn phông nền phù hợp với tính cách của chatbot. Đây là một ví dụ, mặc dù bạn không phải trông như thế này:
+Chọn Phông nền phù hợp với tính cách của chatbot. Đây là một ví dụ, mặc dù phông nền bạn không cần trông như thế này:
 
 ![Chọn phông nền](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
-\--- /bài tập \---
+\--- /task \---
 
-\--- bài tập \---
+\--- task \---
 
 Lưu dự án của bạn.
 
 [[[generic-scratch-saving]]]
 
-\--- /bài tập \---
+\--- /task \---
