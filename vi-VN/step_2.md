@@ -6,4 +6,4 @@
 
 ### Phần mềm
 
-+ Scratch 2.0 (hoặc [trực tuyến](https://scratch.mit.edu/projects/editor/) hoặc [ngoại tuyến](https://scratch.mit.edu/scratch2download/))
++ Scratch 2.0 ([trực tuyến](https://scratch.mit.edu/projects/editor/) hoặc [ngoại tuyến](https://scratch.mit.edu/scratch2download/))
