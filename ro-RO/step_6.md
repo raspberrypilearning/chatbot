@@ -1,39 +1,39 @@
-## Changing location
+## Schimbarea poziției
 
-You can also code your chatbot to change its location.
+Poți programa chatbot-ul să-și schimbe pozitia.
 
 \--- task \---
 
-Add another backdrop to your Stage, for example the 'moon' backdrop.
+Adăugați un alt fundal în scenă, de exemplu fundalul "lună".
 
-![Adding a 'moon' backdrop](images/chatbot-moon.png)
+![Adăugarea unui fundal ‘lună’](images/chatbot-moon.png)
 
 \--- /task \---
 
 \--- task \---
 
-Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
+Poți programa chatbot-ul să intrebe “Vrei să mergi pe lună?” și să își schimbe pozitia dacă răspunsul este”da”?
 
-Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+Testează și salvează. Dacă răspunsul este”da”, chatbot-ul schimbă poziția. Acum chatbot-ul ar trebui să arate supărat și să zică “OK..pa!” dacă e orice alt răspuns.
 
-![Testing a changing backdrop](images/chatbot-backdrop-test.png)
+![Testeaza un fundal care se schimbă](images/chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+\--- hints \--- \--- hint \--- Chatbot-ul **cere** "Vrei să mergi pe lună?”. **If** **answer** este "da", atunci chatbot-ul schimbă deghizarea cu**change costume** cea vesela iar fundalul de scenă **backdrop** ar trebui să se schimbe.
 
-If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
+Dacă răspunsul e "nu", atunci chatbot-ul **change costume** și va arăta supărat și va **say** "OK...pa!"
 
-You'll also need to add code to start your chatbot in the right place **when clicked**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
+Va trebui să adăugați un cod astfel chatbot-ul pornește din locul potrivit **when clicked**. \--- /hint \--- \--- hint \--- Acestea sunt blocurile de comenzi necesare: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
+Poți adăuga un cod astfel încât chatbot-ul să sară de bucurie dacă vrei să mergi pe lună?
 
-Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+Testează și salvează. Dacă răspunsul este ”da”, chatbotul sare de bucurie. Dacă alt răspuns este dat chatbot-ul nu ar trebui să sară.
 
-![Testing a jumping ChatBot](images/chatbot-jump-test.png)
+![Testează un ChatBot săritor](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should jump by **changing** its **y position** by a small amount, and then changing its position back after a short **wait**. You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Chatbot-ul sare **changing** **y position** cu mici incremente, revenind la poziția inițială dupa un timp de **wait**. Va trebui să **repeat** asta de mai multe ori. \--- /hint \--- \--- hint \--- Acestea sunt blocurile de comenzi necesare: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
