@@ -1,71 +1,71 @@
-## Step 3: Making decisions
+## Pasul 3: Luarea deciziilor
 
-You can program your chatbot to decide what to say or do based on your responses to its questions.
+Puteți programa chat-ul să decidă ce să spună sau să facă pe baza răspunsurilor la întrebările sale.
 
 \--- task \---
 
-Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
+Îl poți face să te întrebe "Ești bine?", și să-l programezi să raspundă cu "Îmi pare bine!" numai **dacă** i se răspunde cu “da”?
 
-To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
+Pentru a testa programul corect, ar trebui să verifici de **twice**ori, odată când răspunsul este “da”, și atunci când este “nu”.
 
-Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
+Chatbot-ul tău ar trebui să răspundă "Este minunat!" dacă răspundeți "da", dar să nu spună nimic dacă răspundeți "nu".
 
-![Testing a chatbot reply](images/chatbot-if-test.png)
+![Testează răspunsul ChatBot-ului](images/chatbot-if-test.png)
 
-\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- După ce chatbot-ul zice "Bună", ar trebui sa zică **ask** "Ești OK?". **dacă** răspunsul tău e "da", atunci ar trebui să zică**say** "E minunat să aud asta!". \--- /hint \--- \--- hint \--- Acestea sunt blocurile de comenzi necesare: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+În momentul de față, chatbot-ul nu zice nimic dacă răspunsul este “nu”. Poți face ca acesta să raspundă “Vai nu!” dacă răspunsul la întrbare este “nu”?
 
-Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+Testează și salvează. Acum chatbot-ul ar trebui sa zică “Vai nu!” dacă răspunsul este “nu”. De fapt, va zice “Vai nu!” dacă răspunsul este altul decăt “da” (the **else** in an `if/else` block means **otherwise**).
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Testarea unui răspuns da/nu](images/chatbot-if-else-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
-
-![chatbot costumes](images/chatbot-costume-view.png)
+\--- hints \--- \--- hint \--- Chatbot-ul zice "E minunat să aud asta!" **dacă** răspunsul este “da”, și ar trebui să zică “Vai nu!” dacă răspunsul este altceva **else**. \--- /hint \--- \--- hint \--- Acestea sunt blocurile de comenzi necesare: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Can you change the chatbot's costume to match your response?
+Poți pune orice alt cod vrei în interiorul blocului`if/else` nu doar codul care face chatbot-ul să vorbească. Dacă faceți clic pe căsuța chatbot-ului **Costume** Veți vedea că acesta prezintă mai multe deghizări.
 
-Test and save. You should see your chatbot's face change depending on your answer.
-
-![Testing a changing costume](images/chatbot-costume-test.png)
-
-\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+![deghizări chatbot](images/chatbot-costume-view.png)
 
 \--- /task \---
 
 \--- task \---
 
-Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+Poți schimba deghizarea chatbot-ului astfel încât să fie pe măsura răspunsului tău?
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+Testează si salvează. Acum ar trebui să vezi cum se schimbă imaginea chatbot-ului în funcție de răspuns.
 
-Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+![Testarea unei deghizări](images/chatbot-costume-test.png)
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+\--- hints \--- \--- hint \--- Acum chatbot-ul **switch costume** în funcție de răspunsul primit. \--- /hint \--- \--- hint \--- Acestea sunt blocurile de comenzi necesare: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
-\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- /task \---
+
+\--- task \---
+
+Ai observat ca imagine chatbot-ului rămâne neschimbată cu imaginea cu care ai vorbit ultima dată? Poți rezolva problema asta?
+
+![Erori deghizare](images/chatbot-costume-bug-test.png)
+
+Testează și salvează: Rulează codul si tastează “nu”, astfel incât chatbot-ul să arate nefericit. Atunci când rulezi codul, din nou, chatbot-ul artrebui să revină la aceeași față zâmbitoare de la început.
+
+![Testarea unei deghizări corectate](images/chatbot-costume-fix-test.png)
+
+\--- hints \--- \--- hint \--- Atunci când **sprite is clicked**, chatbot-ul ar trebui să **switch costume** cu fața zâmbitoarez. \--- /hint \--- \--- hint \--- Acestea sunt blocurile de comenzi necesare: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Asa ar trebui sa arate: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- challenge \---
 
-## Challenge: more decisions
+## Provocare: alte decizii
 
-Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
+Programează chatbot-ul să pună o altă întrebare, de genul “da” sau “nu”. Poți face chatbot-ul să răspundă la întrebare?
 
 ![screenshot](images/chatbot-joke.png) \--- /challenge \---
