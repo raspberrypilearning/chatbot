@@ -1,9 +1,9 @@
-## What you will need
+## Ce veți avea nevoie
 
-### Hardware
+### Dispozitive
 
-+ Computer capable of running Scratch 2.0
++ Computer capabil să ruleze Scratch 2.0
 
-### Software
+### Programe
 
 + Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
