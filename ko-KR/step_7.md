@@ -1,9 +1,9 @@
 \--- challenge \---
 
-## Challenge: finish your chatbot
+## 도전 과제: 말하는 로봇 완성하기
 
-Use what you've learnt to finish creating your interactive chatbot. Here are some ideas:
+그동안 배운 것들을 활용해서 대화하는 로봇 만들기를 완성 해 보세요. 여기에 몇가지 아이디어가 더 있어요:
 
 ![ChatBot ideas](images/chatbot-ideas.png)
 
-Once you've finished making your chatbot, get your friends to have a conversation with it! Do they like your character? Did they spot any problems? \--- /challenge \---
+말하는 로봇을 완성하고 나면, 친구들이 로봇과 얘기하도록 해 보세요! 친구들이 당신의 로봇 캐릭터를 좋아하나요? 친구들이 어떤 문제를 발견했나요? \--- /challenge \---
