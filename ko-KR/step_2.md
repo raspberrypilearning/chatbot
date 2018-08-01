@@ -1,9 +1,9 @@
-## What you will need
+## 준비물
 
-### Hardware
+### 하드웨어
 
-+ Computer capable of running Scratch 2.0
++ 스크래치 2.0을 실행할 수 있는 컴퓨터
 
-### Software
+### 소프트웨어
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
++ 스크래치 2.0 ([온라인](https://scratch.mit.edu/projects/editor/) 또는 [오프라인](https://scratch.mit.edu/scratch2download/))
