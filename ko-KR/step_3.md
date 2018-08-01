@@ -1,19 +1,19 @@
-## Your chatbot
+## 당신의 챗봇
 
 \--- task \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+챗봇을 만들기 전에 로봇의 성격을 결정해야 합니다.**다음 질문에 대해서 생각해 보십시오.**:
 
-    + What is their name?
-    + Where do they live?
-    + Are they happy? Serious? Funny? Shy? Friendly?
+    + 그들의 이름은 무엇인가요?
+    + 그들은 어디에 살고있나요?
+    + 그들은 행복한가요? 진지한가요? 개구쟁이인가요? 부끄러움이 많나요? 친절한가요?
     
 
 \--- /task \---
 
 \--- task \---
 
-Open a new empty Scratch project.
+새 스크래치 프로젝트를 엽니다.
 
 [[[generic-scratch-new-project]]]
 
@@ -21,9 +21,9 @@ Open a new empty Scratch project.
 
 \--- task \---
 
-Choose one of these character sprites, and add them to your project:
+이 캐릭터 중에 하나를 선택하여 프로젝트에 추가하십시오.
 
-![Choose a character](images/chatbot-characters.png)
+![캐릭터선택](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -31,9 +31,9 @@ Choose one of these character sprites, and add them to your project:
 
 \--- task \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+챗봇의 성격과 잘 어울리는 배경을 선택하십시오. 아래와 똑같을 필요는 없지만, 예제로 하나를 선택했습니다.
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![배경 선택](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
@@ -41,7 +41,7 @@ Choose a backdrop that fits your chatbot's personality. Here's an example, altho
 
 \--- task \---
 
-Save your project.
+프로젝트 저장하기.
 
 [[[generic-scratch-saving]]]
 
