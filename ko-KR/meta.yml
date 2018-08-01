@@ -8,7 +8,7 @@ duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1, 디자인 -0, 프로그래밍 -1, phys-comp-0, 제조 -0, 커뮤니티 -0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 interests: ''
 technology: 스크래치
 site_areas: 프로젝트
@@ -31,4 +31,4 @@ steps:
   - 
     title: 위치 변경
   - 
-    title: '과제: 챗봇 만드는 것을 완수하세요.'
+    title: '도전 과제: 챗봇을 완성하세요.'
