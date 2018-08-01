@@ -1,30 +1,30 @@
-## A talking chatbot
+## 말하는 로봇
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+챗봇의 성격을 정했으니, 챗봇이 당신에게 말할 수 있도록 프로그램을 만들어 봅시다.
 
 \--- task \---
 
-Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+챗봇을 클릭 했을때, 챗봇이 당신의 이름을 묻고 "정말 좋은 이름이구나!" 라고 대답하도록 코드를 추가 해 보세요.
 
-![Testing a ChatBot response](images/chatbot-ask-test.png)
+![ChatBot 응답 테스트](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 챗봇 **요정이 클릭될 때**, 챗봇이 당신의 이름을 **물어봐야** 합니다. 그리고선 로봇이 "정말 좋은 이름이구나!" 라고 **말해야** 합니다. \--- /hint \--- \--- hint \--- 다음 블럭들을 사용하게 될 거에요: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- 코드는 이렇게 완성 될 거에요: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+이제 로봇은 단순하게 "정말 좋은 이름이구나!"라고 매번 말할거에요. 내가 대답한 이름을 이용해서 좀더 개성적으로 대답하게 바꿀 수 있나요?
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 로봇의 **스프라이트가 클릭될 때**, 당신의 이름을 **물어봐야** 합니다. 로봇은 "안녕, " 이라고 **말하고**, 당신의 **대답**을 말해야 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
+이름을 **변수**에 저장하면, 나중에도 사용할 수 있습니다. `이름`이라는 새 변수를 만들어서 이름을 저장하도록 하세요.
 
 [[[generic-scratch-add-variable]]]
 
@@ -32,20 +32,20 @@ If you store your answer in a **variable**, then it can be used later. Create a 
 
 \--- task \---
 
-Can you store your answer in the `name` variable and use it in your chatbot's reply?
+`이름` 변수에 당신의 대답을 저장하고 로봇이 대답하는데 사용할 수 있나요?
 
-Your code should work as before: your chatbot should say hello using your name.
+코드는 이전처럼 작동해야 합니다: 당신의 이름을 사용해서 안녕, 이라고 말해야 합니다.
 
 ![Testing a 'name' variable](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 로봇의 **스프라이트가 클릭 될 때**, 당신의 이름을 **물어봐야** 합니다. 그리고나서 `이름` 변수를 **대답**으로 **정해야** 합니다. 이제 로봇은 "안녕, " 이후에 당신의 **이름**을 **말해야** 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- challenge \---
 
-## Challenge: more questions
+## 도전과제: 더 많은 질문들
 
-Program your chatbot to ask another question. Can you store the answer in a new variable?
+로봇이 다른 질문들을 하도록 프로그램 해 보세요. 새로운 변수에 대답을 저장 할 수 있나요?
 
 ![More questions](images/chatbot-question.png) \--- /challenge \---
