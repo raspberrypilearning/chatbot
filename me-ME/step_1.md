@@ -1,67 +1,67 @@
-## Introduction
+## Uvod
 
-You are going to learn how to program your own talking robot!
+Naučićeš kako da programiraš sopstvenog robota koji govori!
 
-### What you will make
+### Šta ćeš napraviti
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+Klikni na zelenu zastavicu, a zatim klikni na robota da započneš razgovor. Kada ti robot postavi pitanje, upiši svoj odgovor u okvir koji se nalazi na dnu Pozornice, a zatim klikni na kvačicu (ili pritisni `Enter`).
 
-### What you will learn
+### Šta ćeš naučiti
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Koristite osnovne programske konstrukcije za kreiranje jednostavnih programa.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### Dodatne informacije za vođe kluba
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: Bilješke za vođe kluba
 
-## Introduction:
+## Uvod:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+U ovom projektu djeca će naučiti kako da koriste naredbe 'if' ('ako') za donošenje odluka u svojim programima.
 
-## Resources
+## Izvori
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Za ovaj projekat koristite Scratch 2. Scratch 2 možete koristiti online na [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ili ga preuzeti sa [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) i koristiti offline.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Završenu verziju projekta možete naći [online](http://scratch.mit.edu/projects/26762091/#editor) ili preuzeti klikom na link ‘Project Materials’, koji sadrži:
 
 + ChatBot.sb2
 
-## Learning Objectives
+## Ciljevi učenja
 
-+ Text input;
-+ Decisions: 
-    + `if ... then`{:class="blockcontrol"} statements;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
++ Unošenje teksta;
++ Odluke: 
+    + `if ... then`{:class="blockcontrol"} (ako ... onda) naredbe;
+    + `if ... then ... else`{:class="blockcontrol"} (ako ... onda ... inače) naredbe.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Koristite osnovne programske konstrukcije za kreiranje jednostavnih programa.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## Izazovi
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ "Više pitanja" - utvrđivanje znanja o unosu podataka i bloku `answer`{:class="blocksensing"} (odgovor);
++ "Više odluka" - korišćenje odluka;
++ "Napravi svog robota koji razgovara" - utvrđivanje znanja iz ovog i prethodnih projekata.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: Projektni materijali
 
-## Club leader resources
+## Izvori za vođe kluba
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [Završen Scratch 2 projekat koji se može preuzeti](resources/ChatBot.sb2)
++ [Završen Scratch 2 projekat koji se može koristiti online](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
