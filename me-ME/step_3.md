@@ -1,19 +1,19 @@
-## Your chatbot
+## Tvoj robot koji razgovara
 
 \--- task \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+Prije nego što počneš da praviš robota koji razgovara, treba da odlučiš kakve će osobine imati. **Razmisli o sljedećim pitanjima**:
 
-    + What is their name?
-    + Where do they live?
-    + Are they happy? Serious? Funny? Shy? Friendly?
+    + Kako se zove? 
+    + Gdje živi? 
+    + Da li je srećan, ozbiljan, zabavan, stidljiv ili druželjubiv?
     
 
 \--- /task \---
 
 \--- task \---
 
-Open a new empty Scratch project.
+Otvori novi prazan Scratch projekat.
 
 [[[generic-scratch-new-project]]]
 
@@ -21,9 +21,9 @@ Open a new empty Scratch project.
 
 \--- task \---
 
-Choose one of these character sprites, and add them to your project:
+Izaberi jedan od ovih likova (sprites) i dodaj ga u svoj projekat:
 
-![Choose a character](images/chatbot-characters.png)
+![Izaberi lik](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -31,9 +31,9 @@ Choose one of these character sprites, and add them to your project:
 
 \--- task \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+Izaberi pozadinu (backdrop) koja odgovara osobinama tvog robota. Evo jednog primjera, iako tvoja pozadina ne mora da izgleda ovako:
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![Izaberi pozadinu](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
@@ -41,7 +41,7 @@ Choose a backdrop that fits your chatbot's personality. Here's an example, altho
 
 \--- task \---
 
-Save your project.
+Sačuvaj svoj projekat.
 
 [[[generic-scratch-saving]]]
 
