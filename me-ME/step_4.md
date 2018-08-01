@@ -1,30 +1,30 @@
-## A talking chatbot
+## Pričljivi robot
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+Sada kada imaš robota sa osobinama, hajde da ga programiramo da razgovara sa tobom.
 
 \--- task \---
 
-Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+Dodaj kôd svom robotu tako da te upita kako se zoveš kada klikneš na njega, a zatim kaže "Kakvo lijepo ime!"
 
-![Testing a ChatBot response](images/chatbot-ask-test.png)
+![Isprobavanje robotovog odgovora](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Kada se **klikne na lik** robota (sprite is clicked), on treba da te **pita** (ask) kako se zoveš. Robot zatim treba da **kaže** (say) "Kakvo lijepo ime!" \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+Sada robot svaki put odgovara "Kakvo lijepo ime!" Možeš li da prilagodiš odgovor svog robota tako što ćeš iskoristiti svoj odgovor?
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Isprobavanje prilagođenog odgovora](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Kada se **klikne na lik** robota (sprite is clicked), on treba da te **pita** (ask) kako se zoveš. Zatim robot treba da **kaže** (say) "Zdravo", nakon kojeg slijedi tvoj **odgovor** (answer). \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
+Ako sačuvaš svoj odgovor u **promjenljivoj** (variable), možeš ga koristiti kasnije. Kreiraj novu promjenljivu pod nazivom `ime` da u njoj sačuvaš svoje ime.
 
 [[[generic-scratch-add-variable]]]
 
@@ -32,20 +32,20 @@ If you store your answer in a **variable**, then it can be used later. Create a 
 
 \--- task \---
 
-Can you store your answer in the `name` variable and use it in your chatbot's reply?
+Da li možeš da smjestiš svoj odgovor u promjenljivu `ime` i da ga iskoristiš u robotovom odgovoru?
 
-Your code should work as before: your chatbot should say hello using your name.
+Tvoj kôd treba da funkcioniše kao i ranije: robot treba da te pozdravi koristeći tvoje ime.
 
-![Testing a 'name' variable](images/chatbot-ask-test.png)
+![Isprobavanje promjenljive 'ime'](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Kada se **klikne na lik** robota (sprite is clicked), on treba da te **pita** (ask) kako se zoveš. Zatim treba da **postaviš** (set) promjenljivu `ime` u svoj **odgovor** (answer). Nakon toga, robot treba da **kaže** (say) "Zdravo" i, uz pozdrav, da kaže tvoje **ime**. \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- challenge \---
 
-## Challenge: more questions
+## Izazov: više pitanja
 
-Program your chatbot to ask another question. Can you store the answer in a new variable?
+Programiraj svog robota da postavi neko drugo pitanje. Možeš li da sačuvaš odgovor u novoj promjenljivoj?
 
-![More questions](images/chatbot-question.png) \--- /challenge \---
+![Više pitanja](images/chatbot-question.png) \--- /challenge \---
