@@ -62,6 +62,6 @@ Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digi
 ## Izvori za vođe kluba
 
 + [Završen Scratch 2 projekat koji se može preuzeti](resources/ChatBot.sb2)
-+ [Završen Scratch 2 projekat koji se može koristiti online](http://scratch.mit.edu/projects/26762091/#editor)
++ [Završen Scratch 2 projekat online](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
