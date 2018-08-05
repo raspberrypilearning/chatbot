@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+अपना चैटबॉट बनाना शुरू करने से पहले, आपको इसके व्यक्तित्व के बारे में निर्णय लेना होगा। **निम्नलिखित प्रश्नों के बारे में सोचें**:
 
     + What is their name?
     + Where do they live?
