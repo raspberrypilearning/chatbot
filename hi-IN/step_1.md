@@ -51,17 +51,17 @@
 
 + "अधिक प्रश्न" - इनपुट और `उत्तर`{:class="blocksensing"} ब्लॉक के अध्ययन का एकत्र करना;
 + "अधिक निर्णय" - निर्णय का उपयोग करना;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ "अपना स्वयं का चैटबॉट बनाना” – वर्तमान और अतीत के प्रोजेक्ट के अध्ययन को एकत्र करना।
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Project materials
+## title: प्रोजेक्ट सामग्री
 
-## Club leader resources
+## क्लब नेता संसाधन
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
++ [डाउनलोड करने योग्य सम्पूर्ण Scratch 2 प्रोजेक्ट](resources/ChatBot.sb2)
 + [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
