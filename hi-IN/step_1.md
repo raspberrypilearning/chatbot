@@ -24,11 +24,11 @@
 
 ## title: क्लब नेता नोट्स
 
-## Introduction:
+## परिचय:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+इस प्रोजेक्ट में, बच्चे अपने प्रोग्राम में निर्णय लेने के लिए 'अगर' कथन(statement) का उपयोग करना सीखेंगे।
 
-## Resources
+## संसाधन
 
 For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
 
