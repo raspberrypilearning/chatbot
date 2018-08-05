@@ -24,7 +24,7 @@
 
 \--- task \---
 
-If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
+यदि आप अपने उत्तर को **वेरिएबल** में संग्रह करते हैं, तो इसे बाद में उपयोग किया जा सकता है। अपना नाम संग्रह करने के लिए `name` वेरिएबल बनाएँ।
 
 [[[generic-scratch-add-variable]]]
 
