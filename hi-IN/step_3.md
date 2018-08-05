@@ -23,7 +23,7 @@
 
 इन कैरेक्टर(character) स्प्राइटस में से एक चुनें, और उन्हें अपने प्रोजेक्ट में जोड़े:
 
-![Choose a character](images/chatbot-characters.png)
+![एक कैरेक्टर चुनें](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
@@ -31,9 +31,9 @@
 
 \--- task \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+एक पृष्ठभूमि(backdrop) चुनें जो आपके चैटबॉट के व्यक्तित्व को फिट बैठता हो। यहाँ एक उदाहरण दिया गया है, हालांकि आपका इस तरह दिखना ज़रूरत नहीं है:
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![एक पृष्ठभूमि चुनें](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
@@ -41,7 +41,7 @@ Choose a backdrop that fits your chatbot's personality. Here's an example, altho
 
 \--- task \---
 
-Save your project.
+अपना प्रोजेक्ट सहेजें
 
 [[[generic-scratch-saving]]]
 
