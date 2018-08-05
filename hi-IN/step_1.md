@@ -62,6 +62,6 @@
 ## क्लब नेता संसाधन
 
 + [डाउनलोड करने योग्य सम्पूर्ण Scratch 2 प्रोजेक्ट](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [ऑनलाइन सम्पूर्ण Scratch 2 प्रोजेक्ट](http://scratch.mit.edu/projects/26762091/#editor)
 
 \--- /collapse \---
