@@ -4,11 +4,11 @@
 
 \--- task \---
 
-챗봇을 클릭 했을때, 챗봇이 당신의 이름을 묻고 "정말 좋은 이름이구나!" 라고 대답하도록 코드를 추가 해 보세요.
+챗봇을 클릭했을 때, 챗봇이 당신의 이름을 묻고 "정말 좋은 이름이구나!"라고 대답하도록 코드를 추가해 보세요.
 
 ![ChatBot 응답 테스트](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- 챗봇 **요정이 클릭될 때**, 챗봇이 당신의 이름을 **물어봐야** 합니다. 그리고선 로봇이 "정말 좋은 이름이구나!" 라고 **말해야** 합니다. \--- /hint \--- \--- hint \--- 다음 블럭들을 사용하게 될 거에요: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- 코드는 이렇게 완성 될 거에요: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 챗봇 **요정을 클릭하면** 챗봇이 당신의 이름을 **물어봐야** 합니다. 그리고 나서 챗봇이 "정말 좋은 이름이구나!" 라고 **말해야** 합니다. \--- /hint \--- \--- hint \--- 추가로 필요한 코드 블럭은 다음과 같습니다: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다. ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
