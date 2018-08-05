@@ -8,11 +8,11 @@
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-हरे रंग के झंडे पर क्लिक करें, और फिर बातचीत शुरू करने के लिए चैटबॉट पर क्लिक करें। When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+हरे रंग के झंडे पर क्लिक करें, और फिर बातचीत शुरू करने के लिए चैटबॉट पर क्लिक करें। जब चैटबॉट कोई सवाल पूछता है, तब स्टेज के नीचे बॉक्स में अपना उत्तर टाइप करें और टिक पर क्लिक करें (या `Enter` दबाएँ)।
 
-### What you will learn
+### आप क्या सीखेंगे
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+यह प्रोजेक्ट [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum)में से निम्नलिखित तत्वों को पूरा करता है।
 
 + [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
 
