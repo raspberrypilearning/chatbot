@@ -4,16 +4,16 @@
 
 अपना चैटबॉट बनाना शुरू करने से पहले, आपको इसके व्यक्तित्व के बारे में निर्णय लेना होगा। **निम्नलिखित प्रश्नों के बारे में सोचें**:
 
-    + What is their name?
-    + Where do they live?
-    + Are they happy? Serious? Funny? Shy? Friendly?
+    +उनका क्या नाम है?
+    +वे कहाँ रहते हैं?
+    +क्या वे खुश हैं? गंभीर? मजाकिया? शर्मीले? मैत्रीपूर्ण?
     
 
 \--- /task \---
 
 \--- task \---
 
-Open a new empty Scratch project.
+एक नया खाली स्क्रैच प्रोजेक्ट खोलें।
 
 [[[generic-scratch-new-project]]]
 
@@ -21,7 +21,7 @@ Open a new empty Scratch project.
 
 \--- task \---
 
-Choose one of these character sprites, and add them to your project:
+इन कैरेक्टर(character) स्प्राइटस में से एक चुनें, और उन्हें अपने प्रोजेक्ट में जोड़े:
 
 ![Choose a character](images/chatbot-characters.png)
 
