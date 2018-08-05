@@ -8,17 +8,17 @@
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाए**, तो इसे आपका नाम **पूछना** चाहिए। चैटबॉट को तब कहना चाहिए "कितना सुंदर नाम है!" \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड कुछ इस प्रकार दिखाई देना चाहिए ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाता है**, तो इसे आपका नाम **पूछना** चाहिए। चैटबॉट को तब कहना चाहिए "कितना सुंदर नाम है!" \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड कुछ इस प्रकार दिखाई देना चाहिए ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+अब चैटबॉट हर बार बस यह उत्तर देता है "कितना सुंदर नाम है!"। क्या आप अपने उत्तर का उपयोग करके अपने चैटबॉट के जवाब को निजीकृत कर सकते हैं?
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाता है**, तो इसे आपका नाम **पूछना** चाहिए। The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
