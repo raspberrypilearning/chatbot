@@ -1,6 +1,6 @@
-## A talking chatbot
+## बात करने वाला चैटबॉट
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+अब जब आपके पास व्यक्तित्व वाला चैटबॉट है, तो चलिए इसे आपसे बात करने के लिए प्रोग्राम करें।
 
 \--- task \---
 
