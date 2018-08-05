@@ -14,15 +14,15 @@
 
 यह प्रोजेक्ट [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum)में से निम्नलिखित तत्वों को पूरा करता है।
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [साधारण प्रोग्राम बनाने के लिए आधारभूत संरचनाओं का उपयोग करें।](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### क्लब लीडर्स के लिए अतिरिक्त जानकारी
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+यदि आप इस प्रोजेक्ट को प्रिंट करना चाहते हैं, तो कृपया [प्रिंटर अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/chatbot/print) का उपयोग करें।
 
 ## \--- collapse \---
 
-## title: Club leader notes
+## title: क्लब नेता नोट्स
 
 ## Introduction:
 
