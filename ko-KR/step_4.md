@@ -16,7 +16,7 @@
 
 이제 챗봇은 단순하게 "정말 좋은 이름이구나!"라고 매번 대답하게 됩니다. 내가 대답한 이름을 이용해서 좀더 개성적으로 대답하게 바꿀 수 있습니까?
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![개별화된 답변 테스트](images/chatbot-answer-test.png)
 
 \--- hints \--- \--- hint \--- 챗봇** 요청이 클릭되면 **당신의 이름을 **물어봐야** 합니다. 챗봇은 당신의 **대답** 이후에 "안녕, " 이라고 **답해야** 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
@@ -36,9 +36,9 @@
 
 코드는 이전과 같이 작동해야 합니다: 당신의 챗봇은 당신의 이름을 사용해서 인사해야 합니다.
 
-![Testing a 'name' variable](images/chatbot-ask-test.png)
+!['이름'변수 테스트하기](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- 챗봇**요정이 클릭 될 때** 챗봇이 당신의 이름을 **물어봐야** 합니다. 그리고나서 `이름` 변수를 **대답**으로 **정해야** 합니다. 이제 로봇은 "안녕, " 이후에 당신의 **이름**을 **말해야** 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 챗봇**요정이 클릭 될 때** 챗봇이 당신의 이름을 **물어봐야** 합니다. 그리고나서 `이름` 변수를 **대답**으로 **정해야** 합니다. 이제 챗봇은 당신의 **이름**을 따라 "안녕!" 이라고 **말해야** 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -46,6 +46,6 @@
 
 ## 도전과제: 더 많은 질문들
 
-로봇이 다른 질문들을 하도록 프로그램 해 보세요. 새로운 변수에 대답을 저장 할 수 있나요?
+챗봇이 다른 질문들을 하도록 프로그램 해 보십시오. 새로운 변수에 대답을 저장 할 수 있습니까?
 
-![More questions](images/chatbot-question.png) \--- /challenge \---
+![궁금한 것이 더 있습니까?](images/chatbot-question.png) \--- /challenge \---
