@@ -4,11 +4,11 @@
 
 \--- task \---
 
-Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+अपने चैटबॉट में कोड जोड़ें ताकि जब इस पर क्लिक किया जाए, तो यह आपका नाम पूछे और फिर कहे "कितना सुंदर नाम है!"
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाए**, तो इसे आपका नाम **पूछना** चाहिए। The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
