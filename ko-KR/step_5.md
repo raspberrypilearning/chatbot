@@ -32,7 +32,7 @@
 
 `if/else` 블럭 사이에 로봇을 말하게 하는 것 말고도, 어떤 코드든 넣을 수 있습니다. 챗봇의 **모습(Costume)** 탭을 클릭하면, 로봇에게 여러가지 모습이 있는것을 볼 수 있습니다.
 
-![chatbot costumes](images/chatbot-costume-view.png)
+![챗봇의 모습들](images/chatbot-costume-view.png)
 
 \--- /task \---
 
@@ -42,7 +42,7 @@
 
 테스트하고 저장하십시오. 당신의 대답에 따라 챗봇의 얼굴이 바뀌어야 합니다.
 
-![Testing a changing costume](images/chatbot-costume-test.png)
+![변화하는 모습 테스트](images/chatbot-costume-test.png)
 
 \--- hints \--- \--- hint \--- 당신의 챗봇은 이제 대답에 따라 **모습이 바뀌어야** 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
@@ -52,11 +52,11 @@
 
 챗봇의 모습이 마지막으로 변경된 것과 동일한 상태로 유지된다는 것을 알고 계셨습니까? 이 문제를 해결할 수 있습니까?
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![벌레 모습(Costume bug)](images/chatbot-costume-bug-test.png)
 
 테스트 및 저장: 코드를 실행하고 "아니" 라고 입력해서 챗봇이 불만을 표현하도록 해보십시오. 코드를 다시 실행했을 때, 로봇은 당신의 이름을 묻기 전에 웃는 얼굴로 바뀌어야 합니다.
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![모습 수정 테스트](images/chatbot-costume-fix-test.png)
 
 \--- hints \--- \--- hint \--- **요정이 클릭 될 때**, 챗봇은 먼저 웃는 얼굴로 **모습이 바뀌어** 있어야 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
@@ -68,4 +68,4 @@
 
 로봇이 "응" 이나 "아니" 로 대답할 수 있는 다른 질문을 하도록 프로그램 해보십시오. 당신의 대답에 로봇이 반응하게 만들 수 있습니까?
 
-![screenshot](images/chatbot-joke.png) \--- /challenge \---
+![스크린샷](images/chatbot-joke.png) \--- /challenge \---
