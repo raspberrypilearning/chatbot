@@ -14,17 +14,17 @@
 
 \--- task \---
 
-이제 로봇은 단순하게 "정말 좋은 이름이구나!"라고 매번 말할거에요. 내가 대답한 이름을 이용해서 좀더 개성적으로 대답하게 바꿀 수 있나요?
+이제 챗봇은 단순하게 "정말 좋은 이름이구나!"라고 매번 대답하게 됩니다. 내가 대답한 이름을 이용해서 좀더 개성적으로 대답하게 바꿀 수 있습니까?
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- 로봇의 **스프라이트가 클릭될 때**, 당신의 이름을 **물어봐야** 합니다. 로봇은 "안녕, " 이라고 **말하고**, 당신의 **대답**을 말해야 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 챗봇** 요청이 클릭되면 **당신의 이름을 **물어봐야** 합니다. 챗봇은 당신의 **대답** 이후에 "안녕, " 이라고 **답해야** 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-이름을 **변수**에 저장하면, 나중에도 사용할 수 있습니다. `이름`이라는 새 변수를 만들어서 이름을 저장하도록 하세요.
+여러분의 이름을 **변수**에 저장하면, 나중에 사용할 수 있습니다. `이름`이라는 새 변수를 만들어서 이름을 저장합니다.
 
 [[[generic-scratch-add-variable]]]
 
@@ -32,13 +32,13 @@
 
 \--- task \---
 
-`이름` 변수에 당신의 대답을 저장하고 로봇이 대답하는데 사용할 수 있나요?
+`이름` 변수에 당신의 대답을 저장하고 챗봇이 대답하는데 그 이름을 사용하게 할 수 있습니까?
 
-코드는 이전처럼 작동해야 합니다: 당신의 이름을 사용해서 안녕, 이라고 말해야 합니다.
+코드는 이전과 같이 작동해야 합니다: 당신의 챗봇은 당신의 이름을 사용해서 인사해야 합니다.
 
 ![Testing a 'name' variable](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- 로봇의 **스프라이트가 클릭 될 때**, 당신의 이름을 **물어봐야** 합니다. 그리고나서 `이름` 변수를 **대답**으로 **정해야** 합니다. 이제 로봇은 "안녕, " 이후에 당신의 **이름**을 **말해야** 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- 챗봇**요정이 클릭 될 때** 챗봇이 당신의 이름을 **물어봐야** 합니다. 그리고나서 `이름` 변수를 **대답**으로 **정해야** 합니다. 이제 로봇은 "안녕, " 이후에 당신의 **이름**을 **말해야** 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
