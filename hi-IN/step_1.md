@@ -49,8 +49,8 @@
 
 ## चुनौतियाँ
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
++ "अधिक प्रश्न" - इनपुट और `उत्तर`{:class="blocksensing"} ब्लॉक के अध्ययन का एकत्र करना;
++ "अधिक निर्णय" - निर्णय का उपयोग करना;
 + "Make your own chatbot" - consolidation of learning from this and past projects.
 
 \--- /collapse \---
