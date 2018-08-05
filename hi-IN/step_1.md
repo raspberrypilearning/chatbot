@@ -32,15 +32,15 @@
 
 इस प्रोजेक्ट के लिए, Scratch 2 का उपयोग किया जाना चाहिए। Scratch 2 का [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) पर जाकर ऑनलाइन उपयोग किया जा सकता है या इसे [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) से डाउनलोड करके ऑफ़लाइन उपयोग किया जा सकता है।
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+आप [online](http://scratch.mit.edu/projects/26762091/#editor) इस प्रोजेक्ट का पूर्ण संस्करण पा सकते हैं, या इसे प्रोजेक्ट के लिए 'प्रोजेक्ट सामग्री' लिंक पर क्लिक करके डाउनलोड कर सकते है, जिसमे शामिल है:
 
 + ChatBot.sb2
 
-## Learning Objectives
+## अध्ययन के उद्देश्य
 
-+ Text input;
-+ Decisions: 
-    + `if ... then`{:class="blockcontrol"} statements;
++ टेक्स्ट इनपुट;
++ निर्णय 
+    + `यदि ... तो `{:class="blockcontrol"} कथन;
     + `if ... then ... else`{:class="blockcontrol"} statements.
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
