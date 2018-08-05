@@ -41,13 +41,13 @@
 + टेक्स्ट इनपुट;
 + निर्णय 
     + `यदि ... तो `{:class="blockcontrol"} कथन;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
+    + `यदि ... तो ... अन्यथा`{:class="blockcontrol"} कथन;
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+यह प्रोजेक्ट [Raspberry Pi डिजिटल निर्माण पाठ्यक्रम](http://rpf.io/curriculum) के निम्नलिखित तत्वों को पूरा करता है।
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [साधारण प्रोग्राम बनाने के लिए आधारभूत संरचनाओं का उपयोग करें।](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## चुनौतियाँ
 
 + "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
 + "More decisions" - using decisions;
