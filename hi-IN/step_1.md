@@ -30,7 +30,7 @@
 
 ## संसाधन
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+इस प्रोजेक्ट के लिए, Scratch 2 का उपयोग किया जाना चाहिए। Scratch 2 का [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) पर जाकर ऑनलाइन उपयोग किया जा सकता है या इसे [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) से डाउनलोड करके ऑफ़लाइन उपयोग किया जा सकता है।
 
 You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
 
