@@ -34,11 +34,11 @@
 
 क्या आप `name` वेरिएबल में अपना नाम संग्रह कर सकते हैं और इसका चैटबॉट के उत्तर में उपयोग कर सकते हैं?
 
-Your code should work as before: your chatbot should say hello using your name.
+आपके कोड को पहले की तरह काम करना चाहिए: आपके चैटबॉट को आपके नाम का उपयोग करके hello कहना चाहिए।
 
 ![Testing a 'name' variable](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाता है**, तो इसे आपका नाम **पूछना** चाहिए। You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
