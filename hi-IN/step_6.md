@@ -34,6 +34,6 @@
 
 ![Testing a jumping ChatBot](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should jump by **changing** its **y position** by a small amount, and then changing its position back after a short **wait**. You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- आपके चैटबॉट को थोड़ी सी मात्रा में **y स्थिति** में **परिवर्तन** करके कूदना चाहिए, और फिर छोटी **प्रतीक्षा** के बाद अपनी स्थिति में वापस आ जाना चाहिए। You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
