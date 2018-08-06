@@ -12,13 +12,13 @@
 
 \--- task \---
 
-क्या आप अपने चैटबॉट को यह पूछने के लिए कोड कर सकते हैं कि "क्या आप चंद्रमा पर जाना चाहते हैं?" और फिर यदि आपका उत्तर "yes है, तो स्थान बदल दें?
+क्या आप अपने चैटबॉट को यह पूछने के लिए कोड कर सकते हैं कि "क्या आप चंद्रमा पर जाना चाहते हैं?" और फिर यदि आपका उत्तर "हाँ है, तो स्थान बदल दें?
 
-परीक्षण करें और सहेजें। यदि आप "yes" उत्तर देते हैं, तो आपके चैटबॉट को स्थान बदलना चाहिए। कोई अन्य उत्तर देने पर आपके चैटबॉट को दुखी होकर "OK...bye!" कहना चाहिए।
+परीक्षण करें और सहेजें। यदि आप "हाँ" उत्तर देते हैं, तो आपके चैटबॉट को स्थान बदलना चाहिए। कोई अन्य उत्तर देने पर आपके चैटबॉट को दुखी होकर "ओक...बाय!" कहना चाहिए।
 
 ![Testing a changing backdrop](images/chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+\--- hints \--- \--- hint \--- आपके चैटबॉट को **पूछना** चाहिए कि "क्या आप चाँद तक जाना चाहेंगे?"। **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
 
 If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
 
