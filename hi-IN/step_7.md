@@ -1,8 +1,8 @@
 \--- challenge \---
 
-## Challenge: finish your chatbot
+## चुनौती: अपना चैटबॉट समाप्त करना
 
-Use what you've learnt to finish creating your interactive chatbot. Here are some ideas:
+अपने पारस्परिक(interactive) चैटबॉट को बनाने के लिए आपने जो सीखा है उसका प्रयोग करें। यहाँ कुछ विचार दिए गए हैं:
 
 ![ChatBot ideas](images/chatbot-ideas.png)
 
