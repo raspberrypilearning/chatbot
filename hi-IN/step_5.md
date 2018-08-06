@@ -30,42 +30,67 @@
 
 \--- task \---
 
-You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+अपने चैटबॉट को बुलवाने के लिए आप अगर/या<0> ब्लॉक के भीतर, यह कोड ही नहीं बल्कि कोई भी कोड जोड़ सकते हैं। यदि आप अपने चैटबॉट के <strong>Costume</strong> टैब पर क्लिक करें, तो आप देखेंगे कि इसमें एक से अधिक पोशाक हैं।</p>
 
-![chatbot costumes](images/chatbot-costume-view.png)
+<p><img src="images/chatbot-costume-view.png" alt="chatbot costumes" /></p>
 
-\--- /task \---
+<p>--- /task ---</p>
 
-\--- task \---
+<p>--- task ---</p>
 
-Can you change the chatbot's costume to match your response?
+<p>क्या आप चैटबॉट की पोशाक को अपने प्रत्युत्तर से मिलाने के लिए बदल सकते हैं?</p>
 
-Test and save. You should see your chatbot's face change depending on your answer.
+<p>परीक्षण करें और सहेजें। आपको अपने उत्तर के आधार पर चैटबॉट के चेहरे में बदलाव दिखना चाहिए।</p>
 
-![Testing a changing costume](images/chatbot-costume-test.png)
+<p><img src="images/chatbot-costume-test.png" alt="Testing a changing costume" /></p>
 
-\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+<p>--- hints ---
+--- hint ---
+Your chatbot should now also <strong>switch costume</strong> depending on the answer given.
+--- /hint ---
+--- hint ---
+Here are the code blocks you'll need to use:
+<img src="images/chatbot-costume-blocks.png" alt="Blocks for a changing costume" />
+--- /hint ---
+--- hint ---
+Here's how your code should look:
+<img src="images/chatbot-costume-code.png" alt="Code for a changing costume" />
+--- /hint ---
+--- /hints ---</p>
 
-\--- /task \---
+<p>--- /task ---</p>
 
-\--- task \---
+<p>--- task ---</p>
 
-Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+<p>Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?</p>
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+<p><img src="images/chatbot-costume-bug-test.png" alt="Costume bug" /></p>
 
-Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+<p>Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.</p>
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+<p><img src="images/chatbot-costume-fix-test.png" alt="Testing a costume fix" /></p>
 
-\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+<p>--- hints ---
+--- hint ---
+When the <strong>sprite is clicked</strong>, your chatbot should first <strong>switch costume</strong> to a smiling face.
+--- /hint ---
+--- hint ---
+Here's the code block you'll need to add:
+<img src="images/chatbot-costume-fix-blocks.png" alt="Blocks for a costume fix" />
+--- /hint ---
+--- hint ---
+Here's how your code should look:
+<img src="images/chatbot-costume-fix-code.png" alt="Code for a costume fix" />
+--- /hint ---
+--- /hints ---</p>
 
-\--- /task \---
+<p>--- /task ---</p>
 
-\--- challenge \---
+<p>--- challenge ---</p>
 
-## Challenge: more decisions
+<h2>Challenge: more decisions</h2>
 
-Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
+<p>Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?</p>
 
-![screenshot](images/chatbot-joke.png) \--- /challenge \---
+<p><img src="images/chatbot-joke.png" alt="screenshot" />
+--- /challenge ---</p>
