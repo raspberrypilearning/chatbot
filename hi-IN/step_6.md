@@ -28,9 +28,9 @@
 
 \--- task \---
 
-Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
+क्या आप अपने चैटबॉट में ऐसा कोड जोड़ सकते हैं कि जब आप इसे चाँद पर जाने को बताएँ तो यह ख़ुशी से कूदने लग जाए?
 
-Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+परीक्षण करें और सहेजें। यदि आप "हाँ" कहते हैं, तो आपके चैटबॉट को उपर-नीचे कूदना चाहिए। किसी अन्य उत्तर मिलने पर आपके चैटबॉट को उपर-नीचे कूदना नहीं चाहिए।
 
 ![Testing a jumping ChatBot](images/chatbot-jump-test.png)
 
