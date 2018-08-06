@@ -1,4 +1,4 @@
-## Step 3: Making decisions
+## चरण 3: निर्णय लेना
 
 You can program your chatbot to decide what to say or do based on your responses to its questions.
 
