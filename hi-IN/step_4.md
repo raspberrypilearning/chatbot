@@ -6,7 +6,7 @@
 
 अपने चैटबॉट में कोड जोड़ें ताकि जब इस पर क्लिक किया जाए, तो यह आपका नाम पूछे और फिर कहे "कितना सुंदर नाम है!"
 
-![Testing a ChatBot response](images/chatbot-ask-test.png)
+![चैटबॉट प्रतिक्रिया का परीक्षण करना](images/chatbot-ask-test.png)
 
 \--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाता है**, तो इसे आपका नाम **पूछना** चाहिए। चैटबॉट को तब कहना चाहिए "What a lovely name!" \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड कुछ इस प्रकार दिखाई देना चाहिए ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
@@ -16,7 +16,7 @@
 
 अब चैटबॉट हर बार "What a lovely name!" उत्तर देता है। क्या आप अपने उत्तर का उपयोग करके अपने चैटबॉट के जवाब को निजीकृत कर सकते हैं?
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![निजीकृत उत्तर का परीक्षण करना](images/chatbot-answer-test.png)
 
 \--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाता है**, तो इसे आपका नाम **पूछना** चाहिए। फिर चैटबॉट को "Hi" **कहना** चाहिए, और इसके बाद आपका **उत्तर** बोलना चाहिए। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
@@ -36,7 +36,7 @@
 
 आपके कोड को पहले की तरह काम करना चाहिए: आपके चैटबॉट को आपके नाम का उपयोग करके hello कहना चाहिए।
 
-![Testing a 'name' variable](images/chatbot-ask-test.png)
+!['name' वेरिएबल का परीक्षण करना](images/chatbot-ask-test.png)
 
 \--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाता है**, तो इसे आपका नाम **पूछना** चाहिए। इसके बाद आपको अपने **उत्तर** को `name` वेरिएबल पर **सेट** करना चाहिए। फिर चैटबॉट को "Hi" **कहना** चाहिए, और इसके बाद आपका **नाम** बोलना चाहिए। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
@@ -46,6 +46,6 @@
 
 ## चुनौती: अधिक प्रश्न
 
-Program your chatbot to ask another question. Can you store the answer in a new variable?
+अन्य प्रश्न पूछने के लिए चैटबॉट को प्रोग्राम करें। क्या आप नए वेरिएबल में उत्तर संग्रह कर सकते हैं?
 
-![More questions](images/chatbot-question.png) \--- /challenge \---
+![अधिक प्रश्न](images/chatbot-question.png) \--- /challenge \---
