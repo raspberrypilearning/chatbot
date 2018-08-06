@@ -4,6 +4,6 @@
 
 अपने पारस्परिक(interactive) चैटबॉट को बनाने के लिए आपने जो सीखा है उसका प्रयोग करें। यहाँ कुछ विचार दिए गए हैं:
 
-![ChatBot ideas](images/chatbot-ideas.png)
+![चैटबॉट विचार](images/chatbot-ideas.png)
 
-Once you've finished making your chatbot, get your friends to have a conversation with it! Do they like your character? Did they spot any problems? \--- /challenge \---
+एक बार जब आप अपना चैटबॉट बनाना समाप्त कर लेंगे, अपने मित्रों को इससे बातचीत करने के लिए बुलाएं! क्या उन्हें आपका कैरेक्टर(character) पसंद है? क्या उन्हें कोई समस्या देखी? \--- /challenge \---
