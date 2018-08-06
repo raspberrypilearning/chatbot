@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
+क्या आप चैटबॉट को "Are you OK?" पूछने के लिए तैयार कर सकते हैं, और उत्तर "That's great to hear!" बोलने के लिए कोड कर सकते हैं, **यदि** उपयोगकर्ता का उत्तर केवल "हाँ" हो?
 
 To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
 
