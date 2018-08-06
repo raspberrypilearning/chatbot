@@ -10,7 +10,7 @@
 
 अगर आपका उत्तर "yes" है, तो आपके चैटबॉट को "That's great to hear!" जवाब देना चाहिए, परन्तु यदि आप "no" उत्तर देते हैं, तो इसे कुछ नहीं कहना चाहिए।
 
-![Testing a chatbot reply](images/chatbot-if-test.png)
+![चैटबॉट प्रत्युत्तर का परीक्षण करना](images/chatbot-if-test.png)
 
 \--- hints \--- \--- hint \--- आपके चॅटबोट द्वारा "Hi" कहने के बाद, उसे अब "Are you OK?" भी **पूछना** चाहिए। **अगर** आपका उत्तर "yes" है, तो चॅटबोट को "That's great to hear!" **कहना** चाहिए। \--- /hint \--- \--- hint \--- ये वे अतिरिक्त कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
@@ -22,7 +22,7 @@
 
 परीक्षण करें और सहेजें। यदि आप "no" उत्तर देते हैं, तो आपके चैटबॉट को "Oh no" कहना चाहिए। असल में, यदि आप "yes" के अलावा कोई अन्य उत्तर देते हैं, तो यह कहेगा "Oh no!" (`अगर/या` ब्लॉक में **वरना** का अर्थ **अन्यथा**होता है)।
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![हाँ/नहीं जवाब परीक्षण](images/chatbot-if-else-test.png)
 
 \--- hints \--- \--- hint \--- **यदि** आपका उत्तर "yes" है तो आपके चैटबॉट को अब "That's great to hear!" कहना चाहिए, लेकिन अगर आप कुछ **और** जवाब देते हैं तो इसे "Oh no!" कहना चाहिए। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
@@ -32,7 +32,7 @@
 
 अपने चैटबॉट को बुलवाने के लिए आप अगर/या<0> ब्लॉक के भीतर, यह कोड ही नहीं बल्कि कोई भी कोड जोड़ सकते हैं। यदि आप अपने चैटबॉट के <strong>Costume</strong> टैब पर क्लिक करें, तो आप देखेंगे कि इसमें एक से अधिक पोशाक हैं।</p>
 
-<p><img src="images/chatbot-costume-view.png" alt="chatbot costumes" /></p>
+<p><img src="images/chatbot-costume-view.png" alt="चैटबॉट पोशाक" /></p>
 
 <p>--- /task ---</p>
 
@@ -42,7 +42,7 @@
 
 <p>परीक्षण करें और सहेजें। आपको अपने उत्तर के आधार पर चैटबॉट के चेहरे में बदलाव दिखना चाहिए।</p>
 
-<p><img src="images/chatbot-costume-test.png" alt="Testing a changing costume" /></p>
+<p><img src="images/chatbot-costume-test.png" alt="पोशाक बदलने का परीक्षण" /></p>
 
 <p>--- hints --- 
 --- hint --- 
@@ -64,7 +64,7 @@
 
 <p>क्या आपने देखा है कि आपके चैटबॉट की पोशाक वैसे ही रहती है जैसे आपने पिछली बार बात की थी? क्या आप इस समस्या को ठीक कर सकते हैं?</p>
 
-<p><img src="images/chatbot-costume-bug-test.png" alt="Costume bug" /></p>
+<p><img src="images/chatbot-costume-bug-test.png" alt="पोशाक बग" /></p>
 
 <p>परीक्षण करें और सहेजें: अपना कोड रन(run) करें और "no" टाइप करें, ताकि आपका चैटबॉट नाखुश दिखाई दे। जब आप अपना कोड पुनः रन करते हैं, तो आपके चैटबॉट को आपका नाम पूछने से पहले फिर से खुशनुमा चेहरे में बदल जाना चाहिए।</p>
 
@@ -88,9 +88,9 @@
 
 <p>--- challenge ---</p>
 
-<h2>Challenge: more decisions</h2>
+<h2>चुनौती: अधिक निर्णय</h2>
 
-<p>Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?</p>
+<p>अपने चैटबॉट को एक और प्रश्न पूछने के लिए कोड करें - "yes" या "no" उत्तर वाला कुछ। क्या आप चैटबॉट को ऐसा कर सकते हैं कि आपके उत्तर पर प्रत्युत्तर दे?</p>
 
 <p><img src="images/chatbot-joke.png" alt="screenshot" />
 --- /challenge ---</p>
