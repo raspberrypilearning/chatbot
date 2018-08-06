@@ -1,6 +1,6 @@
 ## चरण 3: निर्णय लेना
 
-You can program your chatbot to decide what to say or do based on your responses to its questions.
+आप अपने चैटबॉट को अपने प्रश्नों के उत्तर के आधार पर क्या कहना है या क्या करना है यह तय करने के लिए प्रोग्राम कर सकते हैं।
 
 \--- task \---
 
