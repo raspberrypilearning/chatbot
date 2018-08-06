@@ -14,7 +14,7 @@
 
 क्या आप अपने चैटबॉट को यह पूछने के लिए कोड कर सकते हैं कि "क्या आप चंद्रमा पर जाना चाहते हैं?" और फिर यदि आपका उत्तर "yes है, तो स्थान बदल दें?
 
-Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+परीक्षण करें और सहेजें। यदि आप "yes" उत्तर देते हैं, तो आपके चैटबॉट को स्थान बदलना चाहिए। कोई अन्य उत्तर देने पर आपके चैटबॉट को दुखी होकर "OK...bye!" कहना चाहिए।
 
 ![Testing a changing backdrop](images/chatbot-backdrop-test.png)
 
