@@ -66,20 +66,20 @@
 
 <p><img src="images/chatbot-costume-bug-test.png" alt="Costume bug" /></p>
 
-<p>Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.</p>
+<p>परीक्षण करें और सहेजें: अपना कोड रन(run) करें और "no" टाइप करें, ताकि आपका चैटबॉट नाखुश दिखाई दे। जब आप अपना कोड पुनः रन करते हैं, तो आपके चैटबॉट को आपका नाम पूछने से पहले फिर से खुशनुमा चेहरे में बदल जाना चाहिए।</p>
 
 <p><img src="images/chatbot-costume-fix-test.png" alt="Testing a costume fix" /></p>
 
-<p>--- hints ---
---- hint ---
-When the <strong>sprite is clicked</strong>, your chatbot should first <strong>switch costume</strong> to a smiling face.
+<p>--- hints --- 
+--- hint --- 
+जब <strong>स्प्राइट पर क्लिक</strong> किया जाता है, तो आपके चैटबॉट को पहले खुशनुमा चेहरे की <strong>पोशाक में बदल</strong> जाना चाहिए।
 --- /hint ---
 --- hint ---
-Here's the code block you'll need to add:
+ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: 
 <img src="images/chatbot-costume-fix-blocks.png" alt="Blocks for a costume fix" />
 --- /hint ---
 --- hint ---
-Here's how your code should look:
+आपका कोड इस प्रकार दखाई देगा:
 <img src="images/chatbot-costume-fix-code.png" alt="Code for a costume fix" />
 --- /hint ---
 --- /hints ---</p>
