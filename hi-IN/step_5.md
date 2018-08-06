@@ -44,16 +44,16 @@
 
 <p><img src="images/chatbot-costume-test.png" alt="Testing a changing costume" /></p>
 
-<p>--- hints ---
---- hint ---
-Your chatbot should now also <strong>switch costume</strong> depending on the answer given.
+<p>--- hints --- 
+--- hint --- 
+दिए गए उत्तर के आधार पर आपके चैटबॉट को अब <strong>पोशाक भी बदलनी<0> चाहिए।
 --- /hint ---
 --- hint ---
-Here are the code blocks you'll need to use:
+ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: 
 <img src="images/chatbot-costume-blocks.png" alt="Blocks for a changing costume" />
 --- /hint ---
 --- hint ---
-Here's how your code should look:
+आपका कोड इस प्रकार दखाई देगा:
 <img src="images/chatbot-costume-code.png" alt="Code for a changing costume" />
 --- /hint ---
 --- /hints ---</p>
@@ -62,7 +62,7 @@ Here's how your code should look:
 
 <p>--- task ---</p>
 
-<p>Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?</p>
+<p>क्या आपने देखा है कि आपके चैटबॉट की पोशाक वैसे ही रहती है जैसे आपने पिछली बार बात की थी? क्या आप इस समस्या को ठीक कर सकते हैं?</p>
 
 <p><img src="images/chatbot-costume-bug-test.png" alt="Costume bug" /></p>
 
