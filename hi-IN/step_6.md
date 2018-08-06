@@ -6,7 +6,7 @@
 
 अपने चरण में एक और पृष्ठभूमि(backdrop) जोड़ें, उदाहरण के लिए 'चंद्रमा' पृष्ठभूमि।
 
-![Adding a 'moon' backdrop](images/chatbot-moon.png)
+!['चंद्रमा' पृष्ठभूमि जोड़ना](images/chatbot-moon.png)
 
 \--- /task \---
 
@@ -16,7 +16,7 @@
 
 परीक्षण करें और सहेजें। यदि आप "हाँ" उत्तर देते हैं, तो आपके चैटबॉट को स्थान बदलना चाहिए। कोई अन्य उत्तर देने पर आपके चैटबॉट को दुखी होकर "ओक...बाय!" कहना चाहिए।
 
-![Testing a changing backdrop](images/chatbot-backdrop-test.png)
+![पृष्ठभूमि बदलने का परीक्षण करना](images/chatbot-backdrop-test.png)
 
 \--- hints \--- \--- hint \--- आपके चैटबॉट को **पूछना** चाहिए कि "क्या आप चाँद तक जाना चाहेंगे?"। **अगर** आपका उत्तर "हाँ" है, तो आपके चैटबॉट को खुश दिखने के लिए **पोशाक बदलनी** चाहिए और स्टेज **पृष्ठभूमि** बदलनी चाहिए।
 
@@ -32,8 +32,8 @@
 
 परीक्षण करें और सहेजें। यदि आप "हाँ" कहते हैं, तो आपके चैटबॉट को उपर-नीचे कूदना चाहिए। किसी अन्य उत्तर मिलने पर आपके चैटबॉट को उपर-नीचे कूदना नहीं चाहिए।
 
-![Testing a jumping ChatBot](images/chatbot-jump-test.png)
+![कूदते चैटबॉट का परीक्षण करना](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- आपके चैटबॉट को थोड़ी सी मात्रा में **y स्थिति** में **परिवर्तन** करके कूदना चाहिए, और फिर छोटी **प्रतीक्षा** के बाद अपनी स्थिति में वापस आ जाना चाहिए। You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- आपके चैटबॉट को थोड़ी सी मात्रा में **y स्थिति** में **परिवर्तन** करके कूदना चाहिए, और फिर छोटी **प्रतीक्षा** के बाद अपनी स्थिति में वापस आ जाना चाहिए। आप इसे कुछ बार **दोहराना** चाह सकते हैं। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
