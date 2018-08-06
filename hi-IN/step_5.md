@@ -22,7 +22,7 @@
 
 परीक्षण करें और सहेजें। यदि आप "no" उत्तर देते हैं, तो आपके चैटबॉट को "Oh no" कहना चाहिए। असल में, यदि आप "yes" के अलावा कोई अन्य उत्तर देते हैं, तो यह कहेगा "Oh no!" (`अगर/या` ब्लॉक में **वरना** का अर्थ **अन्यथा**होता है)।
 
-![हाँ/नहीं जवाब परीक्षण](images/chatbot-if-else-test.png)
+![हाँ/नहीं जवाब परीक्षण करना](images/chatbot-if-else-test.png)
 
 \--- hints \--- \--- hint \--- **यदि** आपका उत्तर "yes" है तो आपके चैटबॉट को अब "That's great to hear!" कहना चाहिए, लेकिन अगर आप कुछ **और** जवाब देते हैं तो इसे "Oh no!" कहना चाहिए। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
@@ -42,7 +42,7 @@
 
 <p>परीक्षण करें और सहेजें। आपको अपने उत्तर के आधार पर चैटबॉट के चेहरे में बदलाव दिखना चाहिए।</p>
 
-<p><img src="images/chatbot-costume-test.png" alt="पोशाक बदलने का परीक्षण" /></p>
+<p><img src="images/chatbot-costume-test.png" alt="पोशाक बदलने का परीक्षण करना" /></p>
 
 <p>--- hints --- 
 --- hint --- 
@@ -64,11 +64,11 @@
 
 <p>क्या आपने देखा है कि आपके चैटबॉट की पोशाक वैसे ही रहती है जैसे आपने पिछली बार बात की थी? क्या आप इस समस्या को ठीक कर सकते हैं?</p>
 
-<p><img src="images/chatbot-costume-bug-test.png" alt="पोशाक बग" /></p>
+<p><img src="images/chatbot-costume-bug-test.png" alt="पोशाक बग(bug)" /></p>
 
 <p>परीक्षण करें और सहेजें: अपना कोड रन(run) करें और "no" टाइप करें, ताकि आपका चैटबॉट नाखुश दिखाई दे। जब आप अपना कोड पुनः रन करते हैं, तो आपके चैटबॉट को आपका नाम पूछने से पहले फिर से खुशनुमा चेहरे में बदल जाना चाहिए।</p>
 
-<p><img src="images/chatbot-costume-fix-test.png" alt="Testing a costume fix" /></p>
+<p><img src="images/chatbot-costume-fix-test.png" alt="पोशाक फिक्स(fix) का परीक्षण करना" /></p>
 
 <p>--- hints --- 
 --- hint --- 
@@ -92,5 +92,5 @@
 
 <p>अपने चैटबॉट को एक और प्रश्न पूछने के लिए कोड करें - "yes" या "no" उत्तर वाला कुछ। क्या आप चैटबॉट को ऐसा कर सकते हैं कि आपके उत्तर पर प्रत्युत्तर दे?</p>
 
-<p><img src="images/chatbot-joke.png" alt="screenshot" />
+<p><img src="images/chatbot-joke.png" alt="स्क्रीनशॉट" />
 --- /challenge ---</p>
