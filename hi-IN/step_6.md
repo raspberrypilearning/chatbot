@@ -18,11 +18,11 @@
 
 ![Testing a changing backdrop](images/chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- आपके चैटबॉट को **पूछना** चाहिए कि "क्या आप चाँद तक जाना चाहेंगे?"। **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+\--- hints \--- \--- hint \--- आपके चैटबॉट को **पूछना** चाहिए कि "क्या आप चाँद तक जाना चाहेंगे?"। **अगर** आपका उत्तर "हाँ" है, तो आपके चैटबॉट को खुश दिखने के लिए **पोशाक बदलनी** चाहिए और स्टेज **पृष्ठभूमि** बदलनी चाहिए।
 
-If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
+यदि आपका उत्तर "नहीं" है, तो चैटबॉट को दुखी दिखाई देने के लिए **पोशाक बदलनी** होगी और **कहना** होगा "ओक...बाय!"
 
-You'll also need to add code to start your chatbot in the right place **when clicked**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
+**क्लिक किए जाने पर** आपको चैटबॉट को सही स्थान पर आरम्भ करने के लिए भी कोड जोड़ना होगा। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
