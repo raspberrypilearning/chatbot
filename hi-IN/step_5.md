@@ -6,9 +6,9 @@
 
 क्या आप चैटबॉट को "Are you OK?" पूछने के लिए तैयार कर सकते हैं, और उत्तर "That's great to hear!" बोलने के लिए कोड कर सकते हैं, **यदि** उपयोगकर्ता का उत्तर केवल "हाँ" हो?
 
-To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
+अपने नए कोड को ठीक से जांचने के लिए, आपको इसको **दो बार** जांचना चाहिए।एक बार "yes" और एक बार "no" के साथ।
 
-Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
+यदि आपका उत्तर "yes" है, तो आपके चैटबॉट को "That's great to hear!" जवाब देना चाहिए, परन्तु यदि आप "no" उत्तर देते हैं, तो इसे कुछ नहीं कहना चाहिए।
 
 ![Testing a chatbot reply](images/chatbot-if-test.png)
 
