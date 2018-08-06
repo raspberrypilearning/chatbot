@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Add another backdrop to your Stage, for example the 'moon' backdrop.
+अपने चरण में एक और पृष्ठभूमि(backdrop) जोड़ें, उदाहरण के लिए 'चंद्रमा' पृष्ठभूमि।
 
 ![Adding a 'moon' backdrop](images/chatbot-moon.png)
 
@@ -12,7 +12,7 @@ Add another backdrop to your Stage, for example the 'moon' backdrop.
 
 \--- task \---
 
-Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
+क्या आप अपने चैटबॉट को यह पूछने के लिए कोड कर सकते हैं कि "क्या आप चंद्रमा पर जाना चाहते हैं?" और फिर यदि आपका उत्तर "yes है, तो स्थान बदल दें?
 
 Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
 
