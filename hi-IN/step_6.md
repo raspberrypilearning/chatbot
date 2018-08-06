@@ -1,6 +1,6 @@
-## Changing location
+## स्थान बदलना
 
-You can also code your chatbot to change its location.
+आप अपने चैटबॉट को अपना स्थान बदलने के लिए भी कोड कर सकते हैं।
 
 \--- task \---
 
