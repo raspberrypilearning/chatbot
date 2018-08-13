@@ -1,7 +1,7 @@
 ---
 title: Chatbot
 hero_image: images/chatbot.png
-description: Learn how to program your own talking robot!
+description: Nu skal du lære hvordan du programmerer din egen talende robot!
 original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
 duration: 2
@@ -19,7 +19,7 @@ version: 4.1.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Introduction
+    title: ChatBot
   - 
     title: What you will need
   - 
