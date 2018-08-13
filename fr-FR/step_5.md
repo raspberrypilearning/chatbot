@@ -12,7 +12,7 @@ Votre chatbot devrait répondre "Je suis content de l'entendre!" si vous répond
 
 ![Tester une reponse du ChatBot](images/chatbot-if-test.png)
 
-\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". ** Si ** vous répondez "oui", alors le chatbot devrait ** dire ** "C'est bon à entendre!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+\--- astuces \--- \--- indice \--- Après que votre chatbot a dit "Salut", il devrait maintenant aussi pouvoir demander** "Ça va?"** . ** Si ** vous répondez "oui", alors le chatbot devrait ** dire ** "C'est bon à entendre!". \--- / indice \--- \--- indice \--- Voici les blocs de code supplémentaires dont vous aurez besoin: <0 /> \--- / indice \--- \--- indice \--- Voici à quoi devrait ressembler votre code: <1 /> \--- / indice \--- \--- / astuces \---
 
 \--- /task \---
 
@@ -24,7 +24,7 @@ Tester et enregistrer. Votre chatbot devrait maintenant dire "Oh non!" si vous r
 
 ![Tester une reponse du ChatBot](images/chatbot-if-else-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+\--- hint \--- \--- hint \--- Votre chatbot devrait maintenant dire **"C'est bon de l'entendre!" ** si votre réponse est "oui", mais devrait dire "Oh non!" si vous répondez à autre chose ** ** . \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -44,7 +44,7 @@ Testez et enregistrez. Vous devriez voir le visage de votre chatbot changer en f
 
 ![Tester un costume changeant](images/chatbot-costume-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Votre chatbot devrait maintenant ** changer de costume ** en fonction de la réponse donnée. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -59,7 +59,7 @@ Testez et enregistrez: exécutez votre code et tapez "non", afin que votre chatb
 
 ![Test d'une correction de costume](images/chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Quand le sprite ** est cliqué ** , votre chatbot doit d'abord ** changer de costume ** à un visage souriant. \--- /hint \--- \--- hint \--- Voici les blocs de code dont tu auras besoin: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Ton code devrait ressembler à ceci: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
