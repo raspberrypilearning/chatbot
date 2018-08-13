@@ -39,7 +39,7 @@
 ## 학습 목표
 
 + 텍스트 입력
-+ 결정들: 
++ 결정문들: 
     + `if ... then` {: class = "blockcontrol"} 구문
     + `if ... then ... else` {: class = "blockcontrol"} 구문
 
