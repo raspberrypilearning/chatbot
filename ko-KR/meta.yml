@@ -3,7 +3,7 @@ title: 챗봇
 hero_image: images/chatbot.png
 description: 자신만의 말하는 로봇을 프로그래밍 하는 방법에 대해 배워보세요!
 original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
-theme: 보라색
+theme: violet
 duration: 2
 listed: true
 ingredient: false
@@ -11,7 +11,7 @@ copyedit: true
 curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 interests: ''
 technology: 스크래치
-site_areas: 프로젝트
+site_areas: projects
 technologies: 스크래치
 hardware: ''
 software: 스크래치
