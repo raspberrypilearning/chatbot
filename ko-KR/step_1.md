@@ -18,7 +18,7 @@
 
 ### 교육자들을 위한 추가 정보
 
-이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/chatbot/print)을 사용하십시오.
+이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/ko-KR/projects/chatbot/print)을 사용하십시오.
 
 --- collapse ---
 ---
@@ -53,7 +53,7 @@ title: 교육자 노트
 + "더 많은 결정" - 결정문 사용 해 보기
 + "자신만의 챗봇 만들기" - 이 프로젝트와 과거 프로젝트의 학습을 통합합니다.
 
--- /collapse ---
+--- /collapse ---
 
 --- collapse ---
 ---
@@ -64,4 +64,4 @@ title: 프로젝트 자료
 + [다운로드 가능한 스크래치 2 프로젝트 완성본 ](resources/ChatBot.sb2)
 + [온라인 스크래치 2 프로젝트 완성본](http://scratch.mit.edu/projects/239023644/#editor)
 
---- / collapse ---
+--- /collapse ---
