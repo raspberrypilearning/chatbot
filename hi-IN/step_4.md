@@ -4,11 +4,11 @@
 
 \--- task \---
 
-अपने चैटबॉट में कोड जोड़ें ताकि जब इस पर क्लिक किया जाए, तो यह आपका नाम पूछे और फिर कहे "कितना सुंदर नाम है!"
+अपने चैटबॉट में कोड जोड़ें ताकि जब इस पर क्लिक किया जाए, तो यह आपका नाम पूछे और फिर कहे "What a lovely name!"
 
 ![चैटबॉट प्रतिक्रिया का परीक्षण करना](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाता है**, तो इसे आपका नाम **पूछना** चाहिए। चैटबॉट को तब कहना चाहिए "What a lovely name!" \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड कुछ इस प्रकार दिखाई देना चाहिए ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाए**, तो इसे आपका नाम **पूछना** चाहिए। चैटबॉट को तब कहना चाहिए "What a lovely name!" \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड कुछ इस प्रकार दिखाई देना चाहिए ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -18,7 +18,7 @@
 
 ![निजीकृत उत्तर का परीक्षण करना](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाता है**, तो इसे आपका नाम **पूछना** चाहिए। फिर चैटबॉट को "Hi" **कहना** चाहिए, और इसके बाद आपका **उत्तर** बोलना चाहिए। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाए**, तो इसे आपका नाम **पूछना** चाहिए। फिर चैटबॉट को "Hi" **कहना** चाहिए, और इसके बाद आपका **उत्तर** बोलना चाहिए। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
@@ -38,7 +38,7 @@
 
 !['name' वेरिएबल का परीक्षण करना](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाता है**, तो इसे आपका नाम **पूछना** चाहिए। इसके बाद आपको अपने **उत्तर** को `name` वेरिएबल पर **सेट** करना चाहिए। फिर चैटबॉट को "Hi" **कहना** चाहिए, और इसके बाद आपका **नाम** बोलना चाहिए। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाए**, तो इसे आपका नाम **पूछना** चाहिए। इसके बाद आपको अपने **उत्तर** को `name` वेरिएबल पर **सेट** करना चाहिए। फिर चैटबॉट को "Hi" **कहना** चाहिए, और इसके बाद आपका **नाम** बोलना चाहिए। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
