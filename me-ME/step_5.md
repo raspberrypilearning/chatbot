@@ -44,7 +44,7 @@ Isprobaj i sačuvaj. Trebalo bi da vidiš da se lice tvog robota mijenja zavisno
 
 ![Isprobavanje promjene kostima](images/chatbot-costume-test.png)
 
-Tvoj robot sada, takođe, treba da **promijeni kostim** (switch costume) zavisno od odgovora koji mu je dat. --- /hint --- --- hint --- Ovdje su blokovi kôda koji će ti biti potrebni: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) --- /hint --- --- hint --- Ovako bi trebalo da izgleda tvoj kôd: ![Code for a changing costume](images/chatbot-costume-code.png) --- /hint --- --- /hints ---
+Tvoj robot sada, takođe, treba da **promijeni kostim** (switch costume) zavisno od odgovora koji mu je dat. --- hints --- --- hint --- Ovdje su blokovi kôda koji će ti biti potrebni: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) --- /hint --- --- hint --- Ovako bi trebalo da izgleda tvoj kôd: ![Code for a changing costume](images/chatbot-costume-code.png) --- /hint --- --- /hints ---
 
 --- /task ---
 
