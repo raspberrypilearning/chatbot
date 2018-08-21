@@ -8,7 +8,7 @@ Kendi konuşan robotunuzu nasıl programlayacağınızı öğreneceksiniz!
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Yeşil bayrağı tıklayın ve ardından bir konuşma başlatmak için chatbot'u tıklayın. Chatbot bir soru sorduğunda, cevabınızı Sahne Alanı'nın altındaki kutuya yazın ve tıklamayı tıklayın (veya `Enter`basın).
+Yeşil bayrağa tıklayın ve ardından bir konuşma başlatmak için chatbot'un üstüne tıklayın. Chatbot bir soru sorduğunda, cevabınızı Sahnenin altındaki kutuya yazın ve tike tıklayın (veya `Enter'a`basın).
 
 ### Ne öğreneceksin
 
@@ -18,9 +18,9 @@ Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum)aşa
 
 ### Kulüp liderleri için ek bilgi
 
-Bu projeyi yazdırmanız gerekiyorsa, lütfen [Yazıcı dostu sürüm](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Bu projeyi yazdırmanız gerekiyorsa, [yazıcı dostu sürümü](https://projects.raspberrypi.org/en/projects/chatbot/print) kullanabilirsiniz.
 
-## \--- çöküş \---
+## \---collapse\---
 
 ## Başlık: Kulüp lideri notları
 
@@ -28,18 +28,18 @@ Bu projeyi yazdırmanız gerekiyorsa, lütfen [Yazıcı dostu sürüm](https://p
 
 Bu projede, çocuklar programlarında karar vermek için 'if' ifadelerinin nasıl kullanılacağını öğrenecekler.
 
-## kaynaklar
+## Kaynaklar
 
 Bu proje için Scratch 2 kullanılmalıdır. Scratch 2, [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) adresinde çevrimiçi olarak kullanılabilir veya [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) adresinden indirilebilir ve çevrimdışı olarak kullanılabilir.
 
-Bu projenin tamamlanmış bir sürümünü bulabilirsiniz [Online](http://scratch.mit.edu/projects/26762091/#editor)veya içerdiği bu proje için 'Proje Materials' bağlantısını tıklayarak indirilebilir:
+Bu projenin tamamlanmış bir sürümünü [Online](http://scratch.mit.edu/projects/26762091/#editor) 'Proje Materials' bağlantısını tıklayarak indirilebilirsiniz:
 
 + ChatBot.sb2
 
 ## Öğrenme hedefleri
 
 + Metin girişi
-+ kararlar: 
++ Kararlar: 
     + `ise ... o zaman`{: class = "blockcontrol"} ifadeleri;
     + `ise ... sonra ... else`{: class = "blockcontrol"} ifadeleri.
 
@@ -47,21 +47,21 @@ Bu proje, [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum)aşa
 
 + [Basit programlar oluşturmak için temel programlama yapılarını kullanın.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Zorluklar
+## Meydan Okumalar
 
 + "Daha fazla soru" - girdinin öğrenimini sağlamlaştırmak ve `cevap`{: class = "blockensing"} bloğu;
 + "Daha fazla karar" - kararları kullanarak;
 + "Kendi chatbotunuzu yapın" - bu ve geçmiş projelerde öğrenmenin birleştirilmesi.
 
-\--- /çöküş \---
+\--- /collapse \---
 
-## \--- çöküş \---
+## \--- collapse \---
 
-## Başlık: Proje materyalleri
+## title: Proje materyalleri
 
 ## Kulüp lideri kaynakları
 
-+ [İndirilebilir Scratch 2 projesi tamamlandı](resources/ChatBot.sb2)
-+ [Çevrimiçi Scratch 2 projesini tamamladı](http://scratch.mit.edu/projects/26762091/#editor)
++ [İndirilebilir tamamlanmış Scrach2 Projesi](resources/ChatBot.sb2)
++ [Çevrimiçi Scratch 2 tamamlanmış projesi](http://scratch.mit.edu/projects/26762091/#editor)
 
-\--- /çöküş \---
+\--- /collapse \---
