@@ -1,4 +1,4 @@
-## Korak 3: Donošenje odluka
+## Donošenje odluka
 
 Možeš da programiraš svog robota da odluči šta će da kaže ili uradi na osnovu tvojih odgovora na pitanja koje je postavio.
 
@@ -58,7 +58,7 @@ Isprobaj i sačuvaj: Pokreni svoj kôd i upiši "ne", tako da tvoj robot izgleda
 
 ![Isprobavanje ispravke kostima](images/chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- Kada se **klikne na lik** (sprite is clicked), tvoj robot prvo treba da **promijeni kostim** (switch costume) u nasmijano lice. \--- /hint \--- \--- hint \--- Ovdje je blok kôda koji treba da dodaš: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Kada je **kliknuto na lik** (sprite is clicked), tvoj robot prvo treba da **promijeni kostim** (switch costume) u nasmijano lice. \--- /hint \--- \--- hint \--- Ovdje je blok kôda koji treba da dodaš: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
