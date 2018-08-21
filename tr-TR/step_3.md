@@ -1,46 +1,46 @@
 ## Chatbot’unuz
 
-\--- görev \---
+\--- task \---
 
-Chatbot'unuzu yapmaya başlamadan önce, kişiliğine karar vermelisiniz. **Aşağıdaki soruları düşünün**:
+Chatbot'unuzu yapmaya başlamadan önce, kişiliğine karar vermelisiniz. **Aşağıdaki soruları kendinize sorun.**:
 
-    + Adları nedir? + Nerede yaşıyorlar? + Mutlular mı? Ciddi? Komik? Utangaç? Arkadaş canlısı?
+    + Adı ne olacak? + Nerede yaşayacak? + Mutlu mu olacak? Ciddi mi? Komik mi? Utangaç mı? Arkadaş canlısı mı?
     
 
-\--- /görev \---
+\--- /task \---
 
-\--- görev \---
+\--- task \---
 
 Yeni boş bir Scratch projesi açın.
 
 [[[generic-scratch-new-project]]]
 
-\--- /görev \---
+\--- /task \---
 
-\--- görev \---
+\--- task \---
 
-Bu karakter spritelarından birini seçin ve bunları projenize ekleyin:
+Bu kuklalardan birini seçin ve projenize ekleyin:
 
-![Bir karakter seç](images/chatbot-characters.png)
+![Bir karakter seçin](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
-\--- /görev \---
+\--- /task \---
 
-\--- görev \---
+\--- task \---
 
-Chatbot kişiliğinize uyan bir fon seçin. İşte bir örnek, sizinki gibi görünmek zorunda değilsiniz:
+Chatbot kişiliğinize uyan bir arkaplan seçin. İşte bir örnek, siz aynı arkaplanı seçmek zorunda değilsiniz:
 
-![Bir arka plan seç](images/chatbot-backdrop.png)
+![Bir arkaplan seçin](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
-\--- /görev \---
+\--- /task \---
 
-\--- görev \---
+\--- task \---
 
 Projenizi kaydedin.
 
 [[[generic-scratch-saving]]]
 
-\--- /görev \---
+\--- /task \---
