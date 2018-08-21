@@ -32,7 +32,7 @@ U ovom projektu djeca će naučiti kako da koriste naredbe 'if' ('ako') za dono�
 
 Za ovaj projekat koristite Scratch 2. Scratch 2 možete koristiti online na [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ili ga preuzeti sa [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) i koristiti offline.
 
-Završenu verziju projekta možete naći [online](http://scratch.mit.edu/projects/26762091/#editor) ili preuzeti klikom na link ‘Project Materials’, koji sadrži:
+Završenu verziju projekta možete naći [online](http://scratch.mit.edu/projects/26762091/#editor) ili preuzeti klikom na link 'Project Materials', koji sadrži:
 
 + ChatBot.sb2
 
