@@ -32,13 +32,13 @@ Eğer cevabınızı bir **değişkende** saklarsamız sonra kullanılabilir. İs
 
 \--- task \---
 
-Cevabınızı `isim` değişkeninde saklayabilir ve sohbet arabanızın cevabında kullanabilir misiniz?
+Cevabınızı `isim` değişkeninde saklayıp Chatbotunuzun cevep verirken bu değişkeni kullanmasını sağlayabilir misin?
 
-Kodunuz daha önce olduğu gibi çalışmalıdır: chatbot adınızı kullanarak merhaba demelisiniz.
+Kodunuz daha önce olduğu gibi çalışmalıdır, Chatbot sizin isminizi kullanarak merhaba diyecektik.
 
 ![Bir 'isim' değişkeni testi](images/chatbot-ask-test.png)
 
-Chatbot zaman \--- ipuçları \--- \--- ipucu \--- **sprite tıklandığında**, olması gerektiği **sormak** adınızı arayın. Ardından gerektiğini **set** `ad` senin için değişken **cevap**. Chatbot **sonra** "Merhaba", ardından **adınızı**yazmalıdır. \--- / ipucu \--- \--- ipucu \--- İhtiyacınız olacak kod blokları: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- / ipucu \--- \--- ipucu \--- İşte kodunuzun nasıl göründüğü: ![Code for a 'name' variable](images/chatbot-variable-code.png) - - / ipucu \--- \--- / ipuçları \---
+\--- hints \--- \--- hint \--- Chatbot **kukla tıklandığı zaman**isminizi **sormalıdır**. Ardından gerektiğini **set** `ad` senin için değişken **cevap**. Chatbot **sonra** "Merhaba", ardından **adınızı**yazmalıdır. \--- / ipucu \--- \--- ipucu \--- İhtiyacınız olacak kod blokları: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- / ipucu \--- \--- ipucu \--- İşte kodunuzun nasıl göründüğü: ![Code for a 'name' variable](images/chatbot-variable-code.png) - - / ipucu \--- \--- / ipuçları \---
 
 \--- /görev \---
 
