@@ -38,7 +38,7 @@ Kodunuz daha önce olduğu gibi çalışmalıdır, Chatbot sizin isminizi kullan
 
 ![Bir 'isim' değişkeni testi](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- Chatbot **kukla tıklandığı zaman**isminizi **sormalıdır**. Ardından gerektiğini **set** `ad` senin için değişken **cevap**. Chatbot **sonra** "Merhaba", ardından **adınızı**yazmalıdır. \--- / ipucu \--- \--- ipucu \--- İhtiyacınız olacak kod blokları: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- / ipucu \--- \--- ipucu \--- İşte kodunuzun nasıl göründüğü: ![Code for a 'name' variable](images/chatbot-variable-code.png) - - / ipucu \--- \--- / ipuçları \---
+\--- hints \--- \--- hint \--- Chatbot **kukla tıklandığı zaman**isminizi **sormalıdır**. Sonra `isim` değişkenini **cevabınızla** **değiştirmeniz** gerekir. Chatbot **sonra** "Merhaba", ardından **adınızı**yazmalıdır. \--- / ipucu \--- \--- ipucu \--- İhtiyacınız olacak kod blokları: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- / ipucu \--- \--- ipucu \--- İşte kodunuzun nasıl göründüğü: ![Code for a 'name' variable](images/chatbot-variable-code.png) - - / ipucu \--- \--- / ipuçları \---
 
 \--- /görev \---
 
