@@ -8,7 +8,7 @@ Let’s get your chatbot to ask the user a question which has a yes or no answer
 
 Your chatbot should ask the question "Are you OK name?", using the `name`{:class="blockoperators"} variable and reply "That's great to hear!" if{:class="blockcontrol"} the user answers "yes", but say nothing if you answer "no".
 
-
+![nano sprite](images/nano-sprite.png)
 ```blocks
 when this sprite clicked
 ask [What's your name?] and wait
@@ -32,6 +32,7 @@ At the moment your chatbot doesn't doesn't say anything if you answer "no". Can 
 
 Replace the `if, then`{:class="blockcontrol"} an `if, then, else`{:class="blockcontrol"} block and include to code to `say "Oh no!"`{:class="blocklooks"}.
 
+![nano sprite](images/nano-sprite.png)
 ```blocks
 when this sprite clicked
 ask [What's your name?] and wait
@@ -68,6 +69,7 @@ Now lets change the chatbot's costume to match your response.
 
 Change the code inside the `if, then, else`{:class="blockcontrol"} block to `switch costume`{:class="blocklooks"}.
 
+![nano sprite](images/nano-sprite.png)
 ```blocks
 when this sprite clicked
 ask [What's your name?] and wait
@@ -98,9 +100,12 @@ Run your code and type "no", so that your chatbot looks unhappy. When you run yo
 
 To fix the problem you need to `switch costume`{:class="blocklooks"} at the start `when the sprite is clicked`{:class="blockevents"}.
 
+![nano sprite](images/nano-sprite.png)
+```blocks
 when this sprite clicked
 switch costume to [nano-b v]
 ask [What's your name?] and wait
+```
 
 ![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
