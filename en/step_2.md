@@ -1,9 +1,50 @@
-## What you will need
+## Your chatbot
 
-### Hardware
+--- task ---
 
-+ Computer capable of running Scratch 2.0
+Before you start making your chatbot, you need to decide on its personality. __Think about the following questions__:
 
-### Software
++ What is their name?
++ Where do they live?
++ Are they happy? Serious? Funny? Shy? Friendly?
++ What do they like and dislike?
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
+--- /task ---
+
+--- task ---
+
+Open a new empty Scratch project.
+
+[[[generic-scratch-new-project]]]
+
+--- /task ---
+
+--- task ---
+
+Choose one of these character sprites, and add them to your project:
+
+![Choose a character](images/chatbot-characters.png)
+
+[[[generic-scratch-sprite-from-library]]]
+
+--- /task ---
+
+--- task ---
+
+Choose a stage backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+
+![Choose a backdrop](images/chatbot-backdrop.png)
+
+[[[generic-scratch-backdrop-from-library]]]
+
+--- /task ---
+
+--- task ---
+
+Save your project.
+
+[[[generic-scratch-saving]]]
+
+--- /task ---
+
+

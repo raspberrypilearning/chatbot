@@ -1,49 +1,71 @@
-## Your chatbot
+## A talking chatbot
+
+Now that you have a chatbot with a personality, let's program it to talk to you.
 
 --- task ---
 
-Before you start making your chatbot, you need to decide on its personality. __Think about the following questions__:
+Click on your chatbot character, and add this code to your chatbot so that `when it's clicked`{:class="blockevents"}, it `asks for your name`{:class="blocksensing"} and then `says "What a lovely name!"`{:class="blocklooks"}.
 
-	+ What is their name?
-	+ Where do they live?
-	+ Are they happy? Serious? Funny? Shy? Friendly?
+```blocks
+when this sprite clicked
+ask [What's your name?] and wait
+say [What a lovely name!] for (2) secs
+```
 
 --- /task ---
 
 --- task ---
 
-Open a new empty Scratch project.
+Click your chatbot to test it out. When you are asked your name, type it into the box along the bottom of the stage.
 
-[[[generic-scratch-new-project]]]
+![Testing a ChatBot response](images/chatbot-ask-test.png)
+
+--- /task ---
+
+
+--- task ---
+
+Your chatbot simply replies ‘What a lovely name!’ every time. You can personalise your chatbot’s reply, by making use of the user’s answer.
+
+Change the chatbot’s code to `join`{:class="blockoperators"} "Hi" with the `answer`{:class="blocksensing"} to your question, so that it looks like this:
+
+```blocks
+when this sprite clicked
+ask [What's your name?] and wait
+say (join [Hi ] (answer)) for (2) secs
+```
+
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 --- /task ---
 
 --- task ---
 
-Choose one of these character sprites, and add them to your project:
+If you store the answer in a variable, you’ll be able to make use of it throughout your project.
 
-![Choose a character](images/chatbot-characters.png)
+Create a new variable called `name`{:class="blockdata"}.
 
-[[[generic-scratch-sprite-from-library]]]
-
---- /task ---
-
---- task ---
-
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
-
-![Choose a backdrop](images/chatbot-backdrop.png)
-
-[[[generic-scratch-backdrop-from-library]]]
+[[[generic-scratch-add-variable]]]
 
 --- /task ---
 
 --- task ---
 
-Save your project.
+Once you’ve created your new variable, edit your chatbot’s code to look like this:
 
-[[[generic-scratch-saving]]]
+```blocks
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) secs
+```
+
+Your code should work as before: your chatbot should say hello using your name.
+
+![Testing a 'name' variable](images/chatbot-ask-test.png)
 
 --- /task ---
+
+If you test your program again, you’ll notice that the answer is stored in the `name`{:class="blockdata"} variable, and is shown in the top-left of the stage. (To hide this, just untick the tick-box next to `name`{:class="blockdata"} in the blocks palette.)
 
 
