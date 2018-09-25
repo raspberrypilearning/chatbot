@@ -6,7 +6,6 @@ Now that you have a chatbot with a personality, let's program it to talk to you.
 
 Click on your chatbot character, and add this code to your chatbot so that `when it's clicked`{:class="blockevents"}, it `asks for your name`{:class="blocksensing"} and then `says "What a lovely name!"`{:class="blocklooks"}.
 
-![nano sprite](images/nano-sprite.png)
 ```blocks
 when this sprite clicked
 ask [What's your name?] and wait
@@ -30,7 +29,6 @@ Your chatbot simply replies ‘What a lovely name!’ every time. You can person
 
 Change the chatbot’s code to `join`{:class="blockoperators"} "Hi" with the `answer`{:class="blocksensing"} to your question, so that it looks like this:
 
-![nano sprite](images/nano-sprite.png)
 ```blocks
 when this sprite clicked
 ask [What's your name?] and wait
@@ -55,7 +53,6 @@ Create a new variable called `name`{:class="blockdata"}.
 
 Once you’ve created your new variable, edit your chatbot’s code to look like this:
 
-![nano sprite](images/nano-sprite.png)
 ```blocks
 when this sprite clicked
 ask [What's your name?] and wait
