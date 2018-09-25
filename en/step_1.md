@@ -2,8 +2,6 @@
 
 You are going to learn how to program your own talking robot!
 
-A change!
-
 ### What you will make
 
 --- no-print ---
