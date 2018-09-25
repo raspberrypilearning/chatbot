@@ -18,7 +18,7 @@ Click the green flag, and then click the chatbot to start a conversation. When t
 
 --- print-only ---
 
-![complete project](images/chatbot-preview.gif)
+![complete project](images/chatbot-preview.png)
 
 --- /print-only ---
 
@@ -50,19 +50,16 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 --- /collapse ---
 
+--- no-print ---
+
 --- collapse ---
 
 ---
 title: Additional notes for educators
 ---
 
-[Here is a link to the resources for this project](http://rpf.io/chatbot-resources)
-
---- no-print ---
-
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/scratch-cat-goes-skiing/print){:target="_blank"}.
-
---- /no-print ---
 
 --- /collapse ---
 
+--- /no-print ---

@@ -14,6 +14,7 @@ Add another backdrop to your Stage, for example the 'moon' backdrop.
 
 You can now program your chatbot to ask "Do you want to go to the moon?" and then change location if you answer "yes".
 
+![nano sprite](images/nano-sprite.png)
 ```blocks
 ask [Do you want to go to the moon?] and wait
 if <(answer) = [yes]> then 
@@ -29,6 +30,7 @@ end
 
 You also need to make sure that your chatbot is in its original location when you start talking to it. Add this block to the top of your chatbot code:
 
+![nano sprite](images/nano-sprite.png)
 ```blocks
 when this sprite clicked
 switch backdrop to [space v]
@@ -46,6 +48,8 @@ Test your program, and answer yes when asked if you want to go to the moon. You 
 
 You can also add this code inside your if block, to make your chatbot jump up and down four times if the answer is yes:
 
+![nano sprite](images/nano-sprite.png)
+```blocks
 if <(answer) = [yes]> then 
   switch backdrop to [moon v]
   repeat (4) 
@@ -55,5 +59,6 @@ if <(answer) = [yes]> then
     wait (0.1) secs
   end
 end
+```
 
 --- /task ---
