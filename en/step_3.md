@@ -23,7 +23,6 @@ Click your chatbot to test it out. When you are asked your name, type it into th
 
 --- /task ---
 
-
 --- task ---
 
 Your chatbot simply replies ‘What a lovely name!’ every time. You can personalise your chatbot’s reply, by making use of the user’s answer.

@@ -13,29 +13,35 @@ Before you start making your chatbot, you need to decide on its personality. __T
 
 --- task ---
 
-Open a new empty Scratch project.
+Open the starter project.
 
-[[[generic-scratch-new-project]]]
+--- collapse ---
+
+---
+title: I'm using Scratch online
+---
+
+Open the "Chatbot" starter project at [rpf.io/chatbot-starter-on](http://rpf.io/chatbot-starter-on)
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: I'm using Scratch offline
+---
+
+Download the "Chatbot" Scratch starter project from [rpf.io/chatbot-starter-off](http://rpf.io/chatbot-starter-off) and then open it using the offline editor.
+
+--- /collapse ---
 
 --- /task ---
 
 --- task ---
 
-Choose one of these character sprites, and add them to your project:
+The starter projects contains 4 characters, you can either use the default or choose a different one by **right-clicking** the sprite and selecting **show** or **hide**.
 
 ![Choose a character](images/chatbot-characters.png)
-
-[[[generic-scratch-sprite-from-library]]]
-
---- /task ---
-
---- task ---
-
-Choose a stage backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
-
-![Choose a backdrop](images/chatbot-backdrop.png)
-
-[[[generic-scratch-backdrop-from-library]]]
 
 --- /task ---
 
