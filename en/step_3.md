@@ -52,7 +52,7 @@ Create a new variable called `name`{:class="blockdata"}.
 
 --- task ---
 
-Once you’ve created your new variable, edit your chatbot’s code to look like this:
+Once you’ve created your new variable, edit your chatbot’s code to set the `name`{:class="blockdata"} variable to `answer`{:class="blocksensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 ```blocks

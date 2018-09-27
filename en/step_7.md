@@ -4,14 +4,6 @@ You can also program your chatbot to change its location.
 
 --- task ---
 
-Add another backdrop to your Stage, for example the 'moon' backdrop.
-
-![Adding a 'moon' backdrop](images/chatbot-moon.png)
-
---- /task ---
-
---- task ---
-
 You can now program your chatbot to ask "Do you want to go to the moon?" and then change location if you answer "yes".
 
 ![nano sprite](images/nano-sprite.png)

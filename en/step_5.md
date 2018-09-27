@@ -6,7 +6,9 @@ Let’s get your chatbot to ask the user a question which has a yes or no answer
 
 --- task ---
 
-Your chatbot should ask the question "Are you OK name?", using the `name`{:class="blockoperators"} variable and reply "That's great to hear!" if{:class="blockcontrol"} the user answers "yes", but say nothing if you answer "no".
+Your chatbot should ask the question "Are you OK name?", using the `name`{:class="blockoperators"} variable and reply "That's great to hear!" `if`{:class="blockcontrol"} the user answers "yes", but say nothing if you answer "no".
+
+![Testing a chatbot reply](images/chatbot-if-test.png)
 
 ![nano sprite](images/nano-sprite.png)
 ```blocks
@@ -20,13 +22,11 @@ if <(answer) = [yes]> then
 end
 ```
 
-![Testing a chatbot reply](images/chatbot-if-test.png)
-
 To test your new code properly, you should test it __twice__, once with the answer "yes", and once with the answer "no".
 
 --- /task ---
 
-At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+At the moment your chatbot doesn't doesn't say anything if you answer "no". Lets change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
 
 --- task ---
 
