@@ -34,6 +34,10 @@ title: What you will need
 
 + Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
 
+### Downloads
+
+[Downloads can be found here](http://rpf.io/chatbot-go).
+
 --- /collapse ---
 
 --- collapse ---
@@ -57,6 +61,8 @@ title: Additional notes for educators
 ---
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+[If you need the solution to this project, you can find it here](http://rpf.io/chatbot-get).
 
 --- /collapse ---
 
