@@ -31,7 +31,7 @@ end
 
 --- /hint ---
 
---- /hints ---
+--- hint ---
 
 This is what your code should look like:
 
@@ -41,6 +41,10 @@ if <(answer) = [yes]> then
   switch backdrop to [moon v]
 end
 ```
+
+--- /hint ---
+
+--- /hints ---
 
 --- /task ---
 
