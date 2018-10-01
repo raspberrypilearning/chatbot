@@ -21,7 +21,7 @@ Open the starter project.
 title: I'm using Scratch online
 ---
 
-Open the "Chatbot" starter project at [rpf.io/chatbot-starter-on](http://rpf.io/chatbot-starter-on)
+Open the "Chatbot" starter project at [rpf.io/chatbot-starter-on](http://rpf.io/chatbot-starter-on){:target="_blank"}.
 
 --- /collapse ---
 
@@ -31,7 +31,7 @@ Open the "Chatbot" starter project at [rpf.io/chatbot-starter-on](http://rpf.io/
 title: I'm using Scratch offline
 ---
 
-Download the "Chatbot" Scratch starter project from [rpf.io/chatbot-starter-off](http://rpf.io/chatbot-starter-off) and then open it using the offline editor.
+Download the "Chatbot" Scratch starter project from [rpf.io/chatbot-starter-off](http://rpf.io/chatbot-starter-off){:target="_blank"} and then open it using the offline editor.
 
 --- /collapse ---
 
@@ -39,7 +39,7 @@ Download the "Chatbot" Scratch starter project from [rpf.io/chatbot-starter-off]
 
 --- task ---
 
-The starter projects contains 4 characters, you can either use the default or choose a different one by **right-clicking** the sprite and selecting **show** or **hide**.
+The starter project contains 4 characters, you can either use the default or choose a different one by **right-clicking** the sprite and selecting **show** or **hide**.
 
 ![Choose a character](images/chatbot-characters.png)
 

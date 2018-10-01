@@ -4,9 +4,35 @@ You can also program your chatbot to change its location.
 
 --- task ---
 
-You can now program your chatbot to ask "Do you want to go to the moon?" and then change location if you answer "yes".
+--- hints ---
+
+--- hint ---
+
+Can you now program your chatbot to `ask "Do you want to go to the moon?"`{:class="blocksensing"} and `if`{:class="blocksensing"} you `answer`{:class="blockdata"} yes it should `switch the backdrop to the moon`{:class="blocklooks"}.
+
+--- /hint ---
+
+--- hint ---
+
+Here are the code blocks you'll need to add to your chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
+```blocks
+switch backdrop to [moon v]
+
+ask [Do you want to go to the moon?] and wait
+
+if <(answer) = [yes]> then 
+
+end
+```
+
+--- /hint ---
+
+--- /hints ---
+
+This is what your code should look like:
+
 ```blocks
 ask [Do you want to go to the moon?] and wait
 if <(answer) = [yes]> then 
