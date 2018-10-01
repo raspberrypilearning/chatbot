@@ -2,6 +2,8 @@
 
 You can also program your chatbot to change its location.
 
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+
 --- task ---
 
 --- hints ---
@@ -39,8 +41,6 @@ if <(answer) = [yes]> then
   switch backdrop to [moon v]
 end
 ```
-
-![Testing a changing backdrop](images/chatbot-backdrop-test.png)
 
 --- /task ---
 
