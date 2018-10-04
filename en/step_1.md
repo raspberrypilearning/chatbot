@@ -52,18 +52,20 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 --- /collapse ---
 
---- no-print ---
-
 --- collapse ---
 
 ---
 title: Additional notes for educators
 ---
 
+--- no-print ---
+
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+--- /no-print ---
 
 [If you need the solution to this project, you can find it here](http://rpf.io/chatbot-get).
 
 --- /collapse ---
 
---- /no-print ---
+
