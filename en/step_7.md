@@ -6,11 +6,13 @@ You can also program your chatbot to change its location.
 
 --- task ---
 
+Can you program your chat to ask "Do you want to go to the moon" and change the background when you answer "Yes". 
+
 --- hints ---
 
 --- hint ---
 
-Can you now program your chatbot to `ask "Do you want to go to the moon?"`{:class="blocksensing"} and `if`{:class="blocksensing"} you `answer`{:class="blockdata"} yes it should `switch the backdrop to the moon`{:class="blocklooks"}.
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="blocksensing"} and `if`{:class="blockcontrol"} you `answer`{:class="blocksensing"} "Yes" it should `switch the backdrop to the moon`{:class="blocklooks"}.
 
 --- /hint ---
 

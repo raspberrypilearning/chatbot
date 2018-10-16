@@ -1,4 +1,4 @@
-## Step 3: Making decisions
+## Step 5: Making decisions
 
 You can program your chatbot to decide what to do, based on the user’s responses.
 
@@ -6,7 +6,7 @@ Let’s get your chatbot to ask the user a question which has a yes or no answer
 
 --- task ---
 
-Your chatbot should ask the question "Are you OK name?", using the `name`{:class="blockoperators"} variable and reply "That's great to hear!" `if`{:class="blockcontrol"} the user answers "yes", but say nothing if you answer "no".
+Your chatbot should ask the question "Are you OK name?", using the `name`{:class="blockdata"} variable and reply "That's great to hear!" `if`{:class="blockcontrol"} the user answers "yes", but say nothing if you answer "no".
 
 ![Testing a chatbot reply](images/chatbot-if-test.png)
 

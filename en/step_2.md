@@ -39,7 +39,7 @@ Download the "Chatbot" Scratch starter project from [rpf.io/chatbot-starter-off]
 
 --- task ---
 
-The starter project contains 4 characters, you can either use the default or choose a different one by **right-clicking** the sprite and selecting **show** or **hide**.
+The starter project contains 4 characters, you can either use the sprite selected or choose a different one by **right-clicking** the sprite and selecting **show** or **hide**.
 
 ![Choose a character](images/chatbot-characters.png)
 

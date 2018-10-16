@@ -4,7 +4,7 @@ Now that you have a chatbot with a personality, let's program it to talk to you.
 
 --- task ---
 
-Click on your chatbot character, and add this code to your chatbot so that `when it's clicked`{:class="blockevents"}, it `asks for your name`{:class="blocksensing"} and then `says "What a lovely name!"`{:class="blocklooks"}.
+Click on your chatbot sprite, and add this code to your chatbot so that `when it's clicked`{:class="blockevents"}, it `asks for your name`{:class="blocksensing"} and then `says "What a lovely name!"`{:class="blocklooks"}.
 
 ![nano sprite](images/nano-sprite.png)
 ```blocks
