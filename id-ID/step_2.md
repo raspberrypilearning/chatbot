@@ -1,8 +1,8 @@
-## Apa yang Anda butuhkan
+## Apa yang kamu butuhkan
 
 ### Perangkat keras
 
-+ Komputer mampu menjalankan Scratch 2.0
++ Komputer yang mampu menjalankan Scratch 2.0
 
 ### Perangkat lunak
 
