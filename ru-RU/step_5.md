@@ -1,71 +1,71 @@
-## Step 3: Making decisions
+## Шаг 3: принятие решений
 
-You can program your chatbot to decide what to say or do based on your responses to its questions.
+Вы можете запрограммировать свой чатбот, чтобы решить, что сказать или сделать, исходя из ваших ответов на его вопросы.
 
-\--- task \---
+\--- задача \---
 
-Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
+Можете ли вы сделать чат-бот, задав вопрос «Вы в порядке?», И запрограммируйте его, чтобы ответить «Это здорово слышать!» только **если** пользователь отвечает «да»?
 
-To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
+Чтобы проверить свой новый код правильно, вы должны проверить его **дважды**, один раз с ответом «да» и один раз с ответом «нет».
 
-Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
+Ваш чатбот должен ответить «Это здорово!» если вы ответите «да», но не говорите ничего, если вы ответите «нет».
 
-![Testing a chatbot reply](images/chatbot-if-test.png)
+![Тестирование ответа чатбота](images/chatbot-if-test.png)
 
-\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+\--- Рекомендации \--- \--- намек \--- После того, как ваш Chatbot сказал «Привет», он должен теперь **спросить** «Вы в порядке?». **Если** вы ответите «да», то чатбот должен **сказать** «Это здорово слышать!». \--- / hint \--- \--- hint \--- Вот дополнительные блоки кода, которые вам понадобятся: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- / hint \--- \--- hint \--- Вот как ваш код должен выглядеть: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- / hint \--- \--- / hints \---
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+На данный момент ваш чатбот ничего не говорит, если вы ответите «нет». Можете ли вы изменить свой чатбот, чтобы он также ответил «О нет!». если вы ответите «нет» на его вопрос?
 
-Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+Проверьте и сохраните. Теперь ваш чатбот должен сказать «О нет!» если вы ответите «нет». На самом деле он скажет: «Нет!» если вы отвечаете ничем иным, чем «да» ( **else** в блоке `if / else` означает **противном случае**).
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Тестирование ответа «да / нет»](images/chatbot-if-else-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Теперь ваш chatbot должен сказать: «Это здорово слышать!» **если** ваш ответ «да», но должен сказать «О нет!». если вы что - то ответить **еще**. \--- / hint \--- \--- hint \--- Вот коды, которые вам нужно использовать: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- / hint \--- \--- hint \--- Вот как выглядит ваш код: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- / hint \--- \--- / hints \---
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-You can put any code inside an `if/else` block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+Вы можете поместить любой код внутри блока `if / else` , а не только код, чтобы ваш чатбот говорил. Если щелкнуть ваш Chatbot в **Costume** вкладку, вы увидите , что она имеет более чем один костюм.
 
-![chatbot costumes](images/chatbot-costume-view.png)
+![костюмы chatbot](images/chatbot-costume-view.png)
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Can you change the chatbot's costume to match your response?
+Можете ли вы изменить костюм чатбота в соответствии с вашим ответом?
 
-Test and save. You should see your chatbot's face change depending on your answer.
+Проверьте и сохраните. Вы должны увидеть изменение лица чатбота в зависимости от вашего ответа.
 
-![Testing a changing costume](images/chatbot-costume-test.png)
+![Тестирование изменяющегося костюма](images/chatbot-costume-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now also **switch costume** depending on the answer given. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Ваш чатбот должен теперь также **переключателя костюма** зависимости от ответа. \--- / hint \--- \--- hint \--- Вот коды, которые вам нужно использовать: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- / hint \--- \--- hint \--- Вот как выглядит ваш код: ![Code for a changing costume](images/chatbot-costume-code.png) \--- / hint \--- \--- / hints \---
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? Can you fix this problem?
+Вы заметили, что ваш костюм chatbot остается таким же, как и в последний раз, когда вы говорили с ним? Вы можете решить эту проблему?
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Костюмная ошибка](images/chatbot-costume-bug-test.png)
 
-Test and save: Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+Тест и сохранение: запустите свой код и введите «нет», чтобы ваш чатбот выглядел несчастным. Когда вы снова запустите свой код, ваш чатбот должен вернуться на улыбающееся лицо, прежде чем спрашивать ваше имя.
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![Тестирование костюма](images/chatbot-costume-fix-test.png)
 
-\--- hints \--- \--- hint \--- When the **sprite is clicked**, your chatbot should first **switch costume** to a smiling face. \--- /hint \--- \--- hint \--- Here's the code block you'll need to add: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Когда **спрайта нажата**, ваш чатбот должен сначала **переключить костюм** на улыбающееся лицо. \--- / hint \--- \--- hint \--- Вот код, который вам нужно добавить: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- / hint \--- \--- hint \--- Вот как ваш код должен выглядеть: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- / hint \--- \--- / hints \---
 
-\--- /task \---
+\--- / задача \---
 
-\--- challenge \---
+\--- вызов \---
 
-## Challenge: more decisions
+## Задача: больше решений
 
-Program your chatbot to ask another question - something with a "yes" or "no" answer. Can you make your chatbot respond to the answer?
+Запросите свой чатбот, чтобы задать другой вопрос - что-то с ответом «да» или «нет». Можете ли вы ответить на ответ чатбота?
 
-![screenshot](images/chatbot-joke.png) \--- /challenge \---
+![Скриншот](images/chatbot-joke.png) \--- /вызов \---
