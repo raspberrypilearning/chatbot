@@ -1,46 +1,48 @@
-## Chatbot Anda
+## Chatbot kamu
 
-\--- tugas \---
+\--- task \---
 
-Sebelum Anda mulai membuat obrolan, Anda harus memutuskan kepribadiannya. **Pikirkan tentang pertanyaan-pertanyaan berikut**:
+Sebelum kamu mulai membuat chatbot, kamu perlu memutuskan kepribadiannya. **Pertimbangkan pertanyaan-pertanyaan berikut**:
 
-    + Siapa nama mereka? + Di mana mereka tinggal? + Apakah mereka bahagia? Serius? Lucu? Pemalu? Ramah?
+    + Siapa nama dia?
+    + Dimana dia tinggal?
+    + Apakah dia gembira? Serius? Lucu? Pemalu? Ramah?
     
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
 Buka proyek Scratch kosong baru.
 
 [[[generic-scratch-new-project]]]
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Pilih salah satu dari sprite karakter ini, dan tambahkan ke proyek Anda:
+Pilih satu dari sprite berikut, dan tambahkan ke proyek kamu:
 
 ![Pilih karakter](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Pilih latar belakang yang sesuai dengan kepribadian chatbot Anda. Berikut ini contohnya, meskipun milik Anda tidak harus seperti ini:
+Pilih latar yang sesuai dengan kepribadian chatbot. Berikut satu contoh, meski pilihan kamu tidak harus sama:
 
-![Pilih latar belakang](images/chatbot-backdrop.png)
+![Pilih latar](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Simpan proyek Anda.
+Simpan proyek kamu.
 
 [[[generic-scratch-saving]]]
 
-\--- /tugas \---
+\--- /task \---
