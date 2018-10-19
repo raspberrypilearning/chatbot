@@ -1,34 +1,34 @@
 ---
-title: chatbot
-hero_image: Kuvien / chatbot.png
-description: Opi ohjelmoimaan oma puhuva robotti!
+title: Juttelubotti
+hero_image: images/chatbot.png
+description: Opi ohjelmoimaan oma puhuva robottisi!
 original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
-theme: violetti
+theme: violet
 duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: 1, design-0, ohjelmointi-1, phys-comp-0, valmistus-0, yhteisö-0
+curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
 interests: ''
-technology: naarmu
-site_areas: hankkeet
-technologies: naarmu
+technology: scratch
+site_areas: projects
+technologies: scratch
 hardware: ''
-software: naarmu
+software: scratch
 version: 4.1.0
-last_tested: 01.1.2017
+last_tested: 2017-01-01
 steps:
   - 
-    title: esittely
+    title: Esittely
   - 
     title: Mitä tarvitset
   - 
-    title: Chatbotisi
+    title: Juttelubottisi
   - 
-    title: Puhuva chatbot
+    title: Puhuva juttelubotti
   - 
-    title: Tehdä päätöksiä
+    title: Päätösten tekeminen
   - 
     title: Sijainnin muuttaminen
   - 
-    title: 'Haaste: viimeistele chatbot'
+    title: 'Haaste: viimeistele juttelubottisi'
