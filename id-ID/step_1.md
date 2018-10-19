@@ -1,67 +1,67 @@
-## pengantar
+## Pengantar
 
-Anda akan belajar bagaimana memprogram robot berbicara Anda sendiri!
+Kamu akan belajar cara memprogram robot berbicara milik sendiri!
 
-### Apa yang akan Anda buat
+### Apa yang kamu akan buat
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Klik bendera hijau, lalu klik chatbot untuk memulai percakapan. Saat chatbot mengajukan pertanyaan, ketikkan jawaban Anda ke kotak di bagian bawah Stage dan klik tanda centang (atau tekan `Enter`).
+Klik bendera hijau, lalu klik chatbot untuk memulai percakapan. Saat chatbot mengajukan pertanyaan, ketik jawaban kamu pada kotak di bawah Stage dan klik tanda centang (atau tekan `Enter`).
 
-### Apa yang akan Anda pelajari
+### Apa yang akan kamu pelajari
 
-Proyek ini mencakup unsur-unsur dari untaian berikut dari [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Proyek ini mencakup unsur-unsur dari rangkaian [Kurikulum Digital Making Raspberry Pi](http://rpf.io/curriculum):
 
 + [Gunakan konstruksi pemrograman dasar untuk membuat program sederhana.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Informasi tambahan untuk pemimpin klub
+### Informasi tambahan untuk para ketua klub
 
-Jika Anda perlu mencetak proyek ini, silakan gunakan [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Jika kamu perlu mencetak proyek ini, silakan gunakan [versi cetak](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
-## \--- jatuh \---
+## \--- collapse \---
 
-## judul: Catatan pemimpin klub
+## title: Catatan ketua klub
 
 ## Pengantar:
 
-Dalam proyek ini, anak-anak akan belajar bagaimana menggunakan pernyataan 'if' untuk membuat keputusan dalam program mereka.
+Pada proyek ini, anak-anak akan belajar cara menggunakan pernyataan 'if' untuk membuat keputusan dalam program mereka.
 
-## Sumber daya
+## Sumber Daya
 
 Untuk proyek ini, Scratch 2 harus digunakan. Scratch 2 dapat digunakan secara online di [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) atau dapat diunduh dari [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) dan digunakan secara offline.
 
-Anda dapat menemukan versi lengkap dari proyek ini [online](http://scratch.mit.edu/projects/26762091/#editor), atau dapat diunduh dengan mengklik tautan 'Project Materials' untuk proyek ini, yang berisi:
+Kamu dapat menemukan versi lengkap dari proyek ini [online](http://scratch.mit.edu/projects/26762091/#editor), atau dapat diunduh dengan mengklik tautan 'Project Materials' untuk proyek ini, yang berisi:
 
 + ChatBot.sb2
 
 ## Tujuan Pembelajaran
 
-+ Masukan teks;
++ Input teks;
 + Keputusan: 
-    + `jika ... maka`{: class = "blockcontrol"} pernyataan;
-    + `jika ... maka ... lain`{: class = "blockcontrol"} pernyataan.
+    + Pernyataan `jika ... maka`{:class="blockcontrol"};
+    + Pernyataan `jika ... maka ... jika tidak`{:class="blockcontrol"}.
 
-Proyek ini mencakup unsur-unsur dari untaian berikut dari [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Proyek ini mencakup unsur-unsur dari rangkaian [Kurikulum Digital Making Raspberry Pi](http://rpf.io/curriculum):
 
 + [Gunakan konstruksi pemrograman dasar untuk membuat program sederhana.](https://www.raspberrypi.org/curriculum/programming/creator)
 
 ## Tantangan
 
-+ "Lebih banyak pertanyaan" - mengkonsolidasikan pembelajaran input dan blok `jawab`{: class = "blocksensing"};
-+ "Lebih banyak keputusan" - menggunakan keputusan;
-+ "Buat chatbot Anda sendiri" - konsolidasi pembelajaran dari proyek ini dan yang lalu.
++ "Pertanyaan tambahan" - menggabungkan pelajaran input dan blok `jawaban`{:class="blocksensing"};
++ "Keputusan tambahan" - menggunakan keputusan;
++ "Buat chatbot milik sendiri" - gabungan pelajaran dari proyek ini dan sebelumnya.
 
-\--- /jatuh \---
+\--- /collapse \---
 
-## \--- jatuh \---
+## \--- collapse \---
 
-## judul: Materi proyek
+## title: Materi proyek
 
-## Sumber daya pemimpin klub
+## Sumber daya ketua klub
 
-+ [Proyek Scratch 2 yang dapat diunduh selesai](resources/ChatBot.sb2)
-+ [Proyek Scratch 2 yang diselesaikan secara daring](http://scratch.mit.edu/projects/26762091/#editor)
++ [Proyek Scratch 2 lengkap yang dapat diunduh](resources/ChatBot.sb2)
++ [Proyek Scratch 2 lengkap versi online](http://scratch.mit.edu/projects/26762091/#editor)
 
-\--- /jatuh \---
+\--- /collapse \---
