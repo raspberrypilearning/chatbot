@@ -1,7 +1,7 @@
 ---
 title: チャットボット
 hero_image: images/chatbot.png
-description: おしゃべりチャットボットをつくってみましょう！
+description: このプロジェクトでは、おしゃべりするチャットボットの作り方を学びます。
 original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
 duration: 2
@@ -17,5 +17,11 @@ hardware: ''
 software: scratch
 version: 4.1.0
 last_tested: 2017-01-01
-steps: 
-- title: チャットボット
+steps:
+  - title: はじめに
+  - title: 必要なもの
+  - title: 自分のチャットボット
+  - title: おしゃべりチャットボット
+  - title: いろいろな答え方
+  - title: 背景（はいけい）をかえる
+  - title: 'チャレンジ: 自分のチャットボット'
