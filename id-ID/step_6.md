@@ -1,39 +1,39 @@
 ## Mengubah lokasi
 
-Anda juga dapat mengkodekan chatbot Anda untuk mengubah lokasinya.
+Kamu juga dapat mengkode chatbot untuk mengubah lokasinya.
 
-\--- tugas \---
+\--- task \---
 
-Tambahkan latar belakang lain ke Panggung Anda, misalnya latar belakang 'bulan'.
+Tambahkan latar lain ke Stage, misalnya latar 'moon'.
 
-![Menambahkan latar belakang 'bulan'](images/chatbot-moon.png)
+![Menambahkan latar 'moon'](images/chatbot-moon.png)
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Bisakah Anda kode chatbot Anda untuk bertanya "Apakah Anda ingin pergi ke bulan?" dan kemudian ganti lokasi jika Anda menjawab "ya"?
+Dapatkah kamu kode chatbot untuk bertanya "Maukah kamu pergi ke bulan?" dan kemudian ganti lokasi jika kamu menjawab "ya"?
 
-Uji dan simpan. Jika Anda menjawab "ya", chatbot Anda harus mengubah lokasi. Obrolan Anda seharusnya terlihat sedih dan berkata "OK ... sampai jumpa!" jika ada jawaban lain yang diberikan.
+Uji dan simpan. Jika kamu menjawab "ya", chatbot harus mengubah lokasi. Chatbot harus terlihat kecewa dan mengatakan "OK... dadah!" jika diberikan jawaban lain.
 
-![Menguji latar belakang yang berubah](images/chatbot-backdrop-test.png)
+![Menguji latar yang berubah](images/chatbot-backdrop-test.png)
 
-\--- petunjuk \--- \--- petunjuk \--- Chatbot Anda harus **menanyakan** "Apakah Anda ingin pergi ke bulan?". **Jika** **jawaban Anda** adalah "ya", maka chatbot Anda seharusnya **mengubah kostum** agar terlihat bahagia dan tahap **latar belakang** akan berubah.
+\--- hints \--- \--- hint \--- Chatbot harus **bertanya** "Maukah kamu pergi ke bulan?". **Jika** **jawaban** kamu adalah "ya", maka chatbot harus **berganti kostum** ke muka senang dan **latar** pada Stage akan berubah.
 
-Jika Anda menjawab "tidak", chatbot harus **mengubah kostum** untuk terlihat sedih dan **mengatakan** "OK ... selamat tinggal!"
+Jika kamu menjawab "tidak", chatbot harus **berganti kostum** ke muka kecewa dan **mengatakan** "OK... dadah!"
 
-Anda juga harus menambahkan kode untuk memulai chatbot Anda di tempat yang tepat **saat diklik**. \--- / hint \--- \--- hint \--- Berikut adalah blok kode yang harus Anda gunakan: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- / hint \--- \--- hint \--- Begini tampilan kode Anda: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- / petunjuk \--- \--- / petunjuk \---
+Kamu juga perlu menambahkan kode untuk memulai chatbot pada posisi yang tepat **ketika diklik**. \--- /hint \--- \--- hint \--- Berikut adalah blok kode yang kamu perlukan: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Berikut tampilan seharusnya dari kode kamu: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Bisakah Anda menambahkan kode untuk membuat chatbot Anda melompat gembira jika Anda mengatakan ingin pergi ke bulan?
+Dapatkah kamu menambahkan kode untuk membuat chatbot melompat gembira jika kamu mengatakan ingin pergi ke bulan?
 
-Uji dan simpan. Jika Anda menjawab "ya", chatbot Anda harus melompat ke atas dan ke bawah. Chatbot Anda seharusnya tidak melompat jika ada jawaban lain yang diberikan.
+Uji dan simpan. Jika kamu menjawab "ya", chatbot harus melompat ke atas dan ke bawah. Chatbot seharusnya tidak melompat jika diberikan jawaban lain.
 
 ![Menguji ChatBot yang melompat](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- Chatbot Anda harus melompat dengan **mengubah** **y posisi** dengan jumlah kecil, dan kemudian mengubah posisinya kembali setelah pendek **menunggu**. Anda mungkin ingin **ulangi** ini beberapa kali. \--- / hint \--- \--- hint \--- Berikut adalah blok kode yang harus Anda gunakan: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- / hint \--- \--- hint \--- Begini tampilan kode Anda: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- / petunjuk \--- \--- / petunjuk \---
+\--- hints \--- \--- hint \--- Chatbot harus melompat dengan **mengubah** posisi **y** sedikit, kemudian mengubah ke posisi awal setelah **menunggu** beberapa saat. Kamu mungkin ingin **ulangi** beberapa kali. \--- /hint \--- \--- hint \--- Berikut adalah blok kode yang kamu perlukan: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Berikut adalah tampilan seharusnya dari kode kamu: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
 
-\--- /tugas \---
+\--- /task \---
