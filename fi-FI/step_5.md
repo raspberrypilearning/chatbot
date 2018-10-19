@@ -1,30 +1,30 @@
-## Vaihe 3: Päätökset
+## Vaihe 3: Päättely
 
-Voit ohjelmoida chatbotsi päättää, mitä sanoa tai tehdä vastausten perusteella kysymyksiisi.
+Voit ohjelmoida juttelubottisi päättelemään, mitä sanoa tai tehdä vastaustesi perusteella.
 
 \--- task \---
 
-Can you make the chatbot ask the question "Are you OK?", and code it to reply "That's great to hear!" only **if** the user answers "yes"?
+Saatko juttelubottisi kysymään "Oletko kunnossa?" ja koodata sen vastaamaan "Se on hienoa kuulla!" vain ** jos ** käyttäjä vastaa "kyllä"?
 
-To test your new code properly, you should test it **twice**, once with the answer "yes", and once with the answer "no".
+Testataksesi uutta koodiasi kunnolla, kokeile sitä ** kahdesti **, kerran vastauksella "kyllä" ja kerran vastauksella "ei".
 
-Your chatbot should reply "That's great to hear!" if you answer "yes", but say nothing if you answer "no".
+Juttelubottisi pitäisi vastata "Se on hienoa kuulla!" jos vastaat "kyllä", mutta ei sanoa mitään, jos vastaat "ei".
 
 ![Testing a chatbot reply](images/chatbot-if-test.png)
 
-\--- hints \--- \--- hint \--- After your chatbot has said "Hi", it should now also **ask** "Are you OK?". **If** you answer "yes", then the chatbot should **say** "That's great to hear!". \--- /hint \--- \--- hint \--- Here are the extra code blocks you'll need: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Kun juttelubotti on sanonut "Hei", sen pitäisi nyt myös **kysyä** "Oletko kunnossa?". ** Jos ** vastaat "kyllä", juttelubotin pitäisi ** sanoa ** "Se on hienoa kuulla!". \--- /hint \--- \--- hint \--- Tässä ovat tarvitsemasi koodilohkot: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-At the moment your chatbot doesn't doesn't say anything if you answer "no". Can you change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+Tällä hetkellä jutteleubotti ei sano mitään, jos vastaat "ei". Voitko muokata juttelubottia niin, että se vastaa myös "Voi ei!" jos vastaat "ei" sen kysymykseen?
 
-Test and save. Your chatbot should now say "Oh no!" if you answer "no". In fact, it will say "On no!" if you answer with anything other than "yes" (the **else** in an `if/else` block means **otherwise**).
+Testaa ja tallenna. Juttelubottisi pitäisi nyt sanoa "Voi ei!" jos vastaat "ei". Itse asiassa se sanoo "Voi ei!" jos vastaat muuten kuin "kyllä" (** muuten ** ` jos / muuten ` lohkossa tarkoittaa ** muutoin **).
 
 ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should now say "That's great to hear!" **if** your answer is "yes", but should say "Oh no!" if you answer something **else**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Juttelubottisi pitäisi nyt sanoa "Hienoa kuulla!" **jos** vastauksesi on "kyllä", mutta sen piätisi sanoa "Voi ei!" jos vastaat jotenkin **muuten**. \--- /hint \--- \--- hint \--- Tässä ovat tarvitsemasi koodilohkot: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Tältä koodisi pitäisi näyttää: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
 
 \--- /task \---
 
