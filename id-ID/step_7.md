@@ -1,9 +1,9 @@
-\--- tantangan \---
+\--- challenge \---
 
-## Tantangan: selesaikan chatbot Anda
+## Tantangan: selesaikan chatbot kamu
 
-Gunakan apa yang telah Anda pelajari untuk menyelesaikan pembuatan chatbot interaktif Anda. Berikut beberapa ide:
+Gunakan apa yang telah kamu pelajari untuk menyelesaikan chatbot kamu. Berikut beberapa gagasan:
 
-![Ide ChatBot](images/chatbot-ideas.png)
+![Gagasan untuk ChatBot](images/chatbot-ideas.png)
 
-Setelah selesai membuat chatbot Anda, ajak teman Anda untuk melakukan percakapan dengannya! Apakah mereka menyukai karakter Anda? Apakah mereka menemukan masalah? \--- / tantangan \---
+Setelah selesai membuat chatbot, ajak teman kamu untuk bercakap-cakap dengannya! Apakah mereka menyukai karakternya? Apakah mereka menemukan masalah? \--- /challenge \---
