@@ -1,51 +1,51 @@
-## Obrolan berbicara
+## Chatbot berbicara
 
-Sekarang Anda memiliki chatbot dengan kepribadian, mari kita memprogramnya untuk berbicara dengan Anda.
+Sekarang kamu memiliki chatbot dengan kepribadian, mari kita program dia untuk berbicara dengan kamu.
 
-\--- tugas \---
+\--- task \---
 
-Tambahkan kode ke chatbot Anda sehingga ketika diklik, itu meminta nama Anda dan kemudian mengatakan "Nama yang indah!"
+Tambahkan kode ke chatbot kamu sehingga ketika diklik, dia meminta nama kamu dan mengatakan "Nama yang indah!"
 
-![Menguji tanggapan ChatBot](images/chatbot-ask-test.png)
+![Menguji balasan ChatBot](images/chatbot-ask-test.png)
 
-\--- petunjuk \--- \--- petunjuk \--- Ketika sprite chatbot **diklik**, itu harus **meminta** untuk nama Anda. Chatbot seharusnya kemudian **mengatakan** "Apa nama yang indah!" \--- / hint \--- \--- hint \--- Berikut adalah blok kode yang Anda perlukan: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- / hint \--- \--- hint \--- Begini tampilan kode Anda: ![Code for a ChatBot reply](images/chatbot-ask-code.png) - - / petunjuk \--- \--- / petunjuk \---
+\--- hints \--- \--- hint \--- Ketika **sprite chatbot diklik**, dia harus **menanyakan** nama kamu. Chatbot maka harus **mengatakan** "Nama yang indah!" \--- /hint \--- \--- hint \--- Berikut adalah blok kode yang kamu perlukan: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Berikut adalah tampilan seharusnya dari kode kamu: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Sekarang chatbot hanya menjawab "Sungguh nama yang indah!" setiap saat. Dapatkah Anda mempersonalisasi jawaban chatbot Anda dengan memanfaatkan jawaban Anda?
+Saat ini chatbot selalu membalas dengan "Nama yang indah!". Dapatkah kamu menyesuaikan balasan chatbot untuk menggunakan nama kamu?
 
-![Menguji balasan yang dipersonalisasi](images/chatbot-answer-test.png)
+![Menguji balasan yang disesuaikan](images/chatbot-answer-test.png)
 
-\--- petunjuk \--- \--- petunjuk \--- Ketika sprite chatbot **diklik**, itu harus **meminta** untuk nama Anda. Chatbot kemudian harus **katakan** "Hai", diikuti dengan **jawaban Anda**. \--- / hint \--- \--- hint \--- Berikut adalah blok kode yang Anda perlukan: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- / hint \--- \--- hint \--- Begini tampilan kode Anda: ![Code for a personalised reply](images/chatbot-answer-code.png) - - / petunjuk \--- \--- / petunjuk \---
+\--- hints \--- \--- hint \--- Ketika **sprite chatbot diklik**, dia harus **menanyakan** nama kamu. Chatbot maka harus **mengatakan** "Halo", diikuti dengan **nama kamu**. \--- /hint \--- \--- hint \--- Berikut adalah blok kode yang kamu perlukan: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Berikut tampilan seharusnya dari kode kamu: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Jika Anda menyimpan jawaban Anda dalam **variabel**, maka itu dapat digunakan nanti. Buat variabel baru yang disebut `nama` untuk menyimpan nama Anda.
+Jika kamu menyimpan nama kamu pada satu **variabel**, maka nama itu dapat digunakan lagi. Buatlah variabel baru bernama `nama` untuk menyimpan nama kamu.
 
 [[[generic-scratch-add-variable]]]
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tugas \---
+\--- task \---
 
-Dapatkah Anda menyimpan jawaban Anda dalam variabel `nama` dan menggunakannya di balasan chatbot Anda?
+Dapatkah kamu menyimpan nama kamu pada variabel `nama` dan menggunakannya di balasan chatbot kamu?
 
-Kode Anda harus berfungsi seperti sebelumnya: chatbot Anda harus menyapa menggunakan nama Anda.
+Kode kamu harus berfungsi seperti sebelumnya: chatbot harus mengatakan halo dengan nama kamu.
 
 ![Menguji variabel 'nama'](images/chatbot-ask-test.png)
 
-\--- petunjuk \--- \--- petunjuk \--- Ketika sprite chatbot **diklik**, itu harus **meminta** untuk nama Anda. Anda harus kemudian **menetapkan** `nama` variabel ke **jawaban Anda**. Obrolan kemudian harus **katakan** "Hai", diikuti oleh **nama**. \--- / hint \--- \--- hint \--- Berikut adalah blok kode yang Anda perlukan: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- / hint \--- \--- hint \--- Begini tampilan kode Anda: ![Code for a 'name' variable](images/chatbot-variable-code.png) - - / petunjuk \--- \--- / petunjuk \---
+\--- hints \--- \--- hint \--- Ketika **sprite chatbot diklik**, dia harus **menanyakan** nama kamu. Kamu maka harus **mengatur** variabel `nama` ke **jawaban** kamu. Chatbot maka harus **mengatakan** "Halo", diikuti dengan **nama**. \--- /hint \--- \--- hint \--- Berikut adalah blok kode yang kamu perlukan: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Berikut adalah tampilan seharusnya dari kode kamu: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
 
-\--- /tugas \---
+\--- /task \---
 
-\--- tantangan \---
+\--- challenge \---
 
-## Tantangan: lebih banyak pertanyaan
+## Tantangan: pertanyaan tambahan
 
-Program chatbot Anda untuk mengajukan pertanyaan lain. Bisakah Anda menyimpan jawabannya dalam variabel baru?
+Program chatbot kamu untuk menanyakan hal lain. Dapatkah kamu menyimpan jawaban kamu pada variabel baru?
 
-![Lebih banyak pertanyaan](images/chatbot-question.png) \--- / tantangan \---
+![Pertanyaan tambahan](images/chatbot-question.png) \--- /challenge \---
