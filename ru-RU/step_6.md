@@ -1,39 +1,39 @@
-## Changing location
+## Изменение местоположения
 
-You can also code your chatbot to change its location.
+Вы также можете закодировать свой чатбот, чтобы изменить его местоположение.
 
-\--- task \---
+\--- задача \---
 
-Add another backdrop to your Stage, for example the 'moon' backdrop.
+Добавьте еще один фон в свою сцену, например, «лунный» фон.
 
-![Adding a 'moon' backdrop](images/chatbot-moon.png)
+![Добавление фона «луны»](images/chatbot-moon.png)
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Can you code your chatbot to ask "Would you like to go to the moon?" and then change location if you answer "yes"?
+Можете ли вы закодировать свой чатбот, чтобы спросить: «Хочешь пойти на Луну?» а затем измените местоположение, если вы ответите «да»?
 
-Test and save. If you answer "yes", your chatbot should change location. Your chatbot should look sad and say "OK...bye!" if any other answer is given.
+Проверьте и сохраните. Если вы ответите «да», ваш чатбот должен изменить местоположение. Ваш чатбот должен выглядеть грустным и говорить «ОК ... пока!» если дается какой-либо другой ответ.
 
-![Testing a changing backdrop](images/chatbot-backdrop-test.png)
+![Тестирование меняющегося фона](images/chatbot-backdrop-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should **ask** "Would you like to go to the moon?". **If** your **answer** is "yes", then your chatbot should **change costume** to look happy and the stage **backdrop** should change.
+\--- подсказки \--- \--- подсказка \--- Ваш чатбот должен **спросить** «Хочешь пойти на луну?». **Если** ваш **ответ** «да», то ваш чатбот должен **изменить костюм** чтобы выглядеть счастливым, а фон **этапа** должен измениться.
 
-If you answer "no", the chatbot should **change costume** to look sad and **say** "OK...bye!"
+Если вы ответили «нет», то Chatbot следует **изменить костюм** смотреть грустно и **говорят** «ОК ... до свидания!»
 
-You'll also need to add code to start your chatbot in the right place **when clicked**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
+Вам также нужно будет добавить код, чтобы запустить чатбот в нужном месте **при нажатии**. \--- / hint \--- \--- hint \--- Вот коды, которые вам нужно использовать: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- / hint \--- \--- hint \--- Вот как выглядит ваш код: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- / hint \--- \--- / hints \---
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Can you add code to make your chatbot jump for joy if you tell it you want to go to the moon?
+Можете ли вы добавить код, чтобы заставить чатбот прыгать от радости, если вы скажете, что хотите отправиться на Луну?
 
-Test and save. If you answer "yes", your chatbot should jump up and down. Your chatbot shouldn't jump if any other answer is given.
+Проверьте и сохраните. Если вы ответите «да», ваш чатбот должен прыгать вверх и вниз. Ваш чатбот не должен прыгать, если дается какой-либо другой ответ.
 
-![Testing a jumping ChatBot](images/chatbot-jump-test.png)
+![Тестирование чата ChatBot](images/chatbot-jump-test.png)
 
-\--- hints \--- \--- hint \--- Your chatbot should jump by **changing** its **y position** by a small amount, and then changing its position back after a short **wait**. You may want to **repeat** this a few times. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need to use: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Ваш chatbot должен прыгать на **изменяя** своей **й позиции** на небольшую сумму, а затем меняя свое положение назад после короткого **ожидания**. Вы можете **повтор** это несколько раз. \--- / hint \--- \--- hint \--- Вот коды, которые вам нужно использовать: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- / hint \--- \--- hint \--- Вот как выглядит ваш код: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- / hint \--- \--- / hints \---
 
-\--- /task \---
+\--- / задача \---
