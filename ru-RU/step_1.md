@@ -1,67 +1,67 @@
-## Introduction
+## Введение
 
-You are going to learn how to program your own talking robot!
+Вы узнаете, как программировать свой собственный говорящий робот!
 
-### What you will make
+### Что вы сделаете
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
 </div>
 
-Click the green flag, and then click the chatbot to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage and click the tick (or press `Enter`).
+Нажмите зеленый флаг, а затем нажмите chatbot, чтобы начать разговор. Когда чатбот задает вопрос, введите свой ответ в поле внизу сцены и нажмите галочку (или нажмите `Enter`).
 
-### What you will learn
+### Что вы узнаете
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Этот проект охватывает элементы из следующих направлений: [Малина Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Используйте базовые конструкции программирования для создания простых программ.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-### Additional information for club leaders
+### Дополнительная информация для лидеров клуба
 
-If you need to print this project, please use the [Printer friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print).
+Если вам нужно распечатать этот проект, воспользуйтесь [Версия для печати](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
-## \--- collapse \---
+## \--- коллапс \---
 
-## title: Club leader notes
+## название: заметки лидера клуба
 
-## Introduction:
+## Введение:
 
-In this project, children will learn how to use 'if' statements to make decisions in their programs.
+В этом проекте дети узнают, как использовать выражения «если» для принятия решений в своих программах.
 
-## Resources
+## Ресурсы
 
-For this project, Scratch 2 should be used. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+Для этого проекта необходимо использовать Scratch 2. Царапина 2 может быть использована онлайн по адресу [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) или может быть загружена с [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) и использована в автономном режиме.
 
-You can find a completed version of this project [online](http://scratch.mit.edu/projects/26762091/#editor), or it can be downloaded by clicking the 'Project Materials' link for this project, which contains:
+Вы можете найти завершенную версию этого проекта [онлайн](http://scratch.mit.edu/projects/26762091/#editor), или его можно загрузить, щелкнув ссылку «Материалы проекта» для этого проекта, которая содержит:
 
 + ChatBot.sb2
 
-## Learning Objectives
+## Цели обучения
 
-+ Text input;
-+ Decisions: 
-    + `if ... then`{:class="blockcontrol"} statements;
-    + `if ... then ... else`{:class="blockcontrol"} statements.
++ Ввод текста;
++ Решения: 
+    + `if ... then`{: class = "blockcontrol"} statements;
+    + `если ... then ... else`{: class = "blockcontrol"}.
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Этот проект охватывает элементы из следующих направлений: [Малина Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Use basic programming constructs to create simple programs.](https://www.raspberrypi.org/curriculum/programming/creator)
++ [Используйте базовые конструкции программирования для создания простых программ.](https://www.raspberrypi.org/curriculum/programming/creator)
 
-## Challenges
+## проблемы
 
-+ "More questions" - consolidating learning of input and the `answer`{:class="blocksensing"} block;
-+ "More decisions" - using decisions;
-+ "Make your own chatbot" - consolidation of learning from this and past projects.
++ «Больше вопросов» - консолидация обучения входных данных и ответ ``{: class = "blockensing"} block;
++ «Больше решений» - с использованием решений;
++ «Создайте свой собственный чатбот» - консолидация обучения из этого и прошлых проектов.
 
-\--- /collapse \---
+\--- / свернуть \---
 
-## \--- collapse \---
+## \--- коллапс \---
 
-## title: Project materials
+## название: материалы проекта
 
-## Club leader resources
+## Ресурсы лидера клуба
 
-+ [Downloadable completed Scratch 2 project](resources/ChatBot.sb2)
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ [Загруженный завершенный проект Scratch 2](resources/ChatBot.sb2)
++ [Онлайн-проект Scratch 2](http://scratch.mit.edu/projects/26762091/#editor)
 
-\--- /collapse \---
+\--- / свернуть \---
