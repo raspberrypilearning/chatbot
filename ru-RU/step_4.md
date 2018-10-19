@@ -1,51 +1,51 @@
-## A talking chatbot
+## Говорящий чатбот
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+Теперь, когда у вас есть чат-бот с личностью, давайте попробуем поговорить с вами.
 
-\--- task \---
+\--- задача \---
 
-Add code to your chatbot so that when it's clicked, it asks for your name and then says "What a lovely name!"
+Добавьте код в свой чатбот, чтобы при нажатии на него было задано ваше имя, а затем сказано: «Какое прекрасное имя!»
 
-![Testing a ChatBot response](images/chatbot-ask-test.png)
+![Тестирование ответа ChatBot](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "What a lovely name!" \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Когда щелчок на чатботе **будет нажат**, он должен **спросить** за ваше имя. Чатбот должен тогда **сказать** «Какое прекрасное имя!» \--- / hint \--- \--- hint \--- Вот коды, которые вам понадобятся: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- / hint \--- \--- hint \--- Вот как ваш код должен выглядеть: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- / hint \--- \--- / hints \---
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Now the chatbot simply replies "What a lovely name!" every time. Can you personalise your chatbot's reply by making use of your answer?
+Теперь чатбот просто отвечает: «Какое прекрасное имя!» каждый раз. Можете ли вы персонализировать ответ чатбота, используя свой ответ?
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Тестирование персонализированного ответа](images/chatbot-answer-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. The chatbot should then **say** "Hi", followed by your **answer**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Когда щелчок на чатботе **будет нажат**, он должен **спросить** за ваше имя. Чатбот должен тогда **сказать** «Привет», а затем ваш **ответ**. \--- / hint \--- \--- hint \--- Вот коды, которые вам понадобятся: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- / hint \--- \--- hint \--- Вот как ваши код должен выглядеть: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- / hint \--- \--- / hints \---
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-If you store your answer in a **variable**, then it can be used later. Create a new variable called `name` to store your name.
+Если вы храните свой ответ в **переменной**, то он может быть использован позже. Создайте новую переменную с именем `name` чтобы сохранить ваше имя.
 
 [[[generic-scratch-add-variable]]]
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Can you store your answer in the `name` variable and use it in your chatbot's reply?
+Можете ли вы сохранить свой ответ в переменной `name` и использовать его в ответе чатбота?
 
-Your code should work as before: your chatbot should say hello using your name.
+Ваш код должен работать по-прежнему: ваш чатбот должен приветствовать вас, используя ваше имя.
 
-![Testing a 'name' variable](images/chatbot-ask-test.png)
+![Тестирование переменной 'name'](images/chatbot-ask-test.png)
 
-\--- hints \--- \--- hint \--- When the chatbot **sprite is clicked**, it should **ask** for your name. You should then **set** the `name` variable to your **answer**. The chatbot should then **say** "Hi", followed by your **name**. \--- /hint \--- \--- hint \--- Here are the code blocks you'll need: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- Here's how your code should look: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
+\--- hints \--- \--- hint \--- Когда щелчок на чатботе **будет нажат**, он должен **спросить** за ваше имя. Затем вы должны **установить** `Имя` переменной к вашему **ответа**. Chatbot должен тогда **сказать** «Привет», а затем свой **имя**. \--- / hint \--- \--- hint \--- Вот коды, которые вам понадобятся: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- / hint \--- \--- hint \--- Вот как ваши код должен выглядеть: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- / hint \--- \--- / hints \---
 
-\--- /task \---
+\--- / задача \---
 
-\--- challenge \---
+\--- вызов \---
 
-## Challenge: more questions
+## Задача: больше вопросов
 
-Program your chatbot to ask another question. Can you store the answer in a new variable?
+Запросите свой чатбот, чтобы задать другой вопрос. Можете ли вы сохранить ответ в новой переменной?
 
-![More questions](images/chatbot-question.png) \--- /challenge \---
+![Больше вопросов](images/chatbot-question.png) \--- /вызов \---
