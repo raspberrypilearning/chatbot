@@ -1,48 +1,48 @@
-## Your chatbot
+## Ваш чатбот
 
-\--- task \---
+\--- задача \---
 
-Before you start making your chatbot, you need to decide on its personality. **Think about the following questions**:
+Прежде чем вы начнете делать свой чатбот, вам нужно определиться с его личностью. **Подумайте о следующих вопросах**:
 
-    + What is their name?
-    + Where do they live?
-    + Are they happy? Serious? Funny? Shy? Friendly?
+    + Как их зовут?
+    + Где они живут?
+    + Они счастливы? Серьезное? Веселая? Застенчивый? Дружелюбный?
     
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Open a new empty Scratch project.
+Откройте новый пустой проект Scratch.
 
 [[[generic-scratch-new-project]]]
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Choose one of these character sprites, and add them to your project:
+Выберите один из этих символьных спрайтов и добавьте их в свой проект:
 
-![Choose a character](images/chatbot-characters.png)
+![Выберите персонажа](images/chatbot-characters.png)
 
 [[[generic-scratch-sprite-from-library]]]
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
+Выберите фон, который соответствует вашей индивидуальности chatbot. Вот пример, хотя ваш не должен выглядеть так:
 
-![Choose a backdrop](images/chatbot-backdrop.png)
+![Выберите фон](images/chatbot-backdrop.png)
 
 [[[generic-scratch-backdrop-from-library]]]
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Save your project.
+Сохраните свой проект.
 
 [[[generic-scratch-saving]]]
 
-\--- /task \---
+\--- / задача \---
