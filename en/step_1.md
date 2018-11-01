@@ -37,7 +37,7 @@ title: What you will need
 
 ### Downloads
 
-[Downloads can be found here](http://rpf.io/chatbot-go).
+[Downloads can be found here](http://rpf.io/p/en/chatbot-go).
 
 --- /collapse ---
 
