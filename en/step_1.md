@@ -48,7 +48,7 @@ title: What you will learn
 ---
 
 + How to get input from a user
-+ How to use the `if, then, else` Scratch block
++ How to use the `if, then, else`{:class="blockcontrol"} Scratch block
 
 --- /collapse ---
 
