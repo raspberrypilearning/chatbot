@@ -1,3 +1,3 @@
 ## What next?
 
-Try the [Paint Box](https://projects.raspberrypi.org/en/projects/paint-box) project and create your own painting program. 
+Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box) project, where you will create your own painting program!
