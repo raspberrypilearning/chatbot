@@ -1,10 +1,10 @@
 ## A talking chatbot
 
-Now that you have a chatbot with a personality, let's program it to talk to you.
+Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
 --- task ---
 
-Click on your chatbot sprite, and add this code to your chatbot so that `when it's clicked`{:class="blockevents"}, it `asks for your name`{:class="blocksensing"} and then `says "What a lovely name!"`{:class="blocklooks"}.
+Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="blockevents"}, it `asks for your name`{:class="blocksensing"} and then `says "What a lovely name!"`{:class="blocklooks"}.
 
 ![nano sprite](images/nano-sprite.png)
 ```blocks
@@ -17,7 +17,7 @@ say [What a lovely name!] for (2) secs
 
 --- task ---
 
-Click your chatbot to test it out. When you are asked your name, type it into the box along the bottom of the stage.
+Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
 ![Testing a ChatBot response](images/chatbot-ask-test.png)
 
@@ -25,9 +25,9 @@ Click your chatbot to test it out. When you are asked your name, type it into th
 
 --- task ---
 
-Your chatbot simply replies ‘What a lovely name!’ every time. You can personalise your chatbot’s reply, by making use of the user’s answer.
+Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
 
-Change the chatbot’s code to `join`{:class="blockoperators"} "Hi" with the `answer`{:class="blocksensing"} to your question, so that it looks like this:
+Change the chatbot sprite’s code to `join`{:class="blockoperators"} "Hi" with the `answer`{:class="blocksensing"} to the "What's your name?" question, so that the code looks like this:
 
 ![nano sprite](images/nano-sprite.png)
 ```blocks
@@ -42,7 +42,7 @@ say (join [Hi ] (answer)) for (2) secs
 
 --- task ---
 
-If you store the answer in a variable, you’ll be able to make use of it throughout your project.
+By storing the answer in a **variable**, you can use it anywhere your project.
 
 Create a new variable called `name`{:class="blockdata"}.
 
@@ -52,7 +52,7 @@ Create a new variable called `name`{:class="blockdata"}.
 
 --- task ---
 
-Once you’ve created your new variable, edit your chatbot’s code to set the `name`{:class="blockdata"} variable to `answer`{:class="blocksensing"}:
+Now, change your chatbot sprites’s code to set the `name`{:class="blockdata"} variable to `answer`{:class="blocksensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 ```blocks
@@ -62,12 +62,11 @@ set [name v] to (answer)
 say (join [Hi ] (name)) for (2) secs
 ```
 
-Your code should work as before: your chatbot should say hello using your name.
+Your code should work as before: your chatbot should say hi using the name you type in.
 
 ![Testing a 'name' variable](images/chatbot-ask-test.png)
 
 --- /task ---
 
-If you test your program again, you’ll notice that the answer is stored in the `name`{:class="blockdata"} variable, and is shown in the top-left of the stage. (To hide this, just untick the tick-box next to `name`{:class="blockdata"} in the blocks palette.)
-
+Test your program again. Notice that the answer you type in is stored in the `name`{:class="blockdata"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="blockdata"} blocks section and click on the box next to `name`{:class="blockdata"} so that it is not marked.
 
