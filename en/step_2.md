@@ -5,9 +5,9 @@
 Before you start creating your chatbot, you need to decide what its personality is. __Think about the following questions__:
 
 + What is the chatbot's name?
-+ Where do they live?
-+ Are they happy? Serious? Funny? Shy? Friendly?
-+ What do they like and dislike?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 --- /task ---
 
@@ -33,7 +33,7 @@ You can either use the sprite that is already selected, or choose a different on
 
 --- task ---
 
-Save your project.
+Save your Scratch project.
 
 [[[generic-scratch-saving]]]
 
