@@ -2,9 +2,9 @@
 
 --- task ---
 
-Before you start making your chatbot, you need to decide on its personality. __Think about the following questions__:
+Before you start creating your chatbot, you need to decide what its personality is. __Think about the following questions__:
 
-+ What is their name?
++ What is the chatbot's name?
 + Where do they live?
 + Are they happy? Serious? Funny? Shy? Friendly?
 + What do they like and dislike?
@@ -12,34 +12,18 @@ Before you start making your chatbot, you need to decide on its personality. __T
 --- /task ---
 
 --- task ---
+Open the Chatbot Scratch starter project.
 
-Open the starter project.
+Online: open the starter project at [rpf.io/chatbot-starter-on](http://rpf.io/chatbot-starter-on){:target="_blank"}.
 
---- collapse ---
+Offline: download the starter project from [rpf.io/chatbot-starter-off](http://rpf.io/chatbot-starter-off){:target="_blank"} and then open it using the offline editor.
 
----
-title: I'm using Scratch online
----
-
-Open the "Chatbot" starter project at [rpf.io/chatbot-starter-on](http://rpf.io/chatbot-starter-on){:target="_blank"}.
-
---- /collapse ---
-
---- collapse ---
-
----
-title: I'm using Scratch offline
----
-
-Download the "Chatbot" Scratch starter project from [rpf.io/chatbot-starter-off](http://rpf.io/chatbot-starter-off){:target="_blank"} and then open it using the offline editor.
-
---- /collapse ---
-
+If you need to download and install the Scratch offline editor, you can find it at rpf.io/scratchoff.
 --- /task ---
 
 --- task ---
 
-The starter project contains 4 characters, you can either use the sprite selected or choose a different one by **right-clicking** the sprite and selecting **show** or **hide**.
+The starter project contains four character sprites. You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
 
 ![Choose a character](images/chatbot-characters.png)
 
