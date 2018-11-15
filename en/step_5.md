@@ -1,12 +1,12 @@
-## Step 5: Making decisions
+## Making decisions
 
-You can program your chatbot to decide what to do, based on the user’s responses.
+You can program your chatbot to decide what to do based on the answers it receives.
 
-Let’s get your chatbot to ask the user a question which has a yes or no answer.
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
 --- task ---
 
-Your chatbot should ask the question "Are you OK name?", using the `name`{:class="blockdata"} variable and reply "That's great to hear!" `if`{:class="blockcontrol"} the user answers "yes", but say nothing if you answer "no".
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="blockdata"} variable. Then it should reply "That's great to hear!" `if`{:class="blockcontrol"} the answer it receives is "yes", but say nothing if the answer is "no".
 
 ![Testing a chatbot reply](images/chatbot-if-test.png)
 
@@ -22,15 +22,17 @@ if <(answer) = [yes]> then
 end
 ```
 
-To test your new code properly, you should test it __twice__, once with the answer "yes", and once with the answer "no".
+To test your new code properly, you should test it __twice__: once with the answer "yes", and once with the answer "no".
 
 --- /task ---
 
-At the moment your chatbot doesn't doesn't say anything if you answer "no". Lets change your chatbot so that it also replies "Oh no!" if you answer "no" to its question?
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
 
 --- task ---
 
-Replace the `if, then`{:class="blockcontrol"} an `if, then, else`{:class="blockcontrol"} block and include to code to `say "Oh no!"`{:class="blocklooks"}.
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+
+Replace the `if, then`{:class="blockcontrol"} block with an `if, then, else`{:class="blockcontrol"} block, and include code so the chatbot can `say "Oh no!"`{:class="blocklooks"}.
 
 ![nano sprite](images/nano-sprite.png)
 ```blocks
@@ -51,19 +53,21 @@ end
 
 --- task ---
 
-Test your code, you’ll now see that you get a response when you answer yes or no. Your chatbot should reply with ‘That’s great to hear!’ when you answer yes (which is not case-sensitive), but will reply with ‘Oh no!’ if you type anything else.
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
 ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 --- /task ---
 
-You can put any code inside an `if, then, else`{:class="blockcontrol"} block, not just code to make your chatbot speak. If you click your chatbot's **Costume** tab, you'll see that it has more than one costume.
+You can put any code inside an `if, then, else`{:class="blockcontrol"} block, not just code to make your chatbot speak!
+
+If you click your chatbot's **Costume** tab, you'll see that there is more than one costume.
 
 ![chatbot costumes](images/chatbot-costume-view.png)
 
 --- task ---
 
-Now lets change the chatbot's costume to match your response.
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
 ![Testing a changing costume](images/chatbot-costume-test.png)
 
@@ -85,20 +89,20 @@ else
 end
 ```
 
-Test and save. You should see your chatbot's face change depending on your answer.
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
 
 --- /task ---
 
-Have you noticed that your chatbot's costume stays the same that it changed to the last time you spoke to it? 
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning? 
 
-Run your code and type "no", so that your chatbot looks unhappy. When you run your code again, your chatbot should change back to a smiling face before asking your name.
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
 
 ![Costume bug](images/chatbot-costume-bug-test.png)
 
 --- task ---
 
-To fix the problem you need to `switch costume`{:class="blocklooks"} at the start `when the sprite is clicked`{:class="blockevents"}.
+To fix this problem, add to the chatbot's code to `switch costume`{:class="blocklooks"} at the start `when the sprite is clicked`{:class="blockevents"}.
 
 ![nano sprite](images/nano-sprite.png)
 ```blocks
