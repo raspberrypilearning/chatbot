@@ -6,7 +6,7 @@ You are going to learn how to program a character that can talk to you! A charac
 
 --- no-print ---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`).
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -37,7 +37,7 @@ title: What you will need
 
 ### Downloads
 
-[Downloads can be found here](http://rpf.io/p/en/chatbot-go).
+[Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 --- /collapse ---
 
@@ -48,7 +48,7 @@ title: What you will learn
 ---
 
 + How to get input from a user
-+ How to use the `if, then, else` Scratch blocks 
++ How to use the `if, then, else` Scratch block
 
 --- /collapse ---
 
@@ -64,7 +64,7 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-[If you need the solution to this project, you can find it here](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 --- /collapse ---
 
