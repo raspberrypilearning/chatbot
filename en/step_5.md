@@ -63,7 +63,7 @@ You can put any code inside an `if, then, else`{:class="block3control"} block, n
 
 If you click your chatbot's **Costume** tab, you'll see that there is more than one costume.
 
-![chatbot costumes](images/chatbot-costume-view.png)
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 --- task ---
 
