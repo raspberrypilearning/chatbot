@@ -6,12 +6,12 @@ First, you're going to make your chatbot ask a question that can be answered wit
 
 --- task ---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="blockdata"} variable. Then it should reply "That's great to hear!" `if`{:class="blockcontrol"} the answer it receives is "yes", but say nothing if the answer is "no".
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
 ![Testing a chatbot reply](images/chatbot-if-test.png)
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
+```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
 set [name v] to (answer)
@@ -32,10 +32,10 @@ At the moment, your chatbot doesn't doesn't say anything to the answer "no".
 
 Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
 
-Replace the `if, then`{:class="blockcontrol"} block with an `if, then, else`{:class="blockcontrol"} block, and include code so the chatbot can `say "Oh no!"`{:class="blocklooks"}.
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
+```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
 set [name v] to (answer)
@@ -59,7 +59,7 @@ Test your code. You should get a different response when you answer "no" and whe
 
 --- /task ---
 
-You can put any code inside an `if, then, else`{:class="blockcontrol"} block, not just code to make your chatbot speak!
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
 
 If you click your chatbot's **Costume** tab, you'll see that there is more than one costume.
 
@@ -71,10 +71,10 @@ Change your chatbot's code so that the chatbot switches costumes when you type i
 
 ![Testing a changing costume](images/chatbot-costume-test.png)
 
-Change the code inside the `if, then, else`{:class="blockcontrol"} block to `switch costume`{:class="blocklooks"}.
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
+```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
 set [name v] to (answer)
@@ -102,10 +102,10 @@ You can try this out: run your code and answer "no" so that your chatbot's face 
 
 --- task ---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="blocklooks"} at the start `when the sprite is clicked`{:class="blockevents"}.
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
+```blocks3
 when this sprite clicked
 switch costume to [nano-b v]
 ask [What's your name?] and wait

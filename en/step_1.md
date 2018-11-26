@@ -1,3 +1,9 @@
+--- no-print ---
+
+This is the Scratch 3 version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+--- /no-print ---
+
 ## Introduction
 
 You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
@@ -48,7 +54,7 @@ title: What you will learn
 ---
 
 + How to get input from a user
-+ How to use the `if, then, else`{:class="blockcontrol"} Scratch block
++ How to use the `if, then, else`{:class="block3control"} Scratch block
 
 --- /collapse ---
 

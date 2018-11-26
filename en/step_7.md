@@ -12,7 +12,7 @@ Can you program your chatbot to ask "Do you want to go to the moon", and then ch
 
 --- hint ---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="blocksensing"}, and `if`{:class="blockcontrol"} you `answer`{:class="blocksensing"} "yes", it should `switch the backdrop to the moon`{:class="blocklooks"}.
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
 --- /hint ---
 
@@ -21,7 +21,7 @@ Your chatbot should `ask "Do you want to go to the moon?"`{:class="blocksensing"
 Here are the code blocks you need to add to your chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
+```blocks3
 switch backdrop to [moon v]
 
 ask [Do you want to go to the moon?] and wait
@@ -37,7 +37,7 @@ end
 
 This is what your code should look like:
 
-```blocks
+```blocks3
 ask [Do you want to go to the moon?] and wait
 if <(answer) = [yes]> then 
   switch backdrop to [moon v]
@@ -55,7 +55,7 @@ end
 Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
+```blocks3
 when this sprite clicked
 switch backdrop to [space v]
 ```
@@ -70,10 +70,10 @@ Test your program, and answer "yes" when the chatbot asks if you want to go to t
 
 --- task ---
 
-You can also add the following code inside the new `if`{:class="blockcontrol"} block to make the chatbot jump up and down four times if you answer "yes":
+You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
+```blocks3
 if <(answer) = [yes]> then 
   switch backdrop to [moon v]
   repeat (4) 

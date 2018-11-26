@@ -35,7 +35,7 @@ You can either use the sprite that is already selected, or choose a different on
 
 Save your Scratch project.
 
-[[[generic-scratch-saving]]]
+[[[generic-scratch3-saving]]]
 
 --- /task ---
 
