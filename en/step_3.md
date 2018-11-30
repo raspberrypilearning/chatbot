@@ -19,7 +19,9 @@ say [What a lovely name!] for (2) secs
 
 Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
-![Testing a ChatBot response](images/chatbot-ask-test.png)
+![Testing a ChatBot response](images/chatbot-ask-test1.png)
+
+![Testing a ChatBot response](images/chatbot-ask-test2.png)
 
 --- /task ---
 
@@ -64,7 +66,7 @@ say (join [Hi ] (name)) for (2) secs
 
 Your code should work as before: your chatbot should say hi using the name you type in.
 
-![Testing a 'name' variable](images/chatbot-ask-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 --- /task ---
 

@@ -39,11 +39,11 @@ title: What you will need
 
 ### Software
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/download/))
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
-[Find files to download here](http://rpf.io/p/en/chatbot-go).
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 --- /collapse ---
 
