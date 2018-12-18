@@ -87,10 +87,10 @@ set [name v] to (answer)
 say (join [Hi ] (name)) for (2) secs
 ask (join [Are you OK ] (name)) and wait
 if <(answer) = [yes]> then 
-  switch costume to [nano-c v]
+  switch costume to (nano-c v)
   say [That's great to hear!] for (2) secs
 else 
-  switch costume to [nano-d v]
+  switch costume to (nano-d v)
   say [Oh no!] for (2) secs
 end
 ```
@@ -113,7 +113,7 @@ To fix this problem, add to the chatbot's code to `switch costume`{:class="block
 ![nano sprite](images/nano-sprite.png)
 ```blocks3
 when this sprite clicked
-switch costume to [nano-a v]
+switch costume to (nano-a v)
 ask [What's your name?] and wait
 ```
 

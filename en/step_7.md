@@ -22,7 +22,7 @@ Here are the code blocks you need to add to your chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
 ```blocks3
-switch backdrop to [moon v]
+switch backdrop to (moon v)
 
 ask [Do you want to go to the moon?] and wait
 
@@ -40,7 +40,7 @@ This is what your code should look like:
 ```blocks3
 ask [Do you want to go to the moon?] and wait
 if <(answer) = [yes]> then 
-  switch backdrop to [moon v]
+  switch backdrop to (moon v)
 end
 ```
 
@@ -57,7 +57,7 @@ Now you need to make sure that your chatbot starts in the right location when yo
 ![nano sprite](images/nano-sprite.png)
 ```blocks3
 when this sprite clicked
-switch backdrop to [space v]
+switch backdrop to (space v)
 ```
 
 --- /task ---
@@ -75,7 +75,7 @@ You can also add the following code inside the new `if`{:class="block3control"} 
 ![nano sprite](images/nano-sprite.png)
 ```blocks3
 if <(answer) = [yes]> then 
-  switch backdrop to [moon v]
+  switch backdrop to (moon v)
   repeat (4) 
     change y by (10)
     wait (0.1) secs
