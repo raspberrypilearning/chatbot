@@ -17,10 +17,10 @@ Change your chatbot's code. Your chatbot should ask the question "Are you OK nam
 when this sprite clicked
 ask [What's your name?] and wait
 set [name v] to (answer)
-say (join [Hi ] (name)) for (2) secs
+say (join [Hi ] (name)) for (2) seconds
 ask (join [Are you OK ] (name)) and wait
 if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) secs
+  say [That's great to hear!] for (2) seconds
 end
 ```
 
@@ -41,12 +41,12 @@ Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:c
 when this sprite clicked
 ask [What's your name?] and wait
 set [name v] to (answer)
-say (join [Hi ] (name)) for (2) secs
+say (join [Hi ] (name)) for (2) seconds
 ask (join [Are you OK ] (name)) and wait
 if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) secs
+  say [That's great to hear!] for (2) seconds
 else 
-  say [Oh no!] for (2) secs
+  say [Oh no!] for (2) seconds
 end
 ```
 
@@ -84,14 +84,14 @@ Change the code inside the `if, then, else`{:class="block3control"} block to `sw
 when this sprite clicked
 ask [What's your name?] and wait
 set [name v] to (answer)
-say (join [Hi ] (name)) for (2) secs
+say (join [Hi ] (name)) for (2) seconds
 ask (join [Are you OK ] (name)) and wait
 if <(answer) = [yes]> then 
   switch costume to (nano-c v)
-  say [That's great to hear!] for (2) secs
+  say [That's great to hear!] for (2) seconds
 else 
   switch costume to (nano-d v)
-  say [Oh no!] for (2) secs
+  say [Oh no!] for (2) seconds
 end
 ```
 

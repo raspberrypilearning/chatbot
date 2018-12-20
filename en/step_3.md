@@ -10,7 +10,7 @@ Click on your chatbot sprite, and add this code to it so that `when it's clicked
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
-say [What a lovely name!] for (2) secs
+say [What a lovely name!] for (2) seconds
 ```
 
 --- /task ---
@@ -35,7 +35,7 @@ Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
-say (join [Hi ] (answer)) for (2) secs
+say (join [Hi ] (answer)) for (2) seconds
 ```
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
@@ -61,7 +61,7 @@ Now, change your chatbot sprites’s code to set the `name`{:class="block3variab
 when this sprite clicked
 ask [What's your name?] and wait
 set [name v] to (answer)
-say (join [Hi ] (name)) for (2) secs
+say (join [Hi ] (name)) for (2) seconds
 ```
 
 Your code should work as before: your chatbot should say hi using the name you type in.
