@@ -16,7 +16,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
-  frameborder="0"></iframe>
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
 --- /no-print ---
