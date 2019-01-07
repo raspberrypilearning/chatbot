@@ -21,7 +21,7 @@ Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing
 Here are the code blocks you need to add to your chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
-![blocks_1545295833_9687774](images/blocks_1545295833_9687774.png)
+![blocks_1546846799_9962604](images/blocks_1546846799_9962604.png)
 
 --- /hint ---
 
@@ -29,7 +29,7 @@ Here are the code blocks you need to add to your chatbot code.
 
 This is what your code should look like:
 
-![blocks_1545295835_1282334](images/blocks_1545295835_1282334.png)
+![blocks_1546846801_668789](images/blocks_1546846801_668789.png)
 
 --- /hint ---
 
@@ -42,7 +42,7 @@ This is what your code should look like:
 Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
 ![nano sprite](images/nano-sprite.png)
-![blocks_1545295836_226189](images/blocks_1545295836_226189.png)
+![blocks_1546846803_343815](images/blocks_1546846803_343815.png)
 
 --- /task ---
 
@@ -57,6 +57,6 @@ Test your program, and answer "yes" when the chatbot asks if you want to go to t
 You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
 ![nano sprite](images/nano-sprite.png)
-![blocks_1545295837_3304698](images/blocks_1545295837_3304698.png)
+![blocks_1546846805_0038474](images/blocks_1546846805_0038474.png)
 
 --- /task ---
