@@ -1,39 +1,5 @@
-## स्थान बदलना
+## Challenge: more decisions
 
-आप अपने चैटबॉट को अपना स्थान बदलने के लिए भी कोड कर सकते हैं।
+Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
 
-\--- task \---
-
-अपने चरण में एक और पृष्ठभूमि(backdrop) जोड़ें, उदाहरण के लिए 'चंद्रमा' पृष्ठभूमि।
-
-!['चंद्रमा' पृष्ठभूमि जोड़ना](images/chatbot-moon.png)
-
-\--- /task \---
-
-\--- task \---
-
-क्या आप अपने चैटबॉट को "Would you like to go to the moon?" पूछने के लिए कोड कर सकते हैं और फिर यदि आपका उत्तर "yes है, तो स्थान बदल दें?
-
-परीक्षण करें और सहेजें। यदि आप "हाँ" उत्तर देते हैं, तो आपके चैटबॉट को स्थान बदलना चाहिए। कोई अन्य उत्तर देने पर आपके चैटबॉट को दुखी होकर "OK...bye!" कहना चाहिए।
-
-![पृष्ठभूमि बदलने का परीक्षण करना](images/chatbot-backdrop-test.png)
-
-\--- hints \--- \--- hint \--- आपके चैटबॉट को "Would you like to go to the moon?" **पूछना** चाहिए। **अगर** आपका उत्तर "yes" है, तो आपके चैटबॉट को खुश दिखने के लिए **पोशाक बदलनी** चाहिए और स्टेज की **पृष्ठभूमि** बदलनी चाहिए।
-
-यदि आपका उत्तर "no" है, तो चैटबॉट को दुखी दिखाई देने के लिए **पोशाक बदलनी** होगी और **कहना** होगा "OK...bye!"
-
-**क्लिक होने पर** चैटबॉट को सही स्थान पर आरम्भ करने के लिए भी आपको कोड जोड़ना होगा। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for changing the backdrop](images/chatbot-backdrop-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for changing the backdrop](images/chatbot-backdrop-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-क्या आप अपने चैटबॉट में ऐसा कोड जोड़ सकते हैं कि जब आप इसे चाँद पर जाने को बताएँ तो यह ख़ुशी से कूदने लग जाए?
-
-परीक्षण करें और सहेजें। यदि आप "yes" कहते हैं, तो आपके चैटबॉट को उपर-नीचे कूदना चाहिए। किसी अन्य उत्तर मिलने पर आपके चैटबॉट को कूदना नहीं चाहिए।
-
-![कूदते चैटबॉट का परीक्षण करना](images/chatbot-jump-test.png)
-
-\--- hints \--- \--- hint \--- आपके चैटबॉट को थोड़ी सी मात्रा में **y स्थिति** में **परिवर्तन** करके कूदना चाहिए, और फिर छोटी **प्रतीक्षा** के बाद अपनी स्थिति में वापस आ जाना चाहिए। आप इसे कुछ बार **दोहराना** चाह सकते हैं। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a jumping ChatBot](images/chatbot-jump-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a jumping ChatBot](images/chatbot-jump-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
+![screenshot](images/chatbot-joke.png)
