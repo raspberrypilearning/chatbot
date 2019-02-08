@@ -2,19 +2,9 @@
 title: Robot koji razgovara
 hero_image: images/chatbot.png
 description: Nauči kako da programiraš sopstvenog robota koji govori!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: ''
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
+copyedit: false
 version: 4.1.0
 last_tested: 2017-01-01
 steps:
@@ -25,10 +15,17 @@ steps:
   - 
     title: Tvoj robot koji razgovara
   - 
-    title: Pričljivi robot
+    title: "Pričljivi robot"
+    challenge: true
   - 
     title: Donošenje odluka
   - 
-    title: Promjena lokacije
+    title: "Promjena lokacije"
+    challenge: true
   - 
     title: 'Izazov: dovrši svog robota'
+  - 
+    title: "Challenge: finish your chatbot"
+    challenge: true
+  - 
+    title: What next?
