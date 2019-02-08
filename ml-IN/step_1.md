@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## ആമുഖം
 
-നിങ്ങളുടെ സ്വന്തം സംസാരിക്കുന്ന റോബോട്ട് പ്രോഗ്രാം എങ്ങനെ പഠിക്കാമെന്ന് അറിയാൻ പോകുന്നു!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### നിങ്ങൾ എന്ത് ചെയ്യും
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-ഒരു പച്ച ഫ്ലാഗ് ക്ലിക്കുചെയ്യുക, തുടർന്ന് സംഭാഷണം ആരംഭിക്കുന്നതിന് ചാറ്റ്ബോട്ട് ക്ലിക്കുചെയ്യുക. ചാറ്റ്ബോട്ട് ഒരു ചോദ്യം ചോദിക്കുമ്പോൾ, സ്റ്റേജിന്റെ താഴെയുള്ള ബോക്സിലേക്ക് നിങ്ങളുടെ ഉത്തരം ടൈപ്പുചെയ്യുക, തുടർന്ന് ടിക് ക്ലിക്കുചെയ്യുക (അല്ലെങ്കിൽ `Enter നൽകുക`).
+\--- /no-print \---
 
-### നിങ്ങൾ എന്തു പഠിക്കും
+\--- print-only \---
 
-[റാസ്പ്ബെറി പി ഡിജിറ്റൽ മെയ്ക്കിംഗ് കരിക്കുലം](http://rpf.io/curriculum) താഴെ പറയുന്ന ഫങ്ഷനുകളിൽ നിന്നുള്ള ഘടകങ്ങളെ ഈ പദ്ധതി ഉൾക്കൊള്ളുന്നു:
+![complete project](images/chatbot-preview.png)
 
-+ [ലളിതമായ പ്രോഗ്രാമുകൾ സൃഷ്ടിക്കാൻ അടിസ്ഥാന പരിപാടികൾ ഉപയോഗിക്കുക.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### ക്ലബ് നേതാക്കൾക്ക് കൂടുതൽ വിവരങ്ങൾ
+\--- collapse \---
 
-നിങ്ങൾക്ക് ഈ പ്രോജക്റ്റ് പ്രിന്റുചെയ്യണമെങ്കിൽ, ദയവായി [പ്രിന്റർ സൗഹൃദ പതിപ്പ്](https://projects.raspberrypi.org/en/projects/chatbot/print) ഉപയോഗിക്കുക.
+* * *
 
-## \--- ചുരുക്കുക \---
+## title: What you will need
 
-## title: ക്ലബ് നേതാവ് കുറിപ്പുകൾ
+### Hardware
 
-## ആമുഖം:
++ Computer capable of running Scratch 3
 
-ഈ പദ്ധതിയിൽ, കുട്ടികൾ അവരുടെ പ്രോഗ്രാമിൽ തീരുമാനമെടുക്കാൻ 'if' സ്റ്റേറ്റ്മെന്റുകൾ എങ്ങനെ ഉപയോഗിക്കും എന്ന് പഠിക്കും.
+### Software
 
-## വിഭവങ്ങൾ
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-ഈ പ്രോജക്റ്റിനായി, സ്ക്രിച്ച് 2 ഉപയോഗിക്കണം. Scratch 2 can either be used online at [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) or can be downloaded from [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) and used offline.
+### Downloads
 
-[ഓൺലൈനിൽ](http://scratch.mit.edu/projects/26762091/#editor)ഈ പ്രോജക്റ്റിന്റെ പൂർത്തീകരിച്ച പതിപ്പ് നിങ്ങൾക്ക് കണ്ടെത്താം അല്ലെങ്കിൽ ഈ പ്രോജക്റ്റിനായുള്ള 'പ്രോജക്ട് മെറ്റീരിയലുകൾ' ലിങ്ക് ക്ലിക്കുചെയ്തുകൊണ്ട് ഇത് ഡൌൺലോഡ് ചെയ്യാൻ കഴിയും, അതിൽ അടങ്ങിയിരിക്കുന്നവ:
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
-+ ChatBot.sb2
+\--- /collapse \---
 
-## പഠന ലക്ഷ്യങ്ങൾ
+\--- collapse \---
 
-+ ടെക്സ്റ്റ് ഇൻപുട്ട്;
-+ തീരുമാനങ്ങൾ: 
-    + `എങ്കിൽ ... തുടർന്ന്`{class = "blockcontrol"} സ്റ്റേറ്റ്മെന്റുകൾ;
-    + `എങ്കിൽ ... പിന്നെ ...`{class = "blockcontrol"} സ്റ്റേറ്റ്മെന്റുകൾ.
+* * *
 
-[റാസ്പ്ബെറി പി ഡിജിറ്റൽ മെയ്ക്കിംഗ് കരിക്കുലം](http://rpf.io/curriculum) താഴെ പറയുന്ന ഫങ്ഷനുകളിൽ നിന്നുള്ള ഘടകങ്ങളെ ഈ പദ്ധതി ഉൾക്കൊള്ളുന്നു:
+## title: What you will learn
 
-+ [ലളിതമായ പ്രോഗ്രാമുകൾ സൃഷ്ടിക്കാൻ അടിസ്ഥാന പരിപാടികൾ ഉപയോഗിക്കുക.](https://www.raspberrypi.org/curriculum/programming/creator)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
 
-## വെല്ലുവിളികൾ
+\--- /collapse \---
 
-+ "കൂടുതൽ ചോദ്യങ്ങൾ" - ഇൻപുട്ടിനെ കുറിച്ചുള്ള ബോധവൽക്കരണം, `ഉത്തരം`{class = "blocksensing"} തടയൽ;
-+ "കൂടുതൽ തീരുമാനങ്ങൾ" - തീരുമാനങ്ങൾ ഉപയോഗിച്ച്;
-+ "നിങ്ങളുടെ സ്വന്തം ചാറ്റ്ബോട്ട് ഉണ്ടാക്കുക" - ഇതിനെക്കുറിച്ചും കഴിഞ്ഞകാല പ്രോജക്ടുകൾ പഠിക്കുന്നതിനെയും ദൃഢപ്പെടുത്തൽ.
+\--- collapse \---
 
-\--- / collapse \---
+* * *
 
-## \--- ചുരുക്കുക \---
+## title: Additional notes for educators
 
-## തലക്കെട്ട്: പ്രോജക്ട് മെറ്റീരിയലുകൾ
+\--- no-print \---
 
-## ക്ലബ് നേറ്റർ ഉറവിടങ്ങൾ
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-+ [ഡൗൺലോഡ് ചെയ്യാനാകുന്ന സ്ക്രാച്ച് 2 പ്രോജക്റ്റ്](resources/ChatBot.sb2)
-+ [ഓൺലൈൻ പൂർത്തിയായി സ്ക്രാച്ച് 2 പ്രോജക്റ്റ്](http://scratch.mit.edu/projects/26762091/#editor)
+\--- /no-print \---
 
-\--- / collapse \---
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+
+\--- /collapse \---
