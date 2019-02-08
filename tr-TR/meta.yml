@@ -2,33 +2,30 @@
 title: chatbot
 hero_image: images / chatbot.png
 description: Kendi konuşan robotunuzu nasıl programlayacağınızı öğrenin!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: menekşe
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, tasarım-0, programlama-1, fiz-comp-0, üretim-0, topluluk-0
-interests: ''
-technology: çizik
-site_areas: projeler
-technologies: çizik
-hardware: ''
-software: çizik
-version: 4.1.0
-last_tested: 2017/01/01
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
     title: Giriş
   - 
-    title: Neye ihtiyacınız olacak?
+    title: Your chatbot
   - 
-    title: Chatbot’unuz
+    title: A talking chatbot
   - 
-    title: Konuşan bir chatbot
+    title: "Challenge: more questions"
+    challenge: true
   - 
     title: Karar vermek
   - 
-    title: Konumu değiştiriliyor
+    title: "Challenge: more decisions"
+    challenge: true
   - 
-    title: 'Mücadelesi: chatbot''unuzu bitirin'
+    title: Changing location
+  - 
+    title: "Challenge: finish your chatbot"
+    challenge: true
+  - 
+    title: What next?
