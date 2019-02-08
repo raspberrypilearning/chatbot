@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## Pengenalan
 
-Anda akan belajar bagaimana untuk memprogram robot bercakap anda sendiri!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Apa yang anda akan buat
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Klik bendera hijau, dan kemudian klik chatbot untuk memulakan perbualan. Apabila chatbot bertanyakan soalan, ketik jawapan anda ke dalam kotak di bahagian bawah Peringkat dan klik tanda semak (atau tekan `Enter`).
+\--- /no-print \---
 
-### Apa yang akan anda pelajari
+\--- print-only \---
 
-Projek ini merangkumi unsur-unsur dari helaian berikut [Kurikulum Pembuatan Digital Raspberry Pi](http://rpf.io/curriculum):
+![complete project](images/chatbot-preview.png)
 
-+ [Gunakan pembentukan pengaturcaraan asas untuk membuat program mudah.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### Maklumat tambahan untuk pemimpin kelab
+\--- collapse \---
 
-Jika anda perlu mencetak projek ini, sila gunakan [versi mesra pencetak](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## \--- runtuh \---
+## title: What you will need
 
-## tajuk: nota pemimpin club
+### Hardware
 
-## Pengenalan:
++ Computer capable of running Scratch 3
 
-Dalam projek ini, kanak-kanak akan belajar bagaimana menggunakan 'if' statements untuk membuat keputusan dalam program mereka.
+### Software
 
-## Sumber
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-Untuk projek ini, Scratch 2 harus digunakan. Scratch 2 boleh digunakan dalam talian di [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) atau boleh dimuat turun dari [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) dan digunakan di luar talian.
+### Downloads
 
-Anda boleh mencari versi lengkap projek ini [dalam talian](http://scratch.mit.edu/projects/26762091/#editor), atau boleh dimuat turun dengan mengklik pautan 'Bahan Bahan' untuk projek ini, yang mengandungi:
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
-+ ChatBot.sb2
+\--- /collapse \---
 
-## Objektif Pembelajaran
+\--- collapse \---
 
-+ Input teks;
-+ Keputusan: 
-    + `jika ... maka`{: class = "blockcontrol"} pernyataan;
-    + `jika ... maka ... else`{: class = "blockcontrol"} pernyataan.
+* * *
 
-Projek ini merangkumi unsur-unsur dari helaian berikut [Kurikulum Pembuatan Digital Raspberry Pi](http://rpf.io/curriculum):
+## title: What you will learn
 
-+ [Gunakan pembentukan pengaturcaraan asas untuk membuat program mudah.](https://www.raspberrypi.org/curriculum/programming/creator)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
 
-## Cabaran
+\--- /collapse \---
 
-+ "Lebih banyak soalan" - menyatukan pembelajaran input dan jawapan ``{: class = "blockinging"};
-+ "Lebih banyak keputusan" - menggunakan keputusan;
-+ "Buat chatbot anda sendiri" - penyatuan pembelajaran dari projek ini dan lepas.
+\--- collapse \---
 
-\--- / runtuh \---
+* * *
 
-## \--- runtuh \---
+## title: Additional notes for educators
 
-## tajuk: Bahan projek
+\--- no-print \---
 
-## Sumber pemimpin klub
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-+ [Muat turun projek Scratch 2 yang lengkap](resources/ChatBot.sb2)
-+ [Projek siap Scratch 2 dalam talian](http://scratch.mit.edu/projects/26762091/#editor)
+\--- /no-print \---
 
-\--- / runtuh \---
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+
+\--- /collapse \---
