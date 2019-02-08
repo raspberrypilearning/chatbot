@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## Giới thiệu
 
-Bạn sẽ học cách lập trình robot biết trò chuyện của riêng mình!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Những gì bạn sẽ làm
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Nhấp vào lá cờ màu xanh, sau đó nhấp vào chatbot để bắt đầu cuộc trò chuyện. Khi chatbot hỏi một câu hỏi, gõ câu trả lời của bạn vào hộp ở dưới cùng của Sân khấu và nhấp vào dấu tích (hoặc nhấn `Enter`).
+\--- /no-print \---
 
-### Những gì bạn sẽ học
+\--- print-only \---
 
-Dự án này bao gồm các nội dung sau từ chương trình [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+![complete project](images/chatbot-preview.png)
 
-+ [Sử dụng các cấu trúc lập trình cơ bản để tạo các chương trình đơn giản.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### Thông tin bổ sung cho các lãnh đạo câu lạc bộ
+\--- collapse \---
 
-Nếu bạn cần in dự án này, vui lòng sử dụng [Phiên bản thân thiện với máy in](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## \--- collapse \---
+## title: What you will need
 
-## title: Ghi chú dành cho lãnh đạo câu lạc bộ
+### Hardware
 
-## Giới thiệu:
++ Computer capable of running Scratch 3
 
-Trong dự án này, trẻ sẽ học cách sử dụng câu lệnh 'if' (nếu) để đưa ra quyết định trong chương trình của mình.
+### Software
 
-## Tài liệu liên quan
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-Đối với dự án này, Scratch 2 nên được sử dụng. Scratch 2 có thể được sử dụng trực tuyến tại [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) hoặc có thể tải xuống từ [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) và sử dụng ngoại tuyến.
+### Downloads
 
-Bạn có thể tìm thấy phiên bản hoàn thiện của dự án này [trực tuyến](http://scratch.mit.edu/projects/26762091/#editor)hoặc có thể tải xuống bằng cách nhấp vào liên kết 'Tài liệu Dự án' cho dự án này, trong đó có:
-
-+ ChatBot.sb2
-
-## Mục tiêu học tập
-
-+ Nhập văn bản;
-+ Quyết định: 
-    + Câu lệnh `nếu ... thì`{:class="blockcontrol"};
-    + Câu lệnh `nếu ... thì ... còn không thì`{:class="blockcontrol"}.
-
-Dự án này bao gồm các nội dung sau từ chương trình [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Sử dụng các cấu trúc lập trình cơ bản để tạo các chương trình đơn giản.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## Thử thách
-
-+ "Các câu hỏi khác" - củng cố kiến thức về cách nhập văn bản và sử dụng khối code `trả lời`{:class="blocksensing"};
-+ "Các quyết định khác" - sử dụng các quyết định;
-+ "Tạo chatbot của riêng bạn" - củng cố kiến thức từ dự án này và các dự án trước.
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+\--- collapse \---
 
-## title: Tài liệu và tài nguyên cho dự án
+* * *
 
-## Tài liệu và tài nguyên cho lãnh đạo câu lạc bộ
+## title: What you will learn
 
-+ [Dự án Scratch 2 đã hoàn thiện có thể tải xuống](resources/ChatBot.sb2)
-+ [Dự án Scratch 2 đã hoàn thiện trực tuyến](http://scratch.mit.edu/projects/26762091/#editor)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
