@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## Uvod
 
-Naučićeš kako da programiraš sopstvenog robota koji govori!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Šta ćeš napraviti
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Klikni na zelenu zastavicu, a zatim klikni na robota da započneš razgovor. Kada ti robot postavi pitanje, upiši svoj odgovor u okvir koji se nalazi na dnu Pozornice, a zatim klikni na kvačicu (ili pritisni `Enter`).
+\--- /no-print \---
 
-### Šta ćeš naučiti
+\--- print-only \---
 
-Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+![complete project](images/chatbot-preview.png)
 
-+ [Koristite osnovne programske konstrukcije za kreiranje jednostavnih programa.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### Dodatne informacije za vođe kluba
+\--- collapse \---
 
-Ukoliko je potrebno da odštampate ovaj projekat, koristite [Verziju za štampu](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## \--- collapse \---
+## title: What you will need
 
-## title: Bilješke za vođe kluba
+### Hardware
 
-## Uvod:
++ Computer capable of running Scratch 3
 
-U ovom projektu djeca će naučiti kako da koriste naredbe 'if' ('ako') za donošenje odluka u svojim programima.
+### Software
 
-## Izvori
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-Za ovaj projekat koristite Scratch 2. Scratch 2 možete koristiti online na [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ili ga preuzeti sa [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) i koristiti offline.
+### Downloads
 
-Završenu verziju projekta možete naći [online](http://scratch.mit.edu/projects/26762091/#editor) ili preuzeti klikom na link 'Project Materials', koji sadrži:
-
-+ ChatBot.sb2
-
-## Ciljevi učenja
-
-+ Unošenje teksta;
-+ Odluke: 
-    + `if ... then`{:class="blockcontrol"} (ako ... onda) naredbe;
-    + `if ... then ... else`{:class="blockcontrol"} (ako ... onda ... inače) naredbe.
-
-Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Koristite osnovne programske konstrukcije za kreiranje jednostavnih programa.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## Izazovi
-
-+ "Više pitanja" - utvrđivanje znanja o unosu podataka i bloku `answer`{:class="blocksensing"} (odgovor);
-+ "Više odluka" - korišćenje odluka;
-+ "Napravi svog robota koji razgovara" - utvrđivanje znanja iz ovog i prethodnih projekata.
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+\--- collapse \---
 
-## title: Projektni materijali
+* * *
 
-## Izvori za vođe kluba
+## title: What you will learn
 
-+ [Završen Scratch 2 projekat koji se može preuzeti](resources/ChatBot.sb2)
-+ [Završen Scratch 2 projekat online](http://scratch.mit.edu/projects/26762091/#editor)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
