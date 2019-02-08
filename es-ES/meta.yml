@@ -2,19 +2,9 @@
 title: Chatbot
 hero_image: images/chatbot.png
 description: '¡Aprende a programar tu propio robot que habla!'
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: ''
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
+copyedit: false
 version: 4.1.0
 last_tested: 2017-01-01
 steps:
@@ -25,10 +15,17 @@ steps:
   - 
     title: Tu chatbot
   - 
-    title: Un chatbot hablante
+    title: "Un chatbot parlanchín"
+    challenge: true
   - 
     title: Tomando decisiones
   - 
-    title: Cambio de ubicación
+    title: "Cambio de posición"
+    challenge: true
   - 
-    title: 'Desafío: finaliza tu chatbot'
+    title: 'Desafío: termina tu chatbot'
+  - 
+    title: "Challenge: finish your chatbot"
+    challenge: true
+  - 
+    title: What next?
