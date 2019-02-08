@@ -2,33 +2,30 @@
 title: Chatbot
 hero_image: imej / chatbot.png
 description: Ketahui bagaimana untuk memprogram robot bercakap anda sendiri!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: ungu
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, reka bentuk-0, pengaturcaraan-1, phys-comp-0, pembuatan-0, komuniti-0
-interests: ''
-technology: awal
-site_areas: projek
-technologies: awal
-hardware: ''
-software: awal
-version: 4.1.0
-last_tested: 2017-01-01
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
     title: Pengenalan
   - 
-    title: Apa yang anda perlukan
+    title: Your chatbot
   - 
-    title: Chatbot anda
+    title: A talking chatbot
   - 
-    title: Sembang ceramah bercakap
+    title: "Challenge: more questions"
+    challenge: true
   - 
     title: Membuat keputusan
   - 
-    title: Menukar lokasi
+    title: "Challenge: more decisions"
+    challenge: true
   - 
-    title: 'Cabaran: selesai chatbot anda'
+    title: Changing location
+  - 
+    title: "Challenge: finish your chatbot"
+    challenge: true
+  - 
+    title: What next?
