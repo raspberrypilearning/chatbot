@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## מבוא
 
-אתם הולכים ללמוד איך לתכנת רובוט מדבר משלכם!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### מה תכינו
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-לחצו על הדגל הירוק, ואז לחצו על הצ'אטבוט כדי להתחיל שיחה. כאשר הצ'אטבוט שואל שאלה, הקלידו את תשובתכם לתיבה בתחתית הבמה ולחצו על הסמן (או הקישו Enter).
+\--- /no-print \---
 
-### מה תלמדו
+\--- print-only \---
 
-פרויקט זה מכסה את הנושאים הבאים של [ תוכנית הלימודים הדיגיטלית של רספברי פי ](http://rpf.io/curriculum):
+![complete project](images/chatbot-preview.png)
 
-+ [השתמש במבני תכנות בסיסיים כדי ליצור תוכניות פשוטות.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### מידע נוסף למורי המועדון
+\--- collapse \---
 
-אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## \--- collapse \---
+## title: What you will need
 
-## title: Club leader notes
+### Hardware
 
-## מבוא:
++ Computer capable of running Scratch 3
 
-בפרויקט זה, ילדים ילמדו כיצד להשתמש בהצהרות 'If' כדי לקבל החלטות בתוכניות שלהם.
+### Software
 
-## מקורות
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-עבור פרויקט זה, יש להשתמש ב- Scratch 2. ניתן להשתמש ב- Scratch 2 באופן מקוון ב- [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) או ניתן להוריד מ [ jumpto.cc/scratch-off ](http://jumpto.cc/scratch-off) ולהשתמש במצב לא מקוון.
+### Downloads
 
-תוכלו למצוא גרסה מלאה של פרוייקט זה [ ברשת ](http://scratch.mit.edu/projects/26762091/#editor), או ניתן להוריד אותה על ידי לחיצה על הקישור 'חומרים פרויקט' לפרויקט זה, אשר מכיל:
-
-+ ChatBot.sb2
-
-## מטרות למידה
-
-+ קלט טקסט;
-+ החלטות: 
-    + ` If ... ` {: class = "blockcontrol"} הצהרות;
-    + `if ... then ... else`{:class="blockcontrol"} הצהרות.
-
-פרויקט זה מכסה את הנושאים הבאים של [ תוכנית הלימודים הדיגיטלית של רספברי פי ](http://rpf.io/curriculum):
-
-+ [השתמש במבני תכנות בסיסיים כדי ליצור תוכניות פשוטות.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## אתגרים
-
-+ "שאלות נוספות" - איחוד הלמידה של קלט ובלוק `התשובות`{:class="blocksensing"};
-+ "החלטות נוספות" - שימוש בהחלטות;
-+ "צור צ'אטבוט משלך" - איחוד של למידה זו בעבר פרויקטים.
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+\--- collapse \---
 
-## title: Project materials
+* * *
 
-## משאבים למורה המועדון
+## title: What you will learn
 
-+ [פרוייקט Scratch 2 המלא להורדה](resources/ChatBot.sb2)
-+ [פרוייקט Scratch 2 המלא ברשת](http://scratch.mit.edu/projects/26762091/#editor)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
