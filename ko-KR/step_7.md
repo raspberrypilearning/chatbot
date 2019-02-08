@@ -1,9 +1,93 @@
-\--- challenge \---
+## Changing location
 
-## 도전 과제: 챗봇 완성하기
+You can also program your chatbot to change its location!
 
-그동안 배운 것들을 활용해서 챗봇을 완성하십시오. 다음은 몇 가지 아이디어 입니다:
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
-![챗봇 아이디어](images/chatbot-ideas.png)
+\--- task \---
 
-챗봇을 완성하고 나면, 친구들을 불러 챗봇과 이야기 나누도록 해보십시오. 친구들이 당신의 챗봇 캐릭터를 좋아합니까? 친구들이 어떤 문제를 발견했습니까? \--- /challenge \---
+Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+
+\--- hints \---
+
+\--- hint \---
+
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the code blocks you need to add to your chatbot code.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+switch backdrop to (moon v)
+
+ask [Do you want to go to the moon?] and wait
+
+if <(answer) = [yes]> then 
+
+end
+```
+
+\--- /hint \---
+
+\--- hint \---
+
+This is what your code should look like:
+
+```blocks3
+ask [Do you want to go to the moon?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+end
+```
+
+\--- /hint \---
+
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+
++ switch backdrop to (space v)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+
+\--- /task \---
+
+\--- task \---
+
+You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
+end
+```
+
+\--- /task \---
