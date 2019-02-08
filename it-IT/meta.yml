@@ -2,19 +2,9 @@
 title: ChiacchieRobot
 hero_image: images/chatbot.png
 description: Impara a programmare il tuo robot parlante!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: ''
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
+copyedit: false
 version: 4.1.0
 last_tested: 2017-01-01
 steps:
@@ -25,10 +15,17 @@ steps:
   - 
     title: Il tuo ChiacchieRobot
   - 
-    title: Un ChiacchieRobot parlante
+    title: "Un ChiacchieRobot parlante"
+    challenge: true
   - 
     title: Prendere decisioni
   - 
-    title: Cambiare posizione
+    title: "Cambiare posizione"
+    challenge: true
   - 
     title: 'Sfida: Completa il tuo ChiacchieRobot'
+  - 
+    title: "Challenge: finish your chatbot"
+    challenge: true
+  - 
+    title: What next?
