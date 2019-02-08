@@ -1,71 +1,127 @@
-## ステップ3： いろいろな答え方
+## Making decisions
 
-入力によって、チャットボットがちがう答え方をするようにプログラムすることができます。
+You can program your chatbot to decide what to do based on the answers it receives.
+
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
 \--- task \---
 
-チャットボットが「元気？」と聞くと、入力が「はい」の時**だけ**「それはよかった！」と答えるようにできますか?
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-新しいコードをきちんとテストするためには、**2回**テストします。答えが「はい」の時と、「いいえ」の時です。
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-チャットボットは入力が「はい」の時は「それはよかった！」と答え、「いいえ」の時は何も言いません。
+![チャットボットの答え](images/chatbot-if-test2.png)
 
-![チャットボットの答え](images/chatbot-if-test.png)
+![nano sprite](images/nano-sprite.png)
 
-\--- hints \--- \--- hint \--- チャットボットが「やあ」と言うと、 「元気？」と**聞きます**。 チャットボットは答えが**「はい」**の時は、「それはよかった！」と**言います**。 \--- /hint \--- \--- hint \--- 新しく使うブロックはこちらです。 ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
+```
+
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+
+\--- /task \---
+
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+
+\--- task \---
+
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
+```
 
 \--- /task \---
 
 \--- task \---
 
-今の所、チャットボットは入力が「いいえ」の時は何も言ってくれません。答えが「いいえ」の時に、チャットボットが「それはこまったね・・・。」と言うようにできますか？
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
-テストして保存しましょう。 チャットボットは答えが「いいえ」の時は「それはこまったね・・・。」と言います。 「いいえ」だけでなく、入力が「はい」以外の時、チャットボットは「それはこまったね・・・。」と答えます。
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-![「はい」または「いいえ」と入力した時の答え](images/chatbot-if-else-test.png)
-
-\--- hints \--- \--- hint \--- 入力が**「はい」**の時、チャットボットは「それはよかった！」と答えますが、 「はい」**以外**の時は「それはこまったね・・・。」と答えます。 \--- /hint \--- \--- hint \--- 使うブロックはこちらです。 ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 \--- /task \---
+
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-`もし…なら／でなければ`のブロックには、チャットボットの言葉だけではなく、いろいろなコードを入れることができます。 チャットボットの**コスチューム**を見てみると、いくつかあるのがわかると思います。
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
-![チャットボットのコスチューム](images/chatbot-costume-view.png)
+![Testing a changing costume](images/chatbot-costume-test1.png)
+
+![Testing a changing costume](images/chatbot-costume-test2.png)
+
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
+
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
+```
+
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
 \--- /task \---
+
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+
+![Costume bug](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-答えに合わせてチャットボットのコスチュームをかえることができますか?？
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
-テストして保存しましょう。答えによってチャットボットの顔がかわります。
+![nano sprite](images/nano-sprite.png)
 
-![コスチュームをかえる](images/chatbot-costume-test.png)
+```blocks3
+when this sprite clicked
 
-\--- hints \--- \--- hint \--- 答えによってチャットボットのが**コスチュームがかわります**。 \--- /hint \--- \--- hint \--- 使うブロックはこちらです。 ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
+```
 
-\--- /task \---
-
-\--- task \---
-
-チャットボットのコスチュームが、最後に話しかけた時と同じままであることに気づきましたか？ 直せますか？
-
-![コスチュームのバグ](images/chatbot-costume-bug-test.png)
-
-テストして保存しましょう。コードをテストして「いいえ」と入力すると、チャットボットは怒った顔になります。もう一度テストすると、名前を聞く前に、笑顔にもどります。
-
-![コスチュームを直す](images/chatbot-costume-fix-test.png)
-
-\--- hints \--- \--- hint \--- チャットボットが**クリックされた時**、**コスチューム**が笑顔にかわります。 \--- /hint \--- \--- hint \--- 追加のブロックはこちらです。 ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- コードの見本はこちらです。 ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
-
-\--- challenge \---
-
-## チャレンジ：もっといろいろな答え
-
-チャットボットが他のことも聞くようにプログラムしてみましょう。「はい」か「いいえ」で答えられるようにしましょう。あなたのチャットボットはきちんと答えられるでしょうか？
-
-![スクリーンショット](images/chatbot-joke.png) \--- /challenge \---
