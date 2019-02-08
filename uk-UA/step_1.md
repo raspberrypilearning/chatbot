@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## Вступ
 
-Ви навчитеся програмувати власну анімацію!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Що ви будете робити
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Натисніть на зелений прапорець, а потім на кнопку chatbot, щоб почати розмову. Коли чат-бот поставить запитання, введіть свою відповідь у поле в нижній частині платформи та натисніть галочку (або натисніть `Enter`).
+\--- /no-print \---
 
-### Що ви дізнаєтесь
+\--- print-only \---
 
-Цей проект охоплює елементи з наступними стандартами [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+![complete project](images/chatbot-preview.png)
 
-+ [Використовуйте основні конструкції для створення простих програм.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### Додаткова інформація для лідерів клубу
+\--- collapse \---
 
-Якщо вам потрібно роздрукувати цей проект, будь ласка скористайтеся [ версією для друку ](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## \--- collapse \---
+## title: What you will need
 
-## title: Нотатки керівника
+### Hardware
 
-## Вступ:
++ Computer capable of running Scratch 3
 
-У цьому проекті діти навчаться використовувати змінні, щоб приймати рішення у своїх програмах.
+### Software
 
-## Ресурси
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-Для цього проекту використовуйте Scratch 2. Можна користуватись Scratch 2 онлайн на [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) або завантажити на [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) і використовувати офлайн.
+### Downloads
 
-Повну версію цього проекту ви можете знайти [онлайн](http://scratch.mit.edu/projects/26762091/#editor), або завантажити за посиланням "Матеріали проекту", яке містить:
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
-+ ChatBot.sb2
+\--- /collapse \---
 
-## Мета навчання
+\--- collapse \---
 
-+ Введення тексту;
-+ Рішення: 
-    + `якщо ... то`{:class="blockcontrol"} положення;
-    + `якщо ... то ... ще`{:class="blockcontrol"} положення.
+* * *
 
-Цей проект охоплює елементи з наступними стандартами [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+## title: What you will learn
 
-+ [Використайте основні конструкції для створення простих програм.](https://www.raspberrypi.org/curriculum/programming/creator)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
 
-## Завдання
+\--- /collapse \---
 
-+ "Більше питань" - об'єднання вивчення вхідних даних та `відповідь`{:class="blocksensing"} блок;
-+ "Більше рішень" - використовуйте їх;
-+ "Зробіть свого власного чат-бота" - об'єднання навчання з цього та минулих проектів.
+\--- collapse \---
 
-\---collapse\---
+* * *
 
-## \---collapse\---
+## title: Additional notes for educators
 
-## title: Матеріали проекту
+\--- no-print \---
 
-## Ресурси лідера клубу
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-+ [Повний проект Scratch 2 для завантаження](resources/ChatBot.sb2)
-+ [Повний проект Scratch 2 онлайн](http://scratch.mit.edu/projects/26762091/#editor)
+\--- /no-print \---
 
-\---collapse\---
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+
+\--- /collapse \---
