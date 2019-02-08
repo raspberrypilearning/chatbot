@@ -1,71 +1,127 @@
-## Βήμα 3: Λαμβάνοντας αποφάσεις
+## Making decisions
 
-Μπορείς να προγραμματίσεις το chatbot για να αποφασίσει τι να πει ή κάνει με βάση τις απαντήσεις στις ερωτήσεις του.
+You can program your chatbot to decide what to do based on the answers it receives.
 
-\--- task --
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
-Μπορείς να κάνεις το chatbot να ρωτήσει "Είσαι εντάξει;" και να τον προγραμματίσεις να απαντήσει "Χαίρομαι που το ακούω!" μόνο **εάν** ο χρήστης απαντήσει "ναι";
+\--- task \---
 
-Για να δοκιμάσεις κατάλληλα το νέο σου κώδικα, πρέπει να το δοκιμάσεις **δύο φορές**, μία φορά με την απάντηση "ναι" και μία φορά με την απάντηση "όχι".
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-Το chatbot σου θα πρέπει να απαντήσει "Χαίρομαι που το ακούω!" αν απαντήσεις "ναι", αλλά μην πει τίποτα αν απαντήσεις "όχι".
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-![Δοκιμή απάντησης chatbot](images/chatbot-if-test.png)
+![Δοκιμή απάντησης chatbot](images/chatbot-if-test2.png)
 
-\--- hints \--- \--- hint \--- Μετά το chatbot σας είπε "Γεια", θα πρέπει τώρα επίσης **να ρωτήσετε** "Είστε εντάξει;". **Εάν** απαντήσεις "ναι", τότε το chatbot θα πρέπει **να πει** "Χαίρομαι που το ακούω!". \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστείς: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+![nano sprite](images/nano-sprite.png)
 
-\--- /task \---
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
+```
 
-\--- task --
-
-Αυτή τη στιγμή το chatbot σου δεν λέει τίποτα αν απαντήσεις "όχι". Μπορείς να αλλάξεις το chatbot σου ώστε να απαντήσει "Αχ όχι!" εάν απαντήσεις "όχι" στην ερώτησή του;
-
-Δοκίμασε και αποθήκευσε. Το chatbot πρέπει τώρα να πει "Αχ όχι!" αν απαντήσεις "όχι". Στην πραγματικότητα, θα πει "Αχ όχι!" αν απαντήσεις με οτιδήποτε άλλο εκτός από "ναι" (το **αλλιώς** σε ένα `εάν/αλλιώς` μπλοκ σημαίνει **σε αντίθετη περίπτωση**).
-
-![Δοκιμάζοντας μια απάντηση ναι/όχι](images/chatbot-if-else-test.png)
-
-\--- hints \--- \--- hint \--- Το chatbot σου θα πρέπει τώρα να πει "Χαίρομαι που το ακούω!" **εάν** η απάντησή σου είναι "ναι", αλλά θα πρέπει να πει "Αχ όχι!" αν απαντήσεις **αλλιώς**. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστείς: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task --
-
-Μπορείς να τοποθετήσεις οποιονδήποτε κώδικα μέσα σε ένα `εάν/ αλλιώς` block, όχι μόνο κώδικα για να κάνεις το chatbot να μιλά. Αν κάνεις κλικ στην καρτέλα **Ενδυμασία** του chatbot, θα δεις ότι έχει περισσότερες από μία ενδυμασίες.
-
-![chatbot ενδυμασίες](images/chatbot-costume-view.png)
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
 
 \--- /task \---
 
-\--- task --
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
 
-Μπορείς να αλλάξεις την ενδυμασία του chatbot ώστε να ταιριάζει με την απάντησή σου;
+\--- task \---
 
-Δοκίμασε και αποθήκευσε. Θα πρέπει να δεις το πρόσωπο του chatbot να αλλάζει ανάλογα με την απάντησή σου.
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
 
-![Δοκιμάζοντας μία μεταβαλλόμενη ενδυμασία](images/chatbot-costume-test.png)
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
 
-\--- hints \--- \--- hint \--- Το chatbot θα πρέπει τώρα να **αλλάζει ενδυμασία** ανάλογα με την απάντηση. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστείς: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
+```
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Έχεις παρατηρήσει ότι η ενδυμασία του chatbot παραμένει η ίδια με την τελευταία φορά που μίλησες; Μπορείς να διορθώσεις αυτό το πρόβλημα;
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
-![Σφάλμα ενδυμασίας](images/chatbot-costume-bug-test.png)
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-Δοκίμασε και αποθήκευσε: Εκτελέσε τον κώδικά σου και πληκτρολόγησε "όχι", έτσι ώστε το chatbot σου να φαίνεται στεναχωρημένο. Όταν εκτελέσεις ξανά τον κώδικά σου, το chatbot πρέπει να έχει χαμογελαστό πρόσωπο πριν ρωτήσει το όνομά σου.
-
-![Δοκιμάζοντας μία λύση στο σφάλμα ενδυμασίας](images/chatbot-costume-fix-test.png)
-
-\--- hints \--- \--- hint \--- Όταν το **αντικείμενο πατηθεί**, το chatbot πρέπει πρώτα να **αλλάζει ενδυμασία** σε ένα χαμογελαστό πρόσωπο. \--- /hint \--- \--- hint \--- Εδώ είναι τα μπλοκ κώδικα που θα χρειαστείς: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Έτσι πρέπει να είναι ο κώδικάς σου: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-\--- challenge \---
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
 
-## Πρόκληση: περισσότερες αποφάσεις
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
 
-Προγραμμάτισε το chatbot για να κάνει μία άλλη ερώτηση - κάποια που να απαντάς με "ναι" ή "όχι". Μπορείς να κάνεις το chatbot να αντιδράσει στην απάντηση;
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
-![screenshot](images/chatbot-joke.png) \--- /challenge \---
+\--- task \---
+
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+
+![Testing a changing costume](images/chatbot-costume-test1.png)
+
+![Testing a changing costume](images/chatbot-costume-test2.png)
+
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
+
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
+```
+
+Test and save your code. You should see your chatbot's face change depending on your answer.
+
+\--- /task \---
+
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+
+![Costume bug](images/chatbot-costume-bug-test.png)
+
+\--- task \---
+
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
+```
+
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
+
+\--- /task \---
