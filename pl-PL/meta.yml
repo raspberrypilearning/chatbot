@@ -2,33 +2,30 @@
 title: Robot gaduła
 hero_image: images/chatbot.png
 description: Naucz się jak programować własnego mówiącego robota!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: ''
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
+copyedit: false
 version: 4.1.0
 last_tested: 2017-01-01
 steps:
   - 
     title: Wprowadzenie
   - 
-    title: Czego będziesz potrzebować
+    title: Your chatbot
   - 
-    title: Twój robot gaduła
+    title: A talking chatbot
   - 
-    title: Rozmawiający robot
+    title: "Challenge: more questions"
+    challenge: true
   - 
     title: Podejmowanie decyzji
   - 
-    title: Zmiana lokalizacji
+    title: "Challenge: more decisions"
+    challenge: true
   - 
-    title: 'Wyzwanie: ukończ swojego robota'
+    title: Changing location
+  - 
+    title: "Challenge: finish your chatbot"
+    challenge: true
+  - 
+    title: What next?
