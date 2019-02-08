@@ -2,33 +2,30 @@
 title: چیٹ بٹ
 hero_image: تصاویر / chatbot.png
 description: جانیں کہ کس طرح آپ کے اپنے بولنے والے روبوٹ کو پروگرام کرنا ہے.
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot؟redirect=false
 theme: وایلیٹ
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1، ڈیزائن-0، پروگرامنگ -1، فیز-کمپ-0، تیاری-0، کمیونٹی-0
-interests: ''
-technology: خرگوش
-site_areas: منصوبوں
-technologies: خرگوش
-hardware: ''
-software: خرگوش
-version: 4.1.0
-last_tested: 2017-01-01
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
     title: تعارف
   - 
-    title: آپ کی ضرورت ہو گی
+    title: Your chatbot
   - 
-    title: آپ کی بات چیت
+    title: A talking chatbot
   - 
-    title: ایک بات چیت بات چیت
+    title: "Challenge: more questions"
+    challenge: true
   - 
     title: فیصلے کرنا
   - 
-    title: جگہ تبدیل کر رہا ہے
+    title: "Challenge: more decisions"
+    challenge: true
   - 
-    title: 'چیلنج: اپنا چیٹ بٹ ختم کرو'
+    title: Changing location
+  - 
+    title: "Challenge: finish your chatbot"
+    challenge: true
+  - 
+    title: What next?
