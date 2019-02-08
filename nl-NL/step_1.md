@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## Inleiding
 
-Je gaat leren hoe je je eigen pratende robot programmeert!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Wat ga je maken
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te starten. Wanneer de chatbot een vraag stelt, typt je jouw antwoord in het vak aan de onderkant van het werkgebied en klik je op het vinkje (of druk op ` Enter `).
+\--- /no-print \---
 
-### Wat ga je leren
+\--- print-only \---
 
-Dit project behandelt elementen uit de volgende onderdelen van het [ Raspberry Pi Digital Making Curriculum ](http://rpf.io/curriculum):
+![complete project](images/chatbot-preview.png)
 
-+ [Gebruik eenvoudige programmeerconstructies om simpele programma's te maken.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### Aanvullende informatie voor clubleiders
+\--- collapse \---
 
-Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## \--- collapse \---
+## title: What you will need
 
-## title: Clubleider notities
+### Hardware
 
-## Inleiding:
++ Computer capable of running Scratch 3
 
-In dit project leren kinderen 'als'-instructies te gebruiken om beslissingen te nemen in hun programma's.
+### Software
 
-## Bronnen
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-Voor dit project dient Scratch 2 te worden gebruikt. Scratch 2 kan online worden gebruikt op [ jumpto.cc/scratch-on ](http://jumpto.cc/scratch-on) of gedownload van [ jumpto.cc/scratchoff ](http://jumpto.cc/scratch-off) en offline worden gebruikt.
+### Downloads
 
-Je kunt een voltooide versie van dit project [ online vinden ](http://scratch.mit.edu/projects/26762091/#editor), of het kan worden gedownload door te klikken op de link 'Projectmaterialen' voor dit project, dat het volgende bevat:
-
-+ ChatBot.sb2
-
-## Leerdoelen
-
-+ Tekstinvoer;
-+ Besluiten: 
-    + ` als ... dan ` {: class = "blockcontrol"} commando's;
-    + ` als ... dan ` {: class = "blockcontrol"} commando's.
-
-Dit project behandelt elementen uit de volgende onderdelen van het [ Raspberry Pi Digital Making Curriculum ](http://rpf.io/curriculum):
-
-+ [Gebruik eenvoudige programmeerconstructies om simpele programma's te maken.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## Challenges
-
-+ "Meer vragen" - leren over het invoer en antwoord ` ` {: class = "blocksensing"} -blok;
-+ "Meer beslissingen" - gebruik van beslissingen;
-+ "Maak je eigen chatbot" - consolidatie van het leren van dit en eerdere projecten.
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+\--- collapse \---
 
-## title: Projectmaterialen
+* * *
 
-## Club leider middelen
+## title: What you will learn
 
-+ [Downloadbaar voltooid Scratch 2 project](resources/BrainGot.sb2)
-+ [Online voltooid Scratch 2 project](http://scratch.mit.edu/projects/26762091/#editor)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
