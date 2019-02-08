@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## はじめに
 
-このプロジェクトでは、チャットボットの作り方を学びます。
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### 作るもの
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-グリーンフラッグをクリックし、チャットボットをクリックして会話を始めましょう。 チャットボットが質問をしたら、ステージの下部にあるボックスに答えを入力し、チェックボタンをクリックします（または`Enter` を押します）。
+\--- /no-print \---
 
-### 学習すること
+\--- print-only \---
 
-このプロジェクトでは [Raspberry Pi デジタル・メイキング・カリキュラム](http://rpf.io/curriculum)（英語）の柱の一つである、プログラミングの以下の要素を学びます。
+![complete project](images/chatbot-preview.png)
 
-+ [基本的なプログラミング構文を使って、簡単なプログラムを作る](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### 指導者のための追加情報
+\--- collapse \---
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/chatbot/print)を使用してください。
+* * *
 
-## \--- collapse \---
+## title: What you will need
 
-## title: 指導者用ノート
+### Hardware
 
-## はじめに
++ Computer capable of running Scratch 3
 
-このプロジェクトでは、プログラム内で意思決定を行うために、「もし」ブロックの使い方を学びます。
+### Software
 
-## 資料
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-このプロジェクトではスクラッチ2を使用してください。 スクラッチ2はオンラインで使用することができます（[jumpto.cc/scratch-on](http://jumpto.cc/scratch-on)）。 また、こちらからダウンロードしてオフラインで使用することも可能です（[jumpto.cc/scratchoffoff](http://jumpto.cc/scratch-off)）。
+### Downloads
 
-このプロジェクトの完成版は [こちら](http://scratch.mit.edu/projects/26762091/#editor)から確認できます。また、「プロジェクト資料のダウンロード」をクリックしてダウンロードすることもできます。中身は下記の通りです。
-
-+ ChatBot.sb2
-
-## 学習のねらい
-
-+ テキスト入力;
-+ 制御ブロックを使った意思決定: 
-    + `もし ... ならば`{:class="blockcontrol"} ブロック
-    + `もし ... ならば ... でなければ`{:class="blockcontrol"} ブロック
-
-このプロジェクトでは [Raspberry Pi デジタル・メイキング・カリキュラム](http://rpf.io/curriculum)（英語）の柱の一つである、プログラミングの以下の要素を学びます。
-
-+ [基本的なプログラミング構文を使って、簡単なプログラムを作る](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## チャレンジ
-
-+ 「しつもんをふやす」 - テキスト入力を学び、`答え`{:class="blocksensing"} ブロックを使う
-+ 「もっといろいろな答え」 - 制御ブロックを使う
-+ 「自分のチャットボット」 - これまでに学んだことを使って、チャットボットを作り上げる
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+\--- collapse \---
 
-## title: プロジェクト資料
+* * *
 
-## 指導者用資料
+## title: What you will learn
 
-+ [完成版Scratch2プロジェクト（ダウンロード）](resources/ChatBot.sb2)
-+ [完成版Scratch2プロジェクト（オンライン）](http://scratch.mit.edu/projects/26762091/#editor)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
