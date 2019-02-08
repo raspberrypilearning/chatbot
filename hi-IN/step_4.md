@@ -1,51 +1,7 @@
-## बात करने वाला चैटबॉट
+## Challenge: more questions
 
-अब जब आपके पास व्यक्तित्व वाला चैटबॉट है, तो चलिए इसे आपसे बात करने के लिए प्रोग्राम करें।
+Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
-\--- task \---
+![More questions](images/chatbot-question1.png)
 
-अपने चैटबॉट में कोड जोड़ें ताकि जब इस पर क्लिक किया जाए, तो यह आपका नाम पूछे और फिर कहे "What a lovely name!"
-
-![चैटबॉट प्रतिक्रिया का परीक्षण करना](images/chatbot-ask-test.png)
-
-\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाए**, तो इसे आपका नाम **पूछना** चाहिए। चैटबॉट को तब कहना चाहिए "What a lovely name!" \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड कुछ इस प्रकार दिखाई देना चाहिए ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-अब चैटबॉट हर बार "What a lovely name!" उत्तर देता है। क्या आप अपने उत्तर का उपयोग करके अपने चैटबॉट के जवाब को निजीकृत कर सकते हैं?
-
-![निजीकृत उत्तर का परीक्षण करना](images/chatbot-answer-test.png)
-
-\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाए**, तो इसे आपका नाम **पूछना** चाहिए। फिर चैटबॉट को "Hi" **कहना** चाहिए, और इसके बाद आपका **उत्तर** बोलना चाहिए। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-यदि आप अपने उत्तर को **वेरिएबल** में संग्रह करते हैं, तो इसे बाद में उपयोग किया जा सकता है। अपना नाम संग्रह करने के लिए `name` वेरिएबल बनाएँ।
-
-[[[generic-scratch-add-variable]]]
-
-\--- /task \---
-
-\--- task \---
-
-क्या आप `name` वेरिएबल में अपना नाम संग्रह कर सकते हैं और इसका चैटबॉट के उत्तर में उपयोग कर सकते हैं?
-
-आपके कोड को पहले की तरह काम करना चाहिए: आपके चैटबॉट को आपके नाम का उपयोग करके hello कहना चाहिए।
-
-!['name' वेरिएबल का परीक्षण करना](images/chatbot-ask-test.png)
-
-\--- hints \--- \--- hint \--- जब चैटबॉट **स्प्राइट पर क्लिक किया जाए**, तो इसे आपका नाम **पूछना** चाहिए। इसके बाद आपको अपने **उत्तर** को `name` वेरिएबल पर **सेट** करना चाहिए। फिर चैटबॉट को "Hi" **कहना** चाहिए, और इसके बाद आपका **नाम** बोलना चाहिए। \--- /hint \--- \--- hint \--- ये वे कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- आपका कोड इस प्रकार दखाई देगा: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- challenge \---
-
-## चुनौती: अधिक प्रश्न
-
-अन्य प्रश्न पूछने के लिए चैटबॉट को प्रोग्राम करें। क्या आप नए वेरिएबल में उत्तर संग्रह कर सकते हैं?
-
-![अधिक प्रश्न](images/chatbot-question.png) \--- /challenge \---
+![More questions](images/chatbot-question2.png)
