@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## Введение
 
-Вы узнаете, как программировать свой собственный говорящий робот!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Что вы сделаете
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Нажмите зеленый флаг, а затем нажмите chatbot, чтобы начать разговор. Когда чатбот задает вопрос, введите свой ответ в поле внизу сцены и нажмите галочку (или нажмите `Enter`).
+\--- /no-print \---
 
-### Что вы узнаете
+\--- print-only \---
 
-Этот проект охватывает элементы из следующих направлений: [Малина Pi Digital Making Curriculum](http://rpf.io/curriculum):
+![complete project](images/chatbot-preview.png)
 
-+ [Используйте базовые конструкции программирования для создания простых программ.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### Дополнительная информация для лидеров клуба
+\--- collapse \---
 
-Если вам нужно распечатать этот проект, воспользуйтесь [Версия для печати](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## \--- коллапс \---
+## title: What you will need
 
-## название: заметки лидера клуба
+### Hardware
 
-## Введение:
++ Computer capable of running Scratch 3
 
-В этом проекте дети узнают, как использовать выражения «если» для принятия решений в своих программах.
+### Software
 
-## Ресурсы
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-Для этого проекта необходимо использовать Scratch 2. Царапина 2 может быть использована онлайн по адресу [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) или может быть загружена с [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) и использована в автономном режиме.
+### Downloads
 
-Вы можете найти завершенную версию этого проекта [онлайн](http://scratch.mit.edu/projects/26762091/#editor), или его можно загрузить, щелкнув ссылку «Материалы проекта» для этого проекта, которая содержит:
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
-+ ChatBot.sb2
+\--- /collapse \---
 
-## Цели обучения
+\--- collapse \---
 
-+ Ввод текста;
-+ Решения: 
-    + `if ... then`{: class = "blockcontrol"} statements;
-    + `если ... then ... else`{: class = "blockcontrol"}.
+* * *
 
-Этот проект охватывает элементы из следующих направлений: [Малина Pi Digital Making Curriculum](http://rpf.io/curriculum):
+## title: What you will learn
 
-+ [Используйте базовые конструкции программирования для создания простых программ.](https://www.raspberrypi.org/curriculum/programming/creator)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
 
-## проблемы
+\--- /collapse \---
 
-+ «Больше вопросов» - консолидация обучения входных данных и ответ ``{: class = "blockensing"} block;
-+ «Больше решений» - с использованием решений;
-+ «Создайте свой собственный чатбот» - консолидация обучения из этого и прошлых проектов.
+\--- collapse \---
 
-\--- / свернуть \---
+* * *
 
-## \--- коллапс \---
+## title: Additional notes for educators
 
-## название: материалы проекта
+\--- no-print \---
 
-## Ресурсы лидера клуба
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-+ [Загруженный завершенный проект Scratch 2](resources/ChatBot.sb2)
-+ [Онлайн-проект Scratch 2](http://scratch.mit.edu/projects/26762091/#editor)
+\--- /no-print \---
 
-\--- / свернуть \---
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+
+\--- /collapse \---
