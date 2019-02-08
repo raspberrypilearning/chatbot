@@ -1,71 +1,127 @@
-## Đưa ra quyết định
+## Making decisions
 
-Bạn có thể lập trình chatbot của bạn để quyết định những gì để nói hoặc làm dựa trên câu trả lời của bạn cho các câu hỏi của nó.
+You can program your chatbot to decide what to do based on the answers it receives.
+
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
 \--- task \---
 
-Bạn có thể làm cho chatbot đặt câu hỏi "Bạn có ổn không?" Và viết code để trả lời "Thật tuyệt vời!" **nếu** người dùng trả lời "có"?
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-Để kiểm tra code mới của bạn hoạt động đúng, bạn nên kiểm tra nó **hai lần**, một lần với câu trả lời "có" và một lần với câu trả lời "không".
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-Chatbot của bạn sẽ trả lời "Thật tuyệt vời!" nếu bạn trả lời "có", nhưng không nói gì nếu bạn trả lời "không".
+![Kiểm tra trả lời của chatbot](images/chatbot-if-test2.png)
 
-![Kiểm tra trả lời của chatbot](images/chatbot-if-test.png)
+![nano sprite](images/nano-sprite.png)
 
-\--- hints \--- \--- hint \--- Sau khi chatbot của bạn đã nói "Xin chào", bây giờ nó sẽ **hỏi** "Bạn có ổn không?". **Nếu** bạn trả lời "có", thì chatbot nên **nói** "Thật tuyệt vời!". \--- /hint \--- \--- hint \--- Dưới đây là các khối code bổ sung bạn sẽ cần: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Code của bạn sẽ giống như thế này: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
+```
+
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+
+\--- /task \---
+
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+
+\--- task \---
+
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
+```
 
 \--- /task \---
 
 \--- task \---
 
-Tại thời điểm này chatbot của bạn không nói bất cứ điều gì nếu bạn trả lời "không". Bạn có thể thay đổi chatbot của bạn để nó cũng trả lời "Ôi không!" nếu bạn trả lời "không" cho câu hỏi của nó?
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
-Kiểm tra và lưu. Chatbot của bạn bây giờ sẽ nói "Ôi không!" nếu bạn trả lời "không". Trong thực tế, nó sẽ nói "Ôi không!" nếu bạn trả lời với bất cứ điều gì khác hơn là "có" ( **còn không thì** trong một khối `nếu/còn không thì` có nghĩa là **ngược lại**).
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-![Kiểm tra trả lời có/không](images/chatbot-if-else-test.png)
-
-\--- hints \--- \--- hint \--- Chatbot của bạn bây giờ sẽ nói "Thật tuyệt vời!" **nếu** câu trả lời của bạn là "có", nhưng sẽ nói "Ôi không!" nếu bạn trả lời một cái gì đó **khác**. \--- /hint \--- \--- hint \--- Dưới đây là các khối code bạn sẽ cần phải sử dụng: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Code của bạn sẽ trông giống như thế này: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 \--- /task \---
+
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Bạn có thể đặt bất kỳ code nào bên trong khối `nếu/còn không thì`, không chỉ riêng code để làm cho chatbot của bạn nói. Nếu bạn nhấp vào mục **Hóa trang**, bạn sẽ thấy rằng nó có rất nhiều trang phục.
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
-![trang phục chatbot](images/chatbot-costume-view.png)
+![Testing a changing costume](images/chatbot-costume-test1.png)
+
+![Testing a changing costume](images/chatbot-costume-test2.png)
+
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
+
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
+```
+
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
 \--- /task \---
+
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+
+![Costume bug](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-Bạn có thể thay đổi trang phục của chatbot để phù hợp với câu trả lời của bạn không?
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
-Kiểm tra và lưu. Bạn sẽ thấy thay đổi khuôn mặt của chatbot tùy thuộc vào câu trả lời của bạn.
+![nano sprite](images/nano-sprite.png)
 
-![Kiểm tra trang phục thay đổi](images/chatbot-costume-test.png)
+```blocks3
+when this sprite clicked
 
-\--- hints \--- \--- hint \--- Chatbot của bạn bây giờ cũng **đổi hình dạng** tùy thuộc vào câu trả lời nhất định. \--- /hint \--- \--- hint \--- Dưới đây là các khối code bạn sẽ cần phải sử dụng: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Code của bạn sẽ trông giống như thế này: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
+```
 
-\--- /task \---
-
-\--- task \---
-
-Bạn có nhận thấy rằng trang phục của chatbot vẫn giữ nguyên như lần cuối cùng bạn nói chuyện với nó? Bạn có thể khắc phục vấn đề này không?
-
-![Lỗi trang phục](images/chatbot-costume-bug-test.png)
-
-Kiểm tra và lưu: Chạy code của bạn và nhập "không", để chatbot của bạn trông không vui. Khi bạn chạy lại code của mình, chatbot của bạn sẽ đổi lại thành một khuôn mặt tươi cười trước khi hỏi tên bạn.
-
-![Kiểm tra sửa lỗi trang phục](images/chatbot-costume-fix-test.png)
-
-\--- hints \--- \--- hint \--- **Khi đối tượng được nhấp**, chatbot của bạn nên **đổi hình dạng thành** một khuôn mặt tươi cười. \--- /hint \--- \--- hint \--- Đây là khối code bạn sẽ cần phải thêm: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Code của bạn sẽ trông giống như thế này: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
-
-\--- challenge \---
-
-## Thử thách: nhiều quyết định hơn
-
-Lập trình chatbot của bạn để đặt một câu hỏi khác - một câu hỏi có câu trả lời "có" hoặc "không". Bạn có thể làm cho chatbot của bạn trả lời câu hỏi không?
-
-![ảnh chụp màn hình](images/chatbot-joke.png) \--- /challenge \---
