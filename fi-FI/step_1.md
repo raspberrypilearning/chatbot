@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## Esittely
 
-Opit ohjelmoimaan oman puhuvan robottisi!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Mitä teet
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Napsauta vihreää lippua ja käynnistä keskustelu napsauttamalla juttelubottia. Kun juttelubotti kysyy kysymyksen, kirjoita vastauksesi esiintymislavan alareunassa olevaan ruutuun ja napsauta Ok-ikonia (tai paina `Enter`).
+\--- /no-print \---
 
-### Mitä opit
+\--- print-only \---
 
-Tämä projekti kattaa osia[Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osioista:
+![complete project](images/chatbot-preview.png)
 
-+ [Käytä perusohjelmointirakenteita yksinkertaisten ohjelmien luomiseen.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### Lisätietoja opettajille
+\--- collapse \---
 
-Jos haluat tulostaa tämän projektin, käytä [Tulostettava versio](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## \--- collapse \---
+## title: What you will need
 
-## title: Opettajille
+### Hardware
 
-## Johdanto:
++ Computer capable of running Scratch 3
 
-Tässä projektissa lapset oppivat käyttämään "jos" lauseita tekemään päätelmiä ohjelmissaan.
+### Software
 
-## Aineistot
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-Tässä projektissa tulisi käyttää Scratch 2 -ohjelmaa. Scratch 2 voidaan joko käyttää verkossa [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) tai ladata [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) ja käyttää offline-tilassa.
+### Downloads
 
-Löydät tämän projektin valmiin version [verkosta](http://scratch.mit.edu/projects/26762091/#editor), tai se voidaan ladata klikkaamalla tämän projektin 'Projektiaineistot' -linkkiä, joka sisältää:
-
-+ ChatBot.sb2
-
-## Oppimistavoitteet
-
-+ Tekstinsyöttö;
-+ Päätelmät: 
-    + `jos ... sitten`{: class = "blockcontrol"} lausekkeet;
-    + `jos ... sitten ... muuten`{: class = "blockcontrol"} lausekkeet.
-
-Tämä hanke kattaa osia [Raspberry Pi Digital Making -opetussuunnitelman](http://rpf.io/curriculum) seuraavista osioista:
-
-+ [Käytä perusohjelmointirakenteita yksinkertaisten ohjelmien luomiseen.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## Haasteet
-
-+ "Lisää kysymyksiä" - tulosten oppimisen vahvistaminen ja `vastaus`{: class = "blockensing"} -lohko;
-+ "Lisää päätelmiä" - päätelmien tekeminen;
-+ "Tee oma juttelubotti" - oppimisen vakiinnuttaminen tästä ja aiemmista projekteista.
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+\--- collapse \---
 
-## otsikko: Projektiaineistot
+* * *
 
-## Opettajien aineistot
+## title: What you will learn
 
-+ [Ladattava valmis Scratch 2 -projekti](resources/ChatBot.sb2)
-+ [Valmis Scratch 2 -projekti verkossa](http://scratch.mit.edu/projects/26762091/#editor)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
