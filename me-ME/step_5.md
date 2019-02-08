@@ -1,71 +1,127 @@
-## Donošenje odluka
+## Making decisions
 
-Možeš da programiraš svog robota da odluči šta će da kaže ili uradi na osnovu tvojih odgovora na pitanja koje je postavio.
+You can program your chatbot to decide what to do based on the answers it receives.
+
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
 \--- task \---
 
-Možeš li da napraviš da tvoj robot postavi pitanje "Jesi li dobro?", a zatim da dodaš kôd tako da odgovori "To je lijepo čuti!" samo **ako je** (if) odgovor korisnika "da"?
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-Za pravilno isprobavanje tvog novog kôda, potrebno je da ga isprobaš **dva puta**, jednom sa odgovorom "da" i jednom sa odgovorom "ne".
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-Tvoj robot bi trebalo da odgovori "To je lijepo čuti!" ako je tvoj odgovor "da", a da ništa ne kaže ako je tvoj odgovor "ne".
+![Isprobavanje robotovog odgovora](images/chatbot-if-test2.png)
 
-![Isprobavanje robotovog odgovora](images/chatbot-if-test.png)
+![nano sprite](images/nano-sprite.png)
 
-\--- hints \--- \--- hint \--- Nakon što je tvoj robot rekao "Zdravo", sada treba i da te **pita** (ask) "Jesi li dobro?". **Ako je** (if) tvoj odgovor "da", robot treba da **kaže** (say) "To je lijepo čuti!". \--- /hint \--- \--- hint \--- Ovdje su dodatni blokovi kôda koji će ti biti potrebni: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
+```
+
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+
+\--- /task \---
+
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+
+\--- task \---
+
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
+```
 
 \--- /task \---
 
 \--- task \---
 
-Trenutno, tvoj robot ništa ne kaže na tvoj odgovor "ne". Možeš li da izmijeniš svog robota tako da odgovori "O, ne!" ako je tvoj odgovor na njegovo pitanje ''ne''?
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
-Isprobaj i sačuvaj. Sada, ako je tvoj odgovor "ne", robot treba da kaže "O, ne!". U stvari, robot će reći "O, ne!" ako odgovoriš bilo šta drugo osim "da" (**else** u bloku `if/else` znači **drugačije**).
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-![Isprobavanje odgovora da/ne](images/chatbot-if-else-test.png)
-
-\--- hints \--- \--- hint \--- Tvoj robot sada treba da kaže "To je lijepo čuti!" **ako je** (if) tvoj odgovor "da". Ako odgovoriš **drugačije** (else), robot treba da kaže "O, ne!". \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 \--- /task \---
+
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Možeš da postaviš bilo koji kôd unutar bloka `if/else` (ako/inače), ne samo kôd kojim ćeš napraviti da tvoj robot govori. Ako klikneš na karticu **Costumes** (Kostimi) tvog robota, primijetićeš da ima nekoliko kostima.
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
-![Kostimi robota](images/chatbot-costume-view.png)
+![Testing a changing costume](images/chatbot-costume-test1.png)
+
+![Testing a changing costume](images/chatbot-costume-test2.png)
+
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
+
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
+```
+
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
 \--- /task \---
+
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+
+![Costume bug](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-Da li možeš da promijeniš kostim robota tako da bude prilagođen tvom odgovoru?
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
-Isprobaj i sačuvaj. Trebalo bi da vidiš da se lice tvog robota mijenja zavisno od tvog odgovora.
+![nano sprite](images/nano-sprite.png)
 
-![Isprobavanje promjene kostima](images/chatbot-costume-test.png)
+```blocks3
+when this sprite clicked
 
-Tvoj robot sada, takođe, treba da **promijeni kostim** (switch costume) zavisno od odgovora koji mu je dat. \--- /hint \--- \--- hint \--- Ovdje su blokovi kôda koji će ti biti potrebni: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
+```
 
-\--- /task \---
-
-\--- task \---
-
-Da li primjećuješ da je kostim tvog robota i dalje isti onaj koji je promijenio kada je poslednji put razgovarao sa tobom? Da li možeš da riješiš ovaj problem?
-
-![Greška u kostimu](images/chatbot-costume-bug-test.png)
-
-Isprobaj i sačuvaj: Pokreni svoj kôd i upiši "ne", tako da tvoj robot izgleda tužan. Kada ponovo pokreneš kôd, tvoj robot treba da bude nasmijan prije nego što te upita kako se zoveš.
-
-![Isprobavanje ispravke kostima](images/chatbot-costume-fix-test.png)
-
-\--- hints \--- \--- hint \--- Kada je **kliknuto na lik** (sprite is clicked), tvoj robot prvo treba da **promijeni kostim** (switch costume) u nasmijano lice. \--- /hint \--- \--- hint \--- Ovdje je blok kôda koji treba da dodaš: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- Ovako bi trebalo da izgleda tvoj kôd: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
-
-\--- challenge \---
-
-## Izazov: više odluka
-
-Programiraj svog robota da postavi neko drugo pitanje - neko na koje može da se odgovori sa "da" ili "ne". Možeš li da napraviš da robot odgovori u skladu sa tvojim odgovorom?
-
-![screenshot](images/chatbot-joke.png) \--- /challenge \---
