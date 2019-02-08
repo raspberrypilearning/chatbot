@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## Introduction
 
-Apprends à programmer ton propre robot qui parle!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Quoi faire ?
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Cliquez sur le drapeau vert, puis sur le chatbot pour lancer une conversation. Lorsque le chatbot pose une question, tapez votre réponse dans la case située au bas de la scène et cliquez sur la coche (ou appuyez sur ` Entrer ` ).
+\--- /no-print \---
 
-### Ce que vous obtiendrez
+\--- print-only \---
 
-Ce projet couvre les éléments suivants du [Programme de Créativité Numérique de Raspberry Pi](http://rpf.io/curriculum):
+![complete project](images/chatbot-preview.png)
 
-+ [Utiliser les constructs basiques de programmation pour élaborer un programme simple.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### Informations complémentaires pour les responsables de club
+\--- collapse \---
 
-Si vous avez besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## Question
+## title: What you will need
 
-## Notes de leader du club
+### Hardware
 
-## Introduction :
++ Computer capable of running Scratch 3
 
-Dans ce projet, les enfants apprendront à utiliser des variables pour stocker des données dans leurs programmes.
+### Software
 
-## Ressources
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-Pour ce projet, vous devrez utiliser Scratch 2. Scratch 2 est disponible en ligne sur [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ou depuis [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) pour l'utiliser hors ligne.
+### Downloads
 
-Vous pouvez trouver une version complète de ce projet [en ligne](http://scratch.mit.edu/projects/26762091/#editor) ou vous pouvez le télécharger en cliquant sur le lien 'Matériaux du Projet' pour ce projet, qui contient:
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
-+ ChatBot.sb2
+\--- /collapse \---
 
-## Objectifs d'apprentissage
+\--- collapse \---
 
-+ Saisie de texte
-+ Décisions 
-    + {: class = "blockcontrol"} ` si ... alors ` instructions;
-    + {: class = "blockcontrol"} ` si ... alors ` instructions;
+* * *
 
-Ce projet couvre les éléments suivants du [Programme de Créativité Numérique de Raspberry Pi](http://rpf.io/curriculum):
+## title: What you will learn
 
-+ [Utiliser les constructs basiques de programmation pour élaborer un programme simple.](https://www.raspberrypi.org/curriculum/programming/creator)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
 
-## Défis
+\--- /collapse \---
 
-+ "Plus de questions" - consolider l'apprentissage de l'entrée et la réponse ` ` {: class = "blocksensing"} bloc;
-+ "Plus de décisions" - en utilisant des décisions;
-+ "Faites votre propre chatbot" - consolidation de l'apprentissage de ce projet et des projets passés.
+\--- collapse \---
 
-Question
+* * *
 
-## Question
+## title: Additional notes for educators
 
-## Matériel pour projet
+\--- no-print \---
 
-## Ressources pour le responsable de club
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-+ [Projet Scratch 2 complet à télécharger](resources/ChatBot.sb2)
-+ [Projet Scratch 2 complet en ligne](http://scratch.mit.edu/projects/26762091/#editor)
+\--- /no-print \---
 
-Question
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+
+\--- /collapse \---
