@@ -1,71 +1,127 @@
-## 3 단계: 결정하기
+## Making decisions
 
-당신의 대답에 따라서 챗봇이 어떤 말을 할지 아니면 어떤 행동을 할지 프로그래밍 할 수 있습니다.
+You can program your chatbot to decide what to do based on the answers it receives.
+
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
 \--- task \---
 
-챗봇이 "요즘 잘 지내?"라고 물어보았을 때 "응" 이라고 대답했을 **때에만** "다행이다!"라고 대답하도록 만들 수 있습니까?
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-새 코드를 제대로 테스트 하기 위해 **두번**의 테스트를 해봐야 합니다. 한번은 "응" 이라고 대답하고, 다른 한번은 "아니" 라고 대답해 봅니다.
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-당신의 챗봇은 "응"이라고 대답했을 때에만 "다행이다!" 라고 대답하고, "아니" 라고 말했을때에는 아무런 말도 하지 않아야 합니다.
+![챗봇의 응답 테스트하기](images/chatbot-if-test2.png)
 
-![챗봇의 응답 테스트하기](images/chatbot-if-test.png)
+![nano sprite](images/nano-sprite.png)
 
-\--- hints \--- \--- hint \--- 이제 챗봇이 "안녕" 이라고 말한 후에, "요즘 잘 지내?" 라고 **물어봐야** 합니다. **만약** 대답이 "응"이라면, 로봇은 "다행이다!" 라고 **말해야**합니다. \--- /hint \--- \--- hint \--- 추가로 필요한 코드 블럭은 다음과 같습니다: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
+```
+
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+
+\--- /task \---
+
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+
+\--- task \---
+
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
+```
 
 \--- /task \---
 
 \--- task \---
 
-당신이 "아니" 라고 대답하면 로봇은 아무런 말도 하지 않습니다. "아니"라고 대답했을 때 로봇도 "아 저런!" 이라고 대답하게 바꿀 수 있습니까?
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
-테스트하고 저장하십시오. 당신의 대답이 "아니" 라면, 챗봇은 이제 "아 저런!" 이라고 말해야 합니다. 실제로는, 당신의 대답이 "응" 이 아닌 어떤것이든 "아 저런!"이라고 대답할 것입니다. (`만약에/아니면` 블럭안에 있는 **아니면** 블럭은 **그렇지 않으면**을 의미합니다).
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-![예 / 아니오 응답 테스트](images/chatbot-if-else-test.png)
-
-\--- hints \--- \--- hint \--- 이제 로봇은 대답이 **만약**"응" 이라면 "다행이다!" 라고 말하고, "응"이 **아니면** "아 저런!" 이라고 대답해야 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
+
 \--- task \---
 
-`if/else` 블럭 사이에 로봇을 말하게 하는 것 말고도, 어떤 코드든 넣을 수 있습니다. 챗봇의 **모양(Costume)** 탭을 클릭하면, 로봇에게 여러가지 모양이 있는것을 볼 수 있습니다.
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
-![챗봇의 모습들](images/chatbot-costume-view.png)
+![Testing a changing costume](images/chatbot-costume-test1.png)
+
+![Testing a changing costume](images/chatbot-costume-test2.png)
+
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
+
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
+```
+
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
 \--- /task \---
 
-\--- task \---
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
 
-당신의 응답에 맞춰서 챗봇의 모양을 바꿀 수 있습니까?
-
-테스트하고 저장하십시오. 당신의 대답에 따라 챗봇의 얼굴이 바뀌어야 합니다.
-
-![변화하는 모습 테스트](images/chatbot-costume-test.png)
-
-\--- hints \--- \--- hint \--- 당신의 챗봇은 이제 대답에 따라 **모양이 바뀌어야** 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-챗봇의 모습이 마지막으로 변경된 것과 동일한 상태로 유지된다는 것을 알고 계셨습니까? 이 문제를 해결할 수 있습니까?
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
 
 ![Costume bug](images/chatbot-costume-bug-test.png)
 
-테스트 및 저장: 코드를 실행하고 "아니" 라고 입력해서 챗봇이 불만을 표현하도록 해보십시오. 코드를 다시 실행했을 때, 로봇은 당신의 이름을 묻기 전에 웃는 얼굴로 바뀌어야 합니다.
+\--- task \---
 
-![모습 수정 테스트](images/chatbot-costume-fix-test.png)
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
-\--- hints \--- \--- hint \--- **요정이 클릭 될 때**, 챗봇은 먼저 웃는 얼굴로 **모양이 바뀌어** 있어야 합니다. \--- /hint \--- \--- hint \--- 필요한 코드 블럭들은 다음과 같습니다: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- 작성해야 하는 코드의 형태입니다: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
+```
+
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
-
-\--- challenge \---
-
-## 도전과제: 더 많은 결정들
-
-로봇이 "응" 이나 "아니" 로 대답할 수 있는 다른 질문을 하도록 프로그램 해보십시오. 당신의 대답에 로봇이 반응하게 만들 수 있습니까?
-
-![스크린샷](images/chatbot-joke.png) \--- /challenge \---
