@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## 简介
 
-你即将学习如何编程实现你自己的聊天机器人！
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### 你将做出什么
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-点击绿旗，然后点击聊天机器人开始对话。 当聊天机器人问问题时，在舞台底部的输入框中国输入你的答案，然后点击对勾按钮（或按`回车`键）。
+\--- /no-print \---
 
-### 你将学到什么
+\--- print-only \---
 
-本项目涵盖[树莓派数字制作课程](http://rpf.io/curriculum)如下几方面内容：
+![complete project](images/chatbot-preview.png)
 
-+ [利用基本编程结构创建简单程序。](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### 导师附加信息
+\--- collapse \---
 
-如果你需要打印此项目，请使用[打印友好版](https://projects.raspberrypi.org/en/projects/chatbot/print)。
+* * *
 
-## \--- collapse \---
+## title: What you will need
 
-## title: 导师笔记
+### Hardware
 
-## 简介
++ Computer capable of running Scratch 3
 
-在这个项目中，孩子们将学习如何使用 '如果' 语句在程序中做判断。
+### Software
 
-## 资源
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-本项目使用Scratch 2。 Scratch 2 可以在线使用[jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) ，也可以从[jumpto.cc/scratch-off](http://jumpto.cc/scratch-off)下载下来离线使用。
+### Downloads
 
-你可以[在线](http://scratch.mit.edu/projects/26762091/#editor)找到本项目的完整版，或者点击本项目的“项目资源”连接下载下来，包括：
-
-+ ChatBot.sb2
-
-## 学习目标
-
-+ 文本输入；
-+ 判断： 
-    + `如果...那么`{:class="blockcontrol"} 语句；
-    + `如果...那么...否则`{:class="blockcontrol"} 语句。
-
-本项目涵盖[树莓派数字制作课程](http://rpf.io/curriculum)如下几方面内容：
-
-+ [利用基本编程结构创建简单程序。](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## 挑战
-
-+ “更多问题” -- 巩固输入和`回答`{:class="blocksensing"} 代码块；
-+ “更多判断” -- 使用条件判断；
-+ “制作你自己的聊天机器人” -- 巩固本项目和以往项目学过的内容。
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+\--- collapse \---
 
-## title: 项目资源
+* * *
 
-## 导师资源
+## title: What you will learn
 
-+ [完整版 Scratch 2 项目下载](resources/ChatBot.sb2)
-+ [完整版Scratch 2项目在线版](http://scratch.mit.edu/projects/26762091/#editor)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
