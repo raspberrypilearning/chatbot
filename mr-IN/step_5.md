@@ -1,71 +1,127 @@
-## चरण 3: निर्णय घेणे
+## Making decisions
 
-आपण आपल्या चॅटबॉटला त्याच्या प्रश्नांच्या उत्तरांनुसार काय म्हणावे किंवा काय करू शकाल हे ठरवू शकता.
+You can program your chatbot to decide what to do based on the answers it receives.
 
-\--- कार्य \---
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
-आपण चॅटबॉटल "आपण ठीक आहात?" या प्रश्नास विचारू शकता, आणि "हे ऐकून चांगले!" याचे उत्तर द्या. केवळ **जर** वापरकर्त्याने "होय" उत्तर दिलं?
+\--- task \---
 
-आपला नवीन कोड योग्यरितीने तपासण्यासाठी, आपण "होय" उत्तराने एकदा, दोनदा **वेळा**, "उत्तर" सह एकदा उत्तर द्या.
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-आपले चॅटबॉटने उत्तर द्या "हे ऐकून चांगले आहे!" आपण "होय" उत्तर दिल्यास, परंतु आपण "नाही" उत्तर दिल्याबद्दल काहीही बोलत नाही.
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-![चॅटबॉट उत्तरची चाचणी घेणे](images/chatbot-if-test.png)
+![चॅटबॉट उत्तरची चाचणी घेणे](images/chatbot-if-test2.png)
 
-\--- इशारे \--- \--- इशारा \--- आपल्या chatbot म्हटले आहे केल्यानंतर "हाय", तो आता पाहिजे **विचारू** "ठीक आहे?". **जर** आपण "होय" उत्तर दिल्यास, चॅटबॉट **म्हणणे** "हे ऐकून चांगले!" \--- / इशारा \--- \--- इशारा \--- येथे आपल्याला आवश्यक अतिरिक्त कोड ब्लॉक आहेत: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- / संकेत \--- \--- इशारा \--- येथे आपला कोड कसा दिसला पाहिजे ते येथे आहे: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- / इशारा \--- \--- / इशारे \---
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
+```
+
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+
+\--- /task \---
+
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+
+\--- task \---
+
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+
+![Testing a chatbot reply](images/chatbot-if-test2.png)
+
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
+
+\--- /task \---
+
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
+
+\--- task \---
+
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+
+![Testing a changing costume](images/chatbot-costume-test1.png)
+
+![Testing a changing costume](images/chatbot-costume-test2.png)
+
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
+
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
+```
+
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
 \--- / कार्य \---
 
-\--- कार्य \---
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
 
-आपण "नाही" उत्तर दिल्यास आपल्या चॅटबॉटमध्ये काहीही बोलत नाही. आपण आपले चॅटबॉट बदलू शकता जेणेकरून ते "अरेरे!" जर आपण त्याच्या प्रश्नास "नाही" उत्तर दिले तर?
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
 
-चाचणी आणि जतन करा आपले चॅटबॉट आता "अरेरे!" आपण उत्तर दिल्यास "नाही" खरं तर, ते म्हणेल "नाही!" "होय" व्यतिरिक्त अन्य कशासही उत्तर द्या (जर **दुसरा** `असेल तर / अन्य` ब्लॉक म्हणजे **अन्यथा**).
+![Costume bug](images/chatbot-costume-bug-test.png)
 
-![एक होय / नाही उत्तराची चाचणी घेत आहे](images/chatbot-if-else-test.png)
+\--- task \---
 
-\--- इशारे \--- \--- इशारा \--- आपले चॅटबॉट आता म्हणू शकेल "हे ऐकून चांगले आहे!" **तर** आपले उत्तर "होय" आहे, पण असे म्हणू नये "ओहो!" आपण काहीतरी उत्तर दिले तर **आणखी**. \--- / इशारा \--- \--- इशारा \--- येथे वापरण्यासाठी आपल्याला आवश्यक कोड ब्लॉक आहेत: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- / संकेत \--- \--- इशारा \--- आपला कोड कसा दिसला पाहिजे ते येथे आहे: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- / इशारा \--- \--- / इशारे \---
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
-\--- / कार्य \---
+![nano sprite](images/nano-sprite.png)
 
-\--- कार्य \---
+```blocks3
+when this sprite clicked
 
-आपण कोणत्याही कोडला `आत ठेवू शकता जर / else` ब्लॉक, केवळ तुमचा चॅटबॉट बोलण्यासाठी कोड नाही आपण आपल्या चॅटबॉटच्या **कॉस्टयूम** टॅबमनावर क्लिक केल्यास आपल्याला असे दिसते की त्याच्याकडे एकापेक्षा अधिक पोशाख आहेत.
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
+```
 
-![चॅटबॉट वेशभूषा](images/chatbot-costume-view.png)
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
-\--- / कार्य \---
-
-\--- कार्य \---
-
-आपल्या प्रतिक्रिया जुळवण्यासाठी आपण चॅटबॉट्स च्या पोषाख बदलू शकता?
-
-चाचणी आणि जतन करा आपल्या उत्तरानुसार आपण आपले चॅटबॉट चे चेहरे बदलले पाहिजे.
-
-![बदलत्या वेशभूषाची चाचणी करणे](images/chatbot-costume-test.png)
-
-\--- इशारे \--- \--- इशारा \--- आपल्या चॅटबॉॉटला आता **ने उत्तर दिलेले उत्तर** कॉन्सटिश स्विच करावे. \--- / इशारा \--- \--- इशारा \--- येथे वापरण्यासाठी आपल्याला आवश्यक कोड ब्लॉक आहेत: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- / संकेत \--- \--- इशारा \--- आपला कोड कसा दिसला पाहिजे ते येथे आहे: ![Code for a changing costume](images/chatbot-costume-code.png) \--- / इशारा \--- \--- / इशारे \---
-
-\--- / कार्य \---
-
-\--- कार्य \---
-
-आपण असे पाहिले आहे की आपल्या चॅटबॉटची पोशाख तीच राहिली ज्यामुळे आपण त्यास शेवटच्या वेळी बोलले होते? आपण या समस्येचे निराकरण करू शकता?
-
-![कॉस्च्युम बग](images/chatbot-costume-bug-test.png)
-
-चाचणी आणि जतन करा: आपला कोड चालवा आणि "नाही" टाइप करा जेणेकरुन आपले चॅटबॉट दुर्दैवी दिसतील. जेव्हा आपण आपला कोड पुन्हा चालवता तेव्हा आपले नाव विचारण्यापूर्वी आपले चॅटबॉब मुस्कुरालेल्या चेहऱ्याने परत बदलले पाहिजे.
-
-![पोषाख निराकरण](images/chatbot-costume-fix-test.png)
-
-\--- इशारे \--- \--- इशारा \--- तेव्हा **परी क्लिक केले आहे**, आपल्या chatbot पाहिजे प्रथम **स्विच पोशाख** एक हसरा चेहरा आहे. \--- / इशारा \--- \--- इशारा \--- येथे जोडण्यासाठी आपल्याला आवश्यक असलेले कोड ब्लॉक आहे: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- / संकेत \--- \--- इशारा \--- येथे आपला कोड कसा दिसला पाहिजे ते येथे आहे: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- / इशारा \--- \--- / इशारे \---
-
-\--- / कार्य \---
-
-\--- आव्हान \---
-
-## आव्हान: अधिक निर्णय
-
-आपल्या चॅटबॉटला दुसरे प्रश्न विचारण्यास - "होय" किंवा "नाही" उत्तरासह काहीतरी. आपण आपल्या चॅटबॉबने उत्तर उत्तर देऊ शकता?
-
-![स्क्रीनशॉट](images/chatbot-joke.png) \--- / आव्हान \---
+\--- /task \---
