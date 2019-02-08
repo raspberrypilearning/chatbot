@@ -1,51 +1,7 @@
-## צ'אטבוט מדבר
+## Challenge: more questions
 
-עכשיו שיש לכם צ'אטבוט עם אישיות, בואו נתכנת אותו לדבר איתנו.
+Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
-\--- task \---
+![More questions](images/chatbot-question1.png)
 
-הוסיפו קוד לצ'אטבוט שלכם, כך שכאשר לוחצים עליו הוא מבקש את השם שלך ואז אומר "איזה שם יפה!"
-
-![בדיקת תגובת הצ'אטבוט](images/chatbot-ask-test.png)
-
-\--- hints \--- \--- hint \--- כאשר לוחצים על **דמות הצ'אטבוט**, הוא **שואל** מה שמך. אז הצ'אטבוט **אומר** "איזה שם יפה!" \--- /hint \--- \--- hint \--- הנה קטעי הקוד שתצטרכו: ![Blocks for a ChatBot reply](images/chatbot-ask-blocks.png) \--- /hint \--- \--- hint \--- כך צריך הקוד להראות: ![Code for a ChatBot reply](images/chatbot-ask-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-עכשיו הצ'אטבוט פשוט עונה "איזה שם יפה!" בכל פעם. האם אתם יכולים להתאים אישית את תשובת הצ'אטבוט שלכם על ידי שימוש בתשובה שהוא קיבל מכם?
-
-![בדיקת תשובה מותאמת אישית](images/chatbot-answer-test.png)
-
-\--- hints \--- \--- hint \--- כאשר לוחצים על **דמות הצ'אטבוט**, הוא **שואל** מה שמך. הצ'אטבוט אז צריך ** לומר ** "היי", ולאחר מכן את ** התשובה ** שקיבל מכם. \--- /hint \--- \--- hint \--- הנה קטעי הקוד שתצטרכו: ![Blocks for a personalised reply](images/chatbot-answer-blocks.png) \--- /hint \--- \--- hint \--- כך צריך הקוד שלכם להראות: ![Code for a personalised reply](images/chatbot-answer-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-אם תשמרו את התשובה ** במשתנה **, אז זה יכול לשמש אתכם שוב מאוחר יותר. צרו משתנה חדש בשם ` שם ` כדי לאחסן את שמכם.
-
-[[[generic-scratch-add-variable]]]
-
-\--- /task \---
-
-\--- task \---
-
-האם אתם יכולים לאחסן את התשובה שלכם במשתנה `שם `ואז להשתמש במשתנה בתשובה של הצ'אטבוט שלכם?
-
-הקוד שלכם צריך כעת לפעול כמו מקודם: הצ'אטבוט שלכם צריך להגיד שלום ואז את השם שלכם.
-
-![בדיקת משתנה "שם"](images/chatbot-ask-test.png)
-
-\--- hints \--- \--- hint \--- כאשר לוחצים על **דמות הצ'אטבוט **, הוא צריך **לשאול ** מה שמכם. כעת עליכם **להגדיר** את משתנה ה`שם` עבור ה**תשובה**. אז הצ'אטבוט צריך **לומר** "שלום" ואז את ה**שם**. \--- /hint \--- \--- hint \--- הנה קטעי הקוד שתצטרכו: ![Blocks for a 'name' variable](images/chatbot-variable-blocks.png) \--- /hint \--- \--- hint \--- כך צריך הקוד להראות: ![Code for a 'name' variable](images/chatbot-variable-code.png) \--- /hint \--- \--- /hints \---
-
-\--- /task \---
-
-\--- challenge \---
-
-## אתגר: שאלות נוספות
-
-תכנתו את הצ'אטבוט שלכם כדי לשאול שאלה אחרת. האם ניתן לאחסן את התשובה במשתנה חדש?
-
-![שאלות נוספות](images/chatbot-question.png) \--- /challenge \---
+![More questions](images/chatbot-question2.png)
