@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## المقدمة
 
-ستتعلَّم كيف تُبرمج روبوتك المُحاوِر! 
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### ما الذي ستصنعه
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-انقر على العلم الأخضر، ثم انقر على روبوت الدردشة لبدء محادثة. عندما يسأل روبوت الدردشة سؤالًا، اكتب إجابتك في المربع الموجود أسفل المنصة وانقر على علامة ✓ (أو اضغط `Enter`).
+\--- /no-print \---
 
-### ما الذي ستتعلمه
+\--- print-only \---
 
-يتناول هذا المشروع عناصر من المعايير التالية من المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
+![complete project](images/chatbot-preview.png)
 
-+ [استخدام تراكيب البرمجة الأساسية لإنشاء برامج بسيطة.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### معلومات إضافية لقادة النادي
+\--- collapse \---
 
-إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## \--- collapse \---
+## title: What you will need
 
-## العنوان: ملاحظات قادة النادي
+### Hardware
 
-## المقدمة:
++ Computer capable of running Scratch 3
 
-في هذا المشروع، سيتعلَّم الأطفال كيفية استخدام عبارات 'if' لصنع قرارات في برامجهم.
+### Software
 
-## الموارد
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-بالنسبة لهذا المشروع، يجب استخدام برنامج Scratch 2. ويمكن استخدام برنامج Scratch 2 عبر الإنترنت على [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) أو يمكن تنزيله من [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) واستخدامه دون اتصال بالإنترنت.
+### Downloads
 
-يمكنك العثور على نسخة مكتملة من هذا المشروع [online](http://scratch.mit.edu/projects/26762091/#editor)، أو يمكن تنزيله بالنقر على الرابط 'مواد المشروع' الخاص بهذا المشروع، والذي يحتوي على: 
-
-+ ChatBot.sb2
-
-## أهداف التعلم
-
-+ إدخال النصوص؛
-+ القرارات: 
-    + عبارات `if ... then`{:class="blockcontrol"};
-    + عبارات `if ... then ... else`{:class="blockcontrol"}.
-
-يتناول هذا المشروع عناصر من الصفوف التالية من المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
-
-+ [استخدام تراكيب البرمجة الأساسية لإنشاء برامج بسيطة.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## التحديات
-
-+ "مزيد من الأسئلة" - دعم تعلم الإدخال وإنشاء قالب `الإجابة`{:class="blocksensing"} block؛
-+ "مزيد من القرارات" - استخدام القرارات؛
-+ "اصنع روبوتك الخاص بك" - دعم التعلم من هذا البرنامج والبرامج السابقة.
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+\--- collapse \---
 
-## العنوان: مواد المشروع
+* * *
 
-## موارد قادة النادي
+## title: What you will learn
 
-+ [مشروع Scratch 2 مكتمل قابل للتنزيل](resources/ChatBot.sb2)
-+ [مشروع Scratch 2 مكتمل عبر الإنترنت](http://scratch.mit.edu/projects/26762091/#editor)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
