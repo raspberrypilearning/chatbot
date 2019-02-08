@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## Εισαγωγή
 
-Θα μάθεις πώς να προγραμματίσεις το δικό σου ομιλόν ρομπότ!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Τι θα κάνεις
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Κάνε κλικ στην πράσινη σημαία και στη συνέχεια κλικ στο chatbot για να αρχίσει μία συζήτηση. Όταν το chatbot σε ρωτήσει, πληκτρολόγησε την απάντησή σου στο πλαίσιο στο κάτω μέρος του Σκηνικού και κάνε κλικ στο τικ (ή πάτησε `Enter`).
+\--- /no-print \---
 
-### Τι θα μάθεις
+\--- print-only \---
 
-Αυτό το έργο καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+![complete project](images/chatbot-preview.png)
 
-+ [Χρησιμοποίησε βασικές δομές προγραμματισμού για να δημιουργήσεις απλά προγράμματα.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### Πρόσθετες πληροφορίες για τους συντονιστές των ομάδων
+\--- collapse \---
 
-Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## \--- collapse \---
+## title: What you will need
 
-## title: Σημειώσεις συντονιστή ομάδας
+### Hardware
 
-## Εισαγωγή:
++ Computer capable of running Scratch 3
 
-Σε αυτό το έργο, τα παιδιά θα μάθουν πώς να χρησιμοποιούν τις δηλώσεις «εάν» για να λαμβάνουν αποφάσεις στα προγράμματά τους.
+### Software
 
-## Πόροι
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-Για το έργο αυτό, θα πρέπει να χρησιμοποιηθεί το Scratch 2. Το Scratch 2 μπορεί είτε να χρησιμοποιηθεί online στο [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) είτε να μεταφορτωθεί από το [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) και να χρησιμοποιηθεί εκτός σύνδεσης.
+### Downloads
 
-Μπορείτε να βρείτε μια ολοκληρωμένη έκδοση του έργου [online](http://scratch.mit.edu/projects/26762091/#editor) ή μπορείτε να το κατεβάσετε κάνοντας κλικ στο σύνδεσμο «Project Materials» για αυτό το έργο, το οποίο περιέχει:
-
-+ ChatBot.sb2
-
-## Στόχοι μάθησης
-
-+ Εισαγωγή κειμένου;
-+ Αποφάσεις: 
-    + `εάν ... τότε`{:class="blockcontrol"} δηλώσεις;
-    + `εάν ... τότε ... αλλιώς`{:class ="blockcontrol"} δηλώσεις.
-
-Αυτό το πρόγραμμα καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Χρησιμοποίησε βασικές δομές προγραμματισμού για να δημιουργήσεις απλά προγράμματα.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## Προκλήσεις
-
-+ "Περισσότερες ερωτήσεις" - εμπέδωση μάθησης της εισαγωγής δεδομένων και του μπλοκ `απάντηση`{:class="blocksensing"};
-+ "Περισσότερες αποφάσεις" - χρησιμοποιώντας αποφάσεις.
-+ "Κάνε το δικό σου chatbot" - εμπέδωση της μάθησης από αυτό και τα προηγούμενα έργα.
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
-## \--- collapse \---
+\--- collapse \---
 
-## title: Υλικά του έργου
+* * *
 
-## Πόροι συντονιστή ομάδας
+## title: What you will learn
 
-+ [Λήψη ολοκληρωμένου έργου Scratch 2](resources/ChatBot.sb2)
-+ [Ολοκληρωμένο έργο στο online Scratch 2](http://scratch.mit.edu/projects/26762091/#editor)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
