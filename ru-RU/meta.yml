@@ -2,33 +2,30 @@
 title: Chatbot
 hero_image: Изображения / chatbot.png
 description: Узнайте, как программировать собственный робот-говорящий!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: Фиолетовый
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, production-0, community-0
-interests: ''
-technology: царапина
-site_areas: проектов
-technologies: царапина
-hardware: ''
-software: царапина
-version: 4.1.0
-last_tested: 2017-01-01
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
     title: Введение
   - 
-    title: Что вам необходимо
+    title: Your chatbot
   - 
-    title: Ваш чатбот
+    title: A talking chatbot
   - 
-    title: Говорящий чатбот
+    title: "Challenge: more questions"
+    challenge: true
   - 
     title: Принимая решения
   - 
-    title: Изменение местоположения
+    title: "Challenge: more decisions"
+    challenge: true
   - 
-    title: 'Задача: завершить свой чатбот'
+    title: Changing location
+  - 
+    title: "Challenge: finish your chatbot"
+    challenge: true
+  - 
+    title: What next?
