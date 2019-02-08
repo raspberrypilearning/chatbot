@@ -1,71 +1,127 @@
-## Шаг 3: принятие решений
+## Making decisions
 
-Вы можете запрограммировать свой чатбот, чтобы решить, что сказать или сделать, исходя из ваших ответов на его вопросы.
+You can program your chatbot to decide what to do based on the answers it receives.
 
-\--- задача \---
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
-Можете ли вы сделать чат-бот, задав вопрос «Вы в порядке?», И запрограммируйте его, чтобы ответить «Это здорово слышать!» только **если** пользователь отвечает «да»?
+\--- task \---
 
-Чтобы проверить свой новый код правильно, вы должны проверить его **дважды**, один раз с ответом «да» и один раз с ответом «нет».
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-Ваш чатбот должен ответить «Это здорово!» если вы ответите «да», но не говорите ничего, если вы ответите «нет».
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-![Тестирование ответа чатбота](images/chatbot-if-test.png)
+![Тестирование ответа чатбота](images/chatbot-if-test2.png)
 
-\--- Рекомендации \--- \--- намек \--- После того, как ваш Chatbot сказал «Привет», он должен теперь **спросить** «Вы в порядке?». **Если** вы ответите «да», то чатбот должен **сказать** «Это здорово слышать!». \--- / hint \--- \--- hint \--- Вот дополнительные блоки кода, которые вам понадобятся: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- / hint \--- \--- hint \--- Вот как ваш код должен выглядеть: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- / hint \--- \--- / hints \---
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
+```
+
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+
+\--- /task \---
+
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+
+\--- task \---
+
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+
+![Testing a chatbot reply](images/chatbot-if-test2.png)
+
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
+
+\--- /task \---
+
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
+
+\--- task \---
+
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+
+![Testing a changing costume](images/chatbot-costume-test1.png)
+
+![Testing a changing costume](images/chatbot-costume-test2.png)
+
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
+
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
+```
+
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
 \--- / задача \---
 
-\--- задача \---
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
 
-На данный момент ваш чатбот ничего не говорит, если вы ответите «нет». Можете ли вы изменить свой чатбот, чтобы он также ответил «О нет!». если вы ответите «нет» на его вопрос?
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
 
-Проверьте и сохраните. Теперь ваш чатбот должен сказать «О нет!» если вы ответите «нет». На самом деле он скажет: «Нет!» если вы отвечаете ничем иным, чем «да» ( **else** в блоке `if / else` означает **противном случае**).
+![Costume bug](images/chatbot-costume-bug-test.png)
 
-![Тестирование ответа «да / нет»](images/chatbot-if-else-test.png)
+\--- task \---
 
-\--- hints \--- \--- hint \--- Теперь ваш chatbot должен сказать: «Это здорово слышать!» **если** ваш ответ «да», но должен сказать «О нет!». если вы что - то ответить **еще**. \--- / hint \--- \--- hint \--- Вот коды, которые вам нужно использовать: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- / hint \--- \--- hint \--- Вот как выглядит ваш код: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- / hint \--- \--- / hints \---
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
-\--- / задача \---
+![nano sprite](images/nano-sprite.png)
 
-\--- задача \---
+```blocks3
+when this sprite clicked
 
-Вы можете поместить любой код внутри блока `if / else` , а не только код, чтобы ваш чатбот говорил. Если щелкнуть ваш Chatbot в **Costume** вкладку, вы увидите , что она имеет более чем один костюм.
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
+```
 
-![костюмы chatbot](images/chatbot-costume-view.png)
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
-\--- / задача \---
-
-\--- задача \---
-
-Можете ли вы изменить костюм чатбота в соответствии с вашим ответом?
-
-Проверьте и сохраните. Вы должны увидеть изменение лица чатбота в зависимости от вашего ответа.
-
-![Тестирование изменяющегося костюма](images/chatbot-costume-test.png)
-
-\--- hints \--- \--- hint \--- Ваш чатбот должен теперь также **переключателя костюма** зависимости от ответа. \--- / hint \--- \--- hint \--- Вот коды, которые вам нужно использовать: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- / hint \--- \--- hint \--- Вот как выглядит ваш код: ![Code for a changing costume](images/chatbot-costume-code.png) \--- / hint \--- \--- / hints \---
-
-\--- / задача \---
-
-\--- задача \---
-
-Вы заметили, что ваш костюм chatbot остается таким же, как и в последний раз, когда вы говорили с ним? Вы можете решить эту проблему?
-
-![Костюмная ошибка](images/chatbot-costume-bug-test.png)
-
-Тест и сохранение: запустите свой код и введите «нет», чтобы ваш чатбот выглядел несчастным. Когда вы снова запустите свой код, ваш чатбот должен вернуться на улыбающееся лицо, прежде чем спрашивать ваше имя.
-
-![Тестирование костюма](images/chatbot-costume-fix-test.png)
-
-\--- hints \--- \--- hint \--- Когда **спрайта нажата**, ваш чатбот должен сначала **переключить костюм** на улыбающееся лицо. \--- / hint \--- \--- hint \--- Вот код, который вам нужно добавить: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- / hint \--- \--- hint \--- Вот как ваш код должен выглядеть: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- / hint \--- \--- / hints \---
-
-\--- / задача \---
-
-\--- вызов \---
-
-## Задача: больше решений
-
-Запросите свой чатбот, чтобы задать другой вопрос - что-то с ответом «да» или «нет». Можете ли вы ответить на ответ чатбота?
-
-![Скриншот](images/chatbot-joke.png) \--- /вызов \---
+\--- /task \---
