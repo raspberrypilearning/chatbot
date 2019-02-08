@@ -1,48 +1,77 @@
-## നിങ്ങളുടെ ചാറ്റ് ബോട്ട്
+## A talking chatbot
+
+Now that you have a chatbot with a personality, you're going to program it to talk to you.
+
+\--- task \---
+
+Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+say [What a lovely name!] for (2) seconds
+```
+
+\--- /task \---
+
+\--- task \---
+
+Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+
+![Testing a ChatBot response](images/chatbot-ask-test1.png)
+
+![Testing a ChatBot response](images/chatbot-ask-test2.png)
+
+\--- /task \---
+
+\--- task \---
+
+Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+
+Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+say (join [Hi ] (answer) :: +) for (2) seconds
+```
+
+![Testing a personalised reply](images/chatbot-answer-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+By storing the answer in a **variable**, you can use it anywhere your project.
+
+Create a new variable called `name`{:class="block3variables"}.
+
+[[[generic-scratch3-add-variable]]]
 
 \--- / ജോലി \---
 
-നിങ്ങൾ ചാറ്റ്ബോട്ട് നടത്തുന്നതിന് മുമ്പ്, നിങ്ങൾ അതിൻറെ വ്യക്തിത്വത്തെക്കുറിച്ച് തീരുമാനിക്കേണ്ടതുണ്ട്. ** ഇനിപ്പറയുന്ന ചോദ്യങ്ങളെക്കുറിച്ച് ചിന്തിക്കുക **:
+\--- task \---
 
-    അവരുടെ പേര് എന്താണ്? 
-    അവർ എവിടെ ജീവിക്കുന്നു? 
-    അവർ സന്തുഷ്ടരാണോ? ഗുരുതരമാണോ? രസകരമാണോ? ലജ്ജാശീല? സൗഹൃദം?
-    
+Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
-\--- / ജോലി \---
+![nano sprite](images/nano-sprite.png)
 
-\--- / ജോലി \---
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
 
-ഒരു പുതിയ ശൂന്യ സ്ക്രാച് പ്രോജക്റ്റ് തുറക്കുക.
++ set [name v] to (answer)
+say (join [Hi ] (name :: variables +)) for (2) seconds
+```
 
-[[[generic-scratch-new-project]]]
+Your code should work as before: your chatbot should say hi using the name you type in.
 
-\--- / ജോലി \---
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- / ജോലി \---
+\--- /task \---
 
-Choose one of these character sprites, and add them to your project:
-
-![Choose a character](images/chatbot-characters.png)
-
-[[[generic-scratch-sprite-from-library]]]
-
-\--- / ജോലി \---
-
-\--- / ജോലി \---
-
-Choose a backdrop that fits your chatbot's personality. Here's an example, although yours doesn't have to look like this:
-
-![Choose a backdrop](images/chatbot-backdrop.png)
-
-[[[generic-scratch-backdrop-from-library]]]
-
-\--- / ജോലി \---
-
-\--- / ജോലി \---
-
-നിങ്ങളുടെ പ്രോജക്റ്റ് സംരക്ഷിക്കുക.
-
-[[[generic-scratch-saving]]]
-
-\--- / ജോലി \---
+Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
