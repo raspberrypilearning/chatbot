@@ -1,71 +1,127 @@
-## الخطوة 3: اتخاذ القرارات
+## Making decisions
 
-يمكنك برمجة روبوتك ليقرِّر ما سيقوله أو سيفعله بناءً على إجاباتك عن أسئلته.
+You can program your chatbot to decide what to do based on the answers it receives.
+
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
 \--- task \---
 
-هل يمكنك أن تجعل الروبوت يسأل السؤال "هل أنت بخير؟"، وتُبرمجه بحيث يكون ردُّه على المستخدم هو "سعيد لسماع ذلك!" فقط **إذا** كانت إجابة المستخدم عن السؤال هي "نعم"؟
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-لاختبار التعليمة البرمجية الجديدة كما ينبغي، يجب أن تختبرها **مرتين**، بحيث تكون إجابتك في الاختبار الأول هي "نعم"، وتكون إجابتك في الاختبار الثاني هي "لا".
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-يجب أن يكون رد الروبوت هو "سعيد لسماع ذلك!" إذا كانت إجابتك هي "نعم"، ولا يرد بأي شيء إذا كانت إجابتك هي "لا".
+![اختبار استجابة الروبوت](images/chatbot-if-test2.png)
 
-![اختبار استجابة الروبوت](images/chatbot-if-test.png)
+![nano sprite](images/nano-sprite.png)
 
-\--- hints \--- \--- hint \--- بعد أن قال الروبوت "مرحبًا"، يجب أن **يسأل** أيضًا "هل أنت بخير؟". **إذا** كانت إجابتك هي "نعم"، فيجب أن ي**قول** الروبوت "سعيد لسماع ذلك!". \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إليها: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- /hint \--- \--- hint \--- هكذا يجب أن تكون التعليمة البرمجية التي تُدخلها: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- /hint \--- \--- /hints \---
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
+```
+
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+
+\--- /task \---
+
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+
+\--- task \---
+
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
+```
 
 \--- /task \---
 
 \--- task \---
 
-حاليًا، لا يقول روبوتك أي شيء عندما تكون إجابتك هي "لا"، هل يمكنك تغيير ذلك بحيث يكون رد الروبوت هو "آسف لسماع ذلك!" إذا كانت إجابتك عن سؤاله هي "لا"؟
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
-اختبر مشروعك وقم بحفظه. الأن يجب أن يقول روبوتك "آسف لسماع ذلك!" إذا كانت إجابتك هي "لا". في الواقع، سيقول الروبوت "آسف لسماع ذلك!" إذا أجبتَ بأي شيء بخلاف "نعم" (فكلمة **وإلا** في التعليمات البرمجية `if/else` تعني **خلاف ذلك**).
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-![اختبار الرد بنعم/لا](images/chatbot-if-else-test.png)
-
-\--- hints \--- \--- hint \--- يجب أن يقول روبوتك الآن "سعيد لسماع ذلك!" **إذا** كانت إجابتك هي "نعم"، ولكن يجب أن يقول "آسف لسماع ذلك!" إذا كانت إجابتك شيئًا آخر، أيْ **وإلا**. \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إلى استخدامها: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- /hint \--- \--- hint \--- هكذا يجب أن تكون التعليمة البرمجية التي تُدخلها: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- /hint \--- \--- /hints \---
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 \--- /task \---
+
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-يمكنك إدخال أي تعليمة برمجية في قالب `if/else`، لا مجرد الاقتصار على تعليمة برمجية تجعل روبوتك يتكلم فحسب. إذا نقرتَ على علامة التبويب **المظهر** الخاصة بالروبوت، فسترى أكثر من مظهر واحد له.
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
-![مظهر الروبوت](images/chatbot-costume-view.png)
+![Testing a changing costume](images/chatbot-costume-test1.png)
+
+![Testing a changing costume](images/chatbot-costume-test2.png)
+
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
+
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
+```
+
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
 \--- /task \---
+
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+
+![Costume bug](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-هل يمكنك تغيير مظهر الروبوت بحيث يتناسب مع الإجابة التي تُدخلها؟
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
-اختبر مشروعك وقم بحفظه. يجب أن ترى أن تعابير وجه الروبوت تتغير حسب إجابتك.
+![nano sprite](images/nano-sprite.png)
 
-![اختبار تغير المظهر](images/chatbot-costume-test.png)
+```blocks3
+when this sprite clicked
 
-\--- hints \--- \--- hint \--- الروبوتك الأن يجب أن **يتغير مظهر** حسب الإجابة المُدخلة. \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إلى استخدامها: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a changing costume](images/chatbot-costume-code.png) \--- /hint \--- \--- /hints \---
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
+```
 
-\--- /task \---
-
-\--- task \---
-
-هل لاحظتَ أن مظهر الروبوت يظل بالشكل نفسه الذي تغير إليه في آخر مرة تحدثتَ معه؟ هل يمكنك إصلاح هذه المشكلة؟
-
-![مظهر الحشرة](images/chatbot-costume-bug-test.png)
-
-اختبر مشروعك وقم بحفظه: شغِّل التعليمة البرمجية واكتب "لا"، لكي يبدو الروبوت حزينًا. عندما تشغِّل التعليمة البرمجية مرة أخرى، يجب أن يتغير وجه الروبوت ليصبح مبتسمًا كما كان قبل أن يسألك عن اسمك.
-
-![اختبار إصلاح المظهر](images/chatbot-costume-fix-test.png)
-
-\--- hints \--- \--- hint \--- **عند النقر على الكائن**، يجب أولًا أن **يتغير مظهر** الروبوت ليصبح وجهه مبتسمًا. \--- /hint \--- \--- hint \--- فيما يلي التعليمات البرمجية التي ستحتاج إلى استخدامها: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- /hint \--- \--- hint \--- يجب أن تكون التعليمة البرمجية التي تُدخلها كما يلي: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- /hint \--- \--- /hints \---
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
-
-\--- challenge \---
-
-## التحدي: مزيد من القرارات
-
-برمِج روبوتك ليسأل سؤالًا آخر - يُجاب عنه بـ "نعم" أو"لا". هل يمكنك أن تجعل الروبوت يتجاوب مع الإجابة؟
-
-![لقطة الشاشة](images/chatbot-joke.png) \--- /challenge \---
