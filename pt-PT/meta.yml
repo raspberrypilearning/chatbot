@@ -2,33 +2,30 @@
 title: Robot Falador
 hero_image: images/chatbot.png
 description: Vais aprender como programar o teu próprio robot que fala!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: ''
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
+copyedit: false
 version: 4.1.0
 last_tested: 2017-01-01
 steps:
   - 
     title: Robot Falador
   - 
-    title: O que vais precisar
+    title: Your chatbot
   - 
-    title: O teu robô falante
+    title: A talking chatbot
   - 
-    title: Um robô falante
+    title: "Challenge: more questions"
+    challenge: true
   - 
     title: Tomar decisões
   - 
-    title: Mudar de localização
+    title: "Challenge: more decisions"
+    challenge: true
   - 
-    title: 'Desafio: termina o teu robô falante'
+    title: Changing location
+  - 
+    title: "Challenge: finish your chatbot"
+    challenge: true
+  - 
+    title: What next?
