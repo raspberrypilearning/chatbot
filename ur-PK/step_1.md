@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## تعارف
 
-آپ جاننے کے لئے جا رہے ہیں کہ آپ کس طرح اپنے روبوٹ پروگرام چلانا چاہتے ہیں.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### آپ کیا کریں گے
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-سبز پرچم پر کلک کریں، اور پھر گفتگو شروع کرنے کیلئے چیٹ بٹ پر کلک کریں. chatbot ایک سوال پوچھتا ہے جب، اسٹیج کے نیچے دیئے گئے خانے میں آپ کا جواب ٹائپ کریں اور ٹک کلک (یا دبائیں `درج کریں`).
+\--- /no-print \---
 
-### آپ کیا سیکھیں گے
+\--- print-only \---
 
-یہ منصوبے [ریسسیری پی آئی ڈی ڈیجیٹل نصاب](http://rpf.io/curriculum)مندرجہ بالا عناصر سے عناصر پر مشتمل ہے.
+![complete project](images/chatbot-preview.png)
 
-+ [سادہ پروگرام بنانے کے لئے بنیادی پروگرامنگ کی تعمیر کا استعمال کریں.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### کلب رہنماؤں کے لئے اضافی معلومات
+\--- collapse \---
 
-اگر آپ کو اس منصوبے کو پرنٹ کرنے کی ضرورت ہے، تو براہ مہربانی [پرنٹر دوستانہ ورژن](https://projects.raspberrypi.org/en/projects/chatbot/print).
+* * *
 
-## \--- گرنے \---
+## title: What you will need
 
-## عنوان: کلب لیڈر نوٹ
+### Hardware
 
-## تعارف:
++ Computer capable of running Scratch 3
 
-اس منصوبے میں، بچوں کو سیکھیں گے کہ ان کے پروگراموں میں فیصلے کرنے کے لئے 'اگر' بیانات استعمال کرنے کے لۓ.
+### Software
 
-## وسائل
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-اس منصوبے کے لئے، سکریچ 2 استعمال کیا جانا چاہئے. سکریچ 2 یا تو آن لائن استعمال کیا جا سکتا [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) یا سے ڈاؤن لوڈ کیا جا سکتا ہے [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) اور آف لائن استعمال کیا.
+### Downloads
 
-آپ اس پراجیکٹ کا مکمل ورژن [آن لائن](http://scratch.mit.edu/projects/26762091/#editor)کرسکتے ہیں، یا اس پراجیکٹ کے لئے 'پروجیکٹ مواد' کا لنک پر کلک کرکے ڈاؤن لوڈ کیا جا سکتا ہے، جس پر مشتمل ہے:
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
-+ ChatBot.sb2
+\--- /collapse \---
 
-## سیکھنے کے مقاصد
+\--- collapse \---
 
-+ متن ان پٹ؛
-+ فیصلے: 
-    + `اگر ... پھر`{: class = "blockcontrol"} بیانات؛
-    + `اگر ... تو ... مزید`{: class = "blockcontrol"} بیانات.
+* * *
 
-یہ منصوبے [ریسسیری پی آئی ڈی ڈیجیٹل نصاب](http://rpf.io/curriculum)مندرجہ بالا عناصر سے عناصر پر مشتمل ہے.
+## title: What you will learn
 
-+ [سادہ پروگرام بنانے کے لئے بنیادی پروگرامنگ کی تعمیر کا استعمال کریں.](https://www.raspberrypi.org/curriculum/programming/creator)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
 
-## چیلنجز
+\--- /collapse \---
 
-+ "مزید سوالات" - ان پٹ سیکھنے اور `جواب`: کلاس = "blocksensing"} بلاک کو مضبوط بنانے؛
-+ "مزید فیصلے" - فیصلے کا استعمال کرتے ہوئے؛
-+ "اپنے اپنے چیٹ بٹ بنائیں" - اس اور ماضی کے منصوبوں سے سیکھنے کا استحکام.
+\--- collapse \---
 
-\--- /گرنے \---
+* * *
 
-## \--- گرنے \---
+## title: Additional notes for educators
 
-## عنوان: پروجیکٹ مواد
+\--- no-print \---
 
-## کلب رہنما وسائل
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-+ [ڈاؤن لوڈ، اتارنا مکمل سکریچ 2 منصوبے](resources/ChatBot.sb2)
-+ [آن لائن سکریچ 2 منصوبے مکمل](http://scratch.mit.edu/projects/26762091/#editor)
+\--- /no-print \---
 
-\--- /گرنے \---
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+
+\--- /collapse \---
