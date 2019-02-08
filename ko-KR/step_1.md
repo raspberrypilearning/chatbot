@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## 들어가며
 
-자신만의 말하는 로봇인 챗봇을 프로그래밍 하는 방법에 대해 배워봅시다!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### 만들게 될 것
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-초록 깃발을 누른 후에, 챗봇을 눌러서 대화를 시작하십시오. 위의 화면에서 챗봇이 질문을 하면 하단에 위치한 텍스트 상자에 대답을 입력하고 상자 우측에 위치한 체크표시를 클릭하세요. (또는 `Enter`를 누르세요)
+\--- /no-print \---
 
-### 배우게 될 것
+\--- print-only \---
 
-이 프로젝트는 [라즈베리파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
+![complete project](images/chatbot-preview.png)
 
-+ [기본 프로그래밍 구조를 이용해서 간단한 프로그램을 만듭니다.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### 교육자들을 위한 추가 정보
+\--- collapse \---
 
-이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/chatbot/print)을 사용하십시오.
+* * *
 
-## \--- collapse \---
+## title: What you will need
 
-## title: 교육자 노트
+### Hardware
 
-## 들어가며:
++ Computer capable of running Scratch 3
 
-이 프로젝트에서 아이들은 if문을 사용해 결정을 내리는 방법에 대해 알게 될 것입니다.
+### Software
 
-## 자료
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-이 프로젝트에서는 Scratch 2를 사용합니다. Scratch 2는 [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on)에서 온라인으로 사용하거나 [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off)에서 다운로드 할 수 있습니다.
+### Downloads
 
-이 프로젝트의 완성 된 버전을 [온라인](http://scratch.mit.edu/projects/26762091/#editor)에서 확인하거나, '프로젝트 자료' 링크를 클릭하여 아래의 파일을 다운로드 할 수 있습니다.
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
-+ ChatBot.sb2
+\--- /collapse \---
 
-## 학습 목표
+\--- collapse \---
 
-+ 텍스트 입력
-+ 결정문들: 
-    + `if ... then` {: class = "blockcontrol"} 구문
-    + `if ... then ... else` {: class = "blockcontrol"} 구문
+* * *
 
-이 프로젝트는 [라즈베리파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
+## title: What you will learn
 
-+ [기본 프로그래밍 문법으로 간단한 프로그램 만들기](https://www.raspberrypi.org/curriculum/programming/creator)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
 
-## 도전과제
+\--- /collapse \---
 
-+ "더 많은 질문" - 입력 학습 및 `대답`{:class="blocksensing"} 블럭을 활용하는 방법에 대한 통합 학습
-+ "더 많은 결정" - 결정문 사용 해 보기
-+ "자신만의 챗봇 만들기" - 이 프로젝트와 과거 프로젝트의 학습을 통합합니다.
+\--- collapse \---
 
--- /collapse \---
+* * *
 
-## \--- collapse \---
+## title: Additional notes for educators
 
-## 제목: 프로젝트 자료
+\--- no-print \---
 
-## 교육자를 위한 자료
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-+ [다운로드 가능한 스크래치 2 프로젝트 완성본 ](resources/ChatBot.sb2)
-+ [온라인 스크래치 2 프로젝트 완성본](http://scratch.mit.edu/projects/26762091/#editor)
+\--- /no-print \---
 
-\--- / collapse \---
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+
+\--- /collapse \---
