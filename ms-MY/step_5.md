@@ -1,71 +1,127 @@
-## Langkah 3: Membuat keputusan
+## Making decisions
 
-Anda boleh memprogram chatbot anda untuk memutuskan apa yang hendak dikatakan atau dilakukan berdasarkan respons anda kepada soalan-soalannya.
+You can program your chatbot to decide what to do based on the answers it receives.
 
-\--- tugas \---
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
-Bolehkah anda membuat chatbot menanyakan soalan "Adakah anda OK?", Dan kod itu untuk membalas "Itu bagus untuk dengar!" hanya **jika** pengguna menjawab "ya"?
+\--- task \---
 
-Untuk menguji kod baru anda dengan betul, anda harus mengujinya **dua kali**, sekali dengan jawapan "ya", dan sekali dengan jawapan "tidak".
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-Your chatbot harus menjawab "It's great to hear!" jika anda menjawab "ya", tetapi mengatakan apa-apa jika anda menjawab "tidak".
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-![Menguji jawapan chatbot](images/chatbot-if-test.png)
+![Menguji jawapan chatbot](images/chatbot-if-test2.png)
 
-\--- hint \--- \--- petunjuk \--- Selepas chatbot anda telah berkata "Hai", ia kini sepatutnya **bertanya** "Adakah anda OK?". **Jika** anda menjawab "ya", maka chatbot perlu **mengatakan** "Itu yang besar untuk mendengar!". \--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kod tambahan yang anda perlukan: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) \--- / petunjuk \--- \--- petunjuk \--- Inilah caranya kod anda harus dilihat: ![Code for a chatbot reply](images/chatbot-if-code.png) \--- / petunjuk \--- \--- / hints \---
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
+```
+
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+
+\--- /task \---
+
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+
+\--- task \---
+
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+
+![Testing a chatbot reply](images/chatbot-if-test2.png)
+
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
+
+\--- /task \---
+
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
+
+\--- task \---
+
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+
+![Testing a changing costume](images/chatbot-costume-test1.png)
+
+![Testing a changing costume](images/chatbot-costume-test2.png)
+
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
+
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
+```
+
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
 \--- / tugas \---
 
-\--- tugas \---
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
 
-Pada masa ini chatbot anda tidak mengatakan apa-apa jika anda menjawab "tidak". Bolehkah anda menukar chatbot anda supaya ia juga membalas "Oh tidak!" jika anda menjawab "tidak" kepada soalannya?
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
 
-Uji dan simpan. Sekarang, chatbot anda harus mengatakan "Oh tidak!" jika anda menjawab "tidak". Malah, ia akan berkata "Tidak!" jika anda menjawab dengan apa-apa selain "ya" (yang **lagi** dalam `jika / else` bermakna **sebaliknya**).
+![Costume bug](images/chatbot-costume-bug-test.png)
 
-![Menguji jawapan ya / tidak](images/chatbot-if-else-test.png)
+\--- task \---
 
-\--- petunjuk \--- \--- petunjuk \--- chatbot anda sekarang harus mengatakan "Itu bagus untuk dengar!" **jika** jawapan anda adalah "ya", tetapi harus berkata "Oh tidak!" jika anda menjawab sesuatu **lagi**. \--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kod yang perlu anda gunakan: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) \--- / petunjuk \--- \--- petunjuk \--- Inilah caranya kod anda harus dilihat: ![Code for a yes/no reply](images/chatbot-if-else-code.png) \--- / petunjuk \--- \--- / petunjuk \---
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
-\--- / tugas \---
+![nano sprite](images/nano-sprite.png)
 
-\--- tugas \---
+```blocks3
+when this sprite clicked
 
-Anda boleh meletakkan sebarang kod di dalam `jika / lain` blok, bukan hanya kod untuk membuat chatbot anda bercakap. Jika anda mengklik tab **Kostume** chatbot, anda akan melihat bahawa ia mempunyai lebih daripada satu kostum.
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
+```
 
-![kostum chatbot](images/chatbot-costume-view.png)
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
-\--- / tugas \---
-
-\--- tugas \---
-
-Bolehkah anda menukar kostum chatbot untuk menyesuaikan dengan respons anda?
-
-Uji dan simpan. Anda harus melihat perubahan wajah chatbot anda bergantung kepada jawapan anda.
-
-![Menguji pakaian yang berubah-ubah](images/chatbot-costume-test.png)
-
-\--- \--- \--- petunjuk petunjuk \--- chatbot anda harus kini juga **suis pakaian** bergantung kepada jawapan yang diberikan. \--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kod yang perlu anda gunakan: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) \--- / petunjuk \--- \--- petunjuk \--- Inilah caranya kod anda harus dilihat: ![Code for a changing costume](images/chatbot-costume-code.png) \--- / petunjuk \--- \--- / petunjuk \---
-
-\--- / tugas \---
-
-\--- tugas \---
-
-Pernahkah anda perasan bahawa kostum chatbot anda tetap sama sehingga ia berubah menjadi terakhir kali anda bercakap dengannya? Bolehkah anda membetulkan masalah ini?
-
-![Bug pakaian](images/chatbot-costume-bug-test.png)
-
-Uji dan simpan: Jalankan kod anda dan taipkan "tidak", supaya chatbot anda kelihatan tidak bahagia. Apabila anda menjalankan kod anda sekali lagi, chatbot anda harus menukar kembali ke wajah tersenyum sebelum meminta nama anda.
-
-![Menguji pembaikan pakaian](images/chatbot-costume-fix-test.png)
-
-\--- petunjuk \--- \--- petunjuk \--- Apabila **sprite diklik**, chatbot Anda harus terlebih dahulu **suis pakaian** ke wajah tersenyum. \--- / petunjuk \--- \--- petunjuk \--- Berikut adalah blok kod yang anda perlu tambah: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) \--- / petunjuk \--- \--- petunjuk \--- Inilah caranya kod anda harus dilihat: ![Code for a costume fix](images/chatbot-costume-fix-code.png) \--- / petunjuk \--- \--- / hints \---
-
-\--- / tugas \---
-
-\--- cabaran \---
-
-## Cabaran: lebih banyak keputusan
-
-Program chatbot anda untuk bertanya soalan lain - sesuatu dengan jawapan "ya" atau "tidak". Bolehkah anda membuat chatbot menjawab jawapannya?
-
-![tangkapan skrin](images/chatbot-joke.png) \--- / cabaran \---
+\--- /task \---
