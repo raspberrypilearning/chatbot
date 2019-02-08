@@ -1,67 +1,75 @@
+\--- no-print \---
+
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+
+\--- /no-print \---
+
 ## Giriş
 
-Öz söhbət edən robotunuzu necə tərtib edəcəyinizi öyrənəcəksiniz!
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Nə edəcəyiniz
 
+\--- no-print \---
+
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Yaşıl bayrağa basın və söhbətə başlamaq üçün chatbot'u basın. Chatbot bir sual soruşduqda, cavabınızı Səhnənin altındakı kutuya yazın və gənə vurun (və ya `Enter`).
+\--- /no-print \---
 
-### Nə öyrənəcəksiniz?
+\--- print-only \---
 
-Bu layihə, [Raspberry Pi Sayısal Qurma Müfredatının](http://rpf.io/curriculum):
+![complete project](images/chatbot-preview.png)
 
-+ [Sadə proqramları yaratmaq üçün əsas proqramlaşdırma quruluşlarından istifadə edin.](https://www.raspberrypi.org/curriculum/programming/creator)
+\--- /print-only \---
 
-### Klub rəhbərləri üçün əlavə məlumat
+\--- collapse \---
 
-Bu layihəni yazmaq istəyirsinizsə, [Printer dostu versiyasını](https://projects.raspberrypi.org/en/projects/chatbot/print) istifadə edin.
+* * *
 
-## \--- çökmə \---
+## title: What you will need
 
-## adı: Klub lideri qeydləri
+### Hardware
 
-## Giriş:
++ Computer capable of running Scratch 3
 
-Bu layihədə uşaqlar 'if' ifadələrini öz proqramlarında qərar qəbul etmək üçün necə istifadə edəcəyini öyrənəcəklər.
+### Software
 
-## Resurslar
++ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-Bu layihə üçün Scratch 2 istifadə edilməlidir. Scratch 2 ya [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) -də onlayn istifadə edilə bilər və ya [jumpto.cc / scratch-off](http://jumpto.cc/scratch-off) -dan endirilə bilər və ondan istifadə olunur.
+### Downloads
 
-Bu layihənin tamamlanmış bir versiyasını [onlayn](http://scratch.mit.edu/projects/26762091/#editor)tapa bilərsiniz və ya bu layihə üçün "Layihə materialları" linkini tıklayaraq yükləyə bilərsiniz:
++ [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
-+ ChatBot.sb2
+\--- /collapse \---
 
-## Öyrənmə məqsədləri
+\--- collapse \---
 
-+ Mətn daxil;
-+ Qərarlar: 
-    + `əgər ... sonra`{: class = "blockcontrol"} ifadələr;
-    + `əgər ... sonra ... başqa`{: class = "blockcontrol"} ifadələr.
+* * *
 
-Bu layihə, [Raspberry Pi Sayısal Qurma Müfredatının](http://rpf.io/curriculum):
+## title: What you will learn
 
-+ [Sadə proqramları yaratmaq üçün əsas proqramlaşdırma quruluşlarından istifadə edin.](https://www.raspberrypi.org/curriculum/programming/creator)
++ How to get input from a user
++ How to use the `if, then, else`{:class="block3control"} Scratch block
 
-## Problemlər
+\--- /collapse \---
 
-+ "Daha çox suallar" - girişin öyrənilməsini və `cavab`{: class = "blocksensing"} bloku;
-+ "Daha çox qərar" - qərarlardan istifadə;
-+ Bu və keçmiş layihələrdən öyrənmənin konsolidasiyası - "öz şablonunu yaradın".
+\--- collapse \---
 
-\--- / çökmə \---
+* * *
 
-## \--- çökmə \---
+## title: Additional notes for educators
 
-## adı: Layihə materialları
+\--- no-print \---
 
-## Klub liderinin qaynaqları
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-+ [İndirilebilir tamamlanmış Scratch 2 layihəsi](resources/ChatBot.sb2)
-+ [Online Scratch 2 layihəsi tamamlandı](http://scratch.mit.edu/projects/26762091/#editor)
+\--- /no-print \---
 
-\--- / çökmə \---
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+
+\--- /collapse \---
