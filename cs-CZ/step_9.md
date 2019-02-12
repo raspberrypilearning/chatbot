@@ -1,3 +1,3 @@
-## What next?
+## Co dále?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box) project, where you will create your own painting program!
+Vyzkoušejte projekt [Paint box](https://projects.raspberrypi.org/en/projects/paint-box) , kde si vytvoříte vlastní malířský program!
