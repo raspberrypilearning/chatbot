@@ -1,4 +1,4 @@
-## Making decisions
+## 결정하기
 
 You can program your chatbot to decide what to do based on the answers it receives.
 
@@ -8,7 +8,7 @@ First, you're going to make your chatbot ask a question that can be answered wit
 
 Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+![챗봇의 응답 테스트하기](images/chatbot-if-test1-annotated.png)
 
 ![챗봇의 응답 테스트하기](images/chatbot-if-test2.png)
 
@@ -59,9 +59,9 @@ end
 
 Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![챗봇의 응답 테스트하기](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![예 / 아니오 응답 테스트](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
@@ -69,15 +69,15 @@ You can put any code inside an `if, then, else`{:class="block3control"} block, n
 
 If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
 
-![chatbot costumes](images/chatbot-costume-view-annotated.png)
+![챗봇의 모습들](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
 Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
-![Testing a changing costume](images/chatbot-costume-test1.png)
+![변화하는 모습 테스트](images/chatbot-costume-test1.png)
 
-![Testing a changing costume](images/chatbot-costume-test2.png)
+![변화하는 모습 테스트](images/chatbot-costume-test2.png)
 
 Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
 
@@ -122,6 +122,6 @@ when this sprite clicked
 ask [What's your name?] and wait
 ```
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![모습 수정 테스트](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
