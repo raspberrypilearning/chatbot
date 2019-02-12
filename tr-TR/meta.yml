@@ -11,21 +11,21 @@ steps:
   - 
     title: Giriş
   - 
-    title: Your chatbot
+    title: Senin chatbot
   - 
     title: Konuşan bir chatbot
   - 
-    title: "Challenge: more questions"
+    title: "Zorluk: daha fazla soru"
     challenge: true
   - 
     title: Karar vermek
   - 
-    title: "Challenge: more decisions"
+    title: "Zorluk: daha fazla karar"
     challenge: true
   - 
-    title: Changing location
+    title: Konum değiştirme
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Zorluk: sohbetinizi bitirin"
     challenge: true
   - 
     title: Sırada ne var?
