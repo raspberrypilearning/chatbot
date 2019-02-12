@@ -1,38 +1,38 @@
-## Your chatbot
+## Chatbot Anda
 
-\--- task \---
+\--- tugas \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Sebelum Anda mulai membuat chatbot, Anda perlu memutuskan kepribadiannya. **Pikirkan pertanyaan-pertanyaan berikut**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Apa nama chatbot?
++ Di mana dia tinggal?
++ Apakah itu bahagia Serius? Lucu? Pemalu? Ramah?
++ Apa yang disukai dan tidak disukai?
 
-\--- /task \---
+\--- /tugas \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- tugas \--- Buka proyek pembuka Chatbot Scratch.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** buka proyek pembuka di [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** unduh proyek pemula dari [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} dan kemudian buka menggunakan editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Jika Anda perlu mengunduh dan menginstal editor Scratch offline, Anda dapat menemukannya di [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / tugas \---
 
-\--- task \---
+\--- tugas \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Proyek pemula berisi empat sprite karakter. Salah satunya adalah chatbot Anda.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Anda dapat menggunakan sprite yang sudah dipilih, atau memilih yang lain dengan mengklik kanan yang Anda inginkan dan kemudian memilih **show** atau **hide** dari menu yang muncul.
 
-![Choose a character](images/chatbot-characters.png)
+![Pilih satu karakter](images/chatbot-characters.png)
 
-\--- /task \---
+\--- /tugas \---
 
-\--- task \---
+\--- tugas \---
 
-Save your Scratch project.
+Simpan proyek Scratch Anda.
 
 [[[generic-scratch3-saving]]]
 
-\--- /task \---
+\--- /tugas \---
