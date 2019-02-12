@@ -1,29 +1,29 @@
-## Your chatbot
+## Senin chatbot
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Sohbet aracınızı oluşturmaya başlamadan önce, kişiliğinin ne olduğuna karar vermeniz gerekir. **Aşağıdaki soruları düşünün**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Sohbetçinin adı ne?
++ Nerede yaşıyor?
++ Mutlu mu Ciddi? Komik? Utangaç? Arkadaş canlısı?
++ Neyi beğenip beğenmediğini?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- görev \--- Chatbot Scratch başlangıç projesini açın.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Çevrimiçi:** başlangıç projesini [rpf.io/chatbot-onon](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Çevrimdışı:** başlangıç projesini [rpf.io/p/en/chatbot-go adresinden indirin](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} ve ardından çevrimdışı editörü kullanarak açın.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Scratch çevrimdışı düzenleyicisini indirip yüklemeniz gerekirse, bunu [https://rpf.io/scratchoff](rpf.io/scratchoff)adresinde bulabilirsiniz. \--- / görev \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Başlangıç projesi dört karakter sprite içeriyor. Bunlardan biri senin chatbot olacak.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Zaten seçili olan sprite'ı kullanabilir veya istediğinizi sağ tıklayıp açılan menüden **show** veya **hide** seçerek farklı bir tane seçebilirsiniz.
 
 ![Bir karakter seçin](images/chatbot-characters.png)
 
@@ -31,7 +31,7 @@ You can either use the sprite that is already selected, or choose a different on
 
 \--- task \---
 
-Save your Scratch project.
+Scratch projenizi kaydedin.
 
 [[[generic-scratch3-saving]]]
 
