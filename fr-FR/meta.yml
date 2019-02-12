@@ -11,21 +11,21 @@ steps:
   - 
     title: Introduction
   - 
-    title: Votre robot parlant
-  - 
     title: Un chatbot parlant
   - 
-    title: "Prendre des décisions"
+    title: Prendre des décisions
+  - 
+    title: "Challenge : plus d'objets"
     challenge: true
   - 
     title: Changement d'emplacement
   - 
-    title: "Défi : Créer votre propre chatbot"
+    title: "Challenge : plus d'objets"
     challenge: true
   - 
-    title: Changing location
+    title: 'Défi : Créer votre propre chatbot'
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Défi: terminez votre chatbot"
     challenge: true
   - 
-    title: What next?
+    title: Que faire ensuite?
