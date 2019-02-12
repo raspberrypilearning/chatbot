@@ -13,7 +13,7 @@ steps:
   - 
     title: Your chatbot
   - 
-    title: A talking chatbot
+    title: Konuşan bir chatbot
   - 
     title: "Challenge: more questions"
     challenge: true
@@ -28,4 +28,4 @@ steps:
     title: "Challenge: finish your chatbot"
     challenge: true
   - 
-    title: What next?
+    title: Sırada ne var?
