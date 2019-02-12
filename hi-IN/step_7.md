@@ -1,8 +1,8 @@
-## Changing location
+## स्थान बदलना
 
 You can also program your chatbot to change its location!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![पृष्ठभूमि बदलने का परीक्षण करना](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
