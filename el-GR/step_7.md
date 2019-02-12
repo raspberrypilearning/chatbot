@@ -1,14 +1,14 @@
-## Changing location
+## Αλλάζοντας τοποθεσία
 
 You can also program your chatbot to change its location!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Δοκιμάζοντας ένα μεταβαλλόμενο υπόβαθρο](images/chatbot-backdrop-moon.png)
 
-\--- task \---
+\--- task --
 
 Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- hints \---
+\--- υποδείξεις \---
 
 \--- hint \---
 
@@ -32,7 +32,7 @@ if <(answer) = [yes]> then
 end
 ```
 
-\--- /hint \---
+\--- /υπόδειξη \---
 
 \--- hint \---
 
@@ -45,13 +45,13 @@ if <(answer) = [yes]> then
 end
 ```
 
-\--- /hint \---
+\--- /υπόδειξη \---
 
-\--- /hints \---
+\--- /υποδείξεις \---
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
@@ -65,13 +65,13 @@ when this sprite clicked
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
 \--- /task \---
 
-\--- task \---
+\--- task --
 
 You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
