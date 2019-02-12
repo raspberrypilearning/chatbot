@@ -1,6 +1,6 @@
 ## Thử thách: nhiều câu hỏi hơn
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Lập trình chatbot của bạn để hỏi một câu hỏi khác. Bạn có thể lưu trữ câu trả lời cho câu hỏi mới này trong một biến mới không?
 
 ![Các câu hỏi khác](images/chatbot-question1.png)
 
