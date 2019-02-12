@@ -1,75 +1,75 @@
-\--- no-print \---
+\--- नो-प्रिंट \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+हे प्रोजेक्टचे **स्क्रॅच 3** आवृत्ती आहे. प्रोजेक्ट</a>ची स्क्रॅच 2 आवृत्ती देखील आहे.</p> 
 
-\--- /no-print \---
+\--- / नाही-प्रिंट \---
 
 ## परिचय
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+आपल्याशी बोलू शकणारी एक पात्र कशी वापरायची हे आपण शिकाल! त्यासारखे पात्र म्हणजे चॅट रोबोट किंवा चॅटबॉट म्हटले जाते.
 
 ### आपण काय बनवणार
 
-\--- no-print \---
+\--- नो-प्रिंट \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+ग्रीन ध्वज वर क्लिक करा आणि नंतर संभाषण सुरू करण्यासाठी चॅटबॉट कॅरक्टरवर क्लिक करा. Chatbot एक प्रश्न विचारतो, तेव्हा स्टेज तळाशी बॉक्समध्ये आपले उत्तर टाइप करा, आणि नंतर उजवीकडे निळा चिन्ह क्लिक करा (किंवा दाबा `प्रविष्ट करा`) chatbot प्रत्युत्तर पाहण्यासाठी.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- /no-print \---
+\--- / नाही-प्रिंट \---
 
-\--- print-only \---
+\--- केवळ प्रिंट \---
 
-![complete project](images/chatbot-preview.png)
+![संपूर्ण प्रकल्प](images/chatbot-preview.png)
 
-\--- /print-only \---
+\--- / केवळ प्रिंट \---
 
-\--- collapse \---
-
-* * *
-
-## title: What you will need
-
-### Hardware
-
-+ Computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
-
-### Downloads
-
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
-
-\--- /collapse \---
-
-\--- collapse \---
+\--- पडणे \---
 
 * * *
 
-## title: What you will learn
+## शीर्षकः आपल्याला काय हवे आहे
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
+### हार्डवेअर
 
-\--- /collapse \---
++ स्क्रॅच 3 चालविण्यास सक्षम संगणक
 
-\--- collapse \---
+### सॉफ्टवेअर
+
++ सुरवातीपासून 3 (एकतर [ऑनलाइन](https://rpf.io/scratchon) किंवा [ऑफलाइन](https://rpf.io/scratchoff))
+
+### डाउनलोड्स
+
++ [डाउनलोड करण्यासाठी फायली शोधा](http://rpf.io/p/en/chatbot-go).
+
+\--- / संकुचित \---
+
+\--- पडणे \---
 
 * * *
 
-## title: Additional notes for educators
+## शीर्षकः आपण काय शिकलात
 
-\--- no-print \---
++ वापरकर्त्याकडून इनपुट कसे मिळवायचे
++ जर `वापरला तर, अन्यथा`{: class = "block3control"} स्क्रॅच ब्लॉक
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+\--- / संकुचित \---
 
-\--- /no-print \---
+\--- पडणे \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+* * *
 
-\--- /collapse \---
+## शीर्षक: शिक्षकांसाठी अतिरिक्त नोट्स
+
+\--- नो-प्रिंट \---
+
+आपल्याला हे प्रोजेक्ट मुद्रित करण्याची आवश्यकता असल्यास, कृपया [प्रिंटर-फ्रेंडली आवृत्ती](https://projects.raspberrypi.org/en/projects/chatbot/print){: लक्ष्य = "_ blank"} वापरा.
+
+\--- / नाही-प्रिंट \---
+
+आपण शोधू शकता [येथे पूर्ण प्रकल्प](http://rpf.io/p/en/chatbot-get).
+
+\--- / संकुचित \---
