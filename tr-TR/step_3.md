@@ -1,54 +1,54 @@
 ## Konuşan bir chatbot
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Artık, kişiliğe sahip bir sohbetçi var, bunu seninle konuşması için programlayacaksın.
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Chatbot sprite seçeneğine tıklayın ve bu kodu,</code>{: class = "block3events"} tıklandığında `, <code>isminiz`{: class = "block3sensing"} ve ardından `"Ne bir sevimli isim!"`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+bu sprite tıklandığında
+[? Adın nedir] sormak ve bekleyin
+[Ne güzel bir isim!] demek (2) saniye
 ```
 
 \--- /görev \---
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+Kodunuzu test etmek için sohbet çubuğuna tıklayın. Sohbetçi adınızı isterse, Sahne Alanı'nın altında görünen kutuya yazın ve ardından mavi işarete tıklayın veya <kbd>Enter</kbd>basın.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![ChatBot yanıtını test etme](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![ChatBot yanıtını test etme](images/chatbot-ask-test2.png)
 
 \--- /görev \---
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+Şu anda, chatbot cevap verir "Ne güzel bir isim!" Her cevap verdiğinde. Sohbet aracının yanıtını daha kişisel hale getirebilirsiniz, böylece farklı bir ad yazıldığında yanıt farklı olur.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+Chatbot sprite kodunu `değiştirin`: {: class = "block3operators"} "Merhaba" `cevabı`{: class = "block3sensing"} ile "Adın ne?" soru, böylece kod şöyle görünür:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+bu sprite tıklandığında
+[? Adın nedir] sormak ve bekleyin
+söz (katılmak [Merhaba] (cevap) :: +) (2) saniye
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Kişiselleştirilmiş bir cevabı test etme](images/chatbot-answer-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+Yanıtı **değişkeninde**depolayarak, projenizin herhangi bir yerinde kullanabilirsiniz.
 
-Create a new variable called `name`{:class="block3variables"}.
+`name`adında yeni bir değişken oluşturun. {: Class = "block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,22 +56,22 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Şimdi, chatbot sprite kodunu değiştirerek `name`{: class = "block3variables"} değişkenini `answer`{: class = "block3sensing"} olarak ayarlayın:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+bu sprite
+tıklandığında sorulduğunda [adın ne?] ve
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ bekle [ad v] 'i (cevapla)
+söyle ([Hi] (name :: değişkenler +)' a (2) saniye boyunca katıl
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+Kodunuz eskisi gibi çalışmalıdır: chatbot yazdığınız adı kullanarak merhaba demelidir.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Kişiselleştirilmiş bir cevabı test etme](images/chatbot-answer-test.png)
 
 \--- /görev \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Programınızı tekrar test edin. Yazdığınız cevabın `{`class: "=" block3variables "} değişkeninde saklandığına ve ayrıca Sahne Alanı'nın sol üst köşesinde de bulunduğuna dikkat edin. Sahne Alanı'ndan kaybolmasını sağlamak için `Veri`{: class = "block3variables"} blok bölümüne gidin ve işaretlenmemesi için `ad`{: class = "block3variables"} yanındaki kutuyu tıklayın.
