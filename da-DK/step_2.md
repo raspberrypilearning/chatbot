@@ -1,37 +1,37 @@
-## Your chatbot
+## Din chatbot
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Før du begynder at oprette din chatbot, skal du bestemme, hvad dens personlighed er. **Tænk på følgende spørgsmål**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Hvad er chatbots navn?
++ Hvor bor den?
++ Er det lykkeligt? Alvorlig? Sjov? Genert? Venlige?
++ Hvad kan det lide og ikke lide?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- opgave \--- Åbn Chatbot Scratch starter-projektet.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** Åbn startprojektet på [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** download startprojektet fra [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} og derefter åbne det ved hjælp af offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Hvis du skal downloade og installere Scratch offline editoren, kan du finde den på [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / opgave \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Startprojektet indeholder fire karaktersprites. En af disse bliver din chatbot.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Du kan enten bruge det sprite, der allerede er valgt, eller vælge en anden ved at højreklikke på den ønskede, og derefter vælge **Vis** eller **Skjul** fra den menu, der vises.
 
-![Choose a character](images/chatbot-characters.png)
+![Vælg et tegn](images/chatbot-characters.png)
 
 \--- /task \---
 
 \--- task \---
 
-Save your Scratch project.
+Gem dit Scratch-projekt.
 
 [[[generic-scratch3-saving]]]
 
