@@ -1,7 +1,7 @@
-## Challenge: more questions
+## चुनौती: अधिक प्रश्न
 
 Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
-![More questions](images/chatbot-question1.png)
+![अधिक प्रश्न](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![अधिक प्रश्न](images/chatbot-question2.png)
