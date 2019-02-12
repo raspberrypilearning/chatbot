@@ -1,5 +1,5 @@
-## Challenge: more decisions
+## চ্যালেঞ্জ: আরো সিদ্ধান্ত
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+আপনার চ্যাটবোটকে অন্য প্রশ্ন জিজ্ঞাসা করুন যা "হ্যাঁ" বা "না" দিয়ে উত্তর দেওয়া যেতে পারে। আপনি কোন উত্তরটি পান তার উপর নির্ভর করে আপনার চ্যাটবোটটি আলাদাভাবে প্রতিক্রিয়া জানাতে পারেন?
 
 ![screenshot](images/chatbot-joke.png)
