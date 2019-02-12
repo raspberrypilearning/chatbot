@@ -9,23 +9,23 @@ version: 4.1.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Povídací robot
+    title: Úvod
   - 
-    title: Your chatbot
+    title: Váš chatbot
   - 
-    title: A talking chatbot
+    title: Mluvící chatbot
   - 
-    title: "Challenge: more questions"
+    title: "Výzva: více otázek"
     challenge: true
   - 
-    title: Making decisions
+    title: Rozhodování
   - 
-    title: "Challenge: more decisions"
+    title: "Výzva: více rozhodnutí"
     challenge: true
   - 
-    title: Changing location
+    title: Změna polohy
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Výzva: dokončete svůj chatbot"
     challenge: true
   - 
-    title: What next?
+    title: Co dále?
