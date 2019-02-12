@@ -101,7 +101,7 @@ end
 
 Test and save your code. You should see your chatbot's face change depending on your answer.
 
-\--- /görev \---
+\--- /task \---
 
 Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
 
