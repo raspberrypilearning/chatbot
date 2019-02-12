@@ -11,21 +11,21 @@ steps:
   - 
     title: Chatbot
   - 
-    title: Your chatbot
+    title: Chatbot-ul tău
   - 
-    title: A talking chatbot
+    title: Un chatbot vorbitor
   - 
-    title: "Challenge: more questions"
+    title: "Provocarea: alte întrebări"
     challenge: true
   - 
     title: Making decisions
   - 
-    title: "Challenge: more decisions"
+    title: "Provocare: alte decizii"
     challenge: true
   - 
-    title: Changing location
+    title: Schimbarea poziției
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Provocare: terminați chatbot-ul"
     challenge: true
   - 
-    title: What next?
+    title: Ce urmează?
