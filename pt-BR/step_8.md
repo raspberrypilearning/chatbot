@@ -1,6 +1,6 @@
-## Challenge: finish your chatbot
+## Desafio: Termine o seu ChatBot
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+Use what you've learned to finish creating your interactive chatbot. Aqui estão algumas idéias:
 
 ![ChatBot ideas](images/chatbot-ideas1.png)
 
