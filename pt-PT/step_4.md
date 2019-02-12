@@ -1,4 +1,4 @@
-## Challenge: more questions
+## Desafio: mais perguntas
 
 Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
