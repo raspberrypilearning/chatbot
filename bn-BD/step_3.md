@@ -1,77 +1,77 @@
-## A talking chatbot
+## একটি কথা বলা চ্যাটবট
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+এখন আপনি একটি ব্যক্তিত্বের সাথে একটি চ্যাটবোট আছে, আপনি এটি আপনার সাথে কথা বলতে প্রোগ্রাম করতে যাচ্ছি।
 
-\--- task \---
+\--- কাজ \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+আপনার চ্যাটবোট স্প্রাইটে ক্লিক করুন এবং এটিকে এই কোডটি যোগ করুন যাতে `এটি`{ক্লাস = "ব্লক 3events"} ক্লিক করে, এটি `আপনার নাম`{: class = "block3sensing"} এবং তারপর `বলবে "কী সুদৃশ্য নাম!"`{: শ্রেণী = "ব্লক 3looks"}।
 
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
-```
-
-\--- /task \---
-
-\--- task \---
-
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
-
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
-
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
-
-\--- /task \---
-
-\--- task \---
-
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
-
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
-
-![nano sprite](images/nano-sprite.png)
+![ন্যানো স্প্রাইট](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+যখন এই স্প্রিটটি
+জিজ্ঞাসা করে [আপনার নাম কি?] এবং অপেক্ষা করুন [
+কি সুন্দর নাম!] (2) সেকেন্ডের জন্য অপেক্ষা করুন
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+\--- /কাজ \---
 
-\--- /task \---
+\--- কাজ \---
 
-\--- task \---
+আপনার কোড পরীক্ষা করার জন্য আপনার চ্যাটবোট উপর ক্লিক করুন। Chatbot আপনার নাম জন্য অনুরোধ, তখন তা বাক্সে পর্যায় নীচে প্রদর্শিত হবে টাইপ করুন, এবং তারপর নীল চিহ্ন ক্লিক করুন, বা Enter <kbd>লিখুন</kbd>।
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+![একটি ChatBot প্রতিক্রিয়া পরীক্ষা](images/chatbot-ask-test1.png)
 
-Create a new variable called `name`{:class="block3variables"}.
+![একটি ChatBot প্রতিক্রিয়া পরীক্ষা](images/chatbot-ask-test2.png)
+
+\--- /কাজ \---
+
+\--- কাজ \---
+
+এই মুহূর্তে, আপনার চ্যাটবোট উত্তর দেয় "কি সুন্দর নাম!" আপনি উত্তর প্রতিটি সময়। আপনি চ্যাটবোটের উত্তরকে আরো ব্যক্তিগত করতে পারেন, যাতে প্রতিবার ভিন্ন নাম টাইপ করা হলে উত্তর আলাদা হয়।
+
+থেকে chatbot পরী এর কোড পরিবর্তন করুন `যোগদানের`{: শ্রেণি = "block3operators"} "হাই" সঙ্গে `উত্তর`: "কি আপনার নাম" {বর্গ = "block3sensing"} থেকে প্রশ্ন, যাতে কোডটি এইরকম দেখায়:
+
+![ন্যানো স্প্রাইট](images/nano-sprite.png)
+
+```blocks3
+যখন এই স্প্রিট
+ক্লিক করে [আপনার নাম কি?] এবং অপেক্ষা করুন
+(যোগ করুন [হাই] (উত্তর) :: +) (2) সেকেন্ডের জন্য
+```
+
+![একটি ব্যক্তিগতকৃত উত্তর পরীক্ষা করা](images/chatbot-answer-test.png)
+
+\--- /কাজ \---
+
+\--- কাজ \---
+
+একটি **পরিবর্তনশীল**এ উত্তর সংরক্ষণ করে, আপনি আপনার প্রকল্পের যে কোন জায়গায় এটি ব্যবহার করতে পারেন।
+
+নামের একটি নতুন পরিবর্তনশীল তৈরি করুন `নাম`{: শ্রেণি = "block3variables"}।
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+এখন, সেট করতে আপনার chatbot sprites এর কোড পরিবর্তন `নাম`: থেকে {বর্গ = "block3variables"} পরিবর্তনশীল `উত্তর`{: শ্রেণি = "block3sensing"}:
 
-![nano sprite](images/nano-sprite.png)
+![ন্যানো স্প্রাইট](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+যখন এই স্প্রিটটি
+প্রশ্নে ক্লিক করে [আপনার নাম কি?] এবং অপেক্ষা করুন +
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
+সেট [নাম্বার]] (উত্তর)
+বলুন ([যোগ করুন [হাই] (নাম :: ভেরিয়েবল +)) (2) সেকেন্ডের জন্য
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+আপনার কোডটি আগের মতো কাজ করা উচিত: আপনার চ্যাটবোটটি আপনার টাইপ করা নামটি ব্যবহার করে উচ্চারণ করা উচিত।
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![একটি ব্যক্তিগতকৃত উত্তর পরীক্ষা করা](images/chatbot-answer-test.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+আবার আপনার প্রোগ্রাম পরীক্ষা করুন। লক্ষ্য করুন যে আপনার টাইপ করা উত্তরটি `নাম্বার`{: class = "block3variables"} ভেরিয়েবলে সংরক্ষণ করা হয় এবং স্টেজের উপরের বাম দিকের কোণায় প্রদর্শিত হয়। স্টেজ থেকে অদৃশ্য হয়ে যাওয়ার জন্য, `ডেটা`{: class = "block3variables"} ব্লক বিভাগে যান এবং `নাম্বারের পাশে থাকা বাক্সে ক্লিক করুন`: {class = "block3variables"} যাতে এটি চিহ্নিত না হয়।
