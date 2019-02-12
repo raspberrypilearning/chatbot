@@ -11,21 +11,21 @@ steps:
   - 
     title: Introducció
   - 
-    title: Your chatbot
+    title: El vostre xat bot
   - 
-    title: A talking chatbot
+    title: Un xat bot parlant
   - 
-    title: "Challenge: more questions"
+    title: "Repte: més preguntes"
     challenge: true
   - 
     title: Prenent decisions
   - 
-    title: "Challenge: more decisions"
+    title: "Repte: més decisions"
     challenge: true
   - 
-    title: Changing location
+    title: S'està canviant la ubicació
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Repte: acaba el teu xat bot"
     challenge: true
   - 
     title: What next?
