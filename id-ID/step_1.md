@@ -1,75 +1,75 @@
-\--- no-print \---
+\--- tanpa cetak \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Ini adalah versi **Scratch 3** dari proyek. Ada juga versi [Scratch 2 dari proyek](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- /no-print \---
+\--- / tanpa cetak \---
 
 ## Pengantar
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Anda akan belajar bagaimana memprogram karakter yang dapat berbicara dengan Anda! Karakter seperti itu disebut robot obrolan, atau chatbot.
 
 ### Apa yang kamu akan buat
 
-\--- no-print \---
+\--- tanpa cetak \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Klik pada bendera hijau, dan kemudian klik pada karakter chatbot untuk memulai percakapan. Ketika chatbot mengajukan pertanyaan, ketikkan jawaban Anda ke dalam kotak di bagian bawah Stage, dan kemudian klik pada tanda biru di sebelah kanan (atau tekan `Enter`) untuk melihat balasan chatbot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- /no-print \---
+\--- / tanpa cetak \---
 
-\--- print-only \---
+\--- hanya cetak \---
 
-![complete project](images/chatbot-preview.png)
+![menyelesaikan proyek](images/chatbot-preview.png)
 
-\--- /print-only \---
+\--- / hanya cetak \---
 
-\--- collapse \---
-
-* * *
-
-## title: What you will need
-
-### Hardware
-
-+ Computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
-
-### Downloads
-
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
-
-\--- /collapse \---
-
-\--- collapse \---
+\--- jatuh \---
 
 * * *
 
-## title: What you will learn
+## title: Apa yang Anda butuhkan
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
+### Perangkat keras
 
-\--- /collapse \---
++ Komputer mampu menjalankan Scratch 3
 
-\--- collapse \---
+### Perangkat lunak
+
++ Gores 3 (baik [online](https://rpf.io/scratchon) atau [offline](https://rpf.io/scratchoff))
+
+### Unduhan
+
++ [Temukan file untuk diunduh di sini](http://rpf.io/p/en/chatbot-go).
+
+\--- /jatuh \---
+
+\--- jatuh \---
 
 * * *
 
-## title: Additional notes for educators
+## judul: Apa yang akan Anda pelajari
 
-\--- no-print \---
++ Cara mendapatkan input dari pengguna
++ Cara menggunakan `jika, kemudian, kalau tidak`{: class = "block3control"} Blok gores
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+\--- /jatuh \---
 
-\--- /no-print \---
+\--- jatuh \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+* * *
 
-\--- /collapse \---
+## judul: Catatan tambahan untuk pendidik
+
+\--- tanpa cetak \---
+
+Jika Anda perlu mencetak proyek ini, silakan gunakan [versi ramah-printer](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
+
+\--- / tanpa cetak \---
+
+Anda dapat menemukan proyek [selesai di sini](http://rpf.io/p/en/chatbot-get).
+
+\--- /jatuh \---
