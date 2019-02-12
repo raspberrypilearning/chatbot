@@ -1,7 +1,7 @@
-## Challenge: more questions
+## Challenge : plus d'objets
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Programmez votre chatbot pour poser une autre question. Pouvez-vous stocker la réponse à cette nouvelle question dans une nouvelle variable?
 
-![More questions](images/chatbot-question1.png)
+![Plus de questions](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![Plus de questions](images/chatbot-question2.png)
