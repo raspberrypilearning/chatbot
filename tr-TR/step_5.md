@@ -1,127 +1,126 @@
-## Making decisions
+## Karar vermek
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Chatbotunuzu, aldığı cevaplara göre ne yapacağınıza karar verecek şekilde programlayabilirsiniz.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Öncelikle, chatbot'unuzun "evet" veya "hayır" ile cevaplanabilecek bir soru sormasını sağlayacaksınız.
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Sohbet aracınızın kodunu değiştirin. Sohbet aracınız, `adını`{: class = "block3variables"} değişkenini kullanarak, "İyi misiniz?" Sonra cevap vermeli "Bu duymak harika!" `eğer`{: class = "block3control"} aldığı cevap "evet" dir, fakat cevap "hayır" ise hiçbir şey söylemeyin.
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+![Sohbetçi yanıtını test etme](images/chatbot-if-test1-annotated.png)
 
 ![Bir chatbot cevabını test etme](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-end
+bu sprite tıklandığında
+[? Adın nedir] sormak ve bekleyin
+(cevap) için set [isim v]
+söz hakkından (katılmak [Merhaba] (isim)) (2) saniye boyunca
++ sormak (katılmak [size Tamam mı] (isim)) ve
++ bekleyin eğer <(cevap) = [yes]> sonra 
+  (2) saniye boyunca [duymak harika!] deyin
+
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Yeni kodunuzu doğru şekilde test etmek için, **kez iki kez**: bir kez "evet", bir kez de "hayır" cevabını test etmelisiniz.
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+Şu anda, chatbotunuz "hayır" cevabına hiçbir şey söylemiyor.
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Sohbet kameranızın kodunu değiştirerek "Ah hayır!" "Hayır" isminin cevabı olarak "hayır" alırsa.
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Değiştir `, sonra`bir blok: {class = "block3control"} `, sonra başka`{: class = "block3control"} Chatbot can böylece blok ve kod içeren `demek "Oh hayır!"`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
+bu sprite
+tıklandığında sormak [adın ne?] ve
+set bekle [ad v] 'a (cevap)
+söyle ([merhaba] (ad)) için (2) saniye bekle
+sor (katıl [iyi misin]) ( adı)) ve bekleyin
 
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
-end
++ eğer <(cevap) = [yes]> ardından 
+  [Bunu duymak harika!] demek (2) saniye boyunca
+başka 
++ [hayır!] (2) saniye boyunca say
+ucunda
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Kodunu test et. "Hayır" cevabını verdiğinizde ve "evet" cevabını verdiğinizde farklı bir yanıt almalısınız: sohbetiniz "Bu duymak harika!" "evet" (büyük küçük harf duyarlı değildir) ve "Ah hayır!" **yanıtladığınızda başka bir şey**.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![Sohbetçi yanıtını test etme](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Evet / hayır cevabını test etme](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+`içindeki herhangi bir kodu koyarsanız, o zaman, aksi halde`{: class = "block3control"} bloğunu, sadece chatbot'unuzun konuşmasını sağlayacak kod değil!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Sohbetbotunuzun **Kostüm** sekmesini tıklarsanız, birden fazla kostüm olduğunu göreceksiniz.
 
-![chatbot costumes](images/chatbot-costume-view-annotated.png)
+![chatbot kostümleri](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Sohbet kodunuzun kodunu değiştirin, böylece sohbet yazın, cevabınızı yazdığınızda kostümleri değiştirir.
 
-![Testing a changing costume](images/chatbot-costume-test1.png)
+![Değişen kostümün test edilmesi](images/chatbot-costume-test1.png)
 
-![Testing a changing costume](images/chatbot-costume-test2.png)
+![Değişen kostümün test edilmesi](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Eğer `ise içindeki kodu değiştirin, sonra`: {: class = "block3control"} bloğu `anahtar kostümü`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+bu sprite
+tıklandığında sormak [adın ne?] ve
+set bekle [ad v] 'a (cevap)
+söyle ([merhaba] (ad)) için (2) saniye bekle
+sor (katıl [iyi misin]) ( isim)) ve
+bekleyin eğer <(cevap) = [yes]> sonra 
 
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
-end
++ kılık değiştir (nano-c v)
+  diyor ki (2) saniye boyunca [duymak çok güzel!]
+saniye 
++ kılık değiştir (nano- d v)
+  (2) saniye için
+
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Kodunuzu test edin ve kaydedin. Cevabınıza bağlı olarak chatbot'un yüzünün değiştiğini görmelisin
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Sohbet kameranızın kostümü değiştikten sonra, öyle kaldığını ve başlangıçta ne olduğuna dönmediğini fark ettiniz mi?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Bunu deneyebilirsiniz: kodunuzu çalıştırın ve "hayır" cevabını verin, böylece sohbetçinizin yüzü mutsuz bir görünüme dönüşür. Ardından kodunuzu tekrar çalıştırın ve adınız sormadan önce sohbetinizin tekrar mutlu görünmediğini unutmayın.
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Kostüm hatası](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Bu sorunu çözmek için sprite</code>{: class = "block3events"} tıklandığında chatbot koduna `anahtar kostümü`{: class = "block3looks"} 'a (başlangıç `ekleyin.</p>
 
-![nano sprite](images/nano-sprite.png)
+<p><img src="images/nano-sprite.png" alt="nano sprite" /></p>
 
-```blocks3
-when this sprite clicked
+<pre><code class="blocks3">Bu sprite,
 
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
-```
++ kostümü tıklattığında (nano-a v)
+sor. [Adın ne?] sor ve bekle.
+`</pre> 
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![Kostüm düzeltmesini test etme](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
