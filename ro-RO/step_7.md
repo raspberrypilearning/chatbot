@@ -1,20 +1,20 @@
-## Changing location
+## Schimbarea poziției
 
 You can also program your chatbot to change its location!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Testează un fundal care se schimbă](images/chatbot-backdrop-moon.png)
 
-\--- task \---
+\--- proba\---
 
 Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- hints \---
+\--- sugestii \---
 
-\--- hint \---
+\--- indiciu \---
 
 Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
-\--- /hint \---
+\--- / indiciu \---
 
 \--- hint \---
 
@@ -32,9 +32,9 @@ if <(answer) = [yes]> then
 end
 ```
 
-\--- /hint \---
+\--- / indiciu \---
 
-\--- hint \---
+\--- indiciu \---
 
 This is what your code should look like:
 
@@ -45,13 +45,13 @@ if <(answer) = [yes]> then
 end
 ```
 
-\--- /hint \---
+\--- / indiciu \---
 
-\--- /hints \---
+\--- / sugestii \---
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
 Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
@@ -65,7 +65,7 @@ when this sprite clicked
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
 Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
