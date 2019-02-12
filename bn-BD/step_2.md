@@ -1,38 +1,38 @@
-## Your chatbot
+## আপনার চ্যাটবট
 
-\--- task \---
+\--- কাজ \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+আপনার চ্যাটবোট তৈরি করা শুরু করার আগে, আপনাকে তার ব্যক্তিত্ব কী তা নির্ধারণ করতে হবে। **নিচের প্রশ্নগুলি সম্পর্কে চিন্তা করুন**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ চ্যাটবোটের নাম কি?
++ এটা কোথায় বাস করে?
++ এটা কি খুশি? সিরিয়াস? হাস্যকর? লাজুক? বন্ধুত্বপূর্ণ?
++ এটা কি পছন্দ এবং অপছন্দ?
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- টাস্ক \--- চ্যাটবোট স্ক্র্যাচ স্টার্টার প্রকল্প খুলুন।
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**অনলাইন:** স্টার্টার প্রকল্পটি [rpf.io/chatbot-on](http://rpf.io/chatbot-on)এ খুলুন {: টার্গেট = "_ blank"}।
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**অফলাইন:** স্টার্টার প্রকল্পটি [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go)থেকে ডাউনলোড করুন {{টার্গেট = "_ blank"} এবং তারপর অফলাইন সম্পাদক ব্যবহার করে এটি খুলুন।
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+ডাউনলোড করুন এবং স্ক্র্যাচ অফলাইন সম্পাদক ইনস্টল করার প্রয়োজন হয়, তাহলে আপনি এটি জানতে পারেন [https://rpf.io/scratchoff](rpf.io/scratchoff)। \--- / টাস্ক \---
 
-\--- task \---
+\--- কাজ \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+স্টার্টার প্রকল্প চার অক্ষর sprites রয়েছে। এই এক আপনার চ্যাটবোট হতে হবে।
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+আপনি যে স্প্রেটটি ইতিমধ্যে নির্বাচিত হয়েছেন সেটি ব্যবহার করতে পারেন, অথবা আপনি চান এমন ডান-ক্লিক করে অন্য একটি নির্বাচন করুন এবং তারপরে প্রদর্শিত মেনু থেকে **শো** বা **লুকান** নির্বাচন করুন।
 
-![Choose a character](images/chatbot-characters.png)
+![একটি চরিত্র চয়ন করুন](images/chatbot-characters.png)
 
-\--- /task \---
+\--- /কাজ \---
 
-\--- task \---
+\--- কাজ \---
 
-Save your Scratch project.
+আপনার স্ক্র্যাচ প্রকল্প সংরক্ষণ করুন।
 
 [[[generic-scratch3-saving]]]
 
-\--- /task \---
+\--- /কাজ \---
