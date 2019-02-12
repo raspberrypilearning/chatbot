@@ -1,7 +1,7 @@
-## Challenge: more questions
+## Задача: больше вопросов
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Запрограммируйте своего чат-бота, чтобы задать другой вопрос. Можете ли вы сохранить ответ на этот новый вопрос в новой переменной?
 
-![More questions](images/chatbot-question1.png)
+![Больше вопросов](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![Больше вопросов](images/chatbot-question2.png)
