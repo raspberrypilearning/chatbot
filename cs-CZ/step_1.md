@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Toto je **Scratch 3** verze projektu. K dispozici je také [verze Scratch 2 projektu](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Úvod
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Naučíte se, jak programovat postavu, která s vámi mluví! Taková postava se nazývá chatový robot nebo chatbot.
 
-### What you will make
+### Co budeš dělat
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Klepněte na zelenou vlajku a potom klepněte na znak chatbot pro zahájení konverzace. Když se chatbot zeptá na otázku, zadejte odpověď do pole v dolní části plochy a poté klikněte na modrou značku vpravo (nebo stiskněte `Zadat`) a zobrazte odpověď chatbot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![kompletní projekt](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -31,30 +31,19 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will need
+## title: Co budeš potřebovat
 
 ### Hardware
 
-+ Computer capable of running Scratch 3
++ Počítač schopný spustit aplikaci Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ Scratch 3 (buď [online](https://rpf.io/scratchon) nebo [offline](https://rpf.io/scratchoff) verzi)
 
-### Downloads
+### Stahování
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
-
-\--- /collapse \---
-
-\--- collapse \---
-
-* * *
-
-## title: What you will learn
-
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
++ [Najít soubory ke stažení zde](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -62,14 +51,25 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: Additional notes for educators
+## title: Co se naučíš
+
++ Jak získat vstup od uživatele
++ Jak používat blok `jestliže se jedná o jiný`{: class = "block3control"}
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## název: Doplňující poznámky pro pedagogy
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Potřebujete-li tento projekt vytisknout, použijte verzi [pro-tisk](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Nalezený projekt [naleznete zde](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
