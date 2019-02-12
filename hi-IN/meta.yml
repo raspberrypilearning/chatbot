@@ -11,21 +11,21 @@ steps:
   - 
     title: परिचय
   - 
-    title: आपको किसकी ज़रूरत होगी
-  - 
     title: आपका चैटबॉट
   - 
-    title: "बोलने वाला चैटबॉट"
+    title: बात करने वाला चैटबॉट
+  - 
+    title: "चुनौती: अधिक प्रश्न"
     challenge: true
   - 
     title: निर्णय लेना
   - 
-    title: "स्थान बदलना"
+    title: "चुनौती: अधिक निर्णय"
     challenge: true
   - 
-    title: 'चुनौती: अपना चैटबॉट समाप्त करें'
+    title: स्थान बदलना
   - 
-    title: "Challenge: finish your chatbot"
+    title: "चुनौती: अपना चैटबॉट समाप्त करना"
     challenge: true
   - 
-    title: What next?
+    title: 'चुनौती: अपने ड्रम की पोशाक बदलें'
