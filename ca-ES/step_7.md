@@ -1,8 +1,8 @@
-## Changing location
+## S'està canviant la ubicació
 
 You can also program your chatbot to change its location!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![S'està provant un teló de fons canviant](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
