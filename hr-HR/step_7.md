@@ -1,14 +1,14 @@
-## Changing location
+## Promjena lokacije
 
 You can also program your chatbot to change its location!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Ispitivanje promjene pozadine](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
 Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- hints \---
+\--- pomoć \---
 
 \--- hint \---
 
@@ -32,7 +32,7 @@ if <(answer) = [yes]> then
 end
 ```
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- hint \---
 
@@ -47,7 +47,7 @@ end
 
 \--- /hint \---
 
-\--- /hints \---
+\--- /pomoć \---
 
 \--- /task \---
 
