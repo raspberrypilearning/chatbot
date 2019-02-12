@@ -1,4 +1,4 @@
-## A talking chatbot
+## Een pratende chatbot
 
 Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
@@ -16,7 +16,7 @@ say [What a lovely name!] for (2) seconds
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
@@ -26,7 +26,7 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
 
@@ -54,7 +54,7 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
