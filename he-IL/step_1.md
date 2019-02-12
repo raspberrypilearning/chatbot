@@ -8,7 +8,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### מה תכינו
+### מה תעשה
 
 \--- no-print \---
 
@@ -33,13 +33,13 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: What you will need
 
-### Hardware
+### חומרה
 
-+ Computer capable of running Scratch 3
++ מחשב המסוגל להריץ Scratch 3
 
-### Software
+### תוכנה
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ Scratch 3 (או [ מקוון ](https://rpf.io/scratchon) או [ במצב לא מקוון ](https://rpf.io/scratchoff))
 
 ### Downloads
 
@@ -66,7 +66,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 \--- /no-print \---
 
