@@ -1,37 +1,37 @@
-## Your chatbot
+## Un chatbot parlant
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Avant de créer votre chatbot, vous devez définir sa personnalité. **Pensez aux questions suivantes**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Quel est le nom du chatbot?
++ Où est-ce que ça vit?
++ Est-ce heureux? Sérieux? Marrant? Timide? Amical?
++ Qu'est-ce qu'il aime et n'aime pas?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- task \--- Ouvrez le projet de démarrage Chatbot Scratch.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**En ligne:** ouvrez le projet de démarrage à [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Hors ligne:** téléchargez le projet de démarrage à partir de [rpf.io/p/fr/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"}, puis ouvrez-le à l'aide de l'éditeur hors ligne.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Si vous devez télécharger et installer l'éditeur hors ligne Scratch, vous pouvez le trouver à [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / tâche \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Le projet de démarrage contient quatre sprites de caractères. L'un d'eux sera votre chatbot.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Vous pouvez soit utiliser l'image-objet déjà sélectionnée, soit en choisir une autre en cliquant avec le bouton droit de la souris sur celle que vous souhaitez, puis en sélectionnant **Afficher** ou **Masquer** dans le menu qui apparaît.
 
-![Choose a character](images/chatbot-characters.png)
+![Choisir le Personange](images/chatbot-characters.png)
 
 \--- /task \---
 
 \--- task \---
 
-Save your Scratch project.
+Enregistrez votre projet Scratch.
 
 [[[generic-scratch3-saving]]]
 
