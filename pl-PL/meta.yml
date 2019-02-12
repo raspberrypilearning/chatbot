@@ -11,21 +11,21 @@ steps:
   - 
     title: Wprowadzenie
   - 
-    title: Your chatbot
+    title: Twój robot gaduła
   - 
-    title: A talking chatbot
+    title: Rozmawiający robot
   - 
-    title: "Challenge: more questions"
+    title: "Wyzwanie: więcej pytań"
     challenge: true
   - 
     title: Podejmowanie decyzji
   - 
-    title: "Challenge: more decisions"
+    title: "Wyzwanie: Więcej decyzji"
     challenge: true
   - 
-    title: Changing location
+    title: Zmiana lokalizacji
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Wyzwanie: ukończ swojego robota"
     challenge: true
   - 
-    title: What next?
+    title: Co następne?
