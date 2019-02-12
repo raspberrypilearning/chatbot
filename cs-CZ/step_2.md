@@ -1,37 +1,37 @@
-## Your chatbot
+## Váš chatbot
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Než začnete vytvářet svůj chatbot, musíte se rozhodnout, jaká je jeho osobnost. **Přemýšlejte o následujících otázkách**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Jaký je název chatbotu?
++ Kde to žije?
++ Je to šťastné? Vážně? Legrační? Plachý? Přátelský?
++ Co se vám líbí a nelíbí se?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- task \--- Otevřete projekt spouštěče Scratch Chatbot.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** otevřete startovací projekt na [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** stáhněte projekt startéru z [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} a pak ho otevřete pomocí editoru offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Pokud potřebujete stáhnout a nainstalovat editor Scratch offline, najdete jej na adrese [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / úkol \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Projekt startéru obsahuje čtyři znakové skřítky. Jeden z nich bude vaším chatbot.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Můžete buď použít sprite, který je již vybrán, nebo zvolit jiný klepnutím pravým tlačítkem na požadovaný a poté výběrem položky **zobrazit** nebo **skrýt** z zobrazené nabídky.
 
-![Choose a character](images/chatbot-characters.png)
+![Vyberte znak](images/chatbot-characters.png)
 
 \--- /task \---
 
 \--- task \---
 
-Save your Scratch project.
+Uložte svůj projekt Scratch.
 
 [[[generic-scratch3-saving]]]
 
