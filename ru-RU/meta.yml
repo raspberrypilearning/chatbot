@@ -11,21 +11,21 @@ steps:
   - 
     title: Введение
   - 
-    title: Your chatbot
+    title: Ваш чатбот
   - 
-    title: A talking chatbot
+    title: Говорящий чатбот
   - 
-    title: "Challenge: more questions"
+    title: "Задача: больше вопросов"
     challenge: true
   - 
     title: Принимая решения
   - 
-    title: "Challenge: more decisions"
+    title: "Задача: больше решений"
     challenge: true
   - 
-    title: Changing location
+    title: Смена местоположения
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Задача: закончить чат-бота"
     challenge: true
   - 
-    title: What next?
+    title: Что дальше?
