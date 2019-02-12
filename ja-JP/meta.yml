@@ -25,7 +25,7 @@ steps:
   - 
     title: 'チャレンジ: 自分のチャットボット'
   - 
-    title: "Challenge: finish your chatbot"
+    title: "チャレンジ: 自分のチャットボット"
     challenge: true
   - 
-    title: What next?
+    title: 次は何をしますか？
