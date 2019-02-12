@@ -31,15 +31,15 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will need
+## title: ما ستحتاج إليه
 
-### Hardware
+### الأجهزة
 
-+ Computer capable of running Scratch 3
++ جهاز كمبيوتر يدعم تشغيل برنامج Scratch 3
 
-### Software
+### البرامج
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon) أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff))
 
 ### Downloads
 
@@ -51,7 +51,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will learn
+## title: ما الذي ستتعلمه
 
 + How to get input from a user
 + How to use the `if, then, else`{:class="block3control"} Scratch block
@@ -66,7 +66,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+إذا كنت بحاجة إلى طباعة هذا المشروع، فالرجاء استخدام [نسخة متوافقة مع الطابعة](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
