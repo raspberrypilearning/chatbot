@@ -1,11 +1,11 @@
-## Challenge: finish your chatbot
+## Задача: закончить чат-бота
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+Используйте то, что вы узнали, чтобы завершить создание интерактивного чат-бота. Вот несколько идей:
 
-![ChatBot ideas](images/chatbot-ideas1.png)
+![Идеи ChatBot](images/chatbot-ideas1.png)
 
-![ChatBot ideas](images/chatbot-ideas2.png)
+![Идеи ChatBot](images/chatbot-ideas2.png)
 
-![ChatBot ideas](images/chatbot-ideas3.png)
+![Идеи ChatBot](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+Когда вы закончите чат-бота, поговорите с друзьями! Им нравится ваш персонаж? Могут ли они обнаружить какие-либо проблемы?
