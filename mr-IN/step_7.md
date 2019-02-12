@@ -1,93 +1,93 @@
-## Changing location
+## बदलण्याचे स्थान
 
-You can also program your chatbot to change its location!
+आपण आपल्या चॅटबॉटला त्याचे स्थान बदलण्यास देखील प्रोग्राम करू शकता!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![बदलणारी पार्श्वभूमी तपासत आहे](images/chatbot-backdrop-moon.png)
 
-\--- task \---
+\--- कार्य \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+आपण आपल्या चॅटबॉटला "आपल्याला चंद्रावर जायचे आहे" असे विचारू शकता आणि नंतर उत्तर "होय" असल्यास पार्श्वभूमी बदलू शकता?
 
-\--- hints \---
+\--- संकेत \---
 
-\--- hint \---
+\--- इशारा \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+आपल्या चॅटबोॉटला `"आपल्याला चंद्रावर जायचे आहे का?" विचारणे आवश्यक आहे.`{वर्ग = "block3sensing"}, आणि `तर`: {class = "block3control"} आपण `उत्तर`: {class = "block3sensing"} "होय", तो पाहिजे `चंद्र पार्श्वभूमीवर स्विच`{: वर्ग = "block3looks"}.
 
-\--- /hint \---
+\--- / इशारा \---
 
-\--- hint \---
+\--- इशारा \---
 
-Here are the code blocks you need to add to your chatbot code.
+आपल्या चॅटबॉट कोडमध्ये जोडण्यासाठी आपल्याला आवश्यक असलेले कोड अवरोध आहेत.
 
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-switch backdrop to (moon v)
-
-ask [Do you want to go to the moon?] and wait
-
-if <(answer) = [yes]> then 
-
-end
-```
-
-\--- /hint \---
-
-\--- hint \---
-
-This is what your code should look like:
+![नॅनो स्पिट](images/nano-sprite.png)
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-end
+बॅकड्रॉपवर स्विच करा (चंद वी)
+
+विचारा [आपल्याला चंद्रपर्यत जायचे आहे?] आणि प्रतीक्षा करा
+
+असल्यास <(उत्तर) = [yes]> आणि 
+
+समाप्ती
 ```
 
-\--- /hint \---
+\--- / इशारा \---
 
-\--- /hints \---
+\--- इशारा \---
 
-\--- /task \---
-
-\--- task \---
-
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
-
-![nano sprite](images/nano-sprite.png)
+आपला कोड कसा असावा:
 
 ```blocks3
-when this sprite clicked
-
-+ switch backdrop to (space v)
+[आपण चंद्र जायचे आहे का?] विचारू आणि प्रतीक्षा
+तर <(उत्तर) = [yes]> नंतर 
+  ते (चंद्र v) स्विच पार्श्वभूमीवर
+ओवरनंतर
 ```
 
-\--- /task \---
+\--- / इशारा \---
 
-\--- task \---
+\--- / संकेत \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+\--- / कार्य \---
 
-\--- /task \---
+\--- कार्य \---
 
-\--- task \---
+आता आपण हे सुनिश्चित करणे आवश्यक आहे की जेव्हा आपण चॅटबॉट तिच्याशी बोलण्यासाठी त्यावर क्लिक करता तेव्हा योग्य ठिकाणी प्रारंभ होईल. हा ब्लॉग आपल्या चॅटबॉट कोडच्या शीर्षस्थानी जोडा:
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
-
-![nano sprite](images/nano-sprite.png)
+![नॅनो स्पिट](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+जेव्हा हे स्पिट
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
++ स्विच बॅकड्रॉप वर क्लिक केले (स्पेस वी)
 ```
 
-\--- /task \---
+\--- / कार्य \---
+
+\--- कार्य \---
+
+आपल्या प्रोग्रामचे परीक्षण करा आणि आपल्याला "होय" उत्तर द्या जेव्हा आपण चंद्रावर जाऊ इच्छित असाल तर चॅटबॉट विचारते. आपण पाहिले पाहिजे की चॅटबॉटचे स्थान बदलले आहे.
+
+\--- / कार्य \---
+
+\--- कार्य \---
+
+आपण "होय" उत्तर दिल्यास आपण खालील कोड देखील नवीन `जोडू शकता:`{: class = "block3control"} जर आपण "होय" उत्तर दिले तर चॅटबॉट चार वेळा वर आणि खाली जाण्यासाठी अवरोधित करा:
+
+![नॅनो स्पिट](images/nano-sprite.png)
+
+```blocks3
+जर <(उत्तर) = [yes]> नंतर 
+  बॅकड्रॉपवर स्विच करा (चंद वी)
+
++ दोहराव (4) 
+    बदलावा बदलून (10)
+    प्रतीक्षा (0.1) सेकंद
+    बदलून वाई (-10)
+    प्रतीक्षा (0.1) सेकंद
+  अंत
+अंत
+```
+
+\--- / कार्य \---
