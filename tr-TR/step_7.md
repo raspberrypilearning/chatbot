@@ -10,13 +10,13 @@ Can you program your chatbot to ask "Do you want to go to the moon", and then ch
 
 \--- hints \---
 
-\--- hint \---
+\---hint\---
 
 Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
 \--- /hint \---
 
-\--- hint \---
+\---hint\---
 
 Here are the code blocks you need to add to your chatbot code.
 
@@ -34,7 +34,7 @@ end
 
 \--- /hint \---
 
-\--- hint \---
+\---hint\---
 
 This is what your code should look like:
 
@@ -49,7 +49,7 @@ end
 
 \--- /hints \---
 
-\--- /task \---
+\--- /görev \---
 
 \--- task \---
 
@@ -63,13 +63,13 @@ when this sprite clicked
 + switch backdrop to (space v)
 ```
 
-\--- /task \---
+\--- /görev \---
 
 \--- task \---
 
 Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
-\--- /task \---
+\--- /görev \---
 
 \--- task \---
 
