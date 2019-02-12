@@ -1,7 +1,7 @@
-## Challenge: more questions
+## Haaste: lisää kysymyksiä
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Ohjelmoi chatbot, jos haluat esittää toisen kysymyksen. Voitko tallentaa vastauksen tähän uuteen kysymykseen uudessa muuttujassa?
 
-![More questions](images/chatbot-question1.png)
+![Lisää kysymyksiä](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![Lisää kysymyksiä](images/chatbot-question2.png)
