@@ -1,5 +1,5 @@
-## Challenge: more decisions
+## Tantangan: lebih banyak keputusan
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+Program chatbot Anda untuk mengajukan pertanyaan lain yang dapat dijawab dengan "ya" atau "tidak". Bisakah Anda membuat chatbot Anda merespons secara berbeda tergantung pada jawaban yang diterimanya?
 
-![screenshot](images/chatbot-joke.png)
+![tangkapan layar](images/chatbot-joke.png)
