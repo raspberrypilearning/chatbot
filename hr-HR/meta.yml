@@ -11,21 +11,21 @@ steps:
   - 
     title: Uvod
   - 
-    title: Your chatbot
+    title: Robot koji razgovara
   - 
-    title: A talking chatbot
+    title: Robot koji govori
   - 
-    title: "Challenge: more questions"
+    title: "Izazov: još pitanja"
     challenge: true
   - 
     title: Donošenje odluka
   - 
-    title: "Challenge: more decisions"
+    title: "Izazov: više odluka"
     challenge: true
   - 
-    title: Changing location
+    title: Promjena lokacije
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Izazov: dovrši robota"
     challenge: true
   - 
     title: What next?
