@@ -1,93 +1,92 @@
-## Changing location
+## অবস্থান পরিবর্তন
 
-You can also program your chatbot to change its location!
+এছাড়াও আপনি আপনার চ্যাটবোট তার অবস্থান পরিবর্তন করতে প্রোগ্রাম করতে পারেন!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![একটি পরিবর্তিত ব্যাকড্রপ পরীক্ষা](images/chatbot-backdrop-moon.png)
 
-\--- task \---
+\--- কাজ \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+আপনি কি আপনার চ্যাটবোটকে "চাঁদের কাছে যেতে চান" বলে জিজ্ঞাসা করতে পারেন এবং উত্তরটি "হ্যাঁ" হলে ব্যাকড্রপটি পরিবর্তন করতে পারেন?
 
-\--- hints \---
+\--- ইঙ্গিত \---
 
-\--- hint \---
+\--- ইঙ্গিত \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+আপনার চ্যাটবোট `জিজ্ঞাসা করা উচিত "আপনি চাঁদে যেতে চান?"`{: class = "block3sensing"}, এবং `হলে`{: class = "block3control"} আপনি `উত্তর দিতে পারেন`: {class = "block3singing"} "হ্যাঁ", এটি `চাঁদকে ব্যাকড্রপটি স্যুইচ করতে হবে`{: বর্গ = "block3looks"}।
 
-\--- /hint \---
+\--- / ইঙ্গিত \---
 
-\--- hint \---
+\--- ইঙ্গিত \---
 
-Here are the code blocks you need to add to your chatbot code.
+আপনার চ্যাটবোট কোডে যোগ করার জন্য কোড ব্লকগুলি এখানে রয়েছে।
 
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-switch backdrop to (moon v)
-
-ask [Do you want to go to the moon?] and wait
-
-if <(answer) = [yes]> then 
-
-end
-```
-
-\--- /hint \---
-
-\--- hint \---
-
-This is what your code should look like:
+![ন্যানো স্প্রাইট](images/nano-sprite.png)
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-end
+(চাঁদ উ) সুইচ পরিপ্রেক্ষিত
+
+জিজ্ঞাসা [আপনি চাঁদ যেতে চান না?] এবং অপেক্ষা করুন
+
+যদি <(উত্তর) = [yes]> তারপর 
+
+শেষ
 ```
 
-\--- /hint \---
+\--- / ইঙ্গিত \---
 
-\--- /hints \---
+\--- ইঙ্গিত \---
 
-\--- /task \---
-
-\--- task \---
-
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
-
-![nano sprite](images/nano-sprite.png)
+আপনার কোডটি কেমন হওয়া উচিত:
 
 ```blocks3
-when this sprite clicked
-
-+ switch backdrop to (space v)
+জিজ্ঞাসা [আপনি চাঁদ যেতে চান না?] এবং অপেক্ষা করুন
+যদি <(উত্তর) = [yes]> তারপর 
+  (চাঁদ উ) সুইচ পরিপ্রেক্ষিত
+শেষ
 ```
 
-\--- /task \---
+\--- / ইঙ্গিত \---
 
-\--- task \---
+\--- / ইঙ্গিত \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+\--- /কাজ \---
 
-\--- /task \---
+\--- কাজ \---
 
-\--- task \---
+এখন আপনি যখন এটিতে চ্যাট করতে চান তখন আপনার চ্যাটবোট সঠিক স্থানে শুরু হয় তা নিশ্চিত করতে হবে। আপনার চ্যাটবোট কোডের উপরে এই ব্লক যুক্ত করুন:
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
-
-![nano sprite](images/nano-sprite.png)
+![ন্যানো স্প্রাইট](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+যখন এই sprite
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
++ সুইচ ব্যাকড্রপ ক্লিক করুন (স্থান v)
 ```
 
-\--- /task \---
+\--- /কাজ \---
+
+\--- কাজ \---
+
+আপনার প্রোগ্রামটি পরীক্ষা করে দেখুন এবং "হ্যাঁ" উত্তর দিন যখন আপনি চাঁদ যেতে চান চ্যাটবট জিজ্ঞাসা করে। আপনি চ্যাটবট এর অবস্থান পরিবর্তন দেখতে হবে।
+
+\--- /কাজ \---
+
+\--- কাজ \---
+
+যদি আপনি "হ্যাঁ" উত্তর দিলে</code>{: class = "block3control"} চ্যাটবোটটি চারবার উপরে এবং নিচে তোলার জন্য ব্লক করে নতুন `ভিতরে নিম্নলিখিত কোডটি যুক্ত করতে পারেন:</p>
+
+<p><img src="images/nano-sprite.png" alt="ন্যানো স্প্রাইট" /></p>
+
+<pre><code class="blocks3">যদি <(উত্তর) = [yes]> তারপর 
+  ব্যাকড্রপ (চাঁদ v)
+
++ পুনরাবৃত্তি (4) 
+    পরিবর্তন y দ্বারা (10)
+    অপেক্ষা (0.1) সেকেন্ড
+    পরিবর্তন y দ্বারা (-10)
+    অপেক্ষা (0.1) সেকেন্ড
+  শেষ
+শেষ
+`</pre> 
+
+\--- /কাজ \---
