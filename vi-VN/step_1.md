@@ -33,13 +33,13 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: What you will need
 
-### Hardware
+### Phần cứng
 
-+ Computer capable of running Scratch 3
++ Máy tính có khả năng chạy Scratch 3
 
-### Software
+### Phần mềm
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ Scratch 3 ([trực tuyến](https://rpf.io/scratchon) hoặc [ngoại tuyến](https://rpf.io/scratchoff))
 
 ### Downloads
 
@@ -47,7 +47,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- /collapse \---
 
-\--- collapse \---
+\--- sự sụp đổ \---
 
 * * *
 
@@ -66,7 +66,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Nếu bạn cần in dự án này, vui lòng sử dụng [ bản in ](https://projects.raspberrypi.org/en/projects/chatbot/print) {: target = "_ blank"}.
 
 \--- /no-print \---
 
