@@ -1,11 +1,11 @@
-## Challenge: finish your chatbot
+## Výzva: dokončete svůj chatbot
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+Použijte, co jste se naučili, abyste dokončili vytváření interaktivního chatbotu. Zde je několik nápadů:
 
-![ChatBot ideas](images/chatbot-ideas1.png)
+![ChatBot nápady](images/chatbot-ideas1.png)
 
-![ChatBot ideas](images/chatbot-ideas2.png)
+![ChatBot nápady](images/chatbot-ideas2.png)
 
-![ChatBot ideas](images/chatbot-ideas3.png)
+![ChatBot nápady](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+Jakmile dokončíte svůj chatbot, přenechejte s přáteli rozhovor! Líbí se ti vaše postava? Mohou zjistit nějaké problémy?
