@@ -11,11 +11,11 @@ steps:
   - 
     title: צ’אט בוט (רובוט שיחה)
   - 
-    title: Your chatbot
+    title: הצ'אטבוט שלכם
   - 
-    title: A talking chatbot
+    title: צ'אטבוט מדבר
   - 
-    title: "Challenge: more questions"
+    title: "אתגר: שאלות נוספות"
     challenge: true
   - 
     title: קבלת החלטות
@@ -23,9 +23,9 @@ steps:
     title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Changing location
+    title: שינוי מיקום
   - 
-    title: "Challenge: finish your chatbot"
+    title: "אתגר: סיים את הצ'אטבוט שלך"
     challenge: true
   - 
-    title: What next?
+    title: מה הלאה?
