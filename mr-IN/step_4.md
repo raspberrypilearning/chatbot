@@ -1,7 +1,7 @@
-## Challenge: more questions
+## आव्हानः अधिक प्रश्न
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+दुसर्या चॅटचा विचार करण्यासाठी आपल्या चॅटबॉटला प्रोग्राम करा. आपण या नवीन प्रश्नास एका नवीन चलनात उत्तर देऊ शकता?
 
-![More questions](images/chatbot-question1.png)
+![अधिक प्रश्न](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![अधिक प्रश्न](images/chatbot-question2.png)
