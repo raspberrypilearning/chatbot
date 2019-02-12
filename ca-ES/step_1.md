@@ -2,7 +2,7 @@
 
 This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- /no-print \---
+\--- / no-print \---
 
 ## Introducció
 
@@ -19,44 +19,44 @@ Click on the green flag, and then click on the chatbot character to start a conv
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
-\--- print-only \---
+\--- només imprimir \---
 
 ![complete project](images/chatbot-preview.png)
 
-\--- /print-only \---
+\--- / print-only \---
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## títol: què necessitaràs
 
-### Hardware
+### Maquinari
 
-+ Computer capable of running Scratch 3
++ Ordinador capaç d'executar Scratch 3
 
-### Software
+### Programari
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ Scratch 3 ( [en línia](https://rpf.io/scratchon) o [fora de línia](https://rpf.io/scratchoff))
 
 ### Downloads
 
 + [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
-\--- /collapse \---
+\--- / collapse \---
 
 \--- collapse \---
 
 * * *
 
-## title: What you will learn
+## títol: Què aprendràs
 
 + How to get input from a user
 + How to use the `if, then, else`{:class="block3control"} Scratch block
 
-\--- /collapse \---
+\--- / collapse \---
 
 \--- collapse \---
 
@@ -66,10 +66,10 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Si necessites imprimir aquest projecte, si us plau, utilitza la [Versió per imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\--- /no-print \---
+\--- / no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
-\--- /collapse \---
+\--- / collapse \---
