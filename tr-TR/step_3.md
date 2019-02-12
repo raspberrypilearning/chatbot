@@ -1,4 +1,4 @@
-## A talking chatbot
+## Konuşan bir chatbot
 
 Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
@@ -14,7 +14,7 @@ ask [What's your name?] and wait
 say [What a lovely name!] for (2) seconds
 ```
 
-\--- /task \---
+\--- /görev \---
 
 \--- task \---
 
@@ -24,7 +24,7 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 ![Testing a ChatBot response](images/chatbot-ask-test2.png)
 
-\--- /task \---
+\--- /görev \---
 
 \--- task \---
 
@@ -72,6 +72,6 @@ Your code should work as before: your chatbot should say hi using the name you t
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- /task \---
+\--- /görev \---
 
 Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
