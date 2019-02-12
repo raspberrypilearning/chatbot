@@ -1,77 +1,77 @@
-## A talking chatbot
+## Pogovorni klepet
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Zdaj, ko imate chatbot z osebnostjo, ga boste programirali, da se pogovori z vami.
 
-\--- task \---
+\--- naloga \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
-
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
-```
-
-\--- /task \---
-
-\--- task \---
-
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
-
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
-
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
-
-\--- /task \---
-
-\--- task \---
-
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
-
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+Kliknite na chatbot sprite in dodajte to kodo, tako da `ko je kliknila`{: class = "block3events"}, `vpraša za vaše ime`{: class = "block3sensing"} in nato `pravi: "Kaj lepo ime! "`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+ko je ta geslo kliknilo
+vprašaj [kako ti je ime?] in počakaj
+besedo [kako lepo ime!] za (2) sekund
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+\--- / naloga \---
 
-\--- /task \---
+\--- naloga \---
 
-\--- task \---
+Kliknite svojo chatbot, da preizkusite svojo kodo. Ko chatbot zahteva vaše ime, ga vnesite v polje, ki se prikaže na dnu stopnje, nato pa kliknite modro oznako ali pritisnite <kbd>Enter</kbd>.
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+![Testiranje ChatBot odziva](images/chatbot-ask-test1.png)
 
-Create a new variable called `name`{:class="block3variables"}.
+![Testiranje ChatBot odziva](images/chatbot-ask-test2.png)
+
+\--- / naloga \---
+
+\--- naloga \---
+
+Zdaj, vaš chatbot odgovori "Kako lepo ime!" vsakič, ko odgovorite. Odgovor klepetalnice lahko naredite bolj oseben, tako da bo odgovor drugačen vsakič, ko bo vneseno drugo ime.
+
+Spremenite kodo chatbotovega spritea na `pridružite`{: class = "block3operators"} "Hi" z `odgovorom`{: class = "block3sensing"} na "Kako je vaše ime?" vprašanje, tako da koda izgleda takole:
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+ko je ta geslo kliknilo
+vprašaj [kako ti je ime?] in počakaj
+recimo (pridruži se [Hi] (odgovor) :: +) za (2) sekund
+```
+
+![Testiranje prilagojenega odgovora](images/chatbot-answer-test.png)
+
+\--- / naloga \---
+
+\--- naloga \---
+
+S shranjevanjem odgovor v **spremenljivke**, ga lahko uporabljate kjerkoli svoj projekt.
+
+Ustvarite novo spremenljivko z imenom `name`{: class = "block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-\--- /task \---
+\--- / naloga \---
 
-\--- task \---
+\--- naloga \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Sedaj spremenite kodo za chatbot sprites, da nastavite `ime`{: class = "block3variables"} spremenljivko na `odgovor`{: class = "block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+ko je ta geslo kliknilo
+vprašaj [kako ti je ime?] in počakaj
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ nastavite [ime v] na (odgovor)
+reci (pridruži se [Hi] (ime :: spremenljivke +)) za (2) sekund
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+Vaša koda bi morala delovati tako kot prej: vaš klepet bi moral pozdraviti ime, ki ga vnesete.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Testiranje prilagojenega odgovora](images/chatbot-answer-test.png)
 
-\--- /task \---
+\--- / naloga \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Ponovno preizkusite program. Upoštevajte, da je odgovor, ki ga vnesete, shranjen v spremenljivki `name`{: class = "block3variables"} in je prikazan tudi v zgornjem levem kotu stopnje. Če želite, da izgine iz stopnje, pojdite v razdelek `Data`{: class = "block3variables"} in kliknite na polje poleg `ime`{: class = "block3variables"}, tako da ni označeno.
