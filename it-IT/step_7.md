@@ -1,14 +1,14 @@
-## Changing location
+## Cambiare posizione
 
 You can also program your chatbot to change its location!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Testare un cambio di sfondo](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
 Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- hints \---
+\--- hint \---
 
 \--- hint \---
 
