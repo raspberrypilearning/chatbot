@@ -31,15 +31,15 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will need
+## title: Šta će ti biti potrebno
 
-### Hardware
+### Hardver
 
-+ Computer capable of running Scratch 3
++ Računar koji može da pokrene Scratch 3
 
-### Software
+### Softver
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ Scratch 3 ([online](https://rpf.io/scratchon) ili [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
@@ -51,7 +51,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will learn
+## title: Šta ćeš naučiti
 
 + How to get input from a user
 + How to use the `if, then, else`{:class="block3control"} Scratch block
@@ -66,7 +66,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Ukoliko je potrebno da odštampate ovaj projekat, koristite [verziju za štampu](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
