@@ -25,7 +25,7 @@ steps:
   - 
     title: '도전 과제: 챗봇을 완성하세요.'
   - 
-    title: "Challenge: finish your chatbot"
+    title: "도전 과제: 챗봇을 완성하세요."
     challenge: true
   - 
-    title: What next?
+    title: 더 나아가기
