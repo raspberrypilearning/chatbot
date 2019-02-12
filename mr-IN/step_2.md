@@ -1,38 +1,38 @@
-## Your chatbot
+## आपला चॅटबोॉट
 
-\--- task \---
+\--- कार्य \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+आपण आपले चॅटबोट तयार करणे प्रारंभ करण्यापूर्वी, आपण त्याचे व्यक्तिमत्व काय आहे हे ठरविणे आवश्यक आहे. **खालील प्रश्नांबद्दल विचार करा**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ चॅटबॉटचे नाव काय आहे?
++ ते कोठे राहते?
++ हे आनंदी आहे का? गंभीर? मजेदार? लाजाळू? मैत्रीपूर्ण
++ ते काय आवडते आणि नापसंत करतात?
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- कार्य \--- चॅटबॉट स्क्रॅच स्टार्टर प्रोजेक्ट उघडा.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**ऑनलाईन:** स्टार्टर प्रोजेक्ट [rpf.io/chatbot-on](http://rpf.io/chatbot-on)वर उघडा {: target = "_ blank"}.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**ऑफलाइन:** स्टार्टर प्रोजेक्ट [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go)वरुन डाउनलोड करा {{target = "_ blank"} आणि नंतर ऑफलाइन संपादकाद्वारे ते उघडा.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+आपण डाउनलोड आणि सुरवातीपासून ऑफलाइन संपादक स्थापित करणे आवश्यक आहे तर आपण शोधू शकता [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / कार्य \---
 
-\--- task \---
+\--- कार्य \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+स्टार्टर प्रोजेक्टमध्ये चार वर्णांचे स्पिरिट्स आहेत. यापैकी एक आपला चॅटबोट असेल.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+आपण एकतर आधीपासून निवडलेल्या स्प्राइटचा वापर करू शकता किंवा आपल्याला पाहिजे असलेल्या उजवे-क्लिकद्वारे भिन्न पर्याय निवडू शकता आणि नंतर दिसत असलेल्या मेनूमधून **शो** किंवा **लपवा** निवडा.
 
-![Choose a character](images/chatbot-characters.png)
+![एक वर्ण निवडा](images/chatbot-characters.png)
 
-\--- /task \---
+\--- / कार्य \---
 
-\--- task \---
+\--- कार्य \---
 
-Save your Scratch project.
+आपले स्क्रॅच प्रकल्प जतन करा.
 
 [[[generic-scratch3-saving]]]
 
-\--- /task \---
+\--- / कार्य \---
