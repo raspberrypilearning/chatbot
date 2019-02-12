@@ -1,5 +1,5 @@
-## Challenge: more decisions
+## Zorluk: daha fazla karar
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+Chatbot'unuzu "evet" veya "hayır" ile cevaplanabilecek başka bir soru sorması için programlayın. Chatbot'unuzun hangi cevabı aldığına bağlı olarak farklı tepkiler vermesini sağlayabilir misiniz?
 
 ![ekran alıntısı](images/chatbot-joke.png)
