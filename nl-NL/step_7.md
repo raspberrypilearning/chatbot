@@ -1,4 +1,4 @@
-## Changing location
+## Locatie wijzigen
 
 You can also program your chatbot to change its location!
 
@@ -51,7 +51,7 @@ end
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
@@ -71,7 +71,7 @@ Test your program, and answer "yes" when the chatbot asks if you want to go to t
 
 \--- /task \---
 
-\--- task \---
+\--- task \----
 
 You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
