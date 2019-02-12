@@ -1,4 +1,4 @@
-## A talking chatbot
+## おしゃべりチャットボット
 
 Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
@@ -20,9 +20,9 @@ say [What a lovely name!] for (2) seconds
 
 Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![チャットボットの答え](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![チャットボットの答え](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
@@ -40,7 +40,7 @@ ask [What's your name?] and wait
 say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![答えをかえてみる](images/chatbot-answer-test.png)
 
 \--- /task \---
 
@@ -70,7 +70,7 @@ say (join [Hi ] (name :: variables +)) for (2) seconds
 
 Your code should work as before: your chatbot should say hi using the name you type in.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![答えをかえてみる](images/chatbot-answer-test.png)
 
 \--- /task \---
 
