@@ -1,127 +1,127 @@
-## Making decisions
+## Membuat keputusan
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Anda dapat memprogram chatbot Anda untuk memutuskan apa yang harus dilakukan berdasarkan jawaban yang diterimanya.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Pertama, Anda akan membuat chatbot Anda mengajukan pertanyaan yang dapat dijawab dengan "ya" atau "tidak".
 
-\--- task \---
+\--- tugas \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Ubah kode chatbot Anda. Chatbot Anda harus menanyakan pertanyaan "Apakah Anda OK nama", menggunakan variabel `nama`{: class = "block3variables"}. Maka itu harus menjawab "Itu bagus untuk mendengar!" `jika`{: class = "block3control"} jawaban yang diterimanya adalah "ya", tetapi jangan katakan apa-apa jika jawabannya "tidak".
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+![Menguji balasan chatbot](images/chatbot-if-test1-annotated.png)
 
 ![Menguji balasan chatbot](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-end
+ketika sprite ini diklik
+tanyakan [Siapa namamu?] dan tunggu
+set [nama v] menjadi (jawab)
+katakan (gabung [Hai] (nama)) selama (2) detik
++ tanyakan (gabung [Apakah kamu baik-baik saja] (nama)) dan tunggu
++ jika <(jawaban) = [yes]> lalu 
+  katakan [Senang mendengar!] selama (2) detik
+berakhir
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Untuk menguji kode baru Anda dengan benar, Anda harus mengujinya **dua kali**: sekali dengan jawaban "ya", dan sekali dengan jawaban "tidak".
 
-\--- /task \---
+\--- /tugas \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+Saat ini, chatbot Anda tidak mengatakan apa pun pada jawaban "tidak".
 
-\--- task \---
+\--- tugas \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Ubah kode chatbot Anda sehingga itu menjawab "Oh tidak!" jika menerima "tidak" sebagai jawaban untuk "Apakah Anda baik-baik saja nama".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Ganti `jika, maka`{: class = "block3control"} blok dengan `jika, lalu, kalau lain`{: class = "block3control"} blok, dan sertakan kode sehingga obrolan dapat `mengatakan "Oh tidak!"`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
+ketika sprite ini diklik
+tanyakan [Siapa namamu?] dan tunggu
+set [nama v] menjadi (jawab)
+katakan (gabung [Hai] (nama)) selama (2) detik
+tanyakan (gabung [Apakah kamu baik-baik saja] ( name)) dan tunggu
 
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
-end
++ jika <(jawaban) = [yes]> lalu 
+  katakan [Itu bagus untuk didengar!] untuk (2) detik
+lagi 
++ katakan [Oh tidak!] untuk (2) detik
+akhir
 ```
 
-\--- /task \---
+\--- /tugas \---
 
-\--- task \---
+\--- tugas \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Uji kode Anda. Anda harus mendapatkan respons yang berbeda ketika Anda menjawab "tidak" dan ketika Anda menjawab "ya": chatbot Anda harus menjawab dengan "Itu bagus untuk didengar!" ketika Anda menjawab "ya" (yang tidak peka huruf besar-kecil), dan balas dengan "Oh tidak!" ketika Anda menjawab **hal lain**.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![Menguji balasan chatbot](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Menguji jawaban ya / tidak](images/chatbot-if-else-test.png)
 
-\--- /task \---
+\--- /tugas \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Anda dapat memasukkan kode apa pun ke dalam `jika, kemudian, kalau tidak blok`{: class = "block3control"}, bukan hanya kode untuk membuat chatbot Anda berbicara!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Jika Anda mengklik tab **Kostum** Anda di chatbot, Anda akan melihat bahwa ada lebih dari satu kostum.
 
-![chatbot costumes](images/chatbot-costume-view-annotated.png)
+![kostum chatbot](images/chatbot-costume-view-annotated.png)
 
-\--- task \---
+\--- tugas \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Ubah kode chatbot Anda sehingga chatbot mengganti kostum saat Anda mengetik jawaban Anda.
 
-![Testing a changing costume](images/chatbot-costume-test1.png)
+![Menguji kostum yang berubah](images/chatbot-costume-test1.png)
 
-![Testing a changing costume](images/chatbot-costume-test2.png)
+![Menguji kostum yang berubah](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Ubah kode di dalam `jika, maka, jika tidak, blok`{: class = "block3control"} menjadi `switch kostum`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+ketika sprite ini diklik
+tanyakan [Siapa namamu?] dan tunggu
+set [nama v] menjadi (jawab)
+katakan (gabung [Hai] (nama)) selama (2) detik
+tanyakan (gabung [Apakah kamu baik-baik saja] ( nama)) dan tunggu
+jika <(jawaban) = [yes]> lalu 
 
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
-end
++ ganti kostum ke (nano-c v)
+  katakan [Itu bagus untuk didengar!] selama (2) detik
+lain 
++ beralih kostum ke (nano- d v)
+  katakan [Oh tidak!] selama (2) detik
+berakhir
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Uji dan simpan kode Anda. Anda akan melihat wajah chatbot Anda berubah tergantung pada jawaban Anda.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Pernahkah Anda memperhatikan bahwa, setelah kostum chatbot Anda berubah, itu tetap seperti itu dan tidak berubah kembali seperti semula?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Anda dapat mencobanya: jalankan kode Anda dan jawab "tidak" sehingga wajah chatbot Anda berubah menjadi tampilan yang tidak bahagia. Kemudian jalankan kembali kode Anda dan perhatikan bahwa chatbot Anda tidak berubah kembali menjadi tampak bahagia sebelum ia menanyakan nama Anda.
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Bug kostum](images/chatbot-costume-bug-test.png)
 
-\--- task \---
+\--- tugas \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Untuk memperbaiki masalah ini, tambahkan kode chatbot ke `ganti kostum`{: class = "block3looks"} di awal `ketika sprite diklik`{: class = "block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+ketika sprite ini mengklik
 
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
++ ganti kostum ke (nano-a v)
+tanyakan [Siapa namamu?] dan tunggu
 ```
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![Menguji perbaikan kostum](images/chatbot-costume-fix-test.png)
 
-\--- /task \---
+\--- /tugas \---
