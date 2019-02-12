@@ -1,5 +1,5 @@
-## Challenge: more decisions
+## Haaste: enemmän päätöksiä
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+Ohjelmoi chatbot, jos haluat kysyä toisen kysymyksen, johon voidaan vastata "kyllä" tai "ei". Voitteko vastata chatbotiin eri tavalla riippuen siitä, minkä vastauksen se vastaanottaa?
 
-![screenshot](images/chatbot-joke.png)
+![kuvakaappaus](images/chatbot-joke.png)
