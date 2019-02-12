@@ -1,12 +1,12 @@
 ## Đưa ra quyết định
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Bạn có thể lập trình chatbot của mình để quyết định phải làm gì dựa trên câu trả lời mà nó nhận được.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Trước tiên, bạn sẽ làm cho chatbot của mình hỏi một câu hỏi có thể được trả lời bằng "có" hoặc "không".
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Thay đổi mã chatbot của bạn. Chatbot của bạn nên đặt câu hỏi "Bạn có ổn không", sử dụng biến `name`{: class = "block3variables"}. Sau đó, nó sẽ trả lời "Thật tuyệt khi nghe!" `nếu`{: class = "block3control"} câu trả lời mà nó nhận được là "có", nhưng không nói gì nếu câu trả lời là "không".
 
 ![Kiểm tra trả lời của chatbot](images/chatbot-if-test1-annotated.png)
 
@@ -15,49 +15,49 @@ Change your chatbot's code. Your chatbot should ask the question "Are you OK nam
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-end
+khi sprite này nhấp
+hỏi [Tên bạn là gì?] và đợi
+bộ [name v] thành (trả lời)
+nói (tham gia [Hi] (tên)) trong (2) giây
++ hỏi (tham gia [Bạn có ổn không] (tên)) và đợi
++ nếu <(trả lời) = [yes]> thì 
+  nói [Thật tuyệt khi nghe!] trong (2) giây
+kết thúc
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Để kiểm tra mã mới của bạn đúng cách, bạn nên kiểm tra mã **hai lần**: một lần với câu trả lời "có" và một lần với câu trả lời "không".
 
 \--- /bài tập \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+Hiện tại, chatbot của bạn không nói gì với câu trả lời "không".
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Thay đổi mã chatbot của bạn để nó trả lời "Ồ không!" nếu nó nhận được "không" là câu trả lời cho "Bạn có ổn không".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Thay thế khối `if, sau đó`{: class = "block3control"} bằng khối `if, sau đó, khác`{: class = "block3control"} và bao gồm mã để chatbot có thể `nói "Ồ không!"`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
+khi sprite này nhấp
+hỏi [Tên của bạn là gì?] và đợi
+bộ [name v] thành (trả lời)
+nói (tham gia [Hi] (tên)) trong (2) giây
+hỏi (tham gia [Bạn có ổn không] tên)) và đợi
 
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
-end
++ nếu <(câu trả lời) = [yes]> thì 
+  nói [Thật tuyệt khi nghe!] trong (2) giây
+khác 
++ nói [Ồ không!] trong (2) giây
+kết thúc
 ```
 
 \--- /bài tập \---
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Kiểm tra mã của bạn. Bạn sẽ nhận được phản hồi khác nhau khi bạn trả lời "không" và khi bạn trả lời "có": chatbot của bạn sẽ trả lời bằng "Thật tuyệt khi nghe!" khi bạn trả lời "có" (không phân biệt chữ hoa chữ thường) và trả lời "Ồ không!" khi bạn trả lời **bất cứ điều gì khác**.
 
 ![Kiểm tra trả lời của chatbot](images/chatbot-if-test2.png)
 
@@ -65,61 +65,61 @@ Test your code. You should get a different response when you answer "no" and whe
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Bạn có thể đặt bất kỳ mã nào bên trong khối `nếu, sau đó, khác`{: class = "block3control"}, không chỉ mã để làm cho chatbot của bạn nói!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Nếu bạn nhấp vào tab **Trang phục** của chatbot, bạn sẽ thấy có nhiều hơn một trang phục.
 
 ![trang phục chatbot](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Thay đổi mã chatbot của bạn để chatbot chuyển trang phục khi bạn nhập câu trả lời.
 
 ![Kiểm tra trang phục thay đổi](images/chatbot-costume-test1.png)
 
 ![Kiểm tra trang phục thay đổi](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Thay đổi mã bên trong khối `nếu, sau đó, khác`{: class = "block3control"} thành `trang phục chuyển đổi`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+khi sprite này nhấp
+hỏi [Tên của bạn là gì?] và đợi
+bộ [name v] thành (trả lời)
+nói (tham gia [Hi] (tên)) trong (2) giây
+hỏi (tham gia [Bạn có ổn không] tên)) và đợi
+nếu <(câu trả lời) = [yes]> rồi 
 
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
-end
++ chuyển trang phục sang (nano-c v)
+  nói [Thật tuyệt khi nghe!] trong (2) giây
+khác 
++ chuyển trang phục sang (nano- d v)
+  nói [Ồ không!] trong (2) giây
+kết thúc
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Kiểm tra và lưu mã của bạn. Bạn sẽ thấy khuôn mặt của chatbot thay đổi tùy theo câu trả lời của bạn.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Bạn có nhận thấy rằng, sau khi trang phục chatbot của bạn thay đổi, nó vẫn như vậy và không thay đổi trở lại như lúc ban đầu?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Bạn có thể thử điều này: chạy mã của bạn và trả lời "không" để khuôn mặt chatbot của bạn thay đổi thành một cái nhìn không vui. Sau đó chạy lại mã của bạn và nhận thấy rằng chatbot của bạn không thay đổi trở lại trông hạnh phúc trước khi nó hỏi tên của bạn.
 
 ![Lỗi trang phục](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Để khắc phục sự cố này, hãy thêm mã của chatbot vào `trang phục chuyển đổi`{: class = "block3looks"} ở đầu `khi nhấp vào sprite`{: class = "block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+khi sprite này nhấp
 
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
++ chuyển trang phục sang (nano-a v)
+hãy hỏi [Tên bạn là gì?] và chờ đợi
 ```
 
 ![Kiểm tra sửa lỗi trang phục](images/chatbot-costume-fix-test.png)
