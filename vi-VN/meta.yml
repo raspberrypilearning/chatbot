@@ -11,21 +11,21 @@ steps:
   - 
     title: Giới thiệu
   - 
-    title: Your chatbot
+    title: Chatbot của bạn
   - 
-    title: A talking chatbot
+    title: Robot biết trò chuyện
   - 
-    title: "Challenge: more questions"
+    title: "Thử thách: nhiều câu hỏi hơn"
     challenge: true
   - 
     title: Đưa ra quyết định
   - 
-    title: "Challenge: more decisions"
+    title: "Thử thách: nhiều quyết định hơn"
     challenge: true
   - 
-    title: Changing location
+    title: Thay đổi vị trí
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Thử thách: hoàn thành chatbot của bạn"
     challenge: true
   - 
-    title: What next?
+    title: Bước tiếp theo?
