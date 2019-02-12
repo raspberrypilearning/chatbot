@@ -1,37 +1,37 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+זוהי **Scratch 3** גרסה של הפרויקט. יש גם גרסה [שריטה 2 של הפרויקט](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- /no-print \---
+\--- / no-print \---
 
 ## מבוא
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+אתה הולך ללמוד כיצד לתכנת אופי שיכול לדבר איתך! דמות כזאת נקראת רובוט צ'אט או צ'אט.
 
 ### מה תעשה
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+לחץ על דגל ירוק, ולאחר מכן לחץ על תו chatbot כדי להתחיל שיחה. כאשר ה- chatbot שואל שאלה, הקלד את התשובה שלך בתיבה בתחתית הבמה, ולאחר מכן לחץ על הסימן הכחול בצד ימין (או הקש `Enter`) כדי לראות את תשובת הצ'אט.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![פרוייקט שלם](images/chatbot-preview.png)
 
-\--- /print-only \---
+\--- / print-only \---
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## הכותרת: מה שאתה צריך
 
 ### חומרה
 
@@ -41,20 +41,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 + Scratch 3 (או [ מקוון ](https://rpf.io/scratchon) או [ במצב לא מקוון ](https://rpf.io/scratchoff))
 
-### Downloads
+### הורדות
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
-
-\--- /collapse \---
-
-\--- collapse \---
-
-* * *
-
-## title: What you will learn
-
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
++ [מצא קבצים להורדה כאן](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -62,14 +51,25 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: Additional notes for educators
+## title: מה תלמד
+
++ כיצד לקבל קלט ממשתמש
++ כיצד להשתמש `, אם כן, אחר`{: class = "block3control"} לגרד את החסימה
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: הערות נוספות למחנכים
 
 \--- no-print \---
 
 אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
-\--- /no-print \---
+\--- / no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+אתה יכול למצוא את פרויקט [הושלם כאן](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
