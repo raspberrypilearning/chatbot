@@ -6,26 +6,26 @@ theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
-last_tested: 2018-09-20
+last_tested: 20.09.2018
 steps:
   - 
     title: Esittely
   - 
-    title: Your chatbot
+    title: Sinun chatbot
   - 
-    title: A talking chatbot
+    title: Puhuva chatbot
   - 
-    title: "Challenge: more questions"
+    title: "Haaste: lisää kysymyksiä"
     challenge: true
   - 
     title: Päätösten tekeminen
   - 
-    title: "Challenge: more decisions"
+    title: "Haaste: enemmän päätöksiä"
     challenge: true
   - 
-    title: Changing location
+    title: Sijainnin muuttaminen
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Haaste: lopeta chatbot"
     challenge: true
   - 
-    title: What next?
+    title: Mitä seuraavaksi?
