@@ -1,8 +1,8 @@
-## Changing location
+## 改变位置
 
 You can also program your chatbot to change its location!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![测试修改背景](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
