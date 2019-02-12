@@ -2,7 +2,7 @@
 title: צ’אט בוט (רובוט שיחה)
 hero_image: images/chatbot.png
 description: אתה הולך ללמוד איך לתכנת צ’אט בוט (רובוט שיחה) לגמרי שלך!
-theme: violet
+theme: סגול
 listed: true
 copyedit: false
 version: 4.1.0
@@ -20,7 +20,7 @@ steps:
   - 
     title: קבלת החלטות
   - 
-    title: "Challenge: more decisions"
+    title: "אתגר: יותר החלטות"
     challenge: true
   - 
     title: שינוי מיקום
