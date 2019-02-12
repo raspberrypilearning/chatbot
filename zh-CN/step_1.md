@@ -33,13 +33,13 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: What you will need
 
-### Hardware
+### 硬件
 
-+ Computer capable of running Scratch 3
++ 能够运行Scratch 3的电脑
 
-### Software
+### 软件
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ Scratch 3（[在线版](https://rpf.io/scratchon)或[离线版](https://rpf.io/scratchoff)）
 
 ### Downloads
 
@@ -66,7 +66,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+如果您需要打印此项目，请使用[打印友好版本 printer-friendly version ](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
