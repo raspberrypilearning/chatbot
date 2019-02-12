@@ -31,15 +31,15 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will need
+## title: Τι θα χρειαστείς
 
-### Hardware
+### Υλικό
 
-+ Computer capable of running Scratch 3
++ Υπολογιστής ικανός να τρέχει το Scratch 3
 
-### Software
+### Λογισμικό
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ Scratch 3 (είτε [online](https://rpf.io/scratchon) είτε [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
@@ -51,7 +51,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will learn
+## title: Τι θα μάθεις
 
 + How to get input from a user
 + How to use the `if, then, else`{:class="block3control"} Scratch block
@@ -66,7 +66,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/chatbot/print)"{:target="_blank"}.
 
 \--- /no-print \---
 
