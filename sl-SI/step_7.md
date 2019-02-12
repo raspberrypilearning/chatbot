@@ -1,93 +1,93 @@
-## Changing location
+## Spreminjanje lokacije
 
-You can also program your chatbot to change its location!
+Lahko tudi programirate svoj chatbot, da spremenite njegovo lokacijo!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Testiranje spreminjanja ozadja](images/chatbot-backdrop-moon.png)
 
-\--- task \---
+\--- naloga \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Ali lahko programirate svoj chatbot in vprašate "Ali želite iti na luno" in nato spremeniti ozadje, ko je odgovor "da"?
 
-\--- hints \---
+\--- namigi \---
 
-\--- hint \---
+\--- namig \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Vaš chatbot mora `vprašati "Ali želite iti na luno?"`{: class = "block3sensing"}, in `če`{: class = "block3control"} vas `odgovor`{: class = "block3sensing"} "da", mora `preklopiti ozadje na luno`{: class = "block3looks"}.
 
-\--- /hint \---
+\--- /namig \---
 
-\--- hint \---
+\--- namig \---
 
-Here are the code blocks you need to add to your chatbot code.
-
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-switch backdrop to (moon v)
-
-ask [Do you want to go to the moon?] and wait
-
-if <(answer) = [yes]> then 
-
-end
-```
-
-\--- /hint \---
-
-\--- hint \---
-
-This is what your code should look like:
-
-```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-end
-```
-
-\--- /hint \---
-
-\--- /hints \---
-
-\--- /task \---
-
-\--- task \---
-
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Tukaj so kodni bloki, ki jih morate dodati vaši chatbot kodi.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+preklopi ozadje na (mesec v)
 
-+ switch backdrop to (space v)
+vprašaj [Ali želiš iti na luno?] in počakaj
+
+če <(odgovor) = [yes]> nato 
+
+konec
 ```
 
-\--- /task \---
+\--- /namig \---
 
-\--- task \---
+\--- namig \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Takšna mora biti vaša koda:
 
-\--- /task \---
+```blocks3
+vprašaj [Ali hočeš iti na luno?] in počakaj
+če <(odgovor) = [yes]> nato 
+  stikalo ozadja na (luna v)
+konec
+```
 
-\--- task \---
+\--- /namig \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+\--- / namigi \---
+
+\--- / naloga \---
+
+\--- naloga \---
+
+Zdaj morate poskrbeti, da se bo vaš chatbot začel na pravi lokaciji, ko boste kliknili nanj in se pogovorili z njim. Dodajte ta blok na vrh kode za klepet:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+ko je ta geslo kliknilo
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
++ preklopi ozadje na (presledek v)
 ```
 
-\--- /task \---
+\--- / naloga \---
+
+\--- naloga \---
+
+Preizkusite program in odgovorite "da", ko chatbot vpraša, ali želite iti na luno. Videti morate, da se lokacija klepetalnice spremeni.
+
+\--- / naloga \---
+
+\--- naloga \---
+
+Naslednjo kodo lahko dodate tudi v novi blok `če`:
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+če <(odgovor) = [yes]> nato 
+  stikalo ozadje na (luna v)
+
++ ponavljanje (4) 
+    spremeni y z (10)
+    čakaj (0.1) sek
+    spremeni y ((-10)
+    čakaj (0.1) sekund
+  konec
+konec
+```
+
+\--- / naloga \---
