@@ -1,4 +1,4 @@
-## Your chatbot
+## 당신의 챗봇
 
 \--- task \---
 
@@ -25,7 +25,7 @@ The starter project contains four character sprites. One of these will be your c
 
 You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
 
-![Choose a character](images/chatbot-characters.png)
+![캐릭터선택](images/chatbot-characters.png)
 
 \--- /task \---
 
