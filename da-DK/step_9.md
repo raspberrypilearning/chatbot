@@ -1,3 +1,3 @@
-## What next?
+## Hvad er det næste?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box) project, where you will create your own painting program!
+Prøv [Paint box](https://projects.raspberrypi.org/en/projects/paint-box) projektet, hvor du vil oprette dit eget maleri program!
