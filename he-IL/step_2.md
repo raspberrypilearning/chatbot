@@ -1,37 +1,37 @@
-## Your chatbot
+## הצ'אטבוט שלכם
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+לפני שתתחיל ליצור את chatbot שלך, אתה צריך להחליט מה האישיות שלו. **חשבו על השאלות הבאות**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ מהו שמו של הצ'אט?
++ איפה זה גר?
++ האם זה מאושר? ברצינות? מצחיק? ביישן? ידידותי?
++ מה זה אוהב ולא אוהב?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- משימה \--- פתח את הפרויקט Starter Stratch Scratch.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** פתח את פרוייקט המתנע ב [rpf.io/chatbot-](http://rpf.io/chatbot-on): {target = "_ _ ריק"}.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**מחובר:** הורד את פרוייקט Starter מ [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ _ blank"} ולאחר מכן פתח אותו באמצעות העורך הלא מקוון.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+אם אתה צריך להוריד ולהתקין את עורך Scratch לא מקוון, אתה יכול למצוא אותו ב [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / משימה \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+פרוייקט Starter מכיל ארבעה שדונים אופי. אחד מהם יהיה chatbot שלך.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+אתה יכול להשתמש ספרייט כי כבר נבחר, או לבחור אחרת על ידי לחיצה ימנית על אחד הרצוי ולאחר מכן בחירה **הצג** או **להסתיר** מהתפריט שמופיע.
 
-![Choose a character](images/chatbot-characters.png)
+![בחרו דמות](images/chatbot-characters.png)
 
 \--- /task \---
 
 \--- task \---
 
-Save your Scratch project.
+שמור את פרוייקט ה- Scratch שלך.
 
 [[[generic-scratch3-saving]]]
 
