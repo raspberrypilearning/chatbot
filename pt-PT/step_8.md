@@ -1,4 +1,4 @@
-## Challenge: finish your chatbot
+## Desafio: termina o teu robô falante
 
 Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
 
