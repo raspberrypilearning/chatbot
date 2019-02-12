@@ -1,6 +1,6 @@
-## Your chatbot
+## Jouw chatbot
 
-\--- task \---
+\--- task \----
 
 Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
@@ -9,7 +9,7 @@ Before you start creating your chatbot, you need to decide what its personality 
 + Is it happy? Serious? Funny? Shy? Friendly?
 + What does it like and dislike?
 
-\--- /task \---
+\---/task\---
 
 \--- task \--- Open the Chatbot Scratch starter project.
 
@@ -19,7 +19,7 @@ Before you start creating your chatbot, you need to decide what its personality 
 
 If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
-\--- task \---
+\--- task \----
 
 The starter project contains four character sprites. One of these will be your chatbot.
 
@@ -27,9 +27,9 @@ You can either use the sprite that is already selected, or choose a different on
 
 ![Choose a character](images/chatbot-characters.png)
 
-\--- /task \---
+-- /task \---
 
-\--- task \---
+\--- task \----
 
 Save your Scratch project.
 
