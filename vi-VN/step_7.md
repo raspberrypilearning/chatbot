@@ -1,93 +1,93 @@
 ## Thay đổi vị trí
 
-You can also program your chatbot to change its location!
+Bạn cũng có thể lập trình chatbot của mình để thay đổi vị trí của nó!
 
 ![Thử nghiệm thay đổi phông nền](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Bạn có thể lập trình chatbot của mình để hỏi "Bạn có muốn lên mặt trăng" không, và sau đó thay đổi phông nền khi câu trả lời là "có"?
 
-\--- hints \---
+\--- gợi ý \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Chatbot của bạn nên `hỏi "Bạn có muốn đi lên mặt trăng không?"`{: class = "block3sensing"} và `if`{: class = "block3control"} bạn `câu trả lời`{: class = "block3sensing"} "có", nên chuyển `phông nền sang mặt trăng`{: class = "block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Dưới đây là các khối mã bạn cần thêm vào mã chatbot của mình.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+chuyển backdrop sang (moon v)
 
-ask [Do you want to go to the moon?] and wait
+hỏi [Bạn có muốn lên mặt trăng không?] và đợi
 
-if <(answer) = [yes]> then 
+nếu <(trả lời) = [yes]> rồi 
 
-end
+kết thúc
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Đây là mã của bạn sẽ trông như thế nào:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-end
+hỏi [Bạn có muốn đi lên mặt trăng không?] và đợi
+nếu <(câu trả lời) = [yes]> sau đó chuyển 
+  phông nền sang (mặt trăng v)
+kết thúc
 ```
 
 \--- /hint \---
 
-\--- /hints \---
+\--- / gợi ý \---
 
 \--- /task \---
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Bây giờ bạn cần đảm bảo rằng chatbot của bạn bắt đầu ở đúng vị trí khi bạn nhấp vào nó để nói chuyện với nó. Thêm khối này vào đầu mã chatbot của bạn:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+khi sprite này nhấp
 
-+ switch backdrop to (space v)
++ chuyển backdrop sang (dấu cách v)
 ```
 
 \--- /bài tập \---
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Kiểm tra chương trình của bạn và trả lời "có" khi chatbot hỏi bạn có muốn lên mặt trăng không. Bạn sẽ thấy rằng vị trí của chatbot thay đổi.
 
 \--- /bài tập \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+Bạn cũng có thể thêm mã sau vào khối `if`{: class = "block3control"} mới để làm cho chatbot nhảy lên xuống bốn lần nếu bạn trả lời "có":
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+if <(answer) = [yes]> thì 
+  chuyển backdrop thành (moon v)
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
++ lặp lại (4) 
+    thay đổi y bằng (10)
+    chờ (0.1) giây
+    thay đổi y bằng (-10)
+    chờ (0.1) giây
+  kết thúc
+kết thúc
 ```
 
 \--- /bài tập \---
