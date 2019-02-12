@@ -1,4 +1,4 @@
-## Challenge: finish your chatbot
+## Challenge: আপনার চ্যাটবট বানানো শেষ করুন
 
 Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
 
