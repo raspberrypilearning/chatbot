@@ -1,93 +1,93 @@
-## Changing location
+## Смена местоположения
 
-You can also program your chatbot to change its location!
+Вы также можете запрограммировать своего чат-бота, чтобы изменить его местоположение!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Тестирование меняющегося фона](images/chatbot-backdrop-moon.png)
 
-\--- task \---
+\--- задача \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Можете ли вы запрограммировать своего чат-бота, чтобы он спросил «Вы хотите отправиться на Луну», а затем изменить фон, когда ответ «да»?
 
-\--- hints \---
+\--- подсказки \---
 
-\--- hint \---
+\--- подсказка \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Ваш чат должен `спросить: "Вы хотите поехать на Луну?"`{: class = "block3sensing"} и `if`{: class = "block3control"} вы `ответите`{: class = "block3sensing"} "yes", это должно `переключить фон на луну`{: класс = "block3looks"}.
 
-\--- /hint \---
+\--- / подсказка \---
 
-\--- hint \---
+\--- подсказка \---
 
-Here are the code blocks you need to add to your chatbot code.
+Вот блоки кода, которые нужно добавить в код чата.
 
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-switch backdrop to (moon v)
-
-ask [Do you want to go to the moon?] and wait
-
-if <(answer) = [yes]> then 
-
-end
-```
-
-\--- /hint \---
-
-\--- hint \---
-
-This is what your code should look like:
+![нано спрайт](images/nano-sprite.png)
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-end
+переключите фон на (луна v)
+
+спросите [Вы хотите пойти на луну?] и подождите
+
+если <(ответ) = [yes]> затем 
+
+конец
 ```
 
-\--- /hint \---
+\--- / подсказка \---
 
-\--- /hints \---
+\--- подсказка \---
 
-\--- /task \---
-
-\--- task \---
-
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
-
-![nano sprite](images/nano-sprite.png)
+Вот как должен выглядеть ваш код:
 
 ```blocks3
-when this sprite clicked
-
-+ switch backdrop to (space v)
+спросите [Вы хотите поехать на Луну?] и подождите
+если <(ответ) = [yes]> затем 
+  переключите фон в (луна v)
+конец
 ```
 
-\--- /task \---
+\--- / подсказка \---
 
-\--- task \---
+\--- / подсказки \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+\--- / задача \---
 
-\--- /task \---
+\--- задача \---
 
-\--- task \---
+Теперь вам нужно убедиться, что ваш чат-бот запускается в нужном месте, когда вы нажимаете на него, чтобы поговорить с ним. Добавьте этот блок в начало вашего кода чата:
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
-
-![nano sprite](images/nano-sprite.png)
+![нано спрайт](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+когда этот спрайт нажал
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
++ переключить фон в (пробел v)
 ```
 
-\--- /task \---
+\--- / задача \---
+
+\--- задача \---
+
+Проверьте свою программу и ответьте «да», когда чат-робот спросит, хотите ли вы отправиться на Луну. Вы должны увидеть, что местоположение чат-бота меняется.
+
+\--- / задача \---
+
+\--- задача \---
+
+Вы также можете добавить следующий код в новый блок `if`{: class = "block3control"}, чтобы чат-робот прыгал вверх и вниз четыре раза, если вы отвечаете "да":
+
+![нано спрайт](images/nano-sprite.png)
+
+```blocks3
+если <(ответ) = [yes]> то 
+  переключить фон на (луна v)
+
++ повтор (4) 
+    изменить y на (10)
+    секунд ожидания (0,1) с
+    изменить y на (-10)
+    секунд ожидания (0,1) с
+  конец
+конец
+```
+
+\--- / задача \---
