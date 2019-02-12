@@ -1,7 +1,7 @@
-## Challenge: more questions
+## Zorluk: daha fazla soru
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Chatbot'unuzu başka bir soru sormak için programlayın. Bu yeni sorunun cevabını yeni bir değişkende saklayabilir misiniz?
 
-![More questions](images/chatbot-question1.png)
+![Daha çok soru](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![Daha çok soru](images/chatbot-question2.png)
