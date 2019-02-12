@@ -1,38 +1,38 @@
-## Your chatbot
+## Sinun chatbot
 
-\--- task \---
+\--- tehtävä \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Ennen kuin aloitat chatbotin luomisen, sinun täytyy päättää, mitä sen persoonallisuus on. **Ajattele seuraavia kysymyksiä**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Mikä on chatbotin nimi?
++ Missä se asuu?
++ Onko se onnellinen? Vakava? Hauska? Ujo? Ystävällinen?
++ Mitä se pitää ja ei pidä?
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- tehtävä \--- Avaa Chatbot Scratch starter -projekti.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** avaa käynnistysprojekti [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** lataa käynnistysprojekti [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} ja avaa se sitten offline-editorilla.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Jos haluat ladata ja asentaa Scratch offline -editorin, löydät sen osoitteesta [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / tehtävä \---
 
-\--- task \---
+\--- tehtävä \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Aloitusprojekti sisältää neljä merkkijonoa. Yksi näistä on chatbot.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Voit joko käyttää jo valittua spriteä tai valita toisen napsauttamalla haluamaasi kuvaa ja valitsemalla sitten **näyttää** tai **piilota** näkyvistä valikosta.
 
-![Choose a character](images/chatbot-characters.png)
+![Valitse merkki](images/chatbot-characters.png)
 
-\--- /task \---
+\--- / tehtävä \---
 
-\--- task \---
+\--- tehtävä \---
 
-Save your Scratch project.
+Tallenna Scratch-projekti.
 
 [[[generic-scratch3-saving]]]
 
-\--- /task \---
+\--- / tehtävä \---
