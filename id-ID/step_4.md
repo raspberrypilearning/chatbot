@@ -1,7 +1,7 @@
-## Challenge: more questions
+## Tantangan: lebih banyak pertanyaan
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Program chatbot Anda untuk mengajukan pertanyaan lain. Bisakah Anda menyimpan jawaban untuk pertanyaan baru ini dalam variabel baru?
 
-![More questions](images/chatbot-question1.png)
+![Lebih banyak pertanyaan](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![Lebih banyak pertanyaan](images/chatbot-question2.png)
