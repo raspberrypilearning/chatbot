@@ -1,20 +1,20 @@
-## Changing location
+## 장소 바꾸기
 
 You can also program your chatbot to change its location!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![변화하는 배경 테스트](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
 Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- hints \---
+\--- 힌트 \---
 
 \--- hint \---
 
 Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
-\--- /hint \---
+\--- /귀뜸말 \---
 
 \--- hint \---
 
@@ -32,7 +32,7 @@ if <(answer) = [yes]> then
 end
 ```
 
-\--- /hint \---
+\--- / 귀뜸말 \---
 
 \--- hint \---
 
@@ -45,9 +45,9 @@ if <(answer) = [yes]> then
 end
 ```
 
-\--- /hint \---
+\--- / 귀뜸말 \---
 
-\--- /hints \---
+\--- / 귀뜸말 \---
 
 \--- /task \---
 
