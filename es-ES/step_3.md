@@ -1,4 +1,4 @@
-## A talking chatbot
+## Un chatbot parlanchín
 
 Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
@@ -20,7 +20,7 @@ say [What a lovely name!] for (2) seconds
 
 Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![Comprobando una respuesta del chatbot](images/chatbot-ask-test1.png)
 
 ![Testing a ChatBot response](images/chatbot-ask-test2.png)
 
