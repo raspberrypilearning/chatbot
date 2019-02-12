@@ -1,4 +1,4 @@
-## Making decisions
+## Tomando decisiones
 
 You can program your chatbot to decide what to do based on the answers it receives.
 
@@ -61,7 +61,7 @@ Test your code. You should get a different response when you answer "no" and whe
 
 ![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Comprobando una respuesta si/no](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
