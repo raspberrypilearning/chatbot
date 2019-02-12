@@ -1,7 +1,7 @@
-## Challenge: more questions
+## Izziv: več vprašanj
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Programirajte svoj klepet, da postavite drugo vprašanje. Ali lahko odgovor na to novo vprašanje shranite v novo spremenljivko?
 
-![More questions](images/chatbot-question1.png)
+![Več vprašanj](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![Več vprašanj](images/chatbot-question2.png)
