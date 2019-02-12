@@ -1,8 +1,8 @@
-## Changing location
+## Thay đổi vị trí
 
 You can also program your chatbot to change its location!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Thử nghiệm thay đổi phông nền](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
@@ -63,13 +63,13 @@ when this sprite clicked
 + switch backdrop to (space v)
 ```
 
-\--- /task \---
+\--- /bài tập \---
 
 \--- task \---
 
 Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
-\--- /task \---
+\--- /bài tập \---
 
 \--- task \---
 
@@ -90,4 +90,4 @@ if <(answer) = [yes]> then
 end
 ```
 
-\--- /task \---
+\--- /bài tập \---
