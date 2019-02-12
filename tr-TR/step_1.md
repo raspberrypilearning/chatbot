@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Bu, projenin **Scratch 3** sürümüdür. Projenin aynı zamanda [Scratch 2 sürümü](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) de vardır.
 
 \--- /no-print \---
 
@@ -8,7 +8,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Ne yapacaksın
+### Ne yapacaksınız
 
 \--- no-print \---
 
@@ -31,15 +31,15 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will need
+## İhtiyacınız olacak şeyler
 
-### Hardware
+### Donanım
 
-+ Computer capable of running Scratch 3
++ Scratch 3'ı çalıştırabilen bilgisayar
 
-### Software
+### Yazılım
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ Scratch 3 ( [online](https://rpf.io/scratchon) ya da [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
@@ -51,7 +51,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will learn
+## title: Ne öğreneceksiniz
 
 + How to get input from a user
 + How to use the `if, then, else`{:class="block3control"} Scratch block
@@ -66,7 +66,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"} kullanın.
 
 \--- /no-print \---
 
