@@ -6,26 +6,26 @@ theme: violet
 listed: true
 copyedit: false
 version: 4.1.0
-last_tested: 2017-01-01
+last_tested: 2018-09-20
 steps:
   - 
     title: Robot Falador
   - 
-    title: Your chatbot
+    title: O teu robô falante
   - 
-    title: A talking chatbot
+    title: Um robô falante
   - 
-    title: "Challenge: more questions"
+    title: "Desafio: mais perguntas"
     challenge: true
   - 
     title: Tomar decisões
   - 
-    title: "Challenge: more decisions"
+    title: "Desafio: mais perguntas"
     challenge: true
   - 
-    title: Changing location
+    title: Mudar de localização
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Desafio: termina o teu robô falante"
     challenge: true
   - 
     title: What next?
