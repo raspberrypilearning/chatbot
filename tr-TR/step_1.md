@@ -6,13 +6,13 @@ Bu, projenin **Scratch 3** sürümüdür. Projenin aynı zamanda [Scratch 2 sür
 
 ## Giriş
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Sizinle konuşabilecek bir karakteri nasıl programlayacağınızı öğreneceksiniz! Bunun gibi bir karaktere sohbet robotu veya sohbetçi denir.
 
 ### Ne yapacaksınız
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine tıklayın. Sohbetçi bir soru sorduğunda cevabınızı Sahne Alanı'nın altındaki kutuya yazın ve ardından sohbetçinin cevabını görmek için sağdaki mavi işarete tıklayın (veya `Enter`basın).
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![tamamlanmış proje](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -41,9 +41,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 + Scratch 3 ( [online](https://rpf.io/scratchon) ya da [offline](https://rpf.io/scratchoff))
 
-### Downloads
+### İndirilenler
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
++ [Buradan indirilecek dosyaları bulun](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,8 +53,8 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: Ne öğreneceksiniz
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
++ Bir kullanıcıdan giriş nasıl alınır
++ `ise nasıl kullanılırsa, o zaman, başka`{: class = "block3control"} Kazı Kazan
 
 \--- /collapse \---
 
@@ -62,7 +62,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: Additional notes for educators
+## title: Eğitimciler için ek notlar
 
 \--- no-print \---
 
@@ -70,6 +70,6 @@ Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Tamamlanan [projeyi burada bulabilirsiniz](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
