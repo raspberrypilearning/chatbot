@@ -1,38 +1,38 @@
-## Your chatbot
+## Ваш чатбот
 
-\--- task \---
+\--- задача \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Прежде чем вы начнете создавать своего чат-бота, вам нужно решить, какова его личность. **Задумайтесь над следующими вопросами**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Как зовут чатбота?
++ Где оно живет?
++ Это счастлив? Серьезное? Смешной? Застенчивый? Дружелюбный?
++ Что это нравится и не нравится?
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- task \--- Откройте стартовый проект Chatbot Scratch.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Онлайн:** откройте стартовый проект по адресу [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**автономном режиме:** скачайте стартовый проект с [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"}, а затем откройте его с помощью автономного редактора.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Если вам нужно скачать и установить автономный редактор Scratch, вы можете найти его по адресу [https://rpf.io/scratchoff](rpf.io/scratchoff) \--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Стартовый проект содержит четыре символьных спрайта. Одним из них будет ваш чатбот.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Вы можете использовать спрайт, который уже выбран, или выбрать другой, щелкнув правой кнопкой мыши по нужному спрайту и выбрав **показать** или **скрыть** в появившемся меню.
 
-![Choose a character](images/chatbot-characters.png)
+![Выберите персонажа](images/chatbot-characters.png)
 
-\--- /task \---
+\--- / задача \---
 
-\--- task \---
+\--- задача \---
 
-Save your Scratch project.
+Сохраните ваш проект Scratch.
 
 [[[generic-scratch3-saving]]]
 
-\--- /task \---
+\--- / задача \---
