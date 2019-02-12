@@ -1,8 +1,8 @@
-## A talking chatbot
+## Un chatbot vorbitor
 
 Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
-\--- task \---
+\--- proba\---
 
 Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
 
@@ -14,19 +14,19 @@ ask [What's your name?] and wait
 say [What a lovely name!] for (2) seconds
 ```
 
-\--- /task \---
+\--- /proba\---
 
 \--- task \---
 
 Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![Testează un răspuns al ChatBot-ului](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![Testează un răspuns al ChatBot-ului](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
 Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
 
@@ -40,11 +40,11 @@ ask [What's your name?] and wait
 say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Testează un răspuns personalizat](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
 By storing the answer in a **variable**, you can use it anywhere your project.
 
@@ -54,7 +54,7 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- /task \---
 
-\--- task \---
+\--- proba\---
 
 Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
@@ -70,7 +70,7 @@ say (join [Hi ] (name :: variables +)) for (2) seconds
 
 Your code should work as before: your chatbot should say hi using the name you type in.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Testează un răspuns personalizat](images/chatbot-answer-test.png)
 
 \--- /task \---
 
