@@ -1,75 +1,75 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Tämä on hankkeen **Scratch 3** -versio. Myös [Scratch 2 projektin versiosta](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- /no-print \---
+\--- / ei-tulosta \---
 
 ## Esittely
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Aiot oppia ohjelmoimaan merkin, joka voi puhua sinulle! Tällaista merkkiä kutsutaan chat-robotiksi tai chatbotiksi.
 
 ### Mitä teet
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Napsauta vihreää lippua ja aloita keskustelu napsauttamalla chatbot-merkkiä. Kun chatbot kysyy kysymyksen, kirjoita vastaus Stage-alareunassa olevaan ruutuun ja napsauta sitten oikealla olevaa sinistä merkkiä (tai paina `Enter`) nähdäksesi chatbotin vastauksen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- /no-print \---
+\--- / ei-tulosta \---
 
-\--- print-only \---
+\--- vain tulostus \---
 
-![complete project](images/chatbot-preview.png)
+![täydellinen hanke](images/chatbot-preview.png)
 
-\--- /print-only \---
+\--- / vain tulostus \---
 
-\--- collapse \---
-
-* * *
-
-## title: What you will need
-
-### Hardware
-
-+ Computer capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
-
-### Downloads
-
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
-
-\--- /collapse \---
-
-\--- collapse \---
+\--- romahdus \---
 
 * * *
 
-## title: What you will learn
+## otsikko: Mitä tarvitset
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
+### Laitteisto
 
-\--- /collapse \---
++ Tietokone, joka pystyy suorittamaan Scratch 3: n
 
-\--- collapse \---
+### Ohjelmisto
+
++ Scratch 3 (joko [verkossa](https://rpf.io/scratchon) tai [offline](https://rpf.io/scratchoff))
+
+### Lataukset
+
++ [Etsi ladattavat tiedostot täältä](http://rpf.io/p/en/chatbot-go).
+
+\--- / romahtaa \---
+
+\--- romahdus \---
 
 * * *
 
-## title: Additional notes for educators
+## otsikko: Mitä opit
+
++ Miten saada syötettä käyttäjältä
++ Kuinka käytät `jos sitten muuta`{: class = "block3control"} Scratch block
+
+\--- / romahtaa \---
+
+\--- romahdus \---
+
+* * *
+
+## nimi: Lisätiedot opettajille
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Jos haluat tulostaa tämän projektin, käytä [tulostinystävällistä versiota](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
 
-\--- /no-print \---
+\--- / ei-tulosta \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Löydät [päättyneen hankkeen täällä](http://rpf.io/p/en/chatbot-get).
 
-\--- /collapse \---
+\--- / romahtaa \---
