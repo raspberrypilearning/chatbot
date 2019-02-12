@@ -1,3 +1,3 @@
 ## Sırada ne var?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box) project, where you will create your own painting program!
+Kendi boyama programınızı oluşturacağınız [Paint box](https://projects.raspberrypi.org/en/projects/paint-box) projesini deneyin!
