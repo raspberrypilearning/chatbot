@@ -11,21 +11,21 @@ steps:
   - 
     title: Pengantar
   - 
-    title: Your chatbot
+    title: Chatbot Anda
   - 
-    title: A talking chatbot
+    title: Chatbot yang bisa bicara
   - 
-    title: "Challenge: more questions"
+    title: "Tantangan: lebih banyak pertanyaan"
     challenge: true
   - 
     title: Membuat keputusan
   - 
-    title: "Challenge: more decisions"
+    title: "Tantangan: lebih banyak keputusan"
     challenge: true
   - 
-    title: Changing location
+    title: Mengubah lokasi
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Tantangan: selesaikan chatbot Anda"
     challenge: true
   - 
-    title: What next?
+    title: Apa selanjutnya?
