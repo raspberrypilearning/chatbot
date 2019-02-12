@@ -1,4 +1,4 @@
-## Your chatbot
+## Chatbot của bạn
 
 \--- task \---
 
@@ -9,7 +9,7 @@ Before you start creating your chatbot, you need to decide what its personality 
 + Is it happy? Serious? Funny? Shy? Friendly?
 + What does it like and dislike?
 
-\--- /task \---
+\--- /bài tập \---
 
 \--- task \--- Open the Chatbot Scratch starter project.
 
@@ -25,7 +25,7 @@ The starter project contains four character sprites. One of these will be your c
 
 You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
 
-![Choose a character](images/chatbot-characters.png)
+![Chọn một nhân vật](images/chatbot-characters.png)
 
 \--- /task \---
 
