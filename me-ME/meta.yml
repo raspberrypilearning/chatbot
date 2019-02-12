@@ -11,21 +11,21 @@ steps:
   - 
     title: Uvod
   - 
-    title: Šta će ti biti potrebno
-  - 
     title: Tvoj robot koji razgovara
   - 
-    title: "Pričljivi robot"
+    title: Pričljivi robot
+  - 
+    title: "Izazov: više pitanja"
     challenge: true
   - 
     title: Donošenje odluka
   - 
-    title: "Promjena lokacije"
+    title: "Izazov: više odluka"
     challenge: true
   - 
-    title: 'Izazov: dovrši svog robota'
+    title: Promjena lokacije
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Izazov: dovrši svog robota"
     challenge: true
   - 
-    title: What next?
+    title: 'Izazov: promijeni kostim bubnja'
