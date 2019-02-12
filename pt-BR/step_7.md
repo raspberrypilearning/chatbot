@@ -1,4 +1,4 @@
-## Changing location
+## Mudando de lugar
 
 You can also program your chatbot to change its location!
 
@@ -8,7 +8,7 @@ You can also program your chatbot to change its location!
 
 Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- hints \---
+\--- dica \---
 
 \--- hint \---
 
