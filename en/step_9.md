@@ -62,7 +62,7 @@ if (!("scramble" in Array.prototype)) {
 	    
     var quiz = [
         {
-            "question"      :   "Which script would cause the sprite to say "Hello Izzy"?,
+            "question"      :   "Which script would cause the sprite to say 'Hello Izzy'?,
             "image"         :   "images/montage-1.png",
             "choices"       :   [
                                     "A",
@@ -71,7 +71,7 @@ if (!("scramble" in Array.prototype)) {
                                     "D"
                                 ],
             "correct"       :   "C",
-            "explanation"   :   "You need to join the "Hello " string to the `name` variable,
+            "explanation"   :   "You need to join the 'Hello ' string to the `name` variable,
         },
         {
             "question"      :   "Which script would ask the user for their first name and last name and then output their full name?",
@@ -86,7 +86,7 @@ if (!("scramble" in Array.prototype)) {
             "explanation"   :   "The question must be asked first, and then the answer stored as a variable."
         },
         {
-            "question"      :   "Which script will move the sprite left when the user types "left" and right when the user types anything else?",
+            "question"      :   "Which script will move the sprite left when the user types 'left' and right when the user types anything else?",
             "image"         :   "images/montage-3.png",
             "choices"       :   [
                                     "A",
@@ -95,7 +95,7 @@ if (!("scramble" in Array.prototype)) {
                                     "D"
                                 ],
             "correct"       :   "A",
-            "explanation"   :   "The if condition should check if left has been typed and then move in the negative x. Else the sprite should move in the positive x",
+            "explanation"   :   "The if condition should check if left has been typed and then move in the negative x. Otherwise the sprite should always move in the positive x",
         },
 
     ];
