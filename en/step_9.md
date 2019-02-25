@@ -62,7 +62,7 @@ if (!("scramble" in Array.prototype)) {
 	    
     var quiz = [
         {
-            "question"      :   "Which script would cause the sprite to say 'Hello Izzy'?,
+            "question"      :   "Which script would cause the sprite to say 'Hello Izzy'?",
             "image"         :   "images/montage-1.png",
             "choices"       :   [
                                     "A",
@@ -71,7 +71,7 @@ if (!("scramble" in Array.prototype)) {
                                     "D"
                                 ],
             "correct"       :   "C",
-            "explanation"   :   "You need to join the 'Hello ' string to the `name` variable,
+            "explanation"   :   "You need to join the 'Hello ' string to the `name` variable",
         },
         {
             "question"      :   "Which script would ask the user for their first name and last name and then output their full name?",
