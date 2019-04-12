@@ -30,13 +30,3 @@ You can either use the sprite that is already selected, or choose a different on
 ![Choose a character](images/chatbot-characters.png)
 
 --- /task ---
-
---- task ---
-
-Save your Scratch project.
-
-[[[generic-scratch3-saving]]]
-
---- /task ---
-
-
