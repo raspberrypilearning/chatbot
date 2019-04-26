@@ -1,43 +1,43 @@
 ## Un xat bot parlant
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Ara que tens un xat bot amb personalitat, programem-lo per a què parli amb tu.
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Feu clic al vostre Sprite de xatbot i afegeix-li aquest codi perquè ` quan li facis clic ` {: class = "block3events"}, ` et demani el teu nom ` {: class = "block3sensing"} i després ` digui "Quin nom tan encantador"! ` {: class = "block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano sprite](images / nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+quan cliquis aquest sprite 
+pregunta [Quin és el teu nom?] i espera
+digues [Quin nom tan encantador!] durant (2) segons
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+Fes clic al teu xatbot per provar el teu codi. Quan el xatbot us demani el vostre nom, escriu-lo al quadre que apareix a la part inferior de l'Escenari i, a continuació, fes clic a la marca blava o prem <kbd> Intro</kbd>.
 
-![Provant una resposta de xat bot](images/chatbot-ask-test1.png)
+![Provant una resposta de xat bot](images / chatbot-characters.png)
 
-![Provant una resposta de xat bot](images/chatbot-ask-test2.png)
+![Provant una resposta de xat bot](images / chatbot-characters.png)
 
 \--- /task \---
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+Ara mateix, el teu xat bot respon "Quin nom tan encantador!" cada vegada que respons. Pots fer que la resposta del xatbot sigui més personal, de manera que la resposta sigui diferent cada vegada que s'escriu un altre nom.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+Canvia el codi de l'sprite del xat bot per ` afegir` {: class = "block3operators"} "Hola" amb la ` resposta` {: class = "block3sensing"} a la pregunta "Quin és el teu nom?", perquè el codi es vegi així:
 
-![nano sprite](images/nano-sprite.png)
+![nano sprite](images / nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+quan cliquis aquest sprite 
+pregunta [Quin és el teu nom?] i espera
+digues (afegir [hola] (resposta)::+) durant (2) segons
 ```
 
 ![Prova d'una resposta personalitzada](images/chatbot-answer-test.png)
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+En emmagatzemar la resposta en una ** variable**, pots utilitzar-la en qualsevol lloc del teu projecte.
 
-Create a new variable called `name`{:class="block3variables"}.
+Crea una nova variable anomenada `nom`{:class = "blockvariable"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,22 +56,22 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Ara, canviael codi del sprites del teu xat bot per establir la variable ` nom` {: class = "block3variables"} a ` resposta ` {: class = "block3sensing"}:
 
-![nano sprite](images/nano-sprite.png)
+![nano sprite](images / nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+quan cliques a aquest sprite
+preguntar [Quin és el teu nom?] i espera
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ establir [nom v] a (resposta)
+dir (afegir (nom :: variables +)) durant (2) segons
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+El teu codi hauria de funcionar com abans: el teu xat bot hauria de saludar amb el nom que has escrit.
 
 ![Prova d'una resposta personalitzada](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Torna a provar el codi. Tingues en compte que la resposta que escrius s'emmagatzema a la variable ` nom` {: class = "block3variables"} i també es mostra a l'extrem superior esquerre de l'Escenari. Per fer que desaparegui de l'Escenari, ves a la secció de blocs ` Dades ` {: class = "block3variables"} i fes clic a la casella que hi ha al costat de `nom ` {: class = "block3variables"} perquè no quedi marcat.
