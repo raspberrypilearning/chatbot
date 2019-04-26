@@ -15,27 +15,27 @@ Wijzig de code van je chatbot. Je chatbot moet de vraag "Alles goed naam", met b
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
+wanneer op deze sprite wordt geklikt :: events
+vraag [Wat is je naam?] en wacht :: sensing
+maak [naam v] (antwoord :: sensing) :: variables
+zeg (voeg [Hoi ] en (naam) samen :: operators) (2) sec. :: looks
+vraag (voeg [Alles goed] en (naam) samen :: operators) en wacht :: sensing
+als <(antwoord :: sensing) = [ja] :: operators> dan 
+  zeg [Dat is goed om te horen!] (2) sec. :: looks :: control
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Om je nieuwe code goed te testen, moet je deze **twee keer** uitvoeren, eenmaal met het antwoord "ja", en één keer met het antwoord "nee".
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+Op dit moment zegt je chatbot niets bij het antwoord "nee".
 
 \--- task \----
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Wijzig de code van je chatbot zodat deze antwoordt "Oh nee!" als het "nee" ontvangt als antwoord op "Alles goed naam".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Vervang de `als, dan`{:class="block3control"} blok door een `als, dan, anders`{:class="block3control"} blok voeg code toe zodat de chatbot kan zeggen: `"Oh nee!"`{:Class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
