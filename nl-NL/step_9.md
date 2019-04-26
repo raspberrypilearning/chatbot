@@ -1,8 +1,8 @@
 ## Wat nu?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+Probeer het [Paint Box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, waar je je eigen teken programma gaat maken!
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Klik op de groene vlag om te starten. Gebruik de muis om het potlood te verplaatsen en houd de linkermuisknop ingedrukt om te tekenen. Klik op een kleur om van potlood te wisselen. Klik op de gum om daar naar toe te wisselen en gebruik deze om je werk uit te gummen. Klik op het kruisje om de hele pagina te wissen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -11,6 +11,6 @@ Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_s
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Je klikt op de groene vlag om te starten, je gebruikt de muis om het potlood te verplaatsen en houd de linkermuisknop ingedrukt om te tekenen. Door op een kleur te klikken zal de penkleur veranderen, en een klik op de gum zal deze in een gum veranderen!
 
 ![showcase](images/paint-box-showcase.png) \--- /print-only \---
