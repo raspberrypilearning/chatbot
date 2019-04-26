@@ -1,6 +1,6 @@
 ---
 title: Робот Балакун
-hero_image: images / chatbot.png
+hero_image: images/chatbot.png
 description: Ви навчитеся програмувати власного робота-співрозмовника!
 theme: violet
 listed: true
@@ -9,23 +9,23 @@ version: 4.1.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Робот Балакун
+    title: З днем народження
   - 
-    title: Your chatbot
+    title: Ваш чат-бот
   - 
-    title: A talking chatbot
+    title: Чат-бот, що розмовляє
   - 
-    title: "Challenge: more questions"
+    title: "Challenge: більше питань"
     challenge: true
   - 
     title: Прийняття рішень
   - 
-    title: "Challenge: more decisions"
+    title: "Challenge: більше рішень"
     challenge: true
   - 
-    title: Changing location
+    title: Зміна розташування
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Challenge: завершення чат-боту"
     challenge: true
   - 
-    title: What next?
+    title: Що далі?
