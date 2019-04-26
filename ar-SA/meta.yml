@@ -11,19 +11,19 @@ steps:
   - 
     title: المقدمة
   - 
-    title: ما ستحتاج إليه
-  - 
     title: روبوتك
   - 
-    title: "روبوت مُحاوِر"
+    title: روبوت مُحاوِر
+  - 
+    title: "التحدي: مزيد من الأسئلة"
     challenge: true
   - 
     title: اتخاذ القارارت
   - 
-    title: "تغيير المكان"
+    title: "التحدي: مزيد من القرارات"
     challenge: true
   - 
-    title: 'التحدي: إكمال إنشاء روبوتك'
+    title: تغيير المكان
   - 
     title: "التحدي: إكمال إنشاء روبوتك"
     challenge: true
