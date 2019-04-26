@@ -1,16 +1,16 @@
-## What next?
+## I ara què ve?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+Prova el projecte [ Capsa de Pintura ](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), on crearàs el teu propi programa de pintura!
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Fes clic a la bandera verda per començar. Utilitza el ratolí per moure el llapis i mantingues apretat el botó esquerre del ratolí per dibuixar. Fes clic a un color per canviar els llapis. Fes clic a la goma per canviar-la i utilitzar-la per esborrar el teu treball. Per esborrar la pàgina, fes clic a la creu.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
-  <img src="images/paint-box-showcase.png">
+  <img src="images / paint-box-showcase.png">
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Fes clic a la bandera verda per començar, i utilitzaràs el ratolí per moure el llapis i manté premut el botó esquerre del ratolí per dibuixar. Fent clic en un color es canviarà el color del llapis i, si fas clic la goma, es tornarà una goma!
 
-![showcase](images/paint-box-showcase.png) \--- /print-only \---
+![aparador](images / paint-box-showcase.png) \--- / print-only \---
