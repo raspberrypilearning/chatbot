@@ -6,13 +6,13 @@ Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie 
 
 ## Inleiding
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Je gaat leren hoe je een personage programmeert dat met je kan praten! Zo'n personage wordt een chatrobot of chatbot genoemd.
 
 ### Wat ga je maken
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te starten. Wanneer de chatbot een vraag stelt, typt je jouw antwoord in het vak aan de onderkant van het werkgebied en klik je op het vinkje (of druk op `Enter`).
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -31,7 +31,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will need
+## titel: Wat heb je nodig
 
 ### Hardware
 
@@ -43,7 +43,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Downloads
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
++ [Zoek hier bestanden om te downloaden](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
