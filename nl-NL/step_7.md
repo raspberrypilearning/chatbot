@@ -1,12 +1,12 @@
 ## Locatie wijzigen
 
-You can also program your chatbot to change its location!
+Je kunt je chatbot ook programmeren om de locatie te wijzigen!
 
 ![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Kun je je chatbot programmeren om "Ik ga naar de maan, ga je mee?" te vragen en dan de achtergrond te veranderen wanneer het antwoord "ja" is?
 
 \--- hints \---
 
