@@ -1,5 +1,5 @@
 ## Repte: més decisions
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+Programa el teu xatbot per fer-li una altra pregunta que pugui respondre amb "sí" o "no". Pots fer que el teu xatbot respongui diferent segons la resposta que rep?
 
-![screenshot](images/chatbot-joke.png)
+![screenshot](images / chatbot-joke.png)
