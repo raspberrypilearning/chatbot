@@ -40,16 +40,15 @@ Vervang de `als, dan`{:class="block3control"} blok door een `als, dan, anders`{:
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
+wanneer op deze sprite wordt geklikt :: events
+vraag [Wat is je naam?] en wacht :: sensing
+maak [naam v] (antwoord :: sensing) :: variables
+zeg (voeg [Hoi ] en (naam) samen :: operators) (2) sec. :: looks
+vraag (voeg [Alles ok ] en (naam) samen :: operators) en wacht :: sensing
+als <(antwoord :: sensing) = [ja] :: operators> dan 
+  zeg [Dat is goed om te horen!] (2) sec. :: looks
+anders
+  zeg [Oh nee!] (2) sec. :: looks :: control
 end
 ```
 
@@ -57,7 +56,7 @@ end
 
 \--- taak \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Test je code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
 ![Een reactie van een ChatBot testen](images/chatbot-if-test2.png)
 
