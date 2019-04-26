@@ -36,7 +36,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
 ```blocks3
 ask [Do you want to go to the moon?] and wait
