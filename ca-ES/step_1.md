@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Aquest és la versió ** Scratch 3 ** del projecte. També hi ha una versió d'[ Scratch 2 ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- / no-print \---
 
 ## Introducció
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Aprendràs a programar un personatge que pot parlar amb tu! Un personatge que s'anomena robot de xat, o xatbot.
 
 ### Què faràs
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar una conversa. Quan el xat bot fa una pregunta, escriu la teva resposta al quadre a la part inferior de l'escenari i fes clic a la marca blava de la dreta (o prem `Intro`) per veure la resposta del xatbot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -41,9 +41,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 + Scratch 3 ( [en línia](https://rpf.io/scratchon) o [fora de línia](https://rpf.io/scratchoff))
 
-### Downloads
+### Descàrregues
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
++ [ Trobeu fitxers per descarregar aquí ](http://rpf.io/p/en/chatbot-go).
 
 \--- / collapse \---
 
@@ -53,8 +53,8 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## títol: Què aprendràs
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
++ Com obtenir informació d'un usuari
++ Com utilitzar el bloc d'Scratch `si, després, sino `{:class="block3control"} Scratch block
 
 \--- / collapse \---
 
@@ -62,7 +62,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: Additional notes for educators
+## títol: notes addicionals per a educadors
 
 \--- no-print \---
 
@@ -70,6 +70,6 @@ Si necessites imprimir aquest projecte, si us plau, utilitza la [Versió per imp
 
 \--- / no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Podeu trobar el [projecte complet aquí](http://rpf.io/p/en/chatbot-get).
 
 \--- / collapse \---
