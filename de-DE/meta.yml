@@ -11,19 +11,19 @@ steps:
   - 
     title: Einleitung
   - 
-    title: Was du brauchen wirst
-  - 
     title: Dein Chatbot
   - 
-    title: "Ein sprechender Chatbot"
+    title: Ein sprechender Chatbot
+  - 
+    title: "Herausforderung: zusätzliche Fragen"
     challenge: true
   - 
     title: Entscheidungen treffen
   - 
-    title: "Ortswechsel"
+    title: "Herausforderung: zusätzliche Entscheidungen"
     challenge: true
   - 
-    title: 'Herausforderung: Vervollständige deinen Chatbot'
+    title: Ortswechsel
   - 
     title: "Herausforderung: Vervollständige deinen Chatbot"
     challenge: true
