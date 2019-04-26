@@ -2,26 +2,26 @@
 
 \--- task \----
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Voordat je begint met het maken van je chatbot, moet je beslissen over zijn persoonlijkheid. **Denk aan de volgende vragen**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Wat is de naam van de chatbot?
++ Waar woont het?
++ Is het gelukkig? Serieus? Grappig? Verlegen? Vriendelijk?
++ Wat vindt het leuk en niet leuk?
 
 \---/task\---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- task \--- Open het Chatbot Scratch-starter project.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online** open het online start project op [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_ blank"}.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline** download het start project [rpf.io/p/en/chatbot-go ](http://rpf.io/p/en/chatbot-go){:target="_ blank"} en open het vervolgens met behulp van de offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [https://rpf.io/scratchoff](rpf.io/scratchoff) \--- /task \---
 
 \--- task \----
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Het startersproject bevat vier karakter sprites. Een daarvan is dan je chatbot.
 
 You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
 
