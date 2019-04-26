@@ -6,24 +6,24 @@ theme: violet
 listed: true
 copyedit: false
 version: 4.1.0
-last_tested: 2017-01-01
+last_tested: 2018-09-20
 steps:
   - 
     title: Introducción
   - 
-    title: Lo que necesitarás
-  - 
     title: Tu chatbot
   - 
-    title: "Un chatbot parlanchín"
+    title: Un chatbot hablante
+  - 
+    title: "Desafío: más preguntas"
     challenge: true
   - 
     title: Tomando decisiones
   - 
-    title: "Cambio de posición"
+    title: "Desafío: más decisiones"
     challenge: true
   - 
-    title: 'Desafío: termina tu chatbot'
+    title: Cambio de ubicación
   - 
     title: "Desafío: finaliza tu chatbot"
     challenge: true
