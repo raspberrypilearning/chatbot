@@ -1,13 +1,13 @@
-## Your chatbot
+## Ваш чат-бот
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Перш ніж почати розробку вашого чат-бота, вам потрібно подумати над його особистістю. ** Подумайте про наступні питання**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Яке ім'я чат-боту?
++ Де він проживає?
++ Чи щасливий він? Серйозний? Смішний? Сором'язливий? Дружній?
++ Що йому подобається і не подобається?
 
 \--- /task \---
 
@@ -21,17 +21,17 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Стартовий проект містить чотири спрайти персонажів. Одним з них буде ваш чат-бот.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Можна або використати спрайт, який вже вибрано, або вибрати інший, натиснувши правою кнопкою миші на потрібний, і вибравши **показати** або **приховати** в меню, що з'явиться.
 
-![Choose a character](images/chatbot-characters.png)
+![Виберіть Аватарку](images/chatbot-characters.png)
 
 \--- /task \---
 
 \--- task \---
 
-Save your Scratch project.
+Збережіть свій Scratch проект.
 
 [[[generic-scratch3-saving]]]
 
