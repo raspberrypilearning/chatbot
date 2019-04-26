@@ -6,13 +6,13 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## Вступ
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Ви дізнаєтеся, як запрограмувати персонажа, який може говорити з Вами! Такий персонаж називається чат-роботом або чат-ботом.
 
 ### Що ви будете робити
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Натисніть на зелений прапорець, а потім на кнопку Чат-бот, щоб розпочати розмову. Коли чат-бот ставить запитання, вводьте свою відповідь у поле в нижній частині Платформи та натисніть синю позначку праворуч (або натисніть `Enter`), щоб побачити відповідь чат-бота.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -31,19 +31,19 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will need
+## title: Що вам знадобиться
 
-### Hardware
+### Обладнання
 
-+ Computer capable of running Scratch 3
++ Комп'ютер, що підтримує Scratch 3
 
-### Software
+### Програмне забезпечення
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ Scratch 3 ([онлайн](https://rpf.io/scratchon) або[офлайн](https://rpf.io/scratchoff))
 
-### Downloads
+### Завантаження
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
++ [Знайдіть файли для завантаження тут](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -51,9 +51,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will learn
+## title: Що ви вивчите
 
-+ How to get input from a user
++ Як отримати дані від користувача
 + How to use the `if, then, else`{:class="block3control"} Scratch block
 
 \--- /collapse \---
@@ -62,14 +62,14 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: Additional notes for educators
+## title: Додаткові примітки для викладачів
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Якщо вам потрібно роздрукувати цей проект, будь ласка скористайтеся [ версією для друку ](https://projects.raspberrypi.org/en/projects/chatbot/print) {: target = "_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Тут можна знайти [завершений проект](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
