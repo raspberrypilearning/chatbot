@@ -56,7 +56,7 @@ end
 
 \--- taak \---
 
-Test je code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Test je code. Je zou een ander antwoord moeten krijgen wanneer je "nee" antwoordt dan wanneer je "ja" antwoordt: je chatbot zou moeten antwoorden met "Dat is goed om te horen!" wanneer je "ja" antwoordt (wat niet hoofdlettergevoelig is) en antwoord met "Oh nee!" wanneer je **iets anders** antwoordt.
 
 ![Een reactie van een ChatBot testen](images/chatbot-if-test2.png)
 
@@ -64,21 +64,21 @@ Test je code. You should get a different response when you answer "no" and when 
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Je kunt elke code in een `als, dan, anders` blok plaatsen, niet alleen code om je chatbot te laten spreken!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Als je op het **Uiterlijken** tabblad van je chatbot klikt, zul je zien dat het meer dan één uiterlijk heeft.
 
 ![chatbot uiterlijken](images/chatbot-costume-view-annotated.png)
 
 \--- task \----
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Verander de chatbot code zodat deze verandert van uiterlijk wanneer je je antwoord typt.
 
 ![Testen van het veranderen van een uiterlijk](images/chatbot-costume-test1.png)
 
 ![Testen van het veranderen van een uiterlijk](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Verander de code in het `als, dan, anders`{:class="block3control"} blok om `van uiterlijk te wisselen`{:Class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
