@@ -1,24 +1,24 @@
 ## Een pratende chatbot
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Nu dat je een chatbot met een persoonlijkheid hebt, ga je het programmeren om met je te praten.
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Klik op je chatbot sprite, en voeg deze code toe zodat `wanneer op deze sprite wordt geklikt`{:class="block3events"}, het `vraagt om je naam`{:class="block3sensing"} en vervolgens `zegt "Wat een mooie naam!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+wanneer op deze sprite wordt geklikt :: events
+vraag [Wat is je naam?] en wacht :: sensing
+zeg [Wat een mooie naam!] (2) sec. :: looks
 ```
 
 \--- /task \---
 
 \--- task \----
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+Klik op je chatbot om je code te testen. Wanneer de chatbot je naam vraagt, typ deze in het vak dat aan de onderkant van het speelveld verschijnt, en klik dan op de blauwe-witte V, of druk op <kbd>Enter</kbd>.
 
 ![Testing a ChatBot response](images/chatbot-ask-test1.png)
 
@@ -28,7 +28,7 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 \--- task \----
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+Op dit moment antwoordt je chatbot met "Wat een mooie naam!" elke keer dat je antwoordt. Je kunt het antwoord van de chatbot persoonlijker maken, zodat het antwoord anders is elke keer dat een andere naam wordt ingetypt.
 
 Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
 
