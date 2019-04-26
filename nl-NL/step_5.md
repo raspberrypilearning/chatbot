@@ -8,9 +8,9 @@ Allereerst ga je ervoor zorgen dat je chatbot een vraag stelt die kan worden bea
 
 Wijzig de code van je chatbot. Je chatbot moet de vraag "Alles goed naam", met behulp van de `naam`{:class="block3variabelen"} variabele stellen. Dan zou het moeten antwoorden: "Dat is goed om te horen!" `als`{:class="block3control"} het antwoord dat het ontvangt "ja" is, maar zeg niets als het antwoord "nee" is.
 
-![Testing a ChatBot reply](images/chatbot-if-test1-annotated.png)
+![Een reactie van een ChatBot testen](images/chatbot-if-test1-annotated.png)
 
-![Testing a ChatBot reply](images/chatbot-if-test2.png)
+![Een reactie van een ChatBot testen](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -83,42 +83,40 @@ Verander de code in het `als, dan, anders`{:class="block3control"} blok om `van 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
-
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
+wanneer op deze sprite wordt geklikt :: events
+vraag [Wat is je naam?] en wacht :: sensing
+maak [naam v] (antwoord :: sensing) :: variables
+zeg (voeg [Hoi ] en (naam) samen :: operators) (2) sec. :: looks
+vraag (voeg [Alles goed] en (naam) samen :: operators) en wacht :: sensing
+als <(antwoord :: sensing) = [ja] :: operators> dan 
+  verander uiterlijk naar (nano-c v) :: looks
+  zeg [Dat is goed om te horen!] (2) sec. :: looks
+anders
+  verander uiterlijk naar (nano-d v) :: looks
+  zeg [Oh nee!] (2) sec. :: looks :: control
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Test en sla je code op. Je zou het gezicht van je chatbot moeten zien veranderen, afhankelijk van je antwoord.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Is het je opgevallen dat, nadat het kostuum van je chatbot is veranderd, het zo blijft en niet teruggaat naar wat het in het begin was?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Je kunt dit uitproberen: voer je code uit en antwoord "nee", zodat het gezicht van je chatbot verandert in een ongelukkige blik. Voer vervolgens je code opnieuw uit en merk op dat je chatbot niet verandert in een blij uiterlijk voordat je naam wordt gevraagd.
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Uiterlijken fout](images/chatbot-costume-bug-test.png)
 
 \--- task \----
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Om dit probleem op te lossen, voeg je aan de code van de chatbot `verander uiterlijk naar`{:class="block3looks"} toe aan het begin `wanneer op deze sprite wordt geklikt `{:Class="block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
+wanneer op deze sprite wordt geklikt :: events
+verander uiterlijk naar (nano-a v) :: looks
+vraag [Wat is je naam?] en wacht :: sensing
 ```
 
 ![Testen van een uiterlijk-oplossing](images/chatbot-costume-fix-test.png)
