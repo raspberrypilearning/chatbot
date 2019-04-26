@@ -11,19 +11,19 @@ steps:
   - 
     title: Inleiding
   - 
-    title: Wat heb je nodig
-  - 
     title: Jouw chatbot
   - 
-    title: "Een pratende robot"
+    title: Een pratende robot
+  - 
+    title: "Challenge: meer vragen"
     challenge: true
   - 
     title: Het nemen van beslissingen
   - 
-    title: "Locatie wijzigen"
+    title: "Challenge: meer beslissingen"
     challenge: true
   - 
-    title: 'Uitdaging: maak je chatbot af'
+    title: Verander locatie
   - 
     title: "Uitdaging: maak je chatbot af"
     challenge: true
