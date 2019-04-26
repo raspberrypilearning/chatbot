@@ -1,125 +1,124 @@
-## Prenent decisions
+## Prendre decisions
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Pots programar el teu xat bot per decidir què ha de dir o fer segons les teves respostes que rep.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+En primer lloc, faràs que el teu xat bot faci una pregunta que pugui respondre amb "sí" o "no".
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Canvia el codi del teu xat bot. El teu xat bot hauria de fer la pregunta "Estàs bé nom", utilitzant la variable ` nom` {: class = "block3variables"}. Aleshores hauria de respondre "Que bé!". ` si ` {: class = "block3control"} la resposta que rep és "sí", però no dir res si la resposta és "no".
 
-![S'està provant una resposta de xat bot](images/chatbot-if-test1-annotated.png)
+![S'està provant una resposta de xat bot](images / chatbot-if-test1-annotated.png)
 
-![S'està provant una resposta de xat bot](images/chatbot-if-test2.png)
+![S'està provant una resposta de xat bot](images / chatbot-characters.png)
 
-![nano sprite](images/nano-sprite.png)
+![nano sprite](images / nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-end
+quan es fa clic en aquest sprite
+pregunta [Quin és el teu nom?] i espera
+establir  [nom v] a (resposta)
+dir (afegir [hola] (nom)) per (2) segons
++ preguntar (afegir [Estàs bé] (nom)) i esperar
++ si <(resposta) = [si]> llavors
+  dir [Qué bé!] per (2) segons
+fi
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Per posar a prova el nou codi correctament, l'hauràs de provar **dues vegades**, una vegada amb la resposta "sí" i una vegada amb la resposta "no".
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+De moment, el vostre xat bot no diu reacciona a la resposta "no".
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Canvia el codi del xat bot perquè respongui "Oh no!" si rep "no" com la resposta a "Estàs bé nom".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Substitueix el bloc ` si, llavors ` {: class = "block3control"} amb un ` si, llavors, sino` {: class = "block3control"} i inclou el codi perquè el xat bot pugui ` dir "Oh no!" ` {: class = "block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano sprite](images / nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
-end
+quan es fa clic en aquest sprite
+pregunta [Quin és el teu nom?] i espera
+establir  [nom v] a (resposta)
+dir (afegir [hola] (nom)) per (2) segons
++ preguntar (afegir [Estàs bé] (nom)) i esperar
++ si <(resposta) = [si]> llavors
+  dir [Qué bé!] per (2) segons
+sino
++dir [Oh no!] per (2) segons
+fi
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Prova el codi nou. Hauríes d'obtenir una resposta diferent quan respons "no" i quan respons "sí": el teu xat bot hauria de respondre amb "Que bé!". quan contestes "sí" (que no distingeix entre majúscules i minúscules), i contestar amb "Oh no!" quan respons ** qualsevol altra cosa **.
 
-![S'està provant una resposta de xat bot](images/chatbot-if-test2.png)
+![S'està provant una resposta de xat bot](images / chatbot-characters.png)
 
 ![S'està provant una resposta si / no](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Pots posar qualsevol codi dins d'un bloc de `si / si no`, no només codi, per fer que el teu xat bot parli!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Si fas clic a la pestanya **Disfressa** del xat bot, veuràs que té més d'un conjunt.
 
-![vestits del xat bot](images/chatbot-costume-view-annotated.png)
+![vestits del xat bot](images / chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Canvia el codi del teu xat bot de manera que canvii de disfressa quan escrius la teva resposta.
 
-![Provan un canvi de vestuari](images/chatbot-costume-test1.png)
+![Provant un canvi de vestuari](images / chatbot-characters.png)
 
-![Provan un canvi de vestuari](images/chatbot-costume-test2.png)
+![Provant un canvi de vestuari](images / chatbot-characters.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Canvieu el codi dins del bloc ` si, llavors, sino` {: class = "block3control"} a ` canvia la disfressa ` {: class = "block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano sprite](images / nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+quan es fa clic en aquest sprite
+pregunta [Quin és el teu nom?] i espera
+establir  [nom v] a (resposta)
+dir (afegir [hola] (nom)) per (2) segons
++ preguntar (afegir [Estàs bé] (nom)) i esperar
++ si <(resposta) = [si]> llavors
 
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
-end
++canvia la disfressa a (nano-c v)
+  dir [Qué bé!] per (2) segons
+sino
++canvia la disfressa a (nano-d v)
++dir [Oh no!] per (2) segons
+fi
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Prova i desa. Hauries de veure com canvia la cara del teu xat bot en funció de la teva resposta.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Has notat que, una vegada que la disfressa del xat bot ha canviat, es manté així i no canvia a la disfressa inicial?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Pots provar això: executa el teu codi i respon "no" perquè la cara del xat bot canviï a una aparená infeliç. A continuació, torna a executar el teu codi i observa que el xat bot no canvia de nou per semblar feliç abans de demanar-te el nom.
 
 ![Error de vestuari](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Per solucionar aquest problema, afegiu al codi del chatbot ` canviar de disfressa ` {: class = "block3looks"} a l'inici ` quan es fa clic al sprite ` {: class = "block3events"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano sprite](images / nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+quan es clica aquest sprite
 
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
++ canviar de disfressa a (nano-a v)
+preguntar [Quin és el teu nom?] i esperar
 ```
 
 ![Prova d'una solució de vestuari](images/chatbot-costume-fix-test.png)
