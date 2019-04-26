@@ -1,7 +1,7 @@
-## Challenge: meer vragen
+## Uitdaging: meer vragen
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Programmeer je chatbot om een ​​andere vraag te stellen. Kun je het antwoord opslaan in een nieuwe variabele?
 
-![More questions](images/chatbot-question1.png)
+![Meer vragen](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![Meer vragen](images/chatbot-question2.png)
