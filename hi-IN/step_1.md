@@ -39,9 +39,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### सॉफ्टवेयर
 
-+ Scratch 3 (या तो [ऑनलाइन](https://rpf.io/scratchon) या [ऑफ़लाइन](https://rpf.io/scratchoff))
++ Scratch 3 ([ऑनलाइन](https://rpf.io/scratchon) या [ऑफ़लाइन](https://rpf.io/scratchoff))
 
-### Downloads
+### डाउनलोड
 
 + [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
@@ -62,7 +62,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: Additional notes for educators
+## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 
 \--- no-print \---
 
