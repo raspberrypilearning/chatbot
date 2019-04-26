@@ -51,10 +51,10 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 * * *
 
-## title: Wat ga je leren
+## titet: Wat ga je leren
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
++ Hoe krijg je invoer van een gebruiker
++ Hoe gebruik je het `if, then, else`{:class="block3control"} Scratch blok
 
 \--- /collapse \---
 
@@ -62,14 +62,14 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 * * *
 
-## title: Additional notes for educators
+## titel: Aanvullende informatie voor docenten
 
 \--- no-print \---
 
-Als je dit project wilt afdrukken, gebruik dan de [ printvriendelijke versie ](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_ blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Hier kun je het [voltooide project](http://rpf.io/p/en/chatbot-get) downloaden.
 
 \--- /collapse \---
