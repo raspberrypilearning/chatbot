@@ -12,23 +12,22 @@ Kun je je chatbot programmeren om "Ik ga naar de maan, ga je mee?" te vragen en 
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Je chatbot zou moeten `vragen "Ik ga naar de maan. Ga je mee?"`{:class="block3sensing"}, en `als`{:class="block3control"} je `antwoord`{:class="block3sensing"} "ja" is, moet `de achtergrond veranderen in de maan`{:class="block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Hier zijn de code blokken die je moet toevoegen aan je chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+verander achtergrond naar (moon v) :: looks
 
-ask [Do you want to go to the moon?] and wait
+vraag [Ik ga naar de maan. Ga je mee?] en wacht :: sensing
 
-if <(answer) = [yes]> then 
-
+als <(antwoord :: sensing) = [ja] :: operators> dan :: control
 end
 ```
 
@@ -36,12 +35,12 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+vraag [Ik ga naar de maan. Ga je mee?] en wacht :: sensing
+als <(antwoord :: sensing) = [ja] :: operators> dan 
+  verander achtergrond naar (moon v) :: looks :: control
 end
 ```
 
@@ -53,40 +52,39 @@ end
 
 \--- task \----
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Nu moet je ervoor zorgen dat je chatbot op de juiste locatie start als je erop klikt om ermee te praten. Voeg dit blok toe aan de bovenkant van uw chatbot-code:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+wanneer op deze sprite wordt geklikt :: events
 
-+ switch backdrop to (space v)
+verander achtergrond naar (spatiebalk v) :: looks
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Test je programma en beantwoord "ja" wanneer de chatbot vraagt of je naar de maan wilt gaan. Je zou moeten zien dat de locatie van de chatbot verandert.
 
 \--- /task \---
 
 \--- task \----
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+U kunt ook de volgende code toevoegen binnen de nieuwe `als`{:class="block3control"} blok om de chatbot vier keer op en neer te laten springen als je "ja" antwoordt:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
+als <(antwoord :: sensing) = [ja] :: operators> dan 
+  verander achtergrond naar (moon v) :: looks
+  herhaal (4) keer 
+    verander y met (10) :: motion
+    wacht (0.1) sec. :: control
+    verander y met (-10) :: motion
+    wacht (0.1) sec. :: control :: control
+  end :: control
 end
 ```
 
