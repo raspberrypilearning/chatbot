@@ -1,75 +1,75 @@
-\--- no-print \---
+\---no imprimir--
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Esta es la versión **Scratch 3** del proyecto. También hay una versión [Scratch 2 del proyecto](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- /no-print \---
+\--- /no-imprimir \---
 
 ## Introducción
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+¡Vas a aprender a programar un personaje que te pueda hablar! Un personaje como ese se llama un robot de chat, o chatbot.
 
 ### Lo que harás
 
-\--- no-print \---
+\--- no-imprimir \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para iniciar una conversación. Cuando el chatbot haga una pregunta, escriba su respuesta en el cuadro en la parte inferior del escenario y luego haga clic en la marca azul de la derecha (o presione ` Intro ` ) para ver la respuesta del chatbot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- /no-print \---
+\--- /no-imprimir \---
 
-\--- print-only \---
+\--- solo imprimir \---
 
-![complete project](images/chatbot-preview.png)
+![proyecto completo](images/chatbot-preview.png)
 
-\--- /print-only \---
+\--- /solo-imprimir \---
 
-\--- collapse \---
+\--- cerrar \---
 
 * * *
 
-## title: What you will need
+## Título: Lo que necesitarás
 
 ### Hardware
 
-+ Computer capable of running Scratch 3
++ Computadora capaz de ejecutar Scratch 3
 
-### Software
+### Programas
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ Scratch 3 (ya sea [online](https://rpf.io/scratchon){:target="_blank"} u [offline](https://rpf.io/scratchoff) {:target="_blank)
 
-### Downloads
+### Descargas
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
++ [ Encuentra los archivos para descargar aquí ](http://rpf.io/p/en/chatbot-go) .
 
-\--- /collapse \---
+\--- /cerrar \---
 
-\--- collapse \---
-
-* * *
-
-## title: What you will learn
-
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-
-\--- /collapse \---
-
-\--- collapse \---
+\--- cerrar \---
 
 * * *
 
-## title: Additional notes for educators
+## Título: Lo que aprenderás.
 
-\--- no-print \---
++ Cómo conseguir datos de entrada por parte de un usuario
++ Cómo usar el `si, entonces, más`{:class="block3control"} Bloques de Scratch
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+\--- /cerrar \---
 
-\--- /no-print \---
+\--- cerrar \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+* * *
 
-\--- /collapse \---
+## título: Notas adicionales para educadores
+
+\---no imprimir--
+
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- no imprimir \---
+
+Puedes [ descargar el proyecto completo aquí ](http://rpf.io/p/en/chatbot-get).
+
+\--- /cerrar \---
