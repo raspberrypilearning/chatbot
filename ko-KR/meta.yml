@@ -6,24 +6,24 @@ theme: violet
 listed: true
 copyedit: false
 version: 4.1.0
-last_tested: 2017-01-01
+last_tested: 2018-09-20
 steps:
   - 
     title: 들어가며
   - 
-    title: 준비물
-  - 
     title: 당신의 챗봇
   - 
-    title: "말하는 챗봇"
+    title: 말하는 챗봇
+  - 
+    title: "도전과제: 더 많은 질문들"
     challenge: true
   - 
     title: 결정하기
   - 
-    title: "위치 변경"
+    title: "도전과제: 더 많은 결정들"
     challenge: true
   - 
-    title: '도전 과제: 챗봇을 완성하세요.'
+    title: 위치 변경
   - 
     title: "도전 과제: 챗봇을 완성하세요."
     challenge: true
