@@ -20,9 +20,9 @@ zeg [Wat een mooie naam!] (2) sec. :: looks
 
 Klik op je chatbot om je code te testen. Wanneer de chatbot je naam vraagt, typ deze in het vak dat aan de onderkant van het speelveld verschijnt, en klik dan op de blauwe-witte V, of druk op <kbd>Enter</kbd>.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![Een reactie van een ChatBot testen](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![Een reactie van een ChatBot testen](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
@@ -40,7 +40,7 @@ vraag [Wat is je naam?] en wacht :: sensing
 zeg (voeg [Hoi ] en (antwoord :: sensing) samen :: + operators) (2) sec. :: looks
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Een persoonlijk antwoord testen](images/chatbot-answer-test.png)
 
 \--- /task \---
 
@@ -61,17 +61,16 @@ Wijzig nu de code van je chatbot sprite door de `antwoord`{:class="block3variabl
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
+wanneer op deze sprite wordt geklikt :: events
+vraag [Wat is je naam?] en wacht :: sensing
+maak [naam v] (antwoord :: sensing) :: variables
+zeg (voeg [Hoi ] en (naam :: variables) samen :: operators) (2) sec. :: looks
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+Je code zou moeten werken zoals voorheen: je chatbot zou hoi en je naam moeten zeggen.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Een persoonlijk antwoord testen](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Test je project opnieuw. Merk op dat het antwoord dat je invoert, is opgeslagen in de `naam`{:class="block3variables"} variabele, en wordt ook weergegeven in de linkerbovenhoek van het werkgebied. Om het uit het werkgebied wilt laten verdwijnen, gaat je naar de `Variabelen`{:class="block3variables"} blok sectie en klik op het vakje naast `naam`{:class="block3variables"} zodat deze niet meer aangevinkt is.
