@@ -1,8 +1,8 @@
 ## Apa selanjutnya?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+Coba proyek [kotak Lukis](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), dimana kamu akan membuat program melukismu sendiri!
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Klik di bendera hijau untuk mulai. Gunakan mouse untuk memindahkan pensil dan tahan tombol kiri mouse untuk menggambar. Klik di sebuah warna untuk mengubah pensil. Klik di penghapus untuk mengubah jadi penghapus dan gunakan itu untuk menghapus pekerjaan Kamu. Untuk membersihkan halaman, klik tanda silang.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -11,6 +11,6 @@ Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_s
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Kamu akan klik di bendera hijau untuk mulai dan kamu akan menggunakan mouse untuk memindahkan pensil serta tekan terus tombol kiri mouse untuk menggambar. Klik di sebuah warna akan mengubah warna pensil dan klik di penghapus akan mengubahnya menjadi penghapus!
 
-![showcase](images/paint-box-showcase.png) \--- /print-only \---
+![pameran](images/paint-box-showcase.png) \--- /print-only \---
