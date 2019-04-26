@@ -23,15 +23,15 @@ Als je de Scratch offline editor wilt downloaden en installeren dan kan je die v
 
 Het startersproject bevat vier karakter sprites. Een daarvan is dan je chatbot.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Je kunt de sprite gebruiken die al is geselecteerd, of een andere kiezen door de gewenste sprite te selecteren door erop te klikken en vervolgens in het venster daarboven in het **Toon** venster op het oogje te klikken. (vergeet niet de originele sprite te verbergen).
 
-![Choose a character](images/chatbot-characters.png)
+![Kies een personage](images/chatbot-characters.png)
 
 -- /task \---
 
 \--- task \----
 
-Save your Scratch project.
+Sla je Scratch-project op.
 
 [[[generic-scratch3-saving]]]
 
