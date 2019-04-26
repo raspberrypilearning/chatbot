@@ -14,7 +14,7 @@ Can you program your chatbot to ask "Do you want to go to the moon", and then ch
 
 Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- hint \---
 
@@ -45,7 +45,7 @@ if <(answer) = [yes]> then
 end
 ```
 
-\--- /hint \---
+\--- /pomoć \---
 
 \--- /pomoć \---
 
