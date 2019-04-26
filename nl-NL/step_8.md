@@ -1,6 +1,6 @@
-## Challenge: maak je chatbot af
+## Uitdaging: maak je chatbot af
 
-Use what you've learned to finish creating your interactive chatbot. Hier zijn wat ideeën:
+Gebruik wat je hebt geleerd om je interactieve chatbot af te maken. Hier zijn wat ideeën:
 
 ![ChatBot ideeën](images/chatbot-ideas1.png)
 
@@ -8,4 +8,4 @@ Use what you've learned to finish creating your interactive chatbot. Hier zijn w
 
 ![ChatBot ideeën](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+Als je klaar bent met je chatbot, laat je vrienden er een gesprek mee hebben! Wat vinden ze van je chatbot? Kunnen ze eventuele problemen vinden?
