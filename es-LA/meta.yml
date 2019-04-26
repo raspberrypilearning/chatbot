@@ -2,30 +2,30 @@
 title: Robot parlanchín
 hero_image: images/chatbot.png
 description: '¡Vas a aprender cómo programar tu propio robot que habla!'
-theme: violet
+theme: violeta
 listed: true
 copyedit: false
-version: 4.1.0
-last_tested: 2017-01-01
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
-    title: Robot parlanchín
+    title: Introducción
   - 
-    title: Your chatbot
+    title: Tu chatbot
   - 
-    title: A talking chatbot
+    title: Un chatbot que habla
   - 
-    title: "Challenge: more questions"
+    title: "Desafío: más preguntas"
     challenge: true
   - 
-    title: Making decisions
+    title: Tomando decisiones
   - 
-    title: "Challenge: more decisions"
+    title: "Desafío: más decisiones"
     challenge: true
   - 
-    title: Changing location
+    title: Cambiando ubicación
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Desafío: termina tu chatbot"
     challenge: true
   - 
-    title: What next?
+    title: '¿Qué sigue?'
