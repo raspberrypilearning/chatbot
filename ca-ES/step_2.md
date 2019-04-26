@@ -2,36 +2,36 @@
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Abans de començar a crear el teu xatbot, cal decidir la seva personalitat. **Pensa en les següents preguntes**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
-
-\--- /task \---
-
-\--- task \--- Open the Chatbot Scratch starter project.
-
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
-
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
-
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
-
-\--- task \---
-
-The starter project contains four character sprites. One of these will be your chatbot.
-
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
-
-![Tria un personatge](images/chatbot-characters.png)
++ Quin serà el nom del xatbot?
++ On viu?
++ Està content? Seriós? Divertit? Tímid? Simpàtic?
++ Què li agrada i què no li agrada?
 
 \--- /task \---
 
+\--- task \--- Obriu el projecte d'inici Xatbot d'Scratch.
+
+** en línia: ** obre el projecte d'inici a [ rpf.io/chatbot-on ](http://rpf.io/chatbot-on) {: target = "_ blank"}.
+
+** fora de línia: ** descarrega el projecte d'inici de [ rpf.io/p/en/chatbot-go ](http://rpf.io/p/en/chatbot-go) {: target = "_ blank"} i, a continuació, obre'l utilitzant l'editor fora de línia.
+
+Si necessites descarregar i instal·lar l'editor Scratch offline, el pots trobar a [ https://rpf.io/scratchoff ](rpf.io/scratchoff). \--- /task \---
+
 \--- task \---
 
-Save your Scratch project.
+El projecte d'inici inclou quatre sprites de personatge. Un d'aquests serà el teu xatbot.
+
+Pots utilitzar l'sprite que ja està seleccionat o bé escollir-ne un de diferent clicant-hi i després seleccionar **mostrar** o **amagar** del menú que t'apareix.
+
+![Tria un personatge](images / chatbot-characters.png)
+
+\--- /task \---
+
+\--- task \---
+
+Desa el teu projecte Scratch.
 
 [[[generic-scratch3-saving]]]
 
