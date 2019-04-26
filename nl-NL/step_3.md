@@ -30,14 +30,14 @@ Klik op je chatbot om je code te testen. Wanneer de chatbot je naam vraagt, typ 
 
 Op dit moment antwoordt je chatbot met "Wat een mooie naam!" elke keer dat je antwoordt. Je kunt het antwoord van de chatbot persoonlijker maken, zodat het antwoord anders is elke keer dat een andere naam wordt ingetypt.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+Wijzig de code van de chatbot sprite in `voeg en samen`{:class="block3operators"} "Hallo" met het `antwoord` {:class = "block3sensing"} bij de "Wat is je naam?" vraag, zodat de code er zo uitziet:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+wanneer op deze sprite wordt geklikt :: events
+vraag [Wat is je naam?] en wacht :: sensing
+zeg (voeg [Hoi ] en (antwoord :: sensing) samen :: + operators) (2) sec. :: looks
 ```
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+Door het antwoord op te slaan in een **variabele**, kunt je het overal gebruiken in je project.
 
-Create a new variable called `name`{:class="block3variables"}.
+Maak een nieuwe variabele met de naam `naam`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,7 +56,7 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \----
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Wijzig nu de code van je chatbot sprite door de `antwoord`{:class="block3variables"} variabele te veranderen in de `naam`{:Class="block3sensing"} variabele:
 
 ![nano sprite](images/nano-sprite.png)
 
