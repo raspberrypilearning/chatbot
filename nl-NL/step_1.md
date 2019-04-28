@@ -31,7 +31,7 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 * * *
 
-## titel: Wat heb je nodig
+## title: Wat heb je nodig
 
 ### Hardware
 
@@ -51,7 +51,7 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 * * *
 
-## titet: Wat ga je leren
+## title: Wat ga je leren
 
 + Hoe krijg je invoer van een gebruiker
 + Hoe gebruik je het `if, then, else`{:class="block3control"} Scratch blok
@@ -62,7 +62,7 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 * * *
 
-## titel: Aanvullende informatie voor docenten
+## title: Aanvullende informatie voor docenten
 
 \--- no-print \---
 
