@@ -2,7 +2,7 @@
 
 Je kunt je chatbot ook programmeren om de locatie te wijzigen!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Een veranderende achtergrond testen](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
