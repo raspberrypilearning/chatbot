@@ -13,14 +13,14 @@ steps:
   - 
     title: Jouw chatbot
   - 
-    title: Een pratende robot
+    title: Een pratende chatbot
   - 
-    title: "Challenge: meer vragen"
+    title: "Uitdaging: meer vragen"
     challenge: true
   - 
     title: Het nemen van beslissingen
   - 
-    title: "Challenge: meer beslissingen"
+    title: "Uitdaging: meer beslissingen"
     challenge: true
   - 
     title: Verander locatie
