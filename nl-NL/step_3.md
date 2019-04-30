@@ -9,9 +9,9 @@ Klik op je chatbot sprite, en voeg deze code toe zodat `wanneer op deze sprite w
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt :: events
-vraag [Wat is je naam?] en wacht :: sensing
-zeg [Wat een mooie naam!] (2) sec. :: looks
+wanneer op deze sprite wordt geklikt
+vraag [Wat is je naam?] en wacht
+zeg [Wat een mooie naam!] (2) sec.
 ```
 
 \--- /task \---
