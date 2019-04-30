@@ -15,17 +15,17 @@ Wijzig de code van je chatbot. Je chatbot moet de vraag "Alles goed naam", met b
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt :: events
-vraag [Wat is je naam?] en wacht :: sensing
-maak [naam v] (antwoord :: sensing) :: variables
-zeg (voeg [Hoi ] en (naam) samen :: operators) (2) sec. :: looks
-vraag (voeg [Alles goed] en (naam) samen :: operators) en wacht :: sensing
-als <(antwoord :: sensing) = [ja] :: operators> dan 
-  zeg [Dat is goed om te horen!] (2) sec. :: looks :: control
+wanneer op deze sprite wordt geklikt
+vraag [Wat is je naam?] en wacht
+maak [naam v] (antwoord)
+zeg (voeg [Hoi ] en (naam) samen) (2) sec.
++ vraag (voeg [Alles goed] en (naam) samen) en wacht
++ als <(antwoord) = [ja]> dan 
+zeg [Dat is goed om te horen!] (2) sec.
 end
 ```
 
-Om je nieuwe code goed te testen, moet je deze **twee keer** uitvoeren, eenmaal met het antwoord "ja", en één keer met het antwoord "nee".
+Om je nieuwe code goed te testen, moet je deze **twee keer** uitvoeren: eenmaal met het antwoord "ja", en een keer met het antwoord "nee".
 
 \--- /task \---
 
@@ -35,20 +35,21 @@ Op dit moment zegt je chatbot niets bij het antwoord "nee".
 
 Wijzig de code van je chatbot zodat deze antwoordt "Oh nee!" als het "nee" ontvangt als antwoord op "Alles goed naam".
 
-Vervang de `als, dan`{:class="block3control"} blok door een `als, dan, anders`{:class="block3control"} blok voeg code toe zodat de chatbot kan zeggen: `"Oh nee!"`{:Class="block3looks"}.
+Vervang het `als, dan`{:class="block3control"} blok door een `als, dan, anders`{:class="block3control"} blok en voeg code toe zodat de chatbot kan zeggen: `"Oh nee!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt :: events
-vraag [Wat is je naam?] en wacht :: sensing
-maak [naam v] (antwoord :: sensing) :: variables
-zeg (voeg [Hoi ] en (naam) samen :: operators) (2) sec. :: looks
-vraag (voeg [Alles ok ] en (naam) samen :: operators) en wacht :: sensing
-als <(antwoord :: sensing) = [ja] :: operators> dan 
-  zeg [Dat is goed om te horen!] (2) sec. :: looks
+wanneer op deze sprite wordt geklikt
+vraag [Wat is je naam?] en wacht
+maak [naam v] (antwoord)
+zeg (voeg [Hoi ] en (naam) samen) (2) sec.
+vraag (voeg [Alles ok ] en (naam) samen) en wacht
+
++ als <(antwoord) = [ja]> dan 
+zeg [Dat is goed om te horen!] (2) sec.
 anders
-  zeg [Oh nee!] (2) sec. :: looks :: control
++ zeg [Oh nee!] (2) sec.
 end
 ```
 
@@ -83,17 +84,18 @@ Verander de code in het `als, dan, anders`{:class="block3control"} blok om `van 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt :: events
-vraag [Wat is je naam?] en wacht :: sensing
-maak [naam v] (antwoord :: sensing) :: variables
-zeg (voeg [Hoi ] en (naam) samen :: operators) (2) sec. :: looks
-vraag (voeg [Alles goed] en (naam) samen :: operators) en wacht :: sensing
-als <(antwoord :: sensing) = [ja] :: operators> dan 
-  verander uiterlijk naar (nano-c v) :: looks
-  zeg [Dat is goed om te horen!] (2) sec. :: looks
+wanneer op deze sprite wordt geklikt
+vraag [Wat is je naam?] en wacht
+maak [naam v] (antwoord)
+zeg (voeg [Hoi ] en (naam) samen) (2) sec.
+vraag (voeg [Alles goed] en (naam) samen :: operators) en wacht
+als <(antwoord) = [ja]> dan 
+
++ verander uiterlijk naar (nano-c v)
+zeg [Dat is goed om te horen!] (2) sec.
 anders
-  verander uiterlijk naar (nano-d v) :: looks
-  zeg [Oh nee!] (2) sec. :: looks :: control
++ verander uiterlijk naar (nano-d v)
+zeg [Oh nee!] (2) sec.
 end
 ```
 
@@ -109,14 +111,15 @@ Je kunt dit uitproberen: voer je code uit en antwoord "nee", zodat het gezicht v
 
 \--- task \----
 
-Om dit probleem op te lossen, voeg je aan de code van de chatbot `verander uiterlijk naar`{:class="block3looks"} toe aan het begin `wanneer op deze sprite wordt geklikt `{:Class="block3events"}.
+Om dit probleem op te lossen, voeg je aan de code van de chatbot `verander uiterlijk naar`{:class="block3looks"} toe aan het begin `wanneer op deze sprite wordt geklikt `{:class="block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt :: events
-verander uiterlijk naar (nano-a v) :: looks
-vraag [Wat is je naam?] en wacht :: sensing
+wanneer op deze sprite wordt geklikt
+
++ verander uiterlijk naar (nano-a v)
+vraag [Wat is je naam?] en wacht
 ```
 
 ![Testen van een uiterlijk-oplossing](images/chatbot-costume-fix-test.png)
