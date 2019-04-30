@@ -18,7 +18,7 @@ zeg [Wat een mooie naam!] (2) sec.
 
 \--- task \----
 
-Klik op je chatbot om je code te testen. Wanneer de chatbot je naam vraagt, typ deze in het vak dat aan de onderkant van het speelveld verschijnt, en klik dan op de blauwe-witte V, of druk op <kbd>Enter</kbd>.
+Klik op je chatbot om je code te testen. Wanneer de chatbot je naam vraagt, typ deze in het vak dat aan de onderkant van het speelveld verschijnt, en klik dan op het witte vinkje in de blauwe cirkel, of druk op <kbd>Enter</kbd>.
 
 ![Een reactie van een ChatBot testen](images/chatbot-ask-test1.png)
 
@@ -35,9 +35,9 @@ Wijzig de code van de chatbot sprite in `voeg en samen`{:class="block3operators"
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt :: events
-vraag [Wat is je naam?] en wacht :: sensing
-zeg (voeg [Hoi ] en (antwoord :: sensing) samen :: + operators) (2) sec. :: looks
+wanneer op deze sprite wordt geklikt
+vraag [Wat is je naam?] en wacht
+zeg (voeg [Hoi ] en (antwoord) samen) (2) sec.
 ```
 
 ![Een persoonlijk antwoord testen](images/chatbot-answer-test.png)
@@ -56,15 +56,16 @@ Maak een nieuwe variabele met de naam `naam`{:class="block3variables"}.
 
 \--- task \----
 
-Wijzig nu de code van je chatbot sprite door de `antwoord`{:class="block3variables"} variabele te veranderen in de `naam`{:Class="block3sensing"} variabele:
+Wijzig nu de code van je chatbot sprite door de `antwoord`{:class="block3variables"} waarde in de `naam`{:Class="block3sensing"} variabele te zetten:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt :: events
-vraag [Wat is je naam?] en wacht :: sensing
-maak [naam v] (antwoord :: sensing) :: variables
-zeg (voeg [Hoi ] en (naam :: variables) samen :: operators) (2) sec. :: looks
+wanneer op deze sprite wordt geklikt
+vraag [Wat is je naam?] en wacht
+
++ maak [naam v] (antwoord)
+zeg (voeg [Hoi ] en (naam :: variables) samen) (2) sec.
 ```
 
 Je code zou moeten werken zoals voorheen: je chatbot zou hoi en je naam moeten zeggen.
@@ -73,4 +74,4 @@ Je code zou moeten werken zoals voorheen: je chatbot zou hoi en je naam moeten z
 
 \--- /task \---
 
-Test je project opnieuw. Merk op dat het antwoord dat je invoert, is opgeslagen in de `naam`{:class="block3variables"} variabele, en wordt ook weergegeven in de linkerbovenhoek van het werkgebied. Om het uit het werkgebied wilt laten verdwijnen, gaat je naar de `Variabelen`{:class="block3variables"} blok sectie en klik op het vakje naast `naam`{:class="block3variables"} zodat deze niet meer aangevinkt is.
+Test je project opnieuw. Merk op dat het antwoord dat je invoert, is opgeslagen in de `naam`{:class="block3variables"} variabele, en ook wordt weergegeven in de linkerbovenhoek van het werkgebied. Om het uit het werkgebied wilt laten verdwijnen, gaat je naar de `Variabelen`{:class="block3variables"} blok sectie en klik op het hokje naast `naam`{:class="block3variables"} zodat deze niet meer aangevinkt is.
