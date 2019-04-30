@@ -6,13 +6,13 @@ Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie 
 
 ## Inleiding
 
-Je gaat leren hoe je een personage programmeert dat met je kan praten! Zo'n personage wordt een chatrobot of chatbot genoemd.
+Je gaat leren hoe je een personage programmeert dat met je kan praten! Zo'n personage wordt een chat-robot of chatbot genoemd.
 
 ### Wat ga je maken
 
 \--- no-print \---
 
-Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te starten. Wanneer de chatbot een vraag stelt, typt je jouw antwoord in het vak aan de onderkant van het werkgebied en klik je op het vinkje (of druk op `Enter`).
+Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te starten. Wanneer de chatbot een vraag stelt, typ je jouw antwoord in het vak aan de onderkant van het werkgebied en klik je op het blauwe vinkje (of druk op `Enter`) om het antwoord van de chatbot te zien.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -54,7 +54,7 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 ## title: Wat ga je leren
 
 + Hoe krijg je invoer van een gebruiker
-+ Hoe gebruik je het `if, then, else`{:class="block3control"} Scratch blok
++ Hoe gebruik je het `als, dan, anders`{:class="block3control"} Scratch blok
 
 \--- /collapse \---
 
