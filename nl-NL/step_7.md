@@ -1,6 +1,6 @@
 ## Locatie wijzigen
 
-Je kunt je chatbot ook programmeren om de locatie te wijzigen!
+Je kunt je chatbot ook programmeren om de locatie te veranderen!
 
 ![Een veranderende achtergrond testen](images/chatbot-backdrop-moon.png)
 
@@ -23,11 +23,12 @@ Hier zijn de code blokken die je moet toevoegen aan je chatbot code.
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-verander achtergrond naar (moon v) :: looks
+verander achtergrond naar (moon v)
 
-vraag [Ik ga naar de maan. Ga je mee?] en wacht :: sensing
+vraag [Ik ga naar de maan. Ga je mee?] en wacht
 
-als <(antwoord :: sensing) = [ja] :: operators> dan :: control
+als <(antwoord) = [ja]> dan
+
 end
 ```
 
@@ -38,9 +39,9 @@ end
 Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-vraag [Ik ga naar de maan. Ga je mee?] en wacht :: sensing
-als <(antwoord :: sensing) = [ja] :: operators> dan 
-  verander achtergrond naar (moon v) :: looks :: control
+vraag [Ik ga naar de maan. Ga je mee?] en wacht
+als <(antwoord) = [ja]> dan 
+verander achtergrond naar (moon v)
 end
 ```
 
@@ -52,14 +53,14 @@ end
 
 \--- task \----
 
-Nu moet je ervoor zorgen dat je chatbot op de juiste locatie start als je erop klikt om ermee te praten. Voeg dit blok toe aan de bovenkant van uw chatbot-code:
+Nu moet je ervoor zorgen dat je chatbot op de juiste locatie start als je erop klikt om ermee te praten. Voeg dit blok toe aan de bovenkant van je chatbot-code:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt :: events
+wanneer op deze sprite wordt geklikt
 
-verander achtergrond naar (spatiebalk v) :: looks
++ verander achtergrond naar (space v)
 ```
 
 \--- /task \---
@@ -72,19 +73,20 @@ Test je programma en beantwoord "ja" wanneer de chatbot vraagt of je naar de maa
 
 \--- task \----
 
-U kunt ook de volgende code toevoegen binnen de nieuwe `als`{:class="block3control"} blok om de chatbot vier keer op en neer te laten springen als je "ja" antwoordt:
+Je kunt ook de volgende code toevoegen binnen het nieuwe `als`{:class="block3control"} blok om de chatbot vier keer op en neer te laten springen als je "ja" antwoordt:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-als <(antwoord :: sensing) = [ja] :: operators> dan 
-  verander achtergrond naar (moon v) :: looks
-  herhaal (4) keer 
-    verander y met (10) :: motion
-    wacht (0.1) sec. :: control
-    verander y met (-10) :: motion
-    wacht (0.1) sec. :: control :: control
-  end :: control
+als <(antwoord) = [ja]> dan 
+verander achtergrond naar (moon v)
+
++ herhaal (4) keer 
+verander y met (10)
+wacht (0.1) sec.
+verander y met (-10)
+wacht (0.1) sec.
+end
 end
 ```
 
