@@ -1,7 +1,7 @@
-## Challenge: more questions
+## Her: mwy o gwestiynau
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Rhaglenna dy sgwrsfot i ofyn cwestiwn arall. Wyt ti'n gallu storio'r ateb i'r cwestiwn newydd fel newidyn newydd?
 
-![More questions](images/chatbot-question1.png)
+![Mwy o gwestiynau](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![Mwy o gwestiynau](images/chatbot-question2.png)
