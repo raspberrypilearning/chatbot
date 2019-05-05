@@ -1,5 +1,5 @@
-## Challenge: more decisions
+## Her: mwy o benderfyniadau
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+Rhaglena dy sgwrsfot i ofyn cwestiwn arall - rhywbeth gydag ateb ‘ie’ neu ‘na’. Wyt ti’n gallu cael ymateb gan y sgwrsfot i dy ateb?
 
-![screenshot](images/chatbot-joke.png)
+![sgrinlun](images/chatbot-joke.png)
