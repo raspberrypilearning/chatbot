@@ -1,12 +1,12 @@
-## Making decisions
+## Gwneud penderfyniadau
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Mae modd rhaglenni dy sgwrsfot i ddewis beth i wneud, yn ddibynol ar yr ateb mae'n ei dderbyn.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Yn gyntaf rwyt ti am wneud i dy sgwrsfot ofyn cwestiwn y mae modd ateb gydag "ydw" neu "nac ydw".
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Newida côd dy sgwrsfot. Fe ddylai dy sgwrsfot ofyn y cwestiwn "Wyt ti'n iawn enw", gan ddefnyddio'r newidyn `enw`{:class="block3variables"}. Yna fe ddylai ateb "Mae'n dda i glywed!" `os`{:class="block3control"} mai'r ateb yw "ydw", ond dweud dim os mai'r ateb yw "nac ydw".
 
 ![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
@@ -25,15 +25,15 @@ say (join [Hi ] (name)) for (2) seconds
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+I brofi dy gôd newydd, fe ddylet ti ei brofi **ddwywaithi**: unwaith gyda'r ateb "ydw", ac unwaith gyda'r ateb "nac ydw".
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+Ar hyn o bryd, nid yw dy sgwrsfot yn dweud dim wrth yr ateb "nac ydw".
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Newida côd dy sgwrsfot fel ei fod yn ymateb "O na!" pan mae'n derbyn ateb "nac ydw" i'r cwestiwn "Wyt ti'n iawn enw".
 
 Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
 
