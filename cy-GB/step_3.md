@@ -1,6 +1,6 @@
-## A talking chatbot
+## Sgwrsfot sy'n siarad
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Mae gen ti sgwrfot sydd â phersonoliaeth, y cam nesaf yw ei raglenni i siarad â thi.
 
 \--- task \---
 
