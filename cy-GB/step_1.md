@@ -6,13 +6,13 @@ Dyma fersiwn **Scratch 3** y prosiect. Ceir hefyd [fersiwn Scratch 2 o'r prosiec
 
 ## Cyflwyniad
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Rwyt ti'n mynd i ddysgu sut i raglennu cymeriad sy'n gallu siarad gyda ti! Gelwir cymeriad fel hynny yn robot sgwrsio, neu sgwrsbot.
 
-### What you will make
+### Yr hyn byddi di'n ei greu
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae'r sgwrsfot yn gofyn cwestiwn, teipia dy ateb i'r bocs ar waelod y Llwyfan, yna clicia'r marc glas ar y dde (neu gwasga `Enter`) i weld ateb y sgwrsfot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,53 +23,53 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![cwblhau'r prosiect](images/chatbot-preview.png)
 
 \--- /print-only \---
 
-\--- collapse \---
+\---collapse\---
 
 * * *
 
-## title: What you will need
+## title: Beth fydd ei angen arno ti
 
-### Hardware
+### Caledwedd
 
-+ Computer capable of running Scratch 3
++ Cyfrifiadur sy'n gallu rhedeg Scratch 3
 
-### Software
+### Meddalwedd
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
++ Scratch 3 (naill ai [ar-lein](https://rpf.io/scratchon) neu [all-lein](https://rpf.io/scratchoff))
 
-### Downloads
+### Lawrlwythiadau
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
++ [Ffeiliau i'w lawrlwytho yma](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
-\--- collapse \---
+\---collapse\---
 
 * * *
 
-## title: What you will learn
+## title: Yr hyn byddi di'n ei ddysgu
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
++ Sut i gael mewnbwn gan ddefnyddiwr
++ Sut i ddefnyddio'r {:class="block3control"} bloc Scratch `os, wedyn, fel arall`
 
 \--- /collapse \---
 
-\--- collapse \---
+\---collapse\---
 
 * * *
 
-## title: Additional notes for educators
+## title: Gwybodaeth ychwanegol i addysgwyr
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Gallwch ddod o hyd i'r prosiect gorffenedig [ yma ](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
