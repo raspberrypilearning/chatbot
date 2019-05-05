@@ -22,7 +22,7 @@ Clicia dy sgwrsfot i brofi dy gôd. Pan mae'r sgwrsfot yn gofyn dy enw, teipia d
 
 ![Profi ymateb sgwrsfot](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![Profi ymateb sgwrsfot](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
@@ -32,7 +32,7 @@ Mae dy sgwrsfot yn ateb ‘Am enw hyfryd!’ bob tro. Mae modd personoleiddio ym
 
 Newida côd y sgwrsfot i `uno`{:class="block3operators"} "Helo" gydag `ateb` {:class="block3sensing"} i'r cwestiwn "Beth yw dy enw?", fel fod y côd yn edrych fel hyn:
 
-![nano sprite](images/nano-sprite.png)
+![corlun nano](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -40,7 +40,7 @@ ask [What's your name?] and wait
 say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Profi ateb personol](images/chatbot-answer-test.png)
 
 \--- /task \---
 
@@ -58,7 +58,7 @@ Creu newidyn newydd o'r enw `enw`{:class="block3variables"}.
 
 Nawr, newida côd dy sgwrsfot i osod y newidyn `enw` {: class = "block3variables}} i `ateb` {: class = "block3sensing"}:
 
-![nano sprite](images/nano-sprite.png)
+![corlun nano](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -70,7 +70,7 @@ say (join [Hi ] (name :: variables +)) for (2) seconds
 
 Fe ddylai dy gôd weithio fel o'r blaen: dy sgwrsfot yn dweud helo pan wyt ti'n teipio dy enw.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Profi ateb personol](images/chatbot-answer-test.png)
 
 \--- /task \---
 
