@@ -1,4 +1,4 @@
-\--- tanpa cetak \---
+\--- tanpa dicetak \---
 
 Ini adalah versi **Scratch 3** dari proyek. Ada juga versi [Scratch 2 dari proyek](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
