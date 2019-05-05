@@ -1,11 +1,11 @@
 ## Her: cwblhau dy sgwrsfot
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+Defnyddia yr hyn rwyt ti wedi ei ddysgu i orffen creu dy sgwrsfot rhyngweithiol. Dyma rai syniadau:
 
-![ChatBot ideas](images/chatbot-ideas1.png)
+![Syniadau sgwrsfot](images/chatbot-ideas1.png)
 
-![ChatBot ideas](images/chatbot-ideas2.png)
+![Syniadau sgwrsfot](images/chatbot-ideas2.png)
 
-![ChatBot ideas](images/chatbot-ideas3.png)
+![Syniadau sgwrsfot](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+Unwaith rwyt ti wedi gorffen dy sgwrsfot, alli di gael dy ffrindiau i sgwrsio gydag e! Ydyn nhw'n hoffi dy gymeriad? Ydyn nhw'n gallu gweld unrhyw broblemau?
