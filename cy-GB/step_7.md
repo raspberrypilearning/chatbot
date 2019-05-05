@@ -1,26 +1,26 @@
-## Changing location
+## Newid lleoliad
 
-You can also program your chatbot to change its location!
+Galli di hefyd raglenni sy sgwrsfot i newid lleoliad!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Profi cefndir sy'n newid](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Alli di raglenni dy sgwrsfot i ofyn "Wyt ti eisiau mynd i'r lleuad", ac yna newid y cefndir pan mai'r ateb yw "ydw"?
 
 \--- hints \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Fe ddylai dy sgwrsfot `ofyn "Wyt ti eisiau mynd i'r lleuad?"`{:class="block3sensing"}, yna `os`{:class="block3control"} rwyt ti'n `ateb`{:class="block3sensing"} "ydw", fe ddylai `newid y cefndir i'r lleuad`{:class="block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Dyma'r blociau côd fyddi di angen eu hychwanegu i gôd dy sgwrsfot.
 
-![nano sprite](images/nano-sprite.png)
+![corlun nano](images/nano-sprite.png)
 
 ```blocks3
 switch backdrop to (moon v)
@@ -36,7 +36,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Dyma sut dylai dy gôd edrych:
 
 ```blocks3
 ask [Do you want to go to the moon?] and wait
@@ -53,9 +53,9 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Mae angen i ti sicrhau fod dy sgwrsfot yn cychwyn yn y lleoliad cywir pan wyt ti'n clicio i siarad ag e. Ychwanega'r bloc yma i dop côd dy sgwrsfot:
 
-![nano sprite](images/nano-sprite.png)
+![corlun nano](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -67,15 +67,15 @@ when this sprite clicked
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Profa dy raglen, ac ateb "ydw" pan mae'r sgwrsfot yn gofyn os wyt ti eisiau mynd i'r lleuad. Fe ddyli di weld fod lleoliad y sgwrsfot yn newid.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+Mae modd i ti ychwanegu'r côd canlynol o fewn y bloc newydd `os`{:class="block3control"} i wneud i'r sgwrsfot neidio fyny ac i lawr pedair gwaith os wyt ti'n ateb "ydw":
 
-![nano sprite](images/nano-sprite.png)
+![corlun nano](images/nano-sprite.png)
 
 ```blocks3
 if <(answer) = [yes]> then 
