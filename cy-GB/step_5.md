@@ -35,7 +35,7 @@ Ar hyn o bryd, nid yw dy sgwrsfot yn dweud dim wrth yr ateb "nac ydw".
 
 Newida côd dy sgwrsfot fel ei fod yn ymateb "O na!" pan mae'n derbyn ateb "nac ydw" i'r cwestiwn "Wyt ti'n iawn enw".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Newida bloc `os`{:class="block3control"} gyda bloc `os, wedyn`{:class="block3control"}, a chynnwys y côd fel bod y sgwrsfot yn gallu `dweud "O na!`{:class="block3control"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Profa dy gôd. Fe weli di nawr dy fod yn cal ymateb pan wyt ti’n ateb "ydw" neu "nac ydw". Fe ddylai dy sgwrsfot ymateb gyda "Mae hynny’n wych i glywed!" pan wyt ti’n ateb "ydw", ond yn ymateb gyda "O na!" os wyt ti’n teipio **unrhywbeth arall**.
 
 ![Testing a chatbot reply](images/chatbot-if-test2.png)
 
@@ -65,21 +65,21 @@ Test your code. You should get a different response when you answer "no" and whe
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Mae modd i ti roi unrhyw gôd yn y bloc `os neu arall`{:class="block3control"}, nid dim ond y côd sy’n gwneud i dy sgwrsfot siarad.
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Os wyt ti’n edrych ar tab **gwisgoedd** y sgwrsfot, fe weli di bod mwy nag un gwisg.
 
 ![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Newida côd dy sgwrsfot fel fod y sgwrsfot yn newid gwisgoedd pan wyt ti'n teipio dy ateb.
 
 ![Testing a changing costume](images/chatbot-costume-test1.png)
 
 ![Testing a changing costume](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Newida'r côd o fewn y blod `os, yna, wedyn`{:class="block3control"} i `newid gwisg`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -99,13 +99,13 @@ else
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Profa ac arbed dy gôd. Fe ddyli di weld gwyneb dy sgwrsfot yn newid yn ddibynol ar dy ateb.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Wyt ti wedi sylwi, ar ôl i wisg dy sgwrsfot newid, mae'r arod fel yna a ddim yn newid yn ôl i fel roedd e ar y cychwyn?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Mae modd i ti drio hyn: rhedeg dy gôd ac ateb "nac ydw" fel fod gwyneb dy sgwrsfot yn newid i wyneb anhapus. Rheda'r côd unwaith eto a sylwa nad yw dy sgwrsfot yn newid yn ôl i edrych yn hapus cyn gofyn dy enw.
 
 ![Costume bug](images/chatbot-costume-bug-test.png)
 
