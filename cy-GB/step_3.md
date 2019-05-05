@@ -4,9 +4,9 @@ Mae gen ti sgwrfot sydd â phersonoliaeth, y cam nesaf yw ei raglenni i siarad �
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Clicia'r corlun sgwrsfot, ac ychwanegu'r côd yma fel ei fod {:class="block3events"} `pan gaiff ei glicio`, yn `gofyn dy enw`{:class="block3sensing"} ac yna `yn dweud "Am enw hyfryd!`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![corlun nano](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -18,9 +18,9 @@ say [What a lovely name!] for (2) seconds
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+Clicia dy sgwrsfot i brofi dy gôd. Pan mae'r sgwrsfot yn gofyn dy enw, teipia dy enw i'r bocs sy'n ymddangos ar waelod y Llwyfan, yna clicio'r marc glas neu gwasgu <kbd>Enter</kbd>.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![Profi ymateb sgwrsfot](images/chatbot-ask-test1.png)
 
 ![Testing a ChatBot response](images/chatbot-ask-test2.png)
 
@@ -28,9 +28,9 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+Mae dy sgwrsfot yn ateb ‘Am enw hyfryd!’ bob tro. Mae modd personoleiddio ymateb y sgwrsbot, fel fod yr ateb yn wahanol bob tro rwyt ti'n teipio dy enw.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+Newida côd y sgwrsfot i `uno`{:class="block3operators"} "Helo" gydag `ateb` {:class="block3sensing"} i'r cwestiwn "Beth yw dy enw?", fel fod y côd yn edrych fel hyn:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+Trwy storio'r ateb fel ** newidyn**, mae modd ei ddefnyddio yn unrhyw le yn eich prosiect.
 
-Create a new variable called `name`{:class="block3variables"}.
+Creu newidyn newydd o'r enw `enw`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,7 +56,7 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Nawr, newida côd dy sgwrsfot i osod y newidyn `enw` {: class = "block3variables}} i `ateb` {: class = "block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -68,10 +68,10 @@ ask [What's your name?] and wait
 say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+Fe ddylai dy gôd weithio fel o'r blaen: dy sgwrsfot yn dweud helo pan wyt ti'n teipio dy enw.
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Profa dy raglen eto. Sylwa pan wyt ti'n teipio dy ateb mae'n cael ei arbed yn y newidyn `enw`{:class="block3variables"}, ac hefyd yn ymddangos ar ochr top chwith y Llwyfan. I wneud iddo ddiflannu o'r Llwyfan, cer i adran flociau `Data`{:class="block3variables"} a clicio ar y blwch dros nesaf i `enw`{:class="block3variables"} fel nad yw wedi ei farcio.
