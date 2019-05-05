@@ -1,13 +1,13 @@
-## Your chatbot
+## Dy sgwrsfot
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Cyn i ti ddechrau creu dy sgwrsfot, mae angen i ti benderfynu ar ei bersonoliaeth. **Meddylia am y cwestiynau canlynol**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Beth yw enw'r sgwrsfot?
++ Lle mae e'n byw?
++ Ydy e neu hi'n hapus? Doniol? Difrifol? Swil? Cyfeillgar?
++ Beth mae'n ei hoffi a'i gasáu?
 
 \--- /task \---
 
