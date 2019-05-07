@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-![завершить проект](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -66,10 +66,10 @@
 
 \--- no-print \---
 
-Если вам нужно распечатать этот проект, пожалуйста , используйте [Версия для печати](https://projects.raspberrypi.org/en/projects/chatbot/print){: TARGET = «_blank»}.
+Если вы хотите напечатать этот проект, то воспользуйтесь [версией для печати](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_blank"}.
 
 \--- /no-print \---
 
-Вы можете найти [завершенных проектов здесь](http://rpf.io/p/en/chatbot-get).
+Вы можете найти [завершенные проекты здесь](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
