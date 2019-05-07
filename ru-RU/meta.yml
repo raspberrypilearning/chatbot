@@ -1,8 +1,8 @@
 ---
 title: Чат-бот
 hero_image: images/chatbot.png
-description: Узнайте, как программировать собственный робот-говорящий!
-theme: Фиолетовый
+description: Узнайте, как программировать своего собственного говорящего робота!
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
@@ -11,9 +11,9 @@ steps:
   - 
     title: Введение
   - 
-    title: Ваш чатбот
+    title: Ваш чат-бот
   - 
-    title: Говорящий чатбот
+    title: Говорящий чат-бот
   - 
     title: "Задача: больше вопросов"
     challenge: true
