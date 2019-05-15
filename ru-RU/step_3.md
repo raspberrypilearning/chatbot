@@ -6,7 +6,7 @@
 
 Нажмите на спрайт своего чат-бота и добавь для него этот код, чтобы `когда спрайт нажат`{:class="block3events"}, он `спрашивал твое имя`{:class="block3sensing"}, а затем `говорил "Какое прекрасное имя!"`{:class="block3looks"}.
 
-![нано спрайт](images/nano-sprite.png)
+![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
 когда спрайт нажат
@@ -32,7 +32,7 @@
 
 Измени код спрайта чат-бота на `объединить`{:class="block3operators"} "Привет" с `ответом`{:class="block3sensing"} на вопрос "Как тебя зовут?", так, чтобы код выглядел так:
 
-![нано спрайт](images/nano-sprite.png)
+![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
 когда спрайт нажат
@@ -58,7 +58,7 @@
 
 Теперь измените код спрайтов вашего чат-бота, чтобы установить для переменной `имя`{:class="block3variables"} значение `ответ`{:class="block3sensing"}:
 
-![нано спрайт](images/nano-sprite.png)
+![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
 когда спрайт нажат
