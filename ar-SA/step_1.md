@@ -12,7 +12,7 @@
 
 \--- no-print \---
 
-انقر على العلم الاخضر، ثم انقر على شخصية روبوت الدردشة لبدء المحادثة. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+انقر على العلم الاخضر، ثم انقر على شخصية روبوت الدردشة لبدء المحادثة. عندما يسأل روبوت الدردشة سؤالاً، اكتب اجابتك في المربع الموجود اسفل المنصة، ومن ثم انقر على العلامة الزرقاء في اليمين (أو اضغط على `Enter`) لترى جواب الروبوت.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -53,8 +53,8 @@
 
 ## title: ما الذي ستتعلمه
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
++ كيف تحصل على مدخلات من المستخدم
++ كيف تستخدم الكتل البرمجية في سكراتش `if, then, else`{:class="block3control"}
 
 \--- /collapse \---
 
