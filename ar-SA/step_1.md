@@ -6,13 +6,13 @@
 
 ## المقدمة
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+سوف تتعلم كيفية برمجة شخصية يمكنها التحدث معك! تسمى هذه الشخصية روبوت الدردشة او Chatbot.
 
 ### ما الذي ستصنعه
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+انقر على العلم الاخضر، ثم انقر على شخصية روبوت الدردشة لبدء المحادثة. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![المشروع كامل](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -41,9 +41,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 + برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon) أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff))
 
-### Downloads
+### التنزيلات
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
++ [ابحث عن الملفات لتحميلها هنا](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -62,7 +62,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: Additional notes for educators
+## عنوان: معلومات اضافية للمعلمين
 
 \--- no-print \---
 
@@ -70,6 +70,6 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
