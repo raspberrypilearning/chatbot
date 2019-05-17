@@ -2,26 +2,21 @@
 title: Pratende Robot
 hero_image: images/chatbot.png
 description: Leer hoe je je eigen pratende robot kunt programmeren!
-original_url: https://www.codeclubprojects.org/nl-NL/scratch/boot-race?redirect=false
 theme: violet
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: ''
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
-version: 4.1.0
-last_tested: 2017-01-01
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - title: Inleiding
-  - title: Wat heb je nodig
   - title: Jouw chatbot
-  - title: Een pratende robot
-  - title: Beslissingen nemen
-  - title: Locatie wijzigen
-  - title: 'Uitdaging: maak je chatbot af'
+  - title: Een pratende chatbot
+  - title: "Uitdaging: meer vragen"
+    challenge: true
+  - title: Het nemen van beslissingen
+  - title: "Uitdaging: meer beslissingen"
+    challenge: true
+  - title: Verander locatie
+  - title: "Uitdaging: maak je chatbot af"
+    challenge: true
+  - title: Wat kun je verder nog doen?

@@ -1,67 +1,72 @@
+--- no-print ---
+
+Dit is de **Scratch 3** versie van het project. Er is ook een [Scratch 2 versie van het project](https://projects.raspberrypi.org/nl-NL/projects/chatbot-scratch2).
+
+--- /no-print ---
+
 ## Inleiding
 
-Je gaat leren hoe je je eigen pratende robot programmeert!
+Je gaat leren hoe je een personage programmeert dat met je kan praten! Zo'n personage wordt een chat-robot of chatbot genoemd.
 
 ### Wat ga je maken
 
+--- no-print ---
+
+Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te starten. Wanneer de chatbot een vraag stelt, typ je jouw antwoord in het vak aan de onderkant van het werkgebied en klik je op het blauwe vinkje (of druk op `Enter`) om het antwoord van de chatbot te zien.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/219855286/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te starten. Wanneer de chatbot een vraag stelt, typt je jouw antwoord in het vak aan de onderkant van het werkgebied en klik je op het vinkje (of druk op `Enter`).
+--- /no-print ---
 
-### Wat ga je leren
+--- print-only ---
 
-Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+![voltooid project](images/chatbot-preview.png)
 
-+ [Gebruik eenvoudige programmeerconstructies om simpele programma's te maken.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-### Aanvullende informatie voor clubleiders
-
-Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/chatbot/print).
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Clubleider notities
+title: Wat heb je nodig
 ---
-## Inleiding:
 
-In dit project leren kinderen 'als'-instructies te gebruiken om beslissingen te nemen in hun programma's.
+### Hardware
 
-## Bronnen
++ Een computer die Scratch 3 kan uitvoeren
 
-Voor dit project dient Scratch 2 te worden gebruikt. Scratch 2 kan online worden gebruikt op [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) of gedownload van [jumpto.cc/scratchoff](http://jumpto.cc/scratch-off) en offline worden gebruikt.
+### Software
 
-Je kunt een voltooide versie van dit project [ online vinden ](https://scratch.mit.edu/projects/219855286/#editor), of het kan worden gedownload door te klikken op de link 'Projectmaterialen' voor dit project, dat het volgende bevat:
++ Scratch 3 (of [online](https://rpf.io/scratchon) of [offline](https://rpf.io/scratchoff))
 
-+ ChatBot.sb2
+### Downloads
 
-## Leerdoelen
-
-+ Tekstinvoer;
-+ Besluiten: 
-    + `als ... dan`{:class="blockcontrol"} commando's;
-    + `als ... dan`{:class="blockcontrol"} commando's.
-
-Dit project behandelt elementen uit de volgende onderdelen van het [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Gebruik eenvoudige programmeerconstructies om simpele programma's te maken.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## Challenges
-
-+ "Meer vragen" - leren over het invoer en `antwoord`{:class="blocksensing"} -blok;
-+ "Meer beslissingen" - gebruik van beslissingen;
-+ "Maak je eigen chatbot" - consolidatie van het leren van dit en eerdere projecten.
++ [Zoek hier bestanden om te downloaden](http://rpf.io/p/nl-NL/chatbot-go).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Projectmaterialen
+title: Wat ga je leren
 ---
-## Club leider middelen
 
-+ [Downloadbaar voltooid Scratch 2 project](resources/BrainGot.sb2)
-+ [Online voltooid Scratch 2 project](https://scratch.mit.edu/projects/219855286/#editor)
++ Hoe krijg je invoer van een gebruiker
++ Hoe gebruik je het `als, dan, anders`{:class="block3control"} Scratch blok
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Aanvullende informatie voor docenten
+---
+
+--- no-print ---
+
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/nl-NL/projects/chatbot/print) {:target="_ blank"}.
+
+--- /no-print ---
+
+Hier kun je het [voltooide project](http://rpf.io/p/nl-NL/chatbot-get) downloaden.
 
 --- /collapse ---
