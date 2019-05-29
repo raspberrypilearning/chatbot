@@ -53,9 +53,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch
 --- /collapse ---
 
 --- collapse ---

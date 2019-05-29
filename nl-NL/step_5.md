@@ -1,71 +1,127 @@
-## Beslissingen nemen
+## Het nemen van beslissingen
 
 Je kunt je chatbot programmeren zodat datgene wat het zegt of doet gebaseerd is op jouw antwoorden op zijn vragen.
 
+Allereerst ga je ervoor zorgen dat je chatbot een vraag stelt die kan worden beantwoord met "ja" of "nee".
+
 --- task ---
 
-Kun je de chatbot de vraag stellen "Alles goed?", en hem coderen om te antwoorden "Dat is geweldig om te horen!" alleen **als** het antwoordt van de gebruiker "ja" is?
+Wijzig de code van je chatbot. Je chatbot moet de vraag "Alles goed naam", met behulp van de `naam`{:class="block3variables"} variabele stellen. Dan zou het moeten antwoorden: "Dat is goed om te horen!" `als`{:class="block3control"} het antwoord dat het ontvangt "ja" is, maar zeg niets als het antwoord "nee" is.
 
-Om je nieuwe code goed te testen, moet je deze **twee keer testen**, eenmaal met het antwoord "ja", en één keer met het antwoord "nee".
+![Een reactie van een ChatBot testen](images/chatbot-if-test1-annotated.png)
 
-Je chatbot zou moeten antwoorden "Dat is goed om te horen!!" als je "ja" antwoordt, maar zegt niets als je "nee" antwoordt.
+![Een reactie van een ChatBot testen](images/chatbot-if-test2.png)
 
-![Testing a ChatBot reply](images/chatbot-if-test.png)
+![nano sprite](images/nano-sprite.png)
 
---- hints --- --- hint --- Nadat je chatbot "Hallo" heeft gezegd, zou het nu ook **moeten vragen** "Alles goed?". **Als** je antwoordt "ja" is, dan moet de chatbot **zeggen** "Dat is goed om te horen!". --- /hint --- --- hint --- Dit zijn de code blokken die je nodig hebt: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a chatbot reply](images/chatbot-if-code.png) --- /hint --- --- /hints ---
+```blocks3
+wanneer op deze sprite wordt geklikt
+vraag [Wat is je naam?] en wacht
+maak [naam v] (antwoord)
+zeg (voeg [Hoi ] en (naam) samen) (2) sec.
++ vraag (voeg [Alles goed] en (naam) samen) en wacht
++ als <(antwoord) = [ja]> dan 
+zeg [Dat is goed om te horen!] (2) sec.
+end
+```
+
+Om je nieuwe code goed te testen, moet je deze **twee keer** uitvoeren: eenmaal met het antwoord "ja", en een keer met het antwoord "nee".
+
+--- /task ---
+
+Op dit moment zegt je chatbot niets bij het antwoord "nee".
+
+--- task ---
+
+Wijzig de code van je chatbot zodat deze antwoordt "Oh nee!" als het "nee" ontvangt als antwoord op "Alles goed naam".
+
+Vervang het `als, dan`{:class="block3control"} blok door een `als, dan, anders`{:class="block3control"} blok en voeg code toe zodat de chatbot kan zeggen: `"Oh nee!"`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+wanneer op deze sprite wordt geklikt
+vraag [Wat is je naam?] en wacht
+maak [naam v] (antwoord)
+zeg (voeg [Hoi ] en (naam) samen) (2) sec.
+vraag (voeg [Alles ok ] en (naam) samen) en wacht
+
++ als <(antwoord) = [ja]> dan 
+zeg [Dat is goed om te horen!] (2) sec.
+anders
++ zeg [Oh nee!] (2) sec.
+end
+```
 
 --- /task ---
 
 --- task ---
 
-Op dit moment zegt je chatbot niets als je "nee" antwoordt. Kun je je chatbot veranderen zodat deze antwoordt "Oh nee!" als je "nee" op zijn vraag antwoordt?
+Test je code. Je zou een ander antwoord moeten krijgen wanneer je "nee" antwoordt dan wanneer je "ja" antwoordt: je chatbot zou moeten antwoorden met "Dat is goed om te horen!" wanneer je "ja" antwoordt (wat niet hoofdlettergevoelig is) en antwoord met "Oh nee!" wanneer je **iets anders** antwoordt.
 
-Testen en opslaan. Je chatbot zou nu moeten zeggen "Oh nee!" als je "nee" antwoordt. In feite zal het "Nee!" zeggen als je antwoordt met iets anders dan "ja" antwoord. (de **anders** in een `als dan / anders` blok betekent **doe iets anders als het antwoord niet gelijk is**).
+![Een reactie van een ChatBot testen](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
-
---- hints --- --- hint --- Je chatbot zou nu moeten zeggen: "Dat is goed om te horen!" **als** je antwoord "ja" is, maar zou moeten zeggen "Oh nee!" als je iets anders **antwoordt**. --- /hint --- --- hint --- Dit zijn de code blokken die je nodig hebt: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a yes/no reply](images/chatbot-if-else-code.png) --- /hint --- --- /hints ---
+![Een ja / nee-antwoord testen](images/chatbot-if-else-test.png)
 
 --- /task ---
+
+Je kunt elke code in een `als, dan, anders` blok plaatsen, niet alleen code om je chatbot te laten spreken!
+
+Als je op het **Uiterlijken** tabblad van je chatbot klikt, zul je zien dat het meer dan één uiterlijk heeft.
+
+![chatbot uiterlijken](images/chatbot-costume-view-annotated.png)
 
 --- task ---
 
-Je kunt elke code in een `als dan / anders` blok plaatsen, niet alleen code om je chatbot te laten spreken. Als je op het **Uiterlijken tabblad** van je chatbot klikt, zul je zien dat het meer dan één uiterlijk heeft.
+Verander de chatbot code zodat deze verandert van uiterlijk wanneer je je antwoord typt.
 
-![chatbot costumes](images/chatbot-costume-view.png)
+![Testen van het veranderen van een uiterlijk](images/chatbot-costume-test1.png)
+
+![Testen van het veranderen van een uiterlijk](images/chatbot-costume-test2.png)
+
+Verander de code in het `als, dan, anders`{:class="block3control"} blok om `van uiterlijk te wisselen`{:Class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+wanneer op deze sprite wordt geklikt
+vraag [Wat is je naam?] en wacht
+maak [naam v] (antwoord)
+zeg (voeg [Hoi ] en (naam) samen) (2) sec.
+vraag (voeg [Alles goed] en (naam) samen :: operators) en wacht
+als <(antwoord) = [ja]> dan 
+
++ verander uiterlijk naar (nano-c v)
+zeg [Dat is goed om te horen!] (2) sec.
+anders
++ verander uiterlijk naar (nano-d v)
+zeg [Oh nee!] (2) sec.
+end
+```
+
+Test en sla je code op. Je zou het gezicht van je chatbot moeten zien veranderen, afhankelijk van je antwoord.
 
 --- /task ---
+
+Is het je opgevallen dat, nadat het kostuum van je chatbot is veranderd, het zo blijft en niet teruggaat naar wat het in het begin was?
+
+Je kunt dit uitproberen: voer je code uit en antwoord "nee", zodat het gezicht van je chatbot verandert in een ongelukkige blik. Voer vervolgens je code opnieuw uit en merk op dat je chatbot niet verandert in een blij uiterlijk voordat je naam wordt gevraagd.
+
+![Uiterlijken fout](images/chatbot-costume-bug-test.png)
 
 --- task ---
 
-Kun je het uiterlijk van de chatbot aanpassen aan je reactie?
+Om dit probleem op te lossen, voeg je aan de code van de chatbot `verander uiterlijk naar`{:class="block3looks"} toe aan het begin `wanneer op deze sprite wordt geklikt`{:class="block3events"}.
 
-Testen en opslaan. Het gezicht van je chatbot zou moeten veranderen afhankelijk van je antwoord.
+![nano sprite](images/nano-sprite.png)
 
-![Testing a changing costume](images/chatbot-costume-test.png)
+```blocks3
+wanneer op deze sprite wordt geklikt
 
---- hints --- --- hint --- Je chatbot zou nu ook **van uiterlijk moeten veranderen** afhankelijk van het gegeven antwoord. --- /hint --- --- hint --- Dit zijn de code blokken die je nodig hebt: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a changing costume](images/chatbot-costume-code.png) --- /hint --- --- /hints ---
++ verander uiterlijk naar (nano-a v)
+vraag [Wat is je naam?] en wacht
+```
 
---- /task ---
-
---- task ---
-
-Is het je opgevallen dat het uiterlijk van je chatbot hetzelfde blijft als de laatste keer dat je hem sprak? Kun je dit probleem oplossen?
-
-![Costume bug](images/chatbot-costume-bug-test.png)
-
-Testen en opslaan: Voer je code uit en typ "nee", zodat je chatbot er ongelukkig uit ziet. Wanneer je jouw code opnieuw uitvoert, moet je chatbot terug naar een lachend gezicht veranderen alvorens je naam te vragen.
-
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
-
---- hints --- --- hint --- Wanneer op de sprite **wordt geklikt**, moet je chatbot eerst **veranderen van uiterlijk** naar een lachend gezicht. --- /hint --- --- hint --- Dit zijn de code blokken die je nodig hebt: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) --- /hint --- --- hint --- Zo zou je code er moeten uitzien: ![Code for a costume fix](images/chatbot-costume-fix-code.png) --- /hint --- --- /hints ---
+![Testen van een uiterlijk-oplossing](images/chatbot-costume-fix-test.png)
 
 --- /task ---
-
---- challenge ---
-
-## Uitdaging: meer beslissingen
-
-Programmeer je chatbot om een ​​andere vraag te stellen - iets met een "ja" of "nee" antwoord. Kun je je chatbot laten reageren op het antwoord?
-
-![screenshot](images/chatbot-joke.png) --- /challenge ---
