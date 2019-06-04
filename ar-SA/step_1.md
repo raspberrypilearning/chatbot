@@ -35,15 +35,15 @@
 
 ### الأجهزة
 
-+ جهاز كمبيوتر يدعم تشغيل برنامج Scratch 3
+- جهاز كمبيوتر يدعم تشغيل برنامج Scratch 3
 
 ### البرامج
 
-+ برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon) أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff))
+- برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon) أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff))
 
 ### التنزيلات
 
-+ [ابحث عن الملفات لتحميلها هنا](http://rpf.io/p/en/chatbot-go).
+- [ابحث عن الملفات لتحميلها هنا](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@
 
 ## title: ما الذي ستتعلمه
 
-+ كيف تحصل على مدخلات من المستخدم
-+ كيف تستخدم الكتل البرمجية في سكراتش `if, then, else`{:class="block3control"}
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,10 +65,10 @@
 
 \--- no-print \---
 
-إذا كنت بحاجة إلى طباعة هذا المشروع، فالرجاء استخدام [نسخة متوافقة مع الطابعة](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
