@@ -35,15 +35,15 @@ Kliknite zeleno zastavo in nato kliknite znak chatbot, da začnete pogovor. Ko k
 
 ### Strojna oprema
 
-+ Računalnik, ki lahko izvaja Scratch 3
+- Računalnik, ki lahko izvaja Scratch 3
 
 ### Programska oprema
 
-+ Scratch 3 ( [spletu](https://rpf.io/scratchon) ali [brez povezave](https://rpf.io/scratchoff))
+- Scratch 3 ( [spletu](https://rpf.io/scratchon) ali [brez povezave](https://rpf.io/scratchoff))
 
 ### Prenosi
 
-+ [Poiščite datoteke za prenos](http://rpf.io/p/en/chatbot-go).
+- [Poiščite datoteke za prenos](http://rpf.io/p/en/chatbot-go).
 
 \--- / strni \---
 
@@ -53,23 +53,22 @@ Kliknite zeleno zastavo in nato kliknite znak chatbot, da začnete pogovor. Ko k
 
 ## naslov: Kaj se boste naučili
 
-+ Kako do uporabnika
-+ Kako uporabiti `if, nato, else`{: class = "block3control"} Blok za brisanje
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
-\--- / strni \---
-
-\--- kolaps \---
+\--- collapse \---
 
 * * *
 
 ## naslov: Dodatne opombe za vzgojitelje
 
-\--- brez tiskanja \---
+\--- no-print \---
 
-Če želite natisniti ta projekt, uporabite [tiskalnik prijazno različico](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\--- / brez natisa \---
+\--- /no-print \---
 
-Tukaj lahko najdete [zaključen projekt](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
-\--- / strni \---
+\--- /collapse \---
