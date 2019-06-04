@@ -35,15 +35,15 @@ Klõpsake rohelist lippu ja klõpsake vestluse alustamiseks vestlusbotil. Kui ve
 
 ### Riistvara
 
-+ Arvuti, mis suudab käivitada Scratch 3
+- Arvuti, mis suudab käivitada Scratch 3
 
 ### Tarkvara
 
-+ Scratch 3 (kas [online](https://rpf.io/scratchon) või [offline](https://rpf.io/scratchoff))
+- Scratch 3 (kas [online](https://rpf.io/scratchon) või [offline](https://rpf.io/scratchoff))
 
 ### Allalaadimised
 
-+ [Leidke allalaaditavad failid](http://rpf.io/p/en/chatbot-go).
+- [Leidke allalaaditavad failid](http://rpf.io/p/en/chatbot-go).
 
 \--- / kollaps \---
 
@@ -53,12 +53,11 @@ Klõpsake rohelist lippu ja klõpsake vestluse alustamiseks vestlusbotil. Kui ve
 
 ## pealkiri: Mida sa õpid
 
-+ Kuidas kasutajalt sisestada
-+ Kuidas kasutada `siis, siis veel`{: class = "block3control"} Kraapimisplokk
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
-\--- / kollaps \---
-
-\--- kollaps \---
+\--- collapse \---
 
 * * *
 
@@ -66,10 +65,10 @@ Klõpsake rohelist lippu ja klõpsake vestluse alustamiseks vestlusbotil. Kui ve
 
 \--- no-print \---
 
-Kui teil on vaja seda projekti printida, kasutage [printeri sõbralikku versiooni](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\--- / no-print \---
+\--- /no-print \---
 
-Lõpetatud [projekti leiate siit](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
-\--- / kollaps \---
+\--- /collapse \---
