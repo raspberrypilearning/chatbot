@@ -35,15 +35,15 @@ Napsauta vihreää lippua ja aloita keskustelu napsauttamalla chatbot-merkkiä. 
 
 ### Laitteisto
 
-+ Tietokone, joka pystyy suorittamaan Scratch 3: n
+- Tietokone, joka pystyy suorittamaan Scratch 3: n
 
 ### Ohjelmisto
 
-+ Scratch 3 (joko [verkossa](https://rpf.io/scratchon) tai [offline](https://rpf.io/scratchoff))
+- Scratch 3 (joko [verkossa](https://rpf.io/scratchon) tai [offline](https://rpf.io/scratchoff))
 
 ### Lataukset
 
-+ [Etsi ladattavat tiedostot täältä](http://rpf.io/p/en/chatbot-go).
+- [Etsi ladattavat tiedostot täältä](http://rpf.io/p/en/chatbot-go).
 
 \--- / romahtaa \---
 
@@ -53,12 +53,11 @@ Napsauta vihreää lippua ja aloita keskustelu napsauttamalla chatbot-merkkiä. 
 
 ## otsikko: Mitä opit
 
-+ Miten saada syötettä käyttäjältä
-+ Kuinka käytät `jos sitten muuta`{: class = "block3control"} Scratch block
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
-\--- / romahtaa \---
-
-\--- romahdus \---
+\--- collapse \---
 
 * * *
 
@@ -66,10 +65,10 @@ Napsauta vihreää lippua ja aloita keskustelu napsauttamalla chatbot-merkkiä. 
 
 \--- no-print \---
 
-Jos haluat tulostaa tämän projektin, käytä [tulostinystävällistä versiota](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\--- / ei-tulosta \---
+\--- /no-print \---
 
-Löydät [päättyneen hankkeen täällä](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
-\--- / romahtaa \---
+\--- /collapse \---
