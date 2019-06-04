@@ -65,10 +65,10 @@
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
