@@ -35,15 +35,15 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### 하드웨어
 
-+ 스크래치 3을 실행할 수 있는 컴퓨터
+- 스크래치 3을 실행할 수 있는 컴퓨터
 
 ### 소프트웨어
 
-+ 스크래치 3 ([온라인](https://rpf.io/scratchon) 또는 [오프라인](https://rpf.io/scratchoff))
+- 스크래치 3 ([온라인](https://rpf.io/scratchon) 또는 [오프라인](https://rpf.io/scratchoff))
 
 ### Downloads
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: 배우게 될 것
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-
--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,10 +65,10 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-이 프로젝트를 인쇄한다면 [프린트용 버전](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}을 사용해 주십시오.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
 You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
-\--- / collapse \---
+\--- /collapse \---
