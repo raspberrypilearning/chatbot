@@ -35,15 +35,15 @@ Klik på det grønne flag, og klik derefter på chatbot-tegn for at starte en sa
 
 ### Hardware
 
-+ Computer, der er i stand til at køre Scratch 3
+- Computer, der er i stand til at køre Scratch 3
 
 ### Software
 
-+ Scratch 3 (enten [online](https://rpf.io/scratchon) eller [offline](https://rpf.io/scratchoff))
+- Scratch 3 (enten [online](https://rpf.io/scratchon) eller [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
-+ [Find filer til download her](http://rpf.io/p/en/chatbot-go).
+- [Find filer til download her](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ Klik på det grønne flag, og klik derefter på chatbot-tegn for at starte en sa
 
 ## title: Du kommer til at lære følgende
 
-+ Sådan får du input fra en bruger
-+ Sådan bruges `hvis ellers`{: class = "block3control"} Scratch block
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,10 +65,10 @@ Klik på det grønne flag, og klik derefter på chatbot-tegn for at starte en sa
 
 \--- no-print \---
 
-Hvis du har brug for at udskrive dette projekt, skal du bruge den [ printervenlige version ](https://projects.raspberrypi.org/en/projects/chatbot/print) {: Target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\--- / no-print \---
+\--- /no-print \---
 
-Du kan finde det [færdige projekt her](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
