@@ -35,15 +35,15 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Hardware
 
-+ Un computer in grado di eseguire Scratch 3
+- Un computer in grado di eseguire Scratch 3
 
 ### Software
 
-+ Scratch 3 ([online](https://rpf.io/scratchon) o [offline](https://rpf.io/scratchoff))
+- Scratch 3 ([online](https://rpf.io/scratchon) o [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: Cosa imparerai
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-
-\--- / chiudi \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,7 +65,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/chatbot/print){:target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
