@@ -35,15 +35,15 @@
 
 ### Оборудование
 
-+ Компьютер, способный запускать Scratch 3
+- Компьютер, способный запускать Scratch 3
 
 ### Программное обеспечение
 
-+ Scratch 3 ([онлайн](https://rpf.io/scratchon) или [автономный (offline)](https://rpf.io/scratchoff))
+- Scratch 3 ([онлайн](https://rpf.io/scratchon) или [автономный (offline)](https://rpf.io/scratchoff))
 
 ### Загрузки
 
-+ [Найди файлы для скачивания здесь](http://rpf.io/p/en/chatbot-go).
+- [Найди файлы для скачивания здесь](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@
 
 ## title: Чему ты научишься
 
-+ Как получить введенные данные от пользователя
-+ Как использовать `если, то, иначе`{:class="block3control"} блок Scratch
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,10 +65,10 @@
 
 \--- no-print \---
 
-Если вы хотите напечатать этот проект, то воспользуйтесь [версией для печати](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Вы можете найти [завершенные проекты здесь](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
