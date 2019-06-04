@@ -53,9 +53,9 @@
 
 ## title: ما الذي ستتعلمه
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- استخدام البرمجة لتنسيق جملة في السكراتش (Scratch)
+- تعرف أن من الممكن استحدام المتغيرات لخزن مدخلات المستخدم
+- استخدام الاختيار المشروط للرد على مدخلات المستخدم في السكراتش (Scratch)
 
 \--- collapse \---
 
