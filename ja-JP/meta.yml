@@ -28,4 +28,6 @@ steps:
     title: "チャレンジ: 自分のチャットボット"
     challenge: true
   - 
-    title: 次は何をしますか？
+    title: Test yourself
+  - 
+    title: What next?
