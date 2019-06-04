@@ -35,15 +35,15 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Hardver
 
-+ Računalo sposobno za pokretanje Scratch 3 verzije
+- Računalo sposobno za pokretanje Scratch 3 verzije
 
 ### Softver
 
-+ Scratch 3 (za korištenje [online](https://rpf.io/scratchon) ili [offline](https://rpf.io/scratchoff))
+- Scratch 3 (za korištenje [online](https://rpf.io/scratchon) ili [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: Naučit ćeš
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,7 +65,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-Ako trebate ispisati ovaj projekt, koristite [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:Target="_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
