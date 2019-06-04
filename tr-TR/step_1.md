@@ -35,15 +35,15 @@ Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine 
 
 ### Donanım
 
-+ Scratch 3'ı çalıştırabilen bilgisayar
+- Scratch 3'ı çalıştırabilen bilgisayar
 
 ### Yazılım
 
-+ Scratch 3 ( [online](https://rpf.io/scratchon) ya da [offline](https://rpf.io/scratchoff))
+- Scratch 3 ( [online](https://rpf.io/scratchon) ya da [offline](https://rpf.io/scratchoff))
 
 ### İndirilenler
 
-+ [Buradan indirilecek dosyaları bulun](http://rpf.io/p/en/chatbot-go).
+- [Buradan indirilecek dosyaları bulun](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine 
 
 ## title: Ne öğreneceksiniz
 
-+ Bir kullanıcıdan giriş nasıl alınır
-+ `ise nasıl kullanılırsa, o zaman, başka`{: class = "block3control"} Kazı Kazan
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,10 +65,10 @@ Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine 
 
 \--- no-print \---
 
-Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"} kullanın.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Tamamlanan [projeyi burada bulabilirsiniz](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
