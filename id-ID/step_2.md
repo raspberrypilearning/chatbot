@@ -15,24 +15,18 @@ Sebelum Anda mulai membuat chatbot, Anda perlu memutuskan kepribadiannya. **Piki
 
 **Online:** buka proyek pembuka di [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-**Offline:** unduh proyek pemula dari [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} dan kemudian buka menggunakan editor offline.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Jika Anda perlu mengunduh dan menginstal editor Scratch offline, Anda dapat menemukannya di [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / tugas \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
-\--- tugas \---
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
-Proyek pemula berisi empat sprite karakter. Salah satunya adalah chatbot Anda.
+\--- task \---
 
-Anda dapat menggunakan sprite yang sudah dipilih, atau memilih yang lain dengan mengklik kanan yang Anda inginkan dan kemudian memilih **show** atau **hide** dari menu yang muncul.
+The starter project contains four character sprites. One of these will be your chatbot.
 
-![Pilih satu karakter](images/chatbot-characters.png)
+You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
 
-\--- /tugas \---
+![Choose a character](images/chatbot-characters.png)
 
-\--- tugas \---
-
-Simpan proyek Scratch Anda.
-
-[[[generic-scratch3-saving]]]
-
-\--- /tugas \---
+\--- /task \---
