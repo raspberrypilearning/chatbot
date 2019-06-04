@@ -35,15 +35,15 @@
 
 ### হার্ডওয়্যার
 
-+ কম্পিউটার স্ক্র্যাচ 3 চালানোর জন্য সক্ষম
+- কম্পিউটার স্ক্র্যাচ 3 চালানোর জন্য সক্ষম
 
 ### সফটওয়্যার
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 ### ডাউনলোডগুলি
 
-+ [এখানে ডাউনলোড করতে ফাইল খুঁজুন](http://rpf.io/p/en/chatbot-go)।
+- [এখানে ডাউনলোড করতে ফাইল খুঁজুন](http://rpf.io/p/en/chatbot-go)।
 
 -- /collapse \---
 
@@ -53,10 +53,9 @@
 
 ## যা শিখতে পারবেন
 
-+ কিভাবে একটি ব্যবহারকারী থেকে ইনপুট পেতে
-+ কিভাবে `ব্যবহার করতে হয়, তারপর, অন্য`{: class = "block3control"} স্ক্র্যাচ ব্লক
-
--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -64,12 +63,12 @@
 
 ## শিরোনাম: শিক্ষাবিদদের জন্য অতিরিক্ত নোট
 
-\----প্রিন্ট করা লাগবেনা --
+\--- no-print \---
 
-আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print) ব্যবহার করুন {: target = "_ blank"}।
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\----প্রিন্ট করা লাগবেনা --
+\--- /no-print \---
 
-আপনি এখানে [সম্পন্ন প্রকল্প খুঁজে পেতে পারেন](http://rpf.io/p/en/chatbot-get)।
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
--- /collapse \---
+\--- /collapse \---
