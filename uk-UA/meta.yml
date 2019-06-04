@@ -28,4 +28,6 @@ steps:
     title: "Challenge: завершення чат-боту"
     challenge: true
   - 
-    title: Що далі?
+    title: Test yourself
+  - 
+    title: What next?
