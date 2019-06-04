@@ -35,15 +35,15 @@ Klepněte na zelenou vlajku a potom klepněte na znak chatbot pro zahájení kon
 
 ### Hardware
 
-+ Počítač schopný spustit aplikaci Scratch 3
+- Počítač schopný spustit aplikaci Scratch 3
 
 ### Software
 
-+ Scratch 3 (buď [online](https://rpf.io/scratchon) nebo [offline](https://rpf.io/scratchoff) verzi)
+- Scratch 3 (buď [online](https://rpf.io/scratchon) nebo [offline](https://rpf.io/scratchoff) verzi)
 
 ### Stahování
 
-+ [Najít soubory ke stažení zde](http://rpf.io/p/en/chatbot-go).
+- [Najít soubory ke stažení zde](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ Klepněte na zelenou vlajku a potom klepněte na znak chatbot pro zahájení kon
 
 ## title: Co se naučíš
 
-+ Jak získat vstup od uživatele
-+ Jak používat blok `jestliže se jedná o jiný`{: class = "block3control"}
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,10 +65,10 @@ Klepněte na zelenou vlajku a potom klepněte na znak chatbot pro zahájení kon
 
 \--- no-print \---
 
-Potřebujete-li tento projekt vytisknout, použijte verzi [pro-tisk](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Nalezený projekt [naleznete zde](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
