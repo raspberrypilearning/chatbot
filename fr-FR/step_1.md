@@ -35,15 +35,15 @@ Cliquez sur le drapeau vert, puis sur le personnage du chatbot pour lancer une c
 
 ### Matériel informatique
 
-+ Un ordinateur capable d'exécuter Scratch 3
+- Un ordinateur capable d'exécuter Scratch 3
 
 ### Logiciels
 
-+ Scratch 3 (soit [en ligne](https://rpf.io/scratchon) ou [hors ligne](https://rpf.io/scratchoff))
+- Scratch 3 (soit [en ligne](https://rpf.io/scratchon) ou [hors ligne](https://rpf.io/scratchoff))
 
 ### Téléchargements
 
-+ [Trouver les fichiers à télécharger ici](http://rpf.io/p/en/chatbot-go).
+- [Trouver les fichiers à télécharger ici](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ Cliquez sur le drapeau vert, puis sur le personnage du chatbot pour lancer une c
 
 ## title: Ce que tu vas apprendre
 
-+ Comment obtenir les commentaires d'un utilisateur
-+ Comment utiliser le `si, alors, sinon`{: class = "block3control"} bloc Scratch
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,10 +65,10 @@ Cliquez sur le drapeau vert, puis sur le personnage du chatbot pour lancer une c
 
 \--- no-print \---
 
-Si tu as besoin d'imprimer ce projet, merci d'utiliser la [Version imprimable](https://projects.raspberrypi.org/en/projects/chatbot/print) {: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
