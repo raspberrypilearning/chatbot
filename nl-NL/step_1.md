@@ -35,15 +35,15 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 ### Hardware
 
-+ Een computer die Scratch 3 kan uitvoeren
+- Een computer die Scratch 3 kan uitvoeren
 
 ### Software
 
-+ Scratch 3 (of [online](https://rpf.io/scratchon) of [offline](https://rpf.io/scratchoff))
+- Scratch 3 (of [online](https://rpf.io/scratchon) of [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
-+ [Zoek hier bestanden om te downloaden](http://rpf.io/p/en/chatbot-go).
+- [Zoek hier bestanden om te downloaden](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 ## title: Wat ga je leren
 
-+ Hoe krijg je invoer van een gebruiker
-+ Hoe gebruik je het `als, dan, anders`{:class="block3control"} Scratch blok
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,10 +65,10 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 \--- no-print \---
 
-Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Hier kun je het [voltooide project](http://rpf.io/p/en/chatbot-get) downloaden.
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
