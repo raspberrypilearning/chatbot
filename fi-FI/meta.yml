@@ -28,4 +28,6 @@ steps:
     title: "Haaste: lopeta chatbot"
     challenge: true
   - 
-    title: Mitä seuraavaksi?
+    title: Test yourself
+  - 
+    title: What next?
