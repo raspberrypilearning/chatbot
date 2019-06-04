@@ -35,15 +35,15 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Hardware
 
-+ Computer capable of running Scratch 3
+- Computer capable of running Scratch 3
 
 ### Software
 
-+ Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: What you will learn
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
