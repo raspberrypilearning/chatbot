@@ -35,15 +35,15 @@ Klik pada bendera hijau, dan kemudian klik pada karakter chatbot untuk memulai p
 
 ### Perangkat keras
 
-+ Komputer yang mampu menjalankan Scratch 3
+- Komputer yang mampu menjalankan Scratch 3
 
 ### Perangkat lunak
 
-+ Scratch 3 (baik [daring](https://rpf.io/scratchon) atau [luring](https://rpf.io/scratchoff))
+- Scratch 3 (baik [daring](https://rpf.io/scratchon) atau [luring](https://rpf.io/scratchoff))
 
 ### Unduh
 
-+ [Temukan file untuk diunduh di sini](http://rpf.io/p/en/chatbot-go).
+- [Temukan file untuk diunduh di sini](http://rpf.io/p/en/chatbot-go).
 
 \--- /gulung \---
 
@@ -53,23 +53,22 @@ Klik pada bendera hijau, dan kemudian klik pada karakter chatbot untuk memulai p
 
 ## judul: Apa yang akan Anda pelajari
 
-+ Cara mendapatkan masukan dari pengguna
-+ Cara menggunakan `jika, kemudian, kalau tidak`{: class = "block3control"} Blok gores
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
-\--- /jatuh \---
-
-\--- jatuh \---
+\--- collapse \---
 
 * * *
 
 ## judul: Catatan tambahan untuk pendidik
 
-\--- tanpa cetak \---
+\--- no-print \---
 
-Jika Anda perlu mencetak proyek ini, silakan gunakan [versi ramah-printer](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\--- / tanpa cetak \---
+\--- /no-print \---
 
-Anda dapat menemukan proyek [selesai di sini](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
-\--- /jatuh \---
+\--- /collapse \---
