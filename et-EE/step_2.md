@@ -15,24 +15,18 @@ Enne vestluse alustamise alustamist peate otsustama, milline on tema isikupära.
 
 **Online:** avage stardiprojekt [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-**Offline:** laadige käivitusprojekt [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} ja seejärel avage see offline redaktori abil.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Kui teil on vaja alla laadida ja installida Scratch offline redaktor, leiad selle aadressil [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / ülesanne \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
-\--- ülesanne \---
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
-Stardiprojekt sisaldab nelja tähemärki. Üks neist on teie jutukas.
+\--- task \---
 
-Võite kasutada kas sprite, mis on juba valitud, või teist valida paremklõpsu, mida soovite ja seejärel valides **näita** või **peida** menüüst, mis ilmub.
+The starter project contains four character sprites. One of these will be your chatbot.
 
-![Valige märk](images/chatbot-characters.png)
+You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
 
-\--- / ülesanne \---
+![Choose a character](images/chatbot-characters.png)
 
-\--- ülesanne \---
-
-Salvestage oma Scratch'i projekt.
-
-[[[generic-scratch3-saving]]]
-
-\--- / ülesanne \---
+\--- /task \---
