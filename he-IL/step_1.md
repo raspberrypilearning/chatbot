@@ -35,15 +35,15 @@
 
 ### חומרה
 
-+ מחשב המסוגל להריץ Scratch 3
+- מחשב המסוגל להריץ Scratch 3
 
 ### תוכנה
 
-+ Scratch 3 (או [ מקוון ](https://rpf.io/scratchon) או [ במצב לא מקוון ](https://rpf.io/scratchoff))
+- Scratch 3 (או [ מקוון ](https://rpf.io/scratchon) או [ במצב לא מקוון ](https://rpf.io/scratchoff))
 
 ### הורדות
 
-+ [מצא קבצים להורדה כאן](http://rpf.io/p/en/chatbot-go).
+- [מצא קבצים להורדה כאן](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@
 
 ## title: מה תלמד
 
-+ כיצד לקבל קלט ממשתמש
-+ כיצד להשתמש `, אם כן, אחר`{: class = "block3control"} לגרד את החסימה
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,10 +65,10 @@
 
 \--- no-print \---
 
-אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/chatbot/print).
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\--- / no-print \---
+\--- /no-print \---
 
-אתה יכול למצוא את פרויקט [הושלם כאן](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
