@@ -35,15 +35,15 @@ Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar un
 
 ### Maquinari
 
-+ Ordinador capaç d'executar Scratch 3
+- Ordinador capaç d'executar Scratch 3
 
 ### Programari
 
-+ Scratch 3 ( [en línia](https://rpf.io/scratchon) o [fora de línia](https://rpf.io/scratchoff))
+- Scratch 3 ( [en línia](https://rpf.io/scratchon) o [fora de línia](https://rpf.io/scratchoff))
 
 ### Descàrregues
 
-+ [ Trobeu fitxers per descarregar aquí ](http://rpf.io/p/en/chatbot-go).
+- [ Trobeu fitxers per descarregar aquí ](http://rpf.io/p/en/chatbot-go).
 
 \--- / collapse \---
 
@@ -53,10 +53,9 @@ Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar un
 
 ## títol: Què aprendràs
 
-+ Com obtenir informació d'un usuari
-+ Com utilitzar el bloc d'Scratch `si, després, sino `{:class="block3control"} Scratch block
-
-\--- / collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,10 +65,10 @@ Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar un
 
 \--- no-print \---
 
-Si necessites imprimir aquest projecte, si us plau, utilitza la [Versió per imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\--- / no-print \---
+\--- /no-print \---
 
-Podeu trobar el [projecte complet aquí](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
-\--- / collapse \---
+\--- /collapse \---
