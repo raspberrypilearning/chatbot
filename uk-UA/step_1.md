@@ -35,15 +35,15 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ### Обладнання
 
-+ Комп'ютер, що підтримує Scratch 3
+- Комп'ютер, що підтримує Scratch 3
 
 ### Програмне забезпечення
 
-+ Scratch 3 ([онлайн](https://rpf.io/scratchon) або[офлайн](https://rpf.io/scratchoff))
+- Scratch 3 ([онлайн](https://rpf.io/scratchon) або[офлайн](https://rpf.io/scratchoff))
 
 ### Завантаження
 
-+ [Знайдіть файли для завантаження тут](http://rpf.io/p/en/chatbot-go).
+- [Знайдіть файли для завантаження тут](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## title: Що ви вивчите
 
-+ Як отримати дані від користувача
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,10 +65,10 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- no-print \---
 
-Якщо вам потрібно роздрукувати цей проект, будь ласка скористайтеся [ версією для друку ](https://projects.raspberrypi.org/en/projects/chatbot/print) {: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Тут можна знайти [завершений проект](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
