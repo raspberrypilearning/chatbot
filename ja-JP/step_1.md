@@ -35,15 +35,15 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### ハードウェア
 
-+ Scratch 3を実行できるコンピュータ
+- Scratch 3を実行できるコンピュータ
 
 ### ソフトウェア
 
-+ Scratch 3 ([オンライン](https://rpf.io/scratchon)または[オフライン](https://rpf.io/scratchoff))
+- Scratch 3 ([オンライン](https://rpf.io/scratchon)または[オフライン](https://rpf.io/scratchoff))
 
 ### Downloads
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: 学習すること
 
-+ How to get input from a user
-+ How to use the `if, then, else`{:class="block3control"} Scratch block
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -66,7 +65,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_ blank"}を使用してください。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
