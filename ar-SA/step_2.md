@@ -15,18 +15,18 @@
 
 **بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**بدون اتصال انترنيت** حمّل المشروع المبدئي من [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} ثم اقتحه باستخدام محرر البرنامج بدون اتصال انترنيت.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+لتنزيل و تركيب محرر السكراتش (Scratch) على جهازك الشخصي, يمكنك الحصول عليه من هنا [https://rpf.io/scratchoff](rpf.io/scratchoff) \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+المشروع المبدئي يحوي اربع شخصيات. واحدة منهم ستكون الروبوت الخاص بك.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+يمكنك استخدام الشخصية التي تم اختيارها مسبقاً، أو تختار واحدة مختلفة بالضغط بزر الماوس الايمن على الشخصية التي ترغب بها وثم تختار **أظهر** أو <0>أخف<0> من القائمة التي تظهر.</p> 
 
-![Choose a character](images/chatbot-characters.png)
+![اختر شخصية](images/chatbot-characters.png)
 
 \--- /task \---
