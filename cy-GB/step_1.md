@@ -35,15 +35,15 @@ Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae
 
 ### Caledwedd
 
-+ Cyfrifiadur sy'n gallu rhedeg Scratch 3
+- Cyfrifiadur sy'n gallu rhedeg Scratch 3
 
 ### Meddalwedd
 
-+ Scratch 3 (naill ai [ar-lein](https://rpf.io/scratchon) neu [all-lein](https://rpf.io/scratchoff))
+- Scratch 3 (naill ai [ar-lein](https://rpf.io/scratchon) neu [all-lein](https://rpf.io/scratchoff))
 
 ### Lawrlwythiadau
 
-+ [Ffeiliau i'w lawrlwytho yma](http://rpf.io/p/en/chatbot-go).
+- [Ffeiliau i'w lawrlwytho yma](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,12 +53,11 @@ Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae
 
 ## title: Yr hyn byddi di'n ei ddysgu
 
-+ Sut i gael mewnbwn gan ddefnyddiwr
-+ Sut i ddefnyddio'r {:class="block3control"} bloc Scratch `os, wedyn, fel arall`
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
-\--- /collapse \---
-
-\---collapse\---
+\--- collapse \---
 
 * * *
 
@@ -66,10 +65,10 @@ Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae
 
 \--- no-print \---
 
-Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Gallwch ddod o hyd i'r prosiect gorffenedig [ yma ](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
