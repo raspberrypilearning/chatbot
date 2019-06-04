@@ -35,15 +35,15 @@ Bấm vào cờ xanh, rồi bấm vào ký tự chatbot để bắt đầu một
 
 ### Phần cứng
 
-+ Máy tính có khả năng chạy Scratch 3
+- Máy tính có khả năng chạy Scratch 3
 
 ### Phần mềm
 
-+ Scratch 3 ([trực tuyến](https://rpf.io/scratchon) hoặc [ngoại tuyến](https://rpf.io/scratchoff))
+- Scratch 3 ([trực tuyến](https://rpf.io/scratchon) hoặc [ngoại tuyến](https://rpf.io/scratchoff))
 
 ### Tải xuống
 
-+ [Tìm tập tin để tải về tại đây](http://rpf.io/p/en/chatbot-go).
+- [Tìm tập tin để tải về tại đây](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,10 +53,9 @@ Bấm vào cờ xanh, rồi bấm vào ký tự chatbot để bắt đầu một
 
 ## tiêu đề: bạn sẽ học được gì
 
-+ Cách nhận đầu vào từ người dùng
-+ Cách sử dụng `if, sau đó, khác`{: class = "block3control"} Khối cào
-
-\--- /collapse \---
+- Use code to concatonate strings in Scratch
+- Know that variables can be used to store user input
+- Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -64,12 +63,12 @@ Bấm vào cờ xanh, rồi bấm vào ký tự chatbot để bắt đầu một
 
 ## tiêu đề: Ghi chú bổ sung cho các nhà giáo dục
 
-\--- không in \---
+\--- no-print \---
 
-Nếu bạn cần in dự án này, vui lòng sử dụng [ bản in ](https://projects.raspberrypi.org/en/projects/chatbot/print) {: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\--- / không in \---
+\--- /no-print \---
 
-Bạn có thể tìm thấy [dự án hoàn thành ở đây](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
