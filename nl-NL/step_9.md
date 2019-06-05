@@ -16,3 +16,10 @@ Je klikt op de groene vlag om te starten, je gebruikt de muis om het potlood te 
 
 ![showcase](images/paint-box-showcase.png) 
 --- /print-only ---
+
+
+Door de community geleverde vertaling
+
+Dit project werd vertaald door Cor Groot en gecontroleerd door Robert-Jan Kempenaar.
+
+Onze geweldige vertalers helpen ons om kinderen over de hele wereld de kans te geven te leren coderen. Jij kunt ons helpen nog meer kinderen te bereiken door onze projecten te vertalen - lees meer op [rpf.io/translators](https://rpf.io/translators).
