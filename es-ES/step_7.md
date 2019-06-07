@@ -8,7 +8,7 @@ You can also program your chatbot to change its location!
 
 Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- consejos \---
+\--- hints \---
 
 \--- hint \---
 
@@ -36,7 +36,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu c'odigo:
 
 ```blocks3
 ask [Do you want to go to the moon?] and wait
