@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![завершенный проект](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -53,9 +53,9 @@
 
 ## title: Чему ты научишься
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Использовать код для объединения строк в Scratch
+- Узнаешь, что переменные могут быть использованы для хранения ввода пользователя
+- Использовать операторы условного выбора для ответа на ввод пользователя в Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -65,10 +65,10 @@
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Если вы хотите напечатать этот проект, то воспользуйтесь [версией для печати](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Вы можете найти [завершенные проекты здесь](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
