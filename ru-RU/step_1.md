@@ -65,7 +65,7 @@
 
 \--- no-print \---
 
-Если вы хотите напечатать этот проект, то воспользуйтесь [версией для печати](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_blank"}.
+Если вы хотите напечатать этот проект, то воспользуйтесь [версией для печати](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
