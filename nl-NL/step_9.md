@@ -19,30 +19,30 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script></p>
 
-<pre><code>var quiztitle// = "Bobby's Sample Quiz";
+<pre><code>var quiztitle// = "Bobby's Voorbeeld Quiz";
 
 /**
-* Set the information about your questions here. The correct answer string needs to match
-* the correct choice exactly, as it does string matching. (case sensitive)
+* Plaats hier informatie over je vragen. De juiste antwoordstring moet precies overeenkomen met
+*, de juiste keuze, net als het combineren van strings. (case sensitive)
 *
 */
 </code></pre>
 
 <p>/**
-*Let's create the randomization of the questions!
+*Laten we de vragen willekeurig maken!
 */</p>
 
 <p>function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;</p>
+ var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// While there remain elements to shuffle...
+<p>// Zolang er nog elementen zijn om te shufflen...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Pick a remaining element...
-randomIndex = Math.floor(Math.random() * currentIndex);
+<pre><code>// Kies een overgebleven element...
+randomIndex = Math.floor(Math.random()*currentIndex);
 currentIndex -= 1;
 
-// And swap it with the current element.
+// en verwissel het met het huidige element.
 temporaryValue = array[currentIndex];
 array[currentIndex] = array[randomIndex];
 array[randomIndex] = temporaryValue;
