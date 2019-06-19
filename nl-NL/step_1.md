@@ -53,9 +53,9 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 ## title: Wat ga je leren
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Gebruik code om strings in Scatch samen te voegen
+- Weet dat variabelen kunnen worden gebruikt om gebruikersinvoer op te slaan
+- Gebruik voorwaardelijke selectie om te reageren op gebruikersinvoer in Scratch \--- /collapse \---
 
 \--- collapse \---
 
