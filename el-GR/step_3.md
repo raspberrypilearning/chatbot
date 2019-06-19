@@ -1,10 +1,10 @@
 ## Ένα ομιλόν chatbot
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Τώρα που έχεις ένα chatbot με προσωπικότητα, θα το προγραμματίσεις για να σου μιλά.
 
-\--- task --
+\--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Κάνε κλικ στο chatbot, και πάτα αυτόν τον κώδικα έτσι ώστε `όταν πατιέται`{:class="block3events"}, να `ρωτάει το όνομα σου`{:class="block3sensing"} και μετά να `λέει "Τι υπέροχο όνομα!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -16,9 +16,9 @@ say [What a lovely name!] for (2) seconds
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+Κάνε κλικ στο chatbot για να δοκιμάσεις τον κωδικα. Όταν το chatbot ρωτήσει το όνομα σου, γράψε το στο κουτί που εμφανίζεται στο κάτω μέρος του σκηνικού, και μετά κάνε κλικ στο μπλε σημάδι, ή πάτα <kbd>Enter</kbd>.
 
 ![Δοκιμάζοντας μία απάντηση του ChatBot](images/chatbot-ask-test1.png)
 
@@ -26,11 +26,11 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+Αυτή τη στιγμή, το chatbot απαντάει "Τι υπέροχο όνομα!" κάθε φορά που απαντάς. Μπορείς να κάνεις το chatbot να απαντάει πιο προσωπικά, έτσι ώστε η απάντηση να είναι διαφορετική κάθε φορά που πληκτρολογείς διαφορετικό όνομα.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+Άλλαξε τον κώδικα του chatbot σε `join`{:class="block3operators"} "Γεια σου" μαζί με την `απάντηση`{:class="block3sensing"} στην ερώτηση "Πώς σε λένε;", έτσι ώστε ο κώδικας να μοιάζει έτσι:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task --
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+Αποθηκεύοντας την απάντηση σε μία **μεταβλητή**, μπορείς να τη χρησιμοποιήσεις οπουδήποτε στο έργο σου.
 
-Create a new variable called `name`{:class="block3variables"}.
+Δημιούργησε μία νέα μεταβλητή που θα την ονομάσεις `όνομα`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,7 +56,7 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task --
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Τώρα άλλαξε τον κώδικα του chatbot για να θέσεις τη μεταβλητή `όνομα`{:class="block3variables"} ίση με την `απάντηση`{:class="block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -68,10 +68,10 @@ ask [What's your name?] and wait
 say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+Ο κώδικάς σου θα πρέπει να λειτουργεί όπως πριν: το chatbot σου θα πρέπει να πει "Γεια" χρησιμοποιώντας το όνομά που πληκτρολόγησες.
 
 ![Δοκιμάζοντας μια προσωπική απάντηση](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Δοκίμασε ξανά το πρόγραμμά σου. Παρατήρησε ότι η απάντηση που πληκτρολογείς αποθηκεύεται στη μεταβλητή `όνομα`{:class="block3variables"} κι επίσης εμφανίζεται στην πάνω αριστερά γωνία του σκηνικού. Για να την κάνεις να εξαφανιστεί από το σκηνικό, πήγαινε στην ομάδα των μπλοκ `Δεδομένα`{:class="block3variables"} και κάνε κλικ στο κουτί δίπλα στο `όνομα`{:class="block3variables"} ώστε να μην είναι επιλεγμένο.
