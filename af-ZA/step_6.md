@@ -1,5 +1,5 @@
-## Challenge: more decisions
+## Uitdaging: meer besluite
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+Program jou chatbot om 'n ander vraag te vra wat met "ja" of "nee" beantwoord kan word. Kan jy jou chatbot anders reageer afhangende van watter antwoord dit ontvang?
 
-![screenshot](images/chatbot-joke.png)
+![kiekie](images/chatbot-joke.png)
