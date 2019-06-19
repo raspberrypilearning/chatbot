@@ -1,12 +1,12 @@
 ## Λαμβάνοντας αποφάσεις
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Μπορείς να προγραμματίσεις το chatbot για να αποφασίσει τι να κάνει με βάση τις απαντήσεις που λαμβάνει.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Αρχικά, θα κάνεις το chatbot να ρωτήσει μία ερώτηση που μπορεί να απαντηθεί με "ναι" ή "όχι".
 
-\--- task --
+\--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Άλλαξε τον κώδικα του chatbot. Το chatbot θα πρέπει να ρωτήσει την ερώτηση "Είσαι καλά όνομα", χρησιμοποιώντας τη μεταβλητή `όνομα`{:class="block3variables"}. Μετά θα πρέπει να απαντήσει "Χαίρομαι που το ακούω!" `αν`{:class="block3control"} η απάντηση που λαμβάνει είναι "ναι", αλλά να μην πει τίποτα αν η απάντηση είναι "όχι".
 
 ![Δοκιμή απάντησης chatbot](images/chatbot-if-test1-annotated.png)
 
