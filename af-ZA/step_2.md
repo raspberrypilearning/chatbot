@@ -1,32 +1,32 @@
-## Your chatbot
+## Jou chatbot
 
-\--- task \---
+\--- taak \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Voordat jy begin met die skep van jou chatbot, moet jy besluit wat sy persoonlikheid is. **Dink aan die volgende vrae**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Wat is die naam van die chatbot?
++ Waar woon dit?
++ Is dit gelukkig? Ernstig? Snaaks? Skaam? Vriendelik?
++ Wat hou dit van en hou nie van?
 
-\--- /task \---
+\--- / taak \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- taak \--- Maak die Chatbot Scratch-aanvangsprojek oop.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Aanlyn:** die voorgeregsprojek oop by [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+As jy 'n Scratch-rekening het, kan jy 'n kopie maak deur **Remix**klik.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Vanlyn:** laai die aanvangsprojek van [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} af en open dit dan met die offline redakteur.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+As u die Scratch offline redakteur moet aflaai en installeer, kan u dit by [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / taak \---
 
-\--- task \---
+\--- taak \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Die voorgeregsprojek bevat vier karakters. Een van hierdie sal jou chatbot wees.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Jy kan ook die sprite wat reeds gekies is gebruik, of 'n ander een kies deur regs te kliek op die een wat jy wil hê en dan **kies** of **versteek** in die kieslys wat verskyn.
 
-![Choose a character](images/chatbot-characters.png)
+![Kies 'n karakter](images/chatbot-characters.png)
 
-\--- /task \---
+\--- / taak \---
