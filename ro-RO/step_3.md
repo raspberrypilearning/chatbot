@@ -14,7 +14,7 @@ ask [What's your name?] and wait
 say [What a lovely name!] for (2) seconds
 ```
 
-\--- /proba\---
+\--- /task \---
 
 \--- task \---
 
@@ -26,7 +26,7 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 \--- /task \---
 
-\--- proba\---
+\--- task \---
 
 Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
 
@@ -44,7 +44,7 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- /task \---
 
-\--- proba\---
+\--- task \---
 
 By storing the answer in a **variable**, you can use it anywhere your project.
 
@@ -54,7 +54,7 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- /task \---
 
-\--- proba\---
+\--- task \---
 
 Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
