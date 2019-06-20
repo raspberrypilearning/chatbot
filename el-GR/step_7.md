@@ -12,7 +12,7 @@
 
 \--- hint \---
 
-Το chatbot σου πρέπει να `ρωτήσει "Θέλεις να πας στο φεγγάρι;"`{:class="block3sensing"} και `εάν`{:class="block3control"} `απαντήσεις`{:class="block3sensing"} "ναι", θα πρέπει `να αλλάξει το σκηνικό στο φεγγάρι`{:class="block3looks"}.
+Το chatbot σου πρέπει να `ρωτήσει "Θέλεις να πας στο διάστημα;"`{:class="block3sensing"} και `εάν`{:class="block3control"} `απαντήσεις`{:class="block3sensing"} "ναι", θα πρέπει `να αλλάξει το σκηνικό στο διάστημα`{:class="block3looks"}.
 
 \--- /hint \---
 
@@ -23,9 +23,9 @@
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+switch backdrop to (Galaxy v)
 
-ask [Do you want to go to the moon?] and wait
+ask [Do you want to go to the Galaxy?] and wait
 
 if <(answer) = [yes]> then 
 
@@ -39,9 +39,9 @@ end
 Έτσι πρέπει να μοιάζει ο κώδικας σου:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
+ask [Do you want to go to the Galaxy?] and wait
 if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+  switch backdrop to (Galaxy v)
 end
 ```
 
