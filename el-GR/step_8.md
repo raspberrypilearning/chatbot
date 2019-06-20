@@ -1,6 +1,6 @@
 ## Πρόκληση: ολοκλήρωσε το chatbot σου
 
-Use what you've learned to finish creating your interactive chatbot. Ακολουθούν μερικές ιδέες:
+Χρησιμοποίησε αυτά που έχεις μάθει για να ολοκληρώσεις τη δημιουργία του διαδραστικού chatbot σου. Ακολουθούν μερικές ιδέες:
 
 ![ChatBot ιδέες](images/chatbot-ideas1.png)
 
@@ -8,4 +8,4 @@ Use what you've learned to finish creating your interactive chatbot. Ακολο�
 
 ![ChatBot ιδέες](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+Μόλις τελειώσεις το chatbot, κάλεσε τους φίλους σου να συνομιλήσουν με αυτό! Τους αρέσει; Εντοπίζουν κάποιο πρόβλημα;
