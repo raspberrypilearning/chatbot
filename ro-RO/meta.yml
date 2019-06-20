@@ -9,7 +9,7 @@ version: 4.1.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Chatbot
+    title: Introducere
   - 
     title: Chatbot-ul tău
   - 
@@ -30,4 +30,4 @@ steps:
   - 
     title: Test yourself
   - 
-    title: What next?
+    title: Ce urmează?
