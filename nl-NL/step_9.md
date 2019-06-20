@@ -1,4 +1,4 @@
-## Wat nu?
+## Test jezelf
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,9 +23,9 @@
 
 /**
 * Plaats hier informatie over je vragen. De juiste antwoordstring moet precies overeenkomen met
-*, de juiste keuze, net als het combineren van strings. (case sensitive)
+*, de juiste keuze, net als het combineren van strings. (hoofdlettergevoelig)
 *
-*/
+* /
 </code></pre>
 
 <p>/**
