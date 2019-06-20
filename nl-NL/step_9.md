@@ -189,9 +189,9 @@ jQuery (document).ready (functie ($) {
     }
 
     /**
-     * After a selection is submitted, checks if its the right answer
+     * Controleert of dit het goede antwoord is nadat een keuze is ingevoerd
      *
-     * @param {choice} number The li zero-based index of the choice picked
+     * @param {choice} number De li nul-gebaseerde index van de ingevoerde keuze
      */
     function processQuestion(choice){
         if(quiz[currentquestion]['choices'][choice] == quiz[currentquestion]['correct']){
@@ -225,7 +225,7 @@ jQuery (document).ready (functie ($) {
     }
 
     /**
-     * Sets up the event listeners for each button.
+     * Hiermee worden de event listeners voor iedere knop ingesteld.
      */
     function setupButtons(){
         $('.choice').on('click', function(){
@@ -244,7 +244,7 @@ jQuery (document).ready (functie ($) {
     }
 
     /**
-     * Quiz ends, display a message.
+     * Quiz eindigt, geef een bericht weer.
      */
     function endQuiz(){
         $('#explanation').empty();
@@ -252,15 +252,15 @@ jQuery (document).ready (functie ($) {
         $('#choice-block').empty();
         $('#submitbutton').remove();
         $('.rsform-block-submit').addClass('show');
-        $('#question').text("You got " + score + " out of " + quiz.length + " correct.");
+        $('#question').text("Je hebt " + score + " uit" + quiz.length + " correct.");
         $(document.createElement('h4')).addClass('score').text(Math.round(score/quiz.length * 100) + '%').insertAfter('#question');         
     }
 
     /**
-     * Runs the first time and creates all of the elements for the quiz
+     * Draait de eerste keer en maakt alle elementen voor de quiz
      */
     function init(){
-        //add title
+        //voef titel toe
         if(typeof quiztitle !== "undefined" &amp;&amp; $.type(quiztitle) === "string"){
             $(document.createElement('h2')).text(quiztitle).appendTo('#frame');
         } //else {
@@ -269,26 +269,26 @@ jQuery (document).ready (functie ($) {
 
 <p>//          }</p>
 
-<pre><code>        //add pager and questions
+<pre><code>        //voeg pager toe en vragen
         if(typeof quiz !== "undefined" &amp;&amp; $.type(quiz) === "array"){
-            //add pager
+            //voeg pager toe
             $(document.createElement('p')).addClass('pager').attr('id','pager').text('Question 1 of ' + quiz.length).appendTo('#frame');
-            //add first question
+            //voeg eerste vraag toe
             $(document.createElement('h3')).addClass('question').attr('id', 'question').text(quiz[0]['question']).appendTo('#frame');
-            //add image if present
+            //voeg afbeelding toe indien aanwezig
             if(quiz[0].hasOwnProperty('image') &amp;&amp; quiz[0]['image'] != ""){
                 $(document.createElement('img')).addClass('question-image').attr('id', 'question-image').attr('src', quiz[0]['image']).attr('alt', htmlEncode(quiz[0]['question'])).appendTo('#frame');
             }
 
             $(document.createElement('p')).addClass('explanation').attr('id','explanation').html('').appendTo('#frame');
 
-            //questions holder
+            //vragen-houder
             $(document.createElement('ul')).attr('id', 'choice-block').appendTo('#frame');
 
-            //add choices
+            //voeg keuzes toe
             addChoices(quiz[0]['choices']);
 
-            //add submit button
+            //voeg verzendknop toe
             $(document.createElement('div')).addClass('btn-success choice-box').attr('id', 'submitbutton').text('- CHECK ANSWER -').css({'font-weight':'bold', 'color':'#fff','padding':'30px 0', 'border-radius':'10px'}).appendTo('#frame');
 
             setupButtons();
