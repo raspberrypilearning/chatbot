@@ -1,14 +1,14 @@
 ## Αλλάζοντας τοποθεσία
 
-You can also program your chatbot to change its location!
+Μπορείς επίσης να προγραμματίσεις το chatbot να αλλάζει τοποθεσία!
 
 ![Δοκιμάζοντας ένα μεταβαλλόμενο υπόβαθρο](images/chatbot-backdrop-moon.png)
 
-\--- task --
+\--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Μπορείς να προγραμματίσεις το chatbot να ρωτά "Θα ήθελες να πας στο φεγγάρι;" και στη συνέχεια να αλλάζει τοποθεσία αν απαντήσεις "ναι";
 
-\--- υποδείξεις \---
+\--- hints \---
 
 \--- hint \---
 
