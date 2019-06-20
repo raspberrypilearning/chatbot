@@ -65,21 +65,21 @@ end
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Μπορείς να τοποθετήσεις οποιονδήποτε κώδικα μέσα σε ένα `εάν, τότε αλλιώς`{:class="block3control"} block, όχι μόνο κώδικα για να κάνεις το chatbot να μιλά!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Αν κάνεις κλικ στην καρτέλα **Ενδυμασία** του chatbot, θα δεις ότι έχει περισσότερες από μία ενδυμασίες.
 
 ![chatbot ενδυμασίες](images/chatbot-costume-view-annotated.png)
 
-\--- task --
+\--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Άλλαξε τον κώδικα του chatbot σου έτσι ώστε το chatbot να αλλάζει ενδυμασίες όταν πληκτρολογείς την απάντησή σου.
 
 ![Δοκιμάζοντας μία μεταβαλλόμενη ενδυμασία](images/chatbot-costume-test1.png)
 
 ![Δοκιμάζοντας μία μεταβαλλόμενη ενδυμασία](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Αλλάξτε τον κώδικα μέσα στο `αν, τότε, αλλιώς`{:class="block3control"} μπλοκ σε `αλλαγή ενδυμασίας`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -99,19 +99,19 @@ else
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Δοκίμασε και αποθήκευσε τον κώδικά σου. Θα πρέπει να δεις το πρόσωπο του chatbot να αλλάζει ανάλογα με την απάντησή σου.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Παρατήρησες ότι μετά την αλλαγή της ενδυμασίας του chatbot, παραμένει έτσι και δεν αλλάζει πίσω σε αυτή που ήταν στην αρχή;
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Μπορείς να το δοκιμάσεις: εκτέλεσε τον κωδικό σου και απάντησε "όχι" έτσι ώστε το πρόσωπο του chatbot να αλλάξει σε μια δυστυχισμένη εμφάνιση. Στη συνέχεια, εκτέλεσε τον κωδικά σου και παρατήρησε ότι το chatbot σου δεν αλλάζει ξανά στην χαρούμενη εμφάνιση πριν ζητήσει το όνομά σου.
 
 ![Σφάλμα ενδυμασίας](images/chatbot-costume-bug-test.png)
 
-\--- task --
+\--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Για να διορθώσεις αυτό το πρόβλημα, πρόσθεσε στον κώδικα του chatbot το `αλλαγή ενδυμασίας `{:class="block3looks"} στην αρχή `όταν πατηθεί`{:class="block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
