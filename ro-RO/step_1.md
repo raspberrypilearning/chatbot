@@ -33,11 +33,11 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## titlu: Ce veți avea nevoie
 
-### Dispozitive
+### Hardware
 
 - Computer capabil să ruleze Scratch 3
 
-### Programe
+### Software
 
 - Scratch 3 (fie[online](https://rpf.io/scratchon) fie [offline](https://rpf.io/scratchoff))
 
@@ -65,7 +65,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Dacă doriți să printați acest proiect, folosiți[printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
