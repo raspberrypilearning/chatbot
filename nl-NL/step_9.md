@@ -71,75 +71,75 @@ array[randomIndex] = temporaryValue;
 
 <pre><code>var quiz = [
     {
-        "question"      :   "Which script would cause the sprite to say 'Hello Izzy'?",
-        "image"         :   "images/montage-1.png",
-        "choices"       :   [
-                                "A",
-                                "B",
-                                "C",
-                                "D"
+        "question": "Welk script zou ervoor zorgen dat de sprite 'Hello Izzy' zegt?",
+        "image": "images/montage-1.png",
+        "choices": [
+                                " A ",
+                                " B ",
+                                " C ",
+                                " D "
                             ],
-        "correct"       :   "C",
-        "explanation"   :   "You need to join the 'Hello ' string to the `name` variable",
+        "correct ":" C ",
+        "explanation":" U moet de 'Hallo'-string toevoegen aan de `name` variabele ",
     },
     {
-        "question"      :   "Which script would ask the user for their first name and last name and then output their full name?",
-        "image"         :   "images/montage-2.png",
-        "choices"       :   [
+        " question ":" Welk script zou de gebruiker om hun voornaam en achternaam vragen en vervolgens hun volledige naam weergeven? ",
+        "image ":" images/montage-2.png ",
+        "choices": [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correct"       :   "D",
-        "explanation"   :   "The question must be asked first, and then the answer stored as a variable."
+        "correct": "D",
+        "explanation": "De vraag moet eerst gesteld worden, en dan wordt het antwoord opgeslagen als een variabele. "
     },
     {
-        "question"      :   "Which script will move the sprite left when the user types 'left' and right when the user types anything else?",
-        "image"         :   "images/montage-3.png",
-        "choices"       :   [
+        "question": "Welk script verplaatst de sprite naar links wanneer de gebruiker 'left' typt en rechts wanneer de gebruiker iets anders typt?",
+        "image": "images/montage-3.png" ,
+        "choices": [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correct"       :   "A",
-        "explanation"   :   "The if condition should check if left has been typed and then move in the negative x. Otherwise the sprite should always move in the positive x",
+        "correct": "A",
+        "explanation": "De if-voorwaarde zou moeten controleren of left is getypt en verplaats dan in de negatieve x. Anders moet de sprite altijd in de positieve x bewegen",
     },
 
 ];
 </code></pre>
 
-<p>//use this for IE syntax error at => : ECMA script 6 not supported in IE 11 :(
+<p>//gebruik dit voor IE syntax error at => : ECMA script 6 not supported in IE 11 :(
 //quiz.forEach(function(q){ return q.choices.scramble()});</p>
 
-<p>//use this for ECMA script 6
-//quiz.forEach(q => q.choices.scramble());
+<p>//gebruik dit voor ECMA script 6
+//quiz.foreach(q => q.choices.scramble());
 //console.log(quiz[0].choices);</p>
 
 <p>quiz = shuffle(quiz);</p>
 
-<pre><code>/******* No need to edit below this line *********/
-var currentquestion = 0, score = 0, submt=true, picked;
+<pre><code>/ ******* Het is niet nodig om onder deze regel te bewerken ********* /
+var currentquestion = 0, score = 0, submt = true, picked;
 
-jQuery(document).ready(function($){
+jQuery (document).ready (functie ($) {
 
-    /**
-     * HTML Encoding function for alt tags and attributes to prevent messy
-     * data appearing inside tag attributes.
-     */
-    function htmlEncode(value){
-      return $(document.createElement('div')).text(value).html();
+    / **
+     * HTML-coderingsfunctie voor alt-tags en -kenmerken om te voorkomen dat rommelige
+     * -gegevens in tagkenmerken verschijnen.
+     * /
+    functie htmlEncode(value) {
+      return $(document.createElement ('div')).text(value) html();
     }
 
-    /**
-     * This will add the individual choices for each question to the ul#choice-block
+    / **
+     * Dit voegt de individuele keuzes voor elke vraag toe aan het ul#choice-block
      *
-     * @param {choices} array The choices from each question
-     */
-    function addChoices(choices){
-        if(typeof choices !== "undefined" &amp;&amp; $.type(choices) == "array"){
-            $('#choice-block').empty();
+     * @param {choices} array De keuzes van elke vraag
+     * /
+    functie addChoices(choices) {
+        if (typeof choices !== "undefined" &amp;&amp; $.type(choices) == "array") {
+            $('#choice-block').empty ();
             for(var i=0;i&lt;choices.length; i++){
             $(document.createElement('li')).addClass('choice choice-box btn').attr('data-index', i).text(choices[i]).appendTo('#choice-block');
             }
@@ -170,7 +170,7 @@ jQuery(document).ready(function($){
             $("#question").html(function(){
                 var text= $(this).text().trim().split(" ");
                 var first = text.shift();
-                return (text.length &gt; 0 ? "&lt;span class='number'&gt;"+ first +"&lt;/span&gt; " : first) + text.join(" ");
+                return (text.length &gt; ? "&lt;span class='number'&gt;"+ first +"&lt;/span&gt; " : first) + text.join(" ");
             });
 
             $('p.pager').each(function(){
