@@ -12,13 +12,13 @@
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Το chatbot σου πρέπει να `ρωτήσει "Θέλεις να πας στο φεγγάρι;"`{:class="block3sensing"} και `εάν`{:class="block3control"} `απαντήσεις`{:class="block3sensing"} "ναι", θα πρέπει `να αλλάξει το σκηνικό στο φεγγάρι`{:class="block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Ακολουθούν τα μπλοκ κώδικα που πρέπει να προσθέσεις στον κώδικα του chatbot.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -32,11 +32,11 @@ if <(answer) = [yes]> then
 end
 ```
 
-\--- /υπόδειξη \---
+\--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Έτσι πρέπει να μοιάζει ο κώδικας σου:
 
 ```blocks3
 ask [Do you want to go to the moon?] and wait
@@ -45,15 +45,15 @@ if <(answer) = [yes]> then
 end
 ```
 
-\--- /υπόδειξη \---
+\--- /hint \---
 
-\--- /υποδείξεις \---
+\--- /hints \---
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Τώρα χρειάζεται να βεβαιωθείς ότι το chatbot σου ξεκινά στη σωστή τοποθεσία όταν κάνεις κλικ σε αυτό για να του μιλήσεις. Πρόσθεσε αυτό το μπλοκ στην αρχή του κώδικα του chatbot:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -65,15 +65,15 @@ when this sprite clicked
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Δοκίμασε το πρόγραμμά σου και απάντησε "ναι" όταν το chatbot σου ρωτήσει εάν θέλεις να πας στο φεγγάρι. Θα δεις ότι η τοποθεσία του chatbot αλλάζει.
 
 \--- /task \---
 
-\--- task --
+\--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+Μπορείς επίσης να προσθέσεις τον ακόλουθο κώδικα στο νέο μπλοκ `εάν`{:class="block3control"} για να κάνεις το chatbot να χοροπηδήξει τέσσερις φορές αν απαντήσεις "ναι":
 
 ![nano sprite](images/nano-sprite.png)
 
