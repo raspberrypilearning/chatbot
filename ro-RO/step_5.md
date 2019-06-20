@@ -4,7 +4,7 @@ You can program your chatbot to decide what to do based on the answers it receiv
 
 First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
-\--- proba\---
+\--- task \---
 
 Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
@@ -31,7 +31,7 @@ To test your new code properly, you should test it **twice**: once with the answ
 
 At the moment, your chatbot doesn't doesn't say anything to the answer "no".
 
-\--- proba\---
+\--- task \---
 
 Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
 
@@ -71,7 +71,7 @@ If you click your chatbot's **Costumes** tab, you'll see that there is more than
 
 ![costume chatbot](images/chatbot-costume-view-annotated.png)
 
-\--- proba\---
+\--- task \---
 
 Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
@@ -109,7 +109,7 @@ You can try this out: run your code and answer "no" so that your chatbot's face 
 
 ![Eroare costum](images/chatbot-costume-bug-test.png)
 
-\--- proba\---
+\--- task \---
 
 To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
