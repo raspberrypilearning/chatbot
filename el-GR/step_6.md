@@ -1,5 +1,5 @@
 ## Πρόκληση: περισσότερες αποφάσεις
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+Προγραμμάτισε το chatbot ώστε να κάνεις μια άλλη ερώτηση που να μπορεί να απαντηθεί με "ναι" ή "όχι". Μπορείς να κάνεις το chatbot σου να ανταποκριθεί διαφορετικά ανάλογα με την απάντηση που λαμβάνει;
 
 ![screenshot](images/chatbot-joke.png)
