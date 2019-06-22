@@ -4,14 +4,14 @@
 
 \--- task \---
 
-أنقر على روبوت الدردشة الخاص بك وأضف هذه التعليمة البرمجية `عند النقر على هذا الكائن` {:class="block3events"}, حتى`يسال عن إسمك`{:class="block3sensing"} وبعدها `بقول "أسم جميل!"`{:class="block3looks"}.
+أنقر على روبوت الدردشة الخاص بك وأضف هذه التعليمة البرمجية `عند النقر على هذا الكائن` {:class="block3events"}, حتى`يسال عن إسمك`{:class="block3sensing"} وبعدها `بقول "يا له من إسم جميل!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 عند النقر على هذا الكائن
 إسال [ما أسمك؟] وانتظر
-قل[اسم جميل!] لمدة (2) ثانية
+قل[يا له من اسم جميل!] لمدة (2) ثانية
 ```
 
 \---/task--
@@ -28,7 +28,7 @@
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+الان، يرد عليك الروبوت "يا له من اسم جميل!" في كل مرة تجيبه. يمكنك أن تجعل الروبوت يجيب بصورة اكثر شخصية، بحيث تكون الاجابة مختلفة في كل مرة يتم فيها كتابة اسم مختلف.
 
 Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
 
