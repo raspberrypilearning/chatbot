@@ -1,10 +1,10 @@
 ## روبوت مُحاوِر
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+الآن، بعد أن أصبح لديك روبوت بشخصية معينة، ستقوم ببرمجته ليتحدث معك.
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+أنقر على روبوت الدردشة الخاص بك وأضف هذه التعليمة البرمجية `عند النقر على هذا الكائن` {:class="block3events"}, حتى`يسال عن إسمك`{:class="block3sensing"} وبعدها `بقول "أسم جميل!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
