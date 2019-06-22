@@ -9,16 +9,16 @@
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+عند النقر على هذا الكائن
+إسال [ما أسمك؟] وانتظر
+قل[اسم جميل!] لمدة (2) ثانية
 ```
 
 \---/task--
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+إضغط على روبوت الدردشة الخاص بك واختبره. عندما يسألك الروبوت عن اسمك، اطبع اسمك في الصندوق الذي يطهر باسفل المسرح، ثم اضغط على العلامة الزرقاء أو اضغط على <kbd>Enter</kbd>.
 
 ![اختبار استجابة الروبوت](images/chatbot-ask-test1.png)
 
