@@ -4,51 +4,51 @@ Maintenant que tu as un chatbot avec une personnalité, tu vas le programmer pou
 
 \--- task \---
 
-Cliquez sur l' image - objet chatbot et ajoutez ce code afin que `quand on clique dessus`{: class = « block3events »}, il `vous demande votre nom`{: class = « block3sensing »} puis `dit « Quel joli nom!"`{: class = "block3looks"}.
+Clique sur le sprite chatbot et ajoute ce code afin que `quand on clique dessus`{:class="block3events"}, il `vous demande votre nom`{:class="block3sensing"} puis `dit "Quel joli nom!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quand ce sprite a cliqué sur
-demandez [Quel est votre nom?] et attendez
-dites [Quel beau nom!] pendant (2) secondes
+quand ce sprite est cliqué
+demander [Quel est ton nom?] et attendre
+dire [Quel joli nom!] pendant (2) secondes
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Cliquez sur votre chatbot pour tester votre code. Lorsque le chatbot vous demande votre nom, tapez-le dans la zone qui apparaît au bas de la scène, puis cliquez sur le repère bleu ou appuyez sur <kbd>Entrée</kbd>.
+Clique sur ton chatbot pour ton code. Lorsque le chatbot te demande ton nom, tape-le dans la zone qui apparaît au bas de la scène, puis clique sur le repère bleu ou appuie sur <kbd>Entrée</kbd>.
 
-![Tester une reponse du ChatBot](images/chatbot-ask-test1.png)
+![Test d'une reponse du ChatBot](images/chatbot-ask-test1.png)
 
-![Tester une reponse du ChatBot](images/chatbot-ask-test2.png)
+![Test d'une reponse du ChatBot](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
 \--- task \---
 
-En ce moment, votre chatbot répond "Quel joli nom!" chaque fois que vous répondez. Vous pouvez rendre la réponse du chatbot plus personnelle, de sorte que la réponse soit différente chaque fois que vous entrez un nom différent.
+En ce moment, ton chatbot répond "Quel joli nom!" chaque fois que tu réponds. Tu peux rendre la réponse du chatbot plus personnelle, de sorte que la réponse soit différente chaque fois que tu entres un nom différent.
 
-Modifiez le code du sprite du chatbot en `rejoignez`{: class = "block3operators"} "Hi" avec les `réponses`{: class = "block3sensing"} en "Quel est votre nom?" question, de sorte que le code ressemble à ceci:
+Modifie le code du sprite du chatbot en `regrouper`{:class="block3operators"} "Salut" avec la `réponse`{:class="block3sensing"} de la question "Quel est votre nom?", de sorte que le code ressemble à ceci:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quand ce sprite a cliqué sur
-demandez à [quel est votre nom?] et attendez
-dites (rejoignez [Bonjour] (réponse) :: +) pendant (2) secondes
+quand ce sprite est cliqué
+demander [Quel est ton nom?] et attendre
+dire (regrouper [Salut ] (réponse) : et : +) pendant (2) secondes
 ```
 
-![Tester une réponse personnalisée](images/chatbot-answer-test.png)
+![Test d'une réponse personnalisée](images/chatbot-answer-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-En stockant la réponse dans une variable ****, vous pouvez l'utiliser n'importe où dans votre projet.
+En stockant la réponse dans une **variable**, tu peux l'utiliser n'importe où dans ton projet.
 
-Créez une nouvelle variable appelée `nom`{: class = "block3variables"}.
+Crée une nouvelle variable appelée `nom`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,7 +56,7 @@ Créez une nouvelle variable appelée `nom`{: class = "block3variables"}.
 
 \--- task \---
 
-Maintenant, changez le code de votre chatbot sprites pour définir la variable `name`{: class = "block3variables"} à `answer`{: class = "block3sensing"}:
+Maintenant, change le code de ton sprite chatbot pour définir la variable `nom`{:class="block3variables"} par la variable `réponse`{: class = "block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
