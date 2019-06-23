@@ -1,6 +1,6 @@
-## Challenge : plus d'objets
+## Challenge : plus de questions
 
-Programmez votre chatbot pour poser une autre question. Pouvez-vous stocker la réponse à cette nouvelle question dans une nouvelle variable?
+Programme ton chatbot pour poser une autre question. Peux-tu stocker la réponse à cette nouvelle question dans une nouvelle variable?
 
 ![Plus de questions](images/chatbot-question1.png)
 
