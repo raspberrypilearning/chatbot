@@ -61,17 +61,17 @@ Maintenant, change le code de ton sprite chatbot pour définir la variable `nom`
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quand ce sprite a cliqué sur
-demandez à [quel est votre nom?] et attendez
+quand ce sprite est cliqué
+demander [Quel est ton nom?] et attendre
 
-+ réglez [nom v] sur (réponse)
-dites (rejoignez [Hi] (nom :: variables +)) pendant (2) secondes
++ mettre [nom v] sur (réponse)
+dire (regrouper [Salut ] (nom : et : variables +)) pendant (2) secondes
 ```
 
-Votre code devrait fonctionner comme avant: votre chatbot devrait dire bonjour en utilisant le nom que vous avez entré.
+Ton code devrait fonctionner comme avant: ton chatbot devrait dire bonjour en utilisant le nom que vous as entré.
 
-![Tester une réponse personnalisée](images/chatbot-answer-test.png)
+![Test d'une réponse personnalisée](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Testez à nouveau votre programme. Notez que la réponse que vous tapez est stockée dans la variable `name`{: class = "block3variables"} et également affichée dans le coin supérieur gauche de la scène. Pour le faire disparaître de la scène, accédez à la section des blocs `Data`{: class = "block3variables"} et cliquez sur la case en regard de `name`{: class = "block3variables"} pour qu'elle ne soit pas marquée.
+Teste à nouveau ton programme. Note que la réponse que tu tapes est stockée dans la variable `nom`{:class="block3variables"} et est également affichée dans le coin supérieur gauche de la scène. Pour la faire disparaître de la scène, accéde à la section des blocs `Données`{: class = "block3variables"} et clique sur la case à côté de `name`{: class = "block3variables"} pour qu'elle ne soit pas marquée.
