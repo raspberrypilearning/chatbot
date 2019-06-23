@@ -1,12 +1,12 @@
-## Changement d'emplacement
+## Prendre des décisions
 
-Vous pouvez programmer votre chatbot pour qu'il décide quoi faire en fonction des réponses qu'il reçoit.
+Tu peux programmer ton chatbot pour qu'il décide quoi faire en fonction des réponses qu'il reçoit.
 
-Tout d'abord, vous allez demander à votre chatbot de poser une question à laquelle on peut répondre par "oui" ou par "non".
+Tout d'abord, tu vas demander à ton chatbot de poser une question à laquelle on peut répondre par "oui" ou par "non".
 
 \--- task \---
 
-Changez le code de votre chatbot. Votre chatbot devrait poser la question "Êtes-vous OK nom", en utilisant la variable `nom`{: class = "block3variables"}. Ensuite, il devrait répondre "ça fait plaisir à entendre!" `si`{: class = "block3control"} la réponse reçue est "oui", mais ne dit rien si la réponse est "non"
+Change le code de ton chatbot. Votre chatbot devrait poser la question "Êtes-vous OK nom", en utilisant la variable `nom`{: class = "block3variables"}. Ensuite, il devrait répondre "ça fait plaisir à entendre!" `si`{: class = "block3control"} la réponse reçue est "oui", mais ne dit rien si la réponse est "non"
 
 ![Tester une reponse du ChatBot](images/chatbot-if-test1-annotated.png)
 
