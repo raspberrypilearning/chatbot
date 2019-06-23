@@ -1,5 +1,5 @@
-## Challenge : plus d'objets
+## Challenge : plus de décisions
 
-Programmez votre chatbot pour poser une autre question à laquelle vous pouvez répondre par "oui" ou par "non". Pouvez-vous faire en sorte que votre chatbot réponde différemment en fonction de la réponse qu'il reçoit?
+Programme ton chatbot pour poser une autre question à laquelle tu peux répondre par "oui" ou par "non". Peux-tu faire en sorte que ton chatbot réponde différemment en fonction de la réponse qu'il reçoit?
 
 ![capture d'écran](images/chatbot-joke.png)
