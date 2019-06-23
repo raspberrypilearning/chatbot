@@ -6,13 +6,13 @@ Ceci est la version **Scratch 3** du projet. Il y a aussi une [la version Scratc
 
 ## Introduction
 
-Vous allez apprendre à programmer un personnage capable de vous parler! Un tel personnage s'appelle un robot de chat ou chatbot.
+Tu vas apprendre à programmer un personnage capable de vous parler! Un tel personnage s'appelle un robot de chat ou chatbot.
 
 ### Ce que tu feras
 
 \--- no-print \---
 
-Cliquez sur le drapeau vert, puis sur le personnage du chatbot pour lancer une conversation. Lorsque le chatbot pose une question, tapez votre réponse dans la zone située au bas de la scène, puis cliquez sur la marque bleue à droite (ou appuyez sur `Entrée`) pour voir la réponse du chatbot.
+Clique sur le drapeau vert, puis sur le personnage du chatbot pour lancer une conversation. Lorsque le chatbot pose une question, tape ta réponse dans la zone située au bas de la scène, puis clique sur la marque bleue à droite (ou appuye sur `Entrée`) pour voir la réponse du chatbot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -39,11 +39,11 @@ Cliquez sur le drapeau vert, puis sur le personnage du chatbot pour lancer une c
 
 ### Logiciels
 
-- Scratch 3 (soit [en ligne](https://rpf.io/scratchon) ou [hors ligne](https://rpf.io/scratchoff))
+- Scratch 3 (soit [en ligne](https://rpf.io/scratchon) soit [hors ligne](https://rpf.io/scratchoff))
 
 ### Téléchargements
 
-- [Trouver les fichiers à télécharger ici](http://rpf.io/p/en/chatbot-go).
+- [Trouve les fichiers à télécharger ici](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,22 +53,22 @@ Cliquez sur le drapeau vert, puis sur le personnage du chatbot pour lancer une c
 
 ## title: Ce que tu vas apprendre
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Utiliser le code pour concaténer des chaînes de caractères dans Scratch
+- Savoir que les variables peuvent être utilisées pour stocker les entrées de l'utilisateur
+- Utiliser la sélection conditionnelle pour répondre à l'utilisateur dans Scratch. \--- /collapse \---
 
 \--- collapse \---
 
 * * *
 
-## titre: Notes complémentaires pour les éducateurs
+## title: Notes complémentaires pour les éducateurs
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Si vous besoin d'imprimer ce projet, utilisez la [ version imprimable. ](https://projects.raspberrypi.org/en/projects/chatbot/print) {: target = "_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Vous pouvez trouver le [ projet terminé ici ](http://rpf.io/p/en/chatbot-get) .
 
 \--- /collapse \---
