@@ -79,48 +79,48 @@ Change le code de ton chatbot pour qu'il change de costume lorsque tu tapes ta r
 
 ![Test d'un changement de costume](images/chatbot-costume-test2.png)
 
-Modifiez le code à l'intérieur du `si, alors, sinon`{: class = "block3control"} bloc en `switch costume`{: class = "block3looks"}.
+Modifie le code à l'intérieur du `si, alors, sinon`{: class = "block3control"} bloc en `switch costume`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quand ce sprite a cliqué sur
-demandez à [quel est votre nom?] et attendez
-set [nom v] pour (répondre)
-dire (rejoindre [Hi] (nom)) pendant (2) secondes
-demander (rejoindre [Etes-vous d'accord] nom) et attendez
-si <(réponse) = [yes]> puis 
+quand ce sprite est cliqué
+demander [Quel est ton nom?] et attendre
+mettre [nom v] à (réponse)
+dire (regrouper [Salut ] : et : (nom)) pendant (2) secondes
+demander (regrouper [Est-ce que tu vas bien ] : et : (nom)) et attendre
+si <(réponse) = [oui]> alors 
 
-+ changez de costume en (nano-c v)
-  dites [C’est génial à entendre!] pendant (2) secondes
++ basculer sur le costume en (nano-c v)
+  dire [Ça fait plaisir à entendre!] pendant (2) secondes
 sinon 
-+ changez de costume en (nano- d v)
-  dire [Oh non!] pendant (2)
-secondes
++ basculer sur le costume (nano-d v)
+  dire [Oh non!] pendant (2) secondes
+fin
 ```
 
-Testez et enregistrez votre code. Vous devriez voir le visage de votre chatbot changer en fonction de votre réponse.
+Teste et enregistre ton code. Tu devrais voir le visage de ton chatbot changer en fonction de ta réponse.
 
 \--- /task \---
 
-Avez-vous remarqué qu'après que le costume de votre chatbot ait changé, il reste comme ça et ne revient pas à ce qu'il était au début?
+As-tu remarqué qu'après que le costume de ton chatbot ait changé, il reste comme ça et ne revient pas à ce qu'il était au début?
 
-Vous pouvez essayer ceci: lancez votre code et répondez "non" pour que le visage de votre chatbot change de look. Ensuite, relancez le code et notez que votre chatbot ne redevient pas heureux avant de vous demander votre nom.
+Tu peux essayer ceci: lance ton code et répond "non" pour que le visage de ton chatbot change pour une tête triste. Ensuite, relance le code et note que ton chatbot ne redevient pas heureux avant de te demander ton nom.
 
 ![Bug de costume
 ](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-Pour résoudre ce problème, ajoutez au code du chatbot `costume`: {: class = "block3looks"} au début `lorsque vous cliquez sur le sprite`{: class = "block3events"}.
+Pour résoudre ce problème, ajoute au code du chatbot l'action de `changer de costume`: {: class = "block3looks"} au début `lorsque tu clique sur le sprite`{: class = "block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-lorsque ce sprite a cliqué sur
+lorsque ce sprite est cliqué
 
-+ basculer costume vers (nano-a v)
-demander à [quel est votre nom?] et attendre
++ basculer sur le costume (nano-a v)
+demander [Quel est ton nom?] et attendre
 ```
 
 ![Test d'une correction de costume](images/chatbot-costume-fix-test.png)
