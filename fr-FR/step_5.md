@@ -40,16 +40,16 @@ Remplace le bloc `si, alors`{: class = "block3control"} par un bloc `if, alors, 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quand ce sprite a cliqué sur
-demandez à [Comment vous appelez-vous?] et attendez
-set [nom v] pour (répondre)
-dites (rejoignez [Hi] (nom)] pendant (2) secondes
-demandez (rejoignez [Êtes-vous OK] ( name)) et attendez
+quand ce sprite est cliqué
+demander [Comment vous appelez-vous?] et attendre
+mettre [nom v] à (répondre)
+dire (regrouper [Salut ] : et : (nom)) pendant (2) secondes
+demander (regrouper [Est-ce que tu vas bien ] : et : ( name)) et attendre
 
-+ si <(réponse) = [yes]> puis 
-  dites [Cela fait plaisir à entendre!] pendant (2) secondes
++ si <(réponse) = [yes]> alors 
+dire [Ça fait plaisir à entendre!] pendant (2) secondes
 sinon 
-+ dites [Oh non!] pendant (2) secondes
++ dire [Oh non!] pendant (2) secondes
 fin
 ```
 
@@ -57,27 +57,27 @@ fin
 
 \--- task \---
 
-Testez votre code. Vous devriez obtenir une réponse différente lorsque vous répondez "non" et lorsque vous répondez "oui": votre chatbot doit répondre avec "C'est génial d'entendre!" lorsque vous répondez "oui" (ce qui n’est pas sensible à la casse), et répondez par "Oh non!" quand vous répondez à **rien d'autre**.
+Teste ton code. Tu devrais obtenir une réponse différente lorsque tu réponds "non" et lorsque tu réponds "oui": ton chatbot doit dire "Ça fait plaisir à entendre!" lorsque tu réponds "oui" (ce n’est pas sensible à la casse), et répliquer par "Oh non!" quand tu réponds à **quelque chose d'autre**.
 
-![Tester une reponse du ChatBot](images/chatbot-if-test2.png)
+![Test d'une réponse du ChatBot](images/chatbot-if-test2.png)
 
-![Tester une reponse du ChatBot](images/chatbot-if-else-test.png)
+![Test d'une réponse oui/non](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-Vous pouvez mettre n'importe quel code dans un bloc `si, alors, sinon`{: class = "block3control"}, et pas seulement du code pour faire parler votre chatbot!
+Tu peux mettre n'importe quel code dans un bloc `si, alors, sinon`{: class = "block3control"}, et pas seulement du code pour faire parler ton chatbot!
 
-Si vous cliquez sur l'onglet **Costumes** votre chatbot, vous verrez qu'il y a plus d'un costume.
+Si tu cliques sur l'onglet **Costumes** ton chatbot, tu verras qu'il y a plus d'un costume.
 
 ![costumes de chatbot](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Changez le code de votre chatbot pour qu'il change de costume lorsque vous tapez votre réponse.
+Change le code de ton chatbot pour qu'il change de costume lorsque tu tapes ta réponse.
 
-![Tester un costume changeant](images/chatbot-costume-test1.png)
+![Test d'un changement de costume](images/chatbot-costume-test1.png)
 
-![Tester un costume changeant](images/chatbot-costume-test2.png)
+![Test d'un changement de costume](images/chatbot-costume-test2.png)
 
 Modifiez le code à l'intérieur du `si, alors, sinon`{: class = "block3control"} bloc en `switch costume`{: class = "block3looks"}.
 
