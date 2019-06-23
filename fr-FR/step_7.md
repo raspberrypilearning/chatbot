@@ -25,68 +25,68 @@ Voici les blocs de code que tu dois ajouter à ton code chatbot.
 ```blocks3
 changer la toile de fond en (lune v)
 
-demander [voulez-vous aller sur la lune?] et attendre
+demander [Veux-tu aller sur la lune?] et attendre
 
-si <(réponse) = [yes]> puis 
+si <(réponse) = [oui]> alors
 
 fin
 ```
 
-\--- /indice \---
+\--- /hint\---
 
 \--- hint \---
 
-Voici à quoi votre code devrait ressembler:
+Voici à quoi ton code devrait ressembler:
 
 ```blocks3
-demandez à [Voulez-vous aller sur la lune?] et attendez
-si <(réponse) = [yes]> puis 
-  commutez la toile de fond sur (lune v)
+demander [Veux-tu aller sur la lune?] et attendre
+si <(réponse) = [oui]> alors 
+basculer sur l'arrière plan (lune v)
 fin
 ```
 
-\--- /indice \---
+\--- /hint \---
 
-\--- /astuces \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Maintenant, vous devez vous assurer que votre chatbot commence au bon endroit lorsque vous cliquez dessus pour lui parler. Ajoutez ce bloc en haut de votre code chatbot:
+Maintenant, tu dois t'assurer que ton chatbot commence au bon endroit lorsque tu cliques dessus pour lui parler. Ajoute ce bloc en haut de ton code chatbot:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-lorsque ce sprite a cliqué sur
+lorsque ce sprite est cliqué
 
-+ basculer en arrière-plan sur (espace v)
++ basculer sur arrière-plan (espace v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Testez votre programme et répondez "oui" lorsque le chatbot vous demande si vous souhaitez aller sur la lune. Vous devriez voir que l'emplacement du chatbot change.
+Teste ton programme et répond "oui" lorsque le chatbot te demande si tu souhaites aller sur la lune. Tu devrais voir que l'emplacement du chatbot change.
 
 \--- /task \---
 
 \--- task \---
 
-Vous pouvez également ajouter le code suivant dans le nouveau bloc `if`{: class = "block3control"} pour que le chatbot saute quatre fois si vous répondez "oui":
+Tu peux également ajouter le code suivant dans le nouveau bloc `if`{: class = "block3control"} pour que le chatbot saute quatre fois si tu réponds "oui":
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-si <(réponse) = [yes]> 
-  change de fond pour (lune v)
+si <(réponse) = [yes]> alors 
+  bascule sur l'arrière-plan (lune v)
 
-+ répéte (4) 
-    change y par (10)
-    attente (0,1)
-    change y par (-10)
-    attente (0,1)
-  fin
++ répéter (4) 
+mettre y à (10)
+attente (0,1) secondes
+mettre y à (-10)
+attente (0,1) secondes
+fin
 fin
 ```
 
