@@ -1,6 +1,6 @@
-## Défi: terminez votre chatbot
+## Défi: termine ton chatbot
 
-Utilisez ce que vous avez appris pour finir de créer votre chatbot interactif. Voici quelques idées:
+Utilise ce que tu as appris pour finir de créer ton chatbot interactif. Voici quelques idées:
 
 ![Idées ChatBot](images/chatbot-ideas1.png)
 
@@ -8,4 +8,4 @@ Utilisez ce que vous avez appris pour finir de créer votre chatbot interactif. 
 
 ![Idées ChatBot](images/chatbot-ideas3.png)
 
-Une fois que vous avez terminé votre chatbot, demandez à vos amis d'avoir une conversation avec lui! Est-ce qu'ils aiment votre personnage? Peuvent-ils repérer des problèmes?
+Une fois que tu as terminé ton chatbot, demande à tes amis d'avoir une conversation avec lui! Est-ce qu'ils aiment ton personnage? Peuvent-ils repérer des problèmes?
