@@ -1,24 +1,24 @@
 ## Changer emplacement
 
-Vous pouvez également programmer votre chatbot pour qu'il change d'emplacement!
+Tu peux également programmer ton chatbot pour qu'il change d'emplacement!
 
-![Tester un costume changeant](images/chatbot-backdrop-moon.png)
+![Test d'un arrière-plan changeant](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Pouvez-vous programmer votre chatbot pour demander "Voulez-vous aller sur la lune", puis changer de fond lorsque la réponse est "oui"?
+Peux-tu programmer ton chatbot pour demander "Veux-tu aller sur la lune", puis changer de fond lorsque la réponse est "oui"?
 
-\--- astuces \---
+\--- hints \---
 
 \--- hint \---
 
-Votre chatbot devrait `demander "Voulez-vous aller sur la lune?"`{: class = "block3sensing"}, et `si`{: class = "block3control"} vous `répondez`{: class = "block3sensing"} "oui", il devrait `changer le fond de la lune`{: class = "block3looks"}.
+Ton chatbot devrait `demander "Veux-tu aller sur la lune?"`{: class = "block3sensing"}, et `si`{: class = "block3control"} tu `réponds`{: class = "block3sensing"} "oui", cela devrait `changer le fond en paysage lunaire`{: class = "block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Voici les blocs de code que vous devez ajouter à votre code chatbot.
+Voici les blocs de code que tu dois ajouter à ton code chatbot.
 
 ![nano sprite](images/nano-sprite.png)
 
