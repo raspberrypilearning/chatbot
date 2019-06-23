@@ -6,36 +6,36 @@ Tout d'abord, tu vas demander à ton chatbot de poser une question à laquelle o
 
 \--- task \---
 
-Change le code de ton chatbot. Votre chatbot devrait poser la question "Êtes-vous OK nom", en utilisant la variable `nom`{: class = "block3variables"}. Ensuite, il devrait répondre "ça fait plaisir à entendre!" `si`{: class = "block3control"} la réponse reçue est "oui", mais ne dit rien si la réponse est "non"
+Change le code de ton chatbot. Ton chatbot devrait poser la question "Est-ce que tu vas bien nom", en utilisant la variable `nom`{: class = "block3variables"}. Ensuite, il devrait répondre "Ça fait plaisir à entendre!" `si`{:class="block3control"} la réponse reçue est "oui", mais ne dit rien si la réponse est "non".
 
-![Tester une reponse du ChatBot](images/chatbot-if-test1-annotated.png)
+![Test d'une réponse du chatbot](images/chatbot-if-test1-annotated.png)
 
-![Tester une reponse du ChatBot](images/chatbot-if-test2.png)
+![Test d'une réponse du chatbot](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quand ce sprite a cliqué sur
-demandez à [quel est votre nom?] et attendez
-jeu [nom v] pour (répondre)
+quand ce sprite est cliqué
+demander [Quel est ton nom?] et attendre
+mettre [nom v] à (répondre)
 dire (rejoindre [Hi] (nom)) pendant (2) secondes
-+ demander (rejoindre [Etes-vous d'accord] (nom)) et attendez
-+ si <(réponse) = [yes]> puis 
-  dites [Cela fait plaisir à entendre!] pendant (2) secondes
++ demander (regrouper [Est-ce que tu vas bien ] : et : (nom)) et attendre
++ si <(réponse) = [oui]> alors
+ dire [Ça fait plaisir à entendre!] pendant (2) secondes
 fin
 ```
 
-Pour tester votre nouveau code correctement, vous devez le tester **deux fois**: une fois avec la réponse "oui" et une fois avec la réponse "non".
+Pour tester ton nouveau code correctement, tu dois le tester **deux fois**: une fois avec la réponse "oui" et une fois avec la réponse "non".
 
 \--- /task \---
 
-Pour le moment, votre chatbot ne dit rien à la réponse "non".
+Pour le moment, ton chatbot ne dit rien à la réponse "non".
 
 \--- task \---
 
-Changez le code de votre chatbot pour qu'il réponde "Oh non!" s'il reçoit "non" comme réponse à "Êtes-vous OK nom".
+Change le code de ton chatbot pour qu'il réponde "Oh non!" s'il reçoit "non" comme réponse à "Est-ce que tu vas bien nom".
 
-Remplacez le bloc `if, puis`{: class = "block3control"} par un bloc `if, alors, sinon`{: class = "block3control"}, et incluez du code pour que le chatbot `puisse dire "Oh non!"`{: class = "block3looks"}.
+Remplace le bloc `si, alors`{: class = "block3control"} par un bloc `if, alors, sinon`{: class = "block3control"}, et ajoute du code pour que le chatbot puisse `dire "Oh non!"`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
