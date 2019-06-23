@@ -1,6 +1,6 @@
 ## Un chatbot parlant
 
-Maintenant que vous avez un chatbot avec une personnalité, vous allez le programmer pour qu'il vous parle.
+Maintenant que tu as un chatbot avec une personnalité, tu vas le programmer pour qu'il te parle.
 
 \--- task \---
 
