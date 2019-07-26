@@ -57,17 +57,17 @@ Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine 
 - Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
-\--- collapse \---
+\---collapse\---
 
 * * *
 
 ## title: Eğitimciler için ek notlar
 
-\--- no-print \---
+.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"} kullanın.
 
-\--- /no-print \---
+.
 
 You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
