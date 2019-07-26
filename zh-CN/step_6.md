@@ -1,5 +1,5 @@
 ## 挑战: 更多判断
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+对聊天机器人进行编程，以便提出另一个可以回答“是”或“否”的问题。你能否根据收到的答案让聊天机器人做出不同的反应？
 
 ![截图](images/chatbot-joke.png)
