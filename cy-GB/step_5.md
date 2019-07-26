@@ -15,13 +15,13 @@ Newida côd dy sgwrsfot. Fe ddylai dy sgwrsfot ofyn y cwestiwn "Wyt ti'n iawn en
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
+pan gaiff y ciplun yma ei glicio
+gofyn [Beth yw dy enw?] ac aros
+gosod [enw v] i (ateb)
+dweud (uno [Helo ] (enw)) am (2) eiliad
++gofyn (uno [Wyt ti'n iawn?] (enw)) ac aros
++os <(ateb) = [ydw]> yna 
+  dweud [Mae'n dda i glywed!] am (2) eiliad
 end
 ```
 
@@ -40,16 +40,16 @@ Newida bloc `os`{:class="block3control"} gyda bloc `os, wedyn`{:class="block3con
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
+pan gaiff y ciplun yma ei glicio
+gofyn [Beth yw dy enw?] ac aros
+gosod [enw v] i (ateb)
+dweud (uno [Helo ] (enw)) am (2) eiliad
+gofyn (uno [Wyt ti'n iawn?] (enw)) ac aros
 
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
++ os <(ateb) = [ydw]> yna
+  dweud [Mae'n dda i glywed!] am (2) eiliad
+fel arall
++ dweud [O na!] am (2) eiliad
 end
 ```
 
@@ -84,18 +84,19 @@ Newida'r côd o fewn y blod `os, yna, wedyn`{:class="block3control"} i `newid gw
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+pan gaiff y ciplun yma ei glicio
+gofyn [Beth yw dy enw?] ac aros
+gosod [enw] i (ateb)
+dweud (uno [Helo ] (enw)) am (2) eiliad
+gofyn (uno [Wyt ti'n iawn? ] (enw)) ac aros
+os <(ateb) = [yes]> yna
+end
 
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
++  newid gwisg i (nano-c v)
+ dweud [Mae'n dda i glywed!] am (2) eiliad
+fel arall
++ newid gwisg i (nano-c v)
+ dweud [O na!] for (2) seconds
 end
 ```
 
@@ -116,10 +117,10 @@ I ddatrys y broblem, ychwanega i gôd dy sgwrsfot i `newid gwisg`{:class="block3
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+pan gaiff y ciplun yma ei glicio
 
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
++ newid gwisg i (nano-a v)
+gofyn [Beth yw dy enw?] ac aros
 ```
 
 ![Profi datrysiad gwisg](images/chatbot-costume-fix-test.png)
