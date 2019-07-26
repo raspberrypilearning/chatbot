@@ -2,31 +2,31 @@
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+在开始创建聊天机器人之前，您需要确定它的个性。 **考虑以下问题**：
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ 聊天机器人的名字是什么？
++ 它在哪里生活？
++ 快乐吗？严重？滑稽？害羞？友好？
++ 它喜欢什么，不喜欢什么？
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- task \--- 打开Chatbot Scratch启动项目。
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**在线：** 在 [rpf.io/chatbot-on](http://rpf.io/chatbot-on){：target =“_ blank”}打开启动项目。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+如果您有Scratch帐户，可以单击 **Remix**制作副本。
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**离线：** 从 [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){：target =“_ blank”}下载启动项目，然后使用离线编辑器打开它。
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+如果您需要下载并安装Scratch离线编辑器，可以在 [https://rpf.io/scratchoff](rpf.io/scratchoff)找到它。 \--- /任务\---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+入门项目包含四个角色精灵。其中一个将是您的聊天机器人。
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+您可以使用已选择的精灵，也可以通过右键单击所需的精灵来选择另一个精灵，然后从出现的菜单中选择 **显示** 或 **隐藏**。
 
-![Choose a character](images/chatbot-characters.png)
+![选择角色](images/chatbot-characters.png)
 
 \--- /task \---
