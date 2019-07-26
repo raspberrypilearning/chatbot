@@ -79,7 +79,7 @@ Verander de chatbot code zodat deze verandert van uiterlijk wanneer je je antwoo
 
 ![Testen van het veranderen van een uiterlijk](images/chatbot-costume-test2.png)
 
-Verander de code in het `als, dan, anders`{:class="block3control"} blok om `van uiterlijk te wisselen`{:Class="block3looks"}.
+Verander de code in het `als, dan, anders`{:class="block3control"} blok om `van uiterlijk te wisselen`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
