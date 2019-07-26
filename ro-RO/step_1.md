@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Acesta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [versiune Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
@@ -41,7 +41,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 - Scratch 3 (fie[online](https://rpf.io/scratchon) fie [offline](https://rpf.io/scratchoff))
 
-### Downloads
+### Fișiere descărcabile
 
 - [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
@@ -61,7 +61,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: Additional notes for educators
+## title: Informații suplimentare pentru educatori
 
 \--- no-print \---
 
