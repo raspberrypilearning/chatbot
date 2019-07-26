@@ -65,10 +65,10 @@ Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar un
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Si necessites imprimir aquest projecte, si us plau, utilitza la [versió per imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\--- /no-print \---
+\--- / no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Podeu trobar el [projecte complet aquí](http://rpf.io/p/en/chatbot-get).
 
-\--- /collapse \---
+\--- / collapse \---
