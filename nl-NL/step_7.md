@@ -1,4 +1,4 @@
-## Locatie wijzigen
+## Verander locatie
 
 Je kunt je chatbot ook programmeren om de locatie te veranderen!
 

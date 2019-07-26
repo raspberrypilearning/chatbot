@@ -16,7 +16,8 @@ steps:
   - title: Het nemen van beslissingen
   - title: "Uitdaging: meer beslissingen"
     challenge: true
-  - title: Locatie wijzigen
+  - title: Verander locatie
   - title: "Uitdaging: maak je chatbot af"
     challenge: true
-  - title: Wat nu?
+  - title: Test jezelf
+  - title: 'Hoe nu verder?'

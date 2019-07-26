@@ -56,7 +56,7 @@ Maak een nieuwe variabele met de naam `naam`{:class="block3variables"}.
 
 --- task ---
 
-Wijzig nu de code van je chatbot sprite door de `antwoord`{:class="block3variables"} waarde in de `naam`{:Class="block3sensing"} variabele te zetten:
+Wijzig nu de code van je chatbot sprite door de `antwoord`{:class="block3variables"} waarde in de `naam`{:class="block3sensing"} variabele te zetten:
 
 ![nano sprite](images/nano-sprite.png)
 

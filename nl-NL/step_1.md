@@ -12,7 +12,7 @@ Je gaat leren hoe je een personage programmeert dat met je kan praten! Zo'n pers
 
 --- no-print ---
 
-Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te starten. Wanneer de chatbot een vraag stelt, typ je jouw antwoord in het vak aan de onderkant van het werkgebied en klik je op het blauwe vinkje (of druk op `Enter`) om het antwoord van de chatbot te zien.
+Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te starten. Wanneer de chatbot een vraag stelt, typ je jouw antwoord in het vak aan de onderkant van het speelveld en klik je op het blauwe vinkje aan de rechterkant (of druk op `Enter`) om het antwoord van de chatbot te zien.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -34,15 +34,15 @@ title: Wat heb je nodig
 
 ### Hardware
 
-+ Een computer die Scratch 3 kan uitvoeren
+- Een computer die Scratch 3 kan uitvoeren
 
 ### Software
 
-+ Scratch 3 (of [online](https://rpf.io/scratchon) of [offline](https://rpf.io/scratchoff))
+- Scratch 3 (of [online](https://rpf.io/scratchon) of [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
-+ [Zoek hier bestanden om te downloaden](http://rpf.io/p/nl-NL/chatbot-go).
+- [Zoek hier bestanden om te downloaden](http://rpf.io/p/nl-NL/chatbot-go).
 
 --- /collapse ---
 
@@ -51,10 +51,9 @@ title: Wat heb je nodig
 title: Wat ga je leren
 ---
 
-+ Hoe krijg je invoer van een gebruiker
-+ Hoe gebruik je het `als, dan, anders`{:class="block3control"} Scratch blok
-
---- /collapse ---
+- Gebruik code om strings in Scatch samen te voegen
+- Weet dat variabelen kunnen worden gebruikt om gebruikersinvoer op te slaan
+- Gebruik voorwaardelijke selectie om te reageren op gebruikersinvoer in Scratch --- /collapse ---
 
 --- collapse ---
 ---
