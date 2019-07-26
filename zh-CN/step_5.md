@@ -1,63 +1,63 @@
 ## 决策
 
-You can program your chatbot to decide what to do based on the answers it receives.
+您可以对聊天机器人进行编程，以根据收到的答案决定做什么。
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+首先，你要让你的聊天机器人提出一个可以用“是”或“否”回答的问题。
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+更改聊天机器人的代码。 您的聊天机器人应该使用 `名称`{：class =“block3variables”}变量来询问“你的名字是否正确”。 然后它应该回答“这听起来很棒！” `如果`{：class =“block3control”}它收到的答案是“是”，但如果答案为“否”则不说。
 
 ![测试聊天机器人回应](images/chatbot-if-test1-annotated.png)
 
 ![测试聊天机器人回应](images/chatbot-if-test2.png)
 
-![nano sprite](images/nano-sprite.png)
+![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-end
+当这个精灵点击
+问[你的名字是什么？]并等待
+套[名字v]到（回答）
+说（加入[你好]（姓名））（2）秒
++问（加入[你还好] （姓名））并等待
++如果 <（答案）= [yes]> 然后 
+  说[很高兴听到！]（2）秒
+结束
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+要正确测试新代码，你应该测试它 **两次**：一次回答“是”，一次回答“否”。
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+目前，您的聊天机器人并没有对答案“不”说任何话。
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+更改聊天机器人的代码，以便回复“哦不！”如果它收到“否”作为“你好名字”的答案。
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+将 `if，然后`{：class =“block3control”}块替换为 `if，then，else`{：class =“block3control”}块，并包含代码，以便聊天机器人可以 `说“哦不！”`{：class =“block3looks”}。
 
-![nano sprite](images/nano-sprite.png)
+![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
+当这个精灵点击
+问[你的名字是什么？]并等待
+套[名字v]到（回答）
+说（加入[你好]（姓名））（2）秒
+问（加入[你还好]（姓名））并等待
 
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
-end
++如果 <（答案）= [yes]> 然后 
+  说[很高兴听到！]为（2）秒
+其他 
++说[哦不！]为（2）秒
+结束
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+测试你的代码。 当你回答“否”并回答“是”时，你应该得到一个不同的回答：你的聊天机器人应该回答“这听起来很棒！”当你回答“是”（不区分大小写）时，回复“哦不！”当你回答 **其他任何事情**。
 
 ![测试聊天机器人回应](images/chatbot-if-test2.png)
 
@@ -65,61 +65,61 @@ Test your code. You should get a different response when you answer "no" and whe
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+您可以将任何代码放在 `if，然后，`{ </code> } =“block3control”}块中，而不仅仅是使聊天机器人说话的代码！
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+如果您单击聊天机器人的 **服装** 选项卡，您将看到有多个服装。
 
 ![聊天机器人造型](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+更改聊天机器人的代码，以便在您输入答案时聊天机器人切换服装。
 
 ![测试更换造型](images/chatbot-costume-test1.png)
 
 ![测试更换造型](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+将 `的代码更改为if，然后将`{：class =“block3control”}块更改为 `switch switch`{：class =“block3looks”}。
 
-![nano sprite](images/nano-sprite.png)
+![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+当这个精灵点击
+问[你的名字是什么？]并等待
+套[名字v]到（回答）
+说（加入[你好]（姓名））（2）秒
+问（加入[你还好]（名）），并等待
+如果 <（回答）= [yes]> 然后 
 
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
-end
++切换服装到（纳米-C v）的
+  说[太好听到！]对于（2）秒
+别的 
++切换服装至（纳米d v）
+  说[哦不！]（2）秒
+结束
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+测试并保存您的代码。您应该看到聊天机器人的脸部会根据您的答案而改变。
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+您是否注意到，在您的聊天机器人的服装发生变化之后，它会保持这种状态并且不会改变回原来的状态？
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+您可以尝试这样做：运行您的代码并回答“否”，以便您的聊天机器人的脸变得不快乐。 然后再次运行您的代码并注意您的聊天机器人在询问您的姓名之前不会变回看起来很开心。
 
 ![造型bug](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+要解决此问题，请在点击精灵</code>{：class =“block3events”}时，在开始 `处将聊天机器人的代码添加到 <code>切换服装`{：class =“block3looks”}。
 
-![nano sprite](images/nano-sprite.png)
+![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+当这个精灵点击
 
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
++切换服装到（纳米-a v）
+问[你叫什么名字？]并等待
 ```
 
 ![测试修复造型bug](images/chatbot-costume-fix-test.png)
