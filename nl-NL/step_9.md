@@ -1,4 +1,4 @@
-## Test jezelf
+## Test yourself
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -19,30 +19,30 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script></p>
 
-<pre><code>var quiztitle// = "Bobby's Voorbeeld Quiz";
+<pre><code>var quiztitle// = "Bobby's Sample Quiz";
 
 /**
-* Plaats hier informatie over je vragen. De juiste antwoordstring moet precies overeenkomen met
-*, de juiste keuze, net als het combineren van strings. (hoofdlettergevoelig)
+* Set the information about your questions here. The correct answer string needs to match
+* the correct choice exactly, as it does string matching. (case sensitive)
 *
-* /
+*/
 </code></pre>
 
 <p>/**
-*Laten we de vragen willekeurig maken!
+*Let's create the randomization of the questions!
 */</p>
 
 <p>function shuffle(array) {
- var currentIndex = array.length, temporaryValue, randomIndex;</p>
+  var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// Zolang er nog elementen zijn om te shufflen...
+<p>// While there remain elements to shuffle...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Kies een overgebleven element...
-randomIndex = Math.floor(Math.random()*currentIndex);
+<pre><code>// Pick a remaining element...
+randomIndex = Math.floor(Math.random() * currentIndex);
 currentIndex -= 1;
 
-// en verwissel het met het huidige element.
+// And swap it with the current element.
 temporaryValue = array[currentIndex];
 array[currentIndex] = array[randomIndex];
 array[randomIndex] = temporaryValue;
@@ -71,75 +71,75 @@ array[randomIndex] = temporaryValue;
 
 <pre><code>var quiz = [
     {
-        "question": "Welk script zou ervoor zorgen dat de sprite 'Hello Izzy' zegt?",
-        "image": "images/montage-1.png",
-        "choices": [
-                                " A ",
-                                " B ",
-                                " C ",
-                                " D "
-                            ],
-        "correct ":" C ",
-        "explanation":" U moet de 'Hallo'-string toevoegen aan de `name` variabele ",
-    },
-    {
-        " question ":" Welk script zou de gebruiker om hun voornaam en achternaam vragen en vervolgens hun volledige naam weergeven? ",
-        "image ":" images/montage-2.png ",
-        "choices": [
+        "question"      :   "Which script would cause the sprite to say 'Hello Izzy'?",
+        "image"         :   "images/montage-1.png",
+        "choices"       :   [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correct": "D",
-        "explanation": "De vraag moet eerst gesteld worden, en dan wordt het antwoord opgeslagen als een variabele. "
+        "correct"       :   "C",
+        "explanation"   :   "You need to join the 'Hello ' string to the `name` variable",
     },
     {
-        "question": "Welk script verplaatst de sprite naar links wanneer de gebruiker 'left' typt en rechts wanneer de gebruiker iets anders typt?",
-        "image": "images/montage-3.png" ,
-        "choices": [
+        "question"      :   "Which script would ask the user for their first name and last name and then output their full name?",
+        "image"         :   "images/montage-2.png",
+        "choices"       :   [
                                 "A",
                                 "B",
                                 "C",
                                 "D"
                             ],
-        "correct": "A",
-        "explanation": "De if-voorwaarde zou moeten controleren of left is getypt en verplaats dan in de negatieve x. Anders moet de sprite altijd in de positieve x bewegen",
+        "correct"       :   "D",
+        "explanation"   :   "The question must be asked first, and then the answer stored as a variable."
+    },
+    {
+        "question"      :   "Which script will move the sprite left when the user types 'left' and right when the user types anything else?",
+        "image"         :   "images/montage-3.png",
+        "choices"       :   [
+                                "A",
+                                "B",
+                                "C",
+                                "D"
+                            ],
+        "correct"       :   "A",
+        "explanation"   :   "The if condition should check if left has been typed and then move in the negative x. Otherwise the sprite should always move in the positive x",
     },
 
 ];
 </code></pre>
 
-<p>//gebruik dit voor IE syntax error at => : ECMA script 6 not supported in IE 11 :(
+<p>//use this for IE syntax error at => : ECMA script 6 not supported in IE 11 :(
 //quiz.forEach(function(q){ return q.choices.scramble()});</p>
 
-<p>//gebruik dit voor ECMA script 6
-//quiz.foreach(q => q.choices.scramble());
+<p>//use this for ECMA script 6
+//quiz.forEach(q => q.choices.scramble());
 //console.log(quiz[0].choices);</p>
 
 <p>quiz = shuffle(quiz);</p>
 
-<pre><code>/ ******* Het is niet nodig om onder deze regel te bewerken ********* /
-var currentquestion = 0, score = 0, submt = true, picked;
+<pre><code>/******* No need to edit below this line *********/
+var currentquestion = 0, score = 0, submt=true, picked;
 
-jQuery (document).ready (functie ($) {
+jQuery(document).ready(function($){
 
-    / **
-     * HTML-coderingsfunctie voor alt-tags en -kenmerken om te voorkomen dat rommelige
-     * -gegevens in tagkenmerken verschijnen.
-     * /
-    functie htmlEncode(value) {
-      return $(document.createElement ('div')).text(value) html();
+    /**
+     * HTML Encoding function for alt tags and attributes to prevent messy
+     * data appearing inside tag attributes.
+     */
+    function htmlEncode(value){
+      return $(document.createElement('div')).text(value).html();
     }
 
-    / **
-     * Dit voegt de individuele keuzes voor elke vraag toe aan het ul#choice-block
+    /**
+     * This will add the individual choices for each question to the ul#choice-block
      *
-     * @param {choices} array De keuzes van elke vraag
-     * /
-    functie addChoices(choices) {
-        if (typeof choices !== "undefined" &amp;&amp; $.type(choices) == "array") {
-            $('#choice-block').empty ();
+     * @param {choices} array The choices from each question
+     */
+    function addChoices(choices){
+        if(typeof choices !== "undefined" &amp;&amp; $.type(choices) == "array"){
+            $('#choice-block').empty();
             for(var i=0;i&lt;choices.length; i++){
             $(document.createElement('li')).addClass('choice choice-box btn').attr('data-index', i).text(choices[i]).appendTo('#choice-block');
             }
@@ -170,7 +170,7 @@ jQuery (document).ready (functie ($) {
             $("#question").html(function(){
                 var text= $(this).text().trim().split(" ");
                 var first = text.shift();
-                return (text.length &gt; ? "&lt;span class='number'&gt;"+ first +"&lt;/span&gt; " : first) + text.join(" ");
+                return (text.length &gt; 0 ? "&lt;span class='number'&gt;"+ first +"&lt;/span&gt; " : first) + text.join(" ");
             });
 
             $('p.pager').each(function(){
@@ -189,9 +189,9 @@ jQuery (document).ready (functie ($) {
     }
 
     /**
-     * Controleert of dit het goede antwoord is nadat een keuze is ingevoerd
+     * After a selection is submitted, checks if its the right answer
      *
-     * @param {choice} number De li nul-gebaseerde index van de ingevoerde keuze
+     * @param {choice} number The li zero-based index of the choice picked
      */
     function processQuestion(choice){
         if(quiz[currentquestion]['choices'][choice] == quiz[currentquestion]['correct']){
@@ -225,7 +225,7 @@ jQuery (document).ready (functie ($) {
     }
 
     /**
-     * Hiermee worden de event listeners voor iedere knop ingesteld.
+     * Sets up the event listeners for each button.
      */
     function setupButtons(){
         $('.choice').on('click', function(){
@@ -244,7 +244,7 @@ jQuery (document).ready (functie ($) {
     }
 
     /**
-     * Quiz eindigt, geef een bericht weer.
+     * Quiz ends, display a message.
      */
     function endQuiz(){
         $('#explanation').empty();
@@ -252,15 +252,15 @@ jQuery (document).ready (functie ($) {
         $('#choice-block').empty();
         $('#submitbutton').remove();
         $('.rsform-block-submit').addClass('show');
-        $('#question').text("Je hebt " + score + " uit" + quiz.length + " correct.");
+        $('#question').text("You got " + score + " out of " + quiz.length + " correct.");
         $(document.createElement('h4')).addClass('score').text(Math.round(score/quiz.length * 100) + '%').insertAfter('#question');         
     }
 
     /**
-     * Draait de eerste keer en maakt alle elementen voor de quiz
+     * Runs the first time and creates all of the elements for the quiz
      */
     function init(){
-        //voef titel toe
+        //add title
         if(typeof quiztitle !== "undefined" &amp;&amp; $.type(quiztitle) === "string"){
             $(document.createElement('h2')).text(quiztitle).appendTo('#frame');
         } //else {
@@ -269,26 +269,26 @@ jQuery (document).ready (functie ($) {
 
 <p>//          }</p>
 
-<pre><code>        //voeg pager toe en vragen
+<pre><code>        //add pager and questions
         if(typeof quiz !== "undefined" &amp;&amp; $.type(quiz) === "array"){
-            //voeg pager toe
+            //add pager
             $(document.createElement('p')).addClass('pager').attr('id','pager').text('Question 1 of ' + quiz.length).appendTo('#frame');
-            //voeg eerste vraag toe
+            //add first question
             $(document.createElement('h3')).addClass('question').attr('id', 'question').text(quiz[0]['question']).appendTo('#frame');
-            //voeg afbeelding toe indien aanwezig
+            //add image if present
             if(quiz[0].hasOwnProperty('image') &amp;&amp; quiz[0]['image'] != ""){
                 $(document.createElement('img')).addClass('question-image').attr('id', 'question-image').attr('src', quiz[0]['image']).attr('alt', htmlEncode(quiz[0]['question'])).appendTo('#frame');
             }
 
             $(document.createElement('p')).addClass('explanation').attr('id','explanation').html('').appendTo('#frame');
 
-            //vragen-houder
+            //questions holder
             $(document.createElement('ul')).attr('id', 'choice-block').appendTo('#frame');
 
-            //voeg keuzes toe
+            //add choices
             addChoices(quiz[0]['choices']);
 
-            //voeg verzendknop toe
+            //add submit button
             $(document.createElement('div')).addClass('btn-success choice-box').attr('id', 'submitbutton').text('- CHECK ANSWER -').css({'font-weight':'bold', 'color':'#fff','padding':'30px 0', 'border-radius':'10px'}).appendTo('#frame');
 
             setupButtons();
@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>Deze quiz werkt mogelijk niet in Internet Explorer. Als je de quiz niet kunt zien, probeer dan een andere browser.</em></p>
+<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
 </script>
