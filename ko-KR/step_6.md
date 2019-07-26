@@ -1,5 +1,5 @@
 ## 도전과제: 더 많은 결정들
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+챗봇을 프로그래밍하여 "예"또는 "아니오"로 대답 할 수있는 다른 질문을 추가해 보세요. 응답을 받는 지 여부에 따라 챗봇의 응답을 다르게 할 수 있습니까?
 
 ![스크린샷](images/chatbot-joke.png)
