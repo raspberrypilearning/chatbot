@@ -1,24 +1,24 @@
 ## 会说话的机器人
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+既然你有一个有个性的聊天机器人，你就要编程让它跟你说话。
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+点击你的聊天机器人精灵，这个代码添加到它，以便 `时，它被点击`{：类=“block3events”}，这 `询问你的姓名`{：类=“block3sensing”}，然后 `说：“什么可爱的名字！“`{：class =“block3looks”}。
 
-![nano sprite](images/nano-sprite.png)
+![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+当这个精灵点击
+问[你的名字是什么？]并等待
+说[多么可爱的名字！]为（2）秒
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+单击您的聊天机器人以测试您的代码。当聊天机器人询问您的姓名时，请在舞台底部显示的框中键入，然后单击蓝色标记，或按 <kbd>输入</kbd>。
 
 ![测试聊天机器人回复](images/chatbot-ask-test1.png)
 
@@ -28,16 +28,16 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+现在，您的聊天机器人回复“多么可爱的名字！”每次你回答。您可以使聊天机器人的回复更加个性化，以便每次输入其他名称时回复都不同。
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+将聊天机器人精灵的代码更改为 `加入`{：class =“block3operators”}“嗨”， `回答`{：class =“block3sensing”}改为“你叫什么名字？”问题，所以代码看起来像这样：
 
-![nano sprite](images/nano-sprite.png)
+![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+当这个精灵点击
+问[你的名字是什么？]并等待
+说（加入[Hi]（回答）:: +）（2）秒
 ```
 
 ![测试个性化回复](images/chatbot-answer-test.png)
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+通过将答案存储在 **变量**，您可以在项目的任何位置使用它。
 
-Create a new variable called `name`{:class="block3variables"}.
+创建一个名为 `name`{：class =“block3variables”}的新变量。
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,22 +56,22 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+现在，改变你的聊天机器人精灵的代码所设置的 `名`{：类=“block3variables”}变量 `回答`{：类=“block3sensing”}：
 
-![nano sprite](images/nano-sprite.png)
+![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+当这个精灵点击
+询问[你的名字是什么？]并等待
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++设置[name v]到（回答）
+说（加入[Hi]（名称::变量+））（2）秒
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+您的代码应该像以前一样工作：您的聊天机器人应该使用您输入的名称打招呼。
 
 ![测试个性化回复](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+再次测试你的程序。 请注意，您键入的答案存储在 `名称`{：class =“block3variables”}变量中，并且还显示在舞台的左上角。 要使它从舞台上消失，请转到 `Data`{：class =“block3variables”} blocks部分，然后单击 `name`{：class =“block3variables”}旁边的框，以便不标记它。
