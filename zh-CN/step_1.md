@@ -1,18 +1,18 @@
-\--- no-print \---
+--无打印--
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+这个项目是基于**Scratch 3**版本的，另外还有一个基于[Scratch 2的版本](https://projects.raspberrypi.org/en/projects/chatbot-scratch2)。
 
 \--- /no-print \---
 
 ## 简介
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+您将学习如何编程可以与您交谈的角色！像这样的角色称为聊天机器人或聊天机器人。
 
-### 你将做出什么
+### 学习成果
 
-\--- no-print \---
+--无打印--
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+点击绿旗，然后再点击聊天机器人角色开始与其对话。 当聊天机器人问你一个问题，在舞台底部的文本框中输入你的答案，然后再点击右侧的蓝色打勾标记（或直接按`回车`），就可以看到聊天机器人的回复。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![完成的项目](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -31,7 +31,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will need
+## title: 你需要准备什么
 
 ### 硬件
 
@@ -41,9 +41,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 - Scratch 3（[在线版](https://rpf.io/scratchon)或[离线版](https://rpf.io/scratchoff)）
 
-### Downloads
+### 下载
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [在此处查找要下载的文件](http://rpf.io/p/en/chatbot-go)。
 
 \--- /collapse \---
 
@@ -51,24 +51,24 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will learn
+## title: 你将学到什么
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- 使用代码在Scratch中连接字符串
+- 知道变量可用于存储用户输入
+- 在Scratch 使用条件选择来响应用户输入\--- / collapse \---
 
 \--- collapse \---
 
 * * *
 
-## title: Additional notes for educators
+## 题目: 教师附加说明
 
-\--- no-print \---
+--无打印--
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+如果您需要打印此项目，请使用[打印友好版本 printer-friendly version ](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+你可以在这里找到 [完成的项目](http://rpf.io/p/en/chatbot-get)。
 
 \--- /collapse \---
