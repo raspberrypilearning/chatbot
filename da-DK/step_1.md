@@ -53,11 +53,11 @@ Klik på det grønne flag, og klik derefter på chatbot-tegn for at starte en sa
 
 ## title: Du kommer til at lære følgende
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Brug kode til concatonate strings i Scratch
+- Ved at variabler kan bruges til at gemme brugerindgang
+- Brug betinget valg til at reagere på brugerindgang i Scratch \--- / collapse \---
 
-\--- collapse \---
+\--- falde sammen \---
 
 * * *
 
@@ -65,10 +65,10 @@ Klik på det grønne flag, og klik derefter på chatbot-tegn for at starte en sa
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Hvis du har brug for at udskrive dette projekt, skal du bruge [printervenlig version](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
 
-\--- /no-print \---
+\--- / no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Du kan finde det [færdige projekt her](http://rpf.io/p/en/chatbot-get).
 
-\--- /collapse \---
+\--- /falde sammen \---
