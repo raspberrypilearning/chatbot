@@ -1,93 +1,93 @@
-## Changing location
+## Hely megváltoztatása
 
-You can also program your chatbot to change its location!
+Beállíthatja a chatbotot is, hogy megváltoztassa a helyét!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Változó hátteret tesztel](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Beállíthatod a chatbotodat, hogy megkérdezd: "Akarsz menni a Holdra", majd módosítsd a hátteret, amikor a válasz "igen"?
 
-\--- hints \---
+\--- tippek \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Az Ön chatbotjának `kell kérdeznie: "El akarsz menni a Holdra?"`{: class = "block3sensing"}, és `ha`{: class = "block3control"} te `válasz`{: class = "block3sensing"} "igen", akkor `kapcsolja át a hátteret a holdra`{: class = "block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Íme a kódblokkok, amelyeket hozzá kell adnod a chatbot kódodhoz.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+kapcsolja a hátteret (hold v)
 
-ask [Do you want to go to the moon?] and wait
+kérje [Szeretne menni a Holdra?] és várjon
 
-if <(answer) = [yes]> then 
+ha <(válasz) = [yes]> majd 
 
-end
+vége
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Ez az, amit a kódodnak kell kinéznie:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-end
+kérdezd meg [Szeretnéd a Holdra menni?] és várjunk
+> ha <(válasz) = [yes]> majd 
+  kapcsolót hátra (hold v)
+vége
 ```
 
 \--- /hint \---
 
-\--- /hints \---
+\--- / tippek \---
 
 \--- /task \---
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Most meg kell győződnie arról, hogy a chatbot a megfelelő helyen kezdődik, amikor rákattint, hogy beszéljen vele. A blokk hozzáadása a chatbot kódjának tetejére:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+amikor ez a sprite
 
-+ switch backdrop to (space v)
++ + kapcsoló hátteret (tér v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Tesztelje a programot, és válaszoljon "igen" -re, ha a chatbot megkérdezi, hogy akar-e menni a Holdra. Látnia kell, hogy a chatbot helyszíne megváltozik.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+A következő kódot is beillesztheti az új `ha`{: class = "block3control"} blokkolja a chatbot négyszer ugrását, ha válaszol az "igen":
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+ha <(válasz) = [yes]> majd 
+  kapcsoló háttere (hold v)
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
++ ismétlés (4) 
+    változtatás y -val (10)
+    várakozás (0,1) másodperc
+    változtatás y -val (-10)
+    várakozás (0,1) másodperc
+  vég
+vége
 ```
 
 \--- /task \---
