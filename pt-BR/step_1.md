@@ -61,7 +61,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: Additional notes for educators
+## título: Notas adicionais para educadores
 
 \--- no-print \---
 
