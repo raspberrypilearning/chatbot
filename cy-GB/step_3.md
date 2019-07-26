@@ -9,9 +9,9 @@ Clicia'r corlun sgwrsfot, ac ychwanegu'r côd yma fel ei fod {:class="block3even
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+pan gaiff y ciplun yma ei glicio
+gofyn [Beth yw dy enw?] ac aros
+dweud [Am enw hyfryd!] am (2) eiliad
 ```
 
 \--- /task \---
@@ -35,9 +35,9 @@ Newida côd y sgwrsfot i `uno`{:class="block3operators"} "Helo" gydag `ateb` {:c
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+pan gaiff y ciplun yma ei glicio
+gofyn [Beth yw dy enw?] ac aros
+dweud (uno [Helo ] (ateb) :: +) am (2) eiliad
 ```
 
 ![Profi ateb personol](images/chatbot-answer-test.png)
@@ -61,11 +61,11 @@ Nawr, newida côd dy sgwrsfot i osod y newidyn `enw` {: class = "block3variables
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+pan gaiff y ciplun yma ei glicio
+gofyn [Beth yw dy enw?] ac aros
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ gosod [enw v] i (ateb)
+dweud (uno [Helo ] (enw :: + variables)) am (2) eiliad
 ```
 
 Fe ddylai dy gôd weithio fel o'r blaen: dy sgwrsfot yn dweud helo pan wyt ti'n teipio dy enw.
