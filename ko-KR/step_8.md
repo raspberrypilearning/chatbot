@@ -1,6 +1,6 @@
 ## 도전 과제: 챗봇 완성하기
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+그동안 배운 것들을 활용해서 챗봇을 완성하십시오. 다음은 몇 가지 아이디어 입니다: 아래와 같은 아이디어를 제시할 수 있습니다:
 
 ![챗봇 아이디어](images/chatbot-ideas1.png)
 
@@ -8,4 +8,4 @@ Use what you've learned to finish creating your interactive chatbot. Here are so
 
 ![챗봇 아이디어](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+챗봇을 끝내면 친구들과 대화를 나누도록 하세요! 그들은 당신의 캐릭터를 좋아합니까? 문제를 찾아낼 수 있나요?
