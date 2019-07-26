@@ -1,48 +1,48 @@
 ## 장소 바꾸기
 
-You can also program your chatbot to change its location!
+챗봇이 장소를 바꾸도록 코드를 만들 수 있습니다!
 
 ![변화하는 배경 테스트](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+"달에 가보고 싶니?" 라는 챗봇의 물음에 "응"이라고 대답하면 장소가 바뀌도록 코드를 만들 수 있습니까?
 
 \--- 힌트 \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+당신의 챗봇은 `"달에 가보고 싶니?"`{:class="block3sensing"}라고 물어봐야 합니다. `만약`{:class="block3control"} 사용자의 `대답`{:class="block3sensing"} 이 "예" 인 경우, `배경을 moon으로 바꾸기`{:class="block3looks"}해야 합니다.
 
 \--- /귀뜸말 \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+다음은 챗봇 코드에 추가해야하는 코드 블록입니다.
 
-![nano sprite](images/nano-sprite.png)
+![나노 스프라이트](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+배경을 (moon v) 으(로) 바꾸기
 
-ask [Do you want to go to the moon?] and wait
+[달에 가보고 싶니?] 라고 묻고 기다리기
 
-if <(answer) = [yes]> then 
+만약 < (대답) = [yes] > (이)라면
 
-end
+끝
 ```
 
 \--- / 귀뜸말 \---
 
 \--- hint \---
 
-This is what your code should look like:
+다음과 같은 코드를 추가해야 합니다:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-end
+[달에 가보고 싶니?] 라고 묻고 기다리기
+만약 <(대답) = [yes]> (이)라면
+  배경을 (moon v) (으)로 바꾸기
+끝
 ```
 
 \--- / 귀뜸말 \---
@@ -53,41 +53,41 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+이제 챗봇을 클릭하면 챗봇이 올바른 위치에서 시작되는지 확인해야합니다. 다음 블록을 챗봇 코드 상단에 추가하십시오:
 
-![nano sprite](images/nano-sprite.png)
+![나노 스프라이트](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+이 스프라이트를 클릭했을 때
 
-+ switch backdrop to (space v)
++ 배경을 (space v) (으)로 바꾸기
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+챗봇이 달에 갈지 묻는다면 프로그램을 테스트하고 "예"라고 대답하십시오. 챗봇이 있는 위치가 변경된 것을 볼 수 있습니다.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+`만약` {: class = "block3control"} 코드 안에 새로운 동작을 추가할 수도 있습니다. 챗봇의 물음에 "예"라고 대답하면 챗봇을 4 번 위아래로 점프하도록 할 수 있습니다:
 
-![nano sprite](images/nano-sprite.png)
+![나노 스프라이트](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+만약 <(대답) = [yes]> (이)라면
+  배경을 (moon v) (으)로 바꾸기
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
++  (4) 번 반복하기
+    y 좌표를 (10) 만큼 바꾸기
+    (0.1) 초 기다리기
+    y 좌표를 (-10) 만큼 바꾸기
+    (0.1) 초 기다리기
+  끝
+끝
 ```
 
 \--- /task \---
