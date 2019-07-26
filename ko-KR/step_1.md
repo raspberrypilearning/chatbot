@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+이 프로젝트의 **스크래치 3** 버전입니다. [프로젝트의 스크래치 2 버전](https://projects.raspberrypi.org/en/projects/chatbot-scratch2)도 있습니다.
 
 \--- /no-print \---
 
 ## 들어가며
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+당신은 당신과 이야기할 수 있는 캐릭터를 프로그래밍하는 방법에 대해 배우게 됩니다. 그런 캐릭터를 채팅 로봇 혹은 챗봇이라고 합니다.
 
 ### 만들게 될 것
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+초록 깃발을 누른 후에, 챗봇을 눌러서 대화를 시작합니다. 위의 화면에서 챗봇이 질문을 하면 하단에 위치한 텍스트 상자에 대답을 입력하고 상자 우측에 위치한 체크표시를 클릭하세요. (또는 `Enter`를 누르세요)
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![완료 된 프로젝트](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -41,9 +41,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 - 스크래치 3 ([온라인](https://rpf.io/scratchon) 또는 [오프라인](https://rpf.io/scratchoff))
 
-### Downloads
+### 다운로드
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [ 여기에서 다운로드 할 파일을 찾으십시오](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,22 +53,22 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: 배우게 될 것
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- 코드를 사용하여 스크래치에서 문자열 연결하기
+- 변수가 사용자 입력을 저장하는 데 사용될 수 있음을 이해하기
+- 조건부 선택을 사용하여 Scratch 에서 사용자 입력에 응답 \--- / collapse \---
 
 \--- collapse \---
 
 * * *
 
-## title: Additional notes for educators
+## title: 교육자를 위한 추가 정보
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}을 사용하십시오.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
