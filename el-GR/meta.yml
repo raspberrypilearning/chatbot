@@ -13,7 +13,7 @@ steps:
   - 
     title: Το chatbot σου
   - 
-    title: Ένα ομιλόν chatbot
+    title: Ένα  chatbot που ... μιλάει!
   - 
     title: "Πρόκληση: περισσότερες ερωτήσεις"
     challenge: true
@@ -23,7 +23,7 @@ steps:
     title: "Πρόκληση: περισσότερες αποφάσεις"
     challenge: true
   - 
-    title: Αλλαγή τοποθεσίας
+    title: Αλλάζοντας τοποθεσία
   - 
     title: "Πρόκληση: ολοκλήρωσε το chatbot σου"
     challenge: true
