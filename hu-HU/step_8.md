@@ -1,11 +1,11 @@
-## Challenge: finish your chatbot
+## Kihívás: fejezd be a chatbotodat
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+Használja az interaktív chatbot létrehozásának befejezését. Íme néhány ötlet:
 
-![ChatBot ideas](images/chatbot-ideas1.png)
+![ChatBot ötletek](images/chatbot-ideas1.png)
 
-![ChatBot ideas](images/chatbot-ideas2.png)
+![ChatBot ötletek](images/chatbot-ideas2.png)
 
-![ChatBot ideas](images/chatbot-ideas3.png)
+![ChatBot ötletek](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+Miután befejezte a chatbotot, hívja meg barátait, hogy beszéljen vele! Szeretik a karakteredet? Találhatnak-e problémákat?
