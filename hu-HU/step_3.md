@@ -1,54 +1,54 @@
-## A talking chatbot
+## Beszélő chatbot
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Most, hogy van egy személyiséggel rendelkező chatbot, akkor azt tervezi, hogy beszéljen veled.
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Kattints a chatbot sprite-jére, és add hozzá ezt a kódot, hogy `ha rákattint az`{: class = "block3events"}, `megkérdezi a nevedet`{: class = "block3sensing"}, majd `azt mondja: " kedves név!"`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+ha ez a szellem a kattintott
+kérni [Mi a neved?], és várjon
+mondják [Milyen szép név!] A (2) másodpercig
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+A kód teszteléséhez kattintson a chatbotra. Amikor a chatbot megkérdezi a nevét, írja be a színpad alján látható mezőbe, majd kattintson a kék jelre, vagy nyomja meg a <kbd>Entert</kbd>.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![ChatBot válasz tesztelése](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![ChatBot válasz tesztelése](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+Most, a chatbot válaszol "Milyen szép név!" minden alkalommal, amikor válaszolsz. A chatbot válaszát személyesebbé teheti, hogy a válasz minden alkalommal más legyen, amikor egy másik nevet beírnak.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+Változtassa meg a chatbot sprite kódját `csatlakozzon`{: class = "block3operators"} "Hi" a `válasz`{: class = "block3sensing"} -re a "Mi a neved?" kérdés, így a kód így néz ki:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+ha ez a szellem a kattintott
+kérni [Mi a neved?], és várjon
+mondjuk (join [Hi] (válasz) :: +) a (2) másodpercig
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Testreszabott válasz tesztelése](images/chatbot-answer-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+Tárolásával választ egy **változó**, akkor bárhol a projekt.
 
-Create a new variable called `name`{:class="block3variables"}.
+Az új változó nevű `neve`{: class = "block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,22 +56,22 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Most változtassa meg a chatbot sprites kódját, hogy a `név`{: class = "block3variables"} változót állítsa `válaszra`: class = "block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+amikor ez a sprite
+kattintott, kérdezze meg [Mi a neved?] és várjon
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ beállítást [név v] (válasz)
+mondjon (csatlakozzon [Hi] (név :: változók +)) (2) másodpercig
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+A kódnak úgy kell működnie, mint korábban: a chatbotnak hiába kell használnia a beírt nevet.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Testreszabott válasz tesztelése](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Tesztelje újra a programot. Figyeljük meg, hogy a beírt válasz a `név`{: class = "block3variables"} változóban tárolódik, és megjelenik a színpad bal felső sarkában is. Ahhoz, hogy eltűnjön a színpadról, menjen a `Data`{: class = "block3variables"} blokkokra, és kattintson a `név`{: class = "block3variables"} melletti négyzetre, hogy ne legyen jelölve.
