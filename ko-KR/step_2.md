@@ -2,31 +2,31 @@
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+챗봇을 만들기 전에 챗봇의 성격을 결정해야 합니다.**다음 질문에 대해서 생각해 보십시오.**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ 챗봇의 이름은 무엇입니까?
++ 챗봇은 어디에 사나요?
++ 챗봇은 행복한가요? 진지한가요? 웃긴가요? 부끄러워 하나요?
++ 챗봇은 무엇을 좋아하고 싫어합니까?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- task \--- 파이썬 스타터 프로젝트를 엽니다.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+** 온라인: ** [ rpf.io/chatbot-on ](http://rpf.io/chatbot-on) {: target = "_ blank"}에서 새로운 스타터 프로젝트 열기.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+스크래치 계정이있는 경우 ** Remix를 클릭 ** 하여 사본을 만들 수 있습니다.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**오프라인:** 오프라인 시작 프로그램을 [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+스크래치 오프라인 에디터를 다운로드 받아야 하는 경우, [https://rpf.io/scratchoff](rpf.io/scratchoff) 에서 다운 받을 수 있습니다. \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+스타터 프로젝트에는 4개의 캐릭터 스프라이트가 있습니다. 이 중 하나를 선택합니다.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+이미 선택된 스프라이트를 선택하거나, 원하는 스프라이트를 우측 클릭하여 **보이기** 혹은 **숨기기** 블록을 활용하여 나타나게 하거나 숨길 수 있습니다.
 
-![Choose a character](images/chatbot-characters.png)
+![캐릭터선택](images/chatbot-characters.png)
 
 \--- /task \---
