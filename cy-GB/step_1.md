@@ -65,10 +65,10 @@ Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Gallwch ddod o hyd i'r prosiect gorffenedig [ yma ](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
