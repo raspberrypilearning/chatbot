@@ -1,5 +1,5 @@
 ## التحدي: مزيد من القرارات
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+قم ببرمجة روبوت الدردشة لطرح سؤال آخر يمكن الإجابة عليه بـ "نعم" أو "لا". هل يمكنك جعل الروبوت يستجيب بطريقة مختلفة بناءً على الإجابة التي يتلقاها؟
 
 ![لقطة شاشة](images/chatbot-joke.png)
