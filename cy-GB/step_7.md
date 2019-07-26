@@ -23,11 +23,11 @@ Dyma'r blociau côd fyddi di angen eu hychwanegu i gôd dy sgwrsfot.
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+newid cefndir i (moon v)
 
-ask [Do you want to go to the moon?] and wait
+gofyn [Wyt ti eisiau mynd i'r lleuad?] ac aros
 
-if <(answer) = [yes]> then 
+os <(ateb) = [ydw]> yna
 
 end
 ```
@@ -39,9 +39,9 @@ end
 Dyma sut dylai dy gôd edrych:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+gofyn [Wyt ti eisiau mynd i'r lleuad?] ac aros
+os <(ateb) = [ydw]> yna 
+  newid cefndir i (moon v)
 end
 ```
 
@@ -58,9 +58,9 @@ Mae angen i ti sicrhau fod dy sgwrsfot yn cychwyn yn y lleoliad cywir pan wyt ti
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+pan gaiff y ciplun yma ei glicio
 
-+ switch backdrop to (space v)
++ newid cefndir i (space v)
 ```
 
 \--- /task \---
@@ -78,14 +78,14 @@ Mae modd i ti ychwanegu'r côd canlynol o fewn y bloc newydd `os`{:class="block3
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+os <(ateb) = [ywd]> yna 
+  newid cefndir i (moon v)
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
++ ailadrodd (4) 
+    newid y gan (10)
+    aros (0.1) eiliad
+    newid y gan (-10)
+    aros (0.1) eiliad
   end
 end
 ```
