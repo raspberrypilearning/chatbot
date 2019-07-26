@@ -5,29 +5,29 @@ description: Impara a programmare il tuo robot parlante!
 theme: violet
 listed: true
 copyedit: false
-version: 4.1.0
-last_tested: 2017-01-01
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
     title: Introduzione
   - 
-    title: Di cosa avrai bisogno
+    title: Il tuo ChiacchieRobot
   - 
     title: Il tuo ChiacchieRobot
   - 
-    title: "Un ChiacchieRobot parlante"
+    title: "Sfida: Altre domande"
     challenge: true
   - 
     title: Prendere decisioni
   - 
-    title: "Cambiare posizione"
+    title: "Sfida: Altre decisioni"
     challenge: true
   - 
-    title: 'Sfida: Completa il tuo ChiacchieRobot'
+    title: Cambiare posizione
   - 
     title: "Sfida: Completa il tuo ChiacchieRobot"
     challenge: true
   - 
-    title: Test yourself
+    title: Mettiti alla prova
   - 
-    title: What next?
+    title: E adesso?
