@@ -2,31 +2,31 @@
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Prima di iniziare a creare il tuo ChiacchieRobot, dovrai decidere la sua personalità. **Dai un'occhiata a queste domande**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Qual è il nome del chiacchierobot?
++ Dove vive?
++ È felice? Serio? Divertente? Timido? Simpatico?
++ Cosa gli piace e cosa non gli piace?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- attività \--- Apri il progetto Scratch di avvio del chiacchierobot.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** apri il progetto iniziale su [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** scarica il progetto iniziale da [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}, e aprilo con l'editor offline.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Se hai bisogno di scaricare e installare l'editor di Scratch offline, puoi trovarlo all'indirizzo [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Il progetto iniziale contiene quattro sprite di personaggi. Uno di questi sarà il tuo chiacchierobot.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Puoi utilizzare lo sprite già selezionato o sceglierne uno diverso facendo clic con il tasto destro del mouse su quello desiderato e selezionando ** mostra ** o ** nascondi ** dal menu che appare.
 
-![Choose a character](images/chatbot-characters.png)
+![Scegli un personaggio](images/chatbot-characters.png)
 
 \--- /task \---
