@@ -1,6 +1,6 @@
 ## التحدي: إكمال إنشاء روبوتك
 
-Use what you've learned to finish creating your interactive chatbot. إليك بعض الأفكار:
+استخدم ما تعلمتَه لتُكمل إنشاء روبوتك التفاعلي. إليك بعض الأفكار:
 
 ![أفكار الروبوت](images/chatbot-ideas1.png)
 
@@ -8,4 +8,4 @@ Use what you've learned to finish creating your interactive chatbot. إليك ب
 
 ![أفكار الروبوت](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+بمجرد الانتهاء من روبوت الدردشة خاصتك، اجعل أصدقاءك يجرون محادثة معه! هل يحبون شخصيتك؟ هل يمكنهم ملاحظة أي مشاكل؟
