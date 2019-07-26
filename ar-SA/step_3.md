@@ -6,7 +6,7 @@
 
 أنقر على روبوت الدردشة الخاص بك وأضف هذه التعليمة البرمجية `عند النقر على هذا الكائن` {:class="block3events"}, حتى`يسال عن إسمك`{:class="block3sensing"} وبعدها `بقول "يا له من إسم جميل!"`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![كائن نانو](images/nano-sprite.png)
 
 ```blocks3
 عند النقر على هذا الكائن
@@ -30,14 +30,14 @@
 
 الان، يرد عليك الروبوت "يا له من اسم جميل!" في كل مرة تجيبه. يمكنك أن تجعل الروبوت يجيب بصورة اكثر شخصية، بحيث تكون الاجابة مختلفة في كل مرة يتم فيها كتابة اسم مختلف.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+غيّر التعليمة البرمجية لروبوت الدردشة خاصتك الى `اربط`{:class="block3operators"} "مرحبا" مع `الاجابة`{:class="block3sensing"} الى السؤال "ما إسمك؟"، بحيث تبدو التعليمات البرمجية بالشكل التالي:
 
-![nano sprite](images/nano-sprite.png)
+![كائن نانو](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+عند النقر على هذا الكائن
+إسال [ما أسمك؟] وانتظر
+قل (اربط [مرحبا] (الاجابة) ::+) لمدة (2) ثانية
 ```
 
 ![اختبار رد شخصي](images/chatbot-answer-test.png)
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+عن طريق خزن الاجابة في **متغير**، تستطيع استخدامه في أي مكان في مشروعك.
 
-Create a new variable called `name`{:class="block3variables"}.
+أنشيء متغير جديد بالاسم `اسم` {:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,22 +56,22 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+الآن، غيّر التعليمات البرمجية الخاصة بروبوت الدردشة لتعيين متغير الـ`اسم`{:class="block3variables"} الى `الاجابة`{:class="block3sensing"}:
 
-![nano sprite](images/nano-sprite.png)
+![كائن نانو](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+عند النقر عل هذا الكائن
+اسأل [ما أسمك؟] وانتظر
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ عيّن [اسم v] الى (الاجابة)
+قل (اربط [مرحبا] (اسم :: متغيرات +)) لمدة (2) ثانية
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+يجب أن تعمل التعليمة البرمجية التي تُدخلها كما سبق: يجب أن يقول روبوت الدردشة مرحبًا، مستخدما الاسم الذي كتبته.
 
 ![اختبار رد شخصي](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+اختبر مشروعك مرة أخرى. لاحظ أن الإجابة التي تكتبها مخزنة في المتغير ` اسم` {: class = "block3variables"} ، ويظهر أيضًا في الركن العلوي الأيسر من المنصة. لجعلها تختفي من المنصة، اذهب إلى الكتل في قسم ` البيانات ` {: class = "block3variables"} وانقر على المربع بجوار `اسم ` {: class = "block3variables"} حتى لا تكون مؤشرة.
