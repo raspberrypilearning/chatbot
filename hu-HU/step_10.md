@@ -1,8 +1,8 @@
-## What next?
+## Mi következik?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+Próbálja ki a [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) projektet, ahol saját festményprogramot hoz létre!
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Kattints a zöld zászlóra a kezdéshez. Az egérrel mozgassa a ceruzát, és tartsa lenyomva a bal egérgombot. A ceruza módosításához kattintson a színre. Kattintson a radírra, hogy megváltoztassa, és törölje a munkáját. Az oldal törléséhez kattintson a keresztre.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -11,6 +11,6 @@ Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_s
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- A zöld zászlóra kattintva elindul, és az egérrel mozgathatja a ceruzát, és tartsa lenyomva a bal egérgombot. A színre kattintva megváltozik a ceruza színe, és a radírra kattintva a radírra vált.
 
-![showcase](images/paint-box-showcase.png) \--- /print-only \---
+![kirakat](images/paint-box-showcase.png) \--- / csak nyomtatás \---
