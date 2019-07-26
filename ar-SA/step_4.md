@@ -1,6 +1,6 @@
 ## التحدي: مزيد من الأسئلة
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+برمِج روبوتك ليسأل سؤالًا آخر، هل يمكنك تخزين إجابتك لهذا السؤال في متغير جديد؟
 
 ![المزيد من الأسئلة](images/chatbot-question1.png)
 
