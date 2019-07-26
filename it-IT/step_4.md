@@ -1,6 +1,6 @@
 ## Sfida: Altre domande
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Programma il tuo ChiacchieRobot perché faccia un’altra domanda. Riesci a salvare la sua risposta in una variabile?
 
 ![Altre domande](images/chatbot-question1.png)
 
