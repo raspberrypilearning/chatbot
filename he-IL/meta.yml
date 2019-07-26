@@ -5,11 +5,11 @@ description: אתה הולך ללמוד איך לתכנת צ’אט בוט (רו
 theme: סגול
 listed: true
 copyedit: false
-version: 4.1.0
-last_tested: 2017-01-01
+version: 4.2.0
+last_tested: 20-09-2018
 steps:
   - 
-    title: צ’אט בוט (רובוט שיחה)
+    title: הקדמה
   - 
     title: הצ'אטבוט שלכם
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: קבלת החלטות
   - 
-    title: "אתגר: יותר החלטות"
+    title: "אתגר: החלטות נוספות"
     challenge: true
   - 
     title: שינוי מיקום
@@ -30,4 +30,4 @@ steps:
   - 
     title: Test yourself
   - 
-    title: What next?
+    title: מה הדבר הבא?
