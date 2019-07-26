@@ -63,12 +63,12 @@ Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para
 
 ## título: Notas adicionales para educadores
 
-\--- no-print \---
+\--- no imprimir \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Puedes [ descargar el proyecto completo aquí ](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
