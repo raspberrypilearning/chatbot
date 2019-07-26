@@ -1,35 +1,35 @@
 ## تغيير المكان
 
-You can also program your chatbot to change its location!
+يمكنك أيضًا برمجة روبوتك ليغيِّر مكانه!
 
 ![اختبار تغيير الخلفية](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+هل يمكنك برمجة روبوتك ليسأل "هل تود الصعود إلى سطح القمر؟" ثم يغيِّر مكانه إذا كانت إجابتك هي "نعم"؟
 
 \--- hints \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+يجب أن يسأل روبوتك ` "هل تريد الذهاب إلى القمر؟" ` {: class = "block3sensing"} ، و ` إذا ` {: class = "block3control"} كانت ` الإجابة ` {: class = "block3sensing"} "نعم" ، يجب أن ` تتبدل الخلفية إلى القمر ` {: فئة = "block3looks"}.
 
 \--- hint/ \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+فيما يلي الكتل البرمجية التي تحتاج إلى إضافتها إلى روبوت الدردشة الخاصة بك.
 
-![nano sprite](images/nano-sprite.png)
+![كائن نانو](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+غيّر الخلفية الى (moon v)
 
-ask [Do you want to go to the moon?] and wait
+اسال [هل ترغب بالذهاب الى القمر؟] وانتظر
 
-if <(answer) = [yes]> then 
+اذا <(الاجابة)= [yes]> ثم
 
-end
+نهاية
 ```
 
 \--- hint/ \---
@@ -39,10 +39,10 @@ end
 و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-end
+اسال [هل ترغب بالذخاب الى القمر؟] وانتظر
+اذا <(الاجابة) = [[yes]>] ثم
+  غيّر الخلفية الى (moon v)
+نهاية
 ```
 
 \--- hint/ \---
@@ -53,14 +53,14 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+تحتاج الآن إلى التأكد من أن الروبوت يبدأ في الموقع الصحيح عند النقر فوقه للتحدث إليه. أضف هذه الكتلة إلى أعلى التعليمات البرمجية للروبوت:
 
-![nano sprite](images/nano-sprite.png)
+![كائن نانو](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+عندما النقر على هذا الكائن
 
-+ switch backdrop to (space v)
++ غيّر الخلفية ل (space v)
 ```
 
 \--- /task \---
@@ -73,21 +73,21 @@ Test your program, and answer "yes" when the chatbot asks if you want to go to t
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+يمكنك أيضًا إضافة الكود التالي داخل ` اذا` {: class = "block3control"} الجديدة لجعل الروبوت يقفز لأعلى ولأسفل أربع مرات إذا أجبت "نعم":
 
-![nano sprite](images/nano-sprite.png)
+![كائن نانو](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+اذا<(الاجابة)= [yes]> ثم
+  غيّر الخلفية الى (moon v)
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
++ كرر (4) مرّة
+غيّر الموضع ص بمقدار (10)
+انتظر (0.1) ثانية
+غّير الموقع ص بمقدار (-10)
+انتظر (0.1) ثانية
+نهاية
+نهاية
 ```
 
 \--- /task \---
