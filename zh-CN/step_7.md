@@ -1,93 +1,93 @@
 ## 改变位置
 
-You can also program your chatbot to change its location!
+您还可以对聊天机器人进行编程以更改其位置！
 
 ![测试修改背景](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
-
-\--- hints \---
+你可以设置你的聊天机器人问“你想去月球”，然后当答案是“是”时改变背景吗？
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+\--- hint \---
+
+你的聊天机器人应该 `问“你想去月亮？”`{：类= “block3sensing”}，和 `如果`{：类= “block3control”}你 `答案`{：类= “block3sensing”} “是”，就应该 `的背景下切换到月亮`{：类= “block3looks”}。
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+以下是您需要添加到聊天机器人代码的代码块。
 
-![nano sprite](images/nano-sprite.png)
+![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+切换背景到（月亮v）
 
-ask [Do you want to go to the moon?] and wait
+问[你想去月球吗？]并等待
 
-if <(answer) = [yes]> then 
+如果 <（回答）= [yes]> 然后 
 
-end
+结束
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+这是你的代码应该是这样的：
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-end
+问[你想去月球吗？]并等待
+如果 <（回答）= [yes]> 然后 
+  切换背景到（月球v）
+结束
 ```
 
 \--- /hint \---
 
-\--- /hints \---
+\--- /hint \---
 
 \--- /task \---
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+现在，您需要确保当您点击聊天机会与其通话时，您的聊天机器人就会在正确的位置启动。将此块添加到聊天机器人代码的顶部：
 
-![nano sprite](images/nano-sprite.png)
+![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+当这个精灵点击
 
-+ switch backdrop to (space v)
++切换背景为（空间v）
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+测试您的程序，并在聊天机器人询问您是否想登月时回答“是”。您应该看到聊天机器人的位置发生了变化。
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+您还可以添加以下代码新内 `，如果`{：类=“block3control”}块，使聊天机器人上下跳跃四次，如果你回答“是”：
 
-![nano sprite](images/nano-sprite.png)
+![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+如果 <（答案）= [yes]> 然后 
+  切换背景到（月亮v）
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
++重复（4） 
+    改变y乘以（10）
+    等待（0.1）秒
+    改变y乘以（-10）
+    等待（0.1）秒
+
+结束
 ```
 
 \--- /task \---
