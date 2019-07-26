@@ -1,16 +1,16 @@
-## What next?
+## Co dále?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+Vyzkoušejte projekt [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) , kde si vytvoříte vlastní program malování!
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Začněte kliknutím na zelenou vlajku. Pomocí myši přesuňte tužku a podržte levé tlačítko myši. Kliknutím na barvu změníte tužky. Klikněte na gumu, kterou chcete změnit, a použijte ji k vymazání vaší práce. Chcete-li stránku vymazat, klepněte na křížek.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/paint-box-showcase.png">
 </div>
 
-\--- /no-print \---
+\--- / ne-tisk \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Kliknete na zelenou vlajku, kterou chcete spustit, a pomocí myši můžete kreslit tužkou a držet stisknuté levé tlačítko myši. Kliknutím na barvu se změní barvy tužky a kliknutí na gumu se změní na gumu!
 
-![showcase](images/paint-box-showcase.png) \--- /print-only \---
+![vitrína](images/paint-box-showcase.png) \--- / pouze pro tisk \---
