@@ -15,18 +15,18 @@ Než začnete vytvářet svůj chatbot, musíte se rozhodnout, jaká je jeho oso
 
 **Online:** otevřete startovací projekt na [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Pokud máte Scratch účet, můžete kopii provést kliknutím na **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** stáhněte si startovací projekt z [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} a poté jej otevřete pomocí offline editoru.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Pokud potřebujete stáhnout a nainstalovat Scratch offline editor, můžete ho najít na [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / úkol \---
 
-\--- task \---
+\--- úkol \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Projekt startéru obsahuje čtyři znaky. Jedním z nich bude váš chatbot.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Můžete použít buď sprite, který je již vybrán, nebo zvolit jiný kliknutím pravým tlačítkem myši na požadovaný soubor a poté výběrem **zobrazit** nebo **skrýt** z zobrazené nabídky.
 
-![Choose a character](images/chatbot-characters.png)
+![Zvolte znak](images/chatbot-characters.png)
 
-\--- /task \---
+\--- / úkol \---
