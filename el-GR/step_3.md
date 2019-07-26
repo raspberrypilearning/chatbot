@@ -4,21 +4,21 @@
 
 \--- task \---
 
-Κάνε κλικ στο chatbot, και πάτα αυτόν τον κώδικα έτσι ώστε `όταν πατιέται`{:class="block3events"}, να `ρωτάει το όνομα σου`{:class="block3sensing"} και μετά να `λέει "Τι υπέροχο όνομα!"`{:class="block3looks"}.
+Κάνε κλικ στο chatbot, και πάτα αυτόν τον κώδικα έτσι ώστε `όταν πατιέται`{:class="block3events"}, να `ρωτάει το όνομά σου`{:class="block3sensing"} και μετά να `λέει "Τι υπέροχο όνομα!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+όταν γίνει κλικ σε αυτό το αντικείμενο
+ρώτησε [Πώς σε λένε;] και περίμενε
+πες [Τι υπέροχο όνομα!] για (2) δευτερόλεπτα
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Κάνε κλικ στο chatbot για να δοκιμάσεις τον κωδικα. Όταν το chatbot ρωτήσει το όνομα σου, γράψε το στο κουτί που εμφανίζεται στο κάτω μέρος του σκηνικού, και μετά κάνε κλικ στο μπλε σημάδι, ή πάτα <kbd>Enter</kbd>.
+Κάνε κλικ στο chatbot για να δοκιμάσεις τον κώδικα. Όταν το chatbot ρωτήσει το όνομά σου, γράψε το στο κουτί που εμφανίζεται στο κάτω μέρος του σκηνικού, και μετά κάνε κλικ στο μπλε σημάδι, ή πάτα <kbd>Enter</kbd>.
 
 ![Δοκιμάζοντας μία απάντηση του ChatBot](images/chatbot-ask-test1.png)
 
@@ -35,9 +35,9 @@ say [What a lovely name!] for (2) seconds
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+όταν γίνει κλικ σε αυτό το αντικείμενο
+ρώτησε [Πώς σε λένε;] και περίμενε
+πες (ένωσε [Γεια σου ] (απάντηση) :: +) για (2) δευτερόλεπτα
 ```
 
 ![Δοκιμάζοντας μια προσωπική απάντηση](images/chatbot-answer-test.png)
@@ -61,14 +61,13 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
+όταν γίνει κλικ σε αυτό το αντικείμενο
+ρώτησε [Πώς σε λένε;] και περίμενε
++ όρισε [όνομα v] σε (απάντηση)
+πες (ένωσε [Γεια σου ] (όνομα :: + variables)) για (2) δευτερόλεπτα
 ```
 
-Ο κώδικάς σου θα πρέπει να λειτουργεί όπως πριν: το chatbot σου θα πρέπει να πει "Γεια" χρησιμοποιώντας το όνομά που πληκτρολόγησες.
+Ο κώδικάς σου θα πρέπει να λειτουργεί όπως πριν: το chatbot σου θα πρέπει να πει "Γεια" χρησιμοποιώντας το όνομα που πληκτρολόγησες.
 
 ![Δοκιμάζοντας μια προσωπική απάντηση](images/chatbot-answer-test.png)
 
