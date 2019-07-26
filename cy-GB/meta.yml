@@ -5,8 +5,8 @@ description: Dysga sut i raglenni robot sydd yn siarad!
 theme: fioled
 listed: true
 copyedit: false
-version: 4
-last_tested: 2017-01-01
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
     title: Cyflwyniad
@@ -30,4 +30,4 @@ steps:
   - 
     title: Test yourself
   - 
-    title: What next?
+    title: Beth nesaf?
