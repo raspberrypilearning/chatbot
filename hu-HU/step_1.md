@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Ez a projekt **Scratch 3** -as verziója. Van egy [Scratch 2-es](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) változata is a projektnek.
 
 \--- /no-print \---
 
-## Introduction
+## Bevezetés
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Megtanulod, hogyan programozhatsz egy karaktert, amivel beszélhetsz veled! Olyan karaktert hívnak, mint egy chat robotot vagy chatbot-ot.
 
-### What you will make
+### Amit csinálni fogsz
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Kattintson a zöld zászlóra, majd kattintson a chatbot karakterre a beszélgetés megkezdéséhez. Amikor a chatbot megkérdez egy kérdést, írja be a választ a színpad alján található mezőbe, majd kattintson a jobb oldali kék jelre (vagy nyomja meg a `Enter`) a chatbot válaszának megtekintéséhez.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -21,29 +21,29 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- /no-print \---
 
-\--- print-only \---
+\--- csak nyomtatás \---
 
-![complete project](images/chatbot-preview.png)
+![teljes projekt](images/chatbot-preview.png)
 
-\--- /print-only \---
+\--- / csak nyomtatás \---
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: Amire szükséged lesz
 
-### Hardware
+### Hardver
 
-- Computer capable of running Scratch 3
+- A Scratch 3 futtatására alkalmas számítógép
 
-### Software
+### Szoftver
 
-- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
+- Scratch 3 ( [online](https://rpf.io/scratchon) vagy [offline](https://rpf.io/scratchoff))
 
-### Downloads
+### Letöltések
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Itt letöltheti a letölteni kívánt fájlokat](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -51,24 +51,24 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will learn
+## title: Amit meg fogsz tanulni
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Használja a kódot a karaktersorozatban lévő karakterláncok összehangolásához
+- Tudja, hogy a változók felhasználhatók a felhasználói bevitel tárolására
+- Feltételes kiválasztással válaszolhat a Scratch \--- / collapse \--- felhasználói bemenetre
 
 \--- collapse \---
 
 * * *
 
-## title: Additional notes for educators
+## title: További megjegyzések az oktatók számára
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Ha ki szeretnéd nyomtatni ezt a projektet, kérjük, használd a [nyomtatóbarát verzió](https://projects.raspberrypi.org/en/projects/chatbot/print) -t {:target="_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Itt található a [befejezett projekt](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
