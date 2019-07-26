@@ -55,7 +55,7 @@ end
 
 --- /task ---
 
---- taak ---
+--- task ---
 
 Test je code. Je zou een ander antwoord moeten krijgen wanneer je "nee" antwoordt dan wanneer je "ja" antwoordt: je chatbot zou moeten antwoorden met "Dat is goed om te horen!" wanneer je "ja" antwoordt (wat niet hoofdlettergevoelig is) en antwoord met "Oh nee!" wanneer je **iets anders** antwoordt.
 
@@ -109,7 +109,7 @@ Je kunt dit uitproberen: voer je code uit en antwoord "nee", zodat het gezicht v
 
 ![Uiterlijken fout](images/chatbot-costume-bug-test.png)
 
---- task ----
+--- task ---
 
 Om dit probleem op te lossen, voeg je aan de code van de chatbot `verander uiterlijk naar`{:class="block3looks"} toe aan het begin `wanneer op deze sprite wordt geklikt`{:class="block3events"}.
 
