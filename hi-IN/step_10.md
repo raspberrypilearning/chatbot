@@ -1,4 +1,4 @@
-## What next?
+## आगे क्या?
 
 Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
 
@@ -13,4 +13,4 @@ Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_s
 
 \--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
 
-![showcase](images/paint-box-showcase.png) \--- /print-only \---
+![शोकेस](images/paint-box-showcase.png) \--- /print-only \---
