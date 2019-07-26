@@ -31,7 +31,7 @@ Clique sur le drapeau vert, puis sur le personnage du chatbot pour lancer une co
 
 * * *
 
-## title: Ce qu'il faut avoir
+## title: Ce qu'il te faut
 
 ### Matériel informatique
 
