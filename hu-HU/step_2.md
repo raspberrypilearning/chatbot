@@ -1,32 +1,32 @@
-## Your chatbot
+## Az Ön chatbotja
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Mielőtt elkezdené létrehozni a chatbotot, el kell döntenie, hogy milyen a személyisége. **Gondolj az alábbi kérdésekre**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Mi a chatbot neve?
++ Hol él?
++ Boldog? Komoly? Vicces? Félénk? Barátságos?
++ Mit szeret és nem szeret?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- task \--- Nyissa meg a Chatbot Scratch starter projektet.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** nyissa meg a starter projektet [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Ha van Scratch fiókod, készíthetsz egy másolatot a **Remixelés** gombbal.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** töltse le az indítóprojektet [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"}, majd nyissa meg az offline szerkesztő segítségével.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Ha le kell töltened és telepítened kell a Scratch offline szerkesztőt, akkor azt itt találod:[https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Az induló projekt négy karaktert tartalmaz. Ezek egyike a chatbot lesz.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Használhatja a már kiválasztott sprite-ot, vagy válasszon egy másikat a jobb egérgombbal, és válassza ki a **** </strong> vagy **elrejtés ** a megjelenő menüből.
 
-![Choose a character](images/chatbot-characters.png)
+![Válasszon egy karaktert](images/chatbot-characters.png)
 
 \--- /task \---
