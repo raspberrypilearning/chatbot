@@ -53,22 +53,22 @@ Klepněte na zelenou vlajku a potom klepněte na znak chatbot pro zahájení kon
 
 ## title: Co se naučíš
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Použijte kód k concatonate řetězce v Scratch
+- Vědět, že proměnné mohou být použity pro ukládání uživatelského vstupu
+- Použijte podmíněný výběr, abyste reagovali na vstup uživatele v programu Scratch \--- / collapse \---
 
-\--- collapse \---
+\--- kolaps \---
 
 * * *
 
 ## název: Doplňující poznámky pro pedagogy
 
-\--- no-print \---
+\--- ne-tisk \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Potřebujete-li vytisknout tento projekt, použijte [verze pro tisk](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = „_ blank“}.
 
-\--- /no-print \---
+\--- / ne-tisk \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Projekt [naleznete zde](http://rpf.io/p/en/chatbot-get).
 
-\--- /collapse \---
+\--- / kolaps \---
