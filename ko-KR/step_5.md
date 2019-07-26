@@ -1,63 +1,62 @@
 ## 결정하기
 
-You can program your chatbot to decide what to do based on the answers it receives.
+당신의 대답에 따라서 챗봇이 어떤 말을 할지 아니면 어떤 행동을 할지 프로그래밍 할 수 있습니다.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+먼저, 대화방에 "예"또는 "아니오"로 대답 할 수있는 질문을 할 것 입니다.
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+챗봇의 코드를 변경하십시오. chatbot은 ` 이름 ` {: class = "block3variables"} 변수를 사용하여 "name 너 괜찮니?"라는 질문을 해야 합니다. `만약`{:class="block3control"} 응답이 "예" 인 경우 "듣기 좋네!" 라고 출력하고, 응답이 "아니오" 인 경우 아무것도 말하지 않습니다.
 
 ![챗봇의 응답 테스트하기](images/chatbot-if-test1-annotated.png)
 
 ![챗봇의 응답 테스트하기](images/chatbot-if-test2.png)
 
-![nano sprite](images/nano-sprite.png)
+![나노 스프라이트](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-end
+이 스프라이트를 클릭했을 때
+[너 이름이 뭐니?] 라고 묻고 기다리기
+[name v] 을(를) (answer)로 정하기
+(결합하기[안녕 ] (name)) 을(를) (2) 초 동안 말하기
++(결합하기[너 괜찮니? ] (name)) 라고 묻고 기다리기
++만약 <(대답) = [yes]> (이)라면
+  [듣기 좋네!] 을(를) (2) 초 동안 말하기
+끝
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+새 코드를 제대로 테스트 하기 위해 **두번**의 테스트를 해봐야 합니다. 한번은 "응" 이라고 대답하고, 다른 한번은 "아니" 라고 대답해 봅니다.
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+현재 채팅 봇은 "아니오"라고 대답하지 않습니다.
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+챗봇의 코드를 변경하여 "너 괜찮니? name"에 대한 대답으로 "아니오"를 받으면, "오, 안돼!" 라고 대답하도록 변경하세요.
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+`만약 (이)라면`{:class="block3control"} 블록을 `만약 (이)라면, 아니면`{:class="block3control"} 블록으로 바꿔 챗봇이 `"오 안돼!"`{:class="block3looks"}라고 말하게 프로그래밍하세요.
 
-![nano sprite](images/nano-sprite.png)
+![나노 스프라이트](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
-end
+이 스프라이트를 클릭했을 때
+[너 이름이 뭐니?] 라고 묻고 기다리기
+[name v] 을(를) (answer)로 정하기
+(결합하기[안녕 ] (name)) 을(를) (2) 초 동안 말하기
++(결합하기[너 괜찮니? ] (name)) 라고 묻고 기다리기
++만약  <(대답) = [yes]> (이)라면
+  [듣기 좋구나!] 을(를) (2) 초 동안 말하기
+아니면
++  [오, 안돼!] 을(를) (2) 초 동안 말하기
+끝
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+코드를 테스트해 보세요. "아니오"의 대답과, "예"의 대답에서 서로 다른 응답을 받아야합니다. 만약 예라고 한 경우 챗봇은 "듣기 좋구나!"라고 대답해야합니다. ** 만약 예가 아닌 경우 어떠한 경우에도 "오 안돼!"** 를 출력하여야 합니다.
 
 ![챗봇의 응답 테스트하기](images/chatbot-if-test2.png)
 
@@ -65,61 +64,61 @@ Test your code. You should get a different response when you answer "no" and whe
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+`if/else` 블럭 사이에 로봇을 말하게 하는 것 말고도, 어떤 코드든 넣을 수 있습니다!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+챗봇의 **모양(Costume)** 탭을 클릭하면, 로봇에게 여러가지 모양이 있는것을 볼 수 있습니다.
 
 ![챗봇의 모습들](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+챗봇의 코드를 변경하여 답변을 입력할 때 챗봇이 코스튬을 전환하도록 하십시오.
 
 ![변화하는 모습 테스트](images/chatbot-costume-test1.png)
 
 ![변화하는 모습 테스트](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+`만약, 이라면, 아니면`{:class="block3control"} 블록에 `모양 바꾸기`{:class="block3looks"} 블록을 추가하세요.
 
-![nano sprite](images/nano-sprite.png)
+![나노 스프라이트](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+이 스프라이트를 클릭했을 때
+[너 이름이 뭐니?] 라고 묻고 기다리기
+[name v] 을(를) (answer)로 정하기
+(결합하기[안녕 ] (name)) 을(를) (2) 초 동안 말하기
+(결합하기[너 괜찮니? ] (name)) 라고 묻고 기다리기
+만약  <(대답) = [yes]> (이)라면
 
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
-end
++ 모양을 (nano-c v) 로 바꾸기
+  [듣기 좋구나!] 을(를) (2) 초 동안 말하기
+아니면
++ 모양을 (nano-d v) 로 바꾸기
+  [오, 안돼!] 을(를) (2) 초 동안 말하기
+끝
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+테스트하고 저장하십시오. 당신의 대답에 따라 챗봇의 얼굴이 바뀌어야 합니다.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+챗봇의 코스튬이 변경된 후에도 그와 같은 상태로 유지되고 처음에 있었던 상태로 돌아 가지 않는다는 것을 알아챘습니까?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+이것을 시도해 볼 수 있습니다 : 코드를 실행하고 "아니오"라고 대답하면 챗봇 표정의 얼굴이 불행한 모습으로 바뀌도록 합니다. 그런 다음 코드를 다시 실행하고 대화 상대가 귀하의 이름을 묻기 전에 챗봇의 얼굴이 불행해 보이는지 확인해 보세요.
 
 ![Costume bug](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+이 문제를 해결하기 위해서, 챗봇에 `모양 바꾸기`{:class="block3looks"} 코드를 `이 스프라이트를 클릭했을 때`{:class="block3events"} 블록 밑에 비치하는 방법이 있습니다.
 
-![nano sprite](images/nano-sprite.png)
+![나노 스프라이트](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+이 스프라이트를 클릭했을 때
 
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
++ 모양을 (nano-a v) 로 바꾸기
+[너 이름이 뭐니?] 라고 묻고 기다리기
 ```
 
 ![모습 수정 테스트](images/chatbot-costume-fix-test.png)
