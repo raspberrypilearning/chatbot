@@ -1,127 +1,127 @@
-## Making decisions
+## Döntéshozatal
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Beállíthatja a chatbotot, hogy eldöntse, mit kell tennie a kapott válaszok alapján.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Először is a chatbotodat kérdezed, amelyre "igen" vagy "nem" válaszolhatsz.
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Változtassa meg a chatbot kódját. A chatbot-nak fel kell tennie a kérdést: "Az Ön neve OK", a `név`{: class = "block3variables"} változó használatával. Aztán válaszolnia kell: "Nagyon jó hallani!" `ha`{: class = "block3control"} a kapott válasz "igen", de semmit nem mond, ha a válasz "nem".
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+![A chatbot válasz tesztelése](images/chatbot-if-test1-annotated.png)
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![A chatbot válasz tesztelése](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-end
+amikor ez a sprite rákattintott,
+megkérdezi a [Mi a neved?] és várjon
+beállítást [név v] (válasz)
+mondjon (csatlakozzon a [Hi] (név)) -hez (2) másodpercig
++ kérdezze (csatlakozzon [Csatlakozzon az [OK]] (név)) és várjon
++, ha <(válasz) = [yes]> majd 
+  mondja [Ez nagyszerű hallani!] (2) másodpercig
+vége
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Az új kód helyes teszteléséhez **at kétszer kell tesztelnie**: egyszer a "igen" választ, és egyszer a "nem" választ.
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+Jelenleg a chatbot nem mond semmit a "nem" válaszra.
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Változtassa meg a chatbot kódját, hogy válaszoljon "Ó, nem!" ha "nem" -et kap a válasz: "Ön rendben van".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Cserélje ki a `, majd`{: class = "block3control"} blokkot egy `ha, akkor még`: class = "block3control"} blokk, és tartalmazzon kódot, így a chatbot `mondhatja: "Ó, nem!"`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
+amikor ez a sprite rákattintott,
+kérje a [Mi a neved?] és várjon
+beállítást [név v] a (válasz)
+(csatlakozzon a [Hi] (név)) -hez (2) másodpercig
+kérjen (csatlakozzon [Are you OK] (csatlakozzon hozzá) név)) és várjon
 
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
-end
++, ha <(válasz) = [yes]> majd 
+  azt mondja [nagyszerű hallani!] (2) másodpercig
+más 
++ mondja [Ó, ne!] (2) másodpercig
+vége
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Tesztelje a kódot. Más választ kell kapnia, ha a "nem" válaszra válaszol, és ha "igen" választ ad: a chatbotjának válaszolnia kell "Ez nagyszerű hallani!" ha "igen" (ami nem kis- és nagybetűkre) válaszol, és válaszoljon az "Ó, nem!" ha **válaszolsz mást**.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![A chatbot válasz tesztelése](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Igen / nem válasz tesztelése](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Bármely kódot be lehet helyezni egy `ha, akkor másképpen`{: class = "block3control"} blokk, nem csak kódot, hogy a chatbotod beszéljen!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Ha rákattint a chatbot **Costumes** lapjára, látni fogja, hogy több ruha is van.
 
-![chatbot costumes](images/chatbot-costume-view-annotated.png)
+![chatbot jelmezek](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Változtassa meg a chatbot kódját úgy, hogy a chatbot kapcsolja a jelmezeket, amikor beírja a választ.
 
-![Testing a changing costume](images/chatbot-costume-test1.png)
+![Egy változó ruha tesztelése](images/chatbot-costume-test1.png)
 
-![Testing a changing costume](images/chatbot-costume-test2.png)
+![Egy változó ruha tesztelése](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Változtassa meg a kódot a `belül, ha, akkor még`{: class = "block3control"} blokk `kapcsoló jelmez`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+amikor ez a sprite rákattintott,
+kérje a [Mi a neved?] és várjon
+beállítást [név v] a (válasz)
+(csatlakozzon a [Hi] (név)) -hez (2) másodpercig
+kérjen (csatlakozzon [Are you OK] (csatlakozzon hozzá) név)) és várjon
+ha <(válasz) = [yes]> majd 
 
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
-end
++ kapcsolót (nano-c v)
+  mondja [Ez nagyszerű hallani!] (2) másodpercig
+más 
++ kapcsolj jelmezet (nano- d v)
+  mondja [Ó, nem!] (2) másodpercig
+vége
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Tesztelje és mentse a kódot. Meg kell látnia a chatbot arcát a válaszától függően.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Észrevetted, hogy a chatbot jelmezének megváltozása után ez így marad, és nem tér vissza az elejére?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Ezt kipróbálhatja: futtassa a kódját, és válaszoljon "nem" -re, hogy a chatbot arcát boldogtalan megjelenéssé változtassa. Ezután futtassa újra a kódját, és vegye észre, hogy a chatbot nem változik vissza boldognak, mielőtt megkérdezi a nevét.
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Jelmezhiba](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+A probléma megoldásához adjuk hozzá a chatbot kódjához `kapcsoló jelmezet`{: class = "block3looks"} a `elején, amikor a sprite-ot rákattintják`{: class = "block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+amikor ez a sprite a
 
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
++ kapcsoló jelmezre kattint (nano-a v)
+kérdezze meg [Mi a neve?] és várjon
 ```
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![A jelmez javítása tesztelése](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
