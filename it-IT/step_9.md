@@ -1,4 +1,4 @@
-## Test yourself
+## Mettiti alla prova
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,23 +22,23 @@
 <pre><code>var quiztitle// = "Bobby's Sample Quiz";
 
 /**
-* Set the information about your questions here. The correct answer string needs to match
-* the correct choice exactly, as it does string matching. (case sensitive)
+* Set the information about your questions here. La stringa di risposta corretta deve corrispondere esattamente a
+* la scelta corretta, poiché esegue la corrispondenza delle stringhe. (case sensitive)
 *
 */
 </code></pre>
 
-<p>/**
-*Let's create the randomization of the questions!
+<p>/ **
+* Creiamo casualità delle domande!
 */</p>
 
 <p>function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// While there remain elements to shuffle...
+<p>// Mentre restano elementi da mescolare...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Pick a remaining element...
+<pre><code>// Scegli uno degli elementi rimasti...
 randomIndex = Math.floor(Math.random() * currentIndex);
 currentIndex -= 1;
 
@@ -71,7 +71,7 @@ array[randomIndex] = temporaryValue;
 
 <pre><code>var quiz = [
     {
-        "question"      :   "Which script would cause the sprite to say 'Hello Izzy'?",
+        "question"      :   "Quale script fa sì che lo sprite dica 'Ciao Izzy'?",
         "image"         :   "images/montage-1.png",
         "choices"       :   [
                                 "A",
@@ -80,10 +80,10 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "C",
-        "explanation"   :   "You need to join the 'Hello ' string to the `name` variable",
+        "explanation"   :   "Devi concatenare la stringa 'Ciao ' alla variabile `nome` ",
     },
     {
-        "question"      :   "Which script would ask the user for their first name and last name and then output their full name?",
+        "question"      :   "Quale script chiede all'utente nome e cognome e risponde con il nome completo?",
         "image"         :   "images/montage-2.png",
         "choices"       :   [
                                 "A",
@@ -92,10 +92,10 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "D",
-        "explanation"   :   "The question must be asked first, and then the answer stored as a variable."
+        "explanation"   :   "La domanda deve prima essere posta, e poi il risultato salvato come variabile."
     },
     {
-        "question"      :   "Which script will move the sprite left when the user types 'left' and right when the user types anything else?",
+        "question"      :   "Quale script sposta tutti gli sprite a sinistra quando l'utente scrive 'left' e a destra quando l'utente scrive qualsiasi altra cosa?",
         "image"         :   "images/montage-3.png",
         "choices"       :   [
                                 "A",
@@ -104,7 +104,7 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "A",
-        "explanation"   :   "The if condition should check if left has been typed and then move in the negative x. Otherwise the sprite should always move in the positive x",
+        "explanation"   :   "La condizione è verificata quando l'utente scrive left e sposta tutto nelle x negative. Altrimenti lo sprite dovrebbe sempre spostarsi nelle x positive",
     },
 
 ];
