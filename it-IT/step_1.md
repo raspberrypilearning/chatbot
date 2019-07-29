@@ -6,7 +6,7 @@ Questa è la versione **Scratch 3** del progetto. C'è anche una [versione Scrat
 
 ## Introduzione
 
-Imparerai a programmare un personaggio che può parlare con te! Un elemento del genere è chiamato chat robot o chatbot.
+Imparerai a programmare un personaggio che può parlare con te! Un elemento del genere è chiamato ChiacchieRobot.
 
 ### Cosa creerai
 
