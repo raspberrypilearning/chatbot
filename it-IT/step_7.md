@@ -1,33 +1,33 @@
 ## Cambiare posizione
 
-You can also program your chatbot to change its location!
+Puoi anche programmare il tuo ChiacchieRobot a cambiare la sua posizione!
 
 ![Testare un cambio di sfondo](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Puoi programmare il tuo chatbot per chiedere "Vuoi andare sulla luna", e quindi cambiare lo sfondo quando la risposta è "sì"?
 
 \--- hint \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Il tuo chatbot dovrebbe `chiedere "Vuoi andare alla luna?"`{:class="block3sensitive"}, e `se`{:class="block3control"} tu `rispondi`{:class="block3sensitive"} "sì", dovrebbe `cambiare lo sfondo`{:class="block3look"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Ecco i blocchi di codice che devi aggiungere al tuo codice chiacchierobot.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 switch backdrop to (moon v)
 
-ask [Do you want to go to the moon?] and wait
+ask [Vuoi andare sulla luna?] and wait
 
-if <(answer) = [yes]> then 
+if <(answer) = [si]> then 
 
 end
 ```
@@ -36,11 +36,11 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Ecco come dovrebbe apparire il risultato:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
+ask [Vuoi andare sulla luna?] and wait
+if <(answer) = [si]> then 
   switch backdrop to (moon v)
 end
 ```
@@ -53,7 +53,7 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Ora devi assicurarti che il tuo chatbot si avvii nella posizione giusta quando fai clic su di esso per parlarci. Aggiungi questo blocco all'inizio del tuo codice:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -67,18 +67,18 @@ when this sprite clicked
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Metti alla prova il tuo programma e rispondi "sì" quando il chatbot ti chiede se vuoi andare sulla luna. Dovresti vedere che lo sfondo cambia.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+Puoi anche aggiungere il seguente codice all'interno del nuovo blocco `se`{:class="block3control"} per far saltare il chatbot quattro volte se rispondi "sì":
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
+if <(answer) = [si]> then 
   switch backdrop to (moon v)
 
 +  repeat (4) 
