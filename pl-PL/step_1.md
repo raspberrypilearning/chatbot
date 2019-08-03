@@ -23,7 +23,7 @@ Kliknij zieloną flagę, a następnie kliknij znak chatbota, aby rozpocząć roz
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![skończony projekt](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -69,6 +69,6 @@ Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Możesz znaleźć [ukończoną wersję projektu tutaj](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
