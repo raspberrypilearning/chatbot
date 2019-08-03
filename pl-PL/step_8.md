@@ -8,4 +8,4 @@ Wykorzystaj to, czego się nauczyłaś, aby zakończyć tworzenie interaktywnego
 
 ![Pomysły na robota](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+Po zakończeniu tworzenia robota zaproś swoich przyjaciół do wspólnej rozmowy z nim! Czy lubią postać Twojego robota gaduły? Czy mogą dostrzec jakieś problemy?
