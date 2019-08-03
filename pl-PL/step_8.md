@@ -1,6 +1,6 @@
 ## Wyzwanie: ukończ swojego robota
 
-Use what you've learned to finish creating your interactive chatbot. Oto kilka pomysłów:
+Wykorzystaj to, czego się nauczyłaś, aby zakończyć tworzenie interaktywnego robota. Oto kilka pomysłów:
 
 ![Pomysły na robota](images/chatbot-ideas1.png)
 
