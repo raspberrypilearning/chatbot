@@ -18,7 +18,7 @@ powiedz [Co za piękne imię!] przez (2) sekundy
 
 \--- task \---
 
-Kliknij na swoim chatbocie, aby przetestować swój kod. Gdy chatbot zapyta o twoje imię, wpisz je w polu, które pojawi się na dole ekranu, a następnie kliknij niebieski znak lub naciśnij <kbd>Enter</kbd>.
+Kliknij na swoim chatbocie, aby przetestować swój kod. Gdy chatbot zapyta o twoje imię, wpisz je w polu, które pojawi się na dole sceny, a następnie kliknij niebieski znak lub naciśnij <kbd>Enter</kbd>.
 
 ![Testowanie odpowiedzi robota gaduły](images/chatbot-ask-test1.png)
 
@@ -74,4 +74,4 @@ Twój kod powinien działać, jak wcześniej: robot powinien powiedzieć "cześ�
 
 \--- /task \---
 
-Przetestuj swój program ponownie. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Przetestuj swój program ponownie. Zwróć uwagę, że wpisana odpowiedź jest zapisana w zmiennej `imię`{:class="block3variables"} i jest również wyświetlana w lewym górnym rogu sceny. Aby spowodować, że odpowiedź zniknie ze sceny, przejdź do sekcji bloczków `Dane`{:class="block3variables"} i kliknij pole obok `imię`{:class="block3variables"} tak, aby nie było zaznaczone.
