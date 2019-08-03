@@ -11,15 +11,15 @@ Zanim zaczniesz tworzyć swojego chatbota musisz zdecydować o jego osobowości.
 
 \--- /task \---
 
-\---task\--- Otwórz nowy projekt Scratch 'Robot gaduła'.
+\--- task \--- Otwórz projekt początkowy Scratch 'Robot gaduła'.
 
-**Online:** otwórz nowy projekt Scratch na stronie [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** otwórz projekt początkowy Scratch na stronie [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
 Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
 **Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Jeśli potrzebujesz pobrać i zainstalować program Scratch Desktop, znajdziesz go na [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
