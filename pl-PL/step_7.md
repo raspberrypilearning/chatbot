@@ -53,7 +53,7 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Teraz musisz się upewnić, że robot gaduła znajduje się w odpowiednim miejscu, gdy na niego klikniesz, żeby z nim porozmawiać. Dodaj ten bloczek na górze swojego kodu robota:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -67,13 +67,13 @@ when this sprite clicked
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Przetestuj swój program i odpowiedz „tak”, gdy robot zapyta, czy chcesz udać się na księżyc. Powinieneś zobaczyć, że położenie robota się zmienia.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+Możesz również dodać następujący kod do nowego bloczku `jeśli`{:class="block3control"}, żeby robot gaduła podskoczył cztery razy, jeśli odpowiesz „tak”:
 
 ![nano sprite](images/nano-sprite.png)
 
