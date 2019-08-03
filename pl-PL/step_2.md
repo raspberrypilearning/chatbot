@@ -2,20 +2,20 @@
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Zanim zaczniesz tworzyć swojego chatbota musisz zdecydować o jego osobowości. **Zastanów się nad następującymi pytaniami**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Jak nazywa się chatbot?
++ Gdzie mieszka?
++ Czy jest szczęśliwy? Poważny? Zabawny? Nieśmiały? Przyjazny?
++ Co lubi, a czego nie lubi?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\---task\--- Otwórz nowy projekt Scratch 'Robot gaduła'.
 
-**Online:** otwórz nowy projekt Scratcha na stronie [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** otwórz nowy projekt Scratch na stronie [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
 **Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
