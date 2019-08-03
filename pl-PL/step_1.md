@@ -6,7 +6,7 @@ Ta wersja projektu jest przeznaczona dla języka **Scratch 3**. Projekt dostępn
 
 ## Wprowadzenie
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Nauczysz się programować postać, która może z tobą rozmawiać! Taka postać nazywana jest robotem czatu lub chatbotem.
 
 ### Co stworzysz
 
@@ -43,7 +43,7 @@ Kliknij zieloną flagę, a następnie kliknij znak chatbota, aby rozpocząć roz
 
 ### Pobrane
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Znajdź tutaj pliki do pobrania](http://rpf.io/p/en/chatbot-go) .
 
 \--- /collapse \---
 
@@ -53,9 +53,9 @@ Kliknij zieloną flagę, a następnie kliknij znak chatbota, aby rozpocząć roz
 
 ## title: Czego się nauczysz
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Używania kodu do łączenia ciągów w programie Scratch
+- Wiedzy, że zmienne mogą być używane do przechowywania danych wprowadzanych przez użytkownika
+- Używania wyboru warunkowego, aby odpowiedzieć na dane wprowadzone przez użytkownika w programie Scratch \--- / collapse \---
 
 \--- collapse \---
 
@@ -65,7 +65,7 @@ Kliknij zieloną flagę, a następnie kliknij znak chatbota, aby rozpocząć roz
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
