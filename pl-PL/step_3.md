@@ -1,6 +1,6 @@
 ## Rozmawiający robot
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Teraz, gdy masz już chatbota z osobowością, zaprogramujesz go tak, aby z tobą rozmawiał.
 
 \--- task \---
 
