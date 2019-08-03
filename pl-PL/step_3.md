@@ -4,7 +4,7 @@ Teraz, gdy masz już chatbota z osobowością, zaprogramujesz go tak, aby z tob�
 
 \--- task \---
 
-Kliknij na swoim duszku chatbota i dodaj do niego ten kod, aby `po kliknięciu`{:class="block3events"}, `zapytał o twoje imię`{:class="block3sensing"}, a następnie `powiedział "Co za urocze imię!"`{:class="block3looks"}.
+Kliknij na swoim duszku chatbota i dodaj do niego ten kod, aby `po kliknięciu`{:class="block3events"}, `zapytał o twoje imię`{:class="block3sensing"}, a następnie `powiedział "Co za piękne imię!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
