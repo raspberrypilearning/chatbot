@@ -99,19 +99,19 @@ else
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Przetestuj i zapisz swój kod. Powinnaś zauważyć zmianę na twarzy robota gaduły w zależności od Twojej odpowiedzi.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Czy zauważyłaś, że po zmianie kostiumu robota pozostaje on taki i nie wraca do tego, jaki był na początku?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Możesz spróbować sama: uruchom swój kod i odpowiedz „nie”, aby twarz robota zmieniła się w nieszczęśliwe spojrzenie. Następnie uruchom ponownie kod i zauważ, że Twój robot nie zmienia się z powrotem w wyglądającego na szczęśliwego, zanim nie zapyta o twoje imię.
 
 ![Błąd kostiumu](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Aby rozwiązać ten problem, dodaj kod robota do `zmień kostium`{:class="block3looks"} na początku `kiedy duszek jest kliknięty`{:class="block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
