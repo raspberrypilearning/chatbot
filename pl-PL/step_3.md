@@ -35,9 +35,9 @@ Zmień kod duszka chatbota na `dołącz`{:class="block3operators"} "Witaj" z `od
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+kiedy duszek zostanie kliknięty
+zapytaj [Jak masz na imię?] i czekaj
+powiedz [(połącz [Witaj ] (odpowiedź) :: +) przez (2) sekundy
 ```
 
 ![Testowanie spersonalizowanej odpowiedzi](images/chatbot-answer-test.png)
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+Zapisując odpowiedź w **zmiennej**, możesz jej używać w dowolnym miejscu swojego projektu.
 
-Create a new variable called `name`{:class="block3variables"}.
+Utwórz nową zmienną o nazwie `imię`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,7 +56,7 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Teraz zmień kod duszka chatbota, aby ustawić zmienną `imię`{:class="block3variables"} na `odpowiedź`{:class="block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
