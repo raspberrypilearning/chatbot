@@ -1,24 +1,24 @@
 ## Zmiana lokalizacji
 
-You can also program your chatbot to change its location!
+Możesz również zaprogramować swojego robota tak, żeby zmienił swoje położenie!
 
 ![Testowanie zmieniającego się tła](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Czy potrafisz zakodować swojego robota tak, by zapytał "Chcesz polecieć na księżyc?" a następnie zmienił tło, jeśli odpowiesz "tak"?
 
 \--- wskazówka \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Twój robot powinien `zapytać: „Chcesz polecieć na księżyc?”`{:class="block3sensing"} i `jeśli`{:class="block3control"} `Twoja odpowiedź`{:class="block3sensing"} brzmi „tak”, to powinien `przełączyć tło na księżyc`{:class="block3looks"}.
 
 \--- /wskazówka \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Oto bloczki kodu, które musisz dodać do kodu swojego robota.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -36,7 +36,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Tak powinien wyglądać Twój kod:
 
 ```blocks3
 ask [Do you want to go to the moon?] and wait
