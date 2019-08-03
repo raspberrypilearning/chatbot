@@ -11,6 +11,6 @@ Wypróbuj projekt [Kolorowe kredki](https://projects.raspberrypi.org/en/projects
 
 \--- /no-print \---
 
-\--- print-only \--- Klikniesz na zieloną flagę, żeby rozpocząć i będziesz używać myszki, aby przesuwać kredkę oraz przytrzymywać wciśnięty lewy przycisk myszy, żeby rysować. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Klikniesz na zieloną flagę, żeby rozpocząć i będziesz używać myszki, aby przesuwać kredkę oraz przytrzymywać wciśnięty lewy przycisk myszy, żeby rysować. Kliknięcie koloru zmieni kolory kredki, a kliknięcie na gumce zmieni się w gumkę!
 
-![showcase](images/paint-box-showcase.png) \--- /print-only \---
+![prezentacja](images/paint-box-showcase.png) \--- /print-only \---
