@@ -1,6 +1,6 @@
 ## Wyzwanie: więcej pytań
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Zaprogramuj swojego robota gadułę tak, żeby zadał kolejne pytanie. Czy potrafisz zapisać odpowiedź na to nowe pytanie w nowej zmiennej?
 
 ![Więcej pytań](images/chatbot-question1.png)
 
