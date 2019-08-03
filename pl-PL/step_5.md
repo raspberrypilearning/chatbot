@@ -73,13 +73,13 @@ Jeśli klikniesz zakładkę **Kostium** swojego robota gaduły, zobaczysz że je
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Zmień kod robota gaduły taj, aby robot zmieniał kostiumy kiedy wpiszesz odpowiedź.
 
 ![Testowanie zmieniającego się kostiumu](images/chatbot-costume-test1.png)
 
 ![Testowanie zmieniającego się kostiumu](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Zmień kod wewnątrz bloczku `jeśli, to, w przeciwnym razie`{:class="block3control"} na `zmień kostium`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
