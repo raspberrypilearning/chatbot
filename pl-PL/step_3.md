@@ -4,14 +4,14 @@ Teraz, gdy masz już chatbota z osobowością, zaprogramujesz go tak, aby z tob�
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Kliknij na swoim duszku chatbota i dodaj do niego ten kod, aby `po kliknięciu`{:class="block3events"}, `zapytał o twoje imię`{:class="block3sensing"}, a następnie `powiedział "Co za urocze imię!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+kiedy duszek zostanie kliknięty
+zapytaj [Jak masz na imię?] i poczekaj
+powiedz [Co za piękne imię!] przez (2) sekundy
 ```
 
 \--- /task \---
