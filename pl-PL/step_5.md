@@ -1,12 +1,12 @@
 ## Podejmowanie decyzji
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Możesz zaprogramować swojego robota gadułę tak, aby decydował, co robić na podstawie otrzymanych odpowiedzi.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Najpierw zmusisz swojego robota gadułę do zadania pytania, na które można odpowiedzieć „tak” lub „nie”.
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Zmień kod swojego robota. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
 ![Testowanie odpowiedzi robota](images/chatbot-if-test1-annotated.png)
 
