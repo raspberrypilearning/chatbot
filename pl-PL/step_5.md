@@ -33,9 +33,9 @@ W tej chwili twój robot gaduła nic nie mówi na odpowiedź „nie”.
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Zmień kod robota, aby odpowiadał „O nie!” jeśli otrzyma „nie” jako odpowiedź na „Czy wszystko w porządku imię”.
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Zastąp bloczek `jeśli, to`{:class="block3control"} na bloczek `jeśli, to, w przeciwnym razie`{:class="block3control"} i dołącz kod, aby robot gaduła mógł powiedzieć `"O nie!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Przetestuj swój kod. Powinnaś otrzymać inną odpowiedź, gdy odpowiesz „nie” i kiedy odpowiesz „tak”: twój robot gaduła powinien odpowiedzieć „To super!” kiedy odpowiesz „tak” (wielkość liter nie ma znaczenia) i odpowiedz „O nie!” kiedy odpowiesz **cokolwiek innego**.
 
 ![Testowanie odpowiedzi robota](images/chatbot-if-test2.png)
 
@@ -65,9 +65,9 @@ Test your code. You should get a different response when you answer "no" and whe
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Możesz wstawić dowolny kod do bloczku `jeśli, to, w przeciwnym razie`{:class="block3control"}, a nie tylko kod, aby twój robot mówił!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Jeśli klikniesz zakładkę **Kostium** swojego robota gaduły, zobaczysz że jest więcej niż jeden kostium.
 
 ![kostiumy robota](images/chatbot-costume-view-annotated.png)
 
