@@ -6,7 +6,7 @@ Najpierw zmusisz swojego robota gadułę do zadania pytania, na które można od
 
 \--- task \---
 
-Zmień kod swojego robota. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Zmień kod swojego robota. Twój robot gaduła powinien zadać pytanie „Czy wszystko w porządku imię”, używając zmiennej `imię`{:class="block3variables"}. Następnie powinien odpowiedzieć „To super!” `jeśli`{:class="block3control"} odpowiedź, którą otrzymuje brzmi „tak”, ale nie powinien nic powiedzieć, jeśli odpowiedź brzmi „nie”.
 
 ![Testowanie odpowiedzi robota](images/chatbot-if-test1-annotated.png)
 
@@ -25,11 +25,11 @@ say (join [Hi ] (name)) for (2) seconds
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Aby dokładnie przetestować swój program, musisz sprawdzić go **dwa razy** - raz wpisując odpowiedź "tak "i drugi raz wpisując "nie".
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+W tej chwili twój robot gaduła nic nie mówi na odpowiedź „nie”.
 
 \--- task \---
 
