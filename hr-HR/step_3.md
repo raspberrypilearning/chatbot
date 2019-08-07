@@ -4,7 +4,7 @@ Sad kada imaš robota s osobnošću, programirat ćemo ga da razgovara s tobom.
 
 \--- task \---
 
-Kliknite na lika chatbota i dodaj mu ovaj kôd tako da, `kada klikneš na njega`{:class="block3events"}, pita za `tvoje ime`{:class="block3sensing"}, a zatim `kaže "Imaš lijepo ime!"`{:class="block3looks"}.
+Kliknite na lika chatbota i dodaj mu ovaj kôd tako da, `kada klikneš na njega`{:class="block3events"}, pita za `tvoje ime`{:class="block3sensing"}, a zatim `kaže „Imaš lijepo ime!”`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -30,14 +30,14 @@ Klikni na svog chatbota i testiraj kôd. Kad chatbot zatraži tvoje ime, upiši 
 
 Trenutačno tvoj chatbot odgovara „Imaš lijepo ime!” svaki put kad odgovoriš. Odgovor chatbota možeš učiniti osobnijim, tako da je odgovor različit svaki put kada se unese drugo ime.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+Izmijeni kôd lika chatbota tako da `spojiš`{:class="block3operators"} „Bok” s `odgovorom`{:class="block3sensing"} na pitanje „Kako se zoveš?”, tako da kôd izgleda ovako:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+Kada je lik kliknut
+pitaj [Kako se zoveš?] i čekaj
+govori (spoji [Bok ] (odgovor) :: +) (2) sekundi
 ```
 
 ![Testiranje prilagođenog odgovora](images/chatbot-answer-test.png)
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+Spremanjem odgovora u **varijablu**, možeš ga koristiti bilo gdje u projektu.
 
-Create a new variable called `name`{:class="block3variables"}.
+Kreiraj novu varijablu koja se zove `ime`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,7 +56,7 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Sada izmijeni kôd chatbot lika i postavi varijablu `ime`{:class="block3variables"} na `odgovor`{:class="block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
