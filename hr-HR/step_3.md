@@ -61,17 +61,17 @@ Sada izmijeni kôd chatbot lika i postavi varijablu `ime`{:class="block3variable
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+Kada je lik kliknut
+pitaj [Kako se zoveš?] i čekaj
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ postavi [ime v] na (odgovor)
+govori (spoji [Bok ] (ime :: + variables)) (2) sekundi
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+Tvoj kôd bi trebao funkcionirati kao i prije. Robot bi trebao pozdravljati koristeći ime koje upišeš.
 
 ![Testiranje prilagođenog odgovora](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Ponovno testiraj svoj program. Primijeti da je odgovor koji upišeš pohranjen u varijablu `ime`{:class="block3variables"}, a također je prikazan u gornjem lijevom kutu Pozornice. Za uklanjanje odgovora sa Pozornice, otvori kategoriju `Varijable`{:class="block3variables"}. Klikni na kućicu pored varijable `ime`{:class="block3variables"} i odznači ju.
