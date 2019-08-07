@@ -1,5 +1,5 @@
 ## Izazov: više odluka
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+Programiraj robota da postavi još jedno pitanje na koje je moguće odgovoriti sa „da“ ili „ne“. Možeš li napraviti da tvoj chatbot odgovori različito, ovisno o odgovoru koji je dobio?
 
-![screenshot](images/chatbot-joke.png)
+![snimka zaslona](images/chatbot-joke.png)
