@@ -2,28 +2,28 @@
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Prije nego što započneš s izradom svojeg chatbota, moraš odlučiti o njegovoj osobnosti. **Razmisli o sljedećim pitanjima**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Kako se zove chatbot?
++ Gdje živi?
++ Je li sretan? Ozbiljan? Smiješan? Stidljiv? Prijateljski raspoložen?
++ Što voli, a što ne?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- task \--- Otvori Chatbot početni Scratch projekt.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** otvori početni projekt s [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Ako imaš Scratch korisnički račun, možeš napraviti kopiju klikom na **Obrada**.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** preuzmi početni projekt s [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go), a zatim ga otvori pomoću offline uređivača.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Ako trebaš preuzeti i instalirati offline Scratch uređivač, to možeš napraviti na [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Početni projekt sadrži četiri lika. Jedan od njih biti će tvoj chatbot.
 
 You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
 
