@@ -11,6 +11,6 @@ Isprobaj projekt [Program za bojanje](https://projects.raspberrypi.org/en/projec
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Za početak klikni na zelenu zastavicu, mišem pomiči olovku i drži lijevu tipku miša za crtanje. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
 
-![showcase](images/paint-box-showcase.png) \--- /print-only \---
+![prikazivanje](images/paint-box-showcase.png) \--- /print-only \---
