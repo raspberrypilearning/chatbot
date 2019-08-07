@@ -25,8 +25,8 @@ Ako trebaš preuzeti i instalirati offline Scratch uređivač, to možeš naprav
 
 Početni projekt sadrži četiri lika. Jedan od njih biti će tvoj chatbot.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Možeš koristiti već odabranog lika ili odabrati drugog. Klikni na lika kojeg želiš, a zatim ga **prikaži** ili **sakrij** tako da u izborniku ispod Pozornice klikneš na ikonu oka pokraj opcije Prikaži.
 
-![Choose a character](images/chatbot-characters.png)
+![Odaberi lika](images/chatbot-characters.png)
 
 \--- /task \---
