@@ -23,7 +23,7 @@ Klikni na zelenu zastavicu, a zatim klikni na chatbot robota da započneš razgo
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![dovršen projekt](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -53,22 +53,22 @@ Klikni na zelenu zastavicu, a zatim klikni na chatbot robota da započneš razgo
 
 ## title: Naučit ćeš
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Koristiti kôd za povezivanje niza podataka u Scratchu
+- Razumijeti da se varijable mogu koristiti za spremanje korisničkih unosa
+- Koristiti uvjetni odabir za odgovaranje na korisnikov unos u Scratchu \--- /collapse \---
 
 \--- collapse \---
 
 * * *
 
-## title: Additional notes for educators
+## title: Dodatne informacije za nastavnike
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Ako želite ispisati ovaj projekt, koristite [verziju koja je prilagođena za ispis](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+[Ovdje](http://rpf.io/p/en/chatbot-get) možete pronaći dovršen projekt.
 
 \--- /collapse \---
