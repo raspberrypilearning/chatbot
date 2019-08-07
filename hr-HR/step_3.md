@@ -1,24 +1,24 @@
 ## Robot koji govori
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Sad kada imaš robota s osobnošću, programirat ćemo ga da razgovara s tobom.
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Kliknite na lika chatbota i dodaj mu ovaj kôd tako da, `kada klikneš na njega`{:class="block3events"}, pita za `tvoje ime`{:class="block3sensing"}, a zatim `kaže "Imaš lijepo ime!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+Kada je lik kliknut
+pitaj [Kako se zoveš?] i čekaj
+govori [Imaš lijepo ime!] (2) sekundi
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+Klikni na svog chatbota i testiraj kôd. Kad chatbot zatraži tvoje ime, upiši ga u okvir koji se pojavi na dnu Pozornice, a zatim klikni na plavu kvačicu ili pritisni <kbd>Enter</kbd>.
 
 ![Testiranje robotova odgovora](images/chatbot-ask-test1.png)
 
@@ -28,7 +28,7 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+Trenutačno tvoj chatbot odgovara „Imaš lijepo ime!” svaki put kad odgovoriš. Odgovor chatbota možeš učiniti osobnijim, tako da je odgovor različit svaki put kada se unese drugo ime.
 
 Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
 
