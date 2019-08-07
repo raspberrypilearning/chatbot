@@ -1,6 +1,6 @@
 ## Izazov: još pitanja
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Programiraj robota da postavi drugo pitanje. Možeš li spremiti odgovor na novo pitanje u novu varijablu?
 
 ![Još pitanja](images/chatbot-question1.png)
 
