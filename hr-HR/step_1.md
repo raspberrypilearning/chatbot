@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Ovo je **Scratch 3** verzija projekta. Postoji i [Scratch 2 verzija projekta](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
 ## Uvod
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Naučit ćeš napraviti program pomoću kojeg će tvoj lik razgovarati s tobom! Takav se program naziva chat robot ili chatbot.
 
 ### Napravit ćeš
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Klikni na zelenu zastavicu, a zatim klikni na chatbot robota da započneš razgovor. Kada chatabot postavi pitanje, upiši svoj odgovor u tekstualni okvir na dnu Pozornice. Zatim klikni na kvačicu koja se nalazi desno u okviru (ili pritisni `Enter`) i vidjet ćeš chatbotov odgovor.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -39,11 +39,11 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Softver
 
-- Scratch 3 (za korištenje [online](https://rpf.io/scratchon) ili [offline](https://rpf.io/scratchoff))
+- Scratch 3 ([online](https://rpf.io/scratchon) ili [offline](https://rpf.io/scratchoff) verziju)
 
-### Downloads
+### Preuzimanja
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Ovdje ćeš pronaći datoteke za preuzimanje](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
