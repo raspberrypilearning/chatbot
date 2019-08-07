@@ -6,7 +6,7 @@ Sad kada imaš robota s osobnošću, programirat ćemo ga da razgovara s tobom.
 
 Kliknite na lika chatbota i dodaj mu ovaj kôd tako da, `kada klikneš na njega`{:class="block3events"}, pita za `tvoje ime`{:class="block3sensing"}, a zatim `kaže „Imaš lijepo ime!”`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano lik](images/nano-sprite.png)
 
 ```blocks3
 Kada je lik kliknut
@@ -20,9 +20,9 @@ govori [Imaš lijepo ime!] (2) sekundi
 
 Klikni na svog chatbota i testiraj kôd. Kad chatbot zatraži tvoje ime, upiši ga u okvir koji se pojavi na dnu Pozornice, a zatim klikni na plavu kvačicu ili pritisni <kbd>Enter</kbd>.
 
-![Testiranje robotova odgovora](images/chatbot-ask-test1.png)
+![Testiranje odgovora chatbota](images/chatbot-ask-test1.png)
 
-![Testiranje robotova odgovora](images/chatbot-ask-test2.png)
+![Testiranje odgovora chatbota](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
@@ -32,7 +32,7 @@ Trenutačno tvoj chatbot odgovara „Imaš lijepo ime!” svaki put kad odgovori
 
 Izmijeni kôd lika chatbota tako da `spojiš`{:class="block3operators"} „Bok” s `odgovorom`{:class="block3sensing"} na pitanje „Kako se zoveš?”, tako da kôd izgleda ovako:
 
-![nano sprite](images/nano-sprite.png)
+![nano lik](images/nano-sprite.png)
 
 ```blocks3
 Kada je lik kliknut
@@ -58,7 +58,7 @@ Kreiraj novu varijablu koja se zove `ime`{:class="block3variables"}.
 
 Sada izmijeni kôd chatbot lika i postavi varijablu `ime`{:class="block3variables"} na `odgovor`{:class="block3sensing"}:
 
-![nano sprite](images/nano-sprite.png)
+![nano lik](images/nano-sprite.png)
 
 ```blocks3
 Kada je lik kliknut
