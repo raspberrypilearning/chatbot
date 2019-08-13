@@ -23,57 +23,58 @@ Trebat ćeš ove blokove kôda:
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+promijeni pozadinu na (Mjesec v)
 
-ask [Do you want to go to the moon?] and wait
+pitaj [Želiš li ići na Mjesec?] i čekaj
 
-if <(answer) = [yes]> then 
+ako <(odgovor) = [da]> onda
 
 end
+
 ```
 
-\--- /pomoć \---
+\--- /hint \---
 
 \--- hint \---
 
-This is what your code should look like:
+Ovako bi tvoj kôd trebao izgledati:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+pitaj [Želiš li ići na Mjesec?] i čekaj
+ako <(odgovor) = [da]> onda 
+  promijeni pozadinu na (Mjesec v)
 end
 ```
 
-\--- /pomoć \---
+\--- /hint \---
 
-\--- /pomoć \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Sada se moraš pobrinuti da tvoj chatbot kreće sa odgovarajuće lokacije kada klikneš na njega. Dodaj ovaj blok na početak svog kôda: 
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+Kada je lik kliknut
 
-+ switch backdrop to (space v)
++ promijeni pozadinu na (svemir v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Testiraj program i odgovori sa „da“ kada te chatbot pita želiš li ići na Mjesec. Chatbotova lokacija trebala bi se promijeniti.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+Možeš dodati i sljedeći kôd unutar novog `ako`{:class="block3control"} bloka kako bi chatbot skočio četiri puta ako odgovoriš sa „da“:
 
 ![nano sprite](images/nano-sprite.png)
 
