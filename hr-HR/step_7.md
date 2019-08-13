@@ -20,7 +20,7 @@ Chatbot bi trebao `pitati „Želiš li ići na Mjesec?“`{:class="block3sensin
 
 Trebat ćeš ove blokove kôda:
 
-![nano sprite](images/nano-sprite.png)
+![nano lik](images/nano-sprite.png)
 
 ```blocks3
 promijeni pozadinu na (Mjesec v)
@@ -56,7 +56,7 @@ end
 
 Sada se moraš pobrinuti da tvoj chatbot kreće sa odgovarajuće lokacije kada klikneš na njega. Dodaj ovaj blok na početak svog kôda: 
 
-![nano sprite](images/nano-sprite.png)
+![nano lik](images/nano-sprite.png)
 
 ```blocks3
 Kada je lik kliknut
@@ -76,17 +76,17 @@ Testiraj program i odgovori sa „da“ kada te chatbot pita želiš li ići na 
 
 Možeš dodati i sljedeći kôd unutar novog `ako`{:class="block3control"} bloka kako bi chatbot skočio četiri puta ako odgovoriš sa „da“:
 
-![nano sprite](images/nano-sprite.png)
+![nano lik](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
+ako <(odgovor) = [da]> onda 
+  promijeni pozadinu na (Mjesecv)
+  
++  ponovi (4) 
+    promijeni y za (10)
+    čekaj (0.1) sekundi
+    promijeni y za (-10)
+    čekaj (0.1) sekundi
   end
 end
 ```
