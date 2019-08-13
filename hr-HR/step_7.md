@@ -1,24 +1,24 @@
 ## Promjena lokacije
 
-You can also program your chatbot to change its location!
+Možeš programirati svog chatbota da mijenja lokaciju!
 
 ![Ispitivanje promjene pozadine](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Možeš li programirati svog chatbota da pita „Želiš li ići na Mjesec?“, a zatim promijeni pozadinu kad je odgovor „da“?
 
-\--- pomoć \---
-
-\--- hint \---
-
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
-
-\--- /pomoć \---
+\--- hints \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Chatbot bi trebao `pitati „Želiš li ići na Mjesec?“`{:class="block3sensing"} - `ako`{:class="block3control"} je `odgovor`{:class="block3sensing"} „da“, neka `promijeni pozadinu na Mjesec`{:class="block3looks"}.
+
+\--- /hint \---
+
+\--- hint \---
+
+Trebat ćeš ove blokove kôda:
 
 ![nano sprite](images/nano-sprite.png)
 
