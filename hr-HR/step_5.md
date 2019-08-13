@@ -6,7 +6,7 @@ Prvo ćeš programirati svog chatbota da postavi pitanje na koje je moguće odgo
 
 \--- task \---
 
-Izmijeni kôd svog chatbota. Tvoj chatbot trebao bi postaviti pitanje „Jesi li dobro? ime“, koristeći se varijablom `ime`{:class="block3variables"}. Zatim bi trebao odgovoriti „To je sjajno čuti!“ `ako`{:class="block3control"} dobije odgovor „da“, ali ne reći ništa ako je odgovor „ne“.
+Izmijeni kôd svog chatbota. Tvoj chatbot trebao bi postaviti pitanje „Jesi li dobro ime“, koristeći se varijablom `ime`{:class="block3variables"}. Zatim bi trebao odgovoriti „To je sjajno čuti!“ `ako`{:class="block3control"} dobije odgovor „da“, ali ne reći ništa ako je odgovor „ne“.
 
 ![Testiranje ChatBot odgovora](images/chatbot-if-test1-annotated.png)
 
@@ -19,7 +19,7 @@ Kada je lik kliknut
 pitaj [Kako se zoveš?] i čekaj
 postavi [ime v] na (odgovor)
 govori (spoji [Bok] (ime)) (2) sekundi
-+pitaj (spoji [Jesi li dobro? ] (ime)) i čekaj
++pitaj (spoji [Jesi li dobro] (ime)) i čekaj
 +ako <(odgovor) = [da]> onda 
   govori [To je sjajno čuti!] (2) sekundi
 end
@@ -33,7 +33,7 @@ Trenutno tvoj chatbot ništa ne kaže kada je odgovor „ne“.
 
 \--- task \---
 
-Izmijeni kôd tako da chatbot kaže „Oh, ne!“ ako na pitanje „Jesi li dobro? ime“ dobije odgovor „ne“.
+Izmijeni kôd tako da chatbot kaže „Oh, ne!“ ako na pitanje „Jesi li dobro ime“ dobije odgovor „ne“.
 
 Zamijeni blok `ako, inače`{:class="block3control"} sa blokom `ako, onda, inače`{:class="block3control"} i ne zaboravi kôd kako bi chatbot mogao `reći „Oh, ne!“`{:class="block3looks"}.
 
@@ -44,7 +44,7 @@ Kada je lik kliknut
 pitaj [Kako se zoveš?] i čekaj
 postavi [ime v] na (odgovor)
 govori (spoji [Bok] (ime)) (2) sekundi
-pitaj (spoji [Jesi li dobro? ] (ime)) i čekaj
+pitaj (spoji [Jesi li dobro] (ime)) i čekaj
 
 + ako <(odgovor) = [yes]> onda 
   govori [To je sjajno čuti!] (2) sekundi
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Testiraj svoj kôd. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Testiraj svoj kôd. Trebaš dobiti drugačiji odgovor kad odgovoriš sa „ne“ i kad odgovoriš sa „da“. Kada je odgovor „da“, chatbot bi trebao reći „To je sjajno čuti!“ (zapamti da chatbot nije osjetljiv na velika i mala slova). Kada je odgovor **bilo što drugo**, chatbot bi trebao reći „Oh, ne!“
 
 ![Testiranje ChatBot odgovora](images/chatbot-if-test2.png)
 
@@ -65,41 +65,42 @@ Testiraj svoj kôd. You should get a different response when you answer "no" and
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Možeš staviti bilo koji kôd unutar bloka `ako, onda, inače`{:class="block3control"}, a ne samo kôd zbog kojeg će tvoj chatbot pričati!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Ako klikeš na svog chatbota, a zatim na karticu **Kostimi**, vidjet ćeš da chatbot ima više od jednog kostima. 
 
 ![kostimi za chatbot](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Promijeni kôd svog chatbota tako da chatbot mijenja kostime kad upišeš svoj odgovor.
 
 ![Ispitivanje mijenjanja kostima](images/chatbot-costume-test1.png)
 
 ![Ispitivanje mijenjanja kostima](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Promijeni kôd unutar bloka `ako, onda, inače`{:class="block3control"} kako bi chatbot `mijenjao kostime`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+Kada je lik kliknut
+pitaj [Kako se zoveš?] i čekaj
+postavi [ime v] na (odgovor)
+govori (spoji [Bok] (ime)) (2) sekundi
+pitaj (spoji [Jesi li dobro] (ime)) i čekaj
+ako <(odgovor) = [da]> onda
+end
 
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
++ promijeni kostim u (nano-c v)
+ govori [To je sjajno čuti!] (2) sekundi
+inače
++ promijeni kostim u (nano-d v)
+ govori [Oh, ne!] (2) sekundi
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Testiraj i spremi svoj kôd. Lice tvog chatbota trebalo bi se mijenjati ovisno o tvom odgovoru.
 
 \--- /task \---
 
