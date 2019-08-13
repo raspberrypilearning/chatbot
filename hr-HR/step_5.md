@@ -25,11 +25,11 @@ govori (spoji [Bok] (ime)) (2) sekundi
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Provjeri radil li tvoj novi kôd, tako da ga testiraš **dva puta**: jednom s odgovorom „da“ i jednom s odgovorom „ne“.
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+Trenutno tvoj chatbot ništa ne kaže kada je odgovor „ne“.
 
 \--- task \---
 
