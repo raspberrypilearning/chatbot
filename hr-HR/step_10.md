@@ -2,7 +2,7 @@
 
 Isprobaj projekt [Program za bojanje](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) u kojem ćeš kreirati vlastiti program za bojanje!
 
-\--- no-print \--- Klikni na zelenu zastavicu za početak. Pomoću miša pomiči olovku, a lijevu tipku miša drži za crtanje. Klikni na boju i promijeni olovku. Klikni na gumicu za brisanje i upotrijebi ju za brisanje nacrtanog. To clear the page, click on the cross.
+\--- no-print \--- Klikni na zelenu zastavicu za početak. Pomoću miša pomiči olovku, a lijevu tipku miša drži za crtanje. Klikni na boju i promijeni olovku. Klikni na gumicu za brisanje i upotrijebi ju za brisanje nacrtanog. Za brisanje svega sa stranice, klikni na križić.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -11,6 +11,6 @@ Isprobaj projekt [Program za bojanje](https://projects.raspberrypi.org/en/projec
 
 \--- /no-print \---
 
-\--- print-only \--- Za početak klikni na zelenu zastavicu, mišem pomiči olovku i drži lijevu tipku miša za crtanje. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Za početak klikni na zelenu zastavicu, mišem pomiči olovku i drži lijevu tipku miša za crtanje. Klikom na boju promijenit ćeš boju olovke, a klikom na gumicu prebacit ćeš se na gumicu!
 
 ![prikazivanje](images/paint-box-showcase.png) \--- /print-only \---
