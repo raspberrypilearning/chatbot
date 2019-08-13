@@ -12,7 +12,7 @@ Naučit ćeš napraviti program pomoću kojeg će tvoj lik razgovarati s tobom! 
 
 \--- no-print \---
 
-Klikni na zelenu zastavicu, a zatim klikni na chatbot robota da započneš razgovor. Kada chatabot postavi pitanje, upiši svoj odgovor u tekstualni okvir na dnu Pozornice. Zatim klikni na kvačicu koja se nalazi desno u okviru (ili pritisni `Enter`) i vidjet ćeš chatbotov odgovor.
+Klikni na zelenu zastavicu, a zatim klikni na lika robota da započneš razgovor. Kada chatbot postavi pitanje, upiši svoj odgovor u tekstualni okvir na dnu Pozornice. Zatim klikni na kvačicu koja se nalazi desno u okviru (ili pritisni `Enter`) i vidjet ćeš chatbotov odgovor.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
