@@ -1,60 +1,77 @@
 ## Un chatbot parlant
 
-Maintenant que vous avez un chatbot avec une personnalité, programmons-le pour qu'il puisse vous parler.
+Maintenant que tu as un chatbot avec une personnalité, tu vas le programmer pour qu'il te parle.
 
-+ Cliquez sur votre personnage chatbot et ajoutez ce code :
+--- task ---
 
-	```blocks
-		quand ce lutin est cliqué
-		demander [Hé! Comment vous appelez-vous ?] et attendre
-		dire [Quel charmant!] pendant (2) secondes
-	```
+Clique sur le sprite chatbot et ajoute ce code afin que `quand on clique dessus`{:class="block3events"}, il `vous demande votre nom`{:class="block3sensing"} puis `dit "Quel joli nom!"`{:class="block3looks"}.
 
-+ Cliquez sur votre chatbot pour le tester. Lorsque l'on vous demande votre nom, tapez-le dans la boîte de dialogue en bas de l'étape.
+![nano sprite](images/nano-sprite.png)
 
-	![screenshot](images/chatbot-text.png)
+```blocks3
+quand ce sprite est cliqué
+demander [Quel est ton nom?] et attendre
+dire [Quel joli nom!] pendant (2) secondes
+```
 
-+  Votre chatbot répond simplement `Quel nom charmant !` à chaque fois. Vous pouvez personnaliser la réponse de votre chatbot, en vous servant de la réponse de l'utilisateur. Changez le code du chatbot, comme ceci :
+--- /task ---
 
-	```blocks
-		quand ce lutin est cliqué
-		demander [Hey! Comment vous appelez-vous?] et attendre
-		dire <regroupe [Salut] (Réponse)> pendant (2) secondes
-	```
+--- task ---
 
-	Pour créer le dernier bloc, vous devrez ajouter un bloc vert `regroupe`{:class="blockoperators"} et déplacer celui-ci sur le bloc `dire`{:class="blocklooks"}.
+Clique sur ton chatbot pour ton code. Lorsque le chatbot te demande ton nom, tape-le dans la zone qui apparaît au bas de la scène, puis clique sur le repère bleu ou appuie sur <kbd>Entrée</kbd>.
 
-	![screenshot](images/chatbot-join.png)
+![Test d'une reponse du ChatBot](images/chatbot-ask-test1.png)
 
-	Vous pouvez alors changer le texte `bonjour` et dire `salut`, et puis déplacer le bloc bleu clair `réponse`{:class="blocksensing"} ( dans la section 'capteur') sur le texte `Monde`.
+![Test d'une reponse du ChatBot](images/chatbot-ask-test2.png)
 
-	![screenshot](images/chatbot-answer.png)
+--- /task ---
 
-+ Testez ce nouveau programme. Est-ce qu'il marche comme vous le voulez ? Pouvez-vous réparer les problèmes que vous pouvez voir ? (PS: vous pouvez essayer d'ajouter un espace quelque part !)
+--- task ---
 
-+ Peut-être que vous voulez stocker le nom de l'utilisateur dans une variable pour que vous puissiez l'utiliser de nouveau plus tard. Créez une nouvelle variable appelée `nom`{:class="blockdata"}. Si vous avez oublié comment faire ceci, le projet 'Ballons' vous aidera.
+En ce moment, ton chatbot répond "Quel joli nom!" chaque fois que tu réponds. Tu peux rendre la réponse du chatbot plus personnelle, de sorte que la réponse soit différente chaque fois que tu entres un nom différent.
 
-+ Les informations que vous avez entrées sont déjà stockées dans une variable spéciale appelée `réponse`{:class="blocksensing"}. Allez dans le groupe de blocs 'capteur' et cliquez sur le bloc de réponse pour qu'une case cochante apparaisse. La valeur actuelle dans `réponse`{:class="blocksensing"} devrait alors s'afficher en haut à gauche de l'étape.
+Modifie le code du sprite du chatbot en `regrouper`{:class="block3operators"} "Salut" avec la `réponse`{:class="block3sensing"} de la question "Quel est votre nom?", de sorte que le code ressemble à ceci:
 
-+ Une fois que vous avez créé votre nouvelle variable, assurez-vous que le code de votre chatbot ressemble à ceci :
+![nano sprite](images/nano-sprite.png)
 
-	```blocks
-		quand ce lutin est cliqué
-		demander [Hey! Comment t'appelles-tu?] et attendre
-		[nom v] prend la valeur (réponse)
-		dire <regroupe [Salut] (nom)> pendant (2) secondes
-	```
+```blocks3
+quand ce sprite est cliqué
+demander [Quel est ton nom?] et attendre
+dire (regrouper [Salut ] (réponse) : et : +) pendant (2) secondes
+```
 
-+ Si vous testez votre programme de nouveau, vous remarquerez que la réponse est stockée dans le `nom`{:class="blockdata"} en montrant la variable en haut à gauche de l'étape. La variable `nom`{:class="blockdata"} devrait maintenant contenir la même valeur que la variable `réponse`{:class="blocksensing"}.
+![Test d'une réponse personnalisée](images/chatbot-answer-test.png)
 
-	![screenshot](images/chatbot-variable.png)
+--- /task ---
 
-	Si vous ne désirez pas voir les variables sur cette étape, vous pouvez décocher à côté des noms de variables dans les onglets pour les cacher.
+--- task ---
 
---- challenge ---
-## Défi : Plus de questions
+En stockant la réponse dans une **variable**, tu peux l'utiliser n'importe où dans ton projet.
 
-Programmez votre chatbot pour poser une autre question. Pouvez-vous stocker la réponse dans une variable ?
+Crée une nouvelle variable appelée `nom`{:class="block3variables"}.
 
-![screenshot](images/chatbot-question.png)
---- /challenge ---
+[[[generic-scratch3-add-variable]]]
+
+--- /task ---
+
+--- task ---
+
+Maintenant, change le code de ton sprite chatbot pour définir la variable `nom`{:class="block3variables"} par la variable `réponse`{:class="block3sensing"}:
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+quand ce sprite est cliqué
+demander [Quel est ton nom?] et attendre
+
++ mettre [nom v] sur (réponse)
+dire (regrouper [Salut ] (nom : et : variables +)) pendant (2) secondes
+```
+
+Ton code devrait fonctionner comme avant: ton chatbot devrait dire bonjour en utilisant le nom que vous as entré.
+
+![Test d'une réponse personnalisée](images/chatbot-answer-test.png)
+
+--- /task ---
+
+Teste à nouveau ton programme. Note que la réponse que tu tapes est stockée dans la variable `nom`{:class="block3variables"} et est également affichée dans le coin supérieur gauche de la scène. Pour la faire disparaître de la scène, accéde à la section des blocs `Données`{:class="block3variables"} et clique sur la case à côté de `name`{:class="block3variables"} pour qu'elle ne soit pas marquée.

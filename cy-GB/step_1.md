@@ -1,37 +1,71 @@
+--- no-print ---
+
+Dyma fersiwn **Scratch 3** y prosiect. Ceir hefyd [fersiwn Scratch 2 o'r prosiect](https://projects.raspberrypi.org/cy-GB/projects/chatbot-scratch2).
+
+--- /no-print ---
+
 ## Cyflwyniad
 
-Rwyt ti mynd i ddysgu sut i raglenni robot dy hunan sydd yn siarad!
+Rwyt ti'n mynd i ddysgu sut i raglennu cymeriad sy'n gallu siarad gyda ti! Gelwir cymeriad fel hynny yn robot sgwrsio, neu sgwrsbot.
+
+### Yr hyn byddi di'n ei greu
+
+--- no-print ---
+
+Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae'r sgwrsfot yn gofyn cwestiwn, teipia dy ateb i'r bocs ar waelod y Llwyfan, yna clicia'r marc glas ar y dde (neu gwasga `Enter`) i weld ateb y sgwrsfot.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/26762091/?autostart=false" frameborder="0"></iframe>
-  <img src="images/chatbot-final.png">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
+
+--- /no-print ---
+
+--- print-only ---
+
+![cwblhau'r prosiect](images/chatbot-preview.png)
+
+--- /print-only ---
+
+---collapse---
+---
+title: Beth fydd ei angen arno ti
+---
+
+### Caledwedd
+
+- Cyfrifiadur sy'n gallu rhedeg Scratch 3
+
+### Meddalwedd
+
+- Scratch 3 (naill ai [ar-lein](https://rpf.io/scratchon) neu [all-lein](https://rpf.io/scratchoff))
+
+### Lawrlwythiadau
+
+- [Ffeiliau i'w lawrlwytho yma](http://rpf.io/p/cy-GB/chatbot-go).
+
+--- /collapse ---
+
+---collapse---
+---
+title: Yr hyn byddi di'n ei ddysgu
+---
+
+- Defnyddiwch gôd i gydgadwyno tannau yn Scratch
+- Gwybod bod newidynnau yn gallu cael eu defnyddio i storio mewnbwn defnyddiwr
+- Defnyddio detholiad amodol i ymateb i fewnbwn defnyddiwr yn Scratch --- /collapse ---
 
 --- collapse ---
 ---
-title: Nodiadau i Wirfoddolwyr
+title: Gwybodaeth ychwanegol i addysgwyr
 ---
 
-## Adnoddau
-Ar gyfer y prosiect yma, dylid defnyddio Scratch 2.  Mae modd defnyddio Scratch 2 arlein yma [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) neu mae modd ei lawrlwytho yma [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) a'i ddefnyddio heb gysylltiad gwe.
+--- no-print ---
 
-Mae modd gweld y prosiect wedi ei gwblhau yma <a href="http://scratch.mit.edu/projects/26762091/#editor">online</a>, neu mae modd ei lawrlwytho wrth glicio ar ddolen 'Adnoddau'r Prosiect' ar gyfer y prosiect yma, sydd yn cynnwys:
+Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/cy-GB/projects/chatbot/print){:target="_blank"}.
 
-+ ChatBot.sb2
+--- /no-print ---
 
-## Nodau Dysgu
-+ Mewnbynu testun;
-+ Penderfyniadau:
-	+ datganiadau `os ... wedyn`{:class="blockcontrol"};
-	+ datganiadau `os ... wedyn ... fel arall`{:class="blockcontrol"}.
-
-Mae'r prosiect yma yn trin elfennau sydd yn rhan o'r adran ganlynol o [Faes Llafur Gwneud Digidol Raspberry Pi](http://rpf.io/curriculum):
-
-+ [Defnyddio cystrawen iaith raglennu sylfaenol i greu rhaglenni syml.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## Heriau
-+ "Mwy o gwestiynau" - atgyfnerthu dysgu mewnbynu a'r `ateb`{:class="blocksensing"} block;
-+ "Mwy o benderfyniadau" - defnyddio penderfyniadau;
-+ "Creu SgwrsBot dy hunan" - atgyfnerthu dysgu o hyn a phrosiectau'r gorffennol. 
+Gallwch ddod o hyd i'r prosiect gorffenedig [yma](http://rpf.io/p/cy-GB/chatbot-get).
 
 --- /collapse ---

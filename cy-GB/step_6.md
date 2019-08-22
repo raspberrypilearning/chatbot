@@ -1,8 +1,5 @@
---- challenge ---
-## Her: Gwneud dy SgwrsBot dy hunan
-Defnyddia beth wyt ti wedi ei ddysgu i orffen creu dy SgwrsBot rhyngweithiol. Dyma rai syniadau:
+## Her: mwy o benderfyniadau
 
-![screenshot](images/chatbot-ideas.png)
+Rhaglena dy sgwrsfot i ofyn cwestiwn arall - rhywbeth gydag ateb ‘ie’ neu ‘na’. Wyt ti’n gallu cael ymateb gan y sgwrsfot i dy ateb?
 
-Unwaith rwyt ti wedi gorffen creu dy SgwrsBot, alli di gael dy ffrindiau i gael sgwrs gydag e! Ydyn nhw'n hoffi dy gymeriad? Ydyn nhw'n sylwi ar unrhyw broblemau?
---- /challenge ---
+![sgrinlun](images/chatbot-joke.png)

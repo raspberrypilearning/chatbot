@@ -2,26 +2,22 @@
 title: Chatbot
 hero_image: images/chatbot.png
 description: Μάθε πώς να προγραμματίσεις το δικό σου ομιλόν ρομπότ!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: ''
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
-version: 4.1.0
-last_tested: 2017-01-01
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - title: Εισαγωγή
-  - title: Τι θα χρειαστείς
   - title: Το chatbot σου
   - title: Ένα ομιλόν chatbot
+  - title: "Πρόκληση: περισσότερες ερωτήσεις"
+    challenge: true
   - title: Λαμβάνοντας αποφάσεις
+  - title: "Πρόκληση: περισσότερες αποφάσεις"
+    challenge: true
   - title: Αλλάζοντας τοποθεσία
-  - title: 'Πρόκληση: ολοκλήρωσε το chatbot σου'
+  - title: "Πρόκληση: ολοκλήρωσε το chatbot σου"
+    challenge: true
+  - title: Δοκίμασε μόνος σου
+  - title: Και τώρα;
