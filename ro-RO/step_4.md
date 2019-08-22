@@ -1,7 +1,7 @@
-## Provocarea: alte întrebări
+## Provocare: mai multe întrebări
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Programează-ți robotul vorbitor pentru a pune o altă întrebare. Poți stoca răspunsul acestei noi întrebări într-o nouă variabilă?
 
-![Alte întrebări](images/chatbot-question1.png)
+![Mai multe întrebări](images/chatbot-question1.png)
 
-![Alte întrebări](images/chatbot-question2.png)
+![Mai multe întrebări](images/chatbot-question2.png)
