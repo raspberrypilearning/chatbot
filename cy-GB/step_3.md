@@ -1,48 +1,77 @@
 ## SgwrsBot sy'n siarad
 
-Nawr bod gen ti SgwrsBot sydd â phersonoliaeth, awn ni ati nesaf i raglenni'r SgwrsBot i siarad gyda ti.
+Mae gen ti sgwrfot sydd â phersonoliaeth, y cam nesaf yw ei raglenni i siarad â thi.
 
-+ Clicia giplun dy SgwrsBot, ac ychwanega y côd yma:
+--- task ---
 
-	![screenshot](images/screenshot1.png)
+Clicia'r corlun sgwrsfot, ac ychwanegu'r côd yma fel ei fod `pan gaiff ei glicio`{:class="block3events"}, yn `gofyn dy enw`{:class="block3sensing"} ac yna `yn dweud "Am enw hyfryd!`{:class="block3looks"}.
 
-+ Clicia ar dy sgwrsbot i'w brofi.  Ar ôl i ti ofyn ei enw, teipia fe mewn i'r bocs ar hyd gwaelod y llwyfan.
+![corlun nano](images/nano-sprite.png)
 
-	![screenshot](images/chatbot-text.png)
+```blocks3
+pan gaiff y ciplun yma ei glicio
+gofyn [Beth yw dy enw?] ac aros
+dweud [Am enw hyfryd!] am (2) eiliad
+```
 
-+ Mae eich sgwrsbot yn ateb 'Am enw hyfryd!' bob tro.  Mae modd personoleiddio ymateb y sgwrsbot, wrth ddefnyddio ateb y defnyddiwr.  Newida gôd y sgwrsbot, fel ei fod yn edrych fel hyn:
+--- /task ---
 
-  ![screenshot](images/screenshot2.png)
+--- task ---
 
-	I greu y bloc olaf, bydd angen yn gyntaf llusgo y bloc gwyrdd `uno`{:class="blockoperators"}, a'i lusgo ar y bloc `dweud`{:class="blocklooks"}.
+Clicia dy sgwrsfot i brofi dy gôd. Pan mae'r sgwrsfot yn gofyn dy enw, teipia dy enw i'r bocs sy'n ymddangos ar waelod y Llwyfan, yna clicio'r marc glas neu gwasgu <kbd>Enter</kbd>.
 
-	![screenshot](images/chatbot-join.png)
+![Profi ymateb sgwrsfot](images/chatbot-ask-test1.png)
 
-	Mae modd wedyn newid y testun 'Hello' i ddweud 'Helo', a llusgo y bloc glas golau `ateb`{:class="blocksensing"} (o'r adran 'Synhwyro') ar y testun 'world'.
+![Profi ymateb sgwrsfot](images/chatbot-ask-test2.png)
 
-	![screenshot](images/chatbot-answer.png)
+--- /task ---
 
-+ Profa y rhaglen newydd yma.  Ydy e'n gweithio fel roeddet ti'n disgwyl? Wyt ti'n gallu trwsio unrhyw broblemau wyt ti'n gallu gweld? (Awgrym: beth am drio ychwanegu bwlch yn rhywle!)
+--- task ---
 
-+ Mae'n bosib dy fod di eisiau storio enw'r defnyddiwr fel amrywiad, fel dy fod yn gallu ei ddefnyddio eto.  Cer ati i greu amrywiad newydd `enw`{:class="blockdata"}.  Os wyt ti wedi anghofio sut i wneud hyn, bydd y prosiect 'Ghostbusters' yn gallu dy helpu.
+Mae dy sgwrsfot yn ateb ‘Am enw hyfryd!’ bob tro. Mae modd personoleiddio ymateb y sgwrsbot, fel fod yr ateb yn wahanol bob tro rwyt ti'n teipio dy enw.
 
+Newida côd y sgwrsfot i `uno`{:class="block3operators"} "Helo" gydag `ateb`{:class="block3sensing"} i'r cwestiwn "Beth yw dy enw?", fel fod y côd yn edrych fel hyn:
 
-+ Mae'r wybodaeth rwyt ti wedi ei roi i mewn wedi cael ei arbed fel newidyn o'r enw `ateb`{:class="blocksensing"}. Cer i'r grŵp o flociau Synhwyro a chlicia y bloc ateb fel bod tic yn ymddangos.  Fe ddylai gwerth presennol `ateb`{:class="blocksensing"} ymddangos ar ochr top chwith y llwyfan.
+![corlun nano](images/nano-sprite.png)
 
-+ Unwaith dy fod di wedi creu y newidyn newydd, gwna yn siwr bod côd dy SgwrsBot yn edrych fel hyn:
+```blocks3
+pan gaiff y ciplun yma ei glicio
+gofyn [Beth yw dy enw?] ac aros
+dweud (uno [Helo ] (ateb) :: +) am (2) eiliad
+```
 
-  ![screenshot](images/screenshot3.png)
+![Profi ateb personol](images/chatbot-answer-test.png)
 
-+ Os wyt ti'n profi dy raglen eto, fe fyddi di'n sylwi bod yr ateb yn cael ei arbed yn y newidyn `enw`{:class="blockdata"}, ac yn ymddangos ar ochr top-chwith y llwyfan.  Fe ddylai'r newidyn `enw`{:class="blockdata"} nawr ond gynnwys yr un gwerth â'r newidyn' `ateb`{:class="blocksensing"}.
+--- /task ---
 
-	![screenshot](images/chatbot-variable.png)
+--- task ---
 
-	Os oes well gyda ti beidio gweld y newidyn ar dy lwyfan, yna clica ar y tic drws nesaf i enwau'r amrywiad yn y tab 'Sgriptiau' i'w cuddio nhw.
+Trwy storio'r ateb fel **newidyn**, mae modd ei ddefnyddio yn unrhyw le yn eich prosiect.
 
---- challenge ---
-## Her: Mwy o gwestiynau
+Creu newidyn newydd o'r enw `enw`{:class="block3variables"}.
 
-Rhaglenna dy SgwrsBot i ofyn cwestiwn arall. Wyt ti'n gallu storio'r ateb fel amrywiad?
+[[[generic-scratch3-add-variable]]]
 
-![screenshot](images/chatbot-question.png)
---- /challenge ---
+--- /task ---
+
+--- task ---
+
+Nawr, newida côd dy sgwrsfot i osod y newidyn `enw`{:class="block3variables}} i `ateb`{:class="block3sensing"}:
+
+![corlun nano](images/nano-sprite.png)
+
+```blocks3
+pan gaiff y ciplun yma ei glicio
+gofyn [Beth yw dy enw?] ac aros
+
++ gosod [enw v] i (ateb)
+dweud (uno [Helo ] (enw :: + variables)) am (2) eiliad
+```
+
+Fe ddylai dy gôd weithio fel o'r blaen: dy sgwrsfot yn dweud helo pan wyt ti'n teipio dy enw.
+
+![Profi ateb personol](images/chatbot-answer-test.png)
+
+--- /task ---
+
+Profa dy raglen eto. Sylwa pan wyt ti'n teipio dy ateb mae'n cael ei arbed yn y newidyn `enw`{:class="block3variables"}, ac hefyd yn ymddangos ar ochr top chwith y Llwyfan. I wneud iddo ddiflannu o'r Llwyfan, cer i adran flociau `Data`{:class="block3variables"} a clicio ar y blwch dros nesaf i `enw`{:class="block3variables"} fel nad yw wedi ei farcio.

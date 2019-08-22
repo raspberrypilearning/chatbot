@@ -1,9 +1,5 @@
---- challenge ---
-## Défi : Créer votre propre chatbot
+## Défi: plus de décisions
 
-Utilisez ce que vous avez appris pour finir de créer votre chatbot intéractif. Voici quelques idées :
+Programme ton chatbot pour poser une autre question à laquelle tu peux répondre par "oui" ou par "non". Peux-tu faire en sorte que ton chatbot réponde différemment en fonction de la réponse qu'il reçoit?
 
-![screenshot](images/chatbot-ideas.png)
-
-Une fois que vous avez complété votre chatbot, demandez à vos amis d'avoir une conversation avec lui! Aiment-ils votre personnage ? Ont-ils découvert des problèmes ?
---- /challenge ---
+![capture d'écran](images/chatbot-joke.png)

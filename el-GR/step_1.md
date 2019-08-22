@@ -1,67 +1,71 @@
+--- no-print ---
+
+Αυτή είναι η έκδοση **Scratch 3** του έργου. Υπάρχει επίσης και μία έκδοση [Scratch 2](https://projects.raspberrypi.org/el-GR/projects/chatbot-scratch2) του έργου.
+
+--- /no-print ---
+
 ## Εισαγωγή
 
-Θα μάθεις πώς να προγραμματίσεις το δικό σου ομιλόν ρομπότ!
+Πρόκειται να μάθεις πως να προγραμματίζεις έναν χαρακτήρα που θα μπορεί να σου μιλάει! Ένας τέτοιος χαρακτήρας ονομάζεται "ρομπότ συζήτησης" ή chatbot (στα αγγλικά).
 
 ### Τι θα κάνεις
 
+--- no-print ---
+
+Κάνε κλικ στην πράσινη σημαία και στη συνέχεια κλικ στο chatbot για να αρχίσει μία συζήτηση. Όταν το chatbot σε ρωτήσει, πληκτρολόγησε την απάντησή σου στο πλαίσιο στο κάτω μέρος του Σκηνικού και κάνε κλικ στο μπλε σημάδι στα δεξιά (ή πάτησε `Enter`) για να δεις την απάντηση του chatbot.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/224726224/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Κάνε κλικ στην πράσινη σημαία και στη συνέχεια κλικ στο chatbot για να αρχίσει μία συζήτηση. Όταν το chatbot σε ρωτήσει, πληκτρολόγησε την απάντησή σου στο πλαίσιο στο κάτω μέρος του Σκηνικού και κάνε κλικ στο τικ (ή πάτησε `Enter`).
+--- /no-print ---
 
-### Τι θα μάθεις
+--- print-only ---
 
-Αυτό το πρόγραμμα καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+![ολοκληρωμένο έργο](images/chatbot-preview.png)
 
-+ [Χρησιμοποίησε βασικές δομές προγραμματισμού για να δημιουργήσεις απλά προγράμματα.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-### Πρόσθετες πληροφορίες για τους συντονιστές των ομάδων
-
-Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/el-GR/projects/chatbot/print).
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Σημειώσεις συντονιστή ομάδας
+title: Τι θα χρειαστείς
 ---
-## Εισαγωγή:
 
-Σε αυτό το έργο, τα παιδιά θα μάθουν πώς να χρησιμοποιούν τις δηλώσεις «εάν» για να λαμβάνουν αποφάσεις στα προγράμματά τους.
+### Υλικό
 
-## Πόροι
+- Υπολογιστής ικανός να τρέχει το Scratch 3
 
-Για το έργο αυτό, θα πρέπει να χρησιμοποιηθεί το Scratch 2. Το Scratch 2 μπορεί είτε να χρησιμοποιηθεί online στο [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) είτε να μεταφορτωθεί από το [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) και να χρησιμοποιηθεί εκτός σύνδεσης.
+### Λογισμικό
 
-Μπορείτε να βρείτε μια ολοκληρωμένη έκδοση του έργου [online](https://scratch.mit.edu/projects/224726224/#editor) ή μπορείτε να το κατεβάσετε κάνοντας κλικ στο σύνδεσμο «Project Materials» για αυτό το έργο, το οποίο περιέχει:
+- Scratch 3 (είτε [online](https://rpf.io/scratchon) είτε [offline](https://rpf.io/scratchoff))
 
-+ ChatBot.sb2
+### Λήψεις
 
-## Στόχοι μάθησης
-
-+ Εισαγωγή κειμένου;
-+ Αποφάσεις: 
-    + `εάν ... τότε`{:class="blockcontrol"} δηλώσεις;
-    + `εάν ... τότε ... αλλιώς`{:class ="blockcontrol"} δηλώσεις.
-
-Αυτό το πρόγραμμα καλύπτει στοιχεία από τις ακόλουθες πτυχές του [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
-
-+ [Χρησιμοποίησε βασικές δομές προγραμματισμού για να δημιουργήσεις απλά προγράμματα.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## Προκλήσεις
-
-+ "Περισσότερες ερωτήσεις" - εμπέδωση μάθησης της εισαγωγής δεδομένων και του μπλοκ `απάντηση`{:class="blocksensing"};
-+ "Περισσότερες αποφάσεις" - χρησιμοποιώντας αποφάσεις.
-+ "Κάνε το δικό σου chatbot" - εμπέδωση της μάθησης από αυτό και τα προηγούμενα έργα.
+- [Βρες αρχεία για να κατεβάσεις εδώ](http://rpf.io/p/el-GR/chatbot-go).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Υλικά του έργου
+title: Τι θα μάθεις
 ---
-## Πόροι συντονιστή ομάδας
 
-+ [Λήψη ολοκληρωμένου έργου Scratch 2](resources/ChatBot.sb2)
-+ [Ολοκληρωμένο έργο στο online Scratch 2](https://scratch.mit.edu/projects/224726224/#editor)
+- Να χρησιμοποιείς κώδικα για να ενώσεις γράμματα στη Scratch.
+- Θα μάθεις ότι οι μεταβλητές μπορούν να χρησιμοποιηθούν για να αποθηκεύουν το κείμενο που εισάγεται από έναν χρήστη.
+- Να χρησιμοποιείς την επιλογή υπό όρους για να απαντήσεις στην είσοδο του χρήστη στην Scratch. --- /collapse ---
+
+--- collapse ---
+---
+title: Πρόσθετες σημειώσεις για εκπαιδευτικούς
+---
+
+--- no-print ---
+
+Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/el-GR/projects/chatbot/print){:target="_blank"}.
+
+--- /no-print ---
+
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/el-GR/chatbot-get).
 
 --- /collapse ---
