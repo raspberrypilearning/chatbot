@@ -1,31 +1,31 @@
 ---
-title: Chatbot
+title: Robot vorbitor
 hero_image: images/chatbot.png
-description: Acum vom învăța cum să programăm propriul nostru robot vorbitor!
+description: Învață cum să îți programezi propriul robot vorbitor!
 theme: violet
 listed: true
 copyedit: false
-version: 4.1.0
-last_tested: 2017-01-01
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
     title: Introducere
   - 
-    title: Chatbot-ul tău
+    title: Robotul tău vorbitor
   - 
-    title: Un chatbot vorbitor
+    title: Un robot vorbitor
   - 
-    title: "Provocarea: alte întrebări"
+    title: "Provocare: mai multe întrebări"
     challenge: true
   - 
-    title: Making decisions
+    title: Luarea deciziilor
   - 
-    title: "Provocare: alte decizii"
+    title: "Provocare: mai multe decizii"
     challenge: true
   - 
-    title: Schimbarea poziției
+    title: Schimbarea locației
   - 
-    title: "Provocare: terminați chatbot-ul"
+    title: "Provocare: finalizează-ți robotul vorbitor"
     challenge: true
   - 
     title: Testează-te
