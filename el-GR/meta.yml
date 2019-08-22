@@ -10,7 +10,7 @@ last_tested: 2018-09-20
 steps:
   - title: Εισαγωγή
   - title: Το chatbot σου
-  - title: Ένα  chatbot που ... μιλάει!
+  - title: Ένα ομιλόν chatbot
   - title: "Πρόκληση: περισσότερες ερωτήσεις"
     challenge: true
   - title: Λαμβάνοντας αποφάσεις
