@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Acesta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [versiune Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [versiune Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
 ## Introducere
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Vei învăța cum să programezi un personaj care poate vorbi cu tine! Un personaj de genul acesta se numește robot vorbitor, sau chatbot.
 
-### Ce veți face
+### Ce vei face
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Dă click pe stegulețul verde, iar apoi dă click pe robotul vorbitor pentru a începe o conversație. Atunci când chatbot-ul pune o întrebare, scrie răspunsul în caseta din partea de jos a Scenei, iar apoi dă click pe bifa albastră din dreapta (sau apasă `Enter`) pentru a vedea răspunsul robotului vorbitor.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![proiectul finalizat](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -31,19 +31,19 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## titlu: Ce veți avea nevoie
+## title: De ce vei avea nevoie
 
 ### Hardware
 
-- Computer capabil să ruleze Scratch 3
+- Un computer capabil să ruleze Scratch 3
 
 ### Software
 
-- Scratch 3 (fie[online](https://rpf.io/scratchon) fie [offline](https://rpf.io/scratchoff))
+- Scratch 3 (fie [online](https://rpf.io/scratchon) sau [offline](https://rpf.io/scratchoff))
 
 ### Fișiere descărcabile
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Găsești fișierele descărcabile aici](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -51,11 +51,11 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## titlu: Ce veți învăța
+## title: Ce veți învăța
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Să folosești codul pentru a concatena șiruri de caractere în Scratch
+- Să afli ce fel de variabile pot fi folosite pentru a stoca răspunsul utilizatorului
+- Să folosești selecție condiționată pentru a răspunde la mesajul utilizatorului în Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -65,10 +65,10 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-Dacă doriți să printați acest proiect, folosiți[printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Dacă vrei să printezi acest proiect, folosește [versiunea printabilă](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Poți găsi [proiectul finalizat aici](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
