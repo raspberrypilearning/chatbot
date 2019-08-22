@@ -1,6 +1,6 @@
-## Provocare: terminați chatbot-ul
+## Provocare: finalizează-ți robotul vorbitor
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+Folosește ce ai învățat pentru a finaliza crearea robotului tău vorbitor și interactiv. Iată câteva idei:
 
 ![Idei pentru ChatBot](images/chatbot-ideas1.png)
 
@@ -8,4 +8,4 @@ Use what you've learned to finish creating your interactive chatbot. Here are so
 
 ![Idei pentru ChatBot](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+După ce ai terminat robotul tău vorbitor, adu-ți prietenii să vorbească cu el! Le place personajul tău? Pot să găsească unele probleme?
