@@ -1,91 +1,91 @@
-## Schimbarea poziției
+## Schimbarea locației
 
-You can also program your chatbot to change its location!
+Poți, de asemenea, programa robotul tău vorbitor pentru a-și schimba locația!
 
 ![Testează un fundal care se schimbă](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Poți programa robotul tău vorbitor pentru a întreba „Vrei să mergi pe lună?”, iar apoi să schimbi decorul când răspunsul este „da”?
 
-\--- sugestii \---
+\--- hints \---
 
-\--- indiciu \---
+\--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Robotul tău vorbitor ar trebui să `întrebe „Vrei să mergi pe lună?”`{:class="block3sensing"}, iar `dacă`{:class="block3control"} primește ca `răspuns`{:class="block3sensing"} „da”, ar trebui să `schimbe decorul la lună`{:class="block3looks"}.
 
-\--- / indiciu \---
+\--- /hint \---
 
-\--- indiciu \---
+\--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Aici sunt blocurile de cod pe care trebuie să le adaugi la codul robotului tău vorbitor.
 
-![nano sprite](images/nano-sprite.png)
+![personaj nano](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+schimbă decorul la (lună v)
 
-ask [Do you want to go to the moon?] and wait
+întreabă [Vrei să mergi pe lună?] și așteaptă
 
-if <(answer) = [yes]> then 
+dacă <(răspuns) = [da]> atunci 
 
 end
 ```
 
-\--- / indiciu \---
+\--- /hint \---
 
-\--- indiciu \---
+\--- hint \---
 
-This is what your code should look like:
+Iată cum ar trebui să arate noul tău cod:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+întreabă [Vrei să mergi pe lună?] și așteaptă
+dacă <(răspuns) = [da]> atunci 
+  schimbă decorul la (lună v)
 end
 ```
 
-\--- / indiciu \---
+\--- /hint \---
 
-\--- / sugestii \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Acum, trebuie să te asiguri că robotul tău vorbitor începe în locația potrivită atunci când dai click pe el pentru a-i vorbi. Adaugă acest bloc în partea de sus a codului pentru robotul tău vorbitor:
 
-![nano sprite](images/nano-sprite.png)
+![personaj nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+când se dă click pe personaj
 
-+ switch backdrop to (space v)
++ schimbă decorul la (spațiu v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Testează-ți programul și răspunde cu „da” atunci când robotul tău vorbitor întreabă dacă vrei să mergi pe lună. Ar trebui să vezi că locația robotului vorbitor se schimbă.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+Poți, de asemenea, să adaugi următorul cod în interiorul blocului `dacă`{:class="block3control"} pentru a face robotul vorbitor să sară de patru ori dacă răspunzi cu „da”:
 
-![nano sprite](images/nano-sprite.png)
+![personaj nano](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+dacă <(răspuns) = [da]> atunci 
+  schimbă decorul la (lună v)
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
++ repetă (4) 
+    modifică y cu (10)
+    așteaptă (0.1) secunde
+    modifică y cu (-10)
+    așteaptă (0.1) secunde
   end
 end
 ```
