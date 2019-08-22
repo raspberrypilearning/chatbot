@@ -53,9 +53,9 @@ Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae
 
 ## title: Yr hyn byddi di'n ei ddysgu
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Defnyddiwch gôd i gydgadwyno tannau yn Scratch
+- Gwybod bod newidynnau yn gallu cael eu defnyddio i storio mewnbwn defnyddiwr
+- Defnyddio detholiad amodol i ymateb i fewnbwn defnyddiwr yn Scratch \--- /collapse \---
 
 \--- collapse \---
 
