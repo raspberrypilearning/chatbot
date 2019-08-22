@@ -1,24 +1,24 @@
-## Un chatbot vorbitor
+## Un robot vorbitor
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Acum, dacă ai un chatbot cu personalitate, îl vei programa să vorbească cu tine.
 
-\--- proba\---
+\--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Dă click pe costumul robotului tău vorbitor și adaugă acest cod pentru ca atunci `când se dă click pe personaj`{:class="block3events"} să `întrebe care este numele tău`{:class="block3sensing"} iar apoi să `spună „Ce nume drăguț!”`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![personaj nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+când se dă click pe personaj
+întreabă [Care este numele tău?] și așteaptă
+spune [Ce nume drăguț!] pentru (2) secunde
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+Dă click pe robotul tău vorbitor pentru a-ți testa codul. Atunci când acesta îți cere numele, scrie-l în caseta care apare în partea de jos Scenei, iar apoi dă click pe bifa albastră sau apasă <kbd>Enter</kbd>.
 
 ![Testează un răspuns al ChatBot-ului](images/chatbot-ask-test1.png)
 
@@ -28,16 +28,16 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+În acest moment, robotul tău vorbitor îți răspunde cu „Ce nume drăguț!” de fiecare dată când îi răspunzi. Poți să faci răspunsul mai personal, astfel încât răspunsul lui să fie diferit de fiecare dată când i-l spui.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+Schimbă codul robotului vorbitor pentru a `alătura`{:class="block3operators"} „Salut” cu `răspunsul`{:class="block3sensing"} la întrebarea „Care este numele tău?”, astfel încât codul să arate astfel:
 
-![nano sprite](images/nano-sprite.png)
+![personaj nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+când se dă click pe personaj
+întreabă [Care este numele tău?] și așteaptă
+spune (alătură [Salut, ] (răspuns) :: +) pentru (2) secunde
 ```
 
 ![Testează un răspuns personalizat](images/chatbot-answer-test.png)
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+Stocând răspunsul într-o **variabilă**, poți să o folosești oriunde în proiectul tău.
 
-Create a new variable called `name`{:class="block3variables"}.
+Creează o nouă variabilă numită `nume`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,22 +56,22 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Acum, schimbă codul robotului vorbitor pentru a seta variabila `nume`{:class="block3variables"} la `răspuns`{:class="block3sensing"}:
 
-![nano sprite](images/nano-sprite.png)
+![personaj nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+când se dă click pe personaj
+întreabă [Care este numele tău?] și așteaptă
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ setează [nume v] la (răspuns)
+spune (alătură [Salut, ] (nume :: variables +)) pentru (2) secunde
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+Codul tău ar trebui să funcționeze ca înainte: chatbot-ul tău ar trebui să salute folosind numele tău.
 
 ![Testează un răspuns personalizat](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Testează-ți din nou programul. Reține că răspunsul pe care îl scrii este stocat în variabila `nume`{:class="block3variables"}, și este de asemenea afișată în colțul din stânga sus al Scenei. Pentru a-l face să dispară din Scenă, mergi la secțiunea de blocuri `Variabile`{:class="block3variables"} și dă click pe căsuța de lângă `nume`{:class="block3variables"} pentru a o debifa.
