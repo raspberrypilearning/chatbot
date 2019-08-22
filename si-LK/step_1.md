@@ -1,6 +1,6 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+මෙය **Scratch 3** අනුවාදයේ(version එකේ) ව්‍යාපෘතියකි. මෙම ව්යාපෘතියේ [Scratch 2 අනුවාදයක්(version එකක්)](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) ද ඇත.
 
 \--- /no-print \---
 
