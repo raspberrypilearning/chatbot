@@ -1,5 +1,5 @@
-## Provocare: alte decizii
+## Provocare: mai multe decizii
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+Programează-ți robotul vorbitor să pună o altă întrebare la care se poate răspunde cu „da” sau „nu”. Poți face ca robotul tău vorbitor să reacționeze diferit în funcție de ce răspuns primește?
 
 ![captură de ecran](images/chatbot-joke.png)
