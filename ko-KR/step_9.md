@@ -1,4 +1,4 @@
-## Test yourself
+## 도전해 보기
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
