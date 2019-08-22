@@ -1,8 +1,8 @@
 ## Ce urmează?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+Încearcă proiectul [Cutia cu culori](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), unde vei putea să îți creezi propriul program de desenat!
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+\--- no-print \--- Dă click pe stegulețul verde pentru a începe. Folosește mouse-ul pentru a mișca creionul, iar apoi ține apăsat butonul stâng al mouse-ului pentru a desena. Dă click pe o culoare pentru a schimba creionul. Dă click pe radieră pentru a o folosi și a-ți șterge munca. Pentru a goli pagina, dă click pe cruce.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -11,6 +11,6 @@ Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_s
 
 \--- /no-print \---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+\--- print-only \--- Vei da click pe stegulețul verde pentru a începe, iar apoi îți vei folosi mouse-ul pentru a mișca creionul și vei ține apăsat butonul stâng al mouse-ului pentru a desena. Dând click pe o culoare, vei schimba culoarea creionului, iar dacă dai click pe radieră vei schimba creionul într-o radieră!
 
 ![prezentare](images/paint-box-showcase.png) \--- /print-only \---
