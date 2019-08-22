@@ -53,11 +53,11 @@ Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine 
 
 ## title: Ne öğreneceksiniz
 
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Scratch'ta dizeleri eşleştirmek için kod kullanın
+- Kullanıcı girişini saklamak için değişkenlerin kullanılabileceğini bilin
+- Scratch'taki kullanıcı girişine cevap vermek için koşullu seçimi kullanın
 
-\---collapse\---
+\--- \---
 
 * * *
 
@@ -69,6 +69,6 @@ Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://
 
 .
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+[Tamamlanmış projeye buradan](http://rpf.io/p/en/chatbot-get) ulaşabilirsiniz {: target="_blank"} kullanın.
 
-\--- /collapse \---
+\--- / \---
