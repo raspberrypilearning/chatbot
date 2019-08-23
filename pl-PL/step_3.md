@@ -58,7 +58,7 @@ Utwórz nową zmienną o nazwie `imię`{:class="block3variables"}.
 
 Teraz zmień kod duszka chatbota, aby ustawić zmienną `imię`{:class="block3variables"} na `odpowiedź`{:class="block3sensing"}:
 
-![nano sprite](images/nano-sprite.png)
+![nano duszek](images/nano-sprite.png)
 
 ```blocks3
 kiedy duszek kliknięty
