@@ -20,16 +20,16 @@ Twój robot powinien `zapytać: „Chcesz polecieć na księżyc?”`{:class="bl
 
 Oto bloczki kodu, które musisz dodać do kodu swojego robota.
 
-![nano sprite](images/nano-sprite.png)
+![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+przełącz tło na (księżyc v)
 
-ask [Do you want to go to the moon?] and wait
+zapytaj [Czy chcesz polecieć na księżyc?] i czekaj
 
-if <(answer) = [yes]> then 
+jeśli <(odpowiedź) = [yes]> to 
 
-end
+koniec
 ```
 
 \--- /wskazówka \---
@@ -39,10 +39,10 @@ end
 Tak powinien wyglądać Twój kod:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-end
+zapytaj [Czy chcesz polecieć na księżyc?] i czekaj
+jeśli <(odpowiedź) = [yes]> to 
+  przełącz tło na (księżyc v)
+koniec
 ```
 
 \--- /wskazówka \---
@@ -55,12 +55,12 @@ end
 
 Teraz musisz się upewnić, że robot gaduła znajduje się w odpowiednim miejscu, gdy na niego klikniesz, żeby z nim porozmawiać. Dodaj ten bloczek na górze swojego kodu robota:
 
-![nano sprite](images/nano-sprite.png)
+![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+kiedy duszek kliknięty
 
-+ switch backdrop to (space v)
++ przełącz tło na (kosmos v)
 ```
 
 \--- /task \---
@@ -75,19 +75,19 @@ Przetestuj swój program i odpowiedz „tak”, gdy robot zapyta, czy chcesz uda
 
 Możesz również dodać następujący kod do nowego bloczku `jeśli`{:class="block3control"}, żeby robot gaduła podskoczył cztery razy, jeśli odpowiesz „tak”:
 
-![nano sprite](images/nano-sprite.png)
+![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+jeśli <(odpowiedź) = [yes]> to 
+  przełącz tło na (księżyc v)
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
++ powtórz (4) 
+    zmień y o (10)
+    czekaj (0,1) sek
+    zmień y o (-10)
+    czekaj (0,1) sek
+  koniec
+koniec
 ```
 
 \--- /task \---
