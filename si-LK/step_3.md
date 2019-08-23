@@ -30,7 +30,7 @@ say [What a lovely name!] for (2) seconds
 
 මේ මොහොතේ, ඔබේ චැට්බෝට් පිළිතුරු දෙන්නේ "මොනතරම් ලස්සන නමක්ද! (What a lovely name!)" ඔබ පිළිතුරු දෙන සෑම අවස්ථාවකම. ඔබට ලැබෙන චැට්බෝට්ගේ(chatbot ගේ) පිළිතුර වඩාත්(more) පුද්ගලික(personal) එකක් කළ හැකිය, එවිට වෙනස් නමක් ටයිප් කරන සෑම අවස්ථාවකම පිළිතුර වෙනස් වේ.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+චැට්බෝට්(chatbot) sprite එකේ කේතය(code එක) "ඔබේ නම කුමක්ද? (What's your name?)" ප්‍රශ්නයට `පිළිතුර`{:class="block3sensing"} "හායි (Hi)" සමඟ `සම්බන්ධ(join)`{:class="block3operators"} වන ලෙස වෙනස් කරන්න, එවිට කේතය(code එක) මේ ආකාරවේ:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+**විචල්‍යයක(variable එකක)** පිළිතුර ගබඩා කිරීමෙන්(storing), ඔබේ ව්‍යාපෘතියේ(project එකේ) ඕනෑම තැනක එය භාවිතා කළ හැකිය.
 
-Create a new variable called `name`{:class="block3variables"}.
+`නාමය(name)`{:class="block3variables"} නමින් නව(new) විචල්‍යයක්(variable එකක්) සාදන්න.
 
 [[[generic-scratch3-add-variable]]]
 
