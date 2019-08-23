@@ -15,14 +15,14 @@ Zmień kod swojego robota. Twój robot gaduła powinien zadać pytanie „Czy ws
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-end
+kiedy duszek kliknięty
+zapytaj [Jak masz na imię?] i czekaj
+ustaw [imię v] na (odpowiedź)
+powiedz (połącz [Cześć ] (imię)) przez (2) sekundy
++zapytaj (połącz [Czy wszystko OK ] (imię)) i czekaj
++jeśli <(odpowiedź) = [yes]> to 
+  powiedz [To super!] przez (2) sekundy
+koniec
 ```
 
 Aby dokładnie przetestować swój program, musisz sprawdzić go **dwa razy** - raz wpisując odpowiedź "tak "i drugi raz wpisując "nie".
@@ -40,17 +40,16 @@ Zastąp bloczek `jeśli, to`{:class="block3control"} na bloczek `jeśli, to, w p
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
-end
+kiedy duszek kliknięty
+zapytaj [Jak masz na imię?] i czekaj
+ustaw [imię v] na (odpowiedź)
+powiedz (połącz [Cześć ] (imię)) przez (2) sekundy
+zapytaj (połącz [Czy wszystko OK ] (imię)) i czekaj
++jeśli <(odpowiedź) = [yes]> to 
+  powiedz [To super!] przez (2) sekundy
+w przeciwnym razie
++ powiedz [O nie!] przez (2) sekundy
+koniec
 ```
 
 \--- /task \---
