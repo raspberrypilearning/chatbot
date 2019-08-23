@@ -1,6 +1,6 @@
-## A talking chatbot
+## කතා කරන චැට්බෝට්(chatbot)
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+දැන් ඔබට පෞරුෂයක්(personality එකක්) සහිත චැට්බෝට්(chatbot) එකක් ඇති බැවින්, එය ඔබ සමඟ කතා කරන පරිදි වැඩසටහන්ගත(program) කිරීමට හැකියි.
 
 \--- task \---
 
