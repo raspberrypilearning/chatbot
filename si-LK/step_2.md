@@ -6,20 +6,20 @@
 
 + චැට්බෝට්ගේ(chatbot ගේ) නම කුමක්ද?
 + එය ජීවත් වන්නේ කොහේද?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ එය සතුටින්ද? බැරෑරුම්ද? විනෝදජනකද? ලැජ්ජයිද? මිත්රශීලීද?
++ එය කැමති හා අකමැති මොනවාටද?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- task \--- Scratch හි චැට්බෝට්(chatbot) ආරම්භක(starter) ව්‍යාපෘතිය(project එක) විවෘත කරන්න.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**අන්තර්ජාල මාර්ගගත(Online):** [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} හි අන්තර්ජාල මාර්ගගතව නව Scratch ව්‍යාපෘතියක් විවෘත කරන්න.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+ඔබට Scratch ගිණුමක්(account එකක්) තිබේ නම් **රීමික්ස්(Remix)** ක්ලික් කිරීමෙන් පිටපතක් සාදාගත හැකිය.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+** නොබැඳි(offline): ** [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go) {:target="_blank"} වෙතින් ආරම්භක(starter) ව්‍යාපෘතිය(project) බාගන්න(download කර) ඉන්පසු නොබැඳි(offline) සංස්කාරකය(editor එක) භාවිතයෙන් එය විවෘත කරන්න.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+ඔබට Scratch නොබැඳි(offline) සංස්කාරකය(editor එක) බාගත(download) කර ස්ථාපනය(install) කිරීමට අවශ්‍ය නම්, ඔබට එය [https://rpf.io/scratchoff](rpf.io/scratchoff) වෙතින් ලබාගත හැකිය.
 
 \--- task \---
 
