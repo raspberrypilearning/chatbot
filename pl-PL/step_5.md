@@ -12,7 +12,7 @@ Zmień kod swojego robota. Twój robot gaduła powinien zadać pytanie „Czy ws
 
 ![Testowanie odpowiedzi robota](images/chatbot-if-test2.png)
 
-![nano sprite](images/nano-sprite.png)
+![nano duszek](images/nano-sprite.png)
 
 ```blocks3
 kiedy duszek kliknięty
@@ -37,7 +37,7 @@ Zmień kod robota, aby odpowiadał „O nie!” jeśli otrzyma „nie” jako od
 
 Zastąp bloczek `jeśli, to`{:class="block3control"} na bloczek `jeśli, to, w przeciwnym razie`{:class="block3control"} i dołącz kod, aby robot gaduła mógł powiedzieć `"O nie!"`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano duszek](images/nano-sprite.png)
 
 ```blocks3
 kiedy duszek kliknięty
@@ -45,7 +45,8 @@ zapytaj [Jak masz na imię?] i czekaj
 ustaw [imię v] na (odpowiedź)
 powiedz (połącz [Cześć ] (imię)) przez (2) sekundy
 zapytaj (połącz [Czy wszystko OK ] (imię)) i czekaj
-+jeśli <(odpowiedź) = [yes]> to 
+
++ jeśli <(odpowiedź) = [yes]> to 
   powiedz [To super!] przez (2) sekundy
 w przeciwnym razie
 + powiedz [O nie!] przez (2) sekundy
@@ -80,22 +81,22 @@ Zmień kod robota gaduły taj, aby robot zmieniał kostiumy kiedy wpiszesz odpow
 
 Zmień kod wewnątrz bloczku `jeśli, to, w przeciwnym razie`{:class="block3control"} na `zmień kostium`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+kiedy duszek kliknięty
+zapytaj [Jak masz na imię?] i czekaj
+ustaw [imię v] na (odpowiedź)
+powiedz (połącz [Cześć ] (imię)) przez (2) sekundy
+zapytaj (połącz [Czy wszystko OK ] (imię)) i czekaj
+jeśli <(odpowiedź) = [yes]> to 
 
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
-end
++ przełącz kostium na (nano-c v)
+  powiedz [To super!] przez (2) sekundy
+w przeciwnym razie
++ przełącz kostium na (nano-d v)
+powiedz [O nie!] przez (2) sekundy
+koniec
 ```
 
 Przetestuj i zapisz swój kod. Powinnaś zauważyć zmianę na twarzy robota gaduły w zależności od Twojej odpowiedzi.
@@ -112,13 +113,13 @@ Możesz spróbować sama: uruchom swój kod i odpowiedz „nie”, aby twarz rob
 
 Aby rozwiązać ten problem, dodaj kod robota do `zmień kostium`{:class="block3looks"} na początku `kiedy duszek jest kliknięty`{:class="block3events"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+kiedy duszek kliknięty
 
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
++ przełącz kostium na (nano-a v)
+zapytaj [Jak masz na imię?] i czekaj
 ```
 
 ![Testowanie poprawki kostiumu](images/chatbot-costume-fix-test.png)
