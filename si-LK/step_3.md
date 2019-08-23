@@ -18,7 +18,7 @@ say [What a lovely name!] for (2) seconds
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+ඔබේ කේතය(code එක) පරීක්ෂා(test) කිරීමට ඔබගේ චැට්බෝට්(chatbot එක) එක මත ක්ලික් කරන්න. චැට්බෝට්(chatbot) එක ඔබේ නම ඉල්ලූ විට, එය වේදිකාවේ පතුලේ ඇති කොටුවට ටයිප් කර නිල්(blue) සලකුණ(mark එක) මත ක්ලික් කරන්න, නැතහොත් <kbd>නිවේශන යතුර(Enter)</kbd> ඔබන්න.
 
 ![Testing a ChatBot response](images/chatbot-ask-test1.png)
 
@@ -28,7 +28,7 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+මේ මොහොතේ, ඔබේ චැට්බෝට් පිළිතුරු දෙන්නේ "මොනතරම් ලස්සන නමක්ද! (What a lovely name!)" ඔබ පිළිතුරු දෙන සෑම අවස්ථාවකම. ඔබට ලැබෙන චැට්බෝට්ගේ(chatbot ගේ) පිළිතුර වඩාත්(more) පුද්ගලික(personal) එකක් කළ හැකිය, එවිට වෙනස් නමක් ටයිප් කරන සෑම අවස්ථාවකම පිළිතුර වෙනස් වේ.
 
 Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
 
