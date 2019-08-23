@@ -1,7 +1,7 @@
-## Challenge: more questions
+## අභියෝගය: තවත් ප්‍රශ්න
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+වෙනත් ප්‍රශ්නයක් ඇසීමට ඔබේ චැට්බෝට්(chatbot) වැඩසටහන්ගත(program) කරන්න. ඔබට මෙම නව ප්‍රශ්නයට පිළිතුර නව(new) විචල්‍යයක(variable එකක) ගබඩා(store) කළ හැකිද?
 
-![More questions](images/chatbot-question1.png)
+![තවත් ප්‍රශ්න](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![තවත් ප්‍රශ්න](images/chatbot-question2.png)
