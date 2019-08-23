@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
+<p><em>Ten quiz może nie działać w przeglądarce Internet Explorer. Jeśli nie widzisz quizu, spróbuj użyć innej przeglądarki.</em></p>
 </script>
