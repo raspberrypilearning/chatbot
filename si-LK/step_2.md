@@ -25,8 +25,8 @@
 
 ආරම්භක(starter) ව්‍යාපෘතියේ(project එකේ) sprite චරිත(characters) හතරක් අඩංගු වේ. මෙයින් එකක් ඔබගේ චැට්බෝට්(chatbot) වනු ඇත.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+ඔබ දැනටමත් තෝරාගෙන ඇති sprite එක භාවිතා කළ හැකි අතර, නැතිනම් ඔබට අවශ්‍ය වෙනත් එකක් නම් එය මත දකුණු-ක්ලික්(right-clicking) කර **පෙන්වන්න(show)** හෝ ** සඟවන්න(hide)** මෙනුවෙන්(menu එකෙන්) දිස්වන වෙනත් එකක් තෝරන්න.
 
-![Choose a character](images/chatbot-characters.png)
+![චරිතයක් තෝරන්න](images/chatbot-characters.png)
 
 \--- /task \---
