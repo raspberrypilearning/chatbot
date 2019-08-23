@@ -74,4 +74,4 @@ Your code should work as before: your chatbot should say hi using the name you t
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Test your program again. ඔබ ටයිප් කරන පිළිතුර(answer එක) `නාමය(name)`{:class="block3variables"} නම් විචල්‍යය(variable එක) තුල ගබඩා කර ඇති බව ඔබට දැකගත හැකිවේවි, එය වේදිකාවේ(stage එකේ) ඉහළ වම් කෙළවරේ ද දැක්වේ. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
