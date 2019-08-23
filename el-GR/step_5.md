@@ -36,7 +36,7 @@ end
 
 Αλλάξτε τον κώδικα του chatbot σου έτσι ώστε να απαντά "Ωχ όχι!" εάν λάβει "όχι" ως απάντηση στην ερώτηση "Είστε OK όνομα".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Αντικατάστησε το block `εάν, τότε`{:class="block3control"} με το block `εάν, τότε, αλλιώς`{:class="block3control"} και ενσωμάτωσε κώδικα έτσι ώστε το chatbot να ` πει "Ωχ όχι!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
