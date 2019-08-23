@@ -6,7 +6,7 @@
 
 \--- task \---
 
-ඔබගේ චැට්බෝට්(chatbot) එකේ කේතය(code එක) වෙනස් කරන්න. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+ඔබගේ චැට්බෝට්(chatbot) එකේ කේතය(code එක) වෙනස් කරන්න. ඔබේ චැට්බෝට්(chatbot) එක විසින් `නාමය(name)`{:class="block3variables"} විචල්‍යය(variable එක) භාවිතා කරමින් <0>ඔබට කොහොමද නාමය("Are you OK name")</0> යන ප්‍රශ්නය ඇසිය යුතුය. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
 ![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
