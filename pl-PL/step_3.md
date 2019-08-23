@@ -6,7 +6,7 @@ Teraz, gdy masz już chatbota z osobowością, zaprogramujesz go tak, aby z tob�
 
 Kliknij na swoim duszku chatbota i dodaj do niego ten kod, aby `po kliknięciu`{:class="block3events"}, `zapytał o twoje imię`{:class="block3sensing"}, a następnie `powiedział "Co za piękne imię!"`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano duszek](images/nano-sprite.png)
 
 ```blocks3
 kiedy duszek zostanie kliknięty
@@ -32,12 +32,12 @@ W tej chwili twój chatbot odpowiada „Co za piękne imię!” za każdym razem
 
 Zmień kod duszka chatbota na `dołącz`{:class="block3operators"} "Witaj" z `odpowiedzią`{:class="block3sensing"} do pytania "Jak masz na imię?", aby kod wyglądał tak:
 
-![nano sprite](images/nano-sprite.png)
+![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek zostanie kliknięty
+kiedy duszek kliknięty
 zapytaj [Jak masz na imię?] i czekaj
-powiedz [(połącz [Witaj ] (odpowiedź) :: +) przez (2) sekundy
+powiedz [(połącz [Cześć ] (odpowiedź) :: +) przez (2) sekundy
 ```
 
 ![Testowanie spersonalizowanej odpowiedzi](images/chatbot-answer-test.png)
@@ -61,11 +61,11 @@ Teraz zmień kod duszka chatbota, aby ustawić zmienną `imię`{:class="block3va
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+kiedy duszek kliknięty
+zapytaj [Jak masz na imię?] i czekaj
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ ustaw [imię v] na (odpowiedź)
+powiedz (połącz [Cześć ] (imię :: zmienne +)) przez (2) sekundy
 ```
 
 Twój kod powinien działać, jak wcześniej: robot powinien powiedzieć "cześć" i użyć wprowadzonego imienia.
