@@ -6,7 +6,7 @@
 
 \--- task \---
 
-ඔබගේ චැට්බෝට්(chatbot) එකේ කේතය(code එක) වෙනස් කරන්න. ඔබේ චැට්බෝට්(chatbot) එක විසින් `නාමය(name)`{:class="block3variables"} විචල්‍යය(variable එක) භාවිතා කරමින් <0>ඔබට කොහොමද නාමය("Are you OK name")</0> යන ප්‍රශ්නය ඇසිය යුතුය. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+ඔබගේ චැට්බෝට්(chatbot) එකේ කේතය(code එක) වෙනස් කරන්න. ඔබේ චැට්බෝට්(chatbot) එක විසින් `නාමය(name)`{:class="block3variables"} විචල්‍යය(variable එක) භාවිතා කරමින් <0>ඔබට කොහොමද නාමය("Are you OK name")</0> යන ප්‍රශ්නය ඇසිය යුතුය. එයට ලැබෙන පිළිතුර "ඔව්"("yes") `නම්(if)`{:class="block3control"} එවිට එය පිළිතුරු දිය යුත්තේ "එය ඇසීමත් සතුටක්!"("That's great to hear!") ලෙසටයි, නමුත් පිළිතුර "නැත"("no") නම් කිසිවක් නොකියා සිටියයුතුයි.
 
 ![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
@@ -20,16 +20,16 @@ ask [What's your name?] and wait
 set [name v] to (answer)
 say (join [Hi ] (name)) for (2) seconds
 +ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
++if <(answer) = [yes]> then
   say [That's great to hear!] for (2) seconds
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+ඔබගේ නව කේතය නිසියාකාරව පරීක්ෂා(test) කිරීමට, ඔබ එය **දෙවරක්(twice)** පරීක්ෂා කළ යුතුය: වරක් "ඔව්"("yes") යන පිළිතුර යොදමින් හා, එක් වරක් "නැත"("No") යන පිළිතුර යොදමින් පරීක්ෂා කිරීම වඩා සුදුසු වේ.
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+මේ මොහොතේ, ඔබගේ චැට්බෝට්(chatbot එක) "නැත"("no") යන පිළිතුරට කිසිවක් නොකියයි.
 
 \--- task \---
 
