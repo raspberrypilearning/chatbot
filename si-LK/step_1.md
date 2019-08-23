@@ -6,13 +6,13 @@
 
 ## හැදින්වීම
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+ඔබට චැට්(chat) කළ හැකි චරිතයක්(character) වැඩසටහන්ගත(program) කරන්නේ කෙසේදැයි, ඔබ ඉගෙන ගනු ඇත! එවැනි චරිතයක්(character එකක්) චැට්(chat) රොබෝ(robot) හෝ චැට්බෝට්(chatbot) ලෙස හැඳින්වේ.
 
-### What you will make
+### ඔබ සාදන්නට යන දේ
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+කොල ධජය(green flag එක) මත ක්ලික් කරන්න, ඉන්පසු සංවාදයක්(conversation එකක්) ආරම්භ කිරීමට චැට්බෝට්(chatbot) චරිතය(character එක) මත ක්ලික් කරන්න. චැට්බෝට්(chatbot එක) ප්‍රශ්නයක් ඇසූ විට, ඔබේ පිළිතුර වේදිකාවේ(stage එකේ) පතුලේ ඇති කොටුව මත ටයිප් කර චැට්බෝට්ගේ(chatbot ගේ) පිළිතුර බැලීමට, දකුණු පස ඇති නිල්(blue) සලකුණ(mark) මත ක්ලික් කරන්න (නැතහොත් `නිවේශන යතුර(Enter)` ඔබන්න).
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -31,19 +31,19 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will need
+## title: ඔබට අවශ්‍ය දේ
 
-### Hardware
+### දෘඩාංග(Hardware)
 
-- Computer capable of running Scratch 3
+- Scratch 3 ධාවනය(run) කළ හැකි පරිගණකයක්
 
-### Software
+### මෘදුකාංග(Software)
 
-- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
+- Scratch 3 ([අන්තර්ජාල ගතව(online)](https://rpf.io/scratchon) හෝ [අන්තර්ජාලයට නොබැඳිව(offline)](https://rpf.io/scratchoff))
 
-### Downloads
+### බාගන්න(Downloads)
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [ මෙතැනින් බාගත කිරීම සඳහා ගොනු සොයන්න ](http://rpf.io/p/en/chatbot-go) .
 
 \--- /collapse \---
 
@@ -51,7 +51,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will learn
+## title: ඔබ ඉගෙන ගන්නා දේ
 
 - Use code to concatonate strings in Scratch
 - Know that variables can be used to store user input
