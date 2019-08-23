@@ -6,7 +6,7 @@
 
 Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![නැනෝ sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -20,9 +20,9 @@ say [What a lovely name!] for (2) seconds
 
 ඔබේ කේතය(code එක) පරීක්ෂා(test) කිරීමට ඔබගේ චැට්බෝට්(chatbot එක) එක මත ක්ලික් කරන්න. චැට්බෝට්(chatbot) එක ඔබේ නම ඉල්ලූ විට, එය වේදිකාවේ පතුලේ ඇති කොටුවට ටයිප් කර නිල්(blue) සලකුණ(mark එක) මත ක්ලික් කරන්න, නැතහොත් <kbd>නිවේශන යතුර(Enter)</kbd> ඔබන්න.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![චැට්බෝට්(chatbot ගේ) ප්‍රතිචාරයක් පරීක්ෂා(test) කිරීම](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![චැට්බෝට්(chatbot ගේ) ප්‍රතිචාරයක් පරීක්ෂා(test) කිරීම](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
@@ -32,7 +32,7 @@ say [What a lovely name!] for (2) seconds
 
 චැට්බෝට්(chatbot) sprite එකේ කේතය(code එක) "ඔබේ නම කුමක්ද? (What's your name?)" ප්‍රශ්නයට `පිළිතුර`{:class="block3sensing"} "හායි (Hi)" සමඟ `සම්බන්ධ(join)`{:class="block3operators"} වන ලෙස වෙනස් කරන්න, එවිට කේතය(code එක) මේ ආකාරවේ:
 
-![nano sprite](images/nano-sprite.png)
+![නැනෝ sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -40,7 +40,7 @@ ask [What's your name?] and wait
 say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![පුද්ගලීකරණය(personalised) කළ පිළිතුරක්(reply) පරීක්ෂා කිරීම](images/chatbot-answer-test.png)
 
 \--- /task \---
 
@@ -58,7 +58,7 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
-![nano sprite](images/nano-sprite.png)
+![නැනෝ sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -70,8 +70,8 @@ say (join [Hi ] (name :: variables +)) for (2) seconds
 
 Your code should work as before: your chatbot should say hi using the name you type in.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![පුද්ගලීකරණය(personalised) කළ පිළිතුරක්(reply) පරීක්ෂා(test) කිරීම](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. ඔබ ටයිප් කරන පිළිතුර(answer එක) `නාමය(name)`{:class="block3variables"} නම් විචල්‍යය(variable එක) තුල ගබඩා කර ඇති බව ඔබට දැකගත හැකිවේවි, එය වේදිකාවේ(stage එකේ) ඉහළ වම් කෙළවරේ ද දැක්වේ. To make it disappear from the Stage, go to the `Data`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Test your program again. ඔබ ටයිප් කරන පිළිතුර(answer එක) `නාමය(name)`{:class="block3variables"} නම් විචල්‍යය(variable එක) තුල ගබඩා කර ඇති බව ඔබට දැකගත හැකිවේවි, එය වේදිකාවේ(stage එකේ) ඉහළ වම් කෙළවරේ ද දැක්වේ. එය වේදිකාවෙන්(stage එකෙන්) අතුරුදහන් කරවීමට, `දත්ත(Data)`{:class="block3variables"} කට්ටියේ(blocks) කොටස(section එක) වෙත ගොස් `නමය(name)`{:class="block3variables"} යාබද(next to) කොටුව(box එක) මත ක්ලික් කරන්න, එවිට එය සලකුණු නොකෙරේ(not marked).
