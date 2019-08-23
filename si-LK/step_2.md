@@ -23,7 +23,7 @@
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+ආරම්භක(starter) ව්‍යාපෘතියේ(project එකේ) sprite චරිත(characters) හතරක් අඩංගු වේ. මෙයින් එකක් ඔබගේ චැට්බෝට්(chatbot) වනු ඇත.
 
 You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
 
