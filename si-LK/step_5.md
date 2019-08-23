@@ -33,7 +33,7 @@ end
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+"ඔබට කොහොමද නාමය" ("Are you OK name") යන ප්‍රශ්නයට "නැත"("no") යන්න පිළිතුර ලෙස ලැබෙන්නේ නම්, එවිට එය "Oh no!" ලෙස පිළිවදන් දෙන පරිදි ඔබගේ චැට්බෝට්(chatbot) එකේ කේතය(code එක) වෙනස් කරන්න.
 
 Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
 
