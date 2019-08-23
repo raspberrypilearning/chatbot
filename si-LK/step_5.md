@@ -1,6 +1,6 @@
-## Making decisions
+## තීරණ ගැනීම
 
-You can program your chatbot to decide what to do based on the answers it receives.
+ඔබට ලැබෙන පිළිතුරු මත පදනම්ව කුමක් කළ යුතුද යන්න තීරණය කිරීම සඳහා ඔබේ චැට්බෝට්(chatbot) වැඩසටහන්ගත(program) කළ හැකිය.
 
 First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
