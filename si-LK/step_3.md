@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+ඔබගේ චැට්බෝට්(chatbot) sprite එක මත ක්ලික් කර මෙම කේතය එයට එක් කරන්න. එවිට `එය ක්ලික් කළ විට`{: class = "block3events"}, එය `ඔබේ නම ඉල්ලාවි`{:class="block3sensing"} ඉන්පසු එය ` "මොනතරම් ලස්සන නමක්දැයි!"`{:class="block3looks"} පවසාවි.
 
 ![නැනෝ sprite](images/nano-sprite.png)
 
@@ -56,7 +56,7 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+දැන්, `නාමය(name)`{:class="block3variables"} විචල්‍යයේ නම `පිළිතුර(answer)`{:class="block3sensing"} ලෙස සැකසීමට, ඔබේ චැට්බෝට්(chatbot) sprite එකේ කේතය(code එක) වෙනස් කරන්න:
 
 ![නැනෝ sprite](images/nano-sprite.png)
 
@@ -68,10 +68,10 @@ ask [What's your name?] and wait
 say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+ඔබගේ කේතය(code එක) පෙර පරිදිම ක්‍රියාත්මක විය යුතුය: ඔබේ චැට්බෝට්(chatbot) එක ඔබ ටයිප් කරන නම භාවිතා කරමින් හායි!(Hi!) කිව යුතුය.
 
 ![පුද්ගලීකරණය(personalised) කළ පිළිතුරක්(reply) පරීක්ෂා(test) කිරීම](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. ඔබ ටයිප් කරන පිළිතුර(answer එක) `නාමය(name)`{:class="block3variables"} නම් විචල්‍යය(variable එක) තුල ගබඩා කර ඇති බව ඔබට දැකගත හැකිවේවි, එය වේදිකාවේ(stage එකේ) ඉහළ වම් කෙළවරේ ද දැක්වේ. එය වේදිකාවෙන්(stage එකෙන්) අතුරුදහන් කරවීමට, `දත්ත(Data)`{:class="block3variables"} කට්ටියේ(blocks) කොටස(section එක) වෙත ගොස් `නමය(name)`{:class="block3variables"} යාබද(next to) කොටුව(box එක) මත ක්ලික් කරන්න, එවිට එය සලකුණු නොකෙරේ(not marked).
+ඔබේ වැඩසටහන(program එක) නැවත පරීක්ෂා(test) කරන්න. ඔබ ටයිප් කරන පිළිතුර(answer එක) `නාමය(name)`{:class="block3variables"} නම් විචල්‍යය(variable එක) තුල ගබඩා කර ඇති බව ඔබට දැකගත හැකිවේවි, එය වේදිකාවේ(stage එකේ) ඉහළ වම් කෙළවරේ ද දැක්වේ. එය වේදිකාවෙන්(stage එකෙන්) අතුරුදහන් කරවීමට, `දත්ත(Data)`{:class="block3variables"} කට්ටියේ(blocks) කොටස(section එක) වෙත ගොස් `නමය(name)`{:class="block3variables"} යාබද(next to) කොටුව(box එක) මත ක්ලික් කරන්න, එවිට එය සලකුණු නොකෙරේ(not marked).
