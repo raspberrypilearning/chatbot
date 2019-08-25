@@ -1,17 +1,17 @@
 ## Ein sprechender Chatbot
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Jetzt, wo du einen Chatbot mit einer eigenen Persönlichkeit hast, lass' uns ihn so programmieren, dass er mit dir spricht.
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Klicke auf deinen Chatbot-Sprite und füge diesen Code hinzu, sodass, `wenn darauf geklickt wird ` {: class = "block3events"}, `er nach deinem Namen fragt ` {: class = "block3sensing"} und dann ` "Was für ein schöner Name!" ` {: class = "block3looks"} sagt.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+ask [Wie heißt du?] and wait
+say [Was für ein schöner Name!] for (2) seconds
 ```
 
 \--- /task \---
