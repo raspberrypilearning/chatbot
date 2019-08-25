@@ -6,7 +6,7 @@ Zuerst lässt du deinen Chatbot eine Frage stellen, die mit "Ja" oder "Nein" bea
 
 \--- task \---
 
-Ändere den Code deines Chatbots. Dein Chatbot sollte die Frage "Geht's dir gut, Name?, und dabei die `name ` {: class = "block3variables"}-Variable verwenden. Dann sollte er "Das freut mich!" antworten, `wenn`{:class="block3control"} die Antwort, die er bekommt "ja" ist, aber nichts sagen, wenn die Antwort "nein" ist.
+Ändere den Code deines Chatbots. Dein Chatbot sollte die Frage "Geht's dir gut, Name?, und dabei die `name ` {: class = "block3variables"}-Variable verwenden. Dann sollte er "Das freut mich zu hören!" antworten, `wenn`{:class="block3control"} die Antwort, die er bekommt "ja" ist, aber nichts sagen, wenn die Antwort "nein" ist.
 
 ![Eine ChatBot-Antwort ausprobieren](images/chatbot-if-test1-annotated.png)
 
@@ -18,7 +18,7 @@ Zuerst lässt du deinen Chatbot eine Frage stellen, die mit "Ja" oder "Nein" bea
 when this sprite clicked
 ask [Wie heißt du?] and wait
 set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
+say (join [Hallo ] (name)) for (2) seconds
 +ask (join [Geht's dir gut ] (name)) and wait
 +if <(answer) = [ja]> then 
   say [Das freut mich!] for (2) seconds
@@ -35,21 +35,21 @@ Im Moment sagt dein Chatbot nichts, wenn die Antwort "nein" ist.
 
 Ändere den Code deines Chatbots so, dass er "Oh nein!" antwortet, wenn er "nein" als Antwort auf "Gehts dir gut, name" erhält.
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Ersetze den `if, then`{:class="block3control"} Block mit einem `if, then, else` {:class="block3control"} Block, and verwende Code, damit der Chatbot sagen kann `"Oh nein!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
-ask [What's your name?] and wait
+ask [Wie heißt du?] and wait
 set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
+say (join [Hallo ] (name)) for (2) seconds
+ask (join [Geht's dir gut ] (name)) and wait
 
 + if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
+  say [Das freut mich zu hören!] for (2) seconds
 else 
-+  say [Oh no!] for (2) seconds
++  say [Oh nein!] for (2) seconds
 end
 ```
 
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Teste deinen Code nochmals. Du solltest eine andere Antwort erhalten, wenn du mit "Nein" und mit "ja" antwortest: Dein Chatbot sollte mit "Das freut mich zu hören!" antworten, wenn du mit "ja" antwortest (ohne Berücksichtigung der Groß- und Kleinschreibung) und mit "Oh nein!" wenn du **etwas anderes antwortest **.
 
 ![Eine ChatBot-Antwort ausprobieren](images/chatbot-if-test2.png)
 
