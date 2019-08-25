@@ -23,10 +23,10 @@ Wenn du dir den Scratch Offline-Editor herunterladen und installieren möchtest,
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Das Startprojekt beinhaltet vier Charakter-Sprites. Einer von ihnen wird dein Chatbot sein.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Du kannst entweder das bereits ausgewählte Sprite verwenden oder ein anderes auswählen, indem Sie mit der rechten Maustaste auf das gewünschte klickst und dann ** show** oder **hide** aus dem angezeigten Menü auswählst.
 
-![Choose a character](images/chatbot-characters.png)
+![Wähle einen Charakter](images/chatbot-characters.png)
 
 \--- /task \---
