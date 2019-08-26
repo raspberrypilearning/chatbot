@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-ඔබේ කේතය(code එක) පරීක්ෂා(test) කරන්න. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+ඔබේ කේතය(code එක) පරීක්ෂා(test) කරන්න. ඔබ "නැත(no)" යනුවෙන් පිළිතුරු දෙන විට සහ "ඔව්(yes)" යනුවෙන් පිළිතුරු දෙන විට ඔබට වෙනස් ප්‍රතිචාරයක් ලැබිය යුතුය: ඔබ "ඔව්(yes)" යනුවෙන් පිළිතුරු දෙන විට ඔබේ චැට්බෝට්(chatbot) පිළිතුරු දිය යුත්තේ "එය ඇසීමත් සතුටක්!"("That’s great to hear!") [එය විෂය සංවේදී(case sensitive) නොවේ], සහ **වෙනත් ඕනෑම පිළිතුරකට(anything else)** "අහො ඛේදයකි!"("Oh no!") ලෙස පිළිවදන් දියයුතුය. 
 
 ![Testing a chatbot reply](images/chatbot-if-test2.png)
 
