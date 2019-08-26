@@ -65,15 +65,15 @@ end
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+ඔබේ චැට්බෝට්(chatbot එක) කතා කරවන කේතය(code එක) පමණක් නොව!, ඔබට ඕනෑම කේතයක්(code එකක්) `එසේ නම් මෙසේ නැත්නම්(if, then, else)`{:class="block3control"} කට්ටිය(block එක) ඇතුළත යෙදිය හැකිය, 
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+ඔබ ඔබේ චැට්බෝට්(chatbot's) හි **ඇඳුම්(Costume)** පටිත්ත(tab එක) ක්ලික් කළහොත්, එහි එක් ඇඳුමකට(costume එකකට) වඩා ඇති බව ඔබට පෙනෙනු ඇත.
 
 ![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+ඔබේ පිළිතුර ටයිප් කරන විට චැට්බෝට්ගේ(chatbot's) ඇඳුම්(costume එක) මාරු වන පරිදි ඔබේ චැට්බෝට්ගේ(chatbot's ) කේතය වෙනස් කරන්න.
 
 ![Testing a changing costume](images/chatbot-costume-test1.png)
 
