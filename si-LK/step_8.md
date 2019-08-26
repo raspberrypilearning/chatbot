@@ -1,11 +1,11 @@
-## Challenge: finish your chatbot
+## අභියෝගය: ඔබේ චැට්බොට්(chatbot) සාදා අවසන් කරන්න
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+ඔබගේ අන්තර්ක්‍රියාකාරී(interactive) චැට්බොට් එක නිර්මාණය කිරීම අවසන් කිරීමට, ඔබ ඉගෙන ගත් දේ භාවිතා කරන්න. මෙන්න අදහස් කිහිපයක්:
 
-![ChatBot ideas](images/chatbot-ideas1.png)
+![චැට්බෝට්ට(ChatBot) අදහස්](images/chatbot-ideas1.png)
 
-![ChatBot ideas](images/chatbot-ideas2.png)
+![චැට්බෝට්ට(ChatBot) අදහස්](images/chatbot-ideas2.png)
 
-![ChatBot ideas](images/chatbot-ideas3.png)
+![චැට්බෝට්ට(ChatBot) අදහස්](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+ඔබ ඔබේ චැට්බෝට් එක සාදා අවසන් කළ පසු, ඔබේ මිතුරන්ට එය සමඟ සංවාදයක් ඇති කර ගන්න සළස්වන්න! ඔවුන් එම චරිතයට(character එකට) කැමතිද? ඔවුන්ට එහි කිසියම් ගැටලු(problems) හඳුනාගත(spot කළ) හැකිද?
