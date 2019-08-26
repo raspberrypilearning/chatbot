@@ -1,6 +1,6 @@
-## Changing location
+## ස්ථානය(location) වෙනස් කිරීම
 
-You can also program your chatbot to change its location!
+ඔබේ චැට්බෝට්හි(chatbot එකේ) පිහිටීම(location එක) වෙනස් කිරීම සඳහා ඔබට එය වැඩසටහන්ගත(program) කළ හැකිය!
 
 ![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
