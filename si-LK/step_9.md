@@ -394,5 +394,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
+<p><em>මෙම ප්‍රශ්නාවලිය ඉන්ටර්නෙට්(Internet) එක්ස්ප්ලෝරර්(Explorer) හි ක්‍රියා නොකරනු ඇත. ඔබට ප්‍රශ්නාවලිය දැකිය නොහැකි නම් කරුණාකර වෙනත් බ්‍රව්සරයක් භාවිතා කර උත්සාහ කරන්න.</em></p>
 </script>
