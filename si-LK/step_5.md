@@ -35,7 +35,7 @@ end
 
 "ඔබට කොහොමද නාමය" ("Are you OK name") යන ප්‍රශ්නයට "නැත"("no") යන්න පිළිතුර ලෙස ලැබෙන්නේ නම්, එවිට එය "අහො ඛේදයකි!"("Oh no!") ලෙස පිළිවදන් දෙන පරිදි ඔබගේ චැට්බෝට්(chatbot) එකේ කේතය(code එක) වෙනස් කරන්න.
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+`එසේ නම් මෙසේ(if, then)`{:class="block3control"} කේතය `එසේ නම් මෙසේ නැත්නම්(if, then, else)` {:class="block3control"} කේතය මගින් ප්‍රතිස්ථාපනය කර, චැට්බොට්(chatbot එක) `"අහො ඛේදයකි!"("Oh no!") ලෙස පිළිවදන් දෙන පරිදි`{:class="block3looks"} සකසන්න.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -46,10 +46,10 @@ set [name v] to (answer)
 say (join [Hi ] (name)) for (2) seconds
 ask (join [Are you OK ] (name)) and wait
 
-+ if <(answer) = [yes]> then 
++ if <(answer) = [yes]> then
   say [That's great to hear!] for (2) seconds
 else 
-+  say [Oh no!] for (2) seconds
++ say [Oh no!] for (2) seconds
 end
 ```
 
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+ඔබේ කේතය(code එක) පරීක්ෂා(test) කරන්න. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
 ![Testing a chatbot reply](images/chatbot-if-test2.png)
 
