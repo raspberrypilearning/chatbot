@@ -103,9 +103,9 @@ end
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+ඔබේ චැට්බෝට්ගේ(chatbot ගේ) ඇඳුම(costume එක) වෙනස් වූ පසු, එය එලෙසම පවතින අතර ආරම්භයේ තිබූ තත්වයට එය වෙනස් නොවන බව ඔබ දුටුවාද?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+ඔබට මෙය අත්හදා බැලිය හැකිය: ඔබේ කේතය(code එක) ධාවනය(run) කර "නැත(no)" යනුවෙන් පිළිතුරු දෙන්න එවිට ඔබගේ චැට්බෝට්ගේ(chatbot's) මුහුණ(face) අසතුටු(unhappy) පෙනුමකට වෙනස් වේ. ඉන්පසු ඔබේ කේතය(code එක) නැවත ධාවනය(run) කර ඔබගේ නම විමසීමට පෙර, ඔබේ චැට්බෝට්ගේ(chatbot's) මුහුණ සතුටු එකක් බවට නැවත පරිවර්තනය නොවන බව සැලකිල්ලට ගන්න.
 
 ![Costume bug](images/chatbot-costume-bug-test.png)
 
