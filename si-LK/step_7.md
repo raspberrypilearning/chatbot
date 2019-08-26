@@ -2,7 +2,7 @@
 
 ඔබේ චැට්බෝට්හි(chatbot එකේ) පිහිටීම(location එක) වෙනස් කිරීම සඳහා ඔබට එය වැඩසටහන්ගත(program) කළ හැකිය!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![වෙනස්වන පසුබිම(backdrop) පරීක්ෂා(test) කිරීම](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
@@ -20,7 +20,7 @@
 
 ඔබේ චැට්බෝට්(chatbot ගේ) කේතයට(code එකට) එකතු කිරීමට අවශ්‍ය කේත(code) කට්ටිය(block එක) මෙහි දැක්වේ.
 
-![nano sprite](images/nano-sprite.png)
+![නැනෝ sprite](images/nano-sprite.png)
 
 ```blocks3
 switch backdrop to (moon v)
@@ -55,7 +55,7 @@ end
 
 දැන් ඔබ කතාබස් කිරීමට එය මත ක්ලික් කළ විට ඔබේ චැට්බෝට් නිවැරදි ස්ථානයෙන් ආරම්භ වන බවට වග බලා ගත යුතුය. ඔබගේ චැට්බෝට්(chatbot ගේ) කේතයේ(code එකේ) ඉහළට මෙම කට්ටිය(block එක) එක් කරන්න:
 
-![nano sprite](images/nano-sprite.png)
+![නැනෝ sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -75,18 +75,18 @@ when this sprite clicked
 
 ඔබට නව `නම්(if)`{class="block3control"} කට්ටිය(block එක) ඇතුළත පහත කේතය(code එක) එකතු කළ හැකිය. එමගින් ඔබ "ඔව්(yes)" යනුවෙන් පිළිතුරු දෙන්නේ නම් චැට්බෝට්(chatbot එක) හතර වතාවක් ඉහළට හා පහළට පනීවි.
 
-![nano sprite](images/nano-sprite.png)
+![නැනෝ sprite](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
+if <(answer) = [yes]> then
   switch backdrop to (moon v)
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
++ repeat (4) 
+   change y by (10)
+   wait (0.1) secs
+   change y by (-10)
+   wait (0.1) secs
+  end 
 end
 ```
 
