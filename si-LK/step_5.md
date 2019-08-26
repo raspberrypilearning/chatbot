@@ -79,7 +79,7 @@ end
 
 ![Testing a changing costume](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+`එසේ නම් මෙසේ නැත්නම් (if, then, else)` {:class="block3control"} කට්ටිය(block එක) ඇතුළත ඇති කේතය `ඇඳුම් මාරු කරන්න(switch costume`{:class="block3looks"} ලෙසට වෙනස් කරන්න.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -89,17 +89,17 @@ ask [What's your name?] and wait
 set [name v] to (answer)
 say (join [Hi ] (name)) for (2) seconds
 ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+if <(answer) = [yes]> then
 
-+  switch costume to (nano-c v)
++ switch costume to (nano-c v)
   say [That's great to hear!] for (2) seconds
 else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
++ switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds 
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+ඔබේ කේතය(code එක) පරීක්ෂා(test) කර සුරකින්න(save කරන්න). ඔබ දෙන පිළිතුර අනුව ඔබේ චැට්බෝට්ගේ(chatbot's) මුහුණ(face එක) වෙනස් වීම ඔබට දැකගත හැකිවේ.
 
 \--- /task \---
 
