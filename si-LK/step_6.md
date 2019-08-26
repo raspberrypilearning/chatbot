@@ -1,5 +1,5 @@
 ## අභියෝගය: තවත් තීරණ(decisions)
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+"ඔව්(yes)" හෝ "නැත(no)" යනුවෙන් පිළිතුරු දිය හැකි තවත් ප්‍රශ්නයක් ඇසීමට ඔබේ චැට්බෝට්(chatbot එක) වැඩසටහන්ගත(program) කරන්න. ඔබගේ චැට්බෝට්(chatbot එක) වෙත ලැබෙන පිළිතුර අනුව වෙනස් ආකාරයකින් ප්‍රතිචාර දක්වන පරිදි එය සැකසීමට ඔබට හැකිද?
 
-![screenshot](images/chatbot-joke.png)
+![තිර රුව(screenshot)](images/chatbot-joke.png)
