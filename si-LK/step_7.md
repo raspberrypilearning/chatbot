@@ -6,19 +6,19 @@
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+"ඔබට සඳට යාමට අවශ්‍යද"("Do you want to go to the moon") යනුවෙන් විමසීමට ඔබේ චැට්බෝට්(chatbot එක) ක්‍රමලේඛනය(program) කළ හැකිද, ඉන්පසු පිළිතුර "ඔව්(yes)" වන විට පසුබිම(backdrop එක) වෙනස් කළ හැකිද?
 
 \--- hints \---
 
-\--- hint \---
+\--- hints \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+ඔබේ චැට්බෝට්(chatbot එක) `"ඔබට සඳට යාමට අවශ්‍යද?"("Do you want to go to moon?")`{:class="block3sensing"}, සහ `පිළිතුර(answer)`{:class="block3sensing"} "ඔව්(yes)"`නම්(if)`{:class="block3control"}, එහි `පසුබිම සඳට මාරු කළ යුතුය(switch the backdrop to moon)`{:class="block3looks"}.
 
 \--- /hint \---
 
-\--- hint \---
+\--- hints \---
 
-Here are the code blocks you need to add to your chatbot code.
+ඔබේ චැට්බෝට්(chatbot ගේ) කේතයට(code එකට) එකතු කිරීමට අවශ්‍ය කේත(code) කට්ටිය(block එක) මෙහි දැක්වේ.
 
 ![nano sprite](images/nano-sprite.png)
 
