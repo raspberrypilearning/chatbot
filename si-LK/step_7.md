@@ -34,26 +34,26 @@ end
 
 \--- /hint \---
 
-\--- hint \---
+\--- hints \---
 
-This is what your code should look like:
+ඔබගේ කේතය(code එක) මෙබඳු එකක් විය යුතුයි:
 
 ```blocks3
 ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+if <(answer) = [yes]> then
+  switch backdrop to (moon v) 
 end
 ```
 
 \--- /hint \---
 
-\--- /hints \---
+\--- /hint \---
 
 \--- /task \---
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+දැන් ඔබ කතාබස් කිරීමට එය මත ක්ලික් කළ විට ඔබේ චැට්බෝට් නිවැරදි ස්ථානයෙන් ආරම්භ වන බවට වග බලා ගත යුතුය. ඔබගේ චැට්බෝට්(chatbot ගේ) කේතයේ(code එකේ) ඉහළට මෙම කට්ටිය(block එක) එක් කරන්න:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -67,13 +67,13 @@ when this sprite clicked
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+ඔබේ වැඩසටහන(program එක) පරීක්ෂා(test) කර, ඔබට සඳට යාමට අවශ්‍ය දැයි චැට්බෝට්(chatbot එක) ඇසූ විට "ඔව්(yes)" යනුවෙන් පිළිතුරු දෙන්න. චැට්බෝට්හි පිහිටීම වෙනස් වන බව ඔබට දැකගත හැකිය.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+ඔබට නව `නම්(if)`{class="block3control"} කට්ටිය(block එක) ඇතුළත පහත කේතය(code එක) එකතු කළ හැකිය. එමගින් ඔබ "ඔව්(yes)" යනුවෙන් පිළිතුරු දෙන්නේ නම් චැට්බෝට්(chatbot එක) හතර වතාවක් ඉහළට හා පහළට පනීවි.
 
 ![nano sprite](images/nano-sprite.png)
 
