@@ -9,9 +9,9 @@ Kliknij na swoim duszku chatbota i dodaj do niego ten kod, aby `po kliknięciu`{
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek zostanie kliknięty
-zapytaj [Jak masz na imię?] i poczekaj
-powiedz [Co za piękne imię!] przez (2) sekundy
+kiedy ten duszek kliknięty
+zapytaj [Jak masz na imię?] i czekaj
+powiedz [Co za piękne imię!] przez (2) sekund
 ```
 
 \--- /task \---
@@ -30,14 +30,14 @@ Kliknij na swoim chatbocie, aby przetestować swój kod. Gdy chatbot zapyta o tw
 
 W tej chwili twój chatbot odpowiada „Co za piękne imię!” za każdym razem, gdy odpowiadasz na jego pytanie. Możesz uczynić odpowiedź chatbota bardziej osobistą, aby odpowiedź była inna za każdym razem, gdy wpisywana jest inne imię.
 
-Zmień kod duszka chatbota na `dołącz`{:class="block3operators"} "Witaj" z `odpowiedzią`{:class="block3sensing"} do pytania "Jak masz na imię?", aby kod wyglądał tak:
+Zmień kod duszka chatbota na `połącz`{:class="block3operators"} "Witaj" z `odpowiedzią`{:class="block3sensing"} do pytania "Jak masz na imię?", aby kod wyglądał tak:
 
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek kliknięty
+kiedy ten duszek kliknięty
 zapytaj [Jak masz na imię?] i czekaj
-powiedz [(połącz [Cześć ] (odpowiedź) :: +) przez (2) sekundy
+powiedz [(połącz [Cześć ] (odpowiedź) :: +) przez (2) sekund
 ```
 
 ![Testowanie spersonalizowanej odpowiedzi](images/chatbot-answer-test.png)
@@ -61,11 +61,11 @@ Teraz zmień kod duszka chatbota, aby ustawić zmienną `imię`{:class="block3va
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek kliknięty
+kiedy ten duszek kliknięty
 zapytaj [Jak masz na imię?] i czekaj
 
 + ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] (imię :: zmienne +)) przez (2) sekundy
+powiedz (połącz [Cześć ] (imię :: zmienne +)) przez (2) sekund
 ```
 
 Twój kod powinien działać, jak wcześniej: robot powinien powiedzieć "cześć" i użyć wprowadzonego imienia.
