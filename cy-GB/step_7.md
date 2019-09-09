@@ -60,7 +60,6 @@ Mae angen i ti sicrhau fod dy sgwrsfot yn cychwyn yn y lleoliad cywir pan wyt ti
 
 ```blocks3
 pan gaiff y ciplun yma ei glicio
-
 + newid cefndir i (space v)
 ```
 
