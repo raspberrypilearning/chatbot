@@ -12,13 +12,13 @@ Czy potrafisz zakodować swojego robota tak, by zapytał "Chcesz polecieć na ks
 
 \--- hint \---
 
-Twój robot powinien `zapytać: „Chcesz polecieć na księżyc?”`{:class="block3sensing"} i `jeśli`{:class="block3control"} `Twoja odpowiedź`{:class="block3sensing"} brzmi „tak”, to powinien `przełączyć tło na księżyc`{:class="block3looks"}.
+Twój robot powinien `zapytać: „Chcesz polecieć na księżyc?”`{:class="block3sensing"} i `jeżeli`{:class="block3control"} `odpowiedź`{:class="block3sensing"} brzmi „tak”, to powinien `przełączyć tło na księżyc`{:class="block3looks"}.
 
 \--- /wskazówka \---
 
 \--- hint \---
 
-Oto bloczki kodu, które musisz dodać do kodu swojego robota.
+Oto bloki kodu, które musisz dodać do kodu swojego robota.
 
 ![nano duszek](images/nano-sprite.png)
 
@@ -27,7 +27,7 @@ przełącz tło na (księżyc v)
 
 zapytaj [Czy chcesz polecieć na księżyc?] i czekaj
 
-jeśli <(odpowiedź) = [yes]> to 
+jeżeli <(odpowiedź) = [yes]> to 
 
 koniec
 ```
@@ -40,7 +40,7 @@ Tak powinien wyglądać Twój kod:
 
 ```blocks3
 zapytaj [Czy chcesz polecieć na księżyc?] i czekaj
-jeśli <(odpowiedź) = [yes]> to 
+jeżeli <(odpowiedź) = [yes]> to 
   przełącz tło na (księżyc v)
 koniec
 ```
@@ -58,7 +58,7 @@ Teraz musisz się upewnić, że robot gaduła znajduje się w odpowiednim miejsc
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek kliknięty
+kiedy ten duszek kliknięty
 
 + przełącz tło na (kosmos v)
 ```
@@ -73,19 +73,19 @@ Przetestuj swój program i odpowiedz „tak”, gdy robot zapyta, czy chcesz uda
 
 \--- task \---
 
-Możesz również dodać następujący kod do nowego bloczku `jeśli`{:class="block3control"}, żeby robot gaduła podskoczył cztery razy, jeśli odpowiesz „tak”:
+Możesz również dodać następujący kod do nowego bloku `jeżeli`{:class="block3control"}, żeby robot gaduła podskoczył cztery razy, jeśli odpowiesz „tak”:
 
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-jeśli <(odpowiedź) = [yes]> to 
+jeżeli <(odpowiedź) = [yes]> to 
   przełącz tło na (księżyc v)
 
-+ powtórz (4) 
++ powtarzaj (4) 
     zmień y o (10)
-    czekaj (0,1) sek
+    czekaj (0.1) sekund
     zmień y o (-10)
-    czekaj (0,1) sek
+    czekaj (0.1) sekund
   koniec
 koniec
 ```
