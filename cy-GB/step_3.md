@@ -63,7 +63,6 @@ Nawr, newida côd dy sgwrsfot i osod y newidyn `enw`{:class="block3variables}} i
 ```blocks3
 pan gaiff y ciplun yma ei glicio
 gofyn [Beth yw dy enw?] ac aros
-
 + gosod [enw v] i (ateb)
 dweud (uno [Helo ] (enw :: + variables)) am (2) eiliad
 ```
