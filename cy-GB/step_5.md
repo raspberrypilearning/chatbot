@@ -93,7 +93,7 @@ os <(ateb) = [yes]> yna
  dweud [Mae'n dda i glywed!] am (2) eiliad
 fel arall
 +  newid gwisg i (nano-c v)
- dweud [O na!] for (2) seconds
+ dweud [O na!] am (2) eiliad
 end
 ```
 
