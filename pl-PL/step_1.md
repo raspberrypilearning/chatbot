@@ -41,9 +41,9 @@ Kliknij zieloną flagę, a następnie kliknij znak chatbota, aby rozpocząć roz
 
 - Scratch 3 ([online](https://rpf.io/scratchon) lub [offline](https://rpf.io/scratchoff))
 
-### Pobrane
+### Pliki do pobrania
 
-- [Znajdź tutaj pliki do pobrania](http://rpf.io/p/en/chatbot-go) .
+- [Tutaj znajdziesz pliki do pobrania](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -55,17 +55,17 @@ Kliknij zieloną flagę, a następnie kliknij znak chatbota, aby rozpocząć roz
 
 - Używania kodu do łączenia ciągów w programie Scratch
 - Wiedzy, że zmienne mogą być używane do przechowywania danych wprowadzanych przez użytkownika
-- Używania wyboru warunkowego, aby odpowiedzieć na dane wprowadzone przez użytkownika w programie Scratch \--- / collapse \---
+- Używania wyboru warunkowego, aby odpowiedzieć na dane wprowadzone przez użytkownika w programie Scratch \--- /collapse \---
 
 \--- collapse \---
 
 * * *
 
-## title: Dodatkowe informacje dla edukatorów
+## title: Dodatkowe informacje dla nauczycieli
 
 \--- no-print \---
 
-Jeśli chcesz wydrukować ten projekt, użyj [wersji do druku](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Jeśli chcesz wydrukować ten projekt, użyj [wersji gotowej do druku](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
