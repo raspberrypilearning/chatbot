@@ -1,6 +1,6 @@
 ## Beth nesaf?
 
-Rho gynnig ar y prosiect [Bocs peintio](https://projects.raspberrypi.org/cy-GB/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), lle fyddi di'n creu dy raglen peintio dy hunan!
+Rho gynnig ar y prosiect [Bocs paentio](https://projects.raspberrypi.org/cy-GB/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), lle fyddi di'n creu dy raglen peintio dy hunan!
 
 --- no-print --- Clicia'r faner werdd i gychwyn. Defnyddia'r llygoden i symud y pensil, ac dal y botwm chwith ar y llygoden i dynnu llun. Clicia lliw i newid pensiliau. Clicia'r dileuwr i newid iddo, a'i ddefnyddio i ddileu dy waith. I glirio'r dudalen, clicia'r groes.
 
