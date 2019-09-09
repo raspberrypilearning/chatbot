@@ -15,13 +15,13 @@ Zmień kod swojego robota. Twój robot gaduła powinien zadać pytanie „Czy ws
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek kliknięty
+kiedy ten duszek kliknięty
 zapytaj [Jak masz na imię?] i czekaj
 ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] (imię)) przez (2) sekundy
+powiedz (połącz [Cześć ] (imię)) przez (2) sekund
 +zapytaj (połącz [Czy wszystko OK ] (imię)) i czekaj
-+jeśli <(odpowiedź) = [yes]> to 
-  powiedz [To super!] przez (2) sekundy
++jeżeli <(odpowiedź) = [tak]> to 
+  powiedz [To super!] przez (2) sekund
 koniec
 ```
 
@@ -35,21 +35,21 @@ W tej chwili twój robot gaduła nic nie mówi na odpowiedź „nie”.
 
 Zmień kod robota, aby odpowiadał „O nie!” jeśli otrzyma „nie” jako odpowiedź na „Czy wszystko w porządku imię”.
 
-Zastąp bloczek `jeśli, to`{:class="block3control"} na bloczek `jeśli, to, w przeciwnym razie`{:class="block3control"} i dołącz kod, aby robot gaduła mógł powiedzieć `"O nie!"`{:class="block3looks"}.
+Zastąp blok `jeżeli...to`{:class="block3control"} na blok `jeżeli...to, w przeciwnym razie`{:class="block3control"} i dołącz kod, aby robot gaduła mógł powiedzieć `"O nie!"`{:class="block3looks"}.
 
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek kliknięty
+kiedy ten duszek kliknięty
 zapytaj [Jak masz na imię?] i czekaj
 ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] (imię)) przez (2) sekundy
+powiedz (połącz [Cześć ] (imię)) przez (2) sekund
 zapytaj (połącz [Czy wszystko OK ] (imię)) i czekaj
 
-+ jeśli <(odpowiedź) = [yes]> to 
-  powiedz [To super!] przez (2) sekundy
++ jeżeli <(odpowiedź) = [tak]> to 
+  powiedz [To super!] przez (2) sekund
 w przeciwnym razie
-+ powiedz [O nie!] przez (2) sekundy
++ powiedz [O nie!] przez (2) sekund
 koniec
 ```
 
@@ -65,7 +65,7 @@ Przetestuj swój kod. Powinnaś otrzymać inną odpowiedź, gdy odpowiesz „nie
 
 \--- /task \---
 
-Możesz wstawić dowolny kod do bloczku `jeśli, to, w przeciwnym razie`{:class="block3control"}, a nie tylko kod, aby twój robot mówił!
+Możesz wstawić dowolny kod do bloku `jeżeli...to, w przeciwnym razie`{:class="block3control"}, a nie tylko kod, aby twój robot mówił!
 
 Jeśli klikniesz zakładkę **Kostium** swojego robota gaduły, zobaczysz że jest więcej niż jeden kostium.
 
@@ -79,23 +79,23 @@ Zmień kod robota gaduły taj, aby robot zmieniał kostiumy kiedy wpiszesz odpow
 
 ![Testowanie zmieniającego się kostiumu](images/chatbot-costume-test2.png)
 
-Zmień kod wewnątrz bloczku `jeśli, to, w przeciwnym razie`{:class="block3control"} na `zmień kostium`{:class="block3looks"}.
+Zmień kod wewnątrz bloku `jeżeli...to, w przeciwnym razie`{:class="block3control"} na `zmień kostium`{:class="block3looks"}.
 
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek kliknięty
+kiedy ten duszek kliknięty
 zapytaj [Jak masz na imię?] i czekaj
 ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] (imię)) przez (2) sekundy
+powiedz (połącz [Cześć ] (imię)) przez (2) sekund
 zapytaj (połącz [Czy wszystko OK ] (imię)) i czekaj
-jeśli <(odpowiedź) = [yes]> to 
+jeżeli <(odpowiedź) = [tak]> to 
 
 + przełącz kostium na (nano-c v)
-  powiedz [To super!] przez (2) sekundy
+  powiedz [To super!] przez (2) sekund
 w przeciwnym razie
 + przełącz kostium na (nano-d v)
-powiedz [O nie!] przez (2) sekundy
+powiedz [O nie!] przez (2) sekund
 koniec
 ```
 
@@ -111,12 +111,12 @@ Możesz spróbować sama: uruchom swój kod i odpowiedz „nie”, aby twarz rob
 
 \--- task \---
 
-Aby rozwiązać ten problem, dodaj kod robota do `zmień kostium`{:class="block3looks"} na początku `kiedy duszek jest kliknięty`{:class="block3events"}.
+Aby rozwiązać ten problem, dodaj kod robota do bloku `zmień kostium`{:class="block3looks"} na początku bloku `kiedy ten duszek kliknięty`{:class="block3events"}.
 
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek kliknięty
+kiedy ten duszek kliknięty
 
 + przełącz kostium na (nano-a v)
 zapytaj [Jak masz na imię?] i czekaj
