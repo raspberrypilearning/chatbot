@@ -1,127 +1,129 @@
-## Odločanje
+## Sprejemanje odločitev
 
-S programom za klepet lahko programirate, da se odločite, kaj storiti na podlagi odgovorov, ki jih prejme.
+Svojega klepetalnega robota lahko sprogramiraš, da se bo znal odločiti, kaj naj stori, glede na odgovore, ki jih dobi.
 
-Prvič, naredili boste, da bo vaš chatbot postavil vprašanje, na katerega je mogoče odgovoriti z "da" ali "ne".
+Najprej boš naredil, da bo tvoj robot vprašal vprašanje, na katerega se da odgovoriti z "da" in "ne".
 
-\--- naloga \---
+\--- task \---
 
-Spremenite kodo klepeta. Vaš chatbot naj postavi vprašanje "Ali ste v redu ime" z uporabo spremenljivke `name`{: class = "block3variables"}. Potem mora odgovoriti: "To je čudovito slišati!" `če`{: class = "block3control"} odgovor, ki ga prejme, je "da", vendar ne reci ničesar, če je odgovor "ne".
+Spremeni kodo klepeta. Vaš klepetalni robot naj postavi vprašanje "Ali ste v redu, ime", tako da uporabi spremenljivko `ime`{: class = "block3variables"}. Na to naj odgovori "To je dobro slišati!", `če`{: class = "block3control"} je odgovor "da", če pa je odgovor "ne", naj ne reče ničesar.
 
-![Testiranje chatbota odgovora](images/chatbot-if-test1-annotated.png)
+![Testiranje odziva klepetalnega robota](images/chatbot-if-test1-annotated.png)
 
-![Testiranje chatbota odgovora](images/chatbot-if-test2.png)
+![Testiranje odziva klepetalnega robota](images/chatbot-if-test2.png)
 
-![nano sprite](images/nano-sprite.png)
+![nano figura](images/nano-sprite.png)
 
 ```blocks3
-ko je ta geslo kliknilo
-vprašaj [kako ti je ime?] in počakaj
-postavi [ime v] na (odgovor)
-reci (pridruži se [Hi] (ime)) za (2) sekunde
-+ vprašaj (pridruži se [Ali si v redu] (ime)) in počakajte
-+, če <(odgovor) = [yes]> nato 
-  recite [to je super slišati!] za (2) sekunde
+ko kliknemo to figuro
+vprašaj [Kako ti je ime?] in počakaj
+
++ nastavi [ime v] na (odgovor)
+reci (združi [Živijo, ] (ime :: spremenljivke +)) za (2) sekund
++ vprašaj (združi [Ali si v redu, ] (ime)) in počakaj
++ če <(odgovor) = [da]> potem 
+  reci [To je dobro slišati!] za (2) sekund
 konec
 ```
 
 Za pravilno preizkusiti novo kodo, jo preizkusite **dvakrat**: enkrat z odgovorom "da", in enkrat z odgovorom "ne".
 
-\--- / naloga \---
+\--- /task \---
 
-Trenutno vaš chatbot ne pove ničesar o odgovoru "ne".
+Trenutno tvoj roboto ničesar ne reče ob odgovoru "ne".
 
-\--- naloga \---
+\--- task \---
 
-Spremenite kodo klepetalnice, tako da bo odgovoril "Oh ne!" če prejme "ne" kot odgovor na "Ali ste v redu ime".
+Spremeni kodo, tako da bo klepetalni robot odgovoril "Oh, ne!" če prejme "ne" kot odgovor na vprašanje "Ali si v redu, ime?".
 
-Zamenjajte blok `if, nato`{: class = "block3control"} z blokado `if, then else`{: class = "block3control"} in vključite kodo, tako da bo chatbot lahko `rekel "Oh ne!"`{: class = "block3looks"}.
+Zamenjaj blok `če, potem`{: class = "block3control"} z blokom `če, potem sicer`{: class = "block3control"} in vključi kodo, da bo robot lahko `rekel "Oh, ne!"`{: class = "block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano figura](images/nano-sprite.png)
 
 ```blocks3
-ko je ta geslo kliknilo
-vprašaj [kako ti je ime?] in počakaj
-nastavljen [ime v] na (odgovor)
-reci (pridruži se [Hi] (ime)) za (2) sekunde
-vprašaj (pridruži se [Ali si v redu] ( ime)) in počakajte
+ko kliknemo to figuro
+vprašaj [Kako ti je ime?] in počakaj
+nastavi [ime v] na (odgovor)
+reci (združi [Živjo, ] (ime :: spremenljivke +)) za (2) sekund
+vprašaj (združi [Ali si v redu, ] (ime)) in počakaj
 
-+, če <(odgovor) = [yes]> nato 
-  recite [to je super slišati!] za (2) sekunde
-drugo 
-+ recite [Oh ne!] za (2) sekunde
++ če <(odgovor) = [da]> potem 
+  reci [To je dobro slišati!] za (2) sekund
+sicer
++ reci [Oh, ne!] za (2) sekunde
 konec
 ```
 
-\--- / naloga \---
+\--- /task \---
 
-\--- naloga \---
+\--- task \---
 
-Preverite svojo kodo. Ko odgovorite "ne" in ko odgovorite z "da", morate dobiti drugačen odziv: vaš klepet mora odgovoriti s "To je čudovito slišati!" ko odgovorite z "da" (ki ni občutljiv na velike in male črke), in odgovorite z "Oh ne!" ko boste odgovorili **karkoli drugega**.
+Preveri svojo kodo. Glede na to ali je odgovor "da" ali "ne", bi se moral odziv klepetalnega robota razlikovati: Ob odgovoru "da" (odgovor ne razlikuje malih in velikih črk) mora odgovoriti "To je dobro slišati!", **sicer** pa odgovori "Oh, ne!".
 
-![Testiranje chatbota odgovora](images/chatbot-if-test2.png)
+![Testiranje odziva klepetalnega robota](images/chatbot-if-test2.png)
 
 ![Testiranje odgovora da / ne](images/chatbot-if-else-test.png)
 
-\--- / naloga \---
+\--- /task \---
 
-Vnesete lahko katerokoli kodo znotraj bloka `, potem, drugje`{: class = "block3control"}, ne le kode, da bi vaš chatbot govoril!
+Znotraj bloka `če, potem, sicer`{: class = "block3control"} lahko imaš poljubno kodo, ne le kode, ki omogoča, da tvoj robot govori!
 
-Če kliknete kartico **kostumi** vašem klepetalnici, boste videli, da obstaja več kostumov.
+Če klikneš na zavihek **Videzi** za vašega klepetalnega robota, boš videl, da ima figura več videzov.
 
-![kostumi za klepet](images/chatbot-costume-view-annotated.png)
+![videzi klepetalnega robota](images/chatbot-costume-view-annotated.png)
 
-\--- naloga \---
+\--- task \---
 
-Spremenite kodo klepetalnice, tako da bo klepet klepetalnice klical, ko vnesete odgovor.
+Spremeni kodo klepetalnega robota, tako da bo robot menjal videz, ko vneseš odgovor.
 
-![Testiranje spreminjajočega kostuma](images/chatbot-costume-test1.png)
+![Testiranje spreminjajočega se videza](images/chatbot-costume-test1.png)
 
-![Testiranje spreminjajočega kostuma](images/chatbot-costume-test2.png)
+![Testiranje spreminjajočega se videza](images/chatbot-costume-test2.png)
 
-Spremenite kodo znotraj `če, potem, drugje`{: class = "block3control"} bloka na `stikalo kostum`{: class = "block3looks"}.
+Spremeni kodo znotraj bloka `če, potem, sicer`{: class = "block3control"} v `zamenjaj videz`{: class = "block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-ko je ta geslo kliknilo
-vprašaj [kako ti je ime?] in počakaj
-nastavljen [ime v] na (odgovor)
-reci (pridruži se [Hi] (ime)) za (2) sekunde
-vprašaj (pridruži se [Ali si v redu] ( ime)) in počakajte
-če <(odgovor) = [yes]> nato 
-
-+ preklopite kostum na (nano-c v)
-  recite [to je super slišati!] za (2) sekunde
-drugo 
-+ preklopite kostum na (nano- d v)
-  izgovorite [Oh no!] za (2) sekunde
-koncu
-```
-
-Preverite in shranite kodo. Videti morate, da se bo obraz vašega klepeta spremenil glede na vaš odgovor.
-
-\--- / naloga \---
-
-Ali ste opazili, da se po tem, ko se je kostum vaše klepetalnice spremenil, to zgodi in se ne spremeni nazaj na to, kar je bilo na začetku?
-
-Lahko poskusite to: zaženite kodo in odgovorite "ne", da se bo obraz vašega klepeta spremenil v nesrečen pogled. Nato znova zaženite kodo in opazite, da se vaš chatbot ne spremeni nazaj v iskalno zadovoljstvo, preden vpraša vaše ime.
-
-![Žuželka za kostum](images/chatbot-costume-bug-test.png)
-
-\--- naloga \---
-
-Da bi rešili ta problem, dodati kode chatbot za `stikalo kostum`{: class = "block3looks"} na začetku `, ko je Sprite kliknili`{: class = "block3events"}.
-
-![nano sprite](images/nano-sprite.png)
+![nano figura](images/nano-sprite.png)
 
 ```blocks3
-ko je ta sprite kliknil
+ko kliknemo to figuro
+vprašaj [Kako ti je ime?] in počakaj
 
-+ preklopi kostum na (nano-a v)
-vprašaj [kako ti je ime?] in počakaj
+nastavi [ime v] na (odgovor)
+reci (združi [Živijo, ] (ime :: spremenljivke +)) za (2) sekund
+vprašaj (združi [Ali si v redu, ] (ime)) in počakaj
+če <(odgovor) = [da]> potem 
+
++ zamenjaj videz na (nano-c v)  
+reci [To je dobro slišati!] za (2) sekund
+sicer
++ zamenjaj videz na (nano- d v)
+  reci [Oh, ne!] za (2) sekund
+konec
 ```
 
-![Testiranje popravila kostuma](images/chatbot-costume-fix-test.png)
+Preveri in shrani svojo kodo. Obraz tvojega klepetalnega robota bi se sedaj moral spreminjati glede na odgovor.
 
-\--- / naloga \---
+\--- /task \---
+
+Ali si opazil, da se videz tvojega klepetalnega robota po zamenjavi videza ne spremeni nazaj v začetni videz, temveč ostane spremenjen?
+
+Lahko poskusiš to: zaženi kodo in odgovori z "ne", da se bo obraz tvojega robota spremenil v nesrečen pogled. Nato znova zaženi kodo in opazil boš, da se tvoj klepetalni robot ne spremeni nazaj an srečen obraz, preden te vpraša za ime.
+
+![Videz hrošča](images/chatbot-costume-bug-test.png)
+
+\--- task \---
+
+Da bi odpravil to težavo, dodaj kodi klepetalnega robota `zamenjaj videz`{: class = "block3looks"} takoj za začetnim blokom `ko kliknemo to figuro`{: class = "block3events"}.
+
+![nano figura](images/nano-sprite.png)
+
+```blocks3
+ko kliknemo to figuro
+
++ zamenjaj videz na (nano-a v)
+vprašaj [Kako ti je ime?] in počakaj
+```
+
+![Testiranje popravljenega videza](images/chatbot-costume-fix-test.png)
+
+\--- /task \---
