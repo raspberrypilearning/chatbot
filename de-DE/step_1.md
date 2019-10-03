@@ -53,7 +53,7 @@ Klicke auf die Grüne Flagge und danach auf das Chatbot-Männchen, um eine Unter
 
 ## title: Was du lernen wirst
 
-- Verwende Code, um strings (Zeichenfolgen) in Scratch zu verketten
+- Use code to concatenate strings in Scratch
 - Lerne, dass Variablen zum Speichern von Benutzereingaben verwendet werden können
 - Verwende bedingte Auswahl, um auf Benutzereingaben in Scratch zu reagieren
 
