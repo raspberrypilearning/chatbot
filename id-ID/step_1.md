@@ -53,7 +53,7 @@ Klik pada bendera hijau, dan kemudian klik pada karakter chatbot untuk memulai p
 
 ## judul: Apa yang akan Anda pelajari
 
-- Use code to concatonate strings in Scratch
+- Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
