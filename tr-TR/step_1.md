@@ -53,7 +53,7 @@ Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine 
 
 ## title: Ne öğreneceksiniz
 
-- Scratch'ta dizeleri eşleştirmek için kod kullanın
+- Use code to concatenate strings in Scratch
 - Kullanıcı girişini saklamak için değişkenlerin kullanılabileceğini bilin
 - Scratch'taki kullanıcı girişine cevap vermek için koşullu seçimi kullanın
 
