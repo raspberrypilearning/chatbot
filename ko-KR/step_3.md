@@ -1,48 +1,76 @@
-## 당신의 챗봇
+## 말하는 챗봇
+
+챗봇의 성격을 정했으니, 챗봇과 대화할 수 있게 프로그램해 봅시다.
 
 --- task ---
 
-챗봇을 만들기 전에 챗봇의 성격을 결정해야 합니다.**다음 질문에 대해서 생각해 보십시오.**:
+챗봇 스프라이트를 클릭을 하고, 다음 코드를 넣어보세요. `챗봇 스프라이트를 클릭했을 때`{:class="block3events"} `이름을 묻고`{:class="block3sensing"} `"정말 예쁜 이름이구나!" 를 말하게 하세요.`{:class="block3looks"}.
 
-    + 그들의 이름은 무엇인가요?
-    + 그들은 어디에 살고있나요?
-    + 그들은 행복한가요? 진지한가요? 개구쟁이인가요? 부끄러움이 많나요? 친절한가요?
-    
+![나노 스프라이트](images/nano-sprite.png)
+
+```blocks3
+이 스프라이트를 클릭했을 때
+[너 이름이 뭐니?] 라고 묻고 기다리기
+[정말 예쁜 이름이구나!] 을\(를\) (2) 초 동안 말하기
+```
 
 --- /task ---
 
 --- task ---
 
-새 스크래치 프로젝트를 엽니다.
+코드를 테스트하려면 챗봇을 클릭하십시오. 대화방에서 이름을 묻는 메시지가 표시되면 스테이지 하단에있는 상자에 입력 한 다음 파란색 아이콘을 클릭하거나 <kbd>Enter</kbd>를 클릭합니다.
 
-[[[generic-scratch-new-project]]]
+![ChatBot 응답 테스트](images/chatbot-ask-test1.png)
 
---- /task ---
-
---- task ---
-
-이 캐릭터 중에 하나를 선택하여 프로젝트에 추가하십시오.
-
-![캐릭터선택](images/chatbot-characters.png)
-
-[[[generic-scratch-sprite-from-library]]]
+![ChatBot 응답 테스트](images/chatbot-ask-test2.png)
 
 --- /task ---
 
 --- task ---
 
-챗봇의 성격과 잘 어울리는 배경을 선택하십시오. 아래와 똑같을 필요는 없지만, 예제로 하나를 선택했습니다.
+지금, 여러분의 챗봇은 "정말 예쁜 이름이구나!" 라고만 대답합니다. 챗봇의 답변을 개인화하여 다른 이름을 입력하면 답변이 달라지도록 설계할 수 있나요?
 
-![배경 선택](images/chatbot-backdrop.png)
+챗봇의 스프라이트 코드에 `결합하기`{:class="block3operators"}를 사용하여, 안녕이라는 인사말과 함께`답변`{:class="block3sensing"} 에 상대방의 이름을 물어보도록 해 보세요. 아래와 같이 프로그래밍할 수 있습니다:
 
-[[[generic-scratch-backdrop-from-library]]]
+![나노 스프라이트](images/nano-sprite.png)
+
+```blocks3
+이 스프라이트를 클릭했을 때
+[너 이름이 뭐니?] 라고 묻고 기다리기
+([안녕 ] 와\(과\) (대답) 결합하기 :: +) 을\(를\) (2) 초 동안 말하기
+```
+
+![개별화된 답변 테스트](images/chatbot-answer-test.png)
 
 --- /task ---
 
 --- task ---
 
-프로젝트를 저장하십시오.
+**변수**에 응답을 저장함으로써 프로젝트에서 사용할 수 있습니다.
 
-[[[generic-scratch-saving]]]
+`name`{:class="block3variables"}이라는 이름의 새 변수를 추가 해 보세요.
+
+[[[generic-scratch3-add-variable]]]
 
 --- /task ---
+
+--- task ---
+
+이제, 챗봇의 스프라이트 코드를 변경하여 `name`{:class="block3variables"} 변수를 `answer`{:class="block3sensing"}에 저장할 수 있도록 하세요:
+
+![나노 스프라이트](images/nano-sprite.png)
+
+```blocks3
+이 스프라이트를 클릭했을 때
+[너 이름이 뭐니?] 라고 묻고 기다리기
++ [name v] 을\(를\) (대답) 로 정하기
+([안녕 ] 와\(과\) (name :: + variables) 결합하기) 을\(를\) (2) 초 동안 말하기
+```
+
+코드는 이전과 같이 작동해야 합니다: 챗봇은 여러분이 알려준 이름을 사용해서 인사해야 합니다.
+
+![개별화된 답변 테스트](images/chatbot-answer-test.png)
+
+--- /task ---
+
+프로젝트를 다시 테스트해 보세요. 입력 한 응답은 `name`{:class="block3variables"} 변수에 저장되며 스테이지의 왼쪽 상단 모서리에도 표시됩니다. 스테이지에서 사라지게하려면 `데이터`{:class="block3variables"} 블록 섹션으로 이동하고 `name`{:class="block3variables"}옆의 상자를 클릭하세요.

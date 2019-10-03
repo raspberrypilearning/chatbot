@@ -2,26 +2,22 @@
 title: 챗봇
 hero_image: images/chatbot.png
 description: 자신만의 말하는 로봇을 프로그래밍 하는 방법에 대해 배워보세요!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: ''
-technology: 스크래치
-site_areas: projects
-technologies: 스크래치
-hardware: ''
-software: 스크래치
+copyedit: false
 version: 4.1.0
-last_tested: 2017-01-01
+last_tested: 2018-09-20
 steps:
   - title: 들어가며
-  - title: 준비물
   - title: 당신의 챗봇
   - title: 말하는 챗봇
+  - title: "도전과제: 더 많은 질문들"
+    challenge: true
   - title: 결정하기
-  - title: 위치 변경
-  - title: '도전 과제: 챗봇을 완성하세요.'
+  - title: "도전과제: 더 많은 결정들"
+    challenge: true
+  - title: 장소 바꾸기
+  - title: "도전 과제: 챗봇 완성하기"
+    challenge: true
+  - title: 도전해 보기
+  - title: 더 나아가기
