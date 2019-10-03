@@ -53,7 +53,7 @@ Klikni na zelenu zastavicu, a zatim klikni na lika robota da započneš razgovor
 
 ## title: Naučit ćeš
 
-- Koristiti kôd za povezivanje niza podataka u Scratchu
+- Use code to concatenate strings in Scratch
 - Razumijeti da se varijable mogu koristiti za spremanje korisničkih unosa
 - Koristiti uvjetni odabir za odgovaranje na korisnikov unos u Scratchu \--- /collapse \---
 
