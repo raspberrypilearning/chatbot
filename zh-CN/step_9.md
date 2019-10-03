@@ -1,4 +1,4 @@
-## Test yourself
+## 自我测验
 
 <head>
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
   <meta name="viewport" content="initial-scale=1.0" />
   
   <title>
-    Quiz
+    小测试
   </title>
   
   <!-- jquery for maximum compatibility -->
@@ -22,27 +22,27 @@
 <pre><code>var quiztitle// = "Bobby's Sample Quiz";
 
 /**
-* Set the information about your questions here. The correct answer string needs to match
-* the correct choice exactly, as it does string matching. (case sensitive)
+* 在这里设置你的问题. 正确答案需要匹配
+* 准确的选项. （区分大小写）
 *
-*/
+* /
 </code></pre>
 
 <p>/**
-*Let's create the randomization of the questions!
-*/</p>
+*让我们随机创建问题吧!
+* /</p>
 
 <p>function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// While there remain elements to shuffle...
+<p>//尽管有一些元素要调整...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Pick a remaining element...
+<pre><code>// 选择剩余的元素...
 randomIndex = Math.floor(Math.random() * currentIndex);
 currentIndex -= 1;
 
-// And swap it with the current element.
+// 用当前元素交换.
 temporaryValue = array[currentIndex];
 array[currentIndex] = array[randomIndex];
 array[randomIndex] = temporaryValue;
@@ -104,13 +104,13 @@ array[randomIndex] = temporaryValue;
                                 "D"
                             ],
         "correct"       :   "A",
-        "explanation"   :   "The if condition should check if left has been typed and then move in the negative x. Otherwise the sprite should always move in the positive x",
-    },
+        "explanation"   :   "The if condition should check if left has been typed and then move in the negative x. 否则精灵应该总是在正x“，
+    }，
 
-];
+]中移动;
 </code></pre>
 
-<p>//use this for IE syntax error at => : ECMA script 6 not supported in IE 11 :(
+<p>//用于IE语法错误 => : ECMA script 6 not supported in IE 11 :(
 //quiz.forEach(function(q){ return q.choices.scramble()});</p>
 
 <p>//use this for ECMA script 6
@@ -119,7 +119,7 @@ array[randomIndex] = temporaryValue;
 
 <p>quiz = shuffle(quiz);</p>
 
-<pre><code>/******* No need to edit below this line *********/
+<pre><code>/*******下面内容不需要编辑 *********/
 var currentquestion = 0, score = 0, submt=true, picked;
 
 jQuery(document).ready(function($){
@@ -133,7 +133,7 @@ jQuery(document).ready(function($){
     }
 
     /**
-     * This will add the individual choices for each question to the ul#choice-block
+     *给每个问题添加独立的选项到 ul#choice-block
      *
      * @param {choices} array The choices from each question
      */
@@ -187,45 +187,6 @@ jQuery(document).ready(function($){
         });
 
     }
-
-    /**
-     * After a selection is submitted, checks if its the right answer
-     *
-     * @param {choice} number The li zero-based index of the choice picked
-     */
-    function processQuestion(choice){
-        if(quiz[currentquestion]['choices'][choice] == quiz[currentquestion]['correct']){
-            $('.choice').eq(choice).addClass('btn-success').css({'font-weight':'bold', 'border-color':'#51a351', 'color':'#fff'});
-            $('#explanation').html('&lt;span class="correct"&gt;CORRECT!&lt;/span&gt; ' + htmlEncode(quiz[currentquestion]['explanation']));
-            score++;
-        } else {
-            $('.choice').eq(choice).addClass('btn-danger').css({'font-weight':'bold', 'border-color':'#f93939', 'color':'#fff'});
-            $('#explanation').html('&lt;span class="incorrect"&gt;INCORRECT!&lt;/span&gt; ' + htmlEncode(quiz[currentquestion]['explanation']));
-        }
-        currentquestion++;
-
-        if(currentquestion == quiz.length){
-            $('#submitbutton').html('GET QUIZ RESULTS').removeClass('btn-success').addClass('btn-info').css({'border-color':'#3a87ad', 'color':'#fff'}).on('click', function(){
-                $(this).text('GET QUIZ RESULTS').on('click');
-                endQuiz();
-            })
-
-        } else if (currentquestion &lt; quiz.length){
-            $('#submitbutton').html('NEXT QUESTION &amp;raquo;').removeClass('btn-success').addClass('btn-warning').css({'font-weight':'bold', 'border-color':'#faa732', 'color':'#fff'}).on('click', function(){
-                $(this).text('- CHECK ANSWER -').removeClass('btn-warning').addClass('btn-success').css({'font-weight':'bold', 'border-color':'#51a351', 'color':'#fff'}).on('click');
-                nextQuestion();
-            })
-        } else {
-            //  $('#submitbutton').html('NEXT QUESTION &amp;raquo;').on('click', function(){
-            //      $(this).text('- CHECK ANSWER -').css({'color':'inherit'}).on('click');
-            //  })
-        }
-
-
-    }
-
-    /**
-     * Sets up the event listeners for each button.
      */
     function setupButtons(){
         $('.choice').on('click', function(){
@@ -244,7 +205,6 @@ jQuery(document).ready(function($){
     }
 
     /**
-     * Quiz ends, display a message.
      */
     function endQuiz(){
         $('#explanation').empty();
@@ -257,7 +217,7 @@ jQuery(document).ready(function($){
     }
 
     /**
-     * Runs the first time and creates all of the elements for the quiz
+     * 第一次运行,创建所有问答元素
      */
     function init(){
         //add title
@@ -267,7 +227,7 @@ jQuery(document).ready(function($){
             //$(document.createElement('h2')).text("Quiz").appendTo('#frame');
 </code></pre>
 
-<p>//          }</p>
+<p>//}</p>
 
 <pre><code>        //add pager and questions
         if(typeof quiz !== "undefined" &amp;&amp; $.type(quiz) === "array"){
@@ -346,7 +306,7 @@ jQuery(document).ready(function($){
 <p>/*      .rsform-block-placecontent                              { display:none; } */
         #submit                                                 { margin:0 auto; display:block; }</p>
 
-<pre><code>    /* QUIZ STYLES */
+<pre><code>    /*问题样式 */
     ol                          { list-style:none; }
     ul#choice-block  {columns: 4; -webkit-columns: 4; -moz-columns: 4;}
     strong                                                  { font-weight:700; }
@@ -394,5 +354,5 @@ jQuery(document).ready(function($){
 </body>
 </html></p>
 
-<p><em>This quiz may not work in Internet Explorer. If you can't see the quiz then please try using another browser.</em></p>
+<p><em>此测验可能无法在Internet Explorer中使用。 如果您无法看到测验，请尝试使用其他浏览器。</em></p>
 </script>
