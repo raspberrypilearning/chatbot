@@ -53,7 +53,7 @@ Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar un
 
 ## títol: Què aprendràs
 
-- Use code to concatonate strings in Scratch
+- Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
