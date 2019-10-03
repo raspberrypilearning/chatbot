@@ -1,7 +1,7 @@
 ---
-title: Chatbot
+title: Klepetalni robot
 hero_image: slike / chatbot.png
-description: Preberite, kako programirati svoj lasten govorni robot!
+description: Nauči se programirati svoj lastni govoreči robot!
 theme: vijolična
 listed: true
 copyedit: false
@@ -11,23 +11,23 @@ steps:
   - 
     title: Uvod
   - 
-    title: Vaš klepet
+    title: Tvoj klepetalni robot
   - 
-    title: Pogovorni klepet
+    title: Govoreči klepetalni robot
   - 
     title: "Izziv: več vprašanj"
     challenge: true
   - 
-    title: Odločanje
+    title: Sprejemanje odločitev
   - 
     title: "Izziv: več odločitev"
     challenge: true
   - 
     title: Spreminjanje lokacije
   - 
-    title: "Izziv: dokončajte svoj chatbot"
+    title: "Izziv: dokončaj svoj klepetalni robot"
     challenge: true
   - 
-    title: Test yourself
+    title: Preizkusi se
   - 
-    title: What next?
+    title: Kaj sledi?
