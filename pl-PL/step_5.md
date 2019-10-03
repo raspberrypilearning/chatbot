@@ -89,10 +89,10 @@ ustaw [imię v] na (odpowiedź)
 powiedz (połącz [Cześć ] i (imię)) przez (2) sekund
 zapytaj (połącz [Czy wszystko OK ] i (imię)) i czekaj
 jeżeli <(odpowiedź) = [tak]> to 
-  + zmień kostium na (nano-c v)
++  zmień kostium na (nano-c v)
   powiedz [To świetnie!] przez (2) sekund
 w przeciwnym razie 
-  + zmień kostium na (nano-d v)
++  zmień kostium na (nano-d v)
   powiedz [O nie!] przez (2) sekund
 end
 ```
