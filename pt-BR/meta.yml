@@ -11,16 +11,16 @@ steps:
   - 
     title: Introdução
   - 
-    title: Seu ChatBot
+    title: Seu chatbot
   - 
-    title: Um ChatBot falante
+    title: Um chatbot falante
   - 
-    title: "Desafio: Mais perguntas"
+    title: "Desafio: mais perguntas"
     challenge: true
   - 
     title: Tomando decisões
   - 
-    title: "Desafio: Mais decisões"
+    title: "Desafio: mais decisões"
     challenge: true
   - 
     title: Mudando de lugar
