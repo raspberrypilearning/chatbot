@@ -53,7 +53,7 @@
 
 ## title: 您會學到什麼
 
-- 運用程式碼在 Scratch 中連接字串
+- Use code to concatenate strings in Scratch
 - 了解變數可以用來儲存使用者輸入
 - 在 Scratch 中使用條件選擇式來回應用戶的輸入
 
