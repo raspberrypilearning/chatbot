@@ -53,7 +53,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## title: Що ви вивчите
 
-- Use code to concatonate strings in Scratch
+- Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
