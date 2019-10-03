@@ -1,93 +1,93 @@
 ## Spreminjanje lokacije
 
-Lahko tudi programirate svoj chatbot, da spremenite njegovo lokacijo!
+Klepetalni robot lahko programiraš tudi tako, da bo spremenil lokacijo!
 
 ![Testiranje spreminjanja ozadja](images/chatbot-backdrop-moon.png)
 
-\--- naloga \---
+\--- task \---
 
-Ali lahko programirate svoj chatbot in vprašate "Ali želite iti na luno" in nato spremeniti ozadje, ko je odgovor "da"?
+Ali lahko sprogramiraš svojega klepetalnega robota, da vpraša "Ali želite iti na luno" in se nato zamenja ozadje, če je odgovor "da"?
 
-\--- namigi \---
+\--- hints \---
 
-\--- namig \---
+\--- hint \---
 
-Vaš chatbot mora `vprašati "Ali želite iti na luno?"`{: class = "block3sensing"}, in `če`{: class = "block3control"} vas `odgovor`{: class = "block3sensing"} "da", mora `preklopiti ozadje na luno`{: class = "block3looks"}.
+Tvoj klepetalni robot mora `vprašati "Ali želiš iti na luno?"`{: class = "block3sensing"}, in `če`{: class = "block3control"} je tvoj `odgovor`{: class = "block3sensing"} "da", mora `zamenjati ozadje na luno`{: class = "block3looks"}.
 
-\--- /namig \---
+\--- /hint \---
 
-\--- namig \---
+\--- hint \---
 
-Tukaj so kodni bloki, ki jih morate dodati vaši chatbot kodi.
+Tukaj so kodni bloki, ki jih moraš dodati kodi klepetalnega robota.
 
-![nano sprite](images/nano-sprite.png)
+![nano figura](images/nano-sprite.png)
 
 ```blocks3
-preklopi ozadje na (mesec v)
+zamenjaj ozadje na (mesec v)
 
 vprašaj [Ali želiš iti na luno?] in počakaj
 
-če <(odgovor) = [yes]> nato 
+če <(odgovor) = [da]> potem
 
 konec
 ```
 
-\--- /namig \---
+\--- /hint \---
 
-\--- namig \---
+\--- hint \---
 
-Takšna mora biti vaša koda:
+Tvoja koda mora izgledati tako:
 
 ```blocks3
 vprašaj [Ali hočeš iti na luno?] in počakaj
-če <(odgovor) = [yes]> nato 
-  stikalo ozadja na (luna v)
+če <(odgovor) = [da]> potem
+  zamenjaj ozadje na (moon v)
 konec
 ```
 
-\--- /namig \---
+\--- /hint \---
 
-\--- / namigi \---
+\--- /hints \---
 
-\--- / naloga \---
+\--- /task \---
 
-\--- naloga \---
+\--- task \---
 
-Zdaj morate poskrbeti, da se bo vaš chatbot začel na pravi lokaciji, ko boste kliknili nanj in se pogovorili z njim. Dodajte ta blok na vrh kode za klepet:
+Zdaj moraš poskrbeti, da se bo tvoj klepetalni robot na začetku, ko boš kliknil nanj in govoril z njim, pojavil na pravi lokaciji. Dodaj ta blok na vrh kode robota:
 
-![nano sprite](images/nano-sprite.png)
+![nano figura](images/nano-sprite.png)
 
 ```blocks3
-ko je ta geslo kliknilo
+ko kliknemo to figuro
 
-+ preklopi ozadje na (presledek v)
++ zamenjaj ozadje na (vesolje v)
 ```
 
-\--- / naloga \---
+\--- /task \---
 
-\--- naloga \---
+\--- task \---
 
-Preizkusite program in odgovorite "da", ko chatbot vpraša, ali želite iti na luno. Videti morate, da se lokacija klepetalnice spremeni.
+Preizkusi program in odgovori "da", ko te robot vpraša, če želiš iti na luno. Videti bi moral, da se lokacija klepeta spremeni.
 
-\--- / naloga \---
+\--- /task \---
 
-\--- naloga \---
+\--- task \---
 
-Naslednjo kodo lahko dodate tudi v novi blok `če`:
+Naslednjo kodo lahko dodaš tudi v novi blok `če`:
 
-![nano sprite](images/nano-sprite.png)
+![nano figura](images/nano-sprite.png)
 
 ```blocks3
-če <(odgovor) = [yes]> nato 
-  stikalo ozadje na (luna v)
+če <(odgovor) = [da]> then 
+  zamenjaj ozadje na (moon v)
 
-+ ponavljanje (4) 
-    spremeni y z (10)
-    čakaj (0.1) sek
-    spremeni y ((-10)
-    čakaj (0.1) sekund
++ ponovi (4) krat 
+    spremeni y za (10)
+    počakaj (0.1) sekund
+    spremeni y za (-10)
+    počakaj (0.1) sekund
   konec
 konec
 ```
 
-\--- / naloga \---
+\--- /task \---
