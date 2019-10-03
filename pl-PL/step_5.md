@@ -15,14 +15,14 @@ Zmień kod swojego robota. Twój robot gaduła powinien zadać pytanie „Czy ws
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek został kliknięty
-zapytaj [Jak masz na imię?] i poczekaj
+kiedy ten duszek kliknięty
+zapytaj [Jak masz na imię?] i czekaj
 ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] (imię)) przez (2) sekundy
-+zapytaj (połącz [Czy wszystko OK ] (imię)) i poczekaj
+powiedz (połącz [Cześć ] i (imię)) przez (2) sekund
++zapytaj (połącz [Czy wszystko OK ] i (imię)) i czekaj
 +jeżeli <(odpowiedź) = [tak]> to 
-  powiedz [To świetnie!] przez (2) sekundy
-koniec
+  powiedz [To świetnie!] przez (2) sekund
+end
 ```
 
 Aby dokładnie przetestować swój program, musisz sprawdzić go **dwa razy** - raz wpisując odpowiedź "tak "i drugi raz wpisując "nie".
@@ -40,17 +40,16 @@ Zastąp blok `jeżeli...to`{:class="block3control"} na blok `jeżeli...to, w prz
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek został kliknięty
-zapytaj [Jak masz na imię?] i poczekaj
+kiedy ten duszek kliknięty
+zapytaj [Jak masz na imię?] i czekaj
 ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] (imię)) przez (2) sekundy
-zapytaj (połącz [Czy wszystko OK ] (imię)) i poczekaj
-
+powiedz (połącz [Cześć ] i (imię)) przez (2) sekund
+zapytaj (połącz [Czy wszystko OK ] i (imię)) i czekaj
 + jeżeli <(odpowiedź) = [tak]> to 
-  powiedz [To świetnie!] przez (2) sekundy
-w przeciwnym razie
-+ powiedz [O nie!] przez (2) sekundy
-koniec
+  powiedz [To świetnie!] przez (2) sekund
+w przeciwnym razie 
++ powiedz [O nie!] przez (2) sekund
+end
 ```
 
 --- /task ---
@@ -84,19 +83,18 @@ Zmień kod wewnątrz bloku `jeżeli...to, w przeciwnym razie`{:class="block3cont
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek został kliknięty
-zapytaj [Jak masz na imię?] i poczekaj
+kiedy ten duszek kliknięty
+zapytaj [Jak masz na imię?] i czekaj
 ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] (imię)) przez (2) sekundy
-zapytaj (połącz [Czy wszystko OK ] (imię)) i poczekaj
+powiedz (połącz [Cześć ] i (imię)) przez (2) sekund
+zapytaj (połącz [Czy wszystko OK ] i (imię)) i czekaj
 jeżeli <(odpowiedź) = [tak]> to 
-
-+ przełącz kostium na (nano-c v)
-  powiedz [To świetnie!] przez (2) sekundy
-w przeciwnym razie
-+ przełącz kostium na (nano-d v)
-powiedz [O nie!] przez (2) sekundy
-koniec
+  + zmień kostium na (nano-c v)
+  powiedz [To świetnie!] przez (2) sekund
+w przeciwnym razie 
+  + zmień kostium na (nano-d v)
+  powiedz [O nie!] przez (2) sekund
+end
 ```
 
 Przetestuj i zapisz swój kod. Zauważ zmianę na twarzy robota w zależności od Twojej odpowiedzi.
@@ -116,10 +114,9 @@ Aby rozwiązać ten problem, dodaj kod robota do bloku `zmień kostium`{:class="
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek został kliknięty
-
-+ przełącz kostium na (nano-a v)
-zapytaj [Jak masz na imię?] i poczekaj
+kiedy ten duszek kliknięty
++ zmień kostium na (nano-a v)
+zapytaj [Jak masz na imię?] i czekaj
 ```
 
 ![Testowanie poprawki kostiumu](images/chatbot-costume-fix-test.png)

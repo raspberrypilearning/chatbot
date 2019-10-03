@@ -23,7 +23,7 @@ Oto bloki kodu, które musisz dodać do kodu swojego robota.
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-przełącz tło na (księżyc v)
+zmień tło na (księżyc v)
 
 zapytaj [Czy chcesz polecieć na księżyc?] i czekaj
 
@@ -41,7 +41,7 @@ Tak powinien wyglądać Twój kod:
 ```blocks3
 zapytaj [Czy chcesz polecieć na księżyc?] i czekaj
 jeżeli <(odpowiedź) = [yes]> to 
-  przełącz tło na (księżyc v)
+  zmień tło na (księżyc v)
 koniec
 ```
 
@@ -59,8 +59,7 @@ Teraz musisz się upewnić, że robot gaduła znajduje się w odpowiednim miejsc
 
 ```blocks3
 kiedy ten duszek kliknięty
-
-+ przełącz tło na (kosmos v)
++ zmień tło na (kosmos v)
 ```
 
 --- /task ---
@@ -79,8 +78,7 @@ Możesz również dodać następujący kod do nowego bloku `jeżeli`{:class="blo
 
 ```blocks3
 jeżeli <(odpowiedź) = [yes]> to 
-  przełącz tło na (księżyc v)
-
+  zmień tło na (księżyc v)
 + powtarzaj (4) 
     zmień y o (10)
     czekaj (0.1) sekund
