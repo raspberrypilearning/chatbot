@@ -53,7 +53,7 @@ Klik op die groen vlag en klik dan op die chatbot-karakter om 'n gesprek te begi
 
 ## titel: Wat jy sal leer
 
-- Gebruik kode om aan te pas stringe in Scratch
+- Use code to concatenate strings in Scratch
 - Weet dat veranderlikes gebruik kan word om gebruikersinvoer op te slaan
 - Gebruik voorwaardelike keuring om te reageer op gebruikerinvoer in Scratch \--- / ineenstorting \---
 
