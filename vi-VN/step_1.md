@@ -53,7 +53,7 @@ Bấm vào cờ xanh, rồi bấm vào ký tự chatbot để bắt đầu một
 
 ## tiêu đề: bạn sẽ học được gì
 
-- Use code to concatonate strings in Scratch
+- Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
