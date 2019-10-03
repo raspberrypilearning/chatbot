@@ -53,7 +53,7 @@ Klepněte na zelenou vlajku a potom klepněte na znak chatbot pro zahájení kon
 
 ## title: Co se naučíš
 
-- Použijte kód k concatonate řetězce v Scratch
+- Use code to concatenate strings in Scratch
 - Vědět, že proměnné mohou být použity pro ukládání uživatelského vstupu
 - Použijte podmíněný výběr, abyste reagovali na vstup uživatele v programu Scratch \--- / collapse \---
 
