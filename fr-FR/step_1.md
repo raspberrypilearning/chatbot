@@ -53,7 +53,7 @@ Clique sur le drapeau vert, puis sur le personnage du chatbot pour lancer une co
 
 ## title: Ce que tu vas apprendre
 
-- Utiliser le code pour concaténer des chaînes de caractères dans Scratch
+- Use code to concatenate strings in Scratch
 - Savoir que les variables peuvent être utilisées pour stocker les entrées de l'utilisateur
 - Utiliser la sélection conditionnelle pour répondre à l'utilisateur dans Scratch. \--- /collapse \---
 
