@@ -53,7 +53,7 @@
 
 ## title: 배우게 될 것
 
-- 코드를 사용하여 스크래치에서 문자열 연결하기
+- Use code to concatenate strings in Scratch
 - 변수가 사용자 입력을 저장하는 데 사용될 수 있음을 이해하기
 - 조건부 선택을 사용하여 Scratch 에서 사용자 입력에 응답 \--- / collapse \---
 
