@@ -2,12 +2,12 @@
 
 \--- task \---
 
-Zanim zaczniesz tworzyć swojego chatbota musisz zdecydować o jego osobowości. **Zastanów się nad następującymi pytaniami**:
+Zanim zaczniesz tworzyć swojego czatbota, musisz zdecydować o jego osobowości. **Zastanów się nad następującymi pytaniami**:
 
-+ Jak nazywa się chatbot?
++ Jak nazywa się czatbot?
 + Gdzie mieszka?
 + Czy jest szczęśliwy? Poważny? Zabawny? Nieśmiały? Przyjazny?
-+ Co lubi, a czego nie lubi?
++ Co lubi, a czego nie?
 
 \--- /task \---
 
@@ -23,9 +23,9 @@ Jeśli potrzebujesz pobrać i zainstalować program Scratch Desktop, znajdziesz 
 
 \--- task \---
 
-Projekt startowy zawiera cztery duszki postaci. Jednym z nich będzie twój chatbot.
+Projekt startowy zawiera cztery duszki. Jednym z nich będzie Twój czatbot.
 
-Możesz użyć duszka, który jest już wybrany, lub wybrać innego, klikając prawym przyciskiem myszy na danym duszku, a następnie wybierając opcję **pokaż** lub **ukryj** z menu, które się pojawi.
+Możesz użyć duszka, który jest już wybrany albo wybrać innego, klikając prawym przyciskiem myszy na danym duszku, a następnie wybierając opcję **pokaż** lub **ukryj** z menu, które się pojawi.
 
 ![Wybierz postać](images/chatbot-characters.png)
 
