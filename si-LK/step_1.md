@@ -53,7 +53,7 @@
 
 ## title: ඔබ ඉගෙන ගන්නා දේ
 
-- Scratch වල අනුලක්ෂණ(character) තන්තු(strings) සංයුක්ත(concatonate) කිරීමට කේත(code) භාවිතා කිරීම
+- Use code to concatenate strings in Scratch
 - පරිශීලක(user) ආදානය(input) ගබඩා(store) කිරීම සඳහා විචල්යයන්(variables) භාවිතා කළ හැකි බව දැන ගැනීම
 - Scratch හි පරිශීලක(user) ආදානයට(input එකකට) ප්‍රතිචාර දැක්වීමට කොන්දේසි(conditional) සහිත තේරීම්(selection) භාවිතා කිරීම. \--- /collapse \---
 
