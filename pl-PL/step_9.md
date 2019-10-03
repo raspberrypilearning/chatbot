@@ -8,7 +8,7 @@
   <meta name="viewport" content="initial-scale=1.0" />
   
   <title>
-    Quiz
+    Zgadywanka
   </title>
   
   <!-- jquery for maximum compatibility -->
@@ -19,30 +19,30 @@
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
  <script></p>
 
-<pre><code>var quiztitle// = "Bobby's Sample Quiz";
+<pre><code>var nazwalamiglowki // = "Przykładowa łamigłowka";
 
-/**
-* Set the information about your questions here. The correct answer string needs to match
-* the correct choice exactly, as it does string matching. (case sensitive)
+/ **
+* Tutaj wpisz informacje o swoich pytaniach. Prawidłowy ciąg odpowiedzi musi dokładnie odpowiadać
+* prawidłowemu wyborowi, ponieważ sprawdza, czy ciągi pasują do siebie. (wielkość liter ma znaczenie)
 *
 */
 </code></pre>
 
 <p>/**
-*Let's create the randomization of the questions!
-*/</p>
+*Utwórzmy losowe pytania!
+* /</p>
 
 <p>function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;</p>
 
-<p>// While there remain elements to shuffle...
+<p>// Podczas gdy zostają elementy do przetasowania...
   while (0 !== currentIndex) {</p>
 
-<pre><code>// Pick a remaining element...
-randomIndex = Math.floor(Math.random() * currentIndex);
+<pre><code>// Wybierz pozostały element...
+randomIndex = Math.floor (Math.random () * currentIndex);
 currentIndex -= 1;
 
-// And swap it with the current element.
+// I zamień go z bieżącym elementem.
 temporaryValue = array[currentIndex];
 array[currentIndex] = array[randomIndex];
 array[randomIndex] = temporaryValue;
@@ -71,76 +71,76 @@ array[randomIndex] = temporaryValue;
 
 <pre><code>var quiz = [
     {
-        "question"      :   "Which script would cause the sprite to say 'Hello Izzy'?",
-        "image"         :   "images/montage-1.png",
-        "choices"       :   [
-                                "A",
-                                "B",
-                                "C",
-                                "D"
+        "pytanie": "Który skrypt sprawiłby, że duszek powiedziałby 'Hello Izzy'?",
+        „zdjęcie”: „images / montage-1.png”,
+        „do wyboru”: [
+                                ” A ”,
+                                „ B ”,
+                                „ C ”,
+                                „ D ”
                             ],
-        "correct"       :   "C",
-        "explanation"   :   "You need to join the 'Hello ' string to the `name` variable",
+        „poprawne ”:„ C ”,
+        „objaśnienie ”:„ Musisz dołączyć ciąg 'Hello' do zmiennej 'name' ",
     },
     {
-        "question"      :   "Which script would ask the user for their first name and last name and then output their full name?",
-        "image"         :   "images/montage-2.png",
-        "choices"       :   [
-                                "A",
-                                "B",
-                                "C",
-                                "D"
+        " pytanie ":" Który skrypt zapyta użytkownika o imię i nazwisko, a następnie wyświetli pełne imię i nazwisko? ",
+        " image ":" images / montage-2.png ",
+        „wybór”: [
+                                „A”,
+                                „B”,
+                                „C”,
+                                „D”
                             ],
-        "correct"       :   "D",
-        "explanation"   :   "The question must be asked first, and then the answer stored as a variable."
+        „poprawnych”: „D”,
+        „objaśnienie”: „Najpierw należy zadać pytanie, a następnie odpowiedź zapisana jako zmienna. ”
     },
     {
-        "question"      :   "Which script will move the sprite left when the user types 'left' and right when the user types anything else?",
-        "image"         :   "images/montage-3.png",
-        "choices"       :   [
-                                "A",
-                                "B",
-                                "C",
-                                "D"
+        „pytanie”: „Który skrypt przeniesie duszka w lewo, gdy użytkownik wpisze„ w lewo ”, a w prawo, gdy użytkownik wpisze coś innego?”,
+        „image”: „images / montage-3.png” ,
+        „wybor”: [
+                                „A”,
+                                „B”,
+                                „C”,
+                                „D”
                             ],
-        "correct"       :   "A",
-        "explanation"   :   "The if condition should check if left has been typed and then move in the negative x. Otherwise the sprite should always move in the positive x",
+        „poprawnych”: „A”,
+        „objaśnień”: „Warunek„ if ”powinien sprawdzić, czy lewy został wpisany, a następnie przesuń w ujemnym x. W przeciwnym razie duszek powinien zawsze poruszać się w dodatnim x ",
     },
 
 ];
 </code></pre>
 
-<p>//use this for IE syntax error at => : ECMA script 6 not supported in IE 11 :(
-//quiz.forEach(function(q){ return q.choices.scramble()});</p>
+<p>// użyj tego dla błędu składni IE w =>: skrypt ECMA 6 nie jest obsługiwany w IE 11 :(
+//quiz.forEach (funkcja (q) {return q.choices.scramble ()});</p>
 
-<p>//use this for ECMA script 6
-//quiz.forEach(q => q.choices.scramble());
+<p>// użyj tego dla skryptu ECMA 6
+//quiz.forEach(q => q.choices.scramble ());
 //console.log(quiz[0].choices);</p>
 
 <p>quiz = shuffle(quiz);</p>
 
-<pre><code>/******* No need to edit below this line *********/
-var currentquestion = 0, score = 0, submt=true, picked;
+<pre><code>/ ******* Nie trzeba edytować poniżej tego wiersza ********* /
+var currentquestion = 0, score = 0, submt = true, picked;
 
-jQuery(document).ready(function($){
+jQuery (dokument).ready (funkcja ($) {
 
-    /**
-     * HTML Encoding function for alt tags and attributes to prevent messy
-     * data appearing inside tag attributes.
-     */
-    function htmlEncode(value){
-      return $(document.createElement('div')).text(value).html();
+    / **
+     * Funkcja kodowania HTML znaczników alt i atrybutów, aby zapobiec pojawianiu się niechcianych
+     * danych wewnątrz atrybutów znacznika.
+     * /
+    funkcja htmlEncode (wartość) {
+      return $ (document.createElement ('div')). Text (wartość) .html ();
     }
 
-    /**
-     * This will add the individual choices for each question to the ul#choice-block
+    / **
+     * Spowoduje to dodanie indywidualnych wyborów dla każdego pytania do bloku ul #
      *
-     * @param {choices} array The choices from each question
-     */
-    function addChoices(choices){
-        if(typeof choices !== "undefined" &amp;&amp; $.type(choices) == "array"){
-            $('#choice-block').empty();
-            for(var i=0;i&lt;choices.length; i++){
+     * @param {choices} tablica Wybory z każdego pytania
+     * /
+    funkcja addChoices (wybory) {
+        if ( typeof options! == "undefined" &amp;&amp; $ .type (options) == "array") {
+            $ ('# choice-block'). empty ();
+            dla (var i = 0; i &lt;choices.length; i++){
             $(document.createElement('li')).addClass('choice choice-box btn').attr('data-index', i).text(choices[i]).appendTo('#choice-block');
             }
         }
@@ -170,17 +170,17 @@ jQuery(document).ready(function($){
             $("#question").html(function(){
                 var text= $(this).text().trim().split(" ");
                 var first = text.shift();
-                return (text.length &gt; 0 ? "&lt;span class='number'&gt;"+ first +"&lt;/span&gt; " : first) + text.join(" ");
+                return (text.length &gt;? „&lt;span class='number'&gt;” + pierwszy + ” &lt;/span&gt; ": first) + text.join (" ");
             });
 
-            $('p.pager').each(function(){
-                var text = $(this).text().split(' ');
-                if(text.length &lt; 2)
+            $ ('p.pager'). each (function () {
+                var text = $(this).text (). split ('');
+                if (długość tekstu &lt; 2)
                     return;
 
-                text[1] = '&lt;span class="qnumber"&gt;'+text[1]+'&lt;/span&gt;';
-                $(this).html(
-                    text.join(' ')
+                text[1] = „&lt;span class="qnumber"&gt;” + text[1]+ ” &lt;/span&gt; „;
+                $(this).html (
+                    text.join ('')
                 );
             });
 
@@ -188,159 +188,159 @@ jQuery(document).ready(function($){
 
     }
 
-    /**
-     * After a selection is submitted, checks if its the right answer
+    / **
+     * Po przesłaniu selekcji sprawdza, czy jest poprawna odpowiedź
      *
-     * @param {choice} number The li zero-based index of the choice picked
-     */
-    function processQuestion(choice){
-        if(quiz[currentquestion]['choices'][choice] == quiz[currentquestion]['correct']){
-            $('.choice').eq(choice).addClass('btn-success').css({'font-weight':'bold', 'border-color':'#51a351', 'color':'#fff'});
-            $('#explanation').html('&lt;span class="correct"&gt;CORRECT!&lt;/span&gt; ' + htmlEncode(quiz[currentquestion]['explanation']));
-            score++;
+     * @param {choice} liczba Indeks liczony od zera li wybrany wybór
+     * /
+    funkcja proces Pytanie (wybór) {
+        jeśli (quiz[currentquestion][„wybory”][choice] == quiz[currentquestion][„poprawny”]) {
+            $ („. wybór”). eq (wybór) .addClass („btn-sukces”). css ({'font-weight':'bold', 'border-color':'#51a351', 'color':'#fff'});
+            $ („# objaśnienie”). Html („&lt;span class="correct"&gt; PRAWIDŁOWO! &lt;/span&gt; „+ htmlEncode (quiz[currentquestion][„ wyjaśnienie ”]));
+            wynik ++;
         } else {
-            $('.choice').eq(choice).addClass('btn-danger').css({'font-weight':'bold', 'border-color':'#f93939', 'color':'#fff'});
-            $('#explanation').html('&lt;span class="incorrect"&gt;INCORRECT!&lt;/span&gt; ' + htmlEncode(quiz[currentquestion]['explanation']));
+            $ ('. Choice'). Eq (choice) .addClass ('btn-danger'). Css ({'font-weight':'bold', 'border-color':'#f93939', 'color':'#fff'});
+            $ („# wyjaśnienie”). Html („&lt;span class="incorrect"&gt; NIEPRAWIDŁOWY! &lt;/span&gt; „+ htmlEncode (quiz[currentquestion][„ wyjaśnienie ”]));
         }
-        currentquestion++;
+        currentquestion ++;
 
-        if(currentquestion == quiz.length){
-            $('#submitbutton').html('GET QUIZ RESULTS').removeClass('btn-success').addClass('btn-info').css({'border-color':'#3a87ad', 'color':'#fff'}).on('click', function(){
-                $(this).text('GET QUIZ RESULTS').on('click');
-                endQuiz();
+        if (currentquestion == quiz.length) {
+            $ ('# submbutton'). Html ('GET QUIZ RESULTS'). RemoveClass ('btn-success'). AddClass ('btn-info'). Css ({'border-color':'#3a87ad', 'color':'#fff'}) .on ('click', function () {
+                $(this).text ('GET QUIZ RESULTS'). on ('click');
+                endQuiz ();
             })
 
-        } else if (currentquestion &lt; quiz.length){
-            $('#submitbutton').html('NEXT QUESTION &amp;raquo;').removeClass('btn-success').addClass('btn-warning').css({'font-weight':'bold', 'border-color':'#faa732', 'color':'#fff'}).on('click', function(){
-                $(this).text('- CHECK ANSWER -').removeClass('btn-warning').addClass('btn-success').css({'font-weight':'bold', 'border-color':'#51a351', 'color':'#fff'}).on('click');
-                nextQuestion();
+        } else if (currentquestion &lt; quiz.length) {
+            $ („# submbutton”). Html („NASTĘPNE PYTANIE &amp;raquo;”). RemoveClass („btn-success”). AddClass („btn-warning”). Css ({'font-weight':'bold', 'border-color':'#faa732', 'color':'#fff'}) .on („click”, function () {
+                $(this).text ('- CHECK ANSWER -'). removeClass ('btn-warning'). addClass ('btn-success'). css ({'font-weight':'bold', 'border-color':'#51a351', 'color':'#fff'}) .on ('click');
+                nextQuestion ( );
             })
         } else {
-            //  $('#submitbutton').html('NEXT QUESTION &amp;raquo;').on('click', function(){
-            //      $(this).text('- CHECK ANSWER -').css({'color':'inherit'}).on('click');
-            //  })
+            // $ ('# submbutton'). Html ('NEXT QUESTION &amp;raquo;'). On ('click', function () {
+            //      $(this).text ('- SPRAWDŹ ODPOWIEDŹ - ”). Css ({'color':'inherit'}) .on („ kliknij ”);
+            //})
         }
 
 
     }
 
-    /**
-     * Sets up the event listeners for each button.
-     */
-    function setupButtons(){
-        $('.choice').on('click', function(){
-            picked = $(this).attr('data-index');
-            $('.choice').removeAttr('style').off('mouseout mouseover');
-            $(this).css({'font-weight':'bold', 'border-color':'#51a351', 'color':'#51a351'});
-            if(submt){
-                submt=false;
-                $('#submitbutton').css({'color':'#fff','cursor':'pointer'}).on('click', function(){
-                    $('.choice').off('click');
-                    $(this).off('click');
-                    processQuestion(picked);
+    / **
+     * Ustawia detektory zdarzeń dla każdego przycisku.
+     * /
+    setup setup Przyciski () {
+        $ ('. Wybór'). On ('click', function () {
+            picked = $(this).attr ('data-index');
+            $ ('. Choice'). removeAttr ('style'). off ('mouseout mouseover');
+            $(this).css ({'font-weight':'bold', 'border-color':'#51a351', 'color':'#51a351'});
+            if (submt) {
+                submt = false;
+                $ ('# submbutton'). css ({'color':'#fff','cursor':'pointer'}) .on ( „kliknięcie”, funkcja () {
+                    $ („. wybór”). wyłączony („kliknięcie”);
+                    $(this).wyłączony („kliknięcie”);
+                    proces Pytanie (wybrany);
                 });
             }
         })
     }
 
-    /**
-     * Quiz ends, display a message.
-     */
-    function endQuiz(){
-        $('#explanation').empty();
-        $('#question').empty();
-        $('#choice-block').empty();
-        $('#submitbutton').remove();
-        $('.rsform-block-submit').addClass('show');
-        $('#question').text("You got " + score + " out of " + quiz.length + " correct.");
-        $(document.createElement('h4')).addClass('score').text(Math.round(score/quiz.length * 100) + '%').insertAfter('#question');         
+    / **
+     * Quiz kończy się, wyświetl wiadomość.
+     * /
+    funkcja endQuiz () {
+        $ ('# wyjaśnienie'). Empty ();
+        $ („# pytanie”). Empty ();
+        $ ('# choice-block'). Empty ();
+        $ („# Submitbutton”). Remove ();
+        $ ('. Rsform-block-upload'). AddClass ('show');
+        $ („# pytanie”). Tekst („Masz” + wynik + „poza” + quiz. Długość + „poprawne”);
+        $ (document.createElement ('h4')). AddClass ('score'). Text (Math.round (score / quiz.length * 100) + '%'). InsertAfter ('# question');         
     }
 
-    /**
-     * Runs the first time and creates all of the elements for the quiz
-     */
-    function init(){
-        //add title
-        if(typeof quiztitle !== "undefined" &amp;&amp; $.type(quiztitle) === "string"){
-            $(document.createElement('h2')).text(quiztitle).appendTo('#frame');
-        } //else {
-            //$(document.createElement('h2')).text("Quiz").appendTo('#frame');
+    / **
+     * Uruchamia się po raz pierwszy i tworzy wszystkie elementy dla quizu
+     * /
+    funkcja init () {
+        // dodaj tytuł
+        if (typeof quiztitle! == "undefined" &amp;&amp; $. type (quiztitle) === "string") {
+            $ (document.createElement ('h2')). text (quiztitle) .appendTo ('# frame');
+        } // else {
+            //$(document.createElement('h2')).text("Quiz").appendTo('#frame ');
 </code></pre>
 
-<p>//          }</p>
+<p>//}</p>
 
-<pre><code>        //add pager and questions
-        if(typeof quiz !== "undefined" &amp;&amp; $.type(quiz) === "array"){
-            //add pager
-            $(document.createElement('p')).addClass('pager').attr('id','pager').text('Question 1 of ' + quiz.length).appendTo('#frame');
-            //add first question
-            $(document.createElement('h3')).addClass('question').attr('id', 'question').text(quiz[0]['question']).appendTo('#frame');
-            //add image if present
-            if(quiz[0].hasOwnProperty('image') &amp;&amp; quiz[0]['image'] != ""){
-                $(document.createElement('img')).addClass('question-image').attr('id', 'question-image').attr('src', quiz[0]['image']).attr('alt', htmlEncode(quiz[0]['question'])).appendTo('#frame');
+<pre><code>        // dodaj pager i pytania
+        if (typeof quiz! == "undefined" &amp;&amp; $ .type (quiz) === "array") {
+            // dodaj pager
+            $ (document.createElement ('p')) .addClass („pager”). attr („id”, „pager”). tekst („Pytanie 1 z” + długość quizu) .appendTo („# frame”);
+            // dodaj pierwsze pytanie
+            $ (document.createElement („h3”)). AddClass („pytanie”). Attr („id”, „pytanie”). Tekst (quiz[0][„pytanie”]). AppendTo ( '#rama');
+            // dodaj obraz, jeśli jest obecny
+            if (quiz[0].hasOwnProperty ('image') &amp;&amp; quiz[0]['image']! = "") {
+                $ (document.createElement ('img')). AddClass (' pytanie-obraz ”). attr („ id ”,„ pytanie-obraz ”). attr („ src ”, quiz[0][„ obraz ”]). attr („ alt ”, htmlEncode (quiz[0][„ pytanie ”]) ) .appendTo ('# frame');
             }
 
-            $(document.createElement('p')).addClass('explanation').attr('id','explanation').html('').appendTo('#frame');
+            $ (document.createElement ('p')). AddClass ('wyjaśnienie'). Attr ('id', 'wyjaśnienie'). Html (''). AppendTo ('# frame');
 
-            //questions holder
-            $(document.createElement('ul')).attr('id', 'choice-block').appendTo('#frame');
+            // posiadacz pytania
+            $ (document.createElement ('ul')). Attr ('id', 'choice-block'). AppendTo ('# frame');
 
-            //add choices
-            addChoices(quiz[0]['choices']);
+            // dodaj wybory
+            addChoices (quiz[0][„options”]);
 
-            //add submit button
-            $(document.createElement('div')).addClass('btn-success choice-box').attr('id', 'submitbutton').text('- CHECK ANSWER -').css({'font-weight':'bold', 'color':'#fff','padding':'30px 0', 'border-radius':'10px'}).appendTo('#frame');
+            // dodaj przycisk wysyłania
+            $ (document.createElement ('div')). AddClass ('btn-success choice-box'). Attr ('id', 'submbutton'). Tekst ('- SPRAWDŹ ODPOWIEDŹ -' ) .css ({'font-weight': 'bold', 'color': '# fff', 'padding': '30px 0', 'border-radius': '10px'}). appendTo ('# frame ”);
 
-            setupButtons();
+            setupButtons ();
         }
     }
 
-    init();
+    init ();
 
 });
 
-jQuery(document).ready(function($){         
-    $("#question").html(function(){
-    var text= $(this).text().trim().split(" ");
-    var first = text.shift();
-        return (text.length &gt; 0 ? "&lt;span class='number'&gt;"+ first +"&lt;/span&gt; " : first) + text.join(" ");
+jQuery (dokument) .ready (funkcja ($) {         
+    $ ("# pytanie"). Html (funkcja () {
+    var text = $(this).text (). Trim (). Split ("");
+    var first = text.shift ();
+        return (text.length &gt; 0? „&lt;span class='number'&gt;” + pierwszy + ” &lt;/span&gt; ": first) + text.join (" ");
     });
 
-    $('p.pager').each(function(){
-        var text = $(this).text().split(' ');
-        if(text.length &lt; 2)
+    $ ('p.pager'). each (function () {
+        var text = $(this).text (). split ('');
+        if (długość tekstu &lt; 2)
             return;
 
-        text[1] = '&lt;span class="qnumber"&gt;'+text[1]+'&lt;/span&gt;';
-        $(this).html(
-            text.join(' ')
+        text[1] = „&lt;span class="qnumber"&gt;” + text[1]+ ” &lt;/span&gt; „;
+        $(this).html (
+            text.join ('')
         );
     });
 
 }); 
 
-    function copyText() {
-        var output = document.getElementById("frame").innerHTML;
-        document.getElementById("placecontent").value = output;
+    funkcji copyText () {
+        var output = document.getElementById ("frame"). InnerHTML;
+        document.getElementById („placecontent”). Wartość = wynik;
     }
 
 &lt;/script&gt;
 &lt;style type="text/css" media="all"&gt;
-    input                                                   { height:30px !important; }
-    input[type=checkbox]                                    { height:30px !important; margin-top:-3px !important; margin-right:5px !important; box-shadow:none; background-color:#ffffff; position:relative !important; }
-    textarea                                                { width: 90%; margin: 0 auto; display: block; }
-    input[type=radio]                                       { height:30px !important; margin-top:-3px !important; margin-right:5px !important; box-shadow:none; background-color:#ffffff; position:relative !important; }
-    .form-group input, .form-group select                   { height:30px; padding: 0px 12px; }
-    .form-horizontal .form-group                            { margin:10px; }
-    .formContainer .formControlLabel                        { width:auto !important; min-width:150px; margin:0; padding:0; }
-    .formControls                                           { width:100%; padding:0; margin: 10px 0 20px auto; }
-    .radio                                                  { padding-top:0 !important; padding-left:8px !important; }
-    .radio-inline                                           { margin-right:10px; padding-top:0 !important; display:inline; }
-    .bold                                                   { font-weight:bold; }
-    .italic                                                 { font-style:italic; }
-    .clear                                                  { width:100%; margin:0 !important; }
-    .rsform-block-submit                                    { display:none; }
-    .show                                                   { display: block !important; }
+    dane wejściowe {wysokość: 30 pikseli! Ważne; }
+    dane wejściowe [typ = pole wyboru] {wysokość: 30 pikseli! Ważne; margin-top: -3px! ważne; margines z prawej: 5px! ważne; box-shadow: brak; kolor tła: #ffffff; pozycja: względna! ważna; }
+    textarea {szerokość: 90%; margines: 0 auto; Blok wyświetlacza; }
+    input [type = radio] {wysokość: 30 pikseli! Ważne; margin-top: -3px! ważne; margines z prawej: 5px! ważne; box-shadow: brak; kolor tła: #ffffff; pozycja: względna! ważna; }
+    .form-group input, .form-group select {height: 30px; wypełnienie: 0px 12px; }
+    .form-horizontal .form-group {margin: 10px; }
+    .formContainer .formControlLabel {szerokość: auto! Ważne; min-szerokość: 150px; margines: 0; wypełnienie: 0; }
+    .formControls {szerokość: 100%; wypełnienie: 0; margines: 10px 0 20px auto; }
+    .radio {padding-top: 0! Ważne; padding-left: 8px! ważne; }
+    .radio-inline {margin-right: 10px; padding-top: 0! ważne; display: inline; }
+    .bold {font-weight: bold; }
+    .italic {font-style: italic; }
+    .clear {szerokość: 100%; margines: 0! ważne; }
+    .rsform-block-upload {display: none; }
+    .show {display: blok! Ważne; }
 </code></pre>
 
 <p>/*      .rsform-block-placecontent                              { display:none; } */
