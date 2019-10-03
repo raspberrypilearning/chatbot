@@ -1,6 +1,6 @@
 ## Izziv: več vprašanj
 
-Programirajte svoj klepet, da postavite drugo vprašanje. Ali lahko odgovor na to novo vprašanje shranite v novo spremenljivko?
+Sprogramiraj svojega klepetalnega robota, da bo postavil še eno vprašanje. Ali lahko odgovor na to novo vprašanje shraniš v novo spremenljivko?
 
 ![Več vprašanj](images/chatbot-question1.png)
 
