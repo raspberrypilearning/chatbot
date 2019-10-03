@@ -53,7 +53,7 @@ Clicca sulla bandierina verde, e poi clicca sul tuo chiacchierobot per iniziare 
 
 ## title: Cosa imparerai
 
-- Usa il codice per concatenare le stringhe in Scratch
+- Use code to concatenate strings in Scratch
 - Sapere che le variabili possono essere utilizzate per memorizzare l'input dell'utente
 - Usa la selezione condizionale per rispondere all'input dell'utente in Scratch \--- / collapse \---
 
