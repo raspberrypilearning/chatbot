@@ -53,7 +53,7 @@ Dă click pe stegulețul verde, iar apoi dă click pe robotul vorbitor pentru a 
 
 ## title: Ce veți învăța
 
-- Să folosești codul pentru a concatena șiruri de caractere în Scratch
+- Use code to concatenate strings in Scratch
 - Să afli ce fel de variabile pot fi folosite pentru a stoca răspunsul utilizatorului
 - Să folosești selecție condiționată pentru a răspunde la mesajul utilizatorului în Scratch \--- /collapse \---
 
