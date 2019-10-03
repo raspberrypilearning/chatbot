@@ -53,7 +53,7 @@ Kattintson a zöld zászlóra, majd kattintson a chatbot karakterre a beszélget
 
 ## title: Amit meg fogsz tanulni
 
-- Használja a kódot a karaktersorozatban lévő karakterláncok összehangolásához
+- Use code to concatenate strings in Scratch
 - Tudja, hogy a változók felhasználhatók a felhasználói bevitel tárolására
 - Feltételes kiválasztással válaszolhat a Scratch \--- / collapse \--- felhasználói bemenetre
 
