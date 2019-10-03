@@ -1,37 +1,37 @@
-\--- brez tiskanja \---
+\--- no-print \---
 
-To je različica projekta **Scratch 3** . Obstaja tudi različica projekta [Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+To je **Scratch 3** različica projekta. Obstaja tudi [Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) različica projekta.
 
-\--- / brez natisa \---
+\--- /no-print \---
 
 ## Uvod
 
-Naučili se boste, kako programirati lik, ki lahko govori z vami! Znak, kot je ta, se imenuje robot za klepet ali chatbot.
+Naučil se boš, kako programirati lik, ki se lahko s tabo pogovarja! Tovrsten lik se imenuje robot za klepet ali Čvekbot.
 
-### Kaj boš naredil
+### Kaj boš ustvaril?
 
-\--- brez tiskanja \---
+\--- no-print \---
 
-Kliknite zeleno zastavo in nato kliknite znak chatbot, da začnete pogovor. Ko klepet postavi vprašanje, vnesite odgovor v polje na dnu stopnje in kliknite na modro oznako na desni (ali pritisnite `Vnesite`), da vidite odgovor klepeta.
+Klikni na zeleno zastavico in nato klikini na lik čvekbota, da začneš pogovor. Ko te bo Čvekbot nekaj vprašal, vtipkaj svoj odgovor v polje na dnu odra in nato klikni na modri znak na desni (ali pritisni tipko `enter`), da boš videl Čvekbotov odgovor.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / brez natisa \---
+\--- /no-print \---
 
-\--- samo za tiskanje \---
+\--- print-only \---
 
-![celoten projekt](images/chatbot-preview.png)
+![dokončan projekt](images/chatbot-preview.png)
 
-\--- / samo za tiskanje \---
+\--- /print-only \---
 
-\--- kolaps \---
+\--- collapse \---
 
 * * *
 
-## naslov: Kaj boste potrebovali
+## title: Kaj boš potreboval?
 
 ### Strojna oprema
 
@@ -39,36 +39,36 @@ Kliknite zeleno zastavo in nato kliknite znak chatbot, da začnete pogovor. Ko k
 
 ### Programska oprema
 
-- Scratch 3 ( [spletu](https://rpf.io/scratchon) ali [brez povezave](https://rpf.io/scratchoff))
+- Scratch 3 (bodisi [na spletu](https://rpf.io/scratchon) {: target = "_blank"} ali [brez povezave](https://rpf.io/scratchoff){: target = "_blank)
 
 ### Prenosi
 
-- [Poiščite datoteke za prenos](http://rpf.io/p/en/chatbot-go).
+- [Tu se nahajajo datoteke za prenos](http://rpf.io/p/en/chatbot-go).
 
-\--- / strni \---
-
-\--- kolaps \---
-
-* * *
-
-## naslov: Kaj se boste naučili
-
-- Use code to concatonate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+\--- /collapse \---
 
 \--- collapse \---
 
 * * *
 
-## naslov: Dodatne opombe za vzgojitelje
+## title: Kaj se boš naučil?
+
+- Use code to concatenate strings in Scratch
+- Vedenja, da lahko uporabljaš spremenljivke za shranjevanje uporabniških vnosov
+- Rabe pogojenega izbora za odziv na uporabnikov vnos
+
+\--- collapse \---
+
+* * *
+
+## title: Dodatne informacije za izobraževalce
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Dokončan projekt lahko najdete [tukaj](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
