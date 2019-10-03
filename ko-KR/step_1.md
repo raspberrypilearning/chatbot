@@ -1,67 +1,71 @@
+--- no-print ---
+
+이 프로젝트의 **스크래치 3** 버전입니다. [프로젝트의 스크래치 2 버전](https://projects.raspberrypi.org/ko-KR/projects/chatbot-scratch2)도 있습니다.
+
+--- /no-print ---
+
 ## 들어가며
 
-자신만의 말하는 로봇인 챗봇을 프로그래밍 하는 방법에 대해 배워봅시다!
+여러분과 대화할 수 있는 캐릭터를 프로그래밍하는 방법에 대해 배우게 됩니다. 이런 캐릭터를 채팅 로봇 혹은 챗봇이라고 합니다.
 
 ### 만들게 될 것
 
+--- no-print ---
+
+초록 깃발을 누른 후에, 챗봇을 눌러서 대화를 시작합니다. 위의 화면에서 챗봇이 질문을 하면 하단에 위치한 텍스트 상자에 대답을 입력하고 상자 우측에 위치한 파란색 마크를 클릭 (또는 `Enter`를 누르세요) 하세요. 그러면 챗봇이 응답을 합니다.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/239023644/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/239023644/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-초록 깃발을 누른 후에, 챗봇을 눌러서 대화를 시작하십시오. 위의 화면에서 챗봇이 질문을 하면 하단에 위치한 텍스트 상자에 대답을 입력하고 상자 우측에 위치한 체크표시를 클릭하세요. (또는 `Enter`를 누르세요)
+--- /no-print ---
 
-### 배우게 될 것
+--- print-only ---
 
-이 프로젝트는 [라즈베리파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
+![완료 된 프로젝트](images/chatbot-preview.png)
 
-+ [기본 프로그래밍 구조를 이용해서 간단한 프로그램을 만듭니다.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-### 교육자들을 위한 추가 정보
-
-이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/ko-KR/projects/chatbot/print)을 사용하십시오.
+--- /print-only ---
 
 --- collapse ---
 ---
-title: 교육자 노트
+title: 준비물
 ---
 
-## 들어가며:
+### 하드웨어
 
-이 프로젝트에서 아이들은 if문을 사용해 결정을 내리는 방법에 대해 알게 될 것입니다.
+- 스크래치 3을 실행할 수 있는 컴퓨터
 
-## 자료
+### 소프트웨어
 
-이 프로젝트에서는 Scratch 2를 사용합니다. Scratch 2는 [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on)에서 온라인으로 사용하거나 [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off)에서 다운로드 할 수 있습니다.
+- 스크래치 3 ([온라인](https://rpf.io/scratchon) 또는 [오프라인](https://rpf.io/scratchoff))
 
-이 프로젝트의 완성 된 버전을 [온라인](http://scratch.mit.edu/projects/239023644/#editor)에서 확인하거나, '프로젝트 자료' 링크를 클릭하여 아래의 파일을 다운로드 할 수 있습니다.
+### 다운로드
 
-+ ChatBot.sb2
-
-## 학습 목표
-
-+ 텍스트 입력
-+ 결정문들: 
-    + `만약 () \(이\)라면`{:class="blockcontrol"} 구문
-
-이 프로젝트는 [라즈베리파이 디지털 메이킹 커리큘럼](http://rpf.io/curriculum) 중 아래의 과정에 있는 요소들을 다룹니다.
-
-+ [기본 프로그래밍 문법으로 간단한 프로그램 만들기](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## 도전과제
-
-+ "더 많은 질문" - 입력 학습 및 `대답`{:class="blocksensing"} 블럭을 활용하는 방법에 대한 통합 학습
-+ "더 많은 결정" - 결정문 사용 해 보기
-+ "자신만의 챗봇 만들기" - 이 프로젝트와 과거 프로젝트의 학습을 통합합니다.
+- [여기에서 다운로드 할 파일을 찾으십시오](http://rpf.io/p/ko-KR/chatbot-go).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: 프로젝트 자료
+title: 배우게 될 것
 ---
-## 교육자를 위한 자료
 
-+ [다운로드 가능한 스크래치 2 프로젝트 완성본 ](resources/ChatBot.sb2)
-+ [온라인 스크래치 2 프로젝트 완성본](http://scratch.mit.edu/projects/239023644/#editor)
+- 코드를 사용하여 스크래치에서 문자열 연결하기
+- 변수가 사용자 입력을 저장하는 데 사용될 수 있음을 이해하기
+- 조건부 선택을 사용하여 Scratch 에서 사용자 입력에 응답 
+--- /collapse ---
+
+--- collapse ---
+---
+title: 교육자를 위한 추가 정보
+---
+--- no-print ---
+
+이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/ko-KR/projects/chatbot/print){:target="_blank"}을 사용하십시오.
+
+--- /no-print ---
+
+여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/ko-KR/chatbot-get).
 
 --- /collapse ---
