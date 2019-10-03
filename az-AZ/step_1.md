@@ -53,7 +53,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: What you will learn
 
-- Use code to concatonate strings in Scratch
+- Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
