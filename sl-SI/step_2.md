@@ -1,32 +1,32 @@
-## Vaš klepet
-
-\--- naloga \---
-
-Preden začnete ustvarjati svoj chatbot, se morate odločiti, kakšna je njegova osebnost. **Razmislite o naslednjih vprašanjih**:
-
-+ Kaj je ime klepeta?
-+ Kje živi?
-+ Je srečna? Resno? Smešno? Sramežljiva? Prijazno?
-+ Kaj mu je všeč in kaj mu ni všeč?
-
-\--- / naloga \---
-
-\--- naloga \--- Odprite zagonski projekt Chatbot Scratch.
-
-**Online:** odprite starter projekt na [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
-
-If you have a Scratch account you can make a copy by clicking **Remix**.
-
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
-
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+## Tvoj klepetalni robot
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Preden začneš ustvarjati svoj klepetalni robot, se moraš odločiti, kakšna je njegova osebnost. **Razmisli o naslednjih vprašanjih**:
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
++ Kako mu je ime?
++ Kje živi?
++ Je srečen? Resen? Smešen? Sramežljiv? Prijazen?
++ Kaj mu je všeč in kaj ne?
 
-![Choose a character](images/chatbot-characters.png)
+\--- /task \---
+
+\--- task \--- Odpri začetni projekt za Chatbot/ Čvekbot.
+
+**Spletno:** Odpri začetni projekt na [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
+
+Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
+
+** Brez povezave: ** prenesi začetni projekt iz [ rpf.io/p/sl/chatbot-go ](http://rpf.io/p/en/chatbot-go) {: target = "_ blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
+
+Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [https://rpf.io/scratchoff](rpf.io/scratchoff){: target = "_ blank \---
+
+\--- task \---
+
+Začtni projekt vsebuje štiri figure. Ena od teh bo tvoj klepetalni robot.
+
+Lahko izbereš že izbrano figuro ali izbereš drugo z desnim klikom na želeno figuro in klikom na **pokaži** ali **skrij** v meniju, ki se pojavi.
+
+![Izberi lik](images/chatbot-characters.png)
 
 \--- /task \---
