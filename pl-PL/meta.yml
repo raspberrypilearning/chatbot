@@ -2,7 +2,7 @@
 title: Robot gaduła
 hero_image: images/chatbot.png
 description: Naucz się jak programować własnego mówiącego robota!
-theme: violet
+theme: fioletowy
 listed: true
 copyedit: false
 version: 4.2.0
@@ -20,7 +20,7 @@ steps:
   - 
     title: Podejmowanie decyzji
   - 
-    title: "Wyzwanie: Więcej decyzji"
+    title: "Wyzwanie: więcej decyzji"
     challenge: true
   - 
     title: Zmiana lokalizacji
