@@ -6,13 +6,13 @@ Ta wersja projektu jest przeznaczona dla języka **Scratch 3**. Projekt dostępn
 
 ## Wprowadzenie
 
-Nauczysz się programować postać, która może z tobą rozmawiać! Taka postać nazywana jest robotem czatu lub chatbotem.
+Nauczysz się jak zaprogramować postać, która może z Tobą rozmawiać! Taka postać nazywana jest wirtualnym asystentem albo czatbotem.
 
 ### Co stworzysz
 
 \--- no-print \---
 
-Kliknij zieloną flagę, a następnie kliknij znak chatbota, aby rozpocząć rozmowę. Gdy chatbot zada pytanie, wpisz odpowiedź w polu u dołu stołu montażowego, a następnie kliknij na niebieski znaczek po prawej stronie (lub naciśnij klawisz `Enter`), aby zobaczyć odpowiedź chatbota.
+Kliknij zieloną flagę, a następnie kliknij znak czatbota, aby rozpocząć rozmowę. Gdy czatbot zada pytanie, wpisz odpowiedź w polu u dołu sceny, a następnie kliknij na niebieski znaczek po prawej stronie (lub naciśnij klawisz `Enter`), aby zobaczyć odpowiedź czatbota.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -43,7 +43,7 @@ Kliknij zieloną flagę, a następnie kliknij znak chatbota, aby rozpocząć roz
 
 ### Pliki do pobrania
 
-- [Tutaj znajdziesz pliki do pobrania](http://rpf.io/p/en/chatbot-go).
+- [Znajdź pliki do pobrania](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,9 +53,9 @@ Kliknij zieloną flagę, a następnie kliknij znak chatbota, aby rozpocząć roz
 
 ## title: Czego się nauczysz
 
-- Używania kodu do łączenia ciągów w programie Scratch
-- Wiedzy, że zmienne mogą być używane do przechowywania danych wprowadzanych przez użytkownika
-- Używania wyboru warunkowego, aby odpowiedzieć na dane wprowadzone przez użytkownika w programie Scratch \--- /collapse \---
+- Use code to concatenate strings in Scratch
+- Wiedz, że zmienne mogą być używane do przechowywania danych wprowadzanych przez użytkownika
+- Użyj instrukcji warunkowej, aby zareagować na dane wprowadzone przez użytkownika w programie Scratch \--- /collapse \---
 
 \--- collapse \---
 
@@ -65,7 +65,7 @@ Kliknij zieloną flagę, a następnie kliknij znak chatbota, aby rozpocząć roz
 
 \--- no-print \---
 
-Jeśli chcesz wydrukować ten projekt, użyj [wersji gotowej do druku](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Jeśli chcesz wydrukować ten projekt, użyj [wersji przygotowanej do wydruku](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
