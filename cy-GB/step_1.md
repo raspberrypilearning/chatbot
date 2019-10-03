@@ -53,7 +53,7 @@ Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae
 
 ## title: Yr hyn byddi di'n ei ddysgu
 
-- Defnyddiwch gôd i gydgadwyno tannau yn Scratch
+- Use code to concatenate strings in Scratch
 - Gwybod bod newidynnau yn gallu cael eu defnyddio i storio mewnbwn defnyddiwr
 - Defnyddio detholiad amodol i ymateb i fewnbwn defnyddiwr yn Scratch \--- /collapse \---
 
