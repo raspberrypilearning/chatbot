@@ -67,7 +67,7 @@
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+اختبر برنامجك، أجب بـ"نعم" عندما يسألك الروبوت هل ترعب بالذهاب الى القمر. يجب أن ترى موقع الروبوت يتغير.
 
 \--- /task \---
 
