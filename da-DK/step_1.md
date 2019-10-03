@@ -53,7 +53,7 @@ Klik på det grønne flag, og klik derefter på chatbot-tegn for at starte en sa
 
 ## title: Du kommer til at lære følgende
 
-- Brug kode til concatonate strings i Scratch
+- Use code to concatenate strings in Scratch
 - Ved at variabler kan bruges til at gemme brugerindgang
 - Brug betinget valg til at reagere på brugerindgang i Scratch \--- / collapse \---
 
