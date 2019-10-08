@@ -1,6 +1,6 @@
-## Um chatbot falante
+## Um robô falante
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Agora que tens um robô falante com personalidade, vamos programá-lo para conversar contigo.
 
 \--- task \---
 
