@@ -15,7 +15,7 @@ Tu vas apprendre à programmer un personnage capable de vous parler! Un tel pers
 Clique sur le drapeau vert, puis sur le personnage du chatbot pour lancer une conversation. Lorsque le chatbot pose une question, tape ta réponse dans la zone située au bas de la scène, puis clique sur la marque bleue à droite (ou appuye sur `Entrée`) pour voir la réponse du chatbot.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334705661/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
