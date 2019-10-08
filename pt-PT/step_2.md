@@ -25,8 +25,8 @@ Se precisares de descarregar e instalar o editor offline do Scratch, podes encon
 
 O projeto inicial contém quatro personagens de actor. Um deles será o seu robô falante.
 
-You can either use the sprite that is already selected, or choose a different one by right-clicking the one you want and then selecting **show** or **hide** from the menu that appears.
+Podes usar o actor já selecionado, ou escolher um diferente clicando com o botão direito do mouse no desejado e selecionando ** mostrar ** ou ** ocultar ** no menu que aparece.
 
-![Choose a character](images/chatbot-characters.png)
+![Escolhe um personagem](images/chatbot-characters.png)
 
 \--- /task \---
