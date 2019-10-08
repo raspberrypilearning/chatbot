@@ -9,9 +9,9 @@ Clica no teu actor do robô e adiciona-lhe este código para que ` quando ele fo
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+quando alguém clicar em ti
+pergunta [Como te chamas?] e espera pela resposta
+diz [Que nome tāo bonito!] durante (2) s
 ```
 
 \--- /task \---
