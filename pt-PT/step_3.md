@@ -4,7 +4,7 @@ Agora que tens um robô falante com personalidade, vamos programá-lo para conve
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Clica no teu actor do robô e adiciona-lhe este código para que ` quando ele for clicado ` {: class = "block3events"}, ` pergunte o teu nome ` {: class = "block3sensing"} e, em seguida, ` diga "Que nome tāo bonito!" ` {: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
