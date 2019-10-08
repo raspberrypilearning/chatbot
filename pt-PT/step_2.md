@@ -2,11 +2,11 @@
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Antes de começares a programar o teu robô falante, precisas de decidir qual é a sua personalidade. ** Pensa nas seguintes perguntas**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
++ Qual é o nome do robô falante?
++ Onde mora?
++ Está feliz? Sério? Engraçado? Tímido? Amigável?
 + What does it like and dislike?
 
 \--- /task \---
