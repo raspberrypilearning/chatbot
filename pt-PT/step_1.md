@@ -23,7 +23,7 @@ Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma c
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![projeto concluído](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -61,14 +61,14 @@ Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma c
 
 * * *
 
-## title: Additional notes for educators
+## title: Notas adicionais para educadores
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Se for necessário imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/chatbot-get){: target="_ blank.
 
 \--- /collapse \---
