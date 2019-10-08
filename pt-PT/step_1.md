@@ -12,7 +12,7 @@ Vais aprender a programar um personagem que possa falar contigo! Um personagem c
 
 \--- no-print \---
 
-Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma conversa. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma conversa. Quando o robô fizer uma pergunta, digita a tua resposta na caixa na parte inferior do Palco e clica no "certo" azul à direita (ou pressiona ` Enter `), para veres a resposta do robô falante.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -43,7 +43,7 @@ Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma c
 
 ### Downloads
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Encontra os ficheiros para download aqui](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,9 +53,9 @@ Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma c
 
 ## title: O que vais aprender
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Usar o código para concatenar strings no Scratch
+- Saber que variáveis podem ser usadas para armazenar as entradas do utilizador
+- Usar a seleção condicional no Scratch para responder à entrada do utilizador \--- /collapse \---
 
 \--- collapse \---
 
