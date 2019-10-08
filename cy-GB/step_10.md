@@ -5,7 +5,7 @@ Rho gynnig ar y prosiect [Bocs paentio](https://projects.raspberrypi.org/cy-GB/p
 --- no-print --- Clicia'r faner werdd i gychwyn. Defnyddia'r llygoden i symud y pensil, ac dal y botwm chwith ar y llygoden i dynnu llun. Clicia lliw i newid pensiliau. Clicia'r dileuwr i newid iddo, a'i ddefnyddio i ddileu dy waith. I glirio'r dudalen, clicia'r groes.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/327353013/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/paint-box-showcase.png">
 </div>
 

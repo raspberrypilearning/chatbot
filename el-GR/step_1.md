@@ -15,7 +15,7 @@
 Κάνε κλικ στην πράσινη σημαία και στη συνέχεια κλικ στο chatbot για να αρχίσει μία συζήτηση. Όταν το chatbot σε ρωτήσει, πληκτρολόγησε την απάντησή σου στο πλαίσιο στο κάτω μέρος του Σκηνικού και κάνε κλικ στο μπλε σημάδι στα δεξιά (ή πάτησε `Enter`) για να δεις την απάντηση του chatbot.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334706472/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 

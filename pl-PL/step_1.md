@@ -15,7 +15,7 @@ Nauczysz się jak zaprogramować postać, która może z Tobą rozmawiać! Taka 
 Kliknij zieloną flagę, a następnie kliknij znak czatbota, aby rozpocząć rozmowę. Gdy czatbot zada pytanie, wpisz odpowiedź w polu u dołu sceny, a następnie kliknij na niebieski znaczek po prawej stronie (lub naciśnij klawisz `Enter`), aby zobaczyć odpowiedź czatbota.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334706729/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 

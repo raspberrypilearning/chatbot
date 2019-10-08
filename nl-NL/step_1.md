@@ -15,7 +15,7 @@ Je gaat leren hoe je een personage programmeert dat met je kan praten! Zo'n pers
 Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te starten. Wanneer de chatbot een vraag stelt, typ je jouw antwoord in het vak aan de onderkant van het speelveld en klik je op het blauwe vinkje aan de rechterkant (of druk op `Enter`) om het antwoord van de chatbot te zien.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/334704997/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
