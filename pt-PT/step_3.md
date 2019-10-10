@@ -46,9 +46,9 @@ diz (a junção de [Olá] com (a resposta) :: +) durante (2) s
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+Ao armazenar a resposta numa **variável**, podes usá-la em qualquer lugar do teu projeto.
 
-Create a new variable called `name`{:class="block3variables"}.
+Cria uma nova variável chamada `nome`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,19 +56,19 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Agora, altera o código dos actores do teu robô para definir a variável ` nome ` {: class = "block3variables"} como ` resposta ` {: class = "block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+quando alguém clicar em ti
+pergunta [Como te chamas?] e espera pela resposta
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ altera [nome v] para (a resposta)
+diz (a junção de [Olá ] com (nome :: + variables)) durante (2) s
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+O teu código deve funcionar como antes: o teu robô falante deve dizer olá usando o teu nome.
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
