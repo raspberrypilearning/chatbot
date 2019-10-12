@@ -33,23 +33,20 @@ De momento, o teu robô não diz nada à resposta "não".
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Altera o código do teu robô para que ele responda "Oh não!" se receber "não" como resposta a "Estás OK nome".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Substitue o bloco `se, então`{:class="block3control"} com um `se, então, senão`{:class="block3control"} e inclui código para que o robô possa `dizer "Oh não!"`{:class="block3look"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
+quando alguém clicar em ti
+pergunta [Como te chamas?] e espera pela resposta
+altera [nome v] para (a resposta)
+diz (a junção de [Olá ] com (nome)) durante (2) s
+pergunta (a junção de [Estás OK ] com (nome)) e espera pela resposta
+se <(a resposta) = [sim]> , então 
+  diz [Que bom ouvir isso!] durante (2) s
 end
 ```
 
