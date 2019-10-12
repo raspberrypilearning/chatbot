@@ -2,7 +2,7 @@
 
 Podes programar o teu robô falante para que ele decida o que dizer ou fazer com base nas respostas que recebe.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Primeiro, vais fazer o teu robô fazer uma pergunta que possa ser respondida com "sim" ou "não".
 
 \--- task \---
 
