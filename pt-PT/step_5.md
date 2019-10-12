@@ -1,6 +1,6 @@
 ## Tomar decisões
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Podes programar o teu robô falante para que ele decida o que dizer ou fazer com base nas respostas que recebe.
 
 First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
