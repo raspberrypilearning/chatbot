@@ -25,7 +25,7 @@ se <(a resposta) = [Sim]> , então
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Para testares o teu novo código devidamente, deves testá-lo ** duas vezes **, uma vez com a resposta "sim", e uma vez com a resposta "não".
 
 \--- /task \---
 
