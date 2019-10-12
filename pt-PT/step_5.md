@@ -62,15 +62,15 @@ Testa o teu código. Deves receber uma resposta diferente ao responderes "não" 
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Podes colocar qualquer código dentro de um bloco `se, então, senão`{:class="block3control"}, não apenas código para fazer o teu robô falar!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Se clicares no menu ** Trajes ** do robô falante, verás que tem mais de um traje.
 
 ![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Altera o código do teu robô para que mude o traje quando digitares a tua resposta.
 
 ![Testing a changing costume](images/chatbot-costume-test1.png)
 
