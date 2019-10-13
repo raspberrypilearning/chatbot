@@ -1,24 +1,24 @@
-## Mudar de posição
+## Mudar de localização
 
-You can also program your chatbot to change its location!
+Também podes programar o teu robô para mudar a sua localização!
 
 ![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Podes programar o teu robô falante para perguntar "Queres ir à lua?" e, depois mudar de cenário se responderes "sim"?
 
 \--- hints \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+O teu robô deve `perguntar "Queres ir à lua?"`{:class="block3sensing"}, e `se`{:class="block3control"} a `resposta`{:class="block3sensing"} for "sim", deve `mudar o cenário para a lua`{:class="block3look"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Aqui estão os blocos que precisas de adicionar ao código do teu robô falante.
 
 ![nano sprite](images/nano-sprite.png)
 
