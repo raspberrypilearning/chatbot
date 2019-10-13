@@ -23,12 +23,11 @@ Aqui estão os blocos que precisas de adicionar ao código do teu robô falante.
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+muda o cenário para (moon v)
 
-ask [Do you want to go to the moon?] and wait
+pergunta [Queres ir à lua?] e espera pela resposta
 
-if <(answer) = [yes]> then 
-
+se <(a resposta) = [sim]>, então
 end
 ```
 
