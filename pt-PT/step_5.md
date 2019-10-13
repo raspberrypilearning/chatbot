@@ -76,7 +76,7 @@ Altera o código do teu robô para que mude o traje quando digitares a tua respo
 
 ![Testing a changing costume](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Altera o código dentro do bloco `se, então, senão`{:class="block3control"} para `mudar o traje`{:class="block3look"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -99,9 +99,9 @@ Testa e guarda o teu código. Deves ver o rosto do teu robô falante mudar de ac
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Reparaste que depois de o traje do robô ter mudado, ele fica assim e não muda para o que estava no início?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Podes tentar isto: executa o teu código e responde "não" para que o teu robô mude de rosto para um visual triste. Em seguida, executa o teu código novamente e descobre que o teu robô não muda para ficar feliz antes de pedir o teu nome.
 
 ![Costume bug](images/chatbot-costume-bug-test.png)
 
