@@ -8,4 +8,4 @@ Usa o que aprendeste para terminar o teu robô falante interativo. Aqui estão a
 
 ![ChatBot ideas](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+Depois de terminares o teu robô, faz com que os teus amigos conversem com ele! Eles gostam do teu personagem? Podem detectar algum problema?
