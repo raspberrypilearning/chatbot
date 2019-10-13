@@ -107,7 +107,7 @@ Podes tentar isto: executa o teu código e responde "não" para que o teu robô 
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Para resolver este problema, adiciona código para `mudar de traje`{:class="block3look"} no início `quando o actor é clicado`{:class="block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
