@@ -35,12 +35,12 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Este é o aspeto que o teu código deve ter:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+pergunta [Queres ir á lua?] e espera pela resposta
+se <(a resposta) = [sim]>, então 
+  muda o cenário para (moon v)
 end
 ```
 
@@ -52,14 +52,14 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Agora precisas ter certeza de que o teu robô começa no local certo quando clicares nele para falar. Adiciona este bloco ao topo do teu código do robô falante:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+quando alguém clicar em ti
 
-+ switch backdrop to (space v)
+muda o cenário para (space v)
 ```
 
 \--- /task \---
