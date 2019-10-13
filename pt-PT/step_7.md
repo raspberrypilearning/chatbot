@@ -2,7 +2,7 @@
 
 Também podes programar o teu robô para mudar a sua localização!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Testar uma mudança de cenário](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
@@ -20,7 +20,7 @@ O teu robô deve `perguntar "Queres ir à lua?"`{:class="block3sensing"}, e `se`
 
 Aqui estão os blocos que precisas de adicionar ao código do teu robô falante.
 
-![nano sprite](images/nano-sprite.png)
+![actor nano](images/nano-sprite.png)
 
 ```blocks3
 muda o cenário para (moon v)
@@ -54,7 +54,7 @@ end
 
 Agora precisas ter certeza de que o teu robô começa no local certo quando clicares nele para falar. Adiciona este bloco ao topo do teu código do robô falante:
 
-![nano sprite](images/nano-sprite.png)
+![actor nano](images/nano-sprite.png)
 
 ```blocks3
 quando alguém clicar em ti
@@ -74,18 +74,17 @@ Testa o teu programa e responde "sim" quando o robô perguntar se queres ir à l
 
 Também podes adicionar o seguinte código dentro do novo bloco `se`{:class="block3control"} para fazer o robô saltar para cima e para baixo quatro vezes se responderes "sim":
 
-![nano sprite](images/nano-sprite.png)
+![actor nano](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
+se <(a resposta) = [sim]>, então 
+  muda o cenário para (moon v)
+  + repete (4) vezes 
+      adiciona (10) ao teu y
+      espera (0.1) s
+      adiciona (-10) ao teu y
+      espera (0.1) s
+     end
 end
 ```
 
