@@ -66,13 +66,13 @@ muda o cenário para (space v)
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Testa o teu programa e responde "sim" quando o robô perguntar se queres ir à lua. Deves ver que a localização do robô falante muda.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+Também podes adicionar o seguinte código dentro do novo bloco `se`{:class="block3control"} para fazer o robô saltar para cima e para baixo quatro vezes se responderes "sim":
 
 ![nano sprite](images/nano-sprite.png)
 
