@@ -81,22 +81,21 @@ Change the code inside the `if, then, else`{:class="block3control"} block to `sw
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
-
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
+quando alguém clicar em ti
+pergunta [Como te chamas?] e espera pela resposta
+altera [nome v] para (a resposta)
+diz (a junção de [Olá ] com (nome)) durante (2) s
+pergunta (a junção de [Estás OK ] com (nome)) e espera pela resposta
+se <(a resposta) = [sim]> , então 
+  + muda o teu traje para (nano-c v)
+  diz [Que bom ouvir isso!] durante (2) s
+senão, 
+  + muda o teu traje para (nano-d v)
+  diz [Oh nāo!] durante (2) s
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Testa e guarda o teu código. Deves ver o rosto do teu robô falante mudar de acordo com a tua resposta.
 
 \--- /task \---
 
