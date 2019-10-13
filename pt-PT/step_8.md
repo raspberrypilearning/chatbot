@@ -1,6 +1,6 @@
 ## Desafio: termina o teu robô falante
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+Usa o que aprendeste para terminar o teu robô falante interativo. Aqui estão algumas ideias:
 
 ![ChatBot ideas](images/chatbot-ideas1.png)
 
