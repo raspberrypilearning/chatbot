@@ -1,4 +1,4 @@
-## Tvoj klepetalni robot
+## Tvoj čvekobot
 
 \--- task \---
 
@@ -23,9 +23,9 @@ Preden začneš ustvarjati svoj klepetalni robot, se moraš odločiti, kakšna j
 
 \--- task \---
 
-Začtni projekt vsebuje štiri figure. Ena od teh bo tvoj klepetalni robot.
+Začetni projekt vsebuje štiri figure. Ena od teh bo tvoj čvekobot.
 
-Lahko izbereš že izbrano figuro ali izbereš drugo, z desnim klikom na želeno figuro in klikom na **pokaži** ali **skrij** v meniju, ki se pojavi.
+Lahko izbereš že izbrano figuro ali izbereš drugo, s klikom na desno tipko miške na želeno figuro in klikom na **pokaži** ali **skrij** v meniju, ki se pojavi.
 
 ![Izberi lik](images/chatbot-characters.png)
 
