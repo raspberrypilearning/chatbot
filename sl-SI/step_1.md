@@ -6,7 +6,7 @@ To je **Scratch 3** različica projekta. Obstaja tudi [Scratch 2](https://projec
 
 ## Uvod
 
-Naučil se boš, kako programirati lik, ki se lahko s tabo pogovarja! Tovrsten lik se imenuje robot za klepet ali Čvekbot.
+Naučil-a se boš, kako programirati lik, ki se lahko s tabo pogovarja! Tovrsten lik se imenuje robot za klepet ali Čvekobot.
 
 ### Kaj boš ustvaril?
 
@@ -53,7 +53,7 @@ Klikni na zeleno zastavico in nato klikini na lik čvekbota, da začneš pogovor
 
 ## title: Kaj se boš naučil?
 
-- Use code to concatenate strings in Scratch
+- Uporabi kodo, da združiš nize v Scratchu
 - Vedenja, da lahko uporabljaš spremenljivke za shranjevanje uporabniških vnosov
 - Rabe pogojenega izbora za odziv na uporabnikov vnos
 
