@@ -1,10 +1,10 @@
-## Govoreči klepetalni robot
+## Govoreči čvekobot
 
-Sedaj ko imaš klepetalnega robota z osebnostjo, ga boš sprogramiral-a, da se bo pogovarjal s tabo.
+Sedaj, ko imaš klepetalnega robota z osebnostjo, ga sprogramiraj, da se bo pogovarjal s tabo.
 
 \--- task \---
 
-Klikni na figuro klepetalnega robota in dodaj to kodo, tako da `ko kliknemo to figuro`{: class = "block3events"}, `vpraša za vaše ime`{: class = "block3sensing"} in nato `reče: "Kako lepo ime! "`{: class = "block3looks"}.
+Klikni na figuro čvekobota in dodaj to kodo, tako da `ko kliknemo to figuro`{: class = "block3events"}, `vpraša za vaše ime`{: class = "block3sensing"} in nato `reče: "Kako lepo ime! "`{: class = "block3looks"}.
 
 ![nano figura](images/nano-sprite.png)
 
@@ -18,7 +18,7 @@ reci [Kako lepo ime!] za (2) sekund
 
 \--- task \---
 
-Klikni na svojega klepetalnega robota, da preizkusiš kodo. Ko te vpraša za ime, ga vnesi v polje, ki se pojavi na dnu odra in nato klikni modro oznako ali pritisni <kbd>Enter</kbd>.
+Klikni na figuro čvekobota, da preizkusiš svojo kodo. Ko te vpraša za ime, ga vnesi v polje, ki se pojavi na dnu odra in nato klikni modro oznako ali pritisni <kbd>Enter</kbd>.
 
 ![Testiranje odziva klepetalnega robota](images/chatbot-ask-test1.png)
 
@@ -30,7 +30,7 @@ Klikni na svojega klepetalnega robota, da preizkusiš kodo. Ko te vpraša za ime
 
 Za zdaj tvoj klepetalni robot odgovori: "Kako lepo ime!", vsakič, ko odgovoriš. Odgovor robota lahko narediš bolj osebnega, tako da bo odgovor drugačen vsakič, ko vneseš drugo ime.
 
-Spremeni kodo figure klepetalnega robota, tako da `združi`{: class="block3operators"} "Živjo" z `odgovorom`{: class="block3sensing"} na vprašanje: "Kako ti je ime?". Koda mora izgledati takole:
+Spremeni kodo figure čvekobota, tako da `združi`{: class="block3operators"} "Živjo" z `odgovorom`{: class="block3sensing"} na vprašanje: "Kako ti je ime?". Koda mora izgledati takole:
 
 ![nano figura](images/nano-sprite.png)
 
@@ -56,7 +56,7 @@ Ustvari novo spremenljivko, ki se bo imenovala `ime`{: class = "block3variables"
 
 \--- task \---
 
-Sedaj spremeni kodo za figuro klepetalnega robota, tako da nastavi spremenljivko `ime`{: class = "block3variables"} na `odgovor`{: class = "block3sensing"}:
+Sedaj spremeni kodo za figuro čvekobota, da nastavi spremenljivko `ime`{: class = "block3variables"} na `odgovor`{: class = "block3sensing"}:
 
 ![nano figura](images/nano-sprite.png)
 
@@ -68,10 +68,10 @@ vprašaj [Kako ti je ime?] in počakaj
 reci (združi [Živijo, ] (ime :: spremenljivke +)) za (2) sekund
 ```
 
-Tvoja koda bi morala delovati tako kot prej: tvoj klepetalni robot bi moral reči "Živijo, " in ime, ki si ga vnesel.
+Tvoja koda bi morala delovati tako kot prej: tvoj klepetalni robot bi moral reči "Živijo, " in ime, ki je bilo vnešeno.
 
 ![Testiranje personaliziranega odgovora](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Ponovno preizkusi program. Pomni, da je odgovor, ki si ga vnesel, shranjen v spremenljivki `ime`{: class = "block3variables"} in je prikazan tudi v zgornjem levem kotu odra. Če želiš, da izgine iz odra, pojdi v razdelek `Spremenljivke`{: class = "block3variables"} in klikni na polje poleg spremenljivke `ime`{: class = "block3variables"}, tako da ni več označeno.
+Ponovno preizkusi program. Bodi pozoren na to, da je vnešeni odgovor, shranjen v spremenljivki `ime`{: class = "block3variables"} in je prikazan tudi v zgornjem levem kotu odra. Če želiš, da izgine iz odra, pojdi v razdelek `Spremenljivke`{: class = "block3variables"} in klikni na polje poleg spremenljivke `ime`{: class = "block3variables"}, tako da to ni več označeno.
