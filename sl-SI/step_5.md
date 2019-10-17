@@ -1,12 +1,12 @@
 ## Sprejemanje odločitev
 
-Svojega klepetalnega robota lahko sprogramiraš, da se bo znal odločiti, kaj naj stori, glede na odgovore, ki jih dobi.
+Čvekobota lahko sprogramiraš tako, da se bo znal odločiti, kaj naj stori, glede na odgovore, ki jih dobi.
 
-Najprej boš naredil, da bo tvoj robot vprašal vprašanje, na katerega se da odgovoriti z "da" in "ne".
+Najprej boš naredil, da bo tvoj robot vprašal vprašanje, na katerega se lahko odgovori z "da" ali "ne".
 
 \--- task \---
 
-Spremeni kodo klepeta. Vaš klepetalni robot naj postavi vprašanje "Ali ste v redu, ime", tako da uporabi spremenljivko `ime`{: class = "block3variables"}. Na to naj odgovori "To je dobro slišati!", `če`{: class = "block3control"} je odgovor "da", če pa je odgovor "ne", naj ne reče ničesar.
+Spremeni kodo čvekobota. Vaš klepetalni robot naj postavi vprašanje "Ali ste v redu, ime", tako da uporabi spremenljivko `ime`{: class = "block3variables"}. Na to naj odgovori "To je dobro slišati!", `če`{: class = "block3control"} je odgovor "da", če pa je odgovor "ne", naj ne reče ničesar.
 
 ![Testiranje odziva klepetalnega robota](images/chatbot-if-test1-annotated.png)
 
