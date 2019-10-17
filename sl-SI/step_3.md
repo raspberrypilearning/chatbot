@@ -28,7 +28,7 @@ Klikni na svojega klepetalnega robota, da preizkusiš kodo. Ko te vpraša za ime
 
 \--- task \---
 
-Za zdaj tvoj klepetalni robot odgovori: "Kako ljubko ime!", vsakič, ko odgovoriš. Odgovor robota lahko narediš bolj osebnega, tako da bo odgovor drugačen vsakič, ko bo vnešeno drugo ime.
+Za zdaj tvoj klepetalni robot odgovori: "Kako lepo ime!", vsakič, ko odgovoriš. Odgovor robota lahko narediš bolj osebnega, tako da bo odgovor drugačen vsakič, ko vneseš drugo ime.
 
 Spremeni kodo figure klepetalnega robota, tako da `združi`{: class="block3operators"} "Živjo" z `odgovorom`{: class="block3sensing"} na vprašanje: "Kako ti je ime?". Koda mora izgledati takole:
 
