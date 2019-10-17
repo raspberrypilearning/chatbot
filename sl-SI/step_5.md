@@ -6,7 +6,7 @@ Najprej boš naredil, da bo tvoj robot vprašal vprašanje, na katerega se lahko
 
 \--- task \---
 
-Spremeni kodo čvekobota. Vaš klepetalni robot naj postavi vprašanje "Ali ste v redu, ime", tako da uporabi spremenljivko `ime`{: class = "block3variables"}. Na to naj odgovori "To je dobro slišati!", `če`{: class = "block3control"} je odgovor "da", če pa je odgovor "ne", naj ne reče ničesar.
+Spremeni kodo čvekobota. Čvekobot naj postavi vprašanje "Ali si v redu, ime", tako da uporabi spremenljivko `ime`{: class = "block3variables"}. Na to naj odgovori: "To je dobro slišati!", `če`{: class = "block3control"} je odgovor "da", če pa je odgovor "ne", naj ne reče ničesar.
 
 ![Testiranje odziva klepetalnega robota](images/chatbot-if-test1-annotated.png)
 
@@ -19,24 +19,24 @@ ko kliknemo to figuro
 vprašaj [Kako ti je ime?] in počakaj
 
 + nastavi [ime v] na (odgovor)
-reci (združi [Živijo, ] (ime :: spremenljivke +)) za (2) sekund
+reci (združi [Živijo, ] (ime)) za (2) sekund
 + vprašaj (združi [Ali si v redu, ] (ime)) in počakaj
 + če <(odgovor) = [da]> potem 
   reci [To je dobro slišati!] za (2) sekund
 konec
 ```
 
-Za pravilno preizkusiti novo kodo, jo preizkusite **dvakrat**: enkrat z odgovorom "da", in enkrat z odgovorom "ne".
+Kodo sedaj preizkusi **dvakrat**: enkrat z odgovorom "da", in enkrat z odgovorom "ne".
 
 \--- /task \---
 
-Trenutno tvoj roboto ničesar ne reče ob odgovoru "ne".
+Trenutno tvoj čvekobot na odgovor "ne", ne reče ničesar.
 
 \--- task \---
 
-Spremeni kodo, tako da bo klepetalni robot odgovoril "Oh, ne!" če prejme "ne" kot odgovor na vprašanje "Ali si v redu, ime?".
+Spremeni kodo, tako da bo čvekobot odgovoril "Oh, ne!", če prejme "ne" kot odgovor na vprašanje: "Ali si v redu, ime?".
 
-Zamenjaj blok `če, potem`{: class = "block3control"} z blokom `če, potem sicer`{: class = "block3control"} in vključi kodo, da bo robot lahko `rekel "Oh, ne!"`{: class = "block3looks"}.
+Zamenjaj blok `če, potem`{: class = "block3control"} z blokom `če, potem, sicer`{: class = "block3control"} in vključi kodo, da bo robot lahko `rekel "Oh, ne!"`{: class = "block3looks"}.
 
 ![nano figura](images/nano-sprite.png)
 
@@ -44,11 +44,11 @@ Zamenjaj blok `če, potem`{: class = "block3control"} z blokom `če, potem sicer
 ko kliknemo to figuro
 vprašaj [Kako ti je ime?] in počakaj
 nastavi [ime v] na (odgovor)
-reci (združi [Živjo, ] (ime :: spremenljivke +)) za (2) sekund
+reci (združi [Živjo, ] (ime)) za (2) sekund
 vprašaj (združi [Ali si v redu, ] (ime)) in počakaj
 
 + če <(odgovor) = [da]> potem 
-  reci [To je dobro slišati!] za (2) sekund
+  reci [To je lepo slišati!] za (2) sekund
 sicer
 + reci [Oh, ne!] za (2) sekunde
 konec
@@ -74,7 +74,7 @@ Znotraj bloka `če, potem, sicer`{: class = "block3control"} lahko imaš poljubn
 
 \--- task \---
 
-Spremeni kodo klepetalnega robota, tako da bo robot menjal videz, ko vneseš odgovor.
+Spremeni kodo čvekobota, da bo robot menjal videz, ko vneseš odgovor.
 
 ![Testiranje spreminjajočega se videza](images/chatbot-costume-test1.png)
 
@@ -89,23 +89,23 @@ ko kliknemo to figuro
 vprašaj [Kako ti je ime?] in počakaj
 
 nastavi [ime v] na (odgovor)
-reci (združi [Živijo, ] (ime :: spremenljivke +)) za (2) sekund
+reci (združi [Živijo, ] (ime)) za (2) sekund
 vprašaj (združi [Ali si v redu, ] (ime)) in počakaj
 če <(odgovor) = [da]> potem 
 
 + zamenjaj videz na (nano-c v)  
-reci [To je dobro slišati!] za (2) sekund
+reci [To je lepo slišati!] za (2) sekund
 sicer
 + zamenjaj videz na (nano- d v)
   reci [Oh, ne!] za (2) sekund
 konec
 ```
 
-Preveri in shrani svojo kodo. Obraz tvojega klepetalnega robota bi se sedaj moral spreminjati glede na odgovor.
+Preveri in shrani svojo kodo. Obraz tvojega čvekobota bi se sedaj moral spreminjati glede na odgovor.
 
 \--- /task \---
 
-Ali si opazil, da se videz tvojega klepetalnega robota po zamenjavi videza ne spremeni nazaj v začetni videz, temveč ostane spremenjen?
+Ali si opazil, da se videz čvekobota, po zamenjavi videza, ne spremeni nazaj v začetni videz, temveč ostane spremenjen?
 
 Lahko poskusiš to: zaženi kodo in odgovori z "ne", da se bo obraz tvojega robota spremenil v nesrečen pogled. Nato znova zaženi kodo in opazil boš, da se tvoj klepetalni robot ne spremeni nazaj an srečen obraz, preden te vpraša za ime.
 
