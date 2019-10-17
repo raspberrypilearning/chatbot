@@ -54,7 +54,7 @@ Klikni na zeleno zastavico in nato klikini na lik čvekbota, da začneš pogovor
 ## title: Kaj se boš naučil?
 
 - Uporabiti kodo, da združiš nize v Scratchu
-- Uporabe spremenljivk za shranjevanje uporabniških vnosov
+- Uporabiti spremenljivke za shranjevanje uporabnikovih vnosov
 - Uporabiti pogojen izbor, kot odziv na uporabnikov vnos
 
 \--- collapse \---
