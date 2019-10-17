@@ -107,7 +107,7 @@ Preveri in shrani svojo kodo. Obraz tvojega čvekobota bi se sedaj moral spremin
 
 Ali si opazil, da se videz čvekobota, po zamenjavi videza, ne spremeni nazaj v začetni videz, temveč ostane spremenjen?
 
-Lahko poskusiš to: zaženi kodo in odgovori z "ne", da se bo obraz tvojega robota spremenil v nesrečen pogled. Nato znova zaženi kodo in opazil boš, da se tvoj klepetalni robot ne spremeni nazaj an srečen obraz, preden te vpraša za ime.
+Lahko poskusiš to: zaženi kodo in odgovori z "ne", da se bo obraz tvojega robota spremenil v nesrečen pogled. Nato znova zaženi kodo in opazil boš, da čvekobot, preden te vpraša za ime, ne postane spet vesel.
 
 ![Videz hrošča](images/chatbot-costume-bug-test.png)
 
