@@ -12,7 +12,7 @@ Naučil-a se boš, kako programirati lik, ki se lahko s tabo pogovarja! Tovrsten
 
 \--- no-print \---
 
-Klikni na zeleno zastavico in nato klikini na lik čvekbota, da začneš pogovor. Ko te bo Čvekbot nekaj vprašal, vtipkaj svoj odgovor v polje na dnu odra in nato klikni na modri znak na desni (ali pritisni tipko `enter`), da boš videl Čvekbotov odgovor.
+Klikni na zeleno zastavico in nato klikini na lik čvekbota, da začneš pogovor. Ko te bo Čvekobot nekaj vprašal, vtipkaj svoj odgovor v polje na dnu odra in nato klikni na modri znak na desni (ali pritisni tipko `enter`), da bo videti Čvekobotov odgovor.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -53,9 +53,9 @@ Klikni na zeleno zastavico in nato klikini na lik čvekbota, da začneš pogovor
 
 ## title: Kaj se boš naučil?
 
-- Uporabi kodo, da združiš nize v Scratchu
-- Vedenja, da lahko uporabljaš spremenljivke za shranjevanje uporabniških vnosov
-- Rabe pogojenega izbora za odziv na uporabnikov vnos
+- Uporabiti kodo, da združiš nize v Scratchu
+- Uporabe spremenljivk za shranjevanje uporabniških vnosov
+- Uporabiti pogojen izbor, kot odziv na uporabnikov vnos
 
 \--- collapse \---
 
