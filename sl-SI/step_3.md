@@ -1,6 +1,6 @@
 ## Govoreči klepetalni robot
 
-Sedaj ko imaš klepetalnega robota z osebnostjo, ga boš sprogramiral, da se bo pogovarjal s tabo.
+Sedaj ko imaš klepetalnega robota z osebnostjo, ga boš sprogramiral-a, da se bo pogovarjal s tabo.
 
 \--- task \---
 
