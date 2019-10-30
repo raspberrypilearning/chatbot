@@ -25,7 +25,7 @@ Pokud potřebujete stáhnout a nainstalovat Scratch offline editor, můžete ho 
 
 Projekt startéru obsahuje čtyři znaky. Jedním z nich bude váš chatbot.
 
-Můžete použít buď sprite, který je již vybrán, nebo zvolit jiný kliknutím pravým tlačítkem myši na požadovaný soubor a poté výběrem **zobrazit** nebo **skrýt** z zobrazené nabídky.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Zvolte znak](images/chatbot-characters.png)
 
