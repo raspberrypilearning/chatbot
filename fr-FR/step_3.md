@@ -74,4 +74,4 @@ Ton code devrait fonctionner comme avant: ton chatbot devrait dire bonjour en ut
 
 \--- /task \---
 
-Teste à nouveau ton programme. Note que la réponse que tu tapes est stockée dans la variable `nom`{:class="block3variables"} et est également affichée dans le coin supérieur gauche de la scène. Pour la faire disparaître de la scène, accéde à la section des blocs `Données`{: class = "block3variables"} et clique sur la case à côté de `name`{: class = "block3variables"} pour qu'elle ne soit pas marquée.
+Teste à nouveau ton programme. Note que la réponse que tu tapes est stockée dans la variable `nom`{:class="block3variables"} et est également affichée dans le coin supérieur gauche de la scène. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
