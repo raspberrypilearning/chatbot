@@ -75,4 +75,4 @@
 
 \--- / task \---
 
-ፕሮግራምዎን በድጋሚ ይሞክሩ. የሚተይቡት መልስ በ `ስም`{: class = "block3variables"} ተለዋዋጭ ውስጥ ተስተካክሎ በደረጃው ላይኛው ግራ ጠርዝ ላይ ይታያል. ከደረጃው እንዲጠፋ ለማድረግ ወደ `የውሂብ`ክፍል {{class = "block3variables}} ክፍል ይሂዱ እና ከ `ስም`{: class =" block3variables "} ቀጥሎ ባለው ሳጥን ላይ ጠቅ ያድርጉ ይህም እንዳይታዩ ነው.
+ፕሮግራምዎን በድጋሚ ይሞክሩ. የሚተይቡት መልስ በ `ስም`{: class = "block3variables"} ተለዋዋጭ ውስጥ ተስተካክሎ በደረጃው ላይኛው ግራ ጠርዝ ላይ ይታያል. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
