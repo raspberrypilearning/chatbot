@@ -25,7 +25,7 @@ Scratch çevrimdışı düzenleyicisini indirip yüklemeniz gerekiyorsa, buna [h
 
 Başlangıç projesi dört karakter içeriyor. Bunlardan biri senin chatbot'un olacak.
 
-Zaten seçili olan karakteri kullanabilir ya da istediğiniz öğeye sağ tıklayarak ve sonra ** göster'i seçerek beliren menüden farklı bir tane seçebilirsiniz. ** veya ** sakla **.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Bir karakter seçin](images/chatbot-characters.png)
 
