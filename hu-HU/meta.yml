@@ -28,6 +28,4 @@ steps:
     title: "Kihívás: fejezd be a chatbotodat"
     challenge: true
   - 
-    title: Teszteld magad
-  - 
-    title: Mi a következő?
+    title: What next?
