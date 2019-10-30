@@ -74,4 +74,4 @@
 
 \--- /task \---
 
-프로젝트를 다시 테스트해 보세요. 입력 한 응답은 `name` {:class="block3variables"} 변수에 저장되며 스테이지의 왼쪽 상단 모서리에도 표시됩니다. 스테이지에서 사라지게하려면 ` 데이터` {: class = "block3variables"} 블록 섹션으로 이동하고 ` name ` {: class = "block3variables"}옆의 상자를 클릭하세요.
+프로젝트를 다시 테스트해 보세요. 입력 한 응답은 `name` {:class="block3variables"} 변수에 저장되며 스테이지의 왼쪽 상단 모서리에도 표시됩니다. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
