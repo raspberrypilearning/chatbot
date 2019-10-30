@@ -74,4 +74,4 @@ Codul tău ar trebui să funcționeze ca înainte: chatbot-ul tău ar trebui să
 
 \--- /task \---
 
-Testează-ți din nou programul. Reține că răspunsul pe care îl scrii este stocat în variabila `nume`{:class="block3variables"}, și este de asemenea afișată în colțul din stânga sus al Scenei. Pentru a-l face să dispară din Scenă, mergi la secțiunea de blocuri `Variabile`{:class="block3variables"} și dă click pe căsuța de lângă `nume`{:class="block3variables"} pentru a o debifa.
+Testează-ți din nou programul. Reține că răspunsul pe care îl scrii este stocat în variabila `nume`{:class="block3variables"}, și este de asemenea afișată în colțul din stânga sus al Scenei. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
