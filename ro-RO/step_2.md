@@ -25,7 +25,7 @@ Daacă trebuie să descarci și să instalezi editorul Scratch offline, îl poț
 
 Proectul de început conține patru costume pentru personaj. Unul dintre acestea va fi robotul tău vorbitor.
 
-Poți folosi costumul deja selectat, sau poți alege unul diferit dând click dreapta pe cel pe care îl vrei.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Alege un personaj](images/chatbot-characters.png)
 
