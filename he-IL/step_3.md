@@ -74,4 +74,4 @@
 
 \--- /task \---
 
-בדוק שוב את התוכנית שלך. שים לב כי התשובה שאתה מקליד מאוחסן `השם`{: class = "block3variables"} משתנה, וגם מוצגת בפינה השמאלית העליונה של הבמה. כדי שייעלם מן הבמה, ללכת `נתוני`{: class = "block3variables"} בלוקי מדור ולחץ על התיבה שליד `שם`{: class = "block3variables"} כך שהוא אינו מסומן.
+בדוק שוב את התוכנית שלך. שים לב כי התשובה שאתה מקליד מאוחסן `השם`{: class = "block3variables"} משתנה, וגם מוצגת בפינה השמאלית העליונה של הבמה. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
