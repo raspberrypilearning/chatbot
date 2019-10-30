@@ -74,4 +74,4 @@ O teu código deve funcionar como antes: o teu robô falante deve dizer olá usa
 
 \--- /task \---
 
-Testa o teu código outra vez. Observa que a resposta que digitas é armazenada no `nome ` {: class = "block3variables"} e também é mostrada no canto superior esquerdo do palco. Para o fazer desaparecer do Palco, vai à secçāo de blocos ` Dados ` {: class = "block3variables"} e clica na caixa ao lado de `nome` {: class = "block3variables"} para que não esteja marcado.
+Testa o teu código outra vez. Observa que a resposta que digitas é armazenada no `nome ` {: class = "block3variables"} e também é mostrada no canto superior esquerdo do palco. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
