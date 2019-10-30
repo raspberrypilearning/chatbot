@@ -25,7 +25,7 @@ As u die Scratch offline redakteur moet aflaai en installeer, kan u dit by [http
 
 Die voorgeregsprojek bevat vier karakters. Een van hierdie sal jou chatbot wees.
 
-Jy kan ook die sprite wat reeds gekies is gebruik, of 'n ander een kies deur regs te kliek op die een wat jy wil hê en dan **kies** of **versteek** in die kieslys wat verskyn.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Kies 'n karakter](images/chatbot-characters.png)
 
