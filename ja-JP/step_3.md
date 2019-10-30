@@ -74,4 +74,4 @@ say (join [こんにちは ] (名前 :: variables +)) for (2) seconds
 
 \--- /task \---
 
-もう一度テストしてみましょう。 入力した回答は`名前`{:class="block3variables"}変数に保存されていて、ステージの左上隅にも表示されていることに注意してください。 To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+もう一度テストしてみましょう。 入力した回答は`名前`{:class="block3variables"}変数に保存されていて、ステージの左上隅にも表示されていることに注意してください。 ステージに表示されないようにするには、`変数`{:class="block3variables"}ブロックセクションに移動して、`名前`{:class="block3variables"}の隣にあるボックスをクリックしてマークを外します。
