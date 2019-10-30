@@ -74,4 +74,4 @@
 
 \--- / कार्य \---
 
-पुन्हा आपल्या प्रोग्रामची चाचणी घ्या. लक्षात घ्या की आपण टाइप केलेला उत्तर `नाम`{: class = "block3variables"} वेरियबलमध्ये संग्रहित केला आहे आणि स्टेजच्या वरच्या डाव्या कोपर्यात देखील दर्शविला आहे. तो स्टेज नाहीसे करण्यासाठी, जा `डेटा`अवरोध विभाग आणि पुढील बॉक्स वर क्लिक करा: {class = "block3variables"} `नाव`{वर्ग = "block3variables"} असे चिन्हांकित नाही जेणेकरून.
+पुन्हा आपल्या प्रोग्रामची चाचणी घ्या. लक्षात घ्या की आपण टाइप केलेला उत्तर `नाम`{: class = "block3variables"} वेरियबलमध्ये संग्रहित केला आहे आणि स्टेजच्या वरच्या डाव्या कोपर्यात देखील दर्शविला आहे. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
