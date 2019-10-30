@@ -25,7 +25,7 @@ Hvis du skal downloade og installere Scratch offline editoren, kan du finde den 
 
 Startprojektet indeholder fire karaktersprites. En af disse bliver din chatbot.
 
-Du kan enten bruge det sprite, der allerede er valgt, eller vælge en anden ved at højreklikke på den ønskede, og derefter vælge **Vis** eller **Skjul** fra den menu, der vises.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Vælg et tegn](images/chatbot-characters.png)
 
