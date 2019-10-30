@@ -25,7 +25,7 @@ Ha le kell töltened és telepítened kell a Scratch offline szerkesztőt, akkor
 
 Az induló projekt négy karaktert tartalmaz. Ezek egyike a chatbot lesz.
 
-Használhatja a már kiválasztott sprite-ot, vagy válasszon egy másikat a jobb egérgombbal, és válassza ki a **** </strong> vagy **elrejtés ** a megjelenő menüből.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Válasszon egy karaktert](images/chatbot-characters.png)
 
