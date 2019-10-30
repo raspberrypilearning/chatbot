@@ -74,4 +74,4 @@
 
 \--- /কাজ \---
 
-আবার আপনার প্রোগ্রাম পরীক্ষা করুন। লক্ষ্য করুন যে আপনার টাইপ করা উত্তরটি `নাম্বার`{: class = "block3variables"} ভেরিয়েবলে সংরক্ষণ করা হয় এবং স্টেজের উপরের বাম দিকের কোণায় প্রদর্শিত হয়। স্টেজ থেকে অদৃশ্য হয়ে যাওয়ার জন্য, `ডেটা`{: class = "block3variables"} ব্লক বিভাগে যান এবং `নাম্বারের পাশে থাকা বাক্সে ক্লিক করুন`: {class = "block3variables"} যাতে এটি চিহ্নিত না হয়।
+আবার আপনার প্রোগ্রাম পরীক্ষা করুন। লক্ষ্য করুন যে আপনার টাইপ করা উত্তরটি `নাম্বার`{: class = "block3variables"} ভেরিয়েবলে সংরক্ষণ করা হয় এবং স্টেজের উপরের বাম দিকের কোণায় প্রদর্শিত হয়। To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
