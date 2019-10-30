@@ -74,4 +74,4 @@ Tvoj kôd bi trebao funkcionirati kao i prije. Robot bi trebao pozdravljati kori
 
 \--- /task \---
 
-Ponovno testiraj svoj program. Primijeti da je odgovor koji upišeš pohranjen u varijablu `ime`{:class="block3variables"}, a također je prikazan u gornjem lijevom kutu Pozornice. Za uklanjanje odgovora sa Pozornice, otvori kategoriju `Varijable`{:class="block3variables"}. Klikni na kućicu pored varijable `ime`{:class="block3variables"} i odznači ju.
+Ponovno testiraj svoj program. Primijeti da je odgovor koji upišeš pohranjen u varijablu `ime`{:class="block3variables"}, a također je prikazan u gornjem lijevom kutu Pozornice. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
