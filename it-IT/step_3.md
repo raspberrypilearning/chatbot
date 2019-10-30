@@ -74,4 +74,4 @@ Il tuo codice dovrebbe funzionare come prima: il tuo ChiacchieRobot dovrebbe dir
 
 \--- /task \---
 
-Prova di nuovo il tuo codice. Nota che la risposta che hai digitato è memorizzata nella variabile ` nome`{:class="block3variabili"} e viene mostrata anche nell'angolo in alto a sinistra dello schermo. Per farla sparire dallo schermo, vai sulla sezione dei blocchi ` Dati ` {: class = "block3variables"} e fai clic sulla casella accanto al ` nome ` {: class = "block3variables"} in modo che non sia contrassegnata.
+Prova di nuovo il tuo codice. Nota che la risposta che hai digitato è memorizzata nella variabile ` nome`{:class="block3variabili"} e viene mostrata anche nell'angolo in alto a sinistra dello schermo. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
