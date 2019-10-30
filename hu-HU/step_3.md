@@ -74,4 +74,4 @@ A kódnak úgy kell működnie, mint korábban: a chatbotnak hiába kell haszná
 
 \--- /task \---
 
-Tesztelje újra a programot. Figyeljük meg, hogy a beírt válasz a `név`{: class = "block3variables"} változóban tárolódik, és megjelenik a színpad bal felső sarkában is. Ahhoz, hogy eltűnjön a színpadról, menjen a `Data`{: class = "block3variables"} blokkokra, és kattintson a `név`{: class = "block3variables"} melletti négyzetre, hogy ne legyen jelölve.
+Tesztelje újra a programot. Figyeljük meg, hogy a beírt válasz a `név`{: class = "block3variables"} változóban tárolódik, és megjelenik a színpad bal felső sarkában is. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
