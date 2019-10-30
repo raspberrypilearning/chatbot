@@ -25,7 +25,7 @@
 
 스타터 프로젝트에는 4개의 캐릭터 스프라이트가 있습니다. 이 중 하나를 선택합니다.
 
-이미 선택된 스프라이트를 선택하거나, 원하는 스프라이트를 우측 클릭하여 **보이기** 혹은 **숨기기** 메뉴로 보이거나 숨길 수 있습니다.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![캐릭터선택](images/chatbot-characters.png)
 
