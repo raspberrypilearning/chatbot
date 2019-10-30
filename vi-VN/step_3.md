@@ -74,4 +74,4 @@ Mã của bạn sẽ hoạt động như trước: chatbot của bạn sẽ nói
 
 \--- /task \---
 
-Kiểm tra chương trình của bạn một lần nữa. Lưu ý rằng câu trả lời bạn nhập được lưu trữ trong biến `name`{: class = "block3variables"} và cũng được hiển thị ở góc trên cùng bên trái của Giai đoạn. Để làm cho nó biến mất khỏi Giai đoạn, hãy đi tới phần `Dữ liệu`{: class = "block3variables"} và nhấp vào hộp bên cạnh `tên`{: class = "block3variables"} để nó không được đánh dấu.
+Kiểm tra chương trình của bạn một lần nữa. Lưu ý rằng câu trả lời bạn nhập được lưu trữ trong biến `name`{: class = "block3variables"} và cũng được hiển thị ở góc trên cùng bên trái của Giai đoạn. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
