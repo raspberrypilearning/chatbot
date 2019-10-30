@@ -74,4 +74,4 @@ say (join [Hi ] (name :: variables +)) for (2) seconds
 
 \--- /task \---
 
-ඔබේ වැඩසටහන(program එක) නැවත පරීක්ෂා(test) කරන්න. ඔබ ටයිප් කරන පිළිතුර(answer එක) `නාමය(name)`{:class="block3variables"} නම් විචල්‍යය(variable එක) තුල ගබඩා කර ඇති බව ඔබට දැකගත හැකිවේවි, එය වේදිකාවේ(stage එකේ) ඉහළ වම් කෙළවරේ ද දැක්වේ. එය වේදිකාවෙන්(stage එකෙන්) අතුරුදහන් කරවීමට, `දත්ත(Data)`{:class="block3variables"} කට්ටියේ(blocks) කොටස(section එක) වෙත ගොස් `නමය(name)`{:class="block3variables"} යාබද(next to) කොටුව(box එක) මත ක්ලික් කරන්න, එවිට එය සලකුණු නොකෙරේ(not marked).
+ඔබේ වැඩසටහන(program එක) නැවත පරීක්ෂා(test) කරන්න. ඔබ ටයිප් කරන පිළිතුර(answer එක) `නාමය(name)`{:class="block3variables"} නම් විචල්‍යය(variable එක) තුල ගබඩා කර ඇති බව ඔබට දැකගත හැකිවේවි, එය වේදිකාවේ(stage එකේ) ඉහළ වම් කෙළවරේ ද දැක්වේ. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
