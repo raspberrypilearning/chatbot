@@ -74,4 +74,4 @@ Tvoja koda bi morala delovati tako kot prej: tvoj klepetalni robot bi moral reč
 
 \--- /task \---
 
-Ponovno preizkusi program. Bodi pozoren na to, da je vnešeni odgovor, shranjen v spremenljivki `ime`{: class = "block3variables"} in je prikazan tudi v zgornjem levem kotu odra. Če želiš, da izgine iz odra, pojdi v razdelek `Spremenljivke`{: class = "block3variables"} in klikni na polje poleg spremenljivke `ime`{: class = "block3variables"}, tako da to ni več označeno.
+Ponovno preizkusi program. Bodi pozoren na to, da je vnešeni odgovor, shranjen v spremenljivki `ime`{: class = "block3variables"} in je prikazan tudi v zgornjem levem kotu odra. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
