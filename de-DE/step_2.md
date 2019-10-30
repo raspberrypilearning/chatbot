@@ -25,7 +25,7 @@ Wenn du dir den Scratch Offline-Editor herunterladen und installieren möchtest,
 
 Das Startprojekt beinhaltet vier Charakter-Sprites. Einer von ihnen wird dein Chatbot sein.
 
-Du kannst entweder das bereits ausgewählte Sprite verwenden oder ein anderes auswählen, indem Sie mit der rechten Maustaste auf das gewünschte klickst und dann ** show** oder **hide** aus dem angezeigten Menü auswählst.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Wähle einen Charakter](images/chatbot-characters.png)
 
