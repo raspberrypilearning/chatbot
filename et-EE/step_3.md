@@ -74,4 +74,4 @@ Teie kood peaks toimima nii nagu varem: teie vestlusbot peaks ütlema hiirega, k
 
 \--- / ülesanne \---
 
-Testige oma programmi uuesti. Pange tähele, et vastus, mille sisestate, salvestatakse muutuja `nime`{: class = "block3variables"} ja seda näidatakse ka lava ülemises vasakus nurgas. Et see etapis kaovad, minge jaotisse `Data`{: class = "block3variables"} ja klõpsa `nime`{: class = "block3variables"} kõrval asuvale kastile, nii et see ei oleks märgitud.
+Testige oma programmi uuesti. Pange tähele, et vastus, mille sisestate, salvestatakse muutuja `nime`{: class = "block3variables"} ja seda näidatakse ka lava ülemises vasakus nurgas. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
