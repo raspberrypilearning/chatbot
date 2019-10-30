@@ -74,4 +74,4 @@ Kode Anda harus berfungsi seperti sebelumnya: chatbot Anda harus menyapa menggun
 
 \--- /tugas \---
 
-Uji kembali program Anda. Perhatikan bahwa jawaban yang Anda ketikkan disimpan dalam variabel `name`{: class = "block3variables"}, dan juga ditampilkan di sudut kiri atas Stage. Untuk menghilangkannya dari Tahap, buka bagian `Data`{: class = "block3variables"} dan klik kotak di sebelah `nama`{: class = "block3variables"} sehingga tidak ditandai.
+Uji kembali program Anda. Perhatikan bahwa jawaban yang Anda ketikkan disimpan dalam variabel `name`{: class = "block3variables"}, dan juga ditampilkan di sudut kiri atas Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
