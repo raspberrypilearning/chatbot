@@ -25,7 +25,7 @@ Si necessites descarregar i instal·lar l'editor Scratch offline, el pots trobar
 
 El projecte d'inici inclou quatre sprites de personatge. Un d'aquests serà el teu xatbot.
 
-Pots utilitzar l'sprite que ja està seleccionat o bé escollir-ne un de diferent clicant-hi i després seleccionar **mostrar** o **amagar** del menú que t'apareix.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Tria un personatge](images/chatbot-characters.png)
 
