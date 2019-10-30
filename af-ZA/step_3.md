@@ -74,4 +74,4 @@ Jou kode moet werk soos voorheen: jou chatbot moet sê hi met die naam wat jy in
 
 \--- / taak \---
 
-Toets jou program weer. Let daarop dat die antwoord wat u ingevoer word, in die `naam`{: class = "block3variables"} veranderlike gestoor word en ook in die boonste linkerhoek van die stadium vertoon word. Om dit van die stadium te laat verdwyn, gaan na die `Data`{: class = "block3variables"} blokke afdeling en klik die blokkie langs `naam`{: class = "block3variables"} sodat dit nie gemerk is nie.
+Toets jou program weer. Let daarop dat die antwoord wat u ingevoer word, in die `naam`{: class = "block3variables"} veranderlike gestoor word en ook in die boonste linkerhoek van die stadium vertoon word. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
