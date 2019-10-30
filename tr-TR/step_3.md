@@ -74,4 +74,4 @@ Kodunuz eskisi gibi çalışmalıdır: chatbot yazdığınız adı kullanarak me
 
 \--- /görev \---
 
-Programınızı tekrar test edin. Yazdığınız cevabın `{`class: "=" block3variables "} değişkeninde saklandığına ve ayrıca Sahne Alanı'nın sol üst köşesinde de bulunduğuna dikkat edin. Sahne Alanı'ndan kaybolmasını sağlamak için `Veri`{: class = "block3variables"} blok bölümüne gidin ve işaretlenmemesi için `ad`{: class = "block3variables"} yanındaki kutuyu tıklayın.
+Programınızı tekrar test edin. Yazdığınız cevabın `{`class: "=" block3variables "} değişkeninde saklandığına ve ayrıca Sahne Alanı'nın sol üst köşesinde de bulunduğuna dikkat edin. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
