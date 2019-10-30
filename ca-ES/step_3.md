@@ -74,4 +74,4 @@ El teu codi hauria de funcionar com abans: el teu xat bot hauria de saludar amb 
 
 \--- /task \---
 
-Torna a provar el codi. Tingues en compte que la resposta que escrius s'emmagatzema a la variable ` nom` {: class = "block3variables"} i també es mostra a l'extrem superior esquerre de l'Escenari. Per fer que desaparegui de l'Escenari, ves a la secció de blocs ` Dades ` {: class = "block3variables"} i fes clic a la casella que hi ha al costat de `nom ` {: class = "block3variables"} perquè no quedi marcat.
+Torna a provar el codi. Tingues en compte que la resposta que escrius s'emmagatzema a la variable ` nom` {: class = "block3variables"} i també es mostra a l'extrem superior esquerre de l'Escenari. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
