@@ -25,7 +25,7 @@ Scratchオフラインエディターが必要ならば、[https://rpf.io/scratc
 
 スタータープロジェクトには4つのキャラクタースプライトが含まれています。そのうちの一つがあなたのチャットボットになります。
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+既に選択されているスプライトを使用するか、好きなスプライトをクリックした後、ステージの下のスプライトメニューから**表示する**または**隠す**ための目のアイコンを選んで、別のスプライトを選択することができます。
 
 ![キャラクターを選択する](images/chatbot-characters.png)
 
