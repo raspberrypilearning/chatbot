@@ -25,7 +25,7 @@
 
 Τι αρχικό έργο περιέχει τέσσερις χαρακτήρες. Ένα από αυτά θα είναι το chatbot σου.
 
-Μπορείς είτε να χρησιμοποιήσεις τον χαρακτήρα που έχει ήδη επιλεγεί, είτε να επιλέξεις ένα άλλο κάνοντας δεξί κλικ και πατώντας **εμφάνιση** ή **απόκρυψη** από το μενού που εμφανίζεται.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Διάλεξε ένα χαρακτήρα](images/chatbot-characters.png)
 
