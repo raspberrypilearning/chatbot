@@ -74,4 +74,4 @@ Koodisi pitäisi toimia kuten aikaisemmin: chatbotin pitäisi sanoa hei käyttä
 
 \--- / tehtävä \---
 
-Testaa ohjelma uudelleen. Huomaa, että kirjoittamasi vastaus tallennetaan `nimen`{: class = "block3variables"} muuttujaan, ja se näkyy myös näyttämön vasemmassa yläkulmassa. Jotta se katoaisi vaiheesta, siirry kohtaan `Data`{: class = "block3variables"} ja napsauta `nimen`{: class = "block3variables"} vieressä olevaa ruutua niin, ettei se ole merkitty.
+Testaa ohjelma uudelleen. Huomaa, että kirjoittamasi vastaus tallennetaan `nimen`{: class = "block3variables"} muuttujaan, ja se näkyy myös näyttämön vasemmassa yläkulmassa. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
