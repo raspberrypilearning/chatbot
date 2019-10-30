@@ -74,4 +74,4 @@
 
 \--- /task \---
 
-再次测试你的程序。 请注意，您键入的答案存储在 `名称`{：class =“block3variables”}变量中，并且还显示在舞台的左上角。 要使它从舞台上消失，请转到 `Data`{：class =“block3variables”} blocks部分，然后单击 `name`{：class =“block3variables”}旁边的框，以便不标记它。
+再次测试你的程序。 请注意，您键入的答案存储在 `名称`{：class =“block3variables”}变量中，并且还显示在舞台的左上角。 To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
