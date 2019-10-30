@@ -25,7 +25,7 @@ Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le 
 
 Le projet de démarrage contient quatre sprites de caractères. L'un d'eux sera ton chatbot.
 
-Tu peux soit utiliser le sprite qui est déjà sélectionné, ou en choisir un différent en cliquant sur celui que tu veux et en sélectionnant **montrer** ou **cacher** dans la section afficher juste au dessus.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Choisir le personange](images/chatbot-characters.png)
 
