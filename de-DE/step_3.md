@@ -74,4 +74,4 @@ Dein Code sollte wie zuvor funktionieren: dein Chatbot sollte dich mit Hallo und
 
 \--- /task \---
 
-Teste dein Programm erneut. Beachte, dass die Antwort die du eingibst, in der `name` {:class="block3variables"} Variable gespeichert wird, und auch in der oberen linken Ecke der Bühne angezeigt wird. Um die Variable von der Bühne verschwinden zu lassen, gehe zur `Data`{:class="block3variables"} Block-Abschnitt und klicke auf die Box neben `name`{:class="block3variables"}, sodass sie nicht markiert ist.
+Teste dein Programm erneut. Beachte, dass die Antwort die du eingibst, in der `name` {:class="block3variables"} Variable gespeichert wird, und auch in der oberen linken Ecke der Bühne angezeigt wird. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
