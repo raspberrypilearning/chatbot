@@ -28,6 +28,4 @@ steps:
     title: "Udfordring: Afslut din chatbot"
     challenge: true
   - 
-    title: Test dig selv
-  - 
-    title: Hvad er det næste?
+    title: What next?
