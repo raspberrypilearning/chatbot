@@ -74,4 +74,4 @@ Váš kód by měl fungovat stejně jako předtím: Váš chatbot by měl říka
 
 \--- /task \---
 
-Otestujte svůj program znovu. Všimněte si, že odpověď, kterou zadáte, je uložena v proměnné `jméno`{: class = "block3variables"} a je zobrazena také v levém horním rohu Stage. Chcete-li zmizet ze scény, přejděte do bloků `Data`{: class = "block3variables"} a klikněte na pole vedle `názvu`{: class = "block3variables"} tak, aby nebyla označena.
+Otestujte svůj program znovu. Všimněte si, že odpověď, kterou zadáte, je uložena v proměnné `jméno`{: class = "block3variables"} a je zobrazena také v levém horním rohu Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
