@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+これは、**Scratch 3**バージョンのプロジェクトです。[Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2)バージョンのプロジェクトもあります。
 
 \--- /no-print \---
 
 ## はじめに
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+あなたと話しができるキャラクターをプログラムする方法を学びます！そのようなキャラクターは、チャットロボットまたはチャットボットと呼ばれます。
 
 ### 作るもの
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+緑の旗をクリックし、チャットボットのキャラクターをクリックして会話を始めましょう。 チャットボットが質問をしたら、ステージの下部にあるボックスに答えを入力し、右にある青いマークをクリックして（または`Enter`を押して）チャットボットの返答を確認します。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![完成したプロジェクト](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -41,9 +41,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 - Scratch 3 ([オンライン](https://rpf.io/scratchon)または[オフライン](https://rpf.io/scratchoff))
 
-### Downloads
+### ダウンロード一覧
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [ここからダウンロードするファイルを探す](http://rpf.io/p/en/chatbot-go) 
 
 \--- /collapse \---
 
@@ -53,22 +53,22 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: 学習すること
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Scratchでコードを使用して文字列を連結する
+- 変数を使用してユーザーの入力を保存できることを知る
+- Scratchで条件付き選択を使用してユーザーの入力に返答する \--- / collapse \---
 
 \--- collapse \---
 
 * * *
 
-## title: Additional notes for educators
+## title: 教育者向けの追加メモ
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は[印刷用バージョン](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}を使用してください。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+[ここで完成したプロジェクト](http://rpf.io/p/en/chatbot-get)を見ることができます 。
 
 \--- /collapse \---
