@@ -25,7 +25,7 @@ Si necesita descargar e instalar el editor de Scratch offline, puede encontrarlo
 
 El proyecto de inicio contiene cuatro personajes. Uno de estos será tu chatbot.
 
-Puede usar el personaje que ya está seleccionado, o elegir uno diferente haciendo clic derecho en el que desea y luego seleccionando **mostrar** o **ocultar** del menú que aparece.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Choose a character](images/chatbot-characters.png)
 
