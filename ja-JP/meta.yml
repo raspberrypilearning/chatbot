@@ -6,7 +6,7 @@ theme: violet
 listed: true
 copyedit: false
 version: 4.1.0
-last_tested: 2017-01-01
+last_tested: 2018-09-20
 steps:
   - 
     title: はじめに
@@ -28,4 +28,4 @@ steps:
     title: "チャレンジ: 自分のチャットボット"
     challenge: true
   - 
-    title: What next?
+    title: その先は？
