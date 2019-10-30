@@ -25,7 +25,7 @@ Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o h
 
 Mae'r prosiect cychwynol yn cynnwys pedwar cymeriad corlun. Un o'r rhain fydd dy sgwrsfot.
 
-Galli di unai ddewis y corlun sydd wedi ei ddewis yn barod, neu dewis un gwahanol trwy ddewis clic-dde ar yr un wyt ti am ei ddefnyddio a dewis **dangos** neu **cuddio** o'r ddewislen sy'n ymddangos.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Dewis cymeriad](images/chatbot-characters.png)
 
