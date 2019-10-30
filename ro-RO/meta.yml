@@ -28,6 +28,4 @@ steps:
     title: "Provocare: finalizează-ți robotul vorbitor"
     challenge: true
   - 
-    title: Testează-te
-  - 
-    title: Ce urmează?
+    title: What next?
