@@ -73,4 +73,4 @@
 
 \--- /task \---
 
-Δοκίμασε ξανά το πρόγραμμά σου. Παρατήρησε ότι η απάντηση που πληκτρολογείς αποθηκεύεται στη μεταβλητή `όνομα`{:class="block3variables"} κι επίσης εμφανίζεται στην πάνω αριστερά γωνία του σκηνικού. Για να την κάνεις να εξαφανιστεί από το σκηνικό, πήγαινε στην ομάδα των μπλοκ `Δεδομένα`{:class="block3variables"} και κάνε κλικ στο κουτί δίπλα στο `όνομα`{:class="block3variables"} ώστε να μην είναι επιλεγμένο.
+Δοκίμασε ξανά το πρόγραμμά σου. Παρατήρησε ότι η απάντηση που πληκτρολογείς αποθηκεύεται στη μεταβλητή `όνομα`{:class="block3variables"} κι επίσης εμφανίζεται στην πάνω αριστερά γωνία του σκηνικού. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
