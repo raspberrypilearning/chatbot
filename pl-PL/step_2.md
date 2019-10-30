@@ -25,7 +25,7 @@ Jeśli potrzebujesz pobrać i zainstalować program Scratch Desktop, znajdziesz 
 
 Projekt startowy zawiera cztery duszki. Jednym z nich będzie Twój czatbot.
 
-Możesz użyć duszka, który jest już wybrany albo wybrać innego, klikając prawym przyciskiem myszy na danym duszku, a następnie wybierając opcję **pokaż** lub **ukryj** z menu, które się pojawi.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Wybierz postać](images/chatbot-characters.png)
 
