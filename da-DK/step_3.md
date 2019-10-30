@@ -74,4 +74,4 @@ Din kode skal fungere som før: din chatbot skal sige hej ved at bruge det navn,
 
 \--- /task \---
 
-Test dit program igen. Bemærk, at svaret du indtaster gemmes i variablen `navn`{: class = "block3variables"}, og vises også øverst til venstre i scenen. For at få det til at forsvinde fra scenen, gå til `Data`{: class = "block3variables"} blokkeafsnittet og klik på feltet ud for `navn`{: class = "block3variables"}, så det ikke er markeret.
+Test dit program igen. Bemærk, at svaret du indtaster gemmes i variablen `navn`{: class = "block3variables"}, og vises også øverst til venstre i scenen. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
