@@ -2,16 +2,16 @@
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+इससे पहले कि आप अपनी चैटबोट बनाना शुरू करें, आपको यह तय करने की आवश्यकता है कि इसका व्यक्तित्व क्या है। ** निम्नलिखित प्रश्नों के बारे में सोचें **:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ चैटबॉट का नाम क्या है?
++ वो कहाँ रहता है?
++ क्या यह खुश है? गंभीर? मजेदार? संकोच? अनुकूल?
++ यह पसंद और नापसंद क्या है?
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- कार्य \--- चैटबोट स्क्रैच स्टार्टर प्रोजेक्ट खोलें।
 
 **ऑनलाइन:** [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें।
 
