@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+यह प्रोजेक्ट का **स्क्रैच 3** संस्करण है। प्रोजेक्ट का [स्क्रैच 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) संस्करण भी है।
 
 \--- /no-print \---
 
 ## परिचय
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+आप यह जानने जा रहे हैं कि किस तरह से किसी ऐसे चरित्र को प्रोग्राम किया जाए जो आपसे बात कर सके! ऐसा चरित्र जिसे चैट रोबोट या चैटबॉट कहा जाता है।
 
 ### आप क्या बनाएँगे
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+हरे झंडे पर क्लिक करे, और फिट चैटबॉट पर क्लिक करे बातचीत शुरू करने के लिए। जब चैटबॉट आपसे कुछ पूछे, तब अपनी जवाब स्टेज के निचे डिब्बे में लिख दीजिये, और फिर नीले निशान (नहीं तो `एंटर` प्रेस कीजिये) पर क्लिक करे ताकि आप अपनी चैटबॉट का जवाब देख सकते हैं।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![पूर्ण परियोजनाएं](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -43,7 +43,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### डाउनलोड
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [ यहां डाउनलोड करने के लिए फ़ाइलें ढूंढें ](http://rpf.io/p/en/chatbot-go) ।
 
 \--- /collapse \---
 
@@ -53,9 +53,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: आप क्या सीखेंगे
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- स्क्रैच में तारों को समतल करने के लिए कोड का उपयोग करें
+- पता है कि चर का उपयोग उपयोगकर्ता इनपुट को संग्रहीत करने के लिए किया जा सकता है
+- स्क्रैच में उपयोगकर्ता इनपुट का जवाब देने के लिए सशर्त चयन का उपयोग करें \--- /collaspe \---
 
 \--- collapse \---
 
@@ -69,6 +69,6 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+आप यहां [ पूर्ण की गई परियोजना पा सकते हैं ](http://rpf.io/p/en/chatbot-get) ।
 
 \--- /collapse \---
