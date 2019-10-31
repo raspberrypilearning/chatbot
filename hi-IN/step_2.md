@@ -15,7 +15,7 @@
 
 **ऑनलाइन:** [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें।
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+यदि आपके पास एक स्क्रैच खाता है, तो आप ** रीमिक्स पर क्लिक करके प्रतिलिपि बना सकते हैं ** ।
 
 **Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
