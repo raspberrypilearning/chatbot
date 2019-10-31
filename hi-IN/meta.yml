@@ -1,7 +1,7 @@
 ---
 title: चैटबॉट
 hero_image: images/chatbot.png
-description: सीखें कैसे खुद से बात करने वाला अपना रोबोट प्रोग्राम करें।
+description: अपने बोलने वाले रोबोट को प्रोग्राम करना सीखें!
 theme: violet
 listed: true
 copyedit: false
@@ -28,4 +28,4 @@ steps:
     title: "चुनौती: अपना चैटबॉट समाप्त करना"
     challenge: true
   - 
-    title: What next?
+    title: आगे क्या?
