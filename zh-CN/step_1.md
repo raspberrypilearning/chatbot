@@ -1,4 +1,4 @@
---无打印--
+\--- no-print \---
 
 这个项目是基于**Scratch 3**版本的，另外还有一个基于[Scratch 2的版本](https://projects.raspberrypi.org/en/projects/chatbot-scratch2)。
 
@@ -10,7 +10,7 @@
 
 ### 学习成果
 
---无打印--
+\--- no-print \---
 
 点击绿旗，然后再点击聊天机器人角色开始与其对话。 当聊天机器人问你一个问题，在舞台底部的文本框中输入你的答案，然后再点击右侧的蓝色打勾标记（或直接按`回车`），就可以看到聊天机器人的回复。
 
@@ -55,17 +55,17 @@
 
 - Use code to concatenate strings in Scratch
 - 知道变量可用于存储用户输入
-- 在Scratch 使用条件选择来响应用户输入\--- / collapse \---
+- 在Scratch 使用条件选择来响应用户输入 \--- / collapse \---
 
 \--- collapse \---
 
 * * *
 
-## 题目: 教师附加说明
+## title: 教师附加说明
 
---无打印--
+\--- no-print \---
 
-如果您需要打印此项目，请使用[打印友好版本 printer-friendly version ](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}。
 
 \--- /no-print \---
 
