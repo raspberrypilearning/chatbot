@@ -4,7 +4,7 @@
 
 \--- task \---
 
-点击你的聊天机器人精灵，这个代码添加到它，以便 `时，它被点击`{：类=“block3events”}，这 `询问你的姓名`{：类=“block3sensing”}，然后 `说：“什么可爱的名字！“`{：class =“block3looks”}。
+点击你的聊天机器人精灵，这个代码添加到它，以便 `时，它被点击`{:class=“block3events”}，这 `询问你的姓名`{:class=“block3sensing”}，然后 `说：“什么可爱的名字！“`{:class =“block3looks”}。
 
 ![纳米精灵](images/nano-sprite.png)
 
@@ -30,7 +30,7 @@
 
 现在，您的聊天机器人回复“多么可爱的名字！”每次你回答。您可以使聊天机器人的回复更加个性化，以便每次输入其他名称时回复都不同。
 
-将聊天机器人精灵的代码更改为 `加入`{：class =“block3operators”}“嗨”， `回答`{：class =“block3sensing”}改为“你叫什么名字？”问题，所以代码看起来像这样：
+将聊天机器人精灵的代码更改为 `加入`{:class =“block3operators”}“嗨”， `回答`{:class =“block3sensing”}改为“你叫什么名字？”问题，所以代码看起来像这样：
 
 ![纳米精灵](images/nano-sprite.png)
 
