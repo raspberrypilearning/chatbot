@@ -25,7 +25,7 @@ Preden začneš ustvarjati svoj klepetalni robot, se moraš odločiti, kakšna j
 
 Začetni projekt vsebuje štiri figure. Ena od teh bo tvoj čvekobot.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Lahko uporabiš že izbrano figuro ali izbereš drugo s klikom na tisto, ki jo želiš uporabiti, in izbiro ikone očesa **prikaz** ali **skrij**, ki se nahaja v meniju figure pod odrom.
 
 ![Izberi lik](images/chatbot-characters.png)
 
