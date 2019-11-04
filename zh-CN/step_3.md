@@ -35,9 +35,9 @@
 ![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-当这个精灵点击
-问[你的名字是什么？]并等待
-说（加入[Hi]（回答）:: +）（2）秒
+当角色被点击
+询问 [你的名字是什么？] 并等待
+说 (连接 [嗨 ] 和 (回答) :: +) (2) 秒
 ```
 
 ![测试个性化回复](images/chatbot-answer-test.png)
@@ -48,7 +48,7 @@
 
 通过将答案存储在 **变量**，您可以在项目的任何位置使用它。
 
-创建一个名为 `name`{：class =“block3variables”}的新变量。
+创建一个名为 `name`{:class =“block3variables”}的新变量。
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,16 +56,15 @@
 
 \--- task \---
 
-现在，改变你的聊天机器人精灵的代码所设置的 `名`{：类=“block3variables”}变量 `回答`{：类=“block3sensing”}：
+现在，改变你的聊天机器人精灵的代码所设置的 `名`{:class=“block3variables”}变量 `回答`{:class=“block3sensing”}：
 
 ![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-当这个精灵点击
-询问[你的名字是什么？]并等待
-
-+设置[name v]到（回答）
-说（加入[Hi]（名称::变量+））（2）秒
+当角色被点击
+询问 [你的名字是什么？] 并等待
++将 [name v] 设为 (回答)
+说 (连接 [嗨] 和 (name :: + variables)) (2) 秒
 ```
 
 您的代码应该像以前一样工作：您的聊天机器人应该使用您输入的名称打招呼。
