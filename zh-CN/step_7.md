@@ -12,7 +12,7 @@
 
 \--- hint \---
 
-你的聊天机器人应该 `问“你想去月亮？”`{：类= “block3sensing”}，和 `如果`{：类= “block3control”}你 `答案`{：类= “block3sensing”} “是”，就应该 `的背景下切换到月亮`{：类= “block3looks”}。
+你的聊天机器人应该 `问“你想去月亮？”`{:class= “block3sensing”}，和 `如果`{:class= “block3control”}你 `答案`{:class= “block3sensing”} “是”，就应该 `的背景下切换到月亮`{:class= “block3looks”}。
 
 \--- /hint \---
 
