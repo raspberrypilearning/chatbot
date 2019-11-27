@@ -6,13 +6,13 @@ Questa è la versione **Scratch 3** del progetto. C'è anche una [versione Scrat
 
 ## Introduzione
 
-Imparerai a programmare un personaggio che può parlare con te! Un elemento del genere è chiamato ChiacchieRobot.
+Imparerai a programmare un personaggio che può parlare con te! Un elemento del genere è chiamato ChiacchieRobot o chatbot.
 
 ### Cosa creerai
 
 \--- no-print \---
 
-Clicca sulla bandierina verde, e poi clicca sul tuo chiacchierobot per iniziare una conversazione. Quando il chiacchierobot fa una domanda, digita la tua risposta nella casella in fondo, quindi fai clic sul segno blu a destra (o premi ` Invio `) per vedere la risposta del chiacchierobot.
+Clicca sulla bandierina verde, e poi clicca sul tuo chiacchierobot per iniziare una conversazione. Quando il chiacchierobot fa una domanda, digita la tua risposta nella casella in fondo, quindi fai clic sul segno blu a destra (o premi `Invio`) per vedere la risposta del chiacchierobot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -43,7 +43,7 @@ Clicca sulla bandierina verde, e poi clicca sul tuo chiacchierobot per iniziare 
 
 ### Download
 
-- [Trova i download qui ](http://rpf.io/p/en/chatbot-go).
+- [Trova i download qui](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,9 +53,9 @@ Clicca sulla bandierina verde, e poi clicca sul tuo chiacchierobot per iniziare 
 
 ## title: Cosa imparerai
 
-- Use code to concatenate strings in Scratch
-- Sapere che le variabili possono essere utilizzate per memorizzare l'input dell'utente
-- Usa la selezione condizionale per rispondere all'input dell'utente in Scratch \--- / collapse \---
+- Usa il codice per concatenare le stringhe in Scratch
+- Impara che le variabili possono essere utilizzate per memorizzare l'input dell'utente
+- Usa la selezione condizionale per rispondere all'input dell'utente in Scratch \--- /collapse \---
 
 \--- collapse \---
 
