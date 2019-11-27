@@ -25,7 +25,7 @@
 
 入门项目包含四个角色精灵。其中一个将是您的聊天机器人。
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+您可以使用已选择的精灵，也可以通过单击所需的精灵，然后选择**显示来选择其他精灵。 **或**隐藏**舞台下方精灵菜单中的眼睛图标。
 
 ![选择角色](images/chatbot-characters.png)
 
