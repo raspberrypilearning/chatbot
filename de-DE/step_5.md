@@ -65,47 +65,47 @@ Teste deinen Code nochmals. Du solltest eine andere Antwort erhalten, wenn du mi
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Du kannst jeden Code in einen `falls, dann, sonst`{:class="block3control"} Block legen, nicht nur Code, dass dein Chatbot spricht!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Wenn du deines Chatbot **Kostüme** Reiter klickst, wirst du sehen, dass deine Figur mehr als ein Kostüm hat.
 
 ![Chatbot Kostüme](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Ändere den Code deines Chatbots so, dass der Chatbot sein Kostüme wechselt, wenn du deine Antwort eingeben hast.
 
 ![Ein Kostüm wechseln und ausprobieren](images/chatbot-costume-test1.png)
 
 ![Ein Kostüm wechseln und ausprobieren](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Ändere den Code im `falls, dann, sonst` {: class = "block3control"} Block um das `Kostüm zu wechseln` {: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
+ask [Wie ist dein Name?] and wait
+set [name v] to (Antwort)
+say (join [Hallo ] (name)) for (2) seconds
+ask (join [Alles OK bei dir?] (name)) and wait
+if <(Antwort) = [ja]> then 
 
 +  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
+  say [Das hört sich großartig an!] for (2) seconds
 else 
 +  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
+  say [Oh nein!] for (2) seconds
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Speicher und teste deinen Code. Du solltest sehen, wie sich das Gesicht deines Chatbots ändert wenn du deine Antwort eingibst.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Ist dir aufgefallen, dass das Kostüm deines Chatbots nach dem Wechsel so bleibt und sich nicht mehr zu dem Kostüm wechselt, wie es am Anfang war?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Du kannst es ausprobieren: Führe deinen Code aus und antworte "Nein", so dass sich das Gesicht deines Chatbots zu einem unglücklichen Aussehen ändert. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
 
 ![Kostüm-Fehler](images/chatbot-costume-bug-test.png)
 
