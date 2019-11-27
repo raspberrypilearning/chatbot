@@ -6,7 +6,7 @@ Per prima cosa, farai fare al tuo chatbot una domanda alla quale si possa rispon
 
 \--- task \---
 
-Cambia il codice del tuo chiacchierobot. Il tuo chatbot dovrebbe porre la domanda "Stai bene", usando la variabile`nome`{: class = "block3variables"}. Quindi dovrebbe rispondere "Ne sono lieto!" `se` {: class = "block3control"} la risposta che riceve è "si" (senza accento), ma non dire nulla se la risposta è "no".
+Cambia il codice del tuo chiacchierobot. Il tuo chatbot dovrebbe porre la domanda "Stai bene", usando la variabile`nome`{:class="block3variables"}. Quindi dovrebbe rispondere "Ne sono lieto!" `se` {: class = "block3control"} la risposta che riceve è "si" (senza accento), ma non dire nulla se la risposta è "no".
 
 ![Testare la risposta del ChiacchieRobot](images/chatbot-if-test1-annotated.png)
 
@@ -15,13 +15,13 @@ Cambia il codice del tuo chiacchierobot. Il tuo chatbot dovrebbe porre la domand
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [Come ti c hiami?] and wait
-set [nome v] to (answer)
-say (join [Ciao ] (nome)) for (2) seconds
-+ask (join [Stai bene ] (name)) and wait
-+if <(answer) = [si]> then 
-  say [Ne sono lieto!] for (2) seconds
+quando si clicca questo sprite
+chiedi [Come ti chiami?] e attendi
+porta [nome v] a (risposta)
+dire (unione di [Ciao ] e (nome)) per (2) secondi
++chiedi (unione di [Come stai, ] e (nome)) e attendi
++se <(risposta) = [si]> allora 
+  dire [Ne sono lieto!] per (2) secondi
 end
 ```
 
@@ -35,20 +35,21 @@ Al momento, il tuo chatbot non dice nulla alla risposta "no".
 
 Modifica il codice del tuo chatbot in modo che risponda "Oh no!" se riceve "no" come risposta a "Stai bene nome".
 
-Sostituire `se` {: class = "block3control"} con un `se, allora, altrimenti` {: class = "block3control"} che include il codice in modo che il chatbot possa ` dire "Oh no!" ` {: Class = "block3looks"}.
+Sostituisci `se`{:class="block3control"} con un `se, allora, altrimenti` {:class="block3control"} che includa il codice in modo che il chatbot possa ` dire "Oh no!" ` {:Class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [Come ti chiami?] and wait
-set [nome v] to (answer)
-say (join [Ciao ] (nome)) for (2) seconds
-+ask (join [Stai bene ] (name)) and wait
-+if <(answer) = [si]> then 
-  say [Ne sono lieto!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
+quando si clicca questo sprite
+chiedi [Come ti chiami?] e attendi
+porta [nome v] a (risposta)
+dire (unione di [Ciao ] e (nome)) per (2) secondi
+chiedi (unione di [Come stai, ] e (nome)) e attendi
+
++ se <(risposta) = [si]> allora 
+  dire [Ne sono lieto!] per (2) secondi
+altrimenti 
++ dire [Oh no!] per (2) secondi
 end
 ```
 
@@ -56,7 +57,7 @@ end
 
 \--- task \---
 
-Prova di nuovo il tuo codice. Dovresti ottenere una risposta diversa quando rispondi "no" e quando rispondi "sì": il tuo chiacchierobot dovrebbe rispondere con "Ne sono lieto!" quando rispondi "si" (che non fa distinzione tra maiuscole e minuscole) e rispondi con "Oh no!" quando rispondi ** qualsiasi altra cosa **.
+Prova di nuovo il tuo codice. Dovresti ottenere una risposta diversa quando rispondi "no" e quando rispondi "sì": il tuo chiacchierobot dovrebbe rispondere con "Ne sono lieto!" quando rispondi "si" (che non fa distinzione tra maiuscole e minuscole) e rispondere con "Oh no!" quando rispondi **qualsiasi altra cosa**.
 
 ![Testare la risposta del ChiacchieRobot](images/chatbot-if-test2.png)
 
@@ -64,7 +65,7 @@ Prova di nuovo il tuo codice. Dovresti ottenere una risposta diversa quando risp
 
 \--- /task \---
 
-Dentro un blocco `se/altrimenti` puoi mettere qualsiasi codice, e non solo il codice che fa parlare il tuo ChiacchieRobot!
+Dentro un blocco `se,allora,altrimenti`{:class="block3control"} puoi mettere qualsiasi codice, e non solo il codice che fa parlare il tuo ChiacchieRobot!
 
 Se dai un’occhiata ai **costumi** del ChiacchieRobot, noterai che ce ne sono più di uno.
 
@@ -72,52 +73,52 @@ Se dai un’occhiata ai **costumi** del ChiacchieRobot, noterai che ce ne sono p
 
 \--- task \---
 
-Modifica il codice del tuo chatbot in modo che il chatbot cambi i costumi quando digiti la risposta.
+Modifica il codice del tuo chatbot in modo che cambi i costumi quando digiti la risposta.
 
 ![Testare un cambio di costume](images/chatbot-costume-test1.png)
 
 ![Testare un cambio di costume](images/chatbot-costume-test2.png)
 
-Cambia il codice all'interno del `se, allora, altrimenti`{:class="block3control"} per `Cambiare costume`{:class="block3look"}.
+Cambia il codice all'interno del `se,allora, altrimenti`{:class="block3control"} per `Cambiare costume`{:class="block3look"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
-ask [Come ti chiami?] and wait
-set [nome v] to (answer)
-say (join [Ciao ] (nome)) for (2) seconds
-+ask (join [Stai bene ] (name)) and wait
-+if <(answer) = [si]> then 
-+  switch costume to (nano-c v)
-  say [Ne sono lieto!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
+chiedi [Come ti chiami?] e attendi
+porta [nome v] a (risposta)
+dire (unione di [Ciao ] e (nome)) per (2) secondi
+chiedi (unione di [Come stai ] e (name)) e attendi
+se <(risposta) = [si]> allora 
++  passa al costume (nano-c v)
+  dire [Ne sono lieto!] per (2) secondi
+altrimenti 
++  passa al costume (nano-d v)
+  dire [Oh no!] per (2) secondi
 end
 ```
 
-Prova il tuo codice e salvalo. La faccia del tuo ChiacchieRobot dovrebbe cambiare in base alla tua risposta.
+Prova il tuo codice e salvalo. L'espressione del tuo ChiacchieRobot dovrebbe cambiare in base alla tua risposta.
 
 \--- /task \---
 
-Hai notato che, dopo che il costume del tuo chatbot è cambiato, rimane così e non ritorna a quello che era all'inizio?
+Hai notato che, dopo che il costume del tuo chatbot è cambiato, rimane così e non ritorna a quello iniziale?
 
-Puoi provarlo: esegui il tuo codice e rispondi "no" in modo che il viso del tuo chatbot si trasformi in un aspetto infelice. Quindi esegui di nuovo il codice e nota che il tuo chatbot non torna a sembrare felice prima che ti chieda il tuo nome.
+Puoi provarlo: esegui il tuo codice e rispondi "no" in modo che il viso del tuo chatbot assuma un'espressione infelice. Quindi esegui di nuovo il codice e nota che il tuo chatbot non torna ad essere felice prima che ti chieda il tuo nome.
 
 ![Problemi con i costumi](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-Per risolvere questo problema, aggiungi il codice del chatbot a ` cambia costume ` {: class = "block3looks"} all'inizio ` quando si fa clic sullo sprite ` {: Class = "block3events"}.
+Per risolvere questo problema, aggiungi il codice del chatbot a `cambia costume`{:class="block3looks"} all'inizio `quando si fa clic sullo sprite`{:Class="block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+quando si clicca questo sprite
 
-+ switch costume to (nano-a v)
-ask [Come ti chiami?] and wait
++ passa al costume (nano-a v)
+chiedi [Come ti chiami?] e attendi
 ```
 
 ![Sistemare i costumi](images/chatbot-costume-fix-test.png)
