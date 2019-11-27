@@ -1,15 +1,15 @@
-## What next?
+## E agora?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+Experimente o projeto [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) onde você vai criar o seu próprio programa de pintura!
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+--- no-print--- Clica na bandeira verde para começar. Usa o mouse para mover o lápis e mantém pressionado o botão esquerdo do mouse para desenhar. Clique em uma cor para trocar de lápis. Clique na borracha para mudar para ela e usá-la para apagar o seu trabalho. Para limpar a página, clique na cruz.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/paint-box-showcase.png">
 </div>
-\--- /no-print \---
+--- /no-print ---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+--- print-only --- Você vai clicar na bandeira verde para começar, e vai usar o mouse para mover o lápis e manter pressionado o botão esquerdo do mouse para desenhar. Clicar numa cor vai mudar as cores do lápis, e clicar na borracha irá mudar para a borracha!
 
-![showcase](images/paint-box-showcase.png) \--- /print-only \---
+![galeria](images/paint-box-showcase.png) --- /print-only ---
