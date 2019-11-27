@@ -53,7 +53,7 @@
 
 ## title: 你将学到什么
 
-- Use code to concatenate strings in Scratch
+- 使用代码在Scratch中连接字符串
 - 知道变量可用于存储用户输入
 - 在Scratch 使用条件选择来响应用户输入 \--- / collapse \---
 
