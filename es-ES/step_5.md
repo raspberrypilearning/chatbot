@@ -1,12 +1,12 @@
 ## Tomando decisiones
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Puedes programar tu chatbot para que decida qué hacer en función de las respuestas que recibe.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Primero, vas a hacer que tu chatbot haga una pregunta que pueda responderse con "sí" o "no".
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Cambia el código de tu chatbot. Tu chatbot debe hacer la pregunta "Estas bien nombre", usando la variable `nombre`{:class="block3variables"}. Entonces debería responder "¡Me alegra oírlo!" `si`{:class="block3control"} la respuesta que recibe es "sí", pero no decir nada si la respuesta es "no".
 
 ![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
@@ -16,40 +16,40 @@ Change your chatbot's code. Your chatbot should ask the question "Are you OK nam
 
 ```blocks3
 when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
+ask [¿Cómo te llamas?] and wait
+set [nombre v] to (answer)
+say (join [Hola] (name)) for (2) seconds
++ask (join [Estás bien] (nombre)) and wait
++if <(answer) = [sí]> then 
+  say [¡Me alegra oírlo!] for (2) seconds
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Para probar tu nuevo código correctamente, debes probarlo **dos veces **, una vez con la respuesta "sí", y otra con la respuesta "no".
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+De momento, tu chatbot no dice nada a la respuesta "no".
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Cambia el código de tu chatbot para que responda "¡Oh no!" si recibe "no" como respuesta a "¿Estás bien nombre?".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Sustituye el bloque `if, then`{:class="block3control"} con un bloque `if, then, else`{:class="block3control"}, e incluye código para que el chatbot pueda `decir "Oh no!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
+ask [¿Cómo te llamas?] and wait
+set [nombre v] to (answer)
+say (join [Hola] (name)) for (2) seconds
+ask (join [Estás bien ] (name)) and wait
 
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
++ if <(answer) = [sí]> then 
+  say [¡Me alegra oírlo!] for (2) seconds
 else 
-+  say [Oh no!] for (2) seconds
++  say [¡Oh no!] for (2) seconds
 end
 ```
 
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Prueba tu código. Deberías obtener una respuesta diferente cuando respondes "no" y cuando respondes "sí": tu chatbot debería responder con "¡Me alegra oírlo! cuando respondas "sí" (que no es sensible a mayúsculas/minúsculas), y responder con "¡Oh no!" cuando respondas **cualquier otra cosa**.
 
 ![Testing a chatbot reply](images/chatbot-if-test2.png)
 
