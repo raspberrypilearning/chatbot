@@ -53,11 +53,11 @@ Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para
 
 ## Título: Lo que aprenderás.
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Usa el código para concatenar cadenas en Scratch
+- Sepa que las variables se pueden usar para almacenar la entrada del usuario
+- Utilizar la selección condicional para responder a la entrada de un usuario en Scratch \--- / collapse \---
 
-\--- collapse \---
+\--- colapso \---
 
 * * *
 
