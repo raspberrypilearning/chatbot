@@ -1,67 +1,68 @@
+--- no-print ---
+
+Questa è la versione **Scratch 3** del progetto. C'è anche una [versione Scratch 2 del progetto](https://projects.raspberrypi.org/it-IT/projects/chatbot-scratch2).
+
+--- /no-print ---
+
 ## Introduzione
 
-Imparerai a programmare il tuo robot parlante!
+Imparerai a programmare un personaggio che può parlare con te! Un elemento del genere è chiamato ChiacchieRobot o chatbot.
 
 ### Cosa creerai
 
+--- no-print ---
+
+Clicca sulla bandierina verde, e poi clicca sul tuo chiacchierobot per iniziare una conversazione. Quando il chiacchierobot fa una domanda, digita la tua risposta nella casella in fondo, quindi fai clic sul segno blu a destra (o premi `Invio`) per vedere la risposta del chiacchierobot.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/219854441/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/348907175/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Clicca sulla bandierina verde, e poi clicca sul tuo robot per iniziare una conversazione. Quando il robot ti fa una domanda, digita la tua risposta nella casella in basso e fai click sulla spunta (oppure premi `Invio`).
+--- /no-print ---
 
-### Cosa imparerai
+--- print-only ---
 
-Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum):
+![progetto completo](images/chatbot-preview.png)
 
-+ [Utilizzare i costrutti base di un linguaggio di programmazione per creare programmi semplici.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-### Ulteriori informazioni per gli organizzatori dei club
-
-Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/it-IT/projects/chatbot/print).
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Note per i volontari
+title: Di cosa avrai bisogno
 ---
-## Introduzione:
+### Hardware
 
-In questo progetto, i bambini impareranno come usare l'istruzione ‘if’ (ovvero 'se') per prendere decisioni nei loro programmi.
+- Un computer in grado di eseguire Scratch 3
 
-## Risorse
+### Software
 
-Per questo progetto, andrebbe usato Scratch 2. Scratch 2 può essere usato online su [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) oppure può essere scaricato da [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) ed essere usato in modalità offline.
+- Scratch 3 ([online](https://rpf.io/scratchon) o [offline](https://rpf.io/scratchoff))
 
-Una versione completa di questo progetto può essere trovata [online](https://scratch.mit.edu/projects/219854441/#editor), o può essere scaricata cliccando il link ‘Materiali del Progetto’, che contiene:
+### Download
 
-+ ChatBot.sb2
-
-## Obiettivi di apprendimento
-
-+ Inserimento di testo;
-+ Decisioni: 
-    + Istruzioni `se ... allora`{:class="blockcontrol"};
-    + Istruzioni `se ... allora ... altrimenti`{:class="blockcontrol"}.
-
-Questo progetto include elementi tratti dalle seguenti componenti del [Digital Making Curriculum di Raspberry Pi](http://rpf.io/curriculum):
-
-+ [Utilizzare i costrutti base di un linguaggio di programmazione per creare programmi semplici.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## Sfide
-
-+ “Altre domande” - consolida l’apprendimento del testo immesso e del blocco `risposta`{:class="blocksensing"};
-+ “Altre decisioni” - utilizzare decisioni;
-+ “Crea il tuo ChiacchieRobot” - consolida l’apprendimento di questo progetto e dei progetti precedenti.
+- [Trova i download qui](http://rpf.io/p/it-IT/chatbot-go).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Materiali del progetto
+title: Cosa imparerai
 ---
-## Risorse per gli organizzatori del club
+- Usa il codice per concatenare le stringhe in Scratch
+- Impara che le variabili possono essere utilizzate per memorizzare l'input dell'utente
+- Usa la selezione condizionale per rispondere all'input dell'utente in Scratch --- /collapse ---
 
-+ [Progetto Scratch 2 completo scaricabile](resources/ChatBot.sb2)
-+ [Progetto Scratch 2 completo online](https://scratch.mit.edu/projects/219854441/#editor)
+--- collapse ---
+---
+title: Note addizionali per gli educatori
+---
+--- no-print ---
+
+Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/it-IT/projects/chatbot/print){:target="_blank"}.
+
+--- /no-print ---
+
+Puoi trovare il [progetto completo qui](http://rpf.io/p/it-IT/chatbot-get){:target="_blank}.
 
 --- /collapse ---
