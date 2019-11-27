@@ -1,15 +1,15 @@
-## What next?
+## आगे क्या?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+[ पेंट बॉक्स प्रोजेक्ट](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) आज़माएं, जहाँ आप अपना पेंटिंग प्रोग्राम बनाएंगे!
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+--- no-print --- शुरू करने के लिए हरी झंडी पर क्लिक करें। माउस का इस्तेमाल करके कलम को चलाइये, और माउस की बाएं पक्ष को निचे दबा कर रखिये ताकि आप चित्र बना सकते हैं। किसीभी रंग के ऊपर क्लिक करे ताकि आप रंग बदल सकते हैं। रबड़ पर क्लिक करे, और उसका इस्तेमाल करके अपनी काम को मिटाईये। अपनी पेज को क्लियर करने के लिए, क्रॉस पर क्लिक करे।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/paint-box-showcase.png">
 </div>
-\--- /no-print \---
+--- /no-print ---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+--- print-only --- हरे झंडे पर क्लिक करे शुरू करने के लिए, और फिर आप माउस का इस्तेमाल करके पेंसिल को हिलाएंगे और माउस की बाये तरफ की बटन को प्रेस करेंगे एक चित्र बनाने के लिए। अगर आप किसी भी रंग पर क्लिक करेंगे तो आपकी पेंसिल की रंग भी बदल जाएगी, और रबड़ पर क्लिक करने से वह रबड़ में बदल जाएगी!
 
-![showcase](images/paint-box-showcase.png) \--- /print-only \---
+![शोकेस](images/paint-box-showcase.png) --- /print-only ---
