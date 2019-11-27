@@ -1,6 +1,6 @@
 ## चुनौती: अधिक प्रश्न
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+एक और सवाल पूछने के लिए अपने चैटबॉट को प्रोग्राम करें। क्या आप इस नए प्रश्न का उत्तर एक नए चर में संग्रहीत कर सकते हैं?
 
 ![अधिक प्रश्न](images/chatbot-question1.png)
 
