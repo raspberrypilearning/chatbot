@@ -1,26 +1,26 @@
 ## स्थान बदलना
 
-You can also program your chatbot to change its location!
+आप अपना स्थान बदलने के लिए अपने चैटबोट को भी प्रोग्राम कर सकते हैं!
 
 ![पृष्ठभूमि बदलने का परीक्षण करना](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+क्या आप "क्या आप चाँद पर जाना चाहते हैं" पूछने के लिए अपने चैटबोट को प्रोग्राम कर सकते हैं, और जब जवाब "हाँ" हो तो पृष्ठभूमि बदल दें?
 
 \--- hints \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+आपके चैटबोट को ` पूछना चाहिए "क्या आप चाँद पर जाना चाहते हैं?" ` {} वर्ग = "ब्लॉक 3 सेंसिंग"}, और ` यदि ` {= class = "block3control"} आप ` उत्तर दें ` {"class =" block3sensing "}" हाँ ", यह ` पृष्ठभूमि को चंद्रमा पर स्विच करना चाहिए ` {: वर्ग = "block3looks"}।
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+यहां कोड ब्लॉक हैं जिन्हें आपको अपने चैटबोट कोड में जोड़ना होगा।
 
-![nano sprite](images/nano-sprite.png)
+![नैनो स्प्राइट](images/nano-sprite.png)
 
 ```blocks3
 switch backdrop to (moon v)
@@ -53,9 +53,9 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+अब आपको यह सुनिश्चित करने की आवश्यकता है कि जब आप उस पर बात करने के लिए उस पर क्लिक करते हैं तो आपका चैटबोट सही स्थान पर शुरू होता है। इस ब्लॉक को अपने चैटबोट कोड के शीर्ष पर जोड़ें:
 
-![nano sprite](images/nano-sprite.png)
+![नैनो स्प्राइट](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -67,15 +67,15 @@ when this sprite clicked
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+अपने कार्यक्रम का परीक्षण करें, और "हां" का जवाब दें जब चैटबोट पूछता है कि क्या आप चाँद पर जाना चाहते हैं। आपको यह देखना चाहिए कि चैटबॉट की लोकेशन बदल जाती है।
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+आप निम्न कोड को नए ` के अंदर भी जोड़ सकते हैं ` {"class =" block3control "} ब्लॉकबॉट बनाने के लिए ब्लॉक करें और यदि आप" हां "का जवाब देते हैं तो चार बार ऊपर और नीचे कूदें:
 
-![nano sprite](images/nano-sprite.png)
+![नैनो स्प्राइट](images/nano-sprite.png)
 
 ```blocks3
 if <(answer) = [yes]> then 
