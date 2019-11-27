@@ -25,7 +25,7 @@ Se hai bisogno di scaricare e installare l'editor di Scratch offline, puoi trova
 
 Il progetto iniziale contiene quattro sprite di personaggi. Uno di questi sarà il tuo chiacchierobot.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Puoi utilizzare lo sprite già selezionato o sceglierne uno diverso cliccando quello desiderato e selezionando **mostra** o **nascondi** dell'icona a forma di occhio presente nel menù dello sprite appena sotto lo stage.
 
 ![Scegli un personaggio](images/chatbot-characters.png)
 
