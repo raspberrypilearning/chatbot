@@ -2,7 +2,7 @@
 title: 聊天机器人
 hero_image: images/chatbot.png
 description: 学习如何编写你自己的聊天机器人！
-theme: 紫色
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
@@ -28,4 +28,4 @@ steps:
     title: "挑战：完成你的聊天机器人"
     challenge: true
   - 
-    title: What next?
+    title: 接下来呢？
