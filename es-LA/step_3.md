@@ -74,4 +74,4 @@ Tu código debería funcionar como antes: tu chatbot debería decir hola usando 
 
 \--- / tarea \---
 
-Prueba tu programa de nuevo. Tenga en cuenta que la respuesta que escriba se almacena en la variable `name`{:class="block3variables"} y también se muestra en la esquina superior izquierda de la etapa. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Prueba tu programa de nuevo. Tenga en cuenta que la respuesta que escriba se almacena en la variable `name`{:class="block3variables"} y también se muestra en la esquina superior izquierda de la etapa. Para que desaparezca del Escenario, ve a `Variables`{:class="block3variables"} en la sección de bloques y haz clic en la caja junto a `nombre`{:class="block3variables"} para que quede desmarcada.
