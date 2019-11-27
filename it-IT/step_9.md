@@ -1,15 +1,15 @@
-## What next?
+## E adesso?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+Prova il progetto [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) dove creerai il tuo programma di disegno!
 
-\--- no-print \--- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+--- no-print --- Clicca sulla bandierina verde per cominciare. Utilizza il mouse per muovere la matita, e tieni premuto il pulsante sinistro per disegnare. Clicca su un colore per cambiare pastello. Clicca sulla gomma per usarla e cancellare il tuo lavoro. Per cancellare tutto, clicca sulla x.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
   <img src="images/paint-box-showcase.png">
 </div>
-\--- /no-print \---
+--- /no-print ---
 
-\--- print-only \--- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+--- print-only --- Fai clic sulla bandierina verde per iniziare. Utilizzera il mouse per spostare la matita e premi il pulsante sinistro del mouse per disegnare. Clicca un colore per cambiare i colori della matita e sulla gomma per le cancellazioni!
 
-![showcase](images/paint-box-showcase.png) \--- /print-only \---
+![showcase](images/paint-box-showcase.png) --- /print-only ---
