@@ -6,7 +6,7 @@ Puoi anche programmare il tuo ChiacchieRobot a cambiare la sua posizione!
 
 \--- task \---
 
-Puoi programmare il tuo chatbot per chiedere "Vuoi andare sulla luna", e quindi cambiare lo sfondo quando la risposta è "sì"?
+Puoi programmare il tuo chatbot in modo che chieda "Vuoi andare sulla luna", e quindi cambiare lo sfondo quando la risposta è "sì"?
 
 \--- hint \---
 
@@ -23,12 +23,11 @@ Ecco i blocchi di codice che devi aggiungere al tuo codice chiacchierobot.
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+passa allo sfondo (moon v)
 
-ask [Vuoi andare sulla luna?] and wait
+chiedi [Vuoi andare sulla luna?] e attendi
 
-if <(answer) = [si]> then 
-
+se <(risposta) = [si]> allora
 end
 ```
 
@@ -58,9 +57,9 @@ Ora devi assicurarti che il tuo chatbot si avvii nella posizione giusta quando f
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+quando si clicca questo sprite
 
-+ switch backdrop to (space v)
++ passa allo sfondo (space v)
 ```
 
 \--- /task \---
@@ -78,16 +77,16 @@ Puoi anche aggiungere il seguente codice all'interno del nuovo blocco `se`{:clas
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [si]> then 
-  switch backdrop to (moon v)
-
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
+se <(risposta) = [si]> allora 
+  passa allo sfondo (moon v)
+  
+  + ripeti (4) volte 
+  cambia y di (10)
+  attendi (0.1) secondi
+  cambia y di (-10)
+  attendi (0.1) secondi
   end
-end
+  end
 ```
 
 \--- /task \---
