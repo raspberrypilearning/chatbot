@@ -79,8 +79,8 @@ Puoi anche aggiungere il seguente codice all'interno del nuovo blocco `se`{:clas
 ```blocks3
 se <(risposta) = [si]> allora 
   passa allo sfondo (moon v)
-  
-  + ripeti (4) volte 
+
++ ripeti (4) volte 
   cambia y di (10)
   attendi (0.1) secondi
   cambia y di (-10)

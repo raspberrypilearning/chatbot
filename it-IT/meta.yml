@@ -10,7 +10,7 @@ last_tested: 2018-09-20
 steps:
   - title: Introduzione
   - title: Il tuo ChiacchieRobot
-  - title: Il tuo ChiacchieRobot
+  - title: Un ChiacchieRobot parlante
   - title: "Sfida: Altre domande"
     challenge: true
   - title: Prendere decisioni
