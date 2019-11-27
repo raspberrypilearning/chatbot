@@ -6,13 +6,13 @@ Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 d
 
 ## Introdução
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Você vai aprender a programar um personagem que pode falar com você! Um personagem como esse é chamado de robô de bate-papo, ou chatbot.
 
 ### O que você vai fazer
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Clique na bandeira verde e depois clique no personagem do chatbot para iniciar uma conversa. Quando o robô fizer uma pergunta, digite a sua resposta na caixa na parte inferior do Palco e clique na marca azul à direita (ou pressione ` Enter `), para ver a resposta do robô falante.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![projeto concluído](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -43,7 +43,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Downloads
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Encontre os arquivos para baixar aqui](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,9 +53,9 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: O que você vai aprender
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Usar o código para concatenar strings no Scratch
+- Saiba que variáveis podem ser usadas para armazenar a entrada do usuário
+- Use a seleção condicional no Scratch para responder à entrada do usuário \--- /collapse \---
 
 \--- collapse \---
 
@@ -69,6 +69,6 @@ Se você precisar imprimir este projeto, por favor, use a [versão para impress�
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Você pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
