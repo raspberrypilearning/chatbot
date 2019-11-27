@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Este es el ** Scratch 3 ** Versión del proyecto. También hay una versión [ Scratch 2 del proyecto. ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Esta es la versión ** Scratch 3 ** del proyecto. También hay una versión [ Scratch 2 del proyecto. ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
 ## Introducción
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+¡Vas a aprender cómo programar un personaje que puede hablar contigo! Este tipo de personaje se llama robot de chat, o chatbot.
 
 ### Lo que crearás
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Haz clic en la bandera verde y después haz clic en el chatbot para iniciar una conversación. Cuando el chatbot haga una pregunta, escribe tu respuesta en el cuadro de la parte inferior del escenario y haz clic en la marca azul de la derecha (o presiona `Enter`) para ver la respuesta del chatbot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![proyecto completo](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -43,7 +43,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Descargas
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [ Encuentra los archivos a descargar aquí ](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,15 +53,15 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: Lo que vas a aprender
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Usa el código para concatenar cadenas en Scratch
+- Saber que las variables pueden ser usadas para almacenar la entrada de un usuario
+- Utilizar la selección condicional para responder a la entrada de un usuario en Scratch \--- / collapse \---
 
 \--- collapse \---
 
 * * *
 
-## title: Additional notes for educators
+## title: Información adicional para educadores
 
 \--- no-print \---
 
@@ -69,6 +69,6 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Puedes encontrar el [proyecto terminado aquí](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
