@@ -5,7 +5,7 @@ description: '¡Aprende a programar tu propio robot que habla!'
 theme: violet
 listed: true
 copyedit: false
-version: 4.1.0
+version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
@@ -13,7 +13,7 @@ steps:
   - 
     title: Tu chatbot
   - 
-    title: Un chatbot hablante
+    title: Un robot que habla
   - 
     title: "Desafío: más preguntas"
     challenge: true
@@ -28,4 +28,4 @@ steps:
     title: "Desafío: finaliza tu chatbot"
     challenge: true
   - 
-    title: What next?
+    title: '¿Qué sigue?'
