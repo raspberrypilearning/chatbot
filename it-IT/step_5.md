@@ -2,70 +2,125 @@
 
 Puoi programmare il tuo ChiacchieRobot perché decida cosa dire o cosa fare in base alle risposte dell’utente.
 
+Per prima cosa, farai fare al tuo chatbot una domanda alla quale si possa rispondere con "sì" o "no".
+
 --- task ---
 
-Sapresti programmare il tuo ChiacchieRobot in modo che ti chieda "Stai bene?", e che risponda "Mi fa piacere!" solo **se** rispondi "sì" (attenzione all'accento sulla ì!)?
+Cambia il codice del tuo chiacchierobot. Il tuo chatbot dovrebbe porre la domanda "Stai bene", usando la variabile`nome`{:class="block3variables"}. Quindi dovrebbe rispondere "Ne sono lieto!" `se`{:class="block3control"} la risposta che riceve è "si" (senza accento), ma non dire nulla se la risposta è "no".
+
+![Testare la risposta del ChiacchieRobot](images/chatbot-if-test1-annotated.png)
+
+![Testare la risposta del ChiacchieRobot](images/chatbot-if-test2.png)
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+quando si clicca questo sprite
+chiedi [Come ti chiami?] e attendi
+porta [nome v] a (risposta)
+dire (unione di [Ciao ] e (nome)) per (2) secondi
++chiedi (unione di [Come stai, ] e (nome)) e attendi
++se <(risposta) = [si]> allora 
+  dire [Ne sono lieto!] per (2) secondi
+end
+```
 
 Per testare correttamente questo programma, dovrai provarlo **due volte**, una volta digitando "sì" come risposta, e un’altra volta digitando "no".
 
-Il tuo ChiacchieRobot dovrebbe rispondere "Mi fa piacere!" se la tua risposta è "sì", e non dire nulla se la tua risposta è "no".
+--- /task ---
 
-![Testare la risposta del ChiacchieRobot](images/chatbot-if-test.png)
+Al momento, il tuo chatbot non dice nulla alla risposta "no".
 
---- hints --- --- hint --- Dopo che il ChiacchieRobot ha detto "Ciao", dovrebbe anche **chiederti** "Stai bene?". **Se** la tua risposta è "sì", il ChiacchieRobot dovrebbe **dirti** "Mi fa piacere!". --- /hint --- --- hint --- Ecco di quali altri blocchi di codice avrai bisogno: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) --- /hint --- --- hint --- Ecco come dovrebbe apparire il tuo codice: ![Code for a chatbot reply](images/chatbot-if-code.png) --- /hint --- --- /hints ---
+--- task ---
+
+Modifica il codice del tuo chatbot in modo che risponda "Oh no!" se riceve "no" come risposta a "Stai bene nome".
+
+Sostituisci `se`{:class="block3control"} con un `se, allora, altrimenti`{:class="block3control"} che includa il codice in modo che il chatbot possa `dire "Oh no!"`{:Class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+quando si clicca questo sprite
+chiedi [Come ti chiami?] e attendi
+porta [nome v] a (risposta)
+dire (unione di [Ciao ] e (nome)) per (2) secondi
+chiedi (unione di [Come stai, ] e (nome)) e attendi
+
++ se <(risposta) = [si]> allora 
+  dire [Ne sono lieto!] per (2) secondi
+altrimenti 
++ dire [Oh no!] per (2) secondi
+end
+```
 
 --- /task ---
 
 --- task ---
 
-Al momento, il tuo ChiacchieRobot non dice nulla se rispondi "no". Puoi programmare il tuo ChiacchieRobot in modo che ti dica "Oh no!" se rispondi "no" alla sua domanda?
+Prova di nuovo il tuo codice. Dovresti ottenere una risposta diversa quando rispondi "no" e quando rispondi "sì": il tuo chiacchierobot dovrebbe rispondere con "Ne sono lieto!" quando rispondi "si" (che non fa distinzione tra maiuscole e minuscole) e rispondere con "Oh no!" quando rispondi **qualsiasi altra cosa**.
 
-Prova il tuo codice e salvalo. Adesso il tuo ChiacchieRobot dovrebbe dirti "Oh no!" se rispondi "no". In realtà ti dirà "Oh no!" se rispondi in qualsiasi altro modo che non sia "sì" (l'**altrimenti** nel blocco `se/altrimenti` significa **diversamente**).
+![Testare la risposta del ChiacchieRobot](images/chatbot-if-test2.png)
 
 ![Testare una risposta "sì"/"no"](images/chatbot-if-else-test.png)
 
---- hints --- --- hint --- Ora il tuo ChiacchieRobot dovrebbe dire "Mi fa piacere!" **se** la tua risposta è "sì", **altrimenti** dovrebbe dire "Oh no!". --- /hint --- --- hint --- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) --- /hint --- --- hint --- Ecco come dovrebbe apparire il tuo codice: ![Code for a yes/no reply](images/chatbot-if-else-code.png) --- /hint --- --- /hints ---
-
 --- /task ---
+
+Dentro un blocco `se,allora,altrimenti`{:class="block3control"} puoi mettere qualsiasi codice, e non solo il codice che fa parlare il tuo ChiacchieRobot!
+
+Se dai un’occhiata ai **costumi** del ChiacchieRobot, noterai che ce ne sono più di uno.
+
+![I costumi del ChiacchieRobot](images/chatbot-costume-view-annotated.png)
 
 --- task ---
 
-Dentro un blocco `se/altrimenti` puoi mettere qualsiasi codice, e non solo il codice che fa parlare il tuo ChiacchieRobot. Se dai un’occhiata ai **costumi** del ChiacchieRobot, noterai che ce ne sono più di uno.
+Modifica il codice del tuo chatbot in modo che cambi i costumi quando digiti la risposta.
 
-![I costumi del ChiacchieRobot](images/chatbot-costume-view.png)
+![Testare un cambio di costume](images/chatbot-costume-test1.png)
+
+![Testare un cambio di costume](images/chatbot-costume-test2.png)
+
+Cambia il codice all'interno del `se,allora, altrimenti`{:class="block3control"} per `Cambiare costume`{:class="block3look"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+chiedi [Come ti chiami?] e attendi
+porta [nome v] a (risposta)
+dire (unione di [Ciao ] e (nome)) per (2) secondi
+chiedi (unione di [Come stai ] e (name)) e attendi
+se <(risposta) = [si]> allora 
++  passa al costume (nano-c v)
+  dire [Ne sono lieto!] per (2) secondi
+altrimenti 
++  passa al costume (nano-d v)
+  dire [Oh no!] per (2) secondi
+end
+```
+
+Prova il tuo codice e salvalo. L'espressione del tuo ChiacchieRobot dovrebbe cambiare in base alla tua risposta.
 
 --- /task ---
 
---- task ---
+Hai notato che, dopo che il costume del tuo chatbot è cambiato, rimane così e non ritorna a quello iniziale?
 
-Puoi cambiare il costume del ChiacchieRobot per farlo combaciare con la tua risposta?
-
-Prova il tuo codice e salvalo. La faccia del tuo ChiacchieRobot dovrebbe cambiare in base alla tua risposta.
-
-![Testare un cambio di costume](images/chatbot-costume-test.png)
-
---- hints --- --- hint --- Il tuo ChiacchieRobot dovrebbe anche **cambiare costume** in base alla tua risposta. --- /hint --- --- hint --- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) --- /hint --- --- hint --- Ecco come dovrebbe apparire il tuo codice: ![Code for a changing costume](images/chatbot-costume-code.png) --- /hint --- --- /hints ---
-
---- /task ---
-
---- task ---
-
-Hai notato che il costume del tuo ChiacchieRobot è uguale a quello che aveva l'ultima volta che gli avevi parlato? Saresti in grado di risolvere questo problema?
+Puoi provarlo: esegui il tuo codice e rispondi "no" in modo che il viso del tuo chatbot assuma un'espressione infelice. Quindi esegui di nuovo il codice e nota che il tuo chatbot non torna ad essere felice prima che ti chieda il tuo nome.
 
 ![Problemi con i costumi](images/chatbot-costume-bug-test.png)
 
-Prova il tuo codice e salvalo. Esegui il codice e digita "no" per far sì che il ChiacchieRobot sia triste. Quando esegui di nuovo il codice, il ChiacchieRobot dovrebbe tornare ad essere felice, come quando lo era prima di chiederti il nome.
+--- task ---
+
+Per risolvere questo problema, aggiungi il codice del chatbot a `cambia costume`{:class="block3looks"} all'inizio `quando si fa clic sullo sprite`{:Class="block3events"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+quando si clicca questo sprite
+
++ passa al costume (nano-a v)
+chiedi [Come ti chiami?] e attendi
+```
 
 ![Sistemare i costumi](images/chatbot-costume-fix-test.png)
 
---- hints --- --- hint --- **Quando si clicca sullo sprite** il ChiacchieRobot dovrebbe **cambiare costume** e avere una faccia felice. --- /hint --- --- hint --- Ecco di quali blocchi di codice avrai bisogno: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) --- /hint --- --- hint --- Ecco come dovrebbe apparire il tuo codice: ![Code for a costume fix](images/chatbot-costume-fix-code.png) --- /hint --- --- /hints ---
-
 --- /task ---
-
---- challenge ---
-
-## Sfida: Altre decisioni
-
-Programma il tuo ChiacchieRobot a fare un’altra domanda che abbia come risposta "sì" o "no". Sapresti come far reagire il ChiacchieRobot alla tua risposta?
-
-![screenshot](images/chatbot-joke.png) --- /challenge ---
