@@ -73,4 +73,4 @@
 
 \--- /task \---
 
-再次测试你的程序。 请注意，您键入的答案存储在 `名称`{：class =“block3variables”}变量中，并且还显示在舞台的左上角。 要使其从舞台上消失，请转到`变量` {：class =“ block3variables”}代码块，然后单击`名称旁边的选择框` {：class =“ block3variables”}。
+再次测试你的程序。 请注意，您键入的答案存储在 `名称`{：class =“block3variables”}变量中，并且还显示在舞台的左上角。 要使其从舞台上消失，请转到`变量` {:class =“ block3variables”}代码块，然后单击`名称`{:class =“ block3variables”}旁边的选择框以取消标记。
