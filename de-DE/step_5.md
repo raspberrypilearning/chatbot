@@ -84,18 +84,18 @@ Wenn du deines Chatbot **Kostüme** Reiter klickst, wirst du sehen, dass deine F
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [Wie ist dein Name?] and wait
-set [name v] to (Antwort)
-say (join [Hallo ] (name)) for (2) seconds
-ask (join [Alles OK bei dir?] (name)) and wait
-if <(Antwort) = [ja]> then 
+wenn diese Figur angeklickt wird
+frage[Wie heißt du?] und warte
+setze [name v] auf (Antwort)
+sage (teilnehmen [Hallo ] (name)) für (2) Sekunden
+frage (teilnehmen [Geht es Dir gut?] (name)) und warte
+wenn <(Antwort) = [Ja]> dann  
 
-+  switch costume to (nano-c v)
-  say [Das hört sich großartig an!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh nein!] for (2) seconds
++  wechsle zu Kostüm (nano-c v)
+   sage [Das freut mich zu hören!] für (2) Sekunden
+sonst 
++  wechsle zu Kostüm (nano-d v)
+  sage [Oh nein!] für (2) Sekunden
 end
 ```
 
