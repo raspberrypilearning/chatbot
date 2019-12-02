@@ -74,4 +74,4 @@
 
 \--- /task \---
 
-Проверь свою программу снова. Обрати внимание, что введенный тобой ответ хранится в переменной `имя`{:class="block3variables"}, а также отображается в верхнем левом углу Сцены. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Проверь свою программу снова. Обрати внимание, что введенный тобой ответ хранится в переменной `имя`{:class="block3variables"}, а также отображается в верхнем левом углу Сцены. Чтобы она исчезла со Сцены, перейди в раздел блоков `Переменные`{:class="block3variables"} и щелкни на чекбоксе рядом с блоком `имя`{:class="block3variables"}, чтобы она не было отмечено галочкой.
