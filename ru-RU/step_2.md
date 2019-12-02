@@ -25,7 +25,7 @@
 
 Стартовый проект содержит четыре спрайта персонажа. Один из них будет твоим чат-ботом.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Ты можешь использовать спрайт, который уже выбран, или выбрать другой, щелкнув правой кнопкой мыши по нужному спрайту и выбрав **показать** или **скрыть** с помощью значка глаза в панели свойств спрайта.
 
 ![Выбери персонажа](images/chatbot-characters.png)
 
