@@ -1,6 +1,6 @@
 ## Repte: acaba el teu xat bot
 
-Utilitza el que has après per acabar de crear el teu xat bot interactiu. Aquí tens algunes idees. Aquí tens algunes idees:
+Utilitza el que has après per acabar de crear el teu xat bot interactiu. Aquí tens algunes idees:
 
 ![Idees pel xat bot](images / chatbot-characters.png)
 
