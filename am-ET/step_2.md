@@ -7,15 +7,15 @@
 + የ ንግግር ሮቦቱ ስም ማን ነው?
 + የት ነው የሚኖረው?
 + ደስተኛ ነው? ኮስታራ ነው? አስቂኝ ነው? አይናፋር? ተጫዋች?
-+ ምን ይወዳል እና አይፈልግም?
++ ምን ይወዳል እና አይወድም?
 
 \--- / task \---
 
-\--- ተግባር \--- የ Chatbot Scratch ጅማሪ ፕሮጀክት ይክፈቱ.
+\--- task \--- የንግግር ሮቦት ስክራች ጅማሪ ፕሮጀክት ይክፈቱ።
 
-**መስመር ላይ:** በ [rpf.io/chatbot-on](http://rpf.io/chatbot-on)ላይ የኬፐር ፕሮጀክቱን ይክፈቱ. {: Target = "_ blank"}.
+**ኦንላይን:** በ [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} ላይ ጅማሪ ፕሮጀክቱን ይክፈቱ።
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+የስክራች አካውንት ካለዎት **አቀናብር** የሚለዉን በመጫን ቅጂ መስራት ይችላሉ።
 
 **Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
