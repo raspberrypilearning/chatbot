@@ -1,5 +1,5 @@
 ---
-title: ውይይት አድርግ
+title: የውይይት ሮቦት
 hero_image: images / chatbot.png
 description: የራስዎ ንግግር ሮቦት እንዴት እንደሚሰራ ይወቁ!
 theme: ቫዮፔት
@@ -28,4 +28,4 @@ steps:
     title: "ተፈታታኝ ሁኔታ: የውይይትህን ጨርስ"
     challenge: true
   - 
-    title: What next?
+    title: ቀጥሎ ምን ይሆናል?
