@@ -1,5 +1,5 @@
 ---
-title: የውይይት ሮቦት
+title: የንግግር ሮቦት
 hero_image: images / chatbot.png
 description: የራስዎ ንግግር ሮቦት እንዴት እንደሚሰራ ይወቁ!
 theme: ቫዮፔት
@@ -11,21 +11,21 @@ steps:
   - 
     title: መግቢያ
   - 
-    title: ውይይትዎ
+    title: የንግግር ሮቦት
   - 
-    title: ወሬ ማውራት
+    title: የሚያወራ የንግግር ሮቦት
   - 
     title: "ፈተና: ተጨማሪ ጥያቄዎች"
     challenge: true
   - 
     title: ውሳኔዎችን ማድረግ
   - 
-    title: "ተፈታታኝ: ተጨማሪ ውሳኔዎች"
+    title: "ፈተና: ተጨማሪ ጥያቄዎች"
     challenge: true
   - 
-    title: ሥፍራውን መለወጥ
+    title: ቦታን መለወጥ
   - 
-    title: "ተፈታታኝ ሁኔታ: የውይይትህን ጨርስ"
+    title: "ፈተና ፦ የንግግር ሮቦቱን መጨረስ"
     challenge: true
   - 
     title: ቀጥሎ ምን ይሆናል?
