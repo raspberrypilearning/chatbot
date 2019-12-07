@@ -65,7 +65,7 @@
 
 \--- no-print \---
 
-ይህንን ፕሮጀክት ማተም የሚፈልጉ ከሆነ [ለህትመት ምቹ የሆነውን ስሪት](https://projects.raspberrypi.org/en/projects/chatbot/print) ይጠቀሙ።
+ይህንን ፕሮጀክት ማተም የሚፈልጉ ከሆነ [ለህትመት ምቹ የሆነውን ስሪት](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"} ይጠቀሙ።
 
 \--- /no-print \---
 
