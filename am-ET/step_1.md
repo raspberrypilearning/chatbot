@@ -1,6 +1,6 @@
 \--- no-print \---
 
-ይህ የፕሮጀክቱ **Scratch 3 ** ስሪት ነው። በተጨማሪም [ የፕሮጀክቱ Scratch 2 ስሪት](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) ይገኛል።
+ይህ የፕሮጀክቱ **ስክራች 3 ** ስሪት ነው። በተጨማሪም [ የፕሮጀክቱ ስክራች 2 ስሪት](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) ይገኛል።
 
 \--- / no-print \---
 
@@ -35,15 +35,15 @@
 
 ### ሃርድ ዌር
 
-- Scratch 3 ማሄድ የሚችል ኮምፒውተር
+- ስክራች 3 መጫን የሚችል ኮምፒውተር
 
 ### ሶፍትዌር
 
-- ቧንቧ 3 ( [በመስመር ላይ](https://rpf.io/scratchon) ወይም [ከመስመር ውጭ](https://rpf.io/scratchoff))
+- ስክራች 3 (ወይ [ኦንላይን](https://rpf.io/scratchon) ወይም [ኦፍላይን](https://rpf.io/scratchoff))
 
-### የወረዱ
+### የሚወርዱ ፋይሎች
 
-- [የሚያወርዱትን ፋይሎች እዚህ ያግኙት](http://rpf.io/p/en/chatbot-go).
+- [የሚወርዱትን ፋይሎች እዚህ ያግኙ](http://rpf.io/p/en/chatbot-go)።
 
 \--- /collapse \---
 
@@ -51,7 +51,7 @@
 
 * * *
 
-## ርእሱ: ምን ይማራሉ
+## title: ምን ይማራሉ
 
 - Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
