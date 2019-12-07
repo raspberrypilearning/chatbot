@@ -25,7 +25,7 @@
 
 ጅማሪ ፕሮጀክቱ አራት ገጸ-ባህሪዎችን ይይዛል ፡፡ ከእነዚህ ውስጥ አንዱ የእርስዎ የንግግር ሮቦት (ቻትቦት) ይሆናል ፡፡
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+ቀድሞውኑ የተመረጠውን ገጸ-ባህሪ መጠቀም ካልሆነም ከመድረኩ በታች ካለው የገጸ-ባህሪ መምረጫ ሌላ የሚፈልጉት ላይ ጠቅ በማድረግ ከዚያም**አሳይ** ወይም **ደብቅ** የሚለዉን የአይን ምልክት በመጠቀም መምረጥ ይችላሉ።
 
 ![Choose a character](images/chatbot-characters.png)
 
