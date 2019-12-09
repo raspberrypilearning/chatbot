@@ -1,7 +1,7 @@
 ## ፈተና: ተጨማሪ ጥያቄዎች
 
-ሌላ ጥያቄ ለመጠየቅ ቻት ሩትዎን ያዘጋጁ. ለዚህ አዲስ ጥያቄ መልሱን በአዲሱ ተለዋዋጭ ውስጥ ማከማቸት ይችላሉ?
+የንግግር ሮቦታችሁ ሌላ ጥያቄ እንዲጠይቅ ፕሮግራም አድርጉት። የዚህን አዲስ ጥያቄ መልስ በአዲስ ተለዋዋጭ ውስጥ ማስቀመጥ ትችላላችሁ?
 
-![ተጨማሪ ጥያቄዎች](images/chatbot-question1.png)
+![More questions](images/chatbot-question1.png)
 
-![ተጨማሪ ጥያቄዎች](images/chatbot-question2.png)
+![More questions](images/chatbot-question2.png)
