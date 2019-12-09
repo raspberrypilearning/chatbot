@@ -20,9 +20,9 @@
 
 ኮዱን ለመሞከር በንግግር ሮቦቱ ላይ ጠቅ አድርጉ. ሮቦቱ ስም ሲጠይቅ ስማችሁን ከመድረኩ በታች ባለው ሳጥን ውስጥ ተይቡ፣ ከዚያም ሰማያዊውን ምልክት ጠቅ አድርጉ ወይም <kbd>Enter</kbd>ን ተጫኑ.
 
-![የ ChatBot ምላሽ በመሞከር ላይ](images/chatbot-ask-test1.png)
+![Testing a ChatBot response](images/chatbot-ask-test1.png)
 
-![የ ChatBot ምላሽ በመሞከር ላይ](images/chatbot-ask-test2.png)
+![Testing a ChatBot response](images/chatbot-ask-test2.png)
 
 \--- / task \---
 
@@ -40,7 +40,7 @@
 (አገናኝ [ሰላም!] (መልስ) :: +) ን በል ለ (2) ሰከንዶች
 ```
 
-![ለግል የተበጀ ምላሽ ይሞክሩ](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- / task \---
 
@@ -70,8 +70,8 @@
 
 ኮዱ ልክ እንደበፊቱ መስራት አለበት። የንግግር ሮቦቱ ስማችሁን ተጠቅሞ ሰላም ማለት አለበት።
 
-![ለግል የተበጀ ምላሽ ይሞክሩ](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- / task \---
 
-ፕሮግራሙን በድጋሚ ሞክሩት። የጻፋችሁት መልስ `ስም`{: class = "block3variables"} የሚባለው ተለዋዋጭ ውስጥ መቀመጡን እንዲሁም በላይኛው ግራ ጠርዝ ላይ መታየቱን አስተውሉ። To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+ፕሮግራሙን በድጋሚ ሞክሩት። የጻፋችሁት መልስ `ስም`{: class = "block3variables"} የሚባለው ተለዋዋጭ ውስጥ መቀመጡን እንዲሁም በላይኛው ግራ ጠርዝ ላይ መታየቱን አስተውሉ። ከመድረኩ እንዲጠፋ ለማድረግ ወደ `ተለዋዋጮች` {: class = "block3variables"} ከፍልፍ(ብሎክ) ሂዱና እና ከ `ስም` {: class = "block3variables"} ቀጥሎ ባለው ሳጥን ላይ ጠቅ ያድርጉ።
