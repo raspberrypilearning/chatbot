@@ -78,7 +78,7 @@ end
 
 ![ተለጣፊ ልብሶችን በመሞከር ላይ](images/chatbot-costume-test2.png)
 
-በ `ውስጥ ያለውን ኮድ ይቀይሩ, ከዚያ, ሌላ`{: class = "block3control"} ከ `መቀየር መቀየር`{: class = "block3looks"}.
+`ከሆነ ካልሆነ`{: class = "block3control"} በሚለው ክፍል ውስጥ ያለውን ኮድ `ልብስ ቀይር`{: class = "block3looks"} በሚለው ተኩት።
 
 ![nano sprite](images/nano-sprite.png)
 
