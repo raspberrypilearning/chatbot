@@ -61,17 +61,17 @@
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ይህ ስፒት
-ሲጫኑ (ስምዎ ምንድ ነው?) እና
+ይህ ስፕራይት ሲነካ
+[ስም ማን ልበል?] ጠይቅና ጠብቅ
 
-+ ስብስብ [ስም v] ወደ (መልስ)
-ይጠብቁ (ሰላምታ (ስም :: ልዩ ልዩ +)) ለ 2 ሰከንዶች
+[ስም v] ወደ (መልስ) ለውጥ
+(አገናኝ [ሰላም!] (መልስ) :: +) ን በል ለ (2) ሰከንዶች
 ```
 
-የእርስዎ ኮድ ልክ እንደበፊቱ መስራት አለበት: የእርስዎ የሚተዋወቀው ስም ተጠቅመው ለውይይት ያነጋግሩ.
+ኮዱ ልክ እንደበፊቱ መስራት አለበት። የንግግር ሮቦቱ ስማችሁን ተጠቅሞ ሰላም ማለት አለበት።
 
 ![ለግል የተበጀ ምላሽ ይሞክሩ](images/chatbot-answer-test.png)
 
 \--- / task \---
 
-ፕሮግራምዎን በድጋሚ ይሞክሩ. የሚተይቡት መልስ በ `ስም`{: class = "block3variables"} ተለዋዋጭ ውስጥ ተስተካክሎ በደረጃው ላይኛው ግራ ጠርዝ ላይ ይታያል. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+ፕሮግራሙን በድጋሚ ሞክሩት። የጻፋችሁት መልስ `ስም`{: class = "block3variables"} የሚባለው ተለዋዋጭ ውስጥ መቀመጡን እንዲሁም በላይኛው ግራ ጠርዝ ላይ መታየቱን አስተውሉ። To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
