@@ -35,29 +35,28 @@
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ይህ ስፒት
-ጠቅ ሲያደርግ 
- የት እንደሆነ (ስምህ ምንድን ነው?) እና
-(2) ሰከንዶች (ሰላምታ (መልስ)) (+) ተቀበል
+ይህ ስፕራይት ሲነካ
+[ስም ማን ልበል?] ጠይቅና ጠብቅ
+(አገናኝ [ሰላም!] (መልስ) :: +) ን በል ለ (2) ሰከንዶች
 ```
 
 ![ለግል የተበጀ ምላሽ ይሞክሩ](images/chatbot-answer-test.png)
 
 \--- / task \---
 
-\--- ተግባር \---
+\--- task \---
 
-መልሱን በ **ተለዋዋጭ**በማስቀመጥ በማናቸውም ፕሮጀክትዎ ውስጥ ሊጠቀሙበት ይችላሉ.
+መልሱን በ **ተለዋዋጭ** በማስቀመጥ በፕሮጀክቱ ውስጥ ማንኛውም ቦታ መጠቀም ይቻላል።
 
-`ስም`{: class = "block3variables"} የተባለ አዲስ ተለዋዋጭ ይፈጥራል.
+`ስም`{: class = "block3variables"} የተባለ አዲስ ተለዋዋጭ ፍጠሩ።
 
 [[[generic-scratch3-add-variable]]]
 
 \--- / task \---
 
-\--- ተግባር \---
+\--- task \---
 
-አሁን የ `ስም`{: class = "block3variables"} ለ `መልስ`{: class = "block3sensing"} ለውጦችን ለማስቀመጥ የ chatbot sprites ኮድዎን ይቀይሩ:
+አሁን `ስም`{: class = "block3variables"} የሚባለዉን ተለዋዋጭ ዋጋ ወደ `መልስ`{: class = "block3sensing"} ለመለወጥ የንግግር ሮቦቱን ኮድ ቀይሩት።
 
 ![nano sprite](images/nano-sprite.png)
 
