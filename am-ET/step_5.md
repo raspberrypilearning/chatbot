@@ -33,9 +33,9 @@ end
 
 \--- task \---
 
-የውይይት ኮድንዎን "ኦህ!" በማለት ይመልሱ. ለ "እርስዎ ስም ተስማምተዋል" የሚለው መልስ እንደ ሆነ "አይ" ከሆነ.
+የንግግር ሮቦቱ "ደህና ነህ/ሽ" የሚለው መልስ ጥያቄ መልስ "አይ" ከሆነ "ውይ!" በማለት እንዲመልስ ኮዱን ቀይሩ።
 
-የ ተካ `ከሆነ, ከዚያም`አንድ ጋር የማገጃ: {class = "block3control"} `ከሆነ, ታዲያ, ሌላ`{: class = "block3control"} የ chatbot ይችላሉ እንዲሁ የማገጃ, እና ኮድ ይገኙበታል `ይላሉ "ወይኔ!"`{: class = "block3looks"}.
+`ከሆነ`{class = "block3control"} የሚለውን ክፍል `ከሆነ ካልሆነ`{: class = "block3control"} በሚለው ተኩትና ከዚያም ሮቦቱ `"ውይ!"`{: class = "block3looks"} እንዲል ኮድ ጨምሩበት።
 
 ![nano sprite](images/nano-sprite.png)
 
