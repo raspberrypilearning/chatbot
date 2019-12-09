@@ -8,9 +8,9 @@
 
 የ ንግግር ሮቦቱን ኮድ ቀይሩ። ቻትቦቱ `ስም`{: class = "block3variables"} የሚለውን ተለዋዋጭ በመጠቀም "ደህና ነህ/ሽ ስም" ብሎ መጠየቅ አለበት። ከዚያ የሚቀበለው መልስ "አዎ" `ከሆነ`{: class = "block3control"} "ይህን መስማት ያስደስታል!" በማለት መመለስ አለበት። መልሱ "አይ" ከሆነ ግን ምንም አይመልስም።
 
-![የውይይት መልስ መልስ በመሞከር ላይ](images/chatbot-if-test1-annotated.png)
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-![የውይይት መልስ መልስ በመሞከር ላይ](images/chatbot-if-test2.png)
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -58,9 +58,9 @@ end
 
 ኮዳችሁን ፈትሹ። "አይ" እና "አዎ" ብላችሁ ስትመልሱ የተለየ ምላሽ ማግኘት አለባችሁ። የንግግር ሮቦቱ "አዎ" ስትሉት "ይህን መስማት ያስደስታል!" ማለት አለበት እና **ሌላ ነገር** ካላችሁት ደግሞ "ውይ!" ብሎ መመለስ አለበት።
 
-![የውይይት መልስ መልስ በመሞከር ላይ](images/chatbot-if-test2.png)
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-![አዎ / ምንም ምላሽ አለመሞከር](images/chatbot-if-else-test.png)
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 \--- / task \---
 
@@ -68,15 +68,15 @@ end
 
 የቻትቦቱ **አልባሳት** ላይ ጠቅ ካደረጋችሁ ከአንድ ልብስ በላይ እንዳለ ታያላችሁ።
 
-![የቻትባቶች ልብስ](images/chatbot-costume-view-annotated.png)
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
 መልሳችሁን በምትጽፉበት ጊዜ ቻትቦቱ ልብሱን እንዲቀይር ኮዱን አስተካክሉት።
 
-![ተለጣፊ ልብሶችን በመሞከር ላይ](images/chatbot-costume-test1.png)
+![Testing a changing costume](images/chatbot-costume-test1.png)
 
-![ተለጣፊ ልብሶችን በመሞከር ላይ](images/chatbot-costume-test2.png)
+![Testing a changing costume](images/chatbot-costume-test2.png)
 
 `ከሆነ ካልሆነ`{: class = "block3control"} በሚለው ክፍል ውስጥ ያለውን ኮድ `ልብስ ቀይር`{: class = "block3looks"} በሚለው ተኩት።
 
@@ -105,7 +105,7 @@ end
 
 እስኪ ይህን ሞክሩ: ኮዱን አስጀምሩትና "አይ" ብላችሁ መልሱ፤ የቻትቦቱ ፊት ያዘነ ገጽታ ይኖረዋል። በመቀጠል ኮዱን እንደገና አስጀምሩት እና ስማችሁን ከመጠየቁ በፊት የ ቻትቦቱ ፊት ወደ በፊቱ ደስተኛ መልክ እንዳልተመለሰ አስተውሉ።
 
-![የቅላት ልብስ](images/chatbot-costume-bug-test.png)
+![Costume bug](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
@@ -114,13 +114,12 @@ end
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ይህ ስፒል
+ይህ ስፕራይት ሲነካ
 
-ለውጦችን ወደ (ናኖ-ቪ)
-ሲጫኑ 
- ይጠይቁ [የእርስዎ ስም ምንድን ነው?] እና ይጠብቁ
++ ልብስ ወደ (nano-a v) ለውጥ
+[ስም ማን ልበል?] ጠይቅና ጠብቅ
 ```
 
-![የልደት ቀን ማስተካከያ መሞከር](images/chatbot-costume-fix-test.png)
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
 \--- / task \---
