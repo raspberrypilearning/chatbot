@@ -1,4 +1,4 @@
-## Making decisions
+## Доношење одлука
 
 You can program your chatbot to decide what to do based on the answers it receives.
 
