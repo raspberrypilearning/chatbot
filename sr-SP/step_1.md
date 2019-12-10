@@ -1,10 +1,10 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Ово је **Scratch 3** верзија пројекта. Постоји, такође, и [Scratch 2 верзија пројекта](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Увод
 
 You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
