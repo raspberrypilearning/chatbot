@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![завршен пројекат](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -31,19 +31,19 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will need
+## title: Шта ће ти бити потребно
 
-### Hardware
+### Хардвер
 
-- Computer capable of running Scratch 3
+- Рачунар који може да покрене Scratch 3
 
-### Software
+### Софтвер
 
 - Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### Downloads
+### Преузимање
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Овде пронађи датотеке за преузимање](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -51,7 +51,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: What you will learn
+## title: Шта ћеш научити
 
 - Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
