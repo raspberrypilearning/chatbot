@@ -5,7 +5,7 @@
 Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
 + What is the chatbot's name?
-+ Where does it live?
++ Где живи?
 + Is it happy? Serious? Funny? Shy? Friendly?
 + What does it like and dislike?
 
@@ -27,6 +27,6 @@ The starter project contains four character sprites. One of these will be your c
 
 You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Choose a character](images/chatbot-characters.png)
+![Одабери лика](images/chatbot-characters.png)
 
 \--- /task \---
