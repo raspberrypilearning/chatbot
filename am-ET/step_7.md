@@ -2,7 +2,7 @@
 
 የንግግር ሮቦቱ ቦታውን እንዲቀይር ማድረግ ትችላላችሁ!
 
-![ተለዋጭን የጀርባ ምስል በመሞከር ላይ](images/chatbot-backdrop-moon.png)
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
@@ -78,16 +78,16 @@ end
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ከሆነ <(መልስ) = [yes]> በዚያን 
-  (ጨረቃ v) ይቀይሩ የጀርባ
+<(መልስ) = [አዎ]> ከሆነ 
+  የጀርባ ምስል ወደ(ጨረቃ v) ለውጥ
 
-; + ተደጋጋሚ (4) 
-    (10) በማድረግ ለውጥ y
-    መጠበቅ (0.1) ሰከንድ
-    (-10) በ ለውጥ y
-    መጠበቅ (0.1) ሰከንድ
-  መጨረሻ
-መጨረሻ
+ + (4) ን ድገም 
+    y ን በ (10) ለውጥ
+    ጠብቅ ለ (0.1) ሰከንድ
+    y ን በ (-10) ለውጥ
+    ጠብቅ ለ (0.1) ሰከንድ
+  end
+end
 ```
 
 \--- / task \---
