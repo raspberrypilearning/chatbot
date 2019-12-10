@@ -9,7 +9,7 @@ version: 4.1.0
 last_tested: 2017-01-01
 steps:
   - 
-    title: Робот који разговара
+    title: Увод
   - 
     title: Your chatbot
   - 
@@ -18,14 +18,14 @@ steps:
     title: "Challenge: more questions"
     challenge: true
   - 
-    title: Making decisions
+    title: Доношење одлука
   - 
     title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Changing location
+    title: Промена локације
   - 
     title: "Challenge: finish your chatbot"
     challenge: true
   - 
-    title: What next?
+    title: Шта је следеће?
