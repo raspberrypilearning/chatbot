@@ -61,14 +61,14 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 * * *
 
-## title: Additional notes for educators
+## title: Додатне информације за наставнике
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Уколико желите да одштампате овај пројекат, молимо Вас користите [верзију за штампање](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Завршени пројекат можете пронаћи [овде](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
