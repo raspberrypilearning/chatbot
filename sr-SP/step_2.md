@@ -11,9 +11,9 @@ Before you start creating your chatbot, you need to decide what its personality 
 
 \--- /task \---
 
-\--- task \--- Open the Chatbot Scratch starter project.
+\--- task \--- Отвори Скреч почетни пројекат 'Робот који разговара'.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**На мрежи:** Отвори почетни пројекат на [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
