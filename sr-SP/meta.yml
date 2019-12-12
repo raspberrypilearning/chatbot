@@ -15,12 +15,12 @@ steps:
   - 
     title: A talking chatbot
   - 
-    title: "Изазов: више питања"
+    title: "Изазов: Више питања"
     challenge: true
   - 
     title: Доношење одлука
   - 
-    title: "Изазов: више одлука"
+    title: "Изазов: Више одлука"
     challenge: true
   - 
     title: Промена локације
