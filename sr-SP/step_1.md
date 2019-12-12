@@ -12,7 +12,7 @@ You are going to learn how to program a character that can talk to you! A charac
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Кликни на зелену заставицу, а затим кликни на робота који разговара да започнеш разговор. Када робот постави питање, откуцај твој одговор у поље на дну Позорнице, а затим кликни на плаву ознаку на десној страни (или притисни `Enter`) да видиш одговор робота.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -39,7 +39,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Софтвер
 
-- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
+- Scratch 3 ([на мрежи](https://rpf.io/scratchon) или [ван мреже](https://rpf.io/scratchoff))
 
 ### Преузимање
 
