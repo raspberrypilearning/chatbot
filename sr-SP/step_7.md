@@ -1,4 +1,4 @@
-## Changing location
+## Промена локације
 
 You can also program your chatbot to change its location!
 
