@@ -8,7 +8,7 @@
 
 You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### What you will make
+### Шта ћеш направити
 
 \--- no-print \---
 
