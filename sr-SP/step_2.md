@@ -15,11 +15,11 @@ Before you start creating your chatbot, you need to decide what its personality 
 
 **На мрежи:** Отвори почетни пројекат на [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Ако имаш Скреч налог, можеш да направиш копију тако што ћеш кликнути на **Преради**.
 
 **Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Ако је потребно да преузмеш и инсталираш Скреч уређивач ван мреже, можеш га пронаћи на [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
