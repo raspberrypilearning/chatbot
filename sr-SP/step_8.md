@@ -1,6 +1,6 @@
 ## Challenge: finish your chatbot
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+Use what you've learned to finish creating your interactive chatbot. Ево неколико идеја:
 
 ![Идеје за робота](images/chatbot-ideas1.png)
 
