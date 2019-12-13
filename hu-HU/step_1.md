@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Ez a projekt **Scratch 3** -as verziója. Van egy [Scratch 2-es](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) változata is a projektnek.
+Ez a projekt **Scratch 3**-as verziója. Elérhető [Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2)-es változatban is.
 
 \--- /no-print \---
 
 ## Bevezetés
 
-Megtanulod, hogyan programozhatsz egy karaktert, amivel beszélhetsz veled! Olyan karaktert hívnak, mint egy chat robotot vagy chatbot-ot.
+Ebben a fejezetben megtanulhatod, hogyan programozhatsz egy karaktert, amivel beszélget veled! Egy ilyen karaktert chatbotnak hívnak.
 
-### Amit csinálni fogsz
+### Mit fogsz elkészíteni
 
 \--- no-print \---
 
-Kattintson a zöld zászlóra, majd kattintson a chatbot karakterre a beszélgetés megkezdéséhez. Amikor a chatbot megkérdez egy kérdést, írja be a választ a színpad alján található mezőbe, majd kattintson a jobb oldali kék jelre (vagy nyomja meg a `Enter`) a chatbot válaszának megtekintéséhez.
+Kattints a zöld zászlóra, majd a chatbot karakterre a beszélgetés megkezdéséhez. Amikor a chatbot feltesz egy kérdést, írd be a választ a színpad alján található mezőbe, majd kattints a jobb oldali kék jelre (vagy nyomd meg a `Enter`) a válasza megtekintéséhez.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -21,17 +21,17 @@ Kattintson a zöld zászlóra, majd kattintson a chatbot karakterre a beszélget
 
 \--- /no-print \---
 
-\--- csak nyomtatás \---
+\--- print-only \---
 
 ![teljes projekt](images/chatbot-preview.png)
 
-\--- / csak nyomtatás \---
+\--- /print-only \---
 
 \--- collapse \---
 
 * * *
 
-## title: Amire szükséged lesz
+## title: Mire lesz szükséged
 
 ### Hardver
 
