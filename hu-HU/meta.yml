@@ -1,26 +1,26 @@
 ---
 title: Chatbot
-hero_image: images / chatbot.png
-description: Ismerje meg, hogyan programozhatja saját beszélő robotját!
+hero_image: images/chatbot.png
+description: Tanuld meg, hogyan programozhatsz saját beszélő robotot!
 theme: ibolya
 listed: true
 copyedit: false
 version: 4.2.0
-last_tested: 2018/09/20
+last_tested: 2018.09.20
 steps:
   - 
     title: Bevezetés
   - 
-    title: Az Ön chatbotja
+    title: A chatbotod
   - 
     title: Beszélő chatbot
   - 
-    title: "Kihívás: több kérdés"
+    title: "Kihívás: még több kérdés"
     challenge: true
   - 
     title: Döntéshozatal
   - 
-    title: "Kihívás: több döntés"
+    title: "Kihívás: még több döntés"
     challenge: true
   - 
     title: Hely megváltoztatása
