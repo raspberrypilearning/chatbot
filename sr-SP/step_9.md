@@ -2,7 +2,7 @@
 
 Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
 
---- no-print --- Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+--- no-print --- Кликни на зелену заставицу да почнеш. Користи миш да помераш оловку и држи притиснут леви тастер миша да црташ. Кликни на боју да промениш бојице. Кликни на гумицу да је употребиш да обришеш свој рад. Да обришеш страницу, кликни на крстић.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -10,6 +10,6 @@ Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_s
 </div>
 --- /no-print ---
 
---- print-only --- You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+--- print-only --- Можеш кликнути на зелену заставицу да почнеш. Употреби миш како би померао оловку и држи притиснут десни тастер миша да црташ. Кликом на боју промениће се боја бојице, а кликом на гумицу појавиће се гумица!
 
 ![showcase](images/paint-box-showcase.png) --- /print-only ---
