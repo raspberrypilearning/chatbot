@@ -39,11 +39,11 @@ Kattints a zöld zászlóra, majd a chatbot karakterre a beszélgetés megkezdé
 
 ### Szoftver
 
-- Scratch 3 ( [online](https://rpf.io/scratchon) vagy [offline](https://rpf.io/scratchoff))
+- Scratch 3 ([online](https://rpf.io/scratchon) vagy [offline](https://rpf.io/scratchoff))
 
 ### Letöltések
 
-- [Itt letöltheti a letölteni kívánt fájlokat](http://rpf.io/p/en/chatbot-go).
+- [Innen töltheted le a fájlokat](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -51,21 +51,21 @@ Kattints a zöld zászlóra, majd a chatbot karakterre a beszélgetés megkezdé
 
 * * *
 
-## title: Amit meg fogsz tanulni
+## title: Mit fogsz megtanulni
 
-- Use code to concatenate strings in Scratch
-- Tudja, hogy a változók felhasználhatók a felhasználói bevitel tárolására
-- Feltételes kiválasztással válaszolhat a Scratch \--- / collapse \--- felhasználói bemenetre
+- milyen kódot használj a karakterláncok összekapcsolásához a Scratchban
+- hogyan használhatók változók a felhasználó válaszainak tárolására
+- hogyan használj a felhasználó válaszain alapuló feltételes kiválasztást a Scratchban
 
 \--- collapse \---
 
 * * *
 
-## title: További megjegyzések az oktatók számára
+## title: További információk oktatóknak
 
 \--- no-print \---
 
-Ha ki szeretnéd nyomtatni ezt a projektet, kérjük, használd a [nyomtatóbarát verzió](https://projects.raspberrypi.org/en/projects/chatbot/print) -t {:target="_ blank"}.
+Ha ki szeretnéd nyomtatni a projektet, kérlek használd a [nyomtatóbarát verziót.](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
