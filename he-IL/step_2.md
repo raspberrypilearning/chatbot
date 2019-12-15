@@ -15,18 +15,18 @@
 
 **Online:** פתח את פרוייקט המתנע ב [rpf.io/chatbot-](http://rpf.io/chatbot-on): {target = "_ _ ריק"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+אם יש לך חשבון Scratch, באפשרותך ליצור עותק על-ידי לחיצה על ** כניסה **.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+** לא מקוון: ** הורידו את הפרויקט האתחול הלא מקוון מ [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}, ולאחר מכן פתחו אותו באמצעות העורך הלא מקוון.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+אם אתם צריכים להוריד ולהתקין את העורך הלא מקוון של Scratch, תוכלו למצוא אותו בכתובת [https://rpf.io/scratchoff ](rpf.io/scratchoff) \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+פרויקט התחלתי מכיל ארבעה דמויות תווים. אחד כזה יהיה הצ'אט בוט שלך.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+אתה יכול להשתמש בדמות שנבחרה כבר, או לבחור אחת אחרת על ידי לחיצה על זו שאתה רוצה ואז לבחור את המופע ** ** או ** להסתיר ** סמל עיניים מתפריט דמויות שמתחת לבמה.
 
-![Choose a character](images/chatbot-characters.png)
+![בחרו דמות](images/chatbot-characters.png)
 
 \--- /task \---
