@@ -53,22 +53,22 @@
 
 ## title: מה תלמד
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- השתמש בקוד כדי לשרשר מחרוזות בסקראצ׳
+- דע כי ניתן להשתמש במשתנים לאחסון קלט משתמשים
+- השתמש בבחירה מותנית כדי להגיב לקלט המשתמשים בסקראצ׳ \--- / קריסה \---
 
 \--- collapse \---
 
 * * *
 
-## title: הערות נוספות למחנכים
+## title: מידע נוסף למורי המועדון
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+אתם יכולים [ להוריד את הפרויקט השלם כאן ](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
