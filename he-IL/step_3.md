@@ -6,7 +6,7 @@
 
 לחץ על ה- chatbot sprite והוסף קוד זה, כך ש `כאשר לוחצים עליו`{: class = "block3events"}, הוא מבקש `את שמך`{: class = "block3sensing"} ולאחר מכן `אומר "What a שם אהוב!"`{: class = "block3looks"}.
 
-![ננו ספרייט](images/nano-sprite.png)
+![דמות ננו](images/nano-sprite.png)
 
 ```blocks3
 כאשר זה ספרייט לחץ
@@ -74,4 +74,4 @@
 
 \--- /task \---
 
-בדוק שוב את התוכנית שלך. שים לב כי התשובה שאתה מקליד מאוחסן `השם`{: class = "block3variables"} משתנה, וגם מוצגת בפינה השמאלית העליונה של הבמה. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+בדוק שוב את התוכנית שלך. שים לב כי התשובה שאתה מקליד מאוחסן `השם`{: class = "block3variables"} משתנה, וגם מוצגת בפינה השמאלית העליונה של הבמה. כדי לגרום לו להיעלם מהבמה, עבור אל ` המשתנים ` {: class = "block3variables"} חוסם את החלק ולחץ על התיבה שליד ` שם ` {: class = "block3variables"} כך שלא יסומן.
