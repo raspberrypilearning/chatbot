@@ -23,11 +23,11 @@ Here are the code blocks you need to add to your chatbot code.
 ![нано лик](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+промени позадину у (месец v)
 
-ask [Do you want to go to the moon?] and wait
+питај [Да ли желиш да идеш на Месец?] и чекај
 
-if <(answer) = [yes]> then 
+ако је <(одговор) = [да]> онда
 
 end
 ```
@@ -39,9 +39,9 @@ end
 This is what your code should look like:
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+питај [Да ли желиш да идеш на Месец?] и чекај
+ако је <(одговор) = [да]> онда 
+  промени позадину у (месец v)
 end
 ```
 
@@ -58,9 +58,9 @@ Now you need to make sure that your chatbot starts in the right location when yo
 ![нано лик](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+када је кликнуто на овај лик
 
-+ switch backdrop to (space v)
++ промени позадину у (свемир v)
 ```
 
 \--- /task \---
@@ -78,14 +78,14 @@ You can also add the following code inside the new `if`{:class="block3control"} 
 ![нано лик](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+ако је <(одговор) = [да]> онда 
+  промени позадину у (месец v)
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
++  понови (4) 
+    промени y за (10)
+    чекај (0.1) секунду
+    промени y за (-10)
+    чекај (0.1) секунду
   end
 end
 ```
