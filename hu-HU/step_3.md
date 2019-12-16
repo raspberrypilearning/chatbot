@@ -20,9 +20,9 @@ mondják [Milyen kedves név!] A (2) másodpercig
 
 A kód teszteléséhez kattints a chatbotodra. Amikor a chatbot megkérdezi a nevét, írd be a színpad alján látható mezőbe, majd kattints a kék jelre, vagy nyomd meg a <kbd>Enter</kbd>-t.
 
-![ChatBot válasz tesztelése](images/chatbot-ask-test1.png)
+![Chatbot válasz tesztelése](images/chatbot-ask-test1.png)
 
-![ChatBot válasz tesztelése](images/chatbot-ask-test2.png)
+![Chatbot válasz tesztelése](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
@@ -56,22 +56,21 @@ Hozz létre egy úgy változót, a neve legyen: `név`{:class="block3variables"}
 
 \--- task \---
 
-Most változtassa meg a chatbot sprites kódját, hogy a `név`{: class = "block3variables"} változót állítsa `válaszra`: class = "block3sensing"}:
+Most változtasd meg a chatbot szereplő kódját úgy, hogy a `név`{:class="block3variables"} változót állítsa a `válasz`{:class="block3sensing"}ra:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-amikor ez a sprite
-kattintott, kérdezze meg [Mi a neved?] és várjon
-
-+ beállítást [név v] (válasz)
-mondjon (csatlakozzon [Hi] (név :: változók +)) (2) másodpercig
+ezen szereplőre kattintáskor
+kérdezd [Mi a neved?] és várj
+[név v] legyen (válasz)
+mondd: ([Szia ] és (név :: + variables) összefűzve) (2) másodpercig
 ```
 
-A kódnak úgy kell működnie, mint korábban: a chatbotnak hiába kell használnia a beírt nevet.
+A kódnak úgy kell működnie, mint korábban: a chatbotnak köszönéskor használnia kell a beírt nevet.
 
 ![Testreszabott válasz tesztelése](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Tesztelje újra a programot. Figyeljük meg, hogy a beírt válasz a `név`{: class = "block3variables"} változóban tárolódik, és megjelenik a színpad bal felső sarkában is. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Teszteld a programot megint. Figyeld meg, hogy a beírt válasz a `név`{:class="block3variables"} változóban tárolódik, és megjelenik a színpad bal felső sarkában is. Annak érdekében, hogy a `név`{:class="block3variables"} eltűnjön a színpadról, menj a `Változók`{:class="block3variables"} blokkba és vedd le a pipát a <0>név</0>{:class="block3variables"} változóról.
