@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Пре него што почнеш да правиш робота који разговара, мораш да одлучиш какав ће он бити. **Размисли о следећим питањима**:
 
 + What is the chatbot's name?
 + Где живи?
