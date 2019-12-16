@@ -17,13 +17,13 @@
 
 Ако имаш Скреч налог, можеш да направиш копију тако што ћеш кликнути на **Преради**.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Ван мреже:** преузми почетни пројекат са [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}, а затим га отвори помоћу уређивача ван мреже.
 
 Ако је потребно да преузмеш и инсталираш Скреч уређивач ван мреже, можеш га пронаћи на [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Почетни пројекат садржи четири лика. Један од њих ће бити твој робот.
 
 You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
