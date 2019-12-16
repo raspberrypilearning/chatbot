@@ -46,9 +46,9 @@ Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+Чувањем одговора у **променљивој**, можете га користити било где у пројекту.
 
-Create a new variable called `name`{:class="block3variables"}.
+Креирај нову променљиву која ће се звати `име`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -74,4 +74,4 @@ Your code should work as before: your chatbot should say hi using the name you t
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Поново испробај свој програм. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
