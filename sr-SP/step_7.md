@@ -2,7 +2,7 @@
 
 You can also program your chatbot to change its location!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Испробавање промене позадине](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
