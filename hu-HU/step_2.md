@@ -23,7 +23,7 @@ Ha nincs még Scratch offline szerkesztőd, akkor azt innen tudod letölteni:[ht
 
 \--- task \---
 
-Az induló projekt négy karaktert tartalmaz. Ezek egyike a chatbot lesz.
+Az induló projekt négy karaktert tartalmaz. Ezek egyike lesz a chatbotod.
 
 You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
