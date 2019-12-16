@@ -20,9 +20,9 @@ Click on your chatbot sprite, and add this code to it so that `when it's clicked
 
 Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![Испробавање роботовог одговора](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![Испробавање роботовог одговора](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
