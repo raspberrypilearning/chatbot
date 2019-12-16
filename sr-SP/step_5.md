@@ -8,9 +8,9 @@ First, you're going to make your chatbot ask a question that can be answered wit
 
 Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+![Испробавање роботовог одговора](images/chatbot-if-test1-annotated.png)
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![Испробавање роботовог одговора](images/chatbot-if-test2.png)
 
 ![нано лик](images/nano-sprite.png)
 
@@ -59,9 +59,9 @@ end
 
 Испробај свој код. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![Испробавање роботовог одговора](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Испробавање одговора да/не](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
@@ -75,9 +75,9 @@ If you click your chatbot's **Costumes** tab, you'll see that there is more than
 
 Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
-![Testing a changing costume](images/chatbot-costume-test1.png)
+![Испробавање промене костима](images/chatbot-costume-test1.png)
 
-![Testing a changing costume](images/chatbot-costume-test2.png)
+![Испробавање промене костима](images/chatbot-costume-test2.png)
 
 Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
 
@@ -122,6 +122,6 @@ To fix this problem, add to the chatbot's code to `switch costume`{:class="block
 питај [Како се зовеш?] и чекај
 ```
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![Испробавање поправке костима](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
