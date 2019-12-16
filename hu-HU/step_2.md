@@ -17,9 +17,9 @@ Mielőtt elkezdenéd létrehozni a chatbotod, el kell döntened, hogy milyen les
 
 Ha már van Scratch fiókod, készíthetsz egy másolatot a **Remixelés** gombbal.
 
-**Offline:** töltse le az indítóprojektet [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"}, majd nyissa meg az offline szerkesztő segítségével.
+**Offline:** töltsd le a kezdő projektet [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}-ról, majd nyisd meg az offline szerkesztőd segítségével.
 
-Ha le kell töltened és telepítened kell a Scratch offline szerkesztőt, akkor azt itt találod:[https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+Ha nincs még Scratch offline szerkesztőd, akkor azt innen tudod letölteni:[https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
 \--- task \---
 
