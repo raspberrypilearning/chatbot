@@ -1,6 +1,6 @@
 ## Шта даље?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+Испробај пројекат [Програм за цртање](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), где ћеш направити сопствени програм за цртање!
 
 --- no-print --- Кликни на зелену заставицу да почнеш. Користи миш да помераш оловку и држи притиснут леви тастер миша да црташ. Кликни на боју да промениш бојице. Кликни на гумицу да је употребиш да обришеш свој рад. Да обришеш страницу, кликни на крстић.
 
