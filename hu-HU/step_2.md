@@ -2,20 +2,20 @@
 
 \--- task \---
 
-Mielőtt elkezdené létrehozni a chatbotot, el kell döntenie, hogy milyen a személyisége. **Gondolj az alábbi kérdésekre**:
+Mielőtt elkezdenéd létrehozni a chatbotod, el kell döntened, hogy milyen lesz a személyisége. **Gondold végig az alábbi kérdéseket**:
 
 + Mi a chatbot neve?
 + Hol él?
 + Boldog? Komoly? Vicces? Félénk? Barátságos?
-+ Mit szeret és nem szeret?
++ Mit és mit nem szeret?
 
 \--- /task \---
 
-\--- task \--- Nyissa meg a Chatbot Scratch starter projektet.
+\--- task \--- Nyisd meg a Chatbot Scratch kezdő projektet.
 
-**Online:** nyissa meg a starter projektet [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
+**Online:** nyisd meg a kezdő projektet [rpf.io/chatbot](http://rpf.io/chatbot-on){:target="_blank"}-on.
 
-Ha van Scratch fiókod, készíthetsz egy másolatot a **Remixelés** gombbal.
+Ha már van Scratch fiókod, készíthetsz egy másolatot a **Remixelés** gombbal.
 
 **Offline:** töltse le az indítóprojektet [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"}, majd nyissa meg az offline szerkesztő segítségével.
 
