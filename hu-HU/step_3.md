@@ -11,14 +11,14 @@ Kattints a chatbot szereplőre, és add hozzá ezt a kódot, hogy `ha rákattint
 ```blocks3
 ha ez a szellem a kattintott
 kérni [Mi a neved?], és várjon
-mondják [Milyen szép név!] A (2) másodpercig
+mondják [Milyen kedves név!] A (2) másodpercig
 ```
 
 \--- /task \---
 
 \--- task \---
 
-A kód teszteléséhez kattintson a chatbotra. Amikor a chatbot megkérdezi a nevét, írja be a színpad alján látható mezőbe, majd kattintson a kék jelre, vagy nyomja meg a <kbd>Entert</kbd>.
+A kód teszteléséhez kattints a chatbotodra. Amikor a chatbot megkérdezi a nevét, írd be a színpad alján látható mezőbe, majd kattints a kék jelre, vagy nyomd meg a <kbd>Enter</kbd>-t.
 
 ![ChatBot válasz tesztelése](images/chatbot-ask-test1.png)
 
@@ -28,7 +28,7 @@ A kód teszteléséhez kattintson a chatbotra. Amikor a chatbot megkérdezi a ne
 
 \--- task \---
 
-Most, a chatbot válaszol "Milyen szép név!" minden alkalommal, amikor válaszolsz. A chatbot válaszát személyesebbé teheti, hogy a válasz minden alkalommal más legyen, amikor egy másik nevet beírnak.
+Most, a chatbot azt mondja, hogy "Milyen kedves név!" minden alkalommal, amikor válaszolsz a kérdésére. A chatbot válaszát személyesebbé teheted azzal, hogy a válasza minden alkalommal más legyen, amikor beírsz egy új nevet.
 
 Változtassa meg a chatbot sprite kódját `csatlakozzon`{: class = "block3operators"} "Hi" a `válasz`{: class = "block3sensing"} -re a "Mi a neved?" kérdés, így a kód így néz ki:
 
