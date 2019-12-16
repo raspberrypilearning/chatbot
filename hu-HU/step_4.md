@@ -1,6 +1,6 @@
 ## Kihívás: még több kérdés
 
-Állítson be egy chatbot-ot egy másik kérdésre. Meg tudja-e tárolni a választ erre az új kérdésre egy új változóban?
+Módosítd a chatbotod úgy, hogy feltegyen egy újabb kérdést. Tudod úgy módosítani, hogy az új kérdésre adott választ egy új változóban tárolja?
 
 ![Több kérdés](images/chatbot-question1.png)
 
