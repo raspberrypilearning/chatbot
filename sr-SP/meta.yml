@@ -13,7 +13,7 @@ steps:
   - 
     title: Твој робот који разговара
   - 
-    title: A talking chatbot
+    title: Робот који разговара
   - 
     title: "Изазов: Више питања"
     challenge: true
@@ -25,7 +25,7 @@ steps:
   - 
     title: Промена локације
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Изазов: Доврши свог робота"
     challenge: true
   - 
     title: Шта даље?
