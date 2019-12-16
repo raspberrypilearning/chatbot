@@ -36,7 +36,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Овако би требао да изгледа твој код:
 
 ```blocks3
 питај [Да ли желиш да идеш на Месец?] и чекај
