@@ -25,8 +25,8 @@ Ha nincs még Scratch offline szerkesztőd, akkor azt innen tudod letölteni:[ht
 
 Az induló projekt négy karaktert tartalmaz. Ezek egyike lesz a chatbotod.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Használhatod az alapértelmezett szereplőt vagy választhatsz egy másikat is. Ehhez válaszd ki a szereplőt majd a sínpad alatti Megjelenítés menüben kattints a **mutat** vagy a **rejt** szem ikonra.
 
-![Válasszon egy karaktert](images/chatbot-characters.png)
+![Válassz egy karaktert](images/chatbot-characters.png)
 
 \--- /task \---
