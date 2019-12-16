@@ -1,10 +1,10 @@
 ## Beszélő chatbot
 
-Most, hogy van egy személyiséggel rendelkező chatbot, akkor azt tervezi, hogy beszéljen veled.
+Most, hogy van egy személyiséggel rendelkező chatbotod, készítünk egy programot, hogy beszélni tudjon veled.
 
 \--- task \---
 
-Kattints a chatbot sprite-jére, és add hozzá ezt a kódot, hogy `ha rákattint az`{: class = "block3events"}, `megkérdezi a nevedet`{: class = "block3sensing"}, majd `azt mondja: " kedves név!"`{: class = "block3looks"}.
+Kattints a chatbot szereplőre, és add hozzá ezt a kódot, hogy `ha rákattint az`{:class="block3events"}, `megkérdezi a nevedet`{:class="block3sensing"}, majd `azt mondja: "Milyen kedves név!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
