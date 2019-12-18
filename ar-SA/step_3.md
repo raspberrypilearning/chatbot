@@ -74,4 +74,4 @@
 
 \--- /task \---
 
-اختبر مشروعك مرة أخرى. لاحظ أن الإجابة التي تكتبها مخزنة في المتغير ` اسم` {: class = "block3variables"} ، ويظهر أيضًا في الركن العلوي الأيسر من المنصة. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+اختبر مشروعك مرة أخرى. لاحظ أن الإجابة التي تكتبها مخزنة في المتغير ` اسم` {: class = "block3variables"} ، ويظهر أيضًا في الركن العلوي الأيسر من المنصة. لجعلها تختفي من المنصة، اذهب إلى الكتل في قسم ` المتغيرات ` {: class = "block3variables"} وانقر على المربع بجوار `اسم ` {: class = "block3variables"} حتى لا تكون مؤشرة.
