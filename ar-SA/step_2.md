@@ -25,7 +25,7 @@
 
 المشروع المبدئي يحوي اربع شخصيات. واحدة منهم ستكون الروبوت الخاص بك.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+يمكنك استخدام الشخصية التي تم اختيارها مسبقاً، أو تختار واحدة مختلفة بالضغط بزر الماوس عليها وثم تختار **أظهر** أو **أخف** من القائمة التي تظهر اسفل المنصة.
 
 ![اختر شخصية](images/chatbot-characters.png)
 
