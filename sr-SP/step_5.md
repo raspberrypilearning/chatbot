@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Испробај свој код. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Испробај свој код. Требао би добити другачији одговор када одговориш са "не" и када одговориш са "да". Твој робот би требао да одговори са "То је сјајно чути!" када одговориш са "да" (није осетљив на мала и велика слова) и одговори са "О, не!" када одговориш са **било шта друго**.
 
 ![Испробавање роботовог одговора](images/chatbot-if-test2.png)
 
