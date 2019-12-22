@@ -25,7 +25,7 @@
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Да правилно испробаш свој нови код, мораћеш да га испробаш **двапут**: једном са одговором "да", а једном са одговором "не".
 
 \--- /task \---
 
