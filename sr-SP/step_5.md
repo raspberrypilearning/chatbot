@@ -103,9 +103,9 @@ end
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Да ли примећујеш да, након што робот промени костим, он остаје такав и не враћа се на почетно стање?
 
-Можеш испробати следеће: покрени код и одговори са "не" тако да твој робот добије тужан израз лица. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Можеш испробати следеће: покрени код и одговори са "не" тако да твој робот добије тужан израз лица. Затим поново покрени свој код и приметићеш да робот не враћа срећан израз лица пре него што те пита за име.
 
 ![Костим грешка](images/chatbot-costume-bug-test.png)
 
