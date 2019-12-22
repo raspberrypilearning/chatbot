@@ -73,7 +73,7 @@ Now you need to make sure that your chatbot starts in the right location when yo
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+Можеш да додаш следећи код унутар новог блока `ако је`{:class="block3control"} да би робот скочио четири пута ако одговориш са "да":
 
 ![нано лик](images/nano-sprite.png)
 
