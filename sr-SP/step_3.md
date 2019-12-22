@@ -56,7 +56,7 @@
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Сада промени код робота да поставиш променљиву `име`{:class="block3variables"} у `одговор`{:class="block3sensing"}:
 
 ![нано лик](images/nano-sprite.png)
 
@@ -68,7 +68,7 @@ Now, change your chatbot sprites’s code to set the `name`{:class="block3variab
 изговори (споји [Здраво ] и (име :: + variables)) током (2) секунде
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+Твој код би требао да ради као и пре: твој робот би требао да каже здраво користећи твоје име.
 
 ![Испробавање прилагођеног одговора](images/chatbot-answer-test.png)
 
