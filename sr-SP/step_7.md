@@ -67,7 +67,7 @@ Now you need to make sure that your chatbot starts in the right location when yo
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Испробај програм и одговори "да" када те робот упита да ли желиш да идеш на Месец. Требало би да видиш да је робот променио локацију.
 
 \--- /task \---
 
