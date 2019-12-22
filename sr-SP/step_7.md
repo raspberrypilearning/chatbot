@@ -6,13 +6,13 @@
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Можеш ли да програмираш свог робота да пита „Да ли желиш да идеш на Месец?“, а затим да промени позадину када је одговор "да"?
 
 \--- hints \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Твој робот би требао да `пита "Да ли желиш да идеш на Месец?"`{:class="block3sensing"}, а `ако је`{:class="block3control"} твој `одговор`{:class="block3sensing"} "да", требао би да `промени позадину на Месец`{:class="block3looks"}.
 
 \--- /hint \---
 
