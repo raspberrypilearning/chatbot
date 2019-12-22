@@ -4,7 +4,7 @@
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Кликни на лик робота, а затим му додај следећи код, тако да `када је кликнуто на овај лик`{:class="block3events"}, `пита како се зовеш`{:class="block3sensing"}, а затим `изговари "Какво дивно име!"`{:class="block3looks"}.
 
 ![нано лик](images/nano-sprite.png)
 
