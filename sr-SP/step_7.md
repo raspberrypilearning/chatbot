@@ -1,6 +1,6 @@
 ## Промена локације
 
-You can also program your chatbot to change its location!
+Можеш да програмираш робота да мења локацију!
 
 ![Испробавање промене позадине](images/chatbot-backdrop-moon.png)
 
