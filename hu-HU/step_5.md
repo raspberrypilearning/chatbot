@@ -6,7 +6,7 @@ Először módosítsd a chatbotodat úgy, hogy olyan kérdést tegyen fel, amely
 
 \--- task \---
 
-Változtasd meg a chatbot kódját! A chatbot-nak fel kell tennie a következő kérdést "A neved: ", a `név`{:class="block3variables"} változó használatával. Aztán válaszolnia kell úgy, hogy "Nagyon jó hallani!" `ha`{:class="block3control"} a kapott válasz "igen", de ne mondjon semmit, ha a válasz "nem".
+Változtasd meg a chatbot kódját! A chatbot-nak fel kell tennie a következő kérdést "A neved: ", a `név`{:class="block3variables"} változó használatával. Aztán válaszolnia kell úgy, hogy "Ezt jó hallani!" `ha`{:class="block3control"} a kapott válasz "igen", de ne mondjon semmit, ha a válasz "nem".
 
 ![A chatbot válasz tesztelése](images/chatbot-if-test1-annotated.png)
 
