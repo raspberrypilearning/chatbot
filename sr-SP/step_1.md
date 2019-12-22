@@ -53,8 +53,8 @@
 
 ## title: Шта ћеш научити
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
+- Користити код за спајање низова у Скречу
+- Да се променљиве могу користити за чување корисничких уноса
 - Use conditional selection to respond to user input in Scratch \--- /collapse \---
 
 \--- collapse \---
