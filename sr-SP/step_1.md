@@ -6,7 +6,7 @@
 
 ## Увод
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Научићеш како да програмираш лика који може да разговара са тобом! Такав лик се назива робот који разговара.
 
 ### Шта ћеш направити
 
