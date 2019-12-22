@@ -1,6 +1,6 @@
 ## Доношење одлука
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Можеш да програмираш робота да одлучи шта ће урадити на основу одговора које добије.
 
 First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
