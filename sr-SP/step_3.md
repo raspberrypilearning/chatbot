@@ -18,7 +18,7 @@
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+Кликни на робота да испробаш свој код. Када те робот упита за име, откуцај га у поље на дну Позорнице, а затим кликни на плаву ознаку или притисни тастер <kbd>Enter</kbd>.
 
 ![Испробавање роботовог одговора](images/chatbot-ask-test1.png)
 
@@ -30,7 +30,7 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+Промени код лика робота у `споји`{:class="block3operators"} "Здраво" са `одговор`{:class="block3sensing"} на питање "Како се зовеш?", тако да код изгледа овако:
 
 ![нано лик](images/nano-sprite.png)
 
