@@ -73,13 +73,13 @@ end
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Промени код свог робота тако да мења костиме када упишеш свој одговор.
 
 ![Испробавање промене костима](images/chatbot-costume-test1.png)
 
 ![Испробавање промене костима](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Промени код унутар блока `ако је, онда, у супротном`{:class="block3control"} у `замени костим са`{:class="block3looks"}.
 
 ![нано лик](images/nano-sprite.png)
 
@@ -105,7 +105,7 @@ end
 
 Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Можеш испробати следеће: покрени код и одговори са "не" тако да твој робот добије тужан израз лица. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
 
 ![Костим грешка](images/chatbot-costume-bug-test.png)
 
