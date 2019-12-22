@@ -28,7 +28,7 @@
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+Тренутно твој робот одговара са "Какво дивно име!" сваки пут када одговориш. Можеш да прилагодиш његов одговор, тако да је одговор другачији сваки пут када се унесе друго име.
 
 Промени код лика робота у `споји`{:class="block3operators"} "Здраво" са `одговор`{:class="block3sensing"} на питање "Како се зовеш?", тако да код изгледа овако:
 
