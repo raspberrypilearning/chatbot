@@ -2,11 +2,11 @@
 
 Beállíthatod a chatbotot úgy, hogy eldöntse, mit kell tennie a kapott válaszok alapján.
 
-Először is a chatbotodat kérdezed, amelyre "igen" vagy "nem" válaszolhatsz.
+Először módosítsd a chatbotodat úgy, hogy olyan kérdést tegyen fel, amelyre "igen" vagy "nem" lehet a válasz.
 
 \--- task \---
 
-Változtassa meg a chatbot kódját. A chatbot-nak fel kell tennie a kérdést: "Az Ön neve OK", a `név`{: class = "block3variables"} változó használatával. Aztán válaszolnia kell: "Nagyon jó hallani!" `ha`{: class = "block3control"} a kapott válasz "igen", de semmit nem mond, ha a válasz "nem".
+Változtasd meg a chatbot kódját! A chatbot-nak fel kell tennie a következő kérdést "A neved: ", a `név`{:class="block3variables"} változó használatával. Aztán válaszolnia kell úgy, hogy "Nagyon jó hallani!" `ha`{:class="block3control"} a kapott válasz "igen", de ne mondjon semmit, ha a válasz "nem".
 
 ![A chatbot válasz tesztelése](images/chatbot-if-test1-annotated.png)
 
