@@ -1,6 +1,6 @@
 ## Изазов: Више питања
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Програмирај свог робота да постави неко друго питање. Можеш ли да сачуваш одговор у новој променљивој?
 
 ![Више питања](images/chatbot-question1.png)
 
