@@ -18,7 +18,7 @@
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Ево блокова кода које треба да додаш у код твојег робота.
 
 ![нано лик](images/nano-sprite.png)
 
@@ -53,7 +53,7 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Мораћеш да се постараш да твој робот буде на правом месту када почнеш да разговараш са њим. Додај следећи блок на почетак кода за робота:
 
 ![нано лик](images/nano-sprite.png)
 
