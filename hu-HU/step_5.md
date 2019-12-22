@@ -1,6 +1,6 @@
 ## Döntéshozatal
 
-Beállíthatja a chatbotot, hogy eldöntse, mit kell tennie a kapott válaszok alapján.
+Beállíthatod a chatbotot úgy, hogy eldöntse, mit kell tennie a kapott válaszok alapján.
 
 Először is a chatbotodat kérdezed, amelyre "igen" vagy "nem" válaszolhatsz.
 
