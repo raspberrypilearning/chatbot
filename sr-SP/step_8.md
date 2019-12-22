@@ -1,4 +1,4 @@
-## Challenge: finish your chatbot
+## Изазов: Доврши свог робота
 
 Use what you've learned to finish creating your interactive chatbot. Ево неколико идеја:
 
