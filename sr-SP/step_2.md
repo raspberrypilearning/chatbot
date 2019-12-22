@@ -25,7 +25,7 @@
 
 Почетни пројекат садржи четири лика. Један од њих ће бити твој робот.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Можеш употребити већ одабраног лика или изабрати неког другог тако што ћеш кликнути на жељеног лика, а затим изабрати икону ока **прикажи** или **сакриј** која се налази у менију испод позорнице.
 
 ![Одабери лика](images/chatbot-characters.png)
 
