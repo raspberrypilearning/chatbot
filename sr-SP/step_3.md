@@ -1,6 +1,6 @@
 ## Робот који разговара
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Сада када имаш робота са личношћу, програмираћемо га да разговара са тобом.
 
 \--- task \---
 
