@@ -6,7 +6,7 @@
 
 \--- task \---
 
-Промени код свог робота. Твој робот би требао да постави питање "Јеси ли добро ", користећи променљиву `име`{:class="block3variables"}. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Промени код свог робота. Твој робот би требао да постави питање "Јеси ли добро ", користећи променљиву `име`{:class="block3variables"}. Затим би требао одговорити "То је сјајно чути!" `ако`{:class="block3control"} добије одговор "да", али да не каже ништа ако је одговор "не".
 
 ![Испробавање роботовог одговора](images/chatbot-if-test1-annotated.png)
 
