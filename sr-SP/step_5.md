@@ -35,7 +35,7 @@ end
 
 Промени код робота, тако да одговори "О, не!" ако на питање "Јеси ли добро " добије одговор "не".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Замени блок `ако је, онда`{:class="block3control"} са блоком `ако је, онда, у супротном`{:class="block3control"} и додај код како би робот могао `рећи "О. не!"`{:class="block3looks"}.
 
 ![нано лик](images/nano-sprite.png)
 
@@ -65,9 +65,9 @@ end
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Можеш ставити било који код унутар блока `ако је, онда, у супротном`{:class="block3control"}, не само код који омогућава твојем роботу да говори!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Ако кликнеш на свог робота, а затим на картицу **Костими**, видећеш да твој робот има више костима.
 
 ![костими робота](images/chatbot-costume-view-annotated.png)
 
