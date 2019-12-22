@@ -40,7 +40,7 @@ Right now, your chatbot replies "What a lovely name!" every time you answer. You
 изговори (споји [Здраво ] и (одговор) :: +) током (2) секунде
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Испробавање прилагођеног одговора](images/chatbot-answer-test.png)
 
 \--- /task \---
 
@@ -70,8 +70,8 @@ Now, change your chatbot sprites’s code to set the `name`{:class="block3variab
 
 Your code should work as before: your chatbot should say hi using the name you type in.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Испробавање прилагођеног одговора](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Поново испробај свој програм. Приметићеш да се твој одговор чува у променљивој `име`{:class="block3variables"}, а и да се приказује у горњем левом углу Позорнице. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Поново испробај свој програм. Приметићеш да се твој одговор чува у променљивој `име`{:class="block3variables"}, а и да се приказује у горњем левом углу Позорнице. Да нестане са Позорнице, иди на одељак `Променљиве`{:class="block3variables"} и кликни на коцку до `име`{:class="block3variables"} тако да није обележена.
