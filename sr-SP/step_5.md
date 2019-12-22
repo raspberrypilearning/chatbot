@@ -2,11 +2,11 @@
 
 Можеш да програмираш робота да одлучи шта ће урадити на основу одговора које добије.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Прво ћеш направити да твој робот постави питање на које се може одговорити са "да" или "не".
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Промени код свог робота. Твој робот би требао да постави питање "Јеси ли добро ", користећи променљиву `име`{:class="block3variables"}. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
 ![Испробавање роботовог одговора](images/chatbot-if-test1-annotated.png)
 
