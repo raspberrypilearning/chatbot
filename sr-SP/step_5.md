@@ -99,7 +99,7 @@ Change the code inside the `if, then, else`{:class="block3control"} block to `sw
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Испробај и сачувај свој код. Лице твог робота би требало да се мења у зависности од твог одговора.
 
 \--- /task \---
 
@@ -111,7 +111,7 @@ You can try this out: run your code and answer "no" so that your chatbot's face 
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Да поправиш овај проблем, додај роботовом коду `замени костим са`{:class="block3looks"} на почетку `када је кликнуто на овај лик`{:class="block3events"}.
 
 ![нано лик](images/nano-sprite.png)
 
