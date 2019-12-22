@@ -29,11 +29,11 @@ end
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+Тренутно твој робот не каже ништа на одговор "не".
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Промени код робота, тако да одговори "О, не!" ако на питање "Јеси ли добро " добије одговор "не".
 
 Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
 
