@@ -6,7 +6,7 @@ Először módosítsd a chatbotodat úgy, hogy olyan kérdést tegyen fel, amely
 
 \--- task \---
 
-Változtasd meg a chatbot kódját! A chatbot-nak fel kell tennie a következő kérdést "A neved ", a `név`{:class="block3variables"} változó használatával. Aztán válaszolnia kell úgy, hogy "Ezt jó hallani!" `ha`{:class="block3control"} a kapott válasz "igen", de ne mondjon semmit, ha a válasz "nem".
+Változtasd meg a chatbot kódját! A chatbot-nak fel kell tennie a következő kérdést "Jól vagy ", a `név`{:class="block3variables"} változó használatával. Aztán válaszolnia kell úgy, hogy "Ezt jó hallani!" `ha`{:class="block3control"} a kapott válasz "igen", de ne mondjon semmit, ha a válasz "nem".
 
 ![A chatbot válasz tesztelése](images/chatbot-if-test1-annotated.png)
 
@@ -19,13 +19,13 @@ ezen szereplőre kattintáskor
 kérdezd [Mi a neved?] és várj
 [név v] legyen (válasz)
 mondd: ([Szia ] és (név) összefűzve) (2) másodpercig
-kérdezd ([A neved ] és (név) összefűzve) és várj
+kérdezd ([Jól vagy ] és (név) összefűzve) és várj
 ha <(válasz) = [igen]> akkor 
   mondd: [Ezt jó hallani!] (2) másodpercig
 end
 ```
 
-Az új kód helyes teszteléséhez **at kétszer kell tesztelnie**: egyszer a "igen" választ, és egyszer a "nem" választ.
+Az új kód helyes teszteléséhez **két próbát kell tenned**: egyszer az "igen" legyen a válasz, és másodszor pedig a "nem".
 
 \--- /task \---
 
@@ -33,7 +33,7 @@ Jelenleg a chatbot nem mond semmit a "nem" válaszra.
 
 \--- task \---
 
-Változtassa meg a chatbot kódját, hogy válaszoljon "Ó, nem!" ha "nem" -et kap a válasz: "Ön rendben van".
+Változtasd meg a chatbot kódját úgy, hogy "Ó, nem!"-et mondjon, ha "nem"-mel válaszolsz a "Jól vagy" kérdésre.
 
 Cserélje ki a `, majd`{: class = "block3control"} blokkot egy `ha, akkor még`: class = "block3control"} blokk, és tartalmazzon kódot, így a chatbot `mondhatja: "Ó, nem!"`{: class = "block3looks"}.
 
