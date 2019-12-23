@@ -6,7 +6,7 @@ Először módosítsd a chatbotodat úgy, hogy olyan kérdést tegyen fel, amely
 
 \--- task \---
 
-Változtasd meg a chatbot kódját! A chatbot-nak fel kell tennie a következő kérdést "A neved: ", a `név`{:class="block3variables"} változó használatával. Aztán válaszolnia kell úgy, hogy "Ezt jó hallani!" `ha`{:class="block3control"} a kapott válasz "igen", de ne mondjon semmit, ha a válasz "nem".
+Változtasd meg a chatbot kódját! A chatbot-nak fel kell tennie a következő kérdést "A neved ", a `név`{:class="block3variables"} változó használatával. Aztán válaszolnia kell úgy, hogy "Ezt jó hallani!" `ha`{:class="block3control"} a kapott válasz "igen", de ne mondjon semmit, ha a válasz "nem".
 
 ![A chatbot válasz tesztelése](images/chatbot-if-test1-annotated.png)
 
@@ -15,14 +15,14 @@ Változtasd meg a chatbot kódját! A chatbot-nak fel kell tennie a következő 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-amikor ez a sprite rákattintott,
-megkérdezi a [Mi a neved?] és várjon
-beállítást [név v] (válasz)
-mondjon (csatlakozzon a [Hi] (név)) -hez (2) másodpercig
-+ kérdezze (csatlakozzon [Csatlakozzon az [OK]] (név)) és várjon
-+, ha <(válasz) = [yes]> majd 
-  mondja [Ez nagyszerű hallani!] (2) másodpercig
-vége
+ezen szereplőre kattintáskor
+kérdezd [Mi a neved?] és várj
+[név v] legyen (válasz)
+mondd: ([Szia ] és (név) összefűzve) (2) másodpercig
+kérdezd ([A neved ] és (név) összefűzve) és várj
+ha <(válasz) = [igen]> akkor 
+  mondd: [Ezt jó hallani!] (2) másodpercig
+end
 ```
 
 Az új kód helyes teszteléséhez **at kétszer kell tesztelnie**: egyszer a "igen" választ, és egyszer a "nem" választ.
