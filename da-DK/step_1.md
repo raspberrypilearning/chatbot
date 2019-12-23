@@ -6,13 +6,13 @@ Dette er **Scratch 3** versionen af projektet. Der er også en [Scratch 2 versio
 
 ## Introduktion
 
-Du skal lære at programmere et tegn, der kan tale med dig! Et tegn som det hedder en chatrobot eller chatbot.
+Du skal lære at programmere en figur, der kan tale med dig! En figur som der hedder en chatrobot eller chatbot.
 
 ### Hvad du vil lave
 
 \--- no-print \---
 
-Klik på det grønne flag, og klik derefter på chatbot-tegn for at starte en samtale. Når chatbot stiller et spørgsmål, skal du skrive dit svar i boksen nederst på scenen, og derefter klikke på det blå mærke til højre (eller tryk `Enter`) for at se chatbotets svar.
+Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en samtale. Når chatboten stiller et spørgsmål, skal du skrive dit svar i boksen nederst på skærmen, og derefter klikke på det blå mærke til højre (eller tryk `Enter`) for at se chatbotets svar.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -25,7 +25,7 @@ Klik på det grønne flag, og klik derefter på chatbot-tegn for at starte en sa
 
 ![komplet projekt](images/chatbot-preview.png)
 
-\--- / kun print \---
+\--- /print-only \---
 
 \--- collapse \---
 
@@ -53,8 +53,8 @@ Klik på det grønne flag, og klik derefter på chatbot-tegn for at starte en sa
 
 ## title: Du kommer til at lære følgende
 
-- Use code to concatenate strings in Scratch
-- Ved at variabler kan bruges til at gemme brugerindgang
+- Brug kode til at sammenkæde strenge i Scratch
+- Ved at variabler kan bruges til at gemme bruger svar
 - Brug betinget valg til at reagere på brugerindgang i Scratch \--- / collapse \---
 
 \--- falde sammen \---
