@@ -35,29 +35,28 @@ Jelenleg a chatbot nem mond semmit a "nem" válaszra.
 
 Változtasd meg a chatbot kódját úgy, hogy "Ó, nem!"-et mondjon, ha "nem"-mel válaszolsz a "Jól vagy" kérdésre.
 
-Cserélje ki a `, majd`{: class = "block3control"} blokkot egy `ha, akkor még`: class = "block3control"} blokk, és tartalmazzon kódot, így a chatbot `mondhatja: "Ó, nem!"`{: class = "block3looks"}.
+Cseréld ki a `ha, akkor`{:class="block3control"} blokkot egy `ha, akkor, különben`{:class="block3control"} blokkra, ami ez tartalmazzon egy `mondd: "Ó, nem!"`{:class="block3looks"} kódot is, így a chatbot így már mindkét válaszodra tud reagálni.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-amikor ez a sprite rákattintott,
-kérje a [Mi a neved?] és várjon
-beállítást [név v] a (válasz)
-(csatlakozzon a [Hi] (név)) -hez (2) másodpercig
-kérjen (csatlakozzon [Are you OK] (csatlakozzon hozzá) név)) és várjon
-
-+, ha <(válasz) = [yes]> majd 
-  azt mondja [nagyszerű hallani!] (2) másodpercig
-más 
-+ mondja [Ó, ne!] (2) másodpercig
-vége
+ezen szereplőre kattintáskor
+kérdezd [Mi a neved?] és várj
+[név v] legyen (válasz)
+mondd: ([Szia ] és (név) összefűzve) (2) másodpercig
+kérdezd ([Jól vagy ] és (név) összefűzve) és várj
+ha <(válasz) = [igen]> akkor 
+  mondd: [Ezt jó hallani!] (2) másodpercig
+különben 
+  mondd: [Ó, nem!] (2) másodpercig
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Tesztelje a kódot. Más választ kell kapnia, ha a "nem" válaszra válaszol, és ha "igen" választ ad: a chatbotjának válaszolnia kell "Ez nagyszerű hallani!" ha "igen" (ami nem kis- és nagybetűkre) válaszol, és válaszoljon az "Ó, nem!" ha **válaszolsz mást**.
+Próbáld ki a kódod. Más választ kell kapnia, ha a "nem" válaszra válaszol, és ha "igen" választ ad: a chatbotjának válaszolnia kell "Ez nagyszerű hallani!" ha "igen" (ami nem kis- és nagybetűkre) válaszol, és válaszoljon az "Ó, nem!" ha **válaszolsz mást**.
 
 ![A chatbot válasz tesztelése](images/chatbot-if-test2.png)
 
