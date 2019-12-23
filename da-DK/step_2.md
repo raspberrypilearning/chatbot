@@ -2,11 +2,11 @@
 
 \--- task \---
 
-Før du begynder at oprette din chatbot, skal du bestemme, hvad dens personlighed er. **Tænk på følgende spørgsmål**:
+Før du begynder at oprette din chatbot, skal du bestemme, hvordan dens personlighed er. **Tænk på følgende spørgsmål**:
 
 + Hvad er chatbots navn?
 + Hvor bor den?
-+ Er det lykkeligt? Alvorlig? Sjov? Genert? Venlige?
++ Er den lykkeligt? Alvorlig? Sjov? Genert? Venlige?
 + Hvad kan det lide og ikke lide?
 
 \--- /task \---
