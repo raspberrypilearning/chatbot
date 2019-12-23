@@ -56,7 +56,7 @@ end
 
 \--- task \---
 
-Próbáld ki a kódod. Más választ kell kapnia, ha a "nem" válaszra válaszol, és ha "igen" választ ad: a chatbotjának válaszolnia kell "Ez nagyszerű hallani!" ha "igen" (ami nem kis- és nagybetűkre) válaszol, és válaszoljon az "Ó, nem!" ha **válaszolsz mást**.
+Próbáld ki a kódod. Különböző válaszokat kell kapnod. Ha "igen"-nel (kis- és nagybetűk használatától függetlenül) válaszolsz a chatbotodnak "Ezt jó hallani!"-t kell mondania és "Ó, nem!"-et, ha **mást írsz be**.
 
 ![A chatbot válasz tesztelése](images/chatbot-if-test2.png)
 
@@ -64,15 +64,15 @@ Próbáld ki a kódod. Más választ kell kapnia, ha a "nem" válaszra válaszol
 
 \--- /task \---
 
-Bármely kódot be lehet helyezni egy `ha, akkor másképpen`{: class = "block3control"} blokk, nem csak kódot, hogy a chatbotod beszéljen!
+Bármely kódot beírhatsz egy `ha, akkor, különben`{:class="block3control"} blokkba, nem csak olyat, amitől a chatbotod válaszol.
 
-Ha rákattint a chatbot **Costumes** lapjára, látni fogja, hogy több ruha is van.
+Ha rákattintasz a chatbot **Jelmezek** lapjára, látni fogod, hogy több jelmeze is van.
 
 ![chatbot jelmezek](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Változtassa meg a chatbot kódját úgy, hogy a chatbot kapcsolja a jelmezeket, amikor beírja a választ.
+Változtasd meg a chatbotod kódját úgy, hogy a chatbot válasszon a jelmezek közül, amikor beírsz egy választ.
 
 ![Egy változó ruha tesztelése](images/chatbot-costume-test1.png)
 
