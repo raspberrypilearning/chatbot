@@ -19,13 +19,13 @@ Hvis du har en Scratch-konto, kan du lave en kopi ved at klikke på **Remix**.
 
 **Offline:** download startprojektet fra [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} og derefter åbne det ved hjælp af offline editor.
 
-Hvis du skal downloade og installere Scratch offline editoren, kan du finde den på [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / opgave \---
+Hvis du skal downloade og installere Scratch offline editoren, kan du finde den på [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
 \--- opgave \---
 
 Startprojektet indeholder fire karaktersprites. En af disse bliver din chatbot.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Du kan enten bruge den sprite, der allerede er valgt, eller vælge en anden ved at klikke på den ønskede og derefter vælge ** showet ** eller ** skjul ** øjeikon fra Sprite-menuen under scenen.
 
 ![Vælg et tegn](images/chatbot-characters.png)
 
