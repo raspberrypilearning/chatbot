@@ -78,33 +78,32 @@ Változtasd meg a chatbotod kódját úgy, hogy a chatbot válasszon a jelmezek 
 
 ![Egy változó ruha tesztelése](images/chatbot-costume-test2.png)
 
-Változtassa meg a kódot a `belül, ha, akkor még`{: class = "block3control"} blokk `kapcsoló jelmez`{: class = "block3looks"}.
+Módosítsd a `ha, akkor, különben`{:class="block3control"} blokkot a `jelmez legyen`{:class="block3looks"} blokk hozzáadásával.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-amikor ez a sprite rákattintott,
-kérje a [Mi a neved?] és várjon
-beállítást [név v] a (válasz)
-(csatlakozzon a [Hi] (név)) -hez (2) másodpercig
-kérjen (csatlakozzon [Are you OK] (csatlakozzon hozzá) név)) és várjon
-ha <(válasz) = [yes]> majd 
-
-+ kapcsolót (nano-c v)
-  mondja [Ez nagyszerű hallani!] (2) másodpercig
-más 
-+ kapcsolj jelmezet (nano- d v)
-  mondja [Ó, nem!] (2) másodpercig
-vége
+ezen szereplőre kattintáskor
+kérdezd [Mi a neved?] és várj
+[Név v] legyen (válasz)
+mondd: ([Szia ] és (Név) összefűzve) (2) másodpercig
+kérdezd ([Jól vagy ] és (Név) összefűzve) és várj
+ha <(válasz) = [igen]> akkor 
+  jelmez legyen (nano-c v)
+  mondd: [Ezt jó hallani!] (2) másodpercig
+különben 
+  jelmez legyen (nano-d v)
+  mondd: [Ó nem!] (2) másodpercig
+end
 ```
 
-Tesztelje és mentse a kódot. Meg kell látnia a chatbot arcát a válaszától függően.
+Próbáld ki és mentsd le a kódot. Azt kell majd látnod, hogy a chatbot arca a válaszától függően változik.
 
 \--- /task \---
 
-Észrevetted, hogy a chatbot jelmezének megváltozása után ez így marad, és nem tér vissza az elejére?
+Észrevetted, hogy a chatbot jelmezének megváltozása után ez így is marad, és nem tér vissza az elsőre?
 
-Ezt kipróbálhatja: futtassa a kódját, és válaszoljon "nem" -re, hogy a chatbot arcát boldogtalan megjelenéssé változtassa. Ezután futtassa újra a kódját, és vegye észre, hogy a chatbot nem változik vissza boldognak, mielőtt megkérdezi a nevét.
+Ezt kipróbálhatod így: futtasd a kódot, és válaszolj "nem"-mel, hogy a chatbotod arcát boldogtalanra változzon. Ezután futtasd újra a kódját, és vedd észre, hogy a chatbot nem változik vissza mosolygósra, mielőtt megkérdezi a neved.
 
 ![Jelmezhiba](images/chatbot-costume-bug-test.png)
 
