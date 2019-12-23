@@ -12,7 +12,7 @@ Változtasd meg a chatbot kódját! A chatbot-nak fel kell tennie a következő 
 
 ![A chatbot válasz tesztelése](images/chatbot-if-test2.png)
 
-![nano sprite](images/nano-sprite.png)
+![nano jelmez](images/nano-sprite.png)
 
 ```blocks3
 ezen szereplőre kattintáskor
@@ -60,7 +60,7 @@ Próbáld ki a kódod. Különböző válaszokat kell kapnod. Ha "igen"-nel (kis
 
 ![A chatbot válasz tesztelése](images/chatbot-if-test2.png)
 
-![Igen / nem válasz tesztelése](images/chatbot-if-else-test.png)
+![Igen/nem válasz tesztelése](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
@@ -74,13 +74,13 @@ Ha rákattintasz a chatbot **Jelmezek** lapjára, látni fogod, hogy több jelme
 
 Változtasd meg a chatbotod kódját úgy, hogy a chatbot válasszon a jelmezek közül, amikor beírsz egy választ.
 
-![Egy változó ruha tesztelése](images/chatbot-costume-test1.png)
+![Változó jelmez tesztelése](images/chatbot-costume-test1.png)
 
-![Egy változó ruha tesztelése](images/chatbot-costume-test2.png)
+![Változó jelmez tesztelése](images/chatbot-costume-test2.png)
 
 Módosítsd a `ha, akkor, különben`{:class="block3control"} blokkot a `jelmez legyen`{:class="block3looks"} blokk hozzáadásával.
 
-![nano sprite](images/nano-sprite.png)
+![nano jelmez](images/nano-sprite.png)
 
 ```blocks3
 ezen szereplőre kattintáskor
@@ -109,17 +109,16 @@ Ezt kipróbálhatod így: futtasd a kódot, és válaszolj "nem"-mel, hogy a cha
 
 \--- task \---
 
-A probléma megoldásához adjuk hozzá a chatbot kódjához `kapcsoló jelmezet`{: class = "block3looks"} a `elején, amikor a sprite-ot rákattintják`{: class = "block3events"}.
+A probléma megoldásához a chatbot kódjához tedd a `jelmez legyen`{: lass="block3looks"} blokkot a `ezen szereplőre kattintáskor`{:class="block3events"} blokk mögé.
 
-![nano sprite](images/nano-sprite.png)
+![nano jelmez](images/nano-sprite.png)
 
 ```blocks3
-amikor ez a sprite a
-
-+ kapcsoló jelmezre kattint (nano-a v)
-kérdezze meg [Mi a neve?] és várjon
+ezen szereplőre kattintáskor
+jelmez legyen (nano-a v)
+kérdezd [Mi a neved?] és várj
 ```
 
-![A jelmez javítása tesztelése](images/chatbot-costume-fix-test.png)
+![A jelmezhiba javításának tesztelése](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
