@@ -1,5 +1,5 @@
 ## Kihívás: még több döntés
 
-Programozza be a chatbotot, hogy megkérdezzen egy másik kérdést, amelyre "igen" vagy "nem" válaszolhat. Meg tudja-e változtatni a chatbotját attól függően, hogy melyik választ kapja?
+Módosítsd a chatbotod: tegyen fel egy másik kérdést is, amelyre "igen" vagy "nem" lehet a válasz. Meg tudod ezt tenni úgy, hogy a chatbotot a választól függően reagáljon?
 
-![screenshot](images/chatbot-joke.png)
+![képernyőkép](images/chatbot-joke.png)
