@@ -55,9 +55,9 @@ Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en
 
 - Brug kode til at sammenkæde strenge i Scratch
 - Ved at variabler kan bruges til at gemme bruger svar
-- Brug betinget valg til at reagere på brugerindgang i Scratch \--- / collapse \---
+- Brug betingelser til at reagere på bruger svar i Scratch \--- / collapse \---
 
-\--- falde sammen \---
+\--- collapse \---
 
 * * *
 
@@ -67,8 +67,8 @@ Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en
 
 Hvis du har brug for at udskrive dette projekt, skal du bruge [printervenlig version](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
 
-\--- / no-print \---
+\--- /no-print \---
 
 Du kan finde det [færdige projekt her](http://rpf.io/p/en/chatbot-get).
 
-\--- /falde sammen \---
+\--- /collapse \---
