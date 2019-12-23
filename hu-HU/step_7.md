@@ -1,42 +1,41 @@
 ## Hely megváltoztatása
 
-Beállíthatja a chatbotot is, hogy megváltoztassa a helyét!
+Állítsd be a chatbotot úgy, hogy megváltoztassa a helyét!
 
 ![Változó hátteret tesztel](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Beállíthatod a chatbotodat, hogy megkérdezd: "Akarsz menni a Holdra", majd módosítsd a hátteret, amikor a válasz "igen"?
+Tudod úgy módosítani a chatbotodat, hogy megkérdezze: "Akarsz menni a Holdra?", majd módosítsa a hátteret, ha a válasz "igen"?
 
 \--- tippek \---
 
 \--- hint \---
 
-Az Ön chatbotjának `kell kérdeznie: "El akarsz menni a Holdra?"`{: class = "block3sensing"}, és `ha`{: class = "block3control"} te `válasz`{: class = "block3sensing"} "igen", akkor `kapcsolja át a hátteret a holdra`{: class = "block3looks"}.
+A chatbotnak `meg kell kérdeznie: "El akarsz menni a Holdra?"`{:class="block3sensing"}, és `ha`{:class="block3control"} a `válasz`{:class="block3sensing"} "igen", akkor `kapcsolja át a hátteret a Holdra`{:class="block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Íme a kódblokkok, amelyeket hozzá kell adnod a chatbot kódodhoz.
+Ezeket a kódblokkokat kell hozzáadnod a chatbot kódjához.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-kapcsolja a hátteret (hold v)
+háttér legyen (moon v)
 
-kérje [Szeretne menni a Holdra?] és várjon
+kérdezd [Akarsz menni a Holdra?] és várj
 
-ha <(válasz) = [yes]> majd 
-
-vége
+ha <(válasz) = [igen]> akkor
+end
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Ez az, amit a kódodnak kell kinéznie:
+A kódnak így kell kinéznie:
 
 ```blocks3
 kérdezd meg [Szeretnéd a Holdra menni?] és várjunk
