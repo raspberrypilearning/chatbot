@@ -2,7 +2,7 @@
 
 Állítsd be a chatbotot úgy, hogy megváltoztassa a helyét!
 
-![Változó hátteret tesztel](images/chatbot-backdrop-moon.png)
+![Változó háttér tesztelése](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
@@ -20,7 +20,7 @@ A chatbotnak `meg kell kérdeznie: "El akarsz menni a Holdra?"`{:class="block3se
 
 Ezeket a kódblokkokat kell hozzáadnod a chatbot kódjához.
 
-![nano sprite](images/nano-sprite.png)
+![nano jelmez](images/nano-sprite.png)
 
 ```blocks3
 háttér legyen (moon v)
@@ -38,10 +38,10 @@ end
 A kódnak így kell kinéznie:
 
 ```blocks3
-kérdezd meg [Szeretnéd a Holdra menni?] és várjunk
-> ha <(válasz) = [yes]> majd 
-  kapcsolót hátra (hold v)
-vége
+kérdezd [Akarsz menni a Holdra?] és várj
+ha <(válasz) = [igen]> akkor 
+  háttér legyen (moon v)
+end
 ```
 
 \--- /hint \---
@@ -52,41 +52,39 @@ vége
 
 \--- task \---
 
-Most meg kell győződnie arról, hogy a chatbot a megfelelő helyen kezdődik, amikor rákattint, hogy beszéljen vele. A blokk hozzáadása a chatbot kódjának tetejére:
+Most meg kell győződnöd arról, hogy a chatbot a megfelelő helyen van, amikor rákattintasz, hogy beszélj vele. Add hozzá ezt blokkot a chatbot kódjának tetejéhez:
 
-![nano sprite](images/nano-sprite.png)
+![nano jelmez](images/nano-sprite.png)
 
 ```blocks3
-amikor ez a sprite
-
-+ + kapcsoló hátteret (tér v)
+ezen szereplőre kattintáskor
+háttér legyen (space v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Tesztelje a programot, és válaszoljon "igen" -re, ha a chatbot megkérdezi, hogy akar-e menni a Holdra. Látnia kell, hogy a chatbot helyszíne megváltozik.
+Próbáld ki a programot, és válaszolj "igen"-nel, ha a chatbot megkérdezi, hogy akarsz-e menni a Holdra. Látnod kell, hogy a chatbot helyszíne megváltozik.
 
 \--- /task \---
 
 \--- task \---
 
-A következő kódot is beillesztheti az új `ha`{: class = "block3control"} blokkolja a chatbot négyszer ugrását, ha válaszol az "igen":
+A következő kódot is beillesztheted az új `ha`{:class="block3control"} blokkolba, hogy a chatbot ugráljon, ha a válaszod az "igen":
 
-![nano sprite](images/nano-sprite.png)
+![nano jelmez](images/nano-sprite.png)
 
 ```blocks3
-ha <(válasz) = [yes]> majd 
-  kapcsoló háttere (hold v)
-
-+ ismétlés (4) 
-    változtatás y -val (10)
-    várakozás (0,1) másodperc
-    változtatás y -val (-10)
-    várakozás (0,1) másodperc
-  vég
-vége
+ha <(válasz) = [igen]> akkor 
+  háttér legyen (moon v)
+  ismételd (4) 
+    y változzon (10)
+    várj (0.1) mp-et
+    y változzon (-10)
+    várj (0.1) mp-et
+  end
+end
 ```
 
 \--- /task \---
