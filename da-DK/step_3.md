@@ -4,21 +4,21 @@ Nu hvor du har en chatbot med en personlighed, skal du programmere det for at ta
 
 \--- task \---
 
-Klik på din chatbot sprite, og tilføj denne kode til den, så `når den klikkes`{: class = "block3events"}, beder den `om dit navn`{: class = "block3sensing"} og derefter siger `"Hvad en dejligt navn! "`{: class = "block3looks"}.
+Klik på din chatbot sprite, og tilføj denne kode til den, så `når den klikkes`{: class = "block3events"}, beder den `om dit navn`{: class = "block3sensing"} og derefter siger `"Sikke et dejligt navn! "`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-når denne sprite klikket
+når du klikker på denne sprite
 spørg [Hvad er dit navn?] og vent
-sige [Hvilket dejligt navn!] for (2) sekunder
+sige [Sikke et dejligt navn!] i (2) sekunder
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Klik på din chatbot for at teste din kode. Når chatbot beder om dit navn, skal du skrive det i feltet, der vises nederst i scenen, og derefter klikke på det blå mærke eller trykke på <kbd>Enter</kbd>.
+Klik på din chatbot for at teste din kode. Når chatbot beder om dit navn, skal du skrive det i feltet, der vises nederst på skærmen, og derefter klikke på det blå mærke eller trykke på <kbd>Enter</kbd>.
 
 ![Testning af et ChatBot-svar](images/chatbot-ask-test1.png)
 
