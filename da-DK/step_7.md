@@ -6,7 +6,7 @@ Du kan også programmere din chatbot for at ændre sin placering!
 
 \--- task \---
 
-Kan du programmere din chatbot for at spørge "Vil du gå til månen", og derefter ændre baggrunden, når svaret er "ja"?
+Kan du programmere din chatbot til at spørge "Vil du gå til månen", og derefter ændre baggrunden, når svaret er "ja"?
 
 \--- Tips \---
 
@@ -53,12 +53,12 @@ ende
 
 \--- task \---
 
-Nu skal du sørge for, at din chatbot starter på det rigtige sted, når du klikker på det for at tale med det. Tilføj denne blok til toppen af din chatbot-kode:
+Nu skal du sørge for, at din chatbot starter på det rigtige sted, når du klikker på den for at tale med den. Tilføj denne blok til toppen af din chatbot-kode:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-da denne sprite klikte
+da denne sprite klikket
 
 + skift baggrund til (plads v)
 ```
@@ -73,7 +73,7 @@ Test dit program, og svar "ja", når chatbot spørger om du vil gå til månen. 
 
 \--- task \---
 
-Du kan også føje følgende kode inden for den nye `hvis`{: class = "block3control"} blokke for at få chatbot'et til at springe op og ned fire gange, hvis du svarer "ja":
+Du kan også føje følgende kode inden for den nye `hvis`{: class = "block3control"} blokke for at få chatbot'en til at springe op og ned fire gange, hvis du svarer "ja":
 
 ![nano sprite](images/nano-sprite.png)
 
