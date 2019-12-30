@@ -1,8 +1,8 @@
-\----প্রিন্ট করা লাগবেনা --
+\--- no-print \---
 
-এই **স্ক্র্যাচ 3** প্রকল্পের সংস্করণ। প্রকল্প</a>এর স্ক্র্যাচ ২ সংস্করণ রয়েছে।</p> 
+এটি ** স্ক্র্যাচ 3 ** প্রকল্পের সংস্করণ। প্রকল্পের একটি [ স্ক্র্যাচ 2 সংস্করণও রয়েছে ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) ।.
 
-\----প্রিন্ট করা লাগবেনা --
+\--- /no-print \---
 
 ## পরিচিতি
 
@@ -10,22 +10,22 @@
 
 ### যা তৈরি করতে হবে
 
-\----প্রিন্ট করা লাগবেনা --
+\--- no-print \---
 
-সবুজ পতাকাতে ক্লিক করুন, এবং তারপরে একটি কথোপকথন শুরু করার জন্য চ্যাটব্যাট চরিত্রটিতে ক্লিক করুন। Chatbot একটি প্রশ্ন জিজ্ঞেস করে, তখন পর্যায় নীচে বাক্সে আপনার উত্তর টাইপ করুন, এবং তারপর ডান দিকে নীল চিহ্ন তে ক্লিক করুন (অথবা চাপুন `লিখুন`) chatbot উত্তর দেখুন।
+কথোপকথন শুরু করতে সবুজ পতাকাটিতে ক্লিক করুন এবং তারপরে চ্যাটবোট চরিত্রটিতে ক্লিক করুন।. চ্যাটবোট কোনও প্রশ্ন জিজ্ঞাসা করলে, আপনার উত্তরটি স্টেজের নীচে বাক্সে টাইপ করুন, এবং তারপরে ডানদিকে নীল চিহ্নটিতে ক্লিক করুন (অথবা press `Enter`) চ্যাটবটের উত্তর দেখতে.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\----প্রিন্ট করা লাগবেনা --
+\--- /no-print \---
 
-\---প্রিন্ট শুধুমাত্র\---
+\--- print-only \---
 
 ![সম্পূর্ণ প্রকল্প](images/chatbot-preview.png)
 
-\---প্রিন্ট শুধুমাত্র\---
+\--- /print-only \---
 
 \--- collapse \---
 
@@ -51,24 +51,24 @@
 
 * * *
 
-## যা শিখতে পারবেন
+## title: যা শিখতে পারবেন
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- স্ক্র্যাচগুলিতে স্ট্রিংগুলি যুক্ত করতে কোড ব্যবহার করুন
+- জানুন যে ভেরিয়েবলগুলি ব্যবহারকারীর ইনপুট সঞ্চয় করতে ব্যবহৃত হতে পারে
+- স্ক্র্যাচ এ ব্যবহারকারী ইনপুটটিতে প্রতিক্রিয়া জানাতে শর্তাধীন নির্বাচন ব্যবহার করুন \--- /collapse \---
 
 \--- collapse \---
 
 * * *
 
-## শিরোনাম: শিক্ষাবিদদের জন্য অতিরিক্ত নোট
+## title: শিক্ষাবিদদের জন্য অতিরিক্ত তথ্য
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে প্রিন্টার সহযোগী সংষ্করণ ব্যবহার করুন {[printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.।.
 
-\--- /no-print \---
+\--- no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+আপনি এখানে সমাপ্ত প্রকল্প সমূহ [completed project here](http://rpf.io/p/en/chatbot-get) সন্ধান করতে পারেন।.
 
-\--- /collapse \---
+-- /collapse \---
