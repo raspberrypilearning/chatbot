@@ -2,7 +2,7 @@
 title: Chatbot
 hero_image: images/chatbot.png
 description: '¡Aprende cómo programar tu propio robot que habla!'
-theme: violeta
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
@@ -28,4 +28,4 @@ steps:
     title: "Desafío: termina tu chatbot"
     challenge: true
   - 
-    title: What next?
+    title: '¿Qué viene después?'
