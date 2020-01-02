@@ -12,7 +12,7 @@ Esta es la versión **Scratch 3** del proyecto. También hay una versión [Scrat
 
 \--- no-imprimir \---
 
-Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para iniciar una conversación. Cuando el chatbot haga una pregunta, escriba su respuesta en el cuadro en la parte inferior del escenario y luego haga clic en la marca azul de la derecha (o presione ` Intro ` ) para ver la respuesta del chatbot.
+Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para iniciar una conversación. Cuando el chatbot haga una pregunta, escribe tu respuesta en el cuadro en la parte inferior del escenario y luego haga clic en la marca azul de la derecha (o presione ` Intro `) para ver la respuesta del chatbot.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -31,19 +31,19 @@ Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para
 
 * * *
 
-## Título: Lo que necesitarás
+## título: Lo que necesitarás
 
 ### Hardware
 
 - Computadora capaz de ejecutar Scratch 3
 
-### Programas
+### Operativo
 
-- Scratch 3 (ya sea [online](https://rpf.io/scratchon){:target="_blank"} u [offline](https://rpf.io/scratchoff) {:target="_blank)
+- Scratch 3 (ya sea [online](https://rpf.io/scratchon) u [offline](https://rpf.io/scratchoff))
 
 ### Descargas
 
-- [ Encuentra los archivos para descargar aquí ](http://rpf.io/p/en/chatbot-go) .
+- [ Encuentra los archivos para descargar aquí](http://rpf.io/p/en/chatbot-go).
 
 \--- /cerrar \---
 
@@ -51,19 +51,19 @@ Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para
 
 * * *
 
-## Título: Lo que aprenderás.
+## título: Lo que aprenderás
 
 - Usa el código para concatenar cadenas en Scratch
 - Sepa que las variables se pueden usar para almacenar la entrada del usuario
 - Utilizar la selección condicional para responder a la entrada de un usuario en Scratch \--- / collapse \---
 
-\--- colapso \---
+\--- cerrar\---
 
 * * *
 
 ## título: Notas adicionales para educadores
 
-\--- no imprimir \---
+\--- no-imprimir \---
 
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
@@ -71,4 +71,4 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 Puedes [ descargar el proyecto completo aquí ](http://rpf.io/p/en/chatbot-get).
 
-\--- /collapse \---
+\--- /cerrar\---
