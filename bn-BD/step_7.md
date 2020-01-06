@@ -23,13 +23,13 @@
 ![ন্যানো স্প্রাইট](images/nano-sprite.png)
 
 ```blocks3
-(চাঁদ উ) সুইচ পরিপ্রেক্ষিত
+switch backdrop to (moon v)
 
-জিজ্ঞাসা [আপনি চাঁদ যেতে চান না?] এবং অপেক্ষা করুন
+ask [Do you want to go to the moon?] and wait
 
-যদি <(উত্তর) = [yes]> তারপর 
+if <(answer) = [yes]> then 
 
-শেষ
+end
 ```
 
 \--- / ইঙ্গিত \---
@@ -39,10 +39,10 @@
 আপনার কোডটি কেমন হওয়া উচিত:
 
 ```blocks3
-জিজ্ঞাসা [আপনি চাঁদ যেতে চান না?] এবং অপেক্ষা করুন
-যদি <(উত্তর) = [yes]> তারপর 
-  (চাঁদ উ) সুইচ পরিপ্রেক্ষিত
-শেষ
+ask [Do you want to go to the moon?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+end
 ```
 
 \--- / ইঙ্গিত \---
@@ -58,9 +58,9 @@
 ![ন্যানো স্প্রাইট](images/nano-sprite.png)
 
 ```blocks3
-যখন এই sprite
+when this sprite clicked
 
-+ সুইচ ব্যাকড্রপ ক্লিক করুন (স্থান v)
++ switch backdrop to (space v)
 ```
 
 \--- /কাজ \---
@@ -77,16 +77,16 @@
 
 <p><img src="images/nano-sprite.png" alt="ন্যানো স্প্রাইট" /></p>
 
-<pre><code class="blocks3">যদি <(উত্তর) = [yes]> তারপর 
-  ব্যাকড্রপ (চাঁদ v)
+<pre><code class="blocks3">if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 
-+ পুনরাবৃত্তি (4) 
-    পরিবর্তন y দ্বারা (10)
-    অপেক্ষা (0.1) সেকেন্ড
-    পরিবর্তন y দ্বারা (-10)
-    অপেক্ষা (0.1) সেকেন্ড
-  শেষ
-শেষ
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
+end
 `</pre> 
 
 \--- /কাজ \---
