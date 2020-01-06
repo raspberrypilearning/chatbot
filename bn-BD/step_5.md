@@ -15,14 +15,14 @@
 ![ন্যানো স্প্রাইট](images/nano-sprite.png)
 
 ```blocks3
-এই পরী ক্লিক
-বলুন [তোমার নাম কি?] এবং অপেক্ষা করুন
-থেকে (উত্তর) সেট [NAME V]
-বলে (যোগদান করুন [হাই] (নাম)) (2) সেকেন্ডের জন্য
-+ + জিজ্ঞাসা করুন (যোগদান করুন [আপনি ঠিক আছেন] (নাম)) এবং অপেক্ষা করুন
-+ যদি <(উত্তর) = [yes]> তারপর 
-  বলুন [এটা শুনে খুব ভাল!] (2) সেকেন্ড
-শেষ
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
 ```
 
 আপনার নতুন কোড সঠিকভাবে পরীক্ষা করার জন্য, আপনি এটি পরীক্ষা করা উচিত **দুইবার**: একবার উত্তর সঙ্গে "হ্যাঁ", এবং একবার উত্তর সঙ্গে "না"।
@@ -40,17 +40,17 @@
 ![ন্যানো স্প্রাইট](images/nano-sprite.png)
 
 ```blocks3
-যখন এই স্প্রিটটি
-প্রশ্নে ক্লিক করে [আপনার নাম কি?] এবং
-সেট [নাম ভি] থেকে (উত্তর)
-বলুন (যোগ করুন [হাই] (নাম)) (2) সেকেন্ডের জন্য
-জিজ্ঞাসা করুন (যোগদান করুন [আপনি কি ঠিক আছে] নাম)) এবং অপেক্ষা করুন
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
 
-+ <(উত্তর) = [yes]> তারপর 
-  বলুন [এটা শুনে খুব ভাল!] (2) সেকেন্ডে
-আর 
-+ বলুন [ওহ না!] (2) সেকেন্ড
-শেষ
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
 ```
 
 \--- /কাজ \---
@@ -84,19 +84,19 @@
 ![ন্যানো স্প্রাইট](images/nano-sprite.png)
 
 ```blocks3
-যখন এই স্প্রিটটি
-প্রশ্নে ক্লিক করে [আপনার নাম কি?] এবং
-সেট [নাম ভি] থেকে (উত্তর)
-বলুন (যোগ করুন [হাই] (নাম)) (2) সেকেন্ডের জন্য
-জিজ্ঞাসা করুন (যোগদান করুন [আপনি কি ঠিক আছে] নাম)) এবং অপেক্ষা করুন
-যদি <(উত্তর) = [yes]> তারপর 
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
 
-+ + (ন্যানো-C বনাম) এর পরিচ্ছদ সুইচ
-  বলে [এটা শুনে দারুণ!] (2) সেকেন্ডের জন্য
-আর 
-+ এ পরিচ্ছদ পরিবর্তিত হয়ে যায় (nano- ডি ভি)
-  বলুন [ওহ না!] (2) সেকেন্ড
-শেষ
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
 ```
 
 পরীক্ষা এবং আপনার কোড সংরক্ষণ করুন। আপনার উত্তর অনুসারে আপনার চ্যাটবোটের মুখ পরিবর্তন দেখতে হবে।
@@ -116,10 +116,10 @@
 ![ন্যানো স্প্রাইট](images/nano-sprite.png)
 
 ```blocks3
-এই স্প্রিট
+when this sprite clicked
 
-+ সুইচ পরিচ্ছদ ক্লিক করুন (ন্যানো-একটি v)
-জিজ্ঞাসা করুন [আপনার নাম কি?] এবং অপেক্ষা করুন
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
 ```
 
 ![একটি পরিচ্ছদ ফিক্স পরীক্ষা](images/chatbot-costume-fix-test.png)
