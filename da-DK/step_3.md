@@ -1,4 +1,4 @@
-## En snakende chatbot
+## En snakkende chatbot
 
 Nu hvor du har en chatbot med en personlighed, skal du programmere det for at tale med dig.
 
