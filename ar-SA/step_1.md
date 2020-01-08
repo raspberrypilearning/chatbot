@@ -1,67 +1,72 @@
+--- no-print ---
+
+هذا هو إصدار **Scratch 3** من المشروع. هناك أيضًا [إصدار Scratch 2 للمشروع](https://projects.raspberrypi.org/ar-SA/projects/chatbot-scratch2).
+
+--- /no-print ---
+
 ## المقدمة
 
-ستتعلَّم كيف تُبرمج روبوتك المُحاوِر! 
+سوف تتعلم كيفية برمجة شخصية يمكنها التحدث معك! تسمى هذه الشخصية روبوت الدردشة او Chatbot.
 
 ### ما الذي ستصنعه
 
+--- no-print ---
+
+انقر على العلم الاخضر، ثم انقر على شخصية روبوت الدردشة لبدء المحادثة. عندما يسأل روبوت الدردشة سؤالاً، اكتب اجابتك في المربع الموجود اسفل المنصة، ومن ثم انقر على العلامة الزرقاء في اليمين (أو اضغط على `Enter`) لترى جواب الروبوت.
+
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/235357133/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/357856279/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-انقر على العلم الأخضر، ثم انقر على روبوت الدردشة لبدء محادثة. عندما يسأل روبوت الدردشة سؤالًا، اكتب إجابتك في المربع الموجود أسفل المنصة وانقر على علامة ✓ (أو اضغط `Enter`).
+--- /no-print ---
 
-### ما الذي ستتعلمه
+--- print-only ---
 
-يتناول هذا المشروع عناصر من المعايير التالية من المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
+![المشروع كامل](images/chatbot-preview.png)
 
-+ [استخدام تراكيب البرمجة الأساسية لإنشاء برامج بسيطة.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-### معلومات إضافية لقادة النادي
-
-إذا كنت بحاجة إلى طباعة هذا المشروع، فيُرجى استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/ar-SA/projects/chatbot/print).
+--- /print-only ---
 
 --- collapse ---
 ---
-title: ملاحظات قادة النادي
+title: ما ستحتاج إليه
 ---
-## المقدمة:
 
-في هذا المشروع، سيتعلَّم الأطفال كيفية استخدام عبارات 'if' لصنع قرارات في برامجهم.
+### الأجهزة
 
-## الموارد
+- جهاز كمبيوتر يدعم تشغيل برنامج Scratch 3
 
-بالنسبة لهذا المشروع، يجب استخدام برنامج Scratch 2. ويمكن استخدام برنامج Scratch 2 عبر الإنترنت على [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) أو يمكن تنزيله من [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) واستخدامه دون اتصال بالإنترنت.
+### البرامج
 
-يمكنك العثور على نسخة مكتملة من هذا المشروع [online](http://scratch.mit.edu/projects/235357133/#editor)، أو يمكن تنزيله بالنقر على الرابط 'مواد المشروع' الخاص بهذا المشروع، والذي يحتوي على: 
+- برنامج Scratch 3 (سواء أكان [عبر الإنترنت](https://rpf.io/scratchon) أو [دون اتصال بالإنترنت](https://rpf.io/scratchoff))
 
-+ ChatBot.sb2
+### للتحميل
 
-## أهداف التعلم
-
-+ إدخال النصوص؛
-+ القرارات: 
-    + عبارات `if ... then`{:class="blockcontrol"};
-    + عبارات `if ... then ... else`{:class="blockcontrol"}.
-
-يتناول هذا المشروع عناصر من الصفوف التالية من المناهج الرقمية الخاصة بـ [Raspberry Pi](http://rpf.io/curriculum):
-
-+ [استخدام تراكيب البرمجة الأساسية لإنشاء برامج بسيطة.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## التحديات
-
-+ "مزيد من الأسئلة" - دعم تعلم الإدخال وإنشاء قالب `الإجابة`{:class="blocksensing"} block؛
-+ "مزيد من القرارات" - استخدام القرارات؛
-+ "اصنع روبوتك الخاص بك" - دعم التعلم من هذا البرنامج والبرامج السابقة.
+- [ابحث عن الملفات لتحميلها هنا](http://rpf.io/p/ar-SA/chatbot-go).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: مواد المشروع
+title: ما الذي ستتعلمه
 ---
-## موارد قادة النادي
 
-+ [مشروع Scratch 2 مكتمل قابل للتنزيل](resources/ChatBot.sb2)
-+ [مشروع Scratch 2 مكتمل عبر الإنترنت](http://scratch.mit.edu/projects/235357133/#editor)
+- استخدام البرمجة لتنسيق جملة في السكراتش (Scratch)
+- تعرف أن من الممكن استخدام المتغيرات لخزن مدخلات المستخدم
+- استخدام الاختيار المشروط للرد على مدخلات المستخدم في السكراتش (Scratch)
+--- /collapse ---
+
+--- collapse ---
+---
+title: ملاحظات إضافية للمعلمين
+---
+
+--- no-print ---
+
+اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/ar-SA/projects/chatbot/print){:target="_blank"}.
+
+--- /no-print ---
+
+يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/ar-SA/chatbot-get).
 
 --- /collapse ---
