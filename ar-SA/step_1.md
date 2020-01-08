@@ -15,7 +15,7 @@
 انقر على العلم الاخضر، ثم انقر على شخصية روبوت الدردشة لبدء المحادثة. عندما يسأل روبوت الدردشة سؤالاً، اكتب اجابتك في المربع الموجود اسفل المنصة، ومن ثم انقر على العلامة الزرقاء في اليمين (أو اضغط على `Enter`) لترى جواب الروبوت.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/357818805/?autostart=false" 
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/357856279/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
