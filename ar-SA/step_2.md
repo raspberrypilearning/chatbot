@@ -19,7 +19,7 @@
 
 **بدون اتصال انترنيت** حمّل المشروع المبدئي من [rpf.io/p/ar-SA/chatbot-go](http://rpf.io/p/ar-SA/chatbot-go){:target="_blank"} ثم اقتحه باستخدام محرر البرنامج بدون اتصال انترنيت.
 
-لتنزيل و تركيب محرر السكراتش (Scratch) على جهازك الشخصي, يمكنك الحصول عليه من هنا [https://rpf.io/scratchoff](rpf.io/scratchoff) ---
+لتنزيل و تركيب محرر السكراتش (Scratch) على جهازك الشخصي, يمكنك الحصول عليه من هنا [https://rpf.io/scratchoff](rpf.io/scratchoff) --- /task ---
 
 --- task ---
 
