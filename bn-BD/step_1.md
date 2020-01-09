@@ -65,7 +65,7 @@
 
 \--- no-print \---
 
-আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে প্রিন্টার সহযোগী সংষ্করণ ব্যবহার করুন {[printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.।.
+আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [প্রিন্টার সহযোগী সংষ্করণ](https://projects.raspberrypi.org/en/projects/chatbot/print) ব্যবহার করুন {: target = "_ blank"}।.
 
 \--- no-print \---
 
