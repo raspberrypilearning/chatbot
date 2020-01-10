@@ -28,7 +28,7 @@ Klik på din chatbot for at teste din kode. Når chatbot beder om dit navn, skal
 
 \--- task \---
 
-Lige nu svarer din chatbot "Hvilket dejligt navn!" hver gang du svarer. Du kan gøre chatbots svar mere personlige, så svaret er anderledes hver gang et andet navn indtastes.
+Lige nu svarer din chatbot "Det er et dejligt navn!" hver gang du svarer. Du kan gøre chatbots svar mere personlige, så svaret er anderledes hver gang et andet navn indtastes.
 
 Skift chatbot sprite kode til `tilslutte`{: class = "block3operators"} "Hej" med `svaret`{: class = "block3sensing"} til "Hvad er dit navn?" spørgsmål, så koden ser sådan ud:
 
