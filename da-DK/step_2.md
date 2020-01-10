@@ -17,7 +17,7 @@ Før du begynder at oprette din chatbot, skal du bestemme, hvordan dens personli
 
 Hvis du har en Scratch-konto, kan du lave en kopi ved at klikke på **Remix**.
 
-**Offline:** download startprojektet fra [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} og derefter åbne det ved hjælp af offline editor.
+**Offline:** download projektet fra [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} og derefter åbne det ved hjælp af din offline editor.
 
 Hvis du skal downloade og installere Scratch offline editoren, kan du finde den på [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
 
