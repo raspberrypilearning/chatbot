@@ -54,7 +54,7 @@ Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en
 ## title: Du kommer til at lære følgende
 
 - Brug kode til at sammenkæde strenge i Scratch
-- Ved at variabler kan bruges til at gemme bruger svar
+- Ved at bruge variabler til at gemme bruger svar i
 - Brug betingelser til at reagere på bruger svar i Scratch \--- / collapse \---
 
 \--- collapse \---
