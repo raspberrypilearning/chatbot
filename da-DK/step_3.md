@@ -46,7 +46,7 @@ sige (join [Hi] (svar) :: +) for (2) sekunder
 
 \--- task \---
 
-Ved at gemme svaret i en **variabel**, kan du bruge det overalt dit projekt.
+Ved at gemme svaret i en **variabel**, kan du bruge den overalt dit projekt.
 
 Opret en ny variabel kaldet `navn`{: class = "block3variables"}.
 
