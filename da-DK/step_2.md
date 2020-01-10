@@ -2,18 +2,18 @@
 
 \--- task \---
 
-Før du begynder at oprette din chatbot, skal du bestemme, hvordan dens personlighed er. **Tænk på følgende spørgsmål**:
+Før du begynder at oprette din chatbot, skal du bestemme, hvordan dens personlighed er. **Tænk over følgende spørgsmål**:
 
 + Hvad er chatbots navn?
 + Hvor bor den?
 + Er den lykkeligt? Alvorlig? Sjov? Genert? Venlige?
-+ Hvad kan det lide og ikke lide?
++ Hvad kan den lide og ikke lide?
 
 \--- /task \---
 
-\--- opgave \--- Åbn Chatbot Scratch starter-projektet.
+\--- opgave \--- Åbn Chatbot Scratch projektet.
 
-**Online:** Åbn startprojektet på [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
+**Online:** Åbn projektet på [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
 Hvis du har en Scratch-konto, kan du lave en kopi ved at klikke på **Remix**.
 
