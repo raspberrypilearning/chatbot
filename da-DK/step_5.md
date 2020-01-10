@@ -6,7 +6,7 @@ Først skal du få din chatbot stille et spørgsmål, der kan besvares med "ja" 
 
 \--- task \---
 
-Skift din chatbots kode. Din chatbot skal stille spørgsmålet "Er du OK navn", ved hjælp af variablen `navn`{: class = "block3variables"}. Så skal det svare "Det er dejligt at høre!" `hvis`{: class = "block3control"} svaret det modtager er "ja", men ikke sige noget, hvis svaret er "nej".
+Skift din chatbots kode. Din chatbot skal stille spørgsmålet "Er du OK navn", ved hjælp af variablen `navn`{: class = "block3variables"}. Så skal den svare "Det er godt at høre!" `hvis`{: class = "block3control"} svaret der er modtager er "ja", men sig ikke noget, hvis svaret er "nej".
 
 ![Tester et chatbot svar](images/chatbot-if-test1-annotated.png)
 
