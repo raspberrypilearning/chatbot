@@ -1,10 +1,10 @@
 ## En snakkende chatbot
 
-Nu hvor du har en chatbot med en personlighed, skal du programmere det for at tale med dig.
+Nu hvor du har en chatbot med en personlighed, skal du programmere det til at tale med dig.
 
 \--- task \---
 
-Klik på din chatbot sprite, og tilføj denne kode til den, så `når den klikkes`{: class = "block3events"}, beder den `om dit navn`{: class = "block3sensing"} og derefter siger `"Sikke et dejligt navn! "`{: class = "block3looks"}.
+Klik på din chatbot sprite, og tilføj denne kode til den, så `når der klikkes`{: class = "block3events"}, beder den `om dit navn`{: class = "block3sensing"} og derefter siger `"Sikke et dejligt navn! "`{: class = "block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
