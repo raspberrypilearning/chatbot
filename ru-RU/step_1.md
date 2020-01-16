@@ -27,11 +27,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Что тебе понадобится
+## title: What you will need
 
 ### Оборудование
 
@@ -47,28 +45,26 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Чему ты научишься
+## title: What you will learn
 
 - Использовать код для объединения строк в Scratch
 - Узнаешь, что переменные могут быть использованы для хранения ввода пользователя
-- Использовать операторы условий для ответа на ввод пользователя в Scratch \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: Дополнительные примечания для педагогов
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Если вы хотите напечатать этот проект, то воспользуйтесь [версией для печати](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Вы можете найти [завершенные проекты здесь](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
