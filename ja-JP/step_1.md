@@ -27,11 +27,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 必要なもの
+## title: What you will need
 
 ### ハードウェア
 
@@ -47,28 +45,26 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 学習すること
+## title: What you will learn
 
 - Scratchでコードを使用して文字列を連結する
 - 変数を使用してユーザーの入力を保存できることを知る
-- Scratchで条件付き選択を使用してユーザーの入力に返答する \--- / collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: 教育者向けの追加メモ
+## title: Additional notes for educators
 
 \--- no-print \---
 
-このプロジェクトを印刷する必要がある場合は[印刷用バージョン](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}を使用してください。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-[ここで完成したプロジェクト](http://rpf.io/p/en/chatbot-get)を見ることができます 。
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
