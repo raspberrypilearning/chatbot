@@ -27,11 +27,9 @@ Dă click pe stegulețul verde, iar apoi dă click pe robotul vorbitor pentru a 
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: De ce vei avea nevoie
+## title: What you will need
 
 ### Hardware
 
@@ -47,28 +45,26 @@ Dă click pe stegulețul verde, iar apoi dă click pe robotul vorbitor pentru a 
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Ce veți învăța
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - Să afli ce fel de variabile pot fi folosite pentru a stoca răspunsul utilizatorului
-- Să folosești selecție condiționată pentru a răspunde la mesajul utilizatorului în Scratch \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: Informații suplimentare pentru educatori
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Dacă vrei să printezi acest proiect, folosește [versiunea printabilă](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Poți găsi [proiectul finalizat aici](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
