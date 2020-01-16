@@ -11,22 +11,26 @@ Før du begynder at oprette din chatbot, skal du bestemme, hvordan dens personli
 
 \--- /task \---
 
-\--- opgave \--- Åbn Chatbot Scratch projektet.
+\--- task \---
 
-**Online:** Åbn projektet på [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
+Open the Chatbot Scratch starter project.
 
-Hvis du har en Scratch-konto, kan du lave en kopi ved at klikke på **Remix**.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**Offline:** download projektet fra [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} og derefter åbne det ved hjælp af din offline editor.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Hvis du skal downloade og installere Scratch offline editoren, kan du finde den på [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
-\--- opgave \---
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
-Startprojektet indeholder fire karaktersprites. En af disse bliver din chatbot.
+\--- /task \---
 
-Du kan enten bruge den sprite, der allerede er valgt, eller vælge en anden ved at klikke på den ønskede og derefter vælge ** showet ** eller ** skjul ** øjeikon fra Sprite-menuen under scenen.
+\--- task \---
 
-![Vælg et tegn](images/chatbot-characters.png)
+The starter project contains four character sprites. One of these will be your chatbot.
 
-\--- /opgave \---
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+
+![Choose a character](images/chatbot-characters.png)
+
+\--- /task \---
