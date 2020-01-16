@@ -27,11 +27,9 @@ Klik op die groen vlag en klik dan op die chatbot-karakter om 'n gesprek te begi
 
 \--- / slegs druk \---
 
-\--- inval \---
+## \--- collapse \---
 
-* * *
-
-## Titel: Wat jy benodig
+## title: What you will need
 
 ### Hardware
 
@@ -45,30 +43,28 @@ Klik op die groen vlag en klik dan op die chatbot-karakter om 'n gesprek te begi
 
 - [Vind lêers om hier af te laai](http://rpf.io/p/en/chatbot-go).
 
-\--- /inval \---
+\--- /collapse \---
 
-\--- inval \---
+## \--- collapse \---
 
-* * *
-
-## titel: Wat jy sal leer
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - Weet dat veranderlikes gebruik kan word om gebruikersinvoer op te slaan
-- Gebruik voorwaardelike keuring om te reageer op gebruikerinvoer in Scratch \--- / ineenstorting \---
-
-\--- inval \---
-
-* * *
-
-## Titel: Addisionele aantekeninge vir opvoeders
-
-\--- geen druk \---
-
-As u hierdie projek moet druk, gebruik asseblief die [drukker-vriendelike weergawe](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
-
-\--- / geen druk \---
-
-U kan die [voltooide projek hier](http://rpf.io/p/en/chatbot-get).
+- Use conditional selection to respond to user input in Scratch
 
 \--- /inval \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+
+\--- /collapse \---
