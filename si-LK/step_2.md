@@ -11,22 +11,26 @@
 
 \--- /task \---
 
-\--- task \--- Scratch හි චැට්බෝට්(chatbot) ආරම්භක(starter) ව්‍යාපෘතිය(project එක) විවෘත කරන්න.
+\--- task \---
 
-**අන්තර්ජාල මාර්ගගත(Online):** [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} හි අන්තර්ජාල මාර්ගගතව නව Scratch ව්‍යාපෘතියක් විවෘත කරන්න.
+Open the Chatbot Scratch starter project.
 
-ඔබට Scratch ගිණුමක්(account එකක්) තිබේ නම් **රීමික්ස්(Remix)** ක්ලික් කිරීමෙන් පිටපතක් සාදාගත හැකිය.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-** නොබැඳි(offline): ** [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go) {:target="_blank"} වෙතින් ආරම්භක(starter) ව්‍යාපෘතිය(project) බාගන්න(download කර) ඉන්පසු නොබැඳි(offline) සංස්කාරකය(editor එක) භාවිතයෙන් එය විවෘත කරන්න.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-ඔබට Scratch නොබැඳි(offline) සංස්කාරකය(editor එක) බාගත(download) කර ස්ථාපනය(install) කිරීමට අවශ්‍ය නම්, ඔබට එය [https://rpf.io/scratchoff](rpf.io/scratchoff) වෙතින් ලබාගත හැකිය.
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-ආරම්භක(starter) ව්‍යාපෘතියේ(project එකේ) sprite චරිත(characters) හතරක් අඩංගු වේ. මෙයින් එකක් ඔබගේ චැට්බෝට්(chatbot) වනු ඇත.
+The starter project contains four character sprites. One of these will be your chatbot.
 
 You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![චරිතයක් තෝරන්න](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
