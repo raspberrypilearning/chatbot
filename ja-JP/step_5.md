@@ -15,13 +15,13 @@
 ![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [あなたの名前は何ですか？] and wait
-set [名前 v] to (answer)
-say (join [こんにちは ] (名前)) for (2) seconds
-+ask (join [大丈夫ですか ] (名前)) and wait
-+if <(回答) = [はい]> then 
-  say [それはよかった！] for (2) seconds
+このスプライトが押されたとき
+[あなたの名前は何ですか？] と聞いて待つ
+[名前 v] を (答え) にする
+([こんにちは ] と (名前)) と (2) 秒言う
++([大丈夫ですか ] と (名前)) と聞いて待つ
++もし <(答え) = [はい]> なら 
+  [それはよかった！] と (2) 秒言う
 end
 ```
 
@@ -40,16 +40,16 @@ end
 ![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [あなたの名前は何ですか？] and wait
-set [名前 v] to (answer)
-say (join [こんにちは ] (名前)) for (2) seconds
-ask (join [大丈夫ですか ] (名前)) and wait
+このスプライトが押されたとき
+[あなたの名前は何ですか？] と聞いて待つ
+[名前 v] を (答え) にする
+([こんにちは ] と (名前)) と (2) 秒言う
+([大丈夫ですか ] と (名前)) と聞いて待つ
 
-+ if <(回答) = [はい]> then 
-  say [それはよかった！] for (2) seconds
-else 
-+  say [あらら！] for (2) seconds
++ もし <(答え) = [はい]> なら 
+  [それはよかった！] と (2) 秒言う
+でなければ 
++  [あらら！] と (2) 秒言う
 end
 ```
 
@@ -73,7 +73,7 @@ end
 
 \--- task \---
 
-チャットボットのコードを変更して、回答を入力したときにチャットボットがコスチュームを切り替えるようにします。
+チャットボットのコードを変更して、答えを入力したときにチャットボットがコスチュームを切り替えるようにします。
 
 ![コスチュームをかえる](images/chatbot-costume-test1.png)
 
@@ -84,18 +84,18 @@ end
 ![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [あなたの名前は何ですか？] and wait
-set [名前 v] to (answer)
-say (join [こんにちは ] (名前)) for (2) seconds
-ask (join [大丈夫ですか ] (名前)) and wait
-if <(回答) = [はい]> then 
+このスプライトが押されたとき
+[あなたの名前は何ですか？] と聞いて待つ
+[名前 v] を (答え) にする
+([こんにちは ] と (名前)) と (2) 秒言う
+([大丈夫ですか ] と (名前)) と聞いて待つ
+もし <(答え) = [はい]> なら 
 
-+ switch costume to (nano-c v)
-  say [それはよかった！] for (2) seconds
-else 
-+ switch costume to (nano-d v)
-  say [あらら！] for (2) seconds
++  コスチュームを (ナノ-c v) にする
+  [それはよかった！] と (2) 秒言う
+でなければ 
++  コスチュームを (ナノ-d v) にする
+  [あらら！] と (2) 秒言う
 end
 ```
 
@@ -116,10 +116,10 @@ end
 ![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+このスプライトが押されたとき
 
-+ switch costume to (nano-a v)
-ask [あなたの名前は何ですか？] and wait
++ コスチュームを (ナノ-a v) にする
+[あなたの名前は何ですか？] と聞いて待つ
 ```
 
 ![コスチュームを直す](images/chatbot-costume-fix-test.png)
