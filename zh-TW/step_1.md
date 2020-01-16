@@ -27,11 +27,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 您需要什麼
+## title: What you will need
 
 ### 硬體
 
@@ -47,28 +45,26 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 您會學到什麼
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - 了解變數可以用來儲存使用者輸入
-- 在 Scratch 中使用條件選擇式來回應用戶的輸入
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: 給教育人士的額外筆記
+## title: Additional notes for educators
 
 \--- no-print \---
 
-如果你需要列印此專案，請使用[友善列印](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-你可以在這裡找到[已完成的專案](http://rpf.io/p/en/chatbot-get)
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
