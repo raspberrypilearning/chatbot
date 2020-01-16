@@ -27,11 +27,9 @@ Clicca sulla bandierina verde, e poi clicca sul tuo chiacchierobot per iniziare 
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Di cosa avrai bisogno
+## title: What you will need
 
 ### Hardware
 
@@ -47,28 +45,26 @@ Clicca sulla bandierina verde, e poi clicca sul tuo chiacchierobot per iniziare 
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Cosa imparerai
+## title: What you will learn
 
 - Usa il codice per concatenare le stringhe in Scratch
 - Impara che le variabili possono essere utilizzate per memorizzare l'input dell'utente
-- Usa la selezione condizionale per rispondere all'input dell'utente in Scratch \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: Note addizionali per gli educatori
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Se intendete stampare questo progetto, cliccate su [Versione stampabile](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Puoi trovare il [progetto completo qui](http://rpf.io/p/en/chatbot-get){: target="_blank.
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
