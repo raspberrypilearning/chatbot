@@ -11,22 +11,26 @@ Voordat jy begin met die skep van jou chatbot, moet jy besluit wat sy persoonlik
 
 \--- / taak \---
 
-\--- taak \--- Maak die Chatbot Scratch-aanvangsprojek oop.
+\--- task \---
 
-**Aanlyn:** die voorgeregsprojek oop by [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
+Open the Chatbot Scratch starter project.
 
-As jy 'n Scratch-rekening het, kan jy 'n kopie maak deur **Remix**klik.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**Vanlyn:** laai die aanvangsprojek van [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} af en open dit dan met die offline redakteur.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-As u die Scratch offline redakteur moet aflaai en installeer, kan u dit by [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / taak \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
-\--- taak \---
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
-Die voorgeregsprojek bevat vier karakters. Een van hierdie sal jou chatbot wees.
+\--- /task \---
+
+\--- task \---
+
+The starter project contains four character sprites. One of these will be your chatbot.
 
 You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Kies 'n karakter](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
-\--- / taak \---
+\--- /task \---
