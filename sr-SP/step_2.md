@@ -11,22 +11,26 @@
 
 \--- /task \---
 
-\--- task \--- Отвори Скреч почетни пројекат 'Робот који разговара'.
+\--- task \---
 
-**На мрежи:** Отвори почетни пројекат на [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project.
 
-Ако имаш Скреч налог, можеш да направиш копију тако што ћеш кликнути на **Преради**.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**Ван мреже:** преузми почетни пројекат са [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}, а затим га отвори помоћу уређивача ван мреже.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Ако је потребно да преузмеш и инсталираш Скреч уређивач ван мреже, можеш га пронаћи на [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Почетни пројекат садржи четири лика. Један од њих ће бити твој робот.
+The starter project contains four character sprites. One of these will be your chatbot.
 
-Можеш употребити већ одабраног лика или изабрати неког другог тако што ћеш кликнути на жељеног лика, а затим изабрати икону ока **прикажи** или **сакриј** која се налази у менију испод позорнице.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Одабери лика](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
