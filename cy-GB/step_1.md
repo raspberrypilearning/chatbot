@@ -27,11 +27,9 @@ Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae
 
 \--- /print-only \---
 
-\---collapse\---
+## \--- collapse \---
 
-* * *
-
-## title: Beth fydd ei angen arno ti
+## title: What you will need
 
 ### Caledwedd
 
@@ -47,28 +45,26 @@ Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae
 
 \--- /collapse \---
 
-\---collapse\---
+## \--- collapse \---
 
-* * *
-
-## title: Yr hyn byddi di'n ei ddysgu
+## title: What you will learn
 
 - Defnyddiwch gôd i gydgadwyno tannau yn Scratch
 - Gwybod bod newidynnau yn gallu cael eu defnyddio i storio mewnbwn defnyddiwr
-- Defnyddio detholiad amodol i ymateb i fewnbwn defnyddiwr yn Scratch \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: Gwybodaeth ychwanegol i addysgwyr
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Os oes angen i chi argraffu y prosiect, defnyddiwch [fersiwn i'w argraffu](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Gallwch ddod o hyd i'r prosiect gorffenedig [ yma ](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
