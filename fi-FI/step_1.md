@@ -27,11 +27,9 @@ Napsauta vihreää lippua ja aloita keskustelu napsauttamalla chatbot-merkkiä. 
 
 \--- / vain tulostus \---
 
-\--- romahdus \---
+## \--- collapse \---
 
-* * *
-
-## otsikko: Mitä tarvitset
+## title: What you will need
 
 ### Laitteisto
 
@@ -45,23 +43,21 @@ Napsauta vihreää lippua ja aloita keskustelu napsauttamalla chatbot-merkkiä. 
 
 - [Etsi ladattavat tiedostot täältä](http://rpf.io/p/en/chatbot-go).
 
-\--- / romahtaa \---
+\--- /collapse \---
 
-\--- romahdus \---
+## \--- collapse \---
 
-* * *
-
-## otsikko: Mitä opit
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- / romahtaa \---
 
-* * *
+## \--- collapse \---
 
-## nimi: Lisätiedot opettajille
+## title: Additional notes for educators
 
 \--- no-print \---
 
