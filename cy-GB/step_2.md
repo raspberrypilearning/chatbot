@@ -11,22 +11,26 @@ Cyn i ti ddechrau creu dy sgwrsfot, mae angen i ti benderfynu ar ei bersonoliaet
 
 \--- /task \---
 
-\--- task \--- Agora prosiect cychwynol Sgwrsfot Scratch.
+\--- task \---
 
-**Arlein:** agora brosiect Scratch newydd yma [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project.
 
-Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Mae'r prosiect cychwynol yn cynnwys pedwar cymeriad corlun. Un o'r rhain fydd dy sgwrsfot.
+The starter project contains four character sprites. One of these will be your chatbot.
 
 You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Dewis cymeriad](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
