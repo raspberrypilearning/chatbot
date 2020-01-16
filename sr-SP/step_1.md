@@ -27,11 +27,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Шта ће ти бити потребно
+## title: What you will need
 
 ### Хардвер
 
@@ -47,28 +45,26 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Шта ћеш научити
+## title: What you will learn
 
 - Користити код за спајање низова у Скречу
 - Да се променљиве могу користити за чување корисничких уноса
-- Користити условни одабир за одговарање на корисников унос у Скречу \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: Додатне информације за наставнике
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Уколико желите да одштампате овај пројекат, молимо Вас користите [верзију за штампање](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Завршени пројекат можете пронаћи [овде](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
