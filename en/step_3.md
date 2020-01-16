@@ -7,6 +7,7 @@ Now that you have a chatbot with a personality, you're going to program it to ta
 Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
+
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
@@ -32,6 +33,7 @@ Right now, your chatbot replies "What a lovely name!" every time you answer. You
 Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
 
 ![nano sprite](images/nano-sprite.png)
+
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
@@ -57,6 +59,7 @@ Create a new variable called `name`{:class="block3variables"}.
 Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
+
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
