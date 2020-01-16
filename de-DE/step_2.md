@@ -11,22 +11,26 @@ Bevor Du mit deinem Chatbot beginnst, musst Du über seine Persönlichkeit entsc
 
 \--- /task \---
 
-\--- task \--- Öffne das Chatbot Scratch starter Projekt.
+\--- task \---
 
-**Online:** Öffne das Projekt zum Starten [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project.
 
-Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **Remix** eine Kopie anlegen.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**Offline:** Wenn du offline arbeiten möchtest, kannst du dir die benötigte Datei unter [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} herunterladen und diese dann mit dem Offline-Editor bearbeiten.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Wenn du dir den Scratch Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Das Startprojekt beinhaltet vier Charakter-Sprites. Einer von ihnen wird dein Chatbot sein.
+The starter project contains four character sprites. One of these will be your chatbot.
 
-Du kannst entweder die bereits gewählte Figur verwenden oder wähle eine andere aus, indem du auf die gewünschte Figur klickst und anschließend **zeige dich** oder **verstecke dich** bei den Augensymbolen aus dem Menü unterhalb der Bühne auswählst.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Wähle einen Charakter](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
