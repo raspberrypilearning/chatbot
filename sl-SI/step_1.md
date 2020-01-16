@@ -27,11 +27,9 @@ Klikni na zeleno zastavico in nato klikini na lik čvekbota, da začneš pogovor
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Kaj boš potreboval?
+## title: What you will need
 
 ### Strojna oprema
 
@@ -47,28 +45,26 @@ Klikni na zeleno zastavico in nato klikini na lik čvekbota, da začneš pogovor
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Kaj se boš naučil?
+## title: What you will learn
 
 - Uporabiti kodo, da združiš nize v Scratchu
 - Uporabiti spremenljivke za shranjevanje uporabnikovih vnosov
-- Uporabiti pogojen izbor, kot odziv na uporabnikov vnos
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: Dodatne informacije za izobraževalce
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Če želite natisniti ta projekt, uporabite [tiskalniku prijazno različico](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Dokončan projekt lahko najdete [tukaj](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
