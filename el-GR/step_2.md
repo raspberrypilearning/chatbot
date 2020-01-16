@@ -11,22 +11,26 @@
 
 \--- /task \---
 
-\--- task \--- Άνοιξε το αρχικό έργο Scratch 'Chatbot'.
+\--- task \---
 
-**Online:** άνοιξε το αρχικό έργο στο [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project.
 
-Αν έχεις λογαριασμό Scratch μπορείς να κάνεις ένα αντίγραφο, κάνοντας κλικ στο κουμπί **Ανάμειξη**.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**Offline:** κατέβασε το αρχικό έργο από το [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}, και μετά άνοιξέ το στην offline εφαρμογή Scratch της συσκευής σου.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Αν χρειαστεί να κατεβάσετε και να εγκαταστήσετε τον Scratch editor, μπορείτε να τον βρείτε στο [https://rpf.io/scratchoff](rpf.io/scratchoff) \--- /task \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Τι αρχικό έργο περιέχει τέσσερις χαρακτήρες. Ένα από αυτά θα είναι το chatbot σου.
+The starter project contains four character sprites. One of these will be your chatbot.
 
 You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Διάλεξε ένα χαρακτήρα](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
