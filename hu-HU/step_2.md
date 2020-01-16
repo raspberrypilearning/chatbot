@@ -11,22 +11,26 @@ Mielőtt elkezdenéd létrehozni a chatbotod, el kell döntened, hogy milyen les
 
 \--- /task \---
 
-\--- task \--- Nyisd meg a Chatbot Scratch kezdő projektet.
+\--- task \---
 
-**Online:** nyisd meg a kezdő projektet [rpf.io/chatbot](http://rpf.io/chatbot-on){:target="_blank"}-on.
+Open the Chatbot Scratch starter project.
 
-Ha már van Scratch fiókod, készíthetsz egy másolatot a **Remixelés** gombbal.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**Offline:** töltsd le a kezdő projektet [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}-ról, majd nyisd meg az offline szerkesztőd segítségével.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Ha nincs még Scratch offline szerkesztőd, akkor azt innen tudod letölteni:[https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Az induló projekt négy karaktert tartalmaz. Ezek egyike lesz a chatbotod.
+The starter project contains four character sprites. One of these will be your chatbot.
 
-Használhatod az alapértelmezett szereplőt vagy választhatsz egy másikat is. Ehhez válaszd ki a szereplőt majd a sínpad alatti Megjelenítés menüben kattints a **mutat** vagy a **rejt** szem ikonra.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Válassz egy karaktert](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
