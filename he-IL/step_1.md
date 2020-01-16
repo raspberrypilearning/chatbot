@@ -27,11 +27,9 @@
 
 \--- / print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## הכותרת: מה שאתה צריך
+## title: What you will need
 
 ### חומרה
 
@@ -47,28 +45,26 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: מה תלמד
+## title: What you will learn
 
 - השתמש בקוד כדי לשרשר מחרוזות בסקראצ׳
 - דע כי ניתן להשתמש במשתנים לאחסון קלט משתמשים
-- השתמש בבחירה מותנית כדי להגיב לקלט המשתמשים בסקראצ׳ \--- / קריסה \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: מידע נוסף למורי המועדון
+## title: Additional notes for educators
 
 \--- no-print \---
 
-אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/chatbot/print).
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-אתם יכולים [ להוריד את הפרויקט השלם כאן ](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
