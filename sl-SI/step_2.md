@@ -11,22 +11,26 @@ Preden začneš ustvarjati svoj klepetalni robot, se moraš odločiti, kakšna j
 
 \--- /task \---
 
-\--- task \--- Odpri začetni projekt za Chatbot/ Čvekbot.
+\--- task \---
 
-**Spletno:** Odpri začetni projekt na [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
+Open the Chatbot Scratch starter project.
 
-Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-** Brez povezave: ** prenesi začetni projekt iz [ rpf.io/p/sl/chatbot-go ](http://rpf.io/p/en/chatbot-go) {: target = "_ blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [https://rpf.io/scratchoff](rpf.io/scratchoff){: target = "_ blank \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Začetni projekt vsebuje štiri figure. Ena od teh bo tvoj čvekobot.
+The starter project contains four character sprites. One of these will be your chatbot.
 
-Lahko uporabiš že izbrano figuro ali izbereš drugo s klikom na tisto, ki jo želiš uporabiti, in izbiro ikone očesa **prikaz** ali **skrij**, ki se nahaja v meniju figure pod odrom.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Izberi lik](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
