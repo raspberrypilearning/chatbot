@@ -11,22 +11,26 @@ Sohbet aracınızı oluşturmaya başlamadan önce, kişiliğinin ne olduğuna k
 
 \--- /task \---
 
-\--- görev \--- Chatbot Scratch başlangıç projesini açın.
+\--- task \---
 
-**Çevrimiçi:** başlangıç projesini [rpf.io/chatbot-onon](http://rpf.io/chatbot-on){: target = "_ blank"}.
+Open the Chatbot Scratch starter project.
 
-Eğer bir Scratch hesabınız varsa, **Remix**'e tıklayarak bir kopya oluşturabilirsiniz.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-** Çevrim: ** başlangıç projesini [ rpf.io/p/en/chatbot-go adresinden indirin ](http://rpf.io/p/en/chatbot-go) {: target = "_ blank"} ve ardından çevrimdışı düzenleyiciyi kullanarak açın.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Scratch çevrimdışı düzenleyicisini indirip yüklemeniz gerekiyorsa, buna [https://rpf.io/scratchoff](rpf.io/scratchoff){:target="_blank"} adresinden ulaşabilirsiniz
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
-\--- görev \---
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
-Başlangıç projesi dört karakter içeriyor. Bunlardan biri senin chatbot'un olacak.
+\--- /task \---
 
-Zaten seçili olan karakteri kullanabilir ya da istediğiniz öğeye sağ tıklayıp **göster** veya**sakla** göz simgesini seçebilirsiniz.
+\--- task \---
 
-![Bir karakter seçin](images/chatbot-characters.png)
+The starter project contains four character sprites. One of these will be your chatbot.
 
-\--- /görev \---
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+
+![Choose a character](images/chatbot-characters.png)
+
+\--- /task \---
