@@ -27,11 +27,9 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Що вам знадобиться
+## title: What you will need
 
 ### Обладнання
 
@@ -47,21 +45,19 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Що ви вивчите
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: Додаткові примітки для викладачів
+## title: Additional notes for educators
 
 \--- no-print \---
 
