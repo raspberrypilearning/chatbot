@@ -11,21 +11,25 @@ Antes de começar a fazer seu ChatBot, você precisa decidir sobre sua personali
 
 \--- /task \---
 
-\--- task \--- Abra o projeto inicial do Scratch do Chatbot.
+\--- task \---
 
-** Online: ** abra o projeto inicial em [ rpf.io/chatbot-on ](http://rpf.io/chatbot-on) {: target = "_ blank"}.
+Open the Chatbot Scratch starter project.
 
-Se você tiver uma conta do Scratch, pode fazer uma cópia clicando em ** Remix **.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**Offline:** faça o download do projeto inicial de [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}, e depois abre-o no editor Scratch offline.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Se você precisar baixar e instalar o editor offline do Scratch, você pode encontrá-lo em [ https://rpf.io/scratchoff ](rpf.io/scratchoff). \--- / task \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-O projeto inicial contém quatro personagens de ator. Um deles será o seu robô falante.
+The starter project contains four character sprites. One of these will be your chatbot.
 
-Você pode usar o ator já selecionado, ou escolher um diferente clicando com o botão direito do mouse no desejado e selecionando ** mostrar **, ou ** ocultar ** no menu que aparece.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Choose a character](images/chatbot-characters.png)
 
