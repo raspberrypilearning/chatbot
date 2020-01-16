@@ -27,11 +27,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: आपको किन चीजों की आवश्यकता होगी
+## title: What you will need
 
 ### हार्डवेयर
 
@@ -47,28 +45,26 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: आप क्या सीखेंगे
+## title: What you will learn
 
 - स्क्रैच में तारों को समतल करने के लिए कोड का उपयोग करें
 - पता है कि चर का उपयोग उपयोगकर्ता इनपुट को संग्रहीत करने के लिए किया जा सकता है
-- स्क्रैच में उपयोगकर्ता इनपुट का जवाब देने के लिए सशर्त चयन का उपयोग करें \--- /collaspe \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
+## title: Additional notes for educators
 
 \--- no-print \---
 
-अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"} का उपयोग करें।
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-आप यहां [ पूर्ण की गई परियोजना पा सकते हैं ](http://rpf.io/p/en/chatbot-get) ।
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
