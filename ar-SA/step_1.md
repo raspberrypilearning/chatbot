@@ -27,11 +27,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: ما ستحتاج إليه
+## title: What you will need
 
 ### الأجهزة
 
@@ -47,28 +45,26 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: ما الذي ستتعلمه
+## title: What you will learn
 
 - استخدام البرمجة لتنسيق جملة في السكراتش (Scratch)
 - تعرف أن من الممكن استخدام المتغيرات لخزن مدخلات المستخدم
-- استخدام الاختيار المشروط للرد على مدخلات المستخدم في السكراتش (Scratch)
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: ملاحظات إضافية للمعلمين
+## title: Additional notes for educators
 
 \--- no-print \---
 
-اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
