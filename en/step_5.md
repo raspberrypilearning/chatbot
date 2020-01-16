@@ -13,6 +13,7 @@ Change your chatbot's code. Your chatbot should ask the question "Are you OK nam
 ![Testing a chatbot reply](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
+
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
@@ -37,6 +38,7 @@ Change your chatbot's code so that it replies "Oh no!" if it receives "no" as th
 Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
+
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
@@ -80,6 +82,7 @@ Change your chatbot's code so that the chatbot switches costumes when you type i
 Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
+
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
@@ -111,6 +114,7 @@ You can try this out: run your code and answer "no" so that your chatbot's face 
 To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
+
 ```blocks3
 when this sprite clicked
 + switch costume to (nano-a v)
