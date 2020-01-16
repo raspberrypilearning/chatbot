@@ -27,11 +27,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: ඔබට අවශ්‍ය දේ
+## title: What you will need
 
 ### දෘඩාංග(Hardware)
 
@@ -47,28 +45,26 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: ඔබ ඉගෙන ගන්නා දේ
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - පරිශීලක(user) ආදානය(input) ගබඩා(store) කිරීම සඳහා විචල්යයන්(variables) භාවිතා කළ හැකි බව දැන ගැනීම
-- Scratch හි පරිශීලක(user) ආදානයට(input එකකට) ප්‍රතිචාර දැක්වීමට කොන්දේසි(conditional) සහිත තේරීම්(selection) භාවිතා කිරීම. \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: අධ්‍යාපකයන්(educators) සඳහා අමතර තොරතුරු
+## title: Additional notes for educators
 
 \--- no-print \---
 
-ඔබට මෙම ව්‍යාපෘතිය මුද්‍රණය කිරීමට අවශ්‍ය නම්, කරුණාකර [මුද්‍රණ-හිතකාමී අනුවාදය(printer-friendly version)](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"} භාවිතා කරන්න .
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-[සම්පුර්ණ කරන ලද ව්‍යාපෘතිය(completed project here)](http://rpf.io/p/en/chatbot-get){:target="_blank"} ඔබට මෙහිදී බලගත හැකිය.
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
