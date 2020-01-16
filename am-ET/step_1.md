@@ -27,11 +27,9 @@
 
 \--- / print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## የሚያስፈልጉ ነገሮች
+## title: What you will need
 
 ### ሃርድ ዌር
 
@@ -47,28 +45,26 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: ምን ይማራሉ
+## title: What you will learn
 
 - በስክራች ኮድን በመጠቀም ቃላትን መቀጣጠል
 - ተለዋዋጮች የተጠቃሚውን መልስ ለማስቀመጫ እንደሚያገለግሉ ማወቅ
-- በስክራች ምርጫዎችን በመጠቀም ለተጠቃሚው መልስ መስጠት \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: ተጨማሪ ማስታወሻዎች ለአስተማሪዎች
+## title: Additional notes for educators
 
 \--- no-print \---
 
-ይህንን ፕሮጀክት ማተም የሚፈልጉ ከሆነ [ለህትመት ምቹ የሆነውን ስሪት](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"} ይጠቀሙ።
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-[ሙሉ ለሙሉ የተጠናቀውን ፕሮጀክት](http://rpf.io/p/en/chatbot-get) እዚህ ማግኘት ይቻላል።
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
