@@ -11,22 +11,26 @@ Abans de començar a crear el teu xatbot, cal decidir la seva personalitat. **Pe
 
 \--- /task \---
 
-\--- task \--- Obriu el projecte d'inici Xatbot d'Scratch.
+\--- task \---
 
-** En línia: ** obre el projecte d'inici a [ rpf.io/chatbot-on ](http://rpf.io/chatbot-on) {:target = "_ blank"}.
+Open the Chatbot Scratch starter project.
 
-Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-** Fora de línia: ** descarrega el projecte d'inici de [ rpf.io/p/en/chatbot-go ](http://rpf.io/p/en/chatbot-go) {: target = "_ blank"} i, a continuació, obre'l utilitzant l'editor fora de línia.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Si necessites descarregar i instal·lar l'editor Scratch fora de línia, el pots trobar a [ https://rpf.io/scratchoff ](rpf.io/scratchoff). \--- /task \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-El projecte d'inici inclou quatre sprites de personatge. Un d'aquests serà el teu xatbot.
+The starter project contains four character sprites. One of these will be your chatbot.
 
-Podeu utilitzar l’sprite que ja està seleccionat, o bé triar-ne un de diferent fent clic al que vulgueu i, a continuació, seleccioneu en la icona amb un ull **mostrar ** o ** amagar ** del menú Sprite situat a sota de l’escenari.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Tria un personatge](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
