@@ -27,11 +27,9 @@ Kattints a zöld zászlóra, majd a chatbot karakterre a beszélgetés megkezdé
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Mire lesz szükséged
+## title: What you will need
 
 ### Hardver
 
@@ -47,28 +45,26 @@ Kattints a zöld zászlóra, majd a chatbot karakterre a beszélgetés megkezdé
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Mit fogsz megtanulni
+## title: What you will learn
 
 - milyen kódot használj a karakterláncok összekapcsolásához a Scratchban
 - hogyan használhatók változók a felhasználó válaszainak tárolására
-- hogyan használj a felhasználó válaszain alapuló feltételes kiválasztást a Scratchban
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: További információk oktatóknak
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Ha ki szeretnéd nyomtatni a projektet, kérlek használd a [nyomtatóbarát verziót.](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Itt található a [befejezett projekt](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
