@@ -11,22 +11,26 @@
 
 \--- /task \---
 
-\--- task \--- চ্যাটবোট স্ক্র্যাচ স্টার্টার প্রকল্প খুলুন।.
+\--- task \---
 
-**অনলাইন:** স্টার্টার প্রকল্পটি [rpf.io/chatbot-on](http://rpf.io/chatbot-on)এ খুলুন {: টার্গেট = "_ blank"}।
+Open the Chatbot Scratch starter project.
 
-আপনার যদি স্ক্র্যাচ অ্যাকাউন্ট থাকে তবে আপনি ** রিমিক্স ক্লিক করে একটি অনুলিপি তৈরি করতে পারেন ** ।.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-** অফলাইন: ** [ rpf.io/p/en/chatbot-go থেকে স্টার্টার প্রকল্পটি ডাউনলোড করুন ](http://rpf.io/p/en/chatbot-go) ।: লক্ষ্য = "_ ফাঁকা"} এবং তারপরে অফলাইন সম্পাদক ব্যবহার করে এটি খুলুন।.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-আপনার যদি স্ক্র্যাচ অফলাইন সম্পাদক ডাউনলোড এবং ইনস্টল করতে হয় তবে আপনি এটি [https://rpf.io/scratchoff](rpf.io/scratchoff){:target="_blank"} এ খুঁজে পেতে পারেন।
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-স্টার্টার প্রকল্পে চারটি চরিত্রের স্প্রিট রয়েছে। এর মধ্যে একটি হ'ল আপনার চ্যাটবোট।.
+The starter project contains four character sprites. One of these will be your chatbot.
 
-আপনি হয় স্প্রাইট ব্যবহার করতে পারেন যা ইতিমধ্যে নির্বাচিত হয়েছে, বা আপনি যা চান তার উপর ক্লিক করে এবং তারপরে ** শো নির্বাচন করে একটি আলাদা চয়ন করতে পারেন ** অথবা ** লুকান ** স্টেজের নীচে স্প্রাইট মেনু থেকে আই আইকন।.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![একটি চরিত্র চয়ন করুন](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
