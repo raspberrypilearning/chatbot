@@ -27,11 +27,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Τι θα χρειαστείς
+## title: What you will need
 
 ### Υλικό
 
@@ -47,28 +45,26 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Τι θα μάθεις
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - Θα μάθεις ότι οι μεταβλητές μπορούν να χρησιμοποιηθούν για να αποθηκεύουν το κείμενο που εισάγεται από έναν χρήστη.
-- Να χρησιμοποιείς την επιλογή υπό όρους για να απαντήσεις στην είσοδο του χρήστη στην Scratch. \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: Πρόσθετες σημειώσεις για εκπαιδευτικούς
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Αν χρειαστεί να εκτυπώσεις αυτό το έργο, χρησιμοποίησε την [εκτυπώσιμη έκδοση](https://projects.raspberrypi.org/en/projects/chatbot/print)"{:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
