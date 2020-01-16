@@ -27,11 +27,9 @@
 
 \--- / केवळ प्रिंट \---
 
-\--- पडणे \---
+## \--- collapse \---
 
-* * *
-
-## शीर्षकः आपल्याला काय हवे आहे
+## title: What you will need
 
 ### हार्डवेअर
 
@@ -45,23 +43,21 @@
 
 - [डाउनलोड करण्यासाठी फायली शोधा](http://rpf.io/p/en/chatbot-go).
 
-\--- / संकुचित \---
+\--- /collapse \---
 
-\--- पडणे \---
+## \--- collapse \---
 
-* * *
-
-## शीर्षकः आपण काय शिकलात
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- / संकुचित \---
 
-* * *
+## \--- collapse \---
 
-## शीर्षक: शिक्षकांसाठी अतिरिक्त नोट्स
+## title: Additional notes for educators
 
 \--- no-print \---
 
