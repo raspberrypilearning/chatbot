@@ -11,22 +11,26 @@
 
 \--- /task \---
 
-\--- task \--- Deschide proiectul de început Scratch pentru robotul vorbitor.
+\--- task \---
 
-**Online:** deschide proiectul de început la [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project.
 
-Dacă ai un cont Scratch, poți să creezi o copie dând click pe **Remix**.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**Offline:** descarcă proiectul de început offline de la [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}, iar apoi deschide-l folosind editorul offline.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Daacă trebuie să descarci și să instalezi editorul Scratch offline, îl poți găsi la [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Proectul de început conține patru costume pentru personaj. Unul dintre acestea va fi robotul tău vorbitor.
+The starter project contains four character sprites. One of these will be your chatbot.
 
 You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Alege un personaj](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
