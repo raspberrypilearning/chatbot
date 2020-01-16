@@ -12,7 +12,7 @@
 
 \--- hint \---
 
-チャットボットが`「月に行きたいですか？」と聞いて`{:class="block3sensing"}、`もし`{:class="block3control"}あなたの`回答`{:class="block3sensing"}が「はい」ならば、`背景を月にする`{:class="block3looks"}ようにします。
+チャットボットが`「月に行きたいですか？」と聞いて`{:class="block3sensing"}、`もし`{:class="block3control"}あなたの`答え`{:class="block3sensing"}が「はい」ならば、`背景を月にする`{:class="block3looks"}ようにします。
 
 \--- /ヒント \---
 
@@ -23,11 +23,11 @@
 ![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+背景を (月 v) にする
 
-ask [月に行きたいですか？] and wait
+[月に行きたいですか？] と聞いて待つ
 
-if <(answer) = [はい]> then 
+もし <(答え) = [はい]> なら
 
 end
 ```
@@ -39,9 +39,9 @@ end
 コードは次のようになります。
 
 ```blocks3
-ask [月に行きたいですか？] and wait
-if <(answer) = [はい]> then 
-  switch backdrop to (moon v)
+[月に行きたいですか？] と聞いて待つ
+もし <(答え) = [はい]> なら 
+  背景を (月 v) にする
 end
 ```
 
@@ -58,9 +58,9 @@ end
 ![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+このスプライトが押されたとき
 
-+ switch backdrop to (space v)
++ 背景を (宇宙 v) にする
 ```
 
 \--- /task \---
@@ -78,14 +78,14 @@ when this sprite clicked
 ![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [はい]> then 
-  switch backdrop to (moon v)
+もし <(答え) = [はい]> なら 
+  背景を (月 v) にする
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
++  (4) 回繰り返す 
+    y座標を (10) ずつ変える
+    (0.1) 秒待つ
+    y座標を (-10) ずつ変える
+    (0.1) 秒待つ
   end
 end
 ```
