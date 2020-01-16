@@ -11,15 +11,19 @@ Trước khi bạn bắt đầu tạo chatbot, bạn cần quyết định tính
 
 \--- /bài tập \---
 
-\--- task \--- Mở dự án khởi động Chatbot Scratch.
+\--- task \---
 
-**Trực tuyến:** mở dự án khởi động tại [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
+Open the Chatbot Scratch starter project.
+
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
