@@ -11,22 +11,26 @@ Než začnete vytvářet svůj chatbot, musíte se rozhodnout, jaká je jeho oso
 
 \--- /task \---
 
-\--- task \--- Otevřete projekt spouštěče Scratch Chatbot.
+\--- task \---
 
-**Online:** otevřete startovací projekt na [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
+Open the Chatbot Scratch starter project.
 
-Pokud máte Scratch účet, můžete kopii provést kliknutím na **Remix**.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**Offline:** stáhněte si startovací projekt z [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} a poté jej otevřete pomocí offline editoru.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Pokud potřebujete stáhnout a nainstalovat Scratch offline editor, můžete ho najít na [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- / úkol \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
-\--- úkol \---
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
-Projekt startéru obsahuje čtyři znaky. Jedním z nich bude váš chatbot.
+\--- /task \---
+
+\--- task \---
+
+The starter project contains four character sprites. One of these will be your chatbot.
 
 You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Zvolte znak](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
-\--- / úkol \---
+\--- /task \---
