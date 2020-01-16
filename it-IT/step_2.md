@@ -11,22 +11,26 @@ Prima di iniziare a creare il tuo ChiacchieRobot, dovrai decidere la sua persona
 
 \--- /task \---
 
-\--- attività \--- Apri il progetto Scratch di avvio del chiacchierobot.
+\--- task \---
 
-**Online:** apri il progetto iniziale su [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project.
 
-Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**Offline:** scarica il progetto iniziale da [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}, e aprilo con l'editor offline.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Se hai bisogno di scaricare e installare l'editor di Scratch offline, puoi trovarlo all'indirizzo [https://rpf.io/scratchoff](rpf.io/scratchoff). \--- /task \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Il progetto iniziale contiene quattro sprite di personaggi. Uno di questi sarà il tuo chiacchierobot.
+The starter project contains four character sprites. One of these will be your chatbot.
 
-Puoi utilizzare lo sprite già selezionato o sceglierne uno diverso cliccando quello desiderato e selezionando **mostra** o **nascondi** dell'icona a forma di occhio presente nel menù dello sprite appena sotto lo stage.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Scegli un personaggio](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
