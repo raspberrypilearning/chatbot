@@ -27,11 +27,9 @@ Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Du får brug for følgende
+## title: What you will need
 
 ### Hardware
 
@@ -47,28 +45,26 @@ Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Du kommer til at lære følgende
+## title: What you will learn
 
 - Brug kode til at sammenkæde strenge i Scratch
 - Ved at bruge variabler til at gemme bruger svar i
-- Brug betingelser til at reagere på bruger svar i Scratch \--- / collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## titel: Yderligere noter til undervisere
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Hvis du har brug for at udskrive dette projekt, skal du bruge [printervenlig version](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Du kan finde det [færdige projekt her](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
