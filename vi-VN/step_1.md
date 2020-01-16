@@ -27,11 +27,9 @@ Bấm vào cờ xanh, rồi bấm vào ký tự chatbot để bắt đầu một
 
 \--- / chỉ in \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## tiêu đề: Những gì bạn sẽ cần
+## title: What you will need
 
 ### Phần cứng
 
@@ -47,21 +45,19 @@ Bấm vào cờ xanh, rồi bấm vào ký tự chatbot để bắt đầu một
 
 \--- /collapse \---
 
-\--- sự sụp đổ \---
+## \--- collapse \---
 
-* * *
-
-## tiêu đề: bạn sẽ học được gì
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## tiêu đề: Ghi chú bổ sung cho các nhà giáo dục
+## title: Additional notes for educators
 
 \--- no-print \---
 
