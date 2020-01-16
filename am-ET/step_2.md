@@ -11,22 +11,26 @@
 
 \--- / task \---
 
-\--- task \--- የንግግር ሮቦት ስክራች ጅማሪ ፕሮጀክት ክፈቱ።
+\--- task \---
 
-**ኦንላይን:** በ [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} ላይ ጅማሪ ፕሮጀክቱን ክፈቱ።
+Open the Chatbot Scratch starter project.
 
-የስክራች አካውንት ካላችሁ **አቀናብር** የሚለዉን በመጫን ቅጂ (ኮፒ) መስራት ትችላላችሁ።
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-** ኦፍላይን ** ጅማሪውን ፕሮጀክት ከ [ rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"}አውርዱ እና ከዚያ የኦፍላይን ኤዲተር በመጠቀም ክፈቱት።
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-የስክራችን ኦፍላይን አዲተር ማውረድ እና መጫን ካስፈለገ ከ [https://rpf.io/scratchoff](rpf.io/scratchoff){: target = "_ blank"} ላይ ማግኜት ይቻላል።
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-ጅማሪ ፕሮጀክቱ አራት ገጸ-ባህሪዎችን ይይዛል ፡፡ ከእነዚህ ውስጥ አንዱ የእናንተ የንግግር ሮቦት (ቻትቦት) ይሆናል ፡፡
+The starter project contains four character sprites. One of these will be your chatbot.
 
-ቀድሞውኑ የተመረጠውን ገጸ-ባህሪ መጠቀም ካልሆነም ከመድረኩ በታች ካለው የገጸ-ባህሪ መምረጫ ሌላ የሚፈልጉት ላይ ጠቅ በማድረግ ከዚያም **አሳይ** ወይም **ደብቅ** የሚለዉን የአይን ምልክት በመጠቀም መምረጥ ይቻላል።
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![ገጸ-ባህሪ ምረጡ](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
