@@ -21,6 +21,7 @@ Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing
 Here are the code blocks you need to add to your chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
+
 ```blocks3
 switch backdrop to (moon v)
 
@@ -55,6 +56,7 @@ end
 Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
 ![nano sprite](images/nano-sprite.png)
+
 ```blocks3
 when this sprite clicked
 + switch backdrop to (space v)
@@ -73,6 +75,7 @@ Test your program, and answer "yes" when the chatbot asks if you want to go to t
 You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
 ![nano sprite](images/nano-sprite.png)
+
 ```blocks3
 if <(answer) = [yes]> then 
   switch backdrop to (moon v)
