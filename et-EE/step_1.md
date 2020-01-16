@@ -27,11 +27,9 @@ Klõpsake rohelist lippu ja klõpsake vestluse alustamiseks vestlusbotil. Kui ve
 
 \--- / ainult printimiseks \---
 
-\--- kollaps \---
+## \--- collapse \---
 
-* * *
-
-## pealkiri: Mida on vaja
+## title: What you will need
 
 ### Riistvara
 
@@ -45,23 +43,21 @@ Klõpsake rohelist lippu ja klõpsake vestluse alustamiseks vestlusbotil. Kui ve
 
 - [Leidke allalaaditavad failid](http://rpf.io/p/en/chatbot-go).
 
-\--- / kollaps \---
+\--- /collapse \---
 
-\--- kollaps \---
+## \--- collapse \---
 
-* * *
-
-## pealkiri: Mida sa õpid
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- / kollaps \---
 
-* * *
+## \--- collapse \---
 
-## pealkiri: Lisamärkused õpetajatele
+## title: Additional notes for educators
 
 \--- no-print \---
 
