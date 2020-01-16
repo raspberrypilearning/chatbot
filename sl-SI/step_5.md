@@ -68,7 +68,7 @@ Preveri svojo kodo. Glede na to ali je odgovor "da" ali "ne", bi se moral odziv 
 
 Znotraj bloka `če, potem, sicer`{: class = "block3control"} lahko imaš poljubno kodo, ne le kode, ki omogoča, da tvoj robot govori!
 
-Če klikneš na zavihek **Videzi** za vašega klepetalnega robota, boš videl, da ima figura več videzov.
+Če klikneš na zavihek **Videzi** figure Čvekobota, boš videl-a, da ima figura več videzov.
 
 ![videzi klepetalnega robota](images/chatbot-costume-view-annotated.png)
 
