@@ -27,11 +27,9 @@
 
 \--- /print-only \---
 
-\--- 중간생략 \---
+## \--- collapse \---
 
-* * *
-
-## title: 준비물
+## title: What you will need
 
 ### 하드웨어
 
@@ -47,28 +45,26 @@
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: 배우게 될 것
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - 변수가 사용자 입력을 저장하는 데 사용될 수 있음을 이해하기
-- 조건부 선택을 사용하여 Scratch 에서 사용자 입력에 응답 \--- / collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: 교육자를 위한 추가 정보
+## title: Additional notes for educators
 
 \--- no-print \---
 
-이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}을 사용하십시오.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
