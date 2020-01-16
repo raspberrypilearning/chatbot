@@ -27,11 +27,9 @@ Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine 
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## İhtiyacınız olacak şeyler
+## title: What you will need
 
 ### Donanım
 
@@ -47,28 +45,26 @@ Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine 
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Ne öğreneceksiniz
+## title: What you will learn
 
 - Scratch'ta dizeleri birleştirmek için kod kullanın
 - Kullanıcı girişini saklamak için değişkenlerin kullanılabileceğini bilin
-- Scratch'taki kullanıcı girişine cevap vermek için koşullu seçimi kullanın
+- Use conditional selection to respond to user input in Scratch
 
-\--- \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: Eğitimciler için ek notlar
+## title: Additional notes for educators
 
-.
+\--- no-print \---
 
-Bu projeyi yazdırmanız gerekiyorsa lütfen [yazıcı-dostu sürümü](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"} kullanın.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-.
+\--- /no-print \---
 
-[Tamamlanmış projeye buradan](http://rpf.io/p/en/chatbot-get) ulaşabilirsiniz {: target="_blank"} kullanın.
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
-\--- / \---
+\--- /collapse \---
