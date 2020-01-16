@@ -27,11 +27,9 @@
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## যা যা প্রয়োজন
+## title: What you will need
 
 ### হার্ডওয়্যার
 
@@ -45,30 +43,28 @@
 
 - [এখানে ডাউনলোড করতে ফাইল খুঁজুন](http://rpf.io/p/en/chatbot-go)।
 
--- /collapse \---
+\--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: যা শিখতে পারবেন
+## title: What you will learn
 
 - স্ক্র্যাচগুলিতে স্ট্রিংগুলি যুক্ত করতে কোড ব্যবহার করুন
 - জানুন যে ভেরিয়েবলগুলি ব্যবহারকারীর ইনপুট সঞ্চয় করতে ব্যবহৃত হতে পারে
-- স্ক্র্যাচ এ ব্যবহারকারী ইনপুটটিতে প্রতিক্রিয়া জানাতে শর্তাধীন নির্বাচন ব্যবহার করুন \--- /collapse \---
-
-\--- collapse \---
-
-* * *
-
-## title: শিক্ষাবিদদের জন্য অতিরিক্ত তথ্য
-
-\--- no-print \---
-
-আপনি যদি এই প্রজেক্টটি প্রিন্ট করতে চান তবে [প্রিন্টার সহযোগী সংষ্করণ](https://projects.raspberrypi.org/en/projects/chatbot/print) ব্যবহার করুন {: target = "_ blank"}।.
-
-\--- no-print \---
-
-আপনি এখানে সমাপ্ত প্রকল্প সমূহ [completed project here](http://rpf.io/p/en/chatbot-get) সন্ধান করতে পারেন।.
+- Use conditional selection to respond to user input in Scratch
 
 -- /collapse \---
+
+## \--- collapse \---
+
+## title: Additional notes for educators
+
+\--- no-print \---
+
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+
+\--- /no-print \---
+
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+
+\--- /collapse \---
