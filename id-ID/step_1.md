@@ -27,11 +27,9 @@ Klik pada bendera hijau, dan kemudian klik pada karakter chatbot untuk memulai p
 
 \--- /hanya-dicetak \---
 
-\--- gulung \---
+## \--- collapse \---
 
-* * *
-
-## judul: Apa yang Anda butuhkan
+## title: What you will need
 
 ### Perangkat keras
 
@@ -45,23 +43,21 @@ Klik pada bendera hijau, dan kemudian klik pada karakter chatbot untuk memulai p
 
 - [Temukan file untuk diunduh di sini](http://rpf.io/p/en/chatbot-go).
 
-\--- /gulung \---
+\--- /collapse \---
 
---gulung--
+## \--- collapse \---
 
-* * *
-
-## judul: Apa yang akan Anda pelajari
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /gulung \---
 
-* * *
+## \--- collapse \---
 
-## judul: Catatan tambahan untuk pendidik
+## title: Additional notes for educators
 
 \--- no-print \---
 
