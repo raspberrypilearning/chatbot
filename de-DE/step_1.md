@@ -27,11 +27,9 @@ Klicke auf die Grüne Flagge und danach auf das Chatbot-Männchen, um eine Unter
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Was du brauchen wirst
+## title: What you will need
 
 ### Hardware
 
@@ -47,28 +45,26 @@ Klicke auf die Grüne Flagge und danach auf das Chatbot-Männchen, um eine Unter
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Was du lernen wirst
+## title: What you will learn
 
 - Nutze Code-Blöcke, um Zeichenketten in Scratch zu verketten
 - Lerne, dass Variablen zum Speichern von Benutzereingaben verwendet werden können
-- Verwende bedingte Auswahl, um auf Benutzereingaben in Scratch zu reagieren
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: Zusatzinformationen für Lehrerinnen und Lehrer
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
