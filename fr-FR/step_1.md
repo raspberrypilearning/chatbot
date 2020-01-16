@@ -27,11 +27,9 @@ Clique sur le drapeau vert, puis sur le personnage du chatbot pour lancer une co
 
 \--- /print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Ce qu'il te faut
+## title: What you will need
 
 ### Matériel informatique
 
@@ -47,28 +45,26 @@ Clique sur le drapeau vert, puis sur le personnage du chatbot pour lancer une co
 
 \--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## title: Ce que tu vas apprendre
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - Savoir que les variables peuvent être utilisées pour stocker les entrées de l'utilisateur
-- Utiliser la sélection conditionnelle pour répondre à l'utilisateur dans Scratch. \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- /collapse \---
 
-* * *
+## \--- collapse \---
 
-## title: Notes complémentaires pour les éducateurs
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Si vous besoin d'imprimer ce projet, utilisez la [ version imprimable. ](https://projects.raspberrypi.org/en/projects/chatbot/print) {: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Vous pouvez trouver le [ projet terminé ici ](http://rpf.io/p/en/chatbot-get) .
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
