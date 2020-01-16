@@ -11,22 +11,26 @@
 
 \--- /task \---
 
-\--- task \--- Открой стартовый проект Scratch Чат-бот.
+\--- task \---
 
-**Онлайн:** открой стартовый проект по адресу [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project.
 
-Если у тебя есть учетная запись Scratch, то ты можешь сделать копию, нажав **Ремикс**.
+**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-**Оффлайн:**скачай стартовый проект с [rpf.io/p/ru/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} и затем открой его с помощью оффлайн редактора.
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
-Если тебе нужно скачать и установить оффлайн редактор Scratch, ты можешь найти его по адресу [https://rpf.io/scratchoff](rpf.io/scratchoff) \--- /task \---
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+
+\--- /task \---
 
 \--- task \---
 
-Стартовый проект содержит четыре спрайта персонажа. Один из них будет твоим чат-ботом.
+The starter project contains four character sprites. One of these will be your chatbot.
 
-Ты можешь использовать спрайт, который уже выбран, или выбрать другой, щелкнув правой кнопкой мыши по нужному спрайту и выбрав **показать** или **скрыть** с помощью значка глаза в панели свойств спрайта.
+You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Выбери персонажа](images/chatbot-characters.png)
+![Choose a character](images/chatbot-characters.png)
 
 \--- /task \---
