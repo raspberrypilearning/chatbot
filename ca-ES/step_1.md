@@ -27,11 +27,9 @@ Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar un
 
 \--- / print-only \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## títol: què necessitaràs
+## title: What you will need
 
 ### Maquinari
 
@@ -45,30 +43,28 @@ Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar un
 
 - [ Trobeu fitxers per descarregar aquí ](http://rpf.io/p/en/chatbot-go).
 
-\--- / collapse \---
+\--- /collapse \---
 
-\--- collapse \---
+## \--- collapse \---
 
-* * *
-
-## títol: Què aprendràs
+## title: What you will learn
 
 - Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch \--- /collapse \---
+- Use conditional selection to respond to user input in Scratch
 
-\--- collapse \---
+\--- / collapse \---
 
-* * *
+## \--- collapse \---
 
-## títol: notes addicionals per a educadors
+## title: Additional notes for educators
 
 \--- no-print \---
 
-Si necessites imprimir aquest projecte, si us plau, utilitza la [versió per imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
-\--- / no-print \---
+\--- /no-print \---
 
-Podeu trobar el [projecte complet aquí](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
-\--- / collapse \---
+\--- /collapse \---
