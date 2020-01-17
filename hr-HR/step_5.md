@@ -6,7 +6,7 @@ Prvo ćeš programirati svog chatbota da postavi pitanje na koje je moguće odgo
 
 \--- task \---
 
-Izmijeni kôd svog chatbota. Tvoj chatbot trebao bi postaviti pitanje „Jesi li dobro ime“, koristeći se varijablom `ime`{:class="block3variables"}. Zatim bi trebao odgovoriti „To je sjajno čuti!“ `ako`{:class="block3control"} dobije odgovor „da“, ali ne reći ništa ako je odgovor „ne“.
+Izmijeni kôd svog chatbota. Tvoj chatbot trebao bi postaviti pitanje „Jesi li dobro ime“, koristeći se varijablom `name`{:class="block3variables"}. Zatim bi trebao odgovoriti „To je sjajno čuti!“ `if`{:class="block3control"} dobije odgovor „da“, ali ne reći ništa ako je odgovor „ne“.
 
 ![Testiranje chatbotovog odgovora](images/chatbot-if-test1-annotated.png)
 
@@ -15,17 +15,17 @@ Izmijeni kôd svog chatbota. Tvoj chatbot trebao bi postaviti pitanje „Jesi li
 ![nano lik](images/nano-sprite.png)
 
 ```blocks3
-Kada je lik kliknut
-pitaj [Kako se zoveš?] i čekaj
-postavi [ime v] na (odgovor)
-govori (spoji [Bok] (ime)) (2) sekundi
-+pitaj (spoji [Jesi li dobro] (ime)) i čekaj
-+ako <(odgovor) = [da]> onda 
-  govori [To je sjajno čuti!] (2) sekundi
+when this sprite clicked
+ask [Kako se zoveš?] and wait
+set [ime v] to (answer)
+say (join [Bok ] (name)) for (2) seconds
++ask (join [Jesi li dobro ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [To je sjajno ćuti!] for (2) seconds
 end
 ```
 
-Provjeri radil li tvoj novi kôd, tako da ga testiraš **dva puta**: jednom s odgovorom „da“ i jednom s odgovorom „ne“.
+Provjeri radil li tvoj novi kôd, tako da ga testiraš **twice**: jednom s odgovorom „da“ i jednom s odgovorom „ne“.
 
 \--- /task \---
 
@@ -35,21 +35,21 @@ Trenutno tvoj chatbot ništa ne kaže kada je odgovor „ne“.
 
 Izmijeni kôd tako da chatbot kaže „Oh, ne!“ ako na pitanje „Jesi li dobro ime“ dobije odgovor „ne“.
 
-Zamijeni blok `ako, inače`{:class="block3control"} sa blokom `ako, onda, inače`{:class="block3control"} i ne zaboravi kôd kako bi chatbot mogao `reći „Oh, ne!“`{:class="block3looks"}.
+Zamijeni blok `if, then`{:class="block3control"} sa blokom `if, then, else`{:class="block3control"} i ne zaboravi kôd kako bi chatbot mogao `say „Oh, ne!“`{:class="block3looks"}.
 
 ![nano lik](images/nano-sprite.png)
 
 ```blocks3
-Kada je lik kliknut
-pitaj [Kako se zoveš?] i čekaj
-postavi [ime v] na (odgovor)
-govori (spoji [Bok] (ime)) (2) sekundi
-pitaj (spoji [Jesi li dobro] (ime)) i čekaj
+when this sprite clicked
+ask [Kako se zoveš?] and wait
+set [name v] to (answer)
+say (join [Bok ] (name)) for (2) seconds
+ask (join [Jesi li dobro ] (name)) and wait
 
-+ ako <(odgovor) = [yes]> onda 
-  govori [To je sjajno čuti!] (2) sekundi
-inače 
-+  govori [Oh, ne!] (2) sekundi
++ if <(answer) = [yes]> then 
+  say [To je sjajno ćuti!] for (2) seconds
+else 
++  say [Oh ne!] for (2) seconds
 end
 ```
 
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Testiraj svoj kôd. Trebaš dobiti drugačiji odgovor kad odgovoriš sa „ne“ i kad odgovoriš sa „da“. Kada je odgovor „da“, chatbot bi trebao reći „To je sjajno čuti!“ (zapamti da chatbot nije osjetljiv na velika i mala slova). Kada je odgovor **bilo što drugo**, chatbot bi trebao reći „Oh, ne!“
+Testiraj svoj kôd. Trebali biste dobiti drugačiji odgovor kada odgovorite sa "ne" i kad odgovorite sa "da": vaš chatbot trebao bi odgovoriti sa "To je sjajno za čuti!" kad odgovorite sa "da" (što ne razlikuje velika i mala slova) i odgovorite sa "Oh ne!" kad odgovorite na **anything**.
 
 ![Testiranje chatbotovog odgovora](images/chatbot-if-test2.png)
 
@@ -65,9 +65,9 @@ Testiraj svoj kôd. Trebaš dobiti drugačiji odgovor kad odgovoriš sa „ne“
 
 \--- /task \---
 
-Možeš staviti bilo koji kôd unutar bloka `ako, onda, inače`{:class="block3control"}, a ne samo kôd zbog kojeg će tvoj chatbot pričati!
+Možeš staviti bilo koji kôd unutar bloka `if, then, else`{:class="block3control"}, a ne samo kôd zbog kojeg će tvoj chatbot pričati!
 
-Ako klikeš na svog chatbota, a zatim na karticu **Kostimi**, vidjet ćeš da chatbot ima više od jednog kostima. 
+Ako klikeš na svog chatbota, a zatim na karticu **Costumes**, vidjet ćeš da chatbot ima više od jednog kostima.
 
 ![chatbotovi kostimi](images/chatbot-costume-view-annotated.png)
 
@@ -79,24 +79,23 @@ Promijeni kôd svog chatbota tako da chatbot mijenja kostime kad upišeš svoj o
 
 ![Testiranje mijenjanja kostima](images/chatbot-costume-test2.png)
 
-Promijeni kôd unutar bloka `ako, onda, inače`{:class="block3control"} kako bi chatbot `mijenjao kostime`{:class="block3looks"}.
+Promijeni kôd unutar bloka `if, then, else`{:class="block3control"} kako bi chatbot `switch costume`{:class="block3looks"}.
 
 ![nano lik](images/nano-sprite.png)
 
 ```blocks3
-Kada je lik kliknut
-pitaj [Kako se zoveš?] i čekaj
-postavi [ime v] na (odgovor)
-govori (spoji [Bok] (ime)) (2) sekundi
-pitaj (spoji [Jesi li dobro] (ime)) i čekaj
-ako <(odgovor) = [da]> onda
-end
+when this sprite clicked
+ask [Kako se zoveš?] and wait
+set [name v] to (answer)
+say (join [Bok ] (name)) for (2) seconds
+ask (join [Jesi li dobro ] (name)) and wait
+if <(answer) = [yes]> then 
 
-+ promijeni kostim u (nano-c v)
- govori [To je sjajno čuti!] (2) sekundi
-inače
-+ promijeni kostim u (nano-d v)
- govori [Oh, ne!] (2) sekundi
++  switch costume to (nano-c v)
+  say [To je sjajno čuti!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh ne!] for (2) seconds
 end
 ```
 
@@ -112,15 +111,15 @@ Pokušaj napraviti ovo: pokreni kôd i odgovori sa „ne“ tako da tvoj chatbot
 
 \--- task \---
 
-Ovaj problem možeš riješiti tako da chatbotu dodaš kôd za `promjenu kostima`{:class="block3looks"} na početku programa, `kada je lik kliknut`{:class="block3events"}.
+Ovaj problem možeš riješiti tako da chatbotu dodaš kôd za `switch costume`{:class="block3looks"} na početku programa, `when the sprite is clicked`{:class="block3events"}.
 
 ![nano lik](images/nano-sprite.png)
 
 ```blocks3
-Kada je lik kliknut
+when this sprite clicked
 
-+ promijeni kostim u (nano-a v)
-pitaj [Kako se zoveš?] i čekaj
++ switch costume to (nano-a v)
+ask [Kako se zoveš?] and wait
 ```
 
 ![Testiranje ispravljanja kostima](images/chatbot-costume-fix-test.png)
