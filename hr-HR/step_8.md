@@ -2,9 +2,9 @@
 
 Iskoristi naučeno i dovrši izradu svog interaktivnog chatbota. Evo nekoliko ideja:
 
-![ChatBot ideje](images/chatbot-ideas1.png)
+![ChatBot ideas](images/chatbot-ideas1.png)
 
-![ChatBot ideje](images/chatbot-ideas2.png)
+![ChatBot ideas](images/chatbot-ideas2.png)
 
 ![ChatBot ideje](images/chatbot-ideas3.png)
 
