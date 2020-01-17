@@ -29,7 +29,7 @@ Klikni na zelenu zastavicu, a zatim klikni na lika robota da započneš razgovor
 
 ## \--- collapse \---
 
-## title: What you will need
+## naslov: Što će vam trebati
 
 ### Hardver
 
@@ -47,24 +47,24 @@ Klikni na zelenu zastavicu, a zatim klikni na lika robota da započneš razgovor
 
 ## \--- collapse \---
 
-## title: What you will learn
+## naslov: Što ćete naučiti
 
-- Use code to concatenate strings in Scratch
+- Koristiti kôd za povezivanje niza podataka u Scratchu
 - Razumijeti da se varijable mogu koristiti za spremanje korisničkih unosa
-- Use conditional selection to respond to user input in Scratch
+- Upotrijebite uvjetni odabir da biste odgovorili na korisnikov unos u programu Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Dodatne informacije za voditelje kluba
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Ako želite ispisati ovaj projekt, koristite [verziju koja je prilagođena za ispis](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+[Ovdje](http://rpf.io/p/en/chatbot-get) možete pronaći dovršen projekt.
 
 \--- /collapse \---
