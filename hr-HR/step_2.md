@@ -13,23 +13,23 @@ Prije nego što započneš s izradom svojeg chatbota, moraš odlučiti o njegovo
 
 \--- task \---
 
-Open the Chatbot Scratch starter project.
+Otvori početni Scratch projekt Chatbot.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** otvori početni projekt s [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Ako imaš Scratch korisnički račun, možeš napraviti kopiju klikom na **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** preuzmi početni projekt s [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go), a zatim ga otvori pomoću offline uređivača.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+Ako trebaš preuzeti i instalirati offline Scratch uređivač, to možeš napraviti na [https://rpf.io/scratchoff](rpf.io/scratchoff).\--- /task.
 
 \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Početni projekt sadrži četiri lika. Jedan od njih biti će tvoj chatbot.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Možeš koristiti već odabranog lika ili odabrati drugog. Klikni na lika kojeg želiš, a zatim ga **show** ili **hide** tako da u izborniku ispod Pozornice klikneš na ikonu oka pokraj opcije Prikaži.
 
 ![Choose a character](images/chatbot-characters.png)
 
