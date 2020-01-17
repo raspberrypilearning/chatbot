@@ -8,11 +8,11 @@ Prvo ćeš programirati svog chatbota da postavi pitanje na koje je moguće odgo
 
 Izmijeni kôd svog chatbota. Tvoj chatbot trebao bi postaviti pitanje „Jesi li dobro ime“, koristeći se varijablom `name`{:class="block3variables"}. Zatim bi trebao odgovoriti „To je sjajno čuti!“ `if`{:class="block3control"} dobije odgovor „da“, ali ne reći ništa ako je odgovor „ne“.
 
-![Testiranje chatbotovog odgovora](images/chatbot-if-test1-annotated.png)
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-![Testiranje chatbotovog odgovora](images/chatbot-if-test2.png)
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-![nano lik](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -37,7 +37,7 @@ Izmijeni kôd tako da chatbot kaže „Oh, ne!“ ako na pitanje „Jesi li dobr
 
 Zamijeni blok `if, then`{:class="block3control"} sa blokom `if, then, else`{:class="block3control"} i ne zaboravi kôd kako bi chatbot mogao `say „Oh, ne!“`{:class="block3looks"}.
 
-![nano lik](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -59,9 +59,9 @@ end
 
 Testiraj svoj kôd. Trebali biste dobiti drugačiji odgovor kada odgovorite sa "ne" i kad odgovorite sa "da": vaš chatbot trebao bi odgovoriti sa "To je sjajno za čuti!" kad odgovorite sa "da" (što ne razlikuje velika i mala slova) i odgovorite sa "Oh ne!" kad odgovorite na **anything**.
 
-![Testiranje chatbotovog odgovora](images/chatbot-if-test2.png)
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-![Testiranje da/ne odgovora](images/chatbot-if-else-test.png)
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
@@ -69,19 +69,19 @@ Možeš staviti bilo koji kôd unutar bloka `if, then, else`{:class="block3contr
 
 Ako klikeš na svog chatbota, a zatim na karticu **Costumes**, vidjet ćeš da chatbot ima više od jednog kostima.
 
-![chatbotovi kostimi](images/chatbot-costume-view-annotated.png)
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
 Promijeni kôd svog chatbota tako da chatbot mijenja kostime kad upišeš svoj odgovor.
 
-![Testiranje mijenjanja kostima](images/chatbot-costume-test1.png)
+![Testing a changing costume](images/chatbot-costume-test1.png)
 
-![Testiranje mijenjanja kostima](images/chatbot-costume-test2.png)
+![Testing a changing costume](images/chatbot-costume-test2.png)
 
 Promijeni kôd unutar bloka `if, then, else`{:class="block3control"} kako bi chatbot `switch costume`{:class="block3looks"}.
 
-![nano lik](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -107,13 +107,13 @@ Primjećuješ li da se, nakon promjene kostima, chatbot ne vraća u kostim u koj
 
 Pokušaj napraviti ovo: pokreni kôd i odgovori sa „ne“ tako da tvoj chatbot dobije tužan izraz lica. Zatim opet pokreni kôd i primijeti kako chatbot ne vrati sretan izraz lica prije nego li pita za tvoje ime. 
 
-![Greška s kostimom](images/chatbot-costume-bug-test.png)
+![Costume bug](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
 Ovaj problem možeš riješiti tako da chatbotu dodaš kôd za `switch costume`{:class="block3looks"} na početku programa, `when the sprite is clicked`{:class="block3events"}.
 
-![nano lik](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -122,6 +122,6 @@ when this sprite clicked
 ask [Kako se zoveš?] and wait
 ```
 
-![Testiranje ispravljanja kostima](images/chatbot-costume-fix-test.png)
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
