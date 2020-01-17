@@ -2,7 +2,7 @@
 
 Možeš programirati svog chatbota da mijenja lokaciju!
 
-![Ispitivanje promjene pozadine](images/chatbot-backdrop-moon.png)
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
@@ -12,7 +12,7 @@ Možeš li programirati svog chatbota da pita „Želiš li ići na Mjesec?“, 
 
 \--- hint \---
 
-Chatbot bi trebao `pitati „Želiš li ići na Mjesec?“`{:class="block3sensing"} - `ako`{:class="block3control"} je `odgovor`{:class="block3sensing"} „da“, neka `promijeni pozadinu na Mjesec`{:class="block3looks"}.
+Chatbot bi trebao `ask „Želiš li ići na Mjesec?“`{:class="block3sensing"} i `if`{:class="block3control"} je `answer`{:class="block3sensing"} „da“, neka `switch the backdrop to the moon`{:class="block3looks"}.
 
 \--- /hint \---
 
@@ -20,17 +20,16 @@ Chatbot bi trebao `pitati „Želiš li ići na Mjesec?“`{:class="block3sensin
 
 Trebat ćeš ove blokove kôda:
 
-![nano lik](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-promijeni pozadinu na (Mjesec v)
+switch backdrop to (moon v)
 
-pitaj [Želiš li ići na Mjesec?] i čekaj
+ask [Želiš li ići na Mjesec?] and wait
 
-ako <(odgovor) = [da]> onda
+if <(answer) = [yes]> then 
 
 end
-
 ```
 
 \--- /hint \---
@@ -40,9 +39,9 @@ end
 Ovako bi tvoj kôd trebao izgledati:
 
 ```blocks3
-pitaj [Želiš li ići na Mjesec?] i čekaj
-ako <(odgovor) = [da]> onda 
-  promijeni pozadinu na (Mjesec v)
+ask [Želiš li ići na mjesec?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 end
 ```
 
@@ -56,12 +55,12 @@ end
 
 Sada se moraš pobrinuti da tvoj chatbot kreće sa odgovarajuće lokacije kada klikneš na njega. Dodaj ovaj blok na početak svog kôda: 
 
-![nano lik](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-Kada je lik kliknut
+when this sprite clicked
 
-+ promijeni pozadinu na (svemir v)
++ switch backdrop to (space v)
 ```
 
 \--- /task \---
@@ -74,19 +73,19 @@ Testiraj program i odgovori sa „da“ kada te chatbot pita želiš li ići na 
 
 \--- task \---
 
-Možeš dodati i sljedeći kôd unutar novog `ako`{:class="block3control"} bloka kako bi chatbot skočio četiri puta ako odgovoriš sa „da“:
+Možeš dodati i sljedeći kôd unutar novog `if`{:class="block3control"} bloka kako bi chatbot skočio četiri puta ako odgovoriš sa „da“:
 
-![nano lik](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ako <(odgovor) = [da]> onda 
-  promijeni pozadinu na (Mjesecv)
-  
-+  ponovi (4) 
-    promijeni y za (10)
-    čekaj (0.1) sekundi
-    promijeni y za (-10)
-    čekaj (0.1) sekundi
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
   end
 end
 ```
