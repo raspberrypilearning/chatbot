@@ -32,7 +32,7 @@ Trenutačno tvoj chatbot odgovara „Imaš lijepo ime!” svaki put kad odgovori
 
 Izmijeni kôd lika chatbota tako da `join`{:class="block3operators"} „Bok” s `answer`{:class="block3sensing"} na pitanje „Kako se zoveš?”, tako da kôd izgleda ovako:
 
-![nano lik](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -40,7 +40,7 @@ ask [Kako se zoveš?] and wait
 say (join [Bok ] (answer) :: +) for (2) seconds
 ```
 
-![Testiranje prilagođenog odgovora](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- /task \---
 
@@ -58,7 +58,7 @@ Kreiraj novu varijablu koja se zove `name`{:class="block3variables"}.
 
 Sada izmijeni kôd chatbot lika i postavi varijablu `name`{:class="block3variables"} na `answer`{:class="block3sensing"}:
 
-![nano lik](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -70,7 +70,7 @@ say (join [Bok ] (name :: variables +)) for (2) seconds
 
 Tvoj kôd bi trebao funkcionirati kao i prije. Robot bi trebao pozdravljati koristeći ime koje upišeš.
 
-![Testiranje prilagođenog odgovora](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- /task \---
 
