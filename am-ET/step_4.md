@@ -1,6 +1,6 @@
-## ፈተና: ተጨማሪ ጥያቄዎች
+## Challenge: more questions
 
-የንግግር ሮቦታችሁ ሌላ ጥያቄ እንዲጠይቅ ፕሮግራም አድርጉት። የዚህን አዲስ ጥያቄ መልስ በአዲስ ተለዋዋጭ ውስጥ ማስቀመጥ ትችላላችሁ?
+Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
 ![More questions](images/chatbot-question1.png)
 
