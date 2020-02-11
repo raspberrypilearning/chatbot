@@ -1,6 +1,6 @@
-## এরপর কি?
+## What next?
 
-[ পেইন্ট বক্সটি ব্যবহার করে দেখুন ](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) প্রকল্প, যেখানে আপনি নিজের চিত্রকলার প্রোগ্রাম তৈরি করবেন!
+Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
 
 --- no-print ---
 
