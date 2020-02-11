@@ -1,13 +1,13 @@
-## आपका चैटबॉट
+## Your chatbot
 
 \--- task \---
 
-इससे पहले कि आप अपनी चैटबोट बनाना शुरू करें, आपको यह तय करने की आवश्यकता है कि इसका व्यक्तित्व क्या है। ** निम्नलिखित प्रश्नों के बारे में सोचें **:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ चैटबॉट का नाम क्या है?
-+ वो कहाँ रहता है?
-+ क्या यह खुश है? गंभीर? मजेदार? संकोच? अनुकूल?
-+ यह पसंद और नापसंद क्या है?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
