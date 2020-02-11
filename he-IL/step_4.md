@@ -1,7 +1,7 @@
-## אתגר: שאלות נוספות
+## Challenge: more questions
 
-תכנן את ה- chatbot שלך כדי לשאול שאלה אחרת. האם אתה יכול לאחסן את התשובה לשאלה החדשה הזו במשתנה חדש?
+Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
-![שאלות נוספות](images/chatbot-question1.png)
+![More questions](images/chatbot-question1.png)
 
-![שאלות נוספות](images/chatbot-question2.png)
+![More questions](images/chatbot-question2.png)
