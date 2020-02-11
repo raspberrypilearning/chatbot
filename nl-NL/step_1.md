@@ -29,7 +29,7 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Wat heb je nodig
 
 ### Hardware
 
@@ -47,24 +47,24 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Wat ga je leren
 
-- Use code to concatenate strings in Scratch
+- Gebruik code om strings in Scatch samen te voegen
 - Weet dat variabelen kunnen worden gebruikt om gebruikersinvoer op te slaan
-- Use conditional selection to respond to user input in Scratch
+- Gebruik voorwaardelijke selectie om te reageren op gebruikersinvoer in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Aanvullende informatie voor docenten
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Hier kun je het [voltooide project](http://rpf.io/p/en/chatbot-get) downloaden.
 
 \--- /collapse \---
