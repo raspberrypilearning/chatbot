@@ -1,33 +1,33 @@
-## Промена локације
+## Changing location
 
-Можеш да програмираш робота да мења локацију!
+You can also program your chatbot to change its location!
 
-![Испробавање промене позадине](images/chatbot-backdrop-moon.png)
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Можеш ли да програмираш свог робота да пита „Да ли желиш да идеш на Месец?“, а затим да промени позадину када је одговор "да"?
+Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
 \--- hints \---
 
 \--- hint \---
 
-Твој робот би требао да `пита "Да ли желиш да идеш на Месец?"`{:class="block3sensing"}, а `ако је`{:class="block3control"} твој `одговор`{:class="block3sensing"} "да", требао би да `промени позадину на Месец`{:class="block3looks"}.
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Ево блокова кода које треба да додаш у код твојег робота.
+Here are the code blocks you need to add to your chatbot code.
 
-![нано лик](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-промени позадину у (месец v)
+switch backdrop to (moon v)
 
-питај [Да ли желиш да идеш на Месец?] и чекај
+ask [Do you want to go to the moon?] and wait
 
-ако је <(одговор) = [да]> онда
+if <(answer) = [yes]> then 
 
 end
 ```
@@ -36,12 +36,12 @@ end
 
 \--- hint \---
 
-Овако би требао да изгледа твој код:
+This is what your code should look like:
 
 ```blocks3
-питај [Да ли желиш да идеш на Месец?] и чекај
-ако је <(одговор) = [да]> онда 
-  промени позадину у (месец v)
+ask [Do you want to go to the moon?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 end
 ```
 
@@ -53,39 +53,39 @@ end
 
 \--- task \---
 
-Мораћеш да се постараш да твој робот буде на правом месту када почнеш да разговараш са њим. Додај следећи блок на почетак кода за робота:
+Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
-![нано лик](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-када је кликнуто на овај лик
+when this sprite clicked
 
-+ промени позадину у (свемир v)
++ switch backdrop to (space v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Испробај програм и одговори "да" када те робот упита да ли желиш да идеш на Месец. Требало би да видиш да је робот променио локацију.
+Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
 \--- /task \---
 
 \--- task \---
 
-Можеш да додаш следећи код унутар новог блока `ако је`{:class="block3control"} да би робот скочио четири пута ако одговориш са "да":
+You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
-![нано лик](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ако је <(одговор) = [да]> онда 
-  промени позадину у (месец v)
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 
-+  понови (4) 
-    промени y за (10)
-    чекај (0.1) секунду
-    промени y за (-10)
-    чекај (0.1) секунду
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
   end
 end
 ```
