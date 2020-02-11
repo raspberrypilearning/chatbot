@@ -1,18 +1,18 @@
 \--- no-print \---
 
-これは、**Scratch 3**バージョンのプロジェクトです。[Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2)バージョンのプロジェクトもあります。
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
 ## はじめに
 
-あなたと話しができるキャラクターをプログラムする方法を学びます！そのようなキャラクターは、チャットロボットまたはチャットボットと呼ばれます。
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### 作るもの
 
 \--- no-print \---
 
-緑の旗をクリックし、チャットボットのキャラクターをクリックして会話を始めましょう。 チャットボットが質問をしたら、ステージの下部にあるボックスに答えを入力し、右にある青いマークをクリックして（または`Enter`を押して）チャットボットの返答を確認します。
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-![完成したプロジェクト](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -39,9 +39,9 @@
 
 - Scratch 3 ([オンライン](https://rpf.io/scratchon)または[オフライン](https://rpf.io/scratchoff))
 
-### ダウンロード一覧
+### Downloads
 
-- [ここからダウンロードするファイルを探す](http://rpf.io/p/en/chatbot-go) 
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -49,8 +49,8 @@
 
 ## title: What you will learn
 
-- Scratchでコードを使用して文字列を連結する
-- 変数を使用してユーザーの入力を保存できることを知る
+- Use code to concatenate strings in Scratch
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
