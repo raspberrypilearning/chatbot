@@ -1,11 +1,11 @@
-## Tantangan: selesaikan chatbot Anda
+## Challenge: finish your chatbot
 
-Gunakan apa yang telah Anda pelajari untuk menyelesaikan membuat chatbot interaktif Anda. Berikut ini beberapa ide:
+Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
 
-![Ide-ide ChatBot](images/chatbot-ideas1.png)
+![ChatBot ideas](images/chatbot-ideas1.png)
 
-![Ide-ide ChatBot](images/chatbot-ideas2.png)
+![ChatBot ideas](images/chatbot-ideas2.png)
 
-![Ide-ide ChatBot](images/chatbot-ideas3.png)
+![ChatBot ideas](images/chatbot-ideas3.png)
 
-Setelah Anda selesai chatbot Anda, ajak teman Anda untuk berbicara dengannya! Apakah mereka menyukai karakter Anda? Bisakah mereka menemukan masalah?
+Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
