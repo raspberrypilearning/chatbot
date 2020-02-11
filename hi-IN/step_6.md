@@ -1,5 +1,5 @@
-## चुनौती: अधिक निर्णय
+## Challenge: more decisions
 
-एक और सवाल पूछने के लिए अपने चैटबोट को प्रोग्राम करें जिसका उत्तर "हां" या "नहीं" के साथ दिया जा सकता है। क्या आप अपने चैटबोट को अलग-अलग तरीके से प्रतिक्रिया दे सकते हैं, जिसके आधार पर यह प्राप्त होता है?
+Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
 
-![स्क्रीनशॉट](images/chatbot-joke.png)
+![screenshot](images/chatbot-joke.png)
