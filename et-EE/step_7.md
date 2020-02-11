@@ -1,93 +1,93 @@
-## Asukoha muutmine
+## Changing location
 
-Saate oma vestlusboti programmeerida ka selle asukoha muutmiseks!
+You can also program your chatbot to change its location!
 
-![Muutuva tausta testimine](images/chatbot-backdrop-moon.png)
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
-\--- ülesanne \---
+\--- task \---
 
-Kas te saate oma vestlusboti programmeerida, et küsida "Kas sa tahad minna kuule" ja seejärel muuta tausta, kui vastus on "jah"?
+Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- vihjed \---
+\--- hints \---
 
-\--- vihje \---
+\--- hint \---
 
-Teie chatbot peaks `küsida: "Kas sa tahad minna Kuule?"`{: class = "block3sensing"} ja `kui`{: class = "block3control"} te `vastus`{: class = "block3sensing"} "jah", peaks `lülitama kuu taustaks`: class = "block3looks"}.
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
-\--- / vihje \---
+\--- /hint \---
 
-\--- vihje \---
+\--- hint \---
 
-Siin on koodiplokid, mida peate oma chatbot koodile lisama.
-
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-lülita taustaks (moon v)
-
-küsi [Kas soovite minna kuu juurde?] ja oodake
-
-kui <(vastus) = [yes]> siis 
-
-lõpp
-```
-
-\--- / vihje \---
-
-\--- vihje \---
-
-Seda peaks teie kood välja nägema:
-
-```blocks3
-küsi [Kas sa tahad minna kuule?] ja oodata
-kui <(vastus) = [yes]> seejärel 
-  lüliti taustaks (kuu v)
-lõpp
-```
-
-\--- / vihje \---
-
-\--- / vihjed \---
-
-\--- / ülesanne \---
-
-\--- ülesanne \---
-
-Nüüd peate veenduma, et teie vestlusbot algab õiges kohas, kui klõpsate sellele rääkida. Lisage see plokk teie vestlusboksi koodi ülaosale:
+Here are the code blocks you need to add to your chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-kui see sprite klõpsas
+switch backdrop to (moon v)
 
-+ lülita taustaks (tühik v)
+ask [Do you want to go to the moon?] and wait
+
+if <(answer) = [yes]> then 
+
+end
 ```
 
-\--- / ülesanne \---
+\--- /hint \---
 
-\--- ülesanne \---
+\--- hint \---
 
-Testige oma programmi ja vastake "jah", kui vestlusbot küsib, kas soovite minna kuu. Sa peaksid nägema, et vestlusboti asukoht muutub.
+This is what your code should look like:
 
-\--- / ülesanne \---
+```blocks3
+ask [Do you want to go to the moon?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+end
+```
 
-\--- ülesanne \---
+\--- /hint \---
 
-Uue `sse võite lisada ka järgmise koodi, kui`{: class = "block3control"} blokeerida, et vestlusbot hüpata üles ja alla neli korda, kui vastate "jah":
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-kui <(vastus) = [yes]> siis 
-  lüliti taustaks (kuu v)
+when this sprite clicked
 
-+ korrata (4) 
-    muutus y poolt (10)
-    oota (0,1) sekundit
-    muutus y (-10)
-    oota (0,1) sekundit
-  ots
-
++ switch backdrop to (space v)
 ```
 
-\--- / ülesanne \---
+\--- /task \---
+
+\--- task \---
+
+Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+
+\--- /task \---
+
+\--- task \---
+
+You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
+end
+```
+
+\--- /task \---
