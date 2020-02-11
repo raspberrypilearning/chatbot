@@ -1,5 +1,5 @@
-## ፈተና: ተጨማሪ ምርጫዎች
+## Challenge: more decisions
 
-የንግግር ሮቦቱ "አዎ" ወይም "አይደለም" በማለት የሚመለስ ሌላ ጥያቄ እንዲጠይቅ ፕሮግራም አድርጉት። ሮቦቱ ከሚሰጠው መልስ ላይ ተነስቶ የተለያየ ምላሽ እንዲሰጥ ማድረግ ትችላላችሁ?
+Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
 
 ![screenshot](images/chatbot-joke.png)
