@@ -1,31 +1,31 @@
-\--- geen druk \---
+\--- no-print \---
 
-Dit is die **Scratch 3** weergawe van die projek. Daar is ook 'n [Scratch 2 weergawe van die projek](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- / geen druk \---
+\--- /no-print \---
 
-## inleiding
+## Introduction
 
-Jy gaan leer hoe om 'n karakter wat met jou kan praat, te programmeer! 'N karakter soos dit word 'n klets robot genoem, of chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Wat jy sal maak
+### What you will make
 
-\--- geen druk \---
+\--- no-print \---
 
-Klik op die groen vlag en klik dan op die chatbot-karakter om 'n gesprek te begin. Wanneer die chatbot 'n vraag vra, tik jou antwoord in die kassie onderaan die stadium en klik dan op die blou merk regs (of druk `Enter`) om die antwoord van die chatbot te sien.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / geen druk \---
+\--- /no-print \---
 
-\--- slegs druk \---
+\--- print-only \---
 
-![voltooi projek](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
-\--- / slegs druk \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -33,15 +33,15 @@ Klik op die groen vlag en klik dan op die chatbot-karakter om 'n gesprek te begi
 
 ### Hardware
 
-- Rekenaar wat Kras 3 kan uitvoer
+- Computer capable of running Scratch 3
 
-### sagteware
+### Software
 
-- Kras 3 (óf [aanlyn](https://rpf.io/scratchon) of [vanlyn](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### downloads
+### Downloads
 
-- [Vind lêers om hier af te laai](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -50,10 +50,10 @@ Klik op die groen vlag en klik dan op die chatbot-karakter om 'n gesprek te begi
 ## title: What you will learn
 
 - Use code to concatenate strings in Scratch
-- Weet dat veranderlikes gebruik kan word om gebruikersinvoer op te slaan
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
-\--- /inval \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
