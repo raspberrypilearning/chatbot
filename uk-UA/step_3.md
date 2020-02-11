@@ -1,10 +1,10 @@
-## Чат-бот, що розмовляє
+## A talking chatbot
 
-Тепер, коли у вас є чат-бот з особистістю, давайте запрограмуємо його розмовляти з Вами.
+Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
 \--- task \---
 
-Натисніть на свій спрайт чат-боту і додайте цей код до нього так, щоб `при його натисканні` {: class = "block3events"}, `він запитував Ваше ім'я ` {: class = "block3sensing"}, а потім ` говорив: "Яке миле ім'я!" ` {: class = "block3looks"}.
+Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -20,9 +20,9 @@ say [What a lovely name!] for (2) seconds
 
 Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
-![Тестування відповіді Чат-бота](images/chatbot-ask-test1.png)
+![Testing a ChatBot response](images/chatbot-ask-test1.png)
 
-![Тестування відповіді Чат-бота](images/chatbot-ask-test2.png)
+![Testing a ChatBot response](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
@@ -40,15 +40,15 @@ ask [What's your name?] and wait
 say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![Тестування персональної відповіді](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Зберігаючи відповідь у **змінній**, ви можете використовувати її в будь-якому місці вашого проекту.
+By storing the answer in a **variable**, you can use it anywhere your project.
 
-Створіть змінну, що називається `name`{:class="block3variables"}.
+Create a new variable called `name`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -70,7 +70,7 @@ say (join [Hi ] (name :: variables +)) for (2) seconds
 
 Your code should work as before: your chatbot should say hi using the name you type in.
 
-![Тестування персональної відповіді](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- /task \---
 
