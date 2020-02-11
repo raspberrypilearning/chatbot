@@ -1,127 +1,127 @@
-## Rozhodování
+## Making decisions
 
-Program chatbot můžete naprogramovat tak, aby se rozhodl, co má dělat na základě přijatých odpovědí.
+You can program your chatbot to decide what to do based on the answers it receives.
 
-Za prvé, uděláte vaši chatbot otázku, na kterou lze odpovědět "ano" nebo "ne".
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
 \--- task \---
 
-Změňte kód chatbot. Váš chatbot by měl položit otázku "Jste jménem OK" pomocí proměnné `jméno`{: class = "block3variables"}. Pak by měla odpovědět "To je skvělé slyšet!" `pokud`{: class = "block3control"} odpověď, kterou obdrží, je "ano", ale neříkejte nic, pokud je odpověď "ne".
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-![Testování odpovědi chatbot](images/chatbot-if-test1-annotated.png)
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-![Testování odpovědi chatbot](images/chatbot-if-test2.png)
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-kdy tento sprite klepnutí
-ptát [Jak se jmenujete?] a počkejte
-sada [název] pro (odpovědí)
-Say (připojit [Hi] (název)) po dobu (2) sekund
-+ ptát (připojit [jste v pořádku] (jméno)) a počkejte
-+ pokud <(odpověď) = [yes]> pak 
-  řekněte [To je skvělé slyšet!] po (2) sekundy
-konce
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
 ```
 
-Chcete-li vyzkoušet nový kód správně, měli byste ho otestovat **dvakrát**: jednou s odpovědí „ano“, a jednou s odpovědí „ne“.
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
 
 \--- /task \---
 
-V tuto chvíli vaše chatbot neříká odpověď "ne".
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
 
 \--- task \---
 
-Změňte kód chatbot tak, aby odpovídal "Oh no!" pokud obdrží "ne" jako odpověď na "Jste v pořádku?".
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
 
-Nahraďte blok `, pak`{block = block3control}} blokem `a pak jiným`{: class = "block3control"} a vložte kód tak, aby chatbot mohl `říct "Oh no!"`{: class = "block3looks"}.
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-kdy tento sprite klepnutí
-ptát [Jak se jmenujete?] a počkejte
-sada [název] pro (odpovědí)
-Say (připojit [Hi] (název)) po dobu (2) sekundy
-ptát (připojit [Jsi OK] ( název)) a počkejte
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
 
-+ pokud <(odpověď) = [yes]> pak 
-  říci [to je skvělé slyšet!] pro (2) sekundy
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
 else 
-+ říkají [Oh ne!] pro (2) sekund
-konce
++  say [Oh no!] for (2) seconds
+end
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Otestujte svůj kód. Měli byste odpovědět jinak, když odpovíte "ne" a když odpovíte "ano": vaše chatbot by měl odpovídat "To je skvělé slyšet!" když odpovíte "ano" (což nerozlišuje velká a malá písmena) a odpovězte "Oh no!" když odpovíte **cokoli jiného**.
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
-![Testování odpovědi chatbot](images/chatbot-if-test2.png)
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-![Testování odpovědi ano / ne](images/chatbot-if-else-test.png)
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-Můžete zadat libovolný kód uvnitř bloku `jestliže tedy ještě`{: class = "block3control"}, ne jen kód, aby vaše chatbot mluvit!
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
 
-Pokud kliknete na kartu Chatbot **Kostýmy** , zjistíte, že existuje více než jeden kostýmek.
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
 
-![chatbot kostýmy](images/chatbot-costume-view-annotated.png)
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Změňte kód chatbot tak, aby chatbot přepínal kostýmy při psaní odpovědi.
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
-![Testování měnícího se kostýmu](images/chatbot-costume-test1.png)
+![Testing a changing costume](images/chatbot-costume-test1.png)
 
-![Testování měnícího se kostýmu](images/chatbot-costume-test2.png)
+![Testing a changing costume](images/chatbot-costume-test2.png)
 
-Změňte kód uvnitř bloku `jestliže pak ještě`{: class = "block3control"} do `přepněte kostým`{: class = "block3looks"}.
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-kdy tento sprite klepnutí
-ptát [Jak se jmenujete?] a počkejte
-sada [název] pro (odpovědí)
-Say (připojit [Hi] (název)) po dobu (2) sekundy
-ptát (připojit [Jsi OK] ( název)) a počkejte
-, pokud <(odpověď) = [yes]> pak 
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
 
-+ přepnout kostým (nano-c v)
-  říkají [to je skvělé slyšet!] pro (2) sekund
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
 else 
-+ přepínač kostým (nano- d v)
-  říká [Oh no!] za (2) sekundy
-konce
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
 ```
 
-Otestujte a uložte kód. Měli byste vidět změnu tváře chatbotu v závislosti na vaší odpovědi.
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
 \--- /task \---
 
-Všimli jste si, že po tom, co se váš kostýmek chatbot změnil, zůstane takhle a nebude se měnit zpátky na to, co bylo na začátku?
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
 
-Můžete to vyzkoušet: spusťte svůj kód a odpovězte "ne", aby se vaše tvář chatbotu změnila na nešťastný vzhled. Poté spusťte svůj kód znovu a zjistíte, že váš chatbot se nezmění zpátky a nebude vypadat šťastně, než se zeptá na vaše jméno.
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
 
-![Kostýmní chyba](images/chatbot-costume-bug-test.png)
+![Costume bug](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-Chcete-li tento problém vyřešit, přidejte do kódu chatbot `přepnutí kostýmu`{: class = "block3looks"} na začátku `po kliknutí na sprite`{: class = "block3events"}.
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-kdy tento sprite kliknul
+when this sprite clicked
 
-+ přepnout kostým na (nano-a v)
-zeptejte se [Jak se jmenuje?] a počkejte
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
 ```
 
-![Testování kostýmů](images/chatbot-costume-fix-test.png)
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
