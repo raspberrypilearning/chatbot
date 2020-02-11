@@ -1,33 +1,33 @@
-## ቦታውን መለወጥ
+## Changing location
 
-የንግግር ሮቦቱ ቦታውን እንዲቀይር ማድረግ ትችላላችሁ!
+You can also program your chatbot to change its location!
 
 ![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-ቻትቦቱ "ወደ ጨረቃ መሄድ ትፈልጋላችሁ?" ብሎ እንዲጠይቅና መልሱ "አዎ" ከሆነ የጀርባውን ምስል እንዲቀይር ማድረግ ትችላላችሁ?
+Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+
+\--- hints \---
 
 \--- hint \---
 
-\--- hint \---
-
-የንግግር ሮቦቱ `"ወደ ጨረቃ መሄድ ትፈልጋላችሁ?"`{: class = "block3sensing"} ብሎ መጠየቅ አለበት። እናም የእናንተ `መልስ` "አዎ" የሚል `ከሆነ`: {class = "block3control"} `የጀርባ ምስል ወደ ጨረቃ መለወጥ`{: class = "block3looks"} አለበት።
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-ወደ ንግግር ሮቦቱ መጨመር ያለባችሁ ኮድ ይኸውና።
+Here are the code blocks you need to add to your chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-የጀርባ ምስል ወደ (ጨረቃ v) ለውጥ
+switch backdrop to (moon v)
 
-[ወደ ጨረቃ መሄድ ትፈልጋላችሁ?] ጠይቅና ጠብቅ
+ask [Do you want to go to the moon?] and wait
 
-<(መልስ) = [አዎ]> ከሆነ 
+if <(answer) = [yes]> then 
 
 end
 ```
@@ -36,12 +36,12 @@ end
 
 \--- hint \---
 
-ኮዳችሁ ይህን መምሰል አለበት።
+This is what your code should look like:
 
 ```blocks3
-[ወደ ጨረቃ መሄድ ትፈልጋላችሁ?] ጠይቅና ጠብቅ
-<(መልስ) = [አዎ]> ከሆነ 
-  የጀርባ ምስል ወደ (ጨረቃ v) ለውጥ
+ask [Do you want to go to the moon?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 end
 ```
 
@@ -49,45 +49,45 @@ end
 
 \--- /hints \---
 
-\--- / task \---
+\--- /task \---
 
 \--- task \---
 
-አሁን የንግግር ሮቦቱ ልታናግሩት ፈልጋችሁ ስትጫኑት በትክክለኛው ቦታ ላይ መጀመሩን ማረጋገጥ ያስፈልጋል ፡፡ በኮዳችሁ መጀመሪያ ላይ የሚከተለውን ጨምሩ።
+Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ይህ ስፕራይት ሲነካጥ
+when this sprite clicked
 
-+ የጀርባ ምስል ወደ (ጠፈር v) ለውጥ
++ switch backdrop to (space v)
 ```
 
-\--- / task \---
+\--- /task \---
 
 \--- task \---
 
-ፕሮግራሙን አስጀምሩትና ቻትቦቱ ወደ ጨረቃ መሄድ እንደምትፈልጉ ሲጠይቃችሁ "አዎ" ብላችሁ መልሱ። የቻትቦቱ አከባቢ ሲቀየር ማየት አለባችሁ።
+Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
-\--- / task \---
+\--- /task \---
 
 \--- task \---
 
-በተጨማሪም መልሳችሁ አዎ ከሆነ ቻትቦቱ አራት ጊዜ ወደላይና ወደታች እንዲዘል ማድረግ ከፈለጋችሁ በአዲሱ `ከሆነ`: {class = "block3control"} ብሎክ (ክፍል) ውስጥ የሚከተለውን ኮድ መጨመር ትችላላችሁ።
+You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-<(መልስ) = [አዎ]> ከሆነ 
-  የጀርባ ምስል ወደ(ጨረቃ v) ለውጥ
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 
- + (4) ን ድገም 
-    y ን በ (10) ለውጥ
-    ጠብቅ ለ (0.1) ሰከንድ
-    y ን በ (-10) ለውጥ
-    ጠብቅ ለ (0.1) ሰከንድ
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
   end
 end
 ```
 
-\--- / task \---
+\--- /task \---
