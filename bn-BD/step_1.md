@@ -1,18 +1,18 @@
 \--- no-print \---
 
-এটি ** স্ক্র্যাচ 3 ** প্রকল্পের সংস্করণ। প্রকল্পের একটি [ স্ক্র্যাচ 2 সংস্করণও রয়েছে ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) ।.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
-## পরিচিতি
+## Introduction
 
-আপনি শিখতে যাচ্ছেন এমন চরিত্রটি কীভাবে আপনার সাথে কথা বলতে পারে! এর মতো একটি চরিত্রকে চ্যাট রোবট বা চ্যাটবোট বলা হয়।
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### যা তৈরি করতে হবে
+### What you will make
 
 \--- no-print \---
 
-কথোপকথন শুরু করতে সবুজ পতাকাটিতে ক্লিক করুন এবং তারপরে চ্যাটবোট চরিত্রটিতে ক্লিক করুন।. চ্যাটবোট কোনও প্রশ্ন জিজ্ঞাসা করলে, আপনার উত্তরটি স্টেজের নীচে বাক্সে টাইপ করুন, এবং তারপরে ডানদিকে নীল চিহ্নটিতে ক্লিক করুন (অথবা চাপুন `Enter`) চ্যাটবটের উত্তর দেখতে.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-![সম্পূর্ণ প্রকল্প](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -31,17 +31,17 @@
 
 ## title: What you will need
 
-### হার্ডওয়্যার
+### Hardware
 
-- কম্পিউটার স্ক্র্যাচ 3 চালানোর জন্য সক্ষম
+- Computer capable of running Scratch 3
 
-### সফটওয়্যার
+### Software
 
 - Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### ডাউনলোডগুলি
+### Downloads
 
-- [এখানে ডাউনলোড করতে ফাইল খুঁজুন](http://rpf.io/p/en/chatbot-go)।
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -49,11 +49,11 @@
 
 ## title: What you will learn
 
-- স্ক্র্যাচগুলিতে স্ট্রিংগুলি যুক্ত করতে কোড ব্যবহার করুন
-- জানুন যে ভেরিয়েবলগুলি ব্যবহারকারীর ইনপুট সঞ্চয় করতে ব্যবহৃত হতে পারে
+- Use code to concatenate strings in Scratch
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
--- /collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
