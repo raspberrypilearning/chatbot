@@ -1,11 +1,11 @@
-## Изазов: Доврши свог робота
+## Challenge: finish your chatbot
 
-Искористи научено да довршиш свог интерактивног робота. Ево неколико идеја:
+Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
 
-![Идеје за робота](images/chatbot-ideas1.png)
+![ChatBot ideas](images/chatbot-ideas1.png)
 
-![Идеје за робота](images/chatbot-ideas2.png)
+![ChatBot ideas](images/chatbot-ideas2.png)
 
-![Идеје за робота](images/chatbot-ideas3.png)
+![ChatBot ideas](images/chatbot-ideas3.png)
 
-Када довршиш робота који разговара, позови своје другаре да разговарају са њим! Да ли им се свиђа твој робот? Могу ли уочити било какве проблеме?
+Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
