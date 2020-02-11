@@ -1,93 +1,93 @@
-## Změna polohy
+## Changing location
 
-Můžete také nastavit svůj chatbot, abyste změnili jeho polohu!
+You can also program your chatbot to change its location!
 
-![Testování měnící se pozadí](images/chatbot-backdrop-moon.png)
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Můžete naplánovat svůj chatbot a zeptat se "Chcete jít na Měsíc", a pak změňte pozadí, když je odpověď "ano"?
+Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- tipy \---
-
-\--- hint \---
-
-Váš Chatbot měla `ptát „Ty chceš jít na Měsíc?“`{: class = "block3sensing"} a `pokud`{: class = "block3control"} `odpovědí`{: class = "block3sensing"} ano, `by měl přepnout pozadí na měsíc`{ class = "block3looks"}.
-
-\--- /tip \---
+\--- hints \---
 
 \--- hint \---
 
-Zde jsou blokové kódy, které musíte přidat do kódu chatbot.
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+
+\--- /hint \---
+
+\--- hint \---
+
+Here are the code blocks you need to add to your chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-přepnout zpět na (měsíc v)
+switch backdrop to (moon v)
 
-požádat [Chcete jít na Měsíc?] a počkat
+ask [Do you want to go to the moon?] and wait
 
-pokud <(odpověď) = [yes]> pak 
+if <(answer) = [yes]> then 
 
-konce
+end
 ```
 
-\--- /tip \---
+\--- /hint \---
 
 \--- hint \---
 
-Tak by měl vypadat váš kód:
+This is what your code should look like:
 
 ```blocks3
-zeptejte se [chcete jít na Měsíc?] a počkat
-pokud <(odpověď) = [yes]> pak 
-  spínající pozadí na (měsíc v)
-konce
+ask [Do you want to go to the moon?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+end
 ```
 
-\--- /tip \---
+\--- /hint \---
 
-\--- /tipy \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Nyní se musíte ujistit, že vaše chatbot se spustí na správném místě, když na ni kliknete a promluvíte si s ním. Přidejte tento blok do horní části kódu chatbot:
+Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-kdy tento sprite kliknul
+when this sprite clicked
 
-+ přepnout zpět na (prostor v)
++ switch backdrop to (space v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Otestujte svůj program a odpovězte "ano", když se chatbot zeptá, jestli chcete jít na Měsíc. Měli byste vidět, že se místo chatbotu změní.
+Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
 \--- /task \---
 
 \--- task \---
 
-Můžete také přidat následující kód do nového bloku `if`: {class = "block3control"}, pokud chcete odpovědět "yes" čtyřikrát nahoru a dolů.
+You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-pokud <(odpověď) = [yes]> potom 
-  spínací kulisu (měsíc v)
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 
-+ opakování (4) 
-    změna y podle (10),
-    čekací (0,1) sekund
-    změna y od (-10)
-    čekací (0,1) sekund
-  konec
-konce
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
+end
 ```
 
 \--- /task \---
