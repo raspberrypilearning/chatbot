@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Ово је **Scratch 3** верзија пројекта. Постоји, такође, и [Scratch 2 верзија пројекта](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
-## Увод
+## Introduction
 
-Научићеш како да програмираш лика који може да разговара са тобом! Такав лик се назива робот који разговара.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Шта ћеш направити
+### What you will make
 
 \--- no-print \---
 
-Кликни на зелену заставицу, а затим кликни на робота који разговара да започнеш разговор. Када робот постави питање, откуцај твој одговор у поље на дну Позорнице, а затим кликни на плаву ознаку на десној страни (или притисни `Enter`) да видиш одговор робота.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-![завршен пројекат](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -31,17 +31,17 @@
 
 ## title: What you will need
 
-### Хардвер
+### Hardware
 
-- Рачунар који може да покрене Scratch 3
+- Computer capable of running Scratch 3
 
-### Софтвер
+### Software
 
-- Scratch 3 ([на мрежи](https://rpf.io/scratchon) или [ван мреже](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### Преузимање
+### Downloads
 
-- [Овде пронађи датотеке за преузимање](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -49,8 +49,8 @@
 
 ## title: What you will learn
 
-- Користити код за спајање низова у Скречу
-- Да се променљиве могу користити за чување корисничких уноса
+- Use code to concatenate strings in Scratch
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
