@@ -1,77 +1,77 @@
-## የሚያወራ የንግግር ሮቦት
+## A talking chatbot
 
-አሁን የራሱ ጸባይ ያለው ሮቦት አላችሁ። ቀጥሎ ደግሞ እንዲያወራችሁ ልታደርጉት ነው።
+Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
 \--- task \---
 
-በቻትቦት ገጸ-ባህሪው ላይ ጠቅ አድርጉና ከዚያም የሚከተለውን እንዲያደርግ ይህን ኮድ ጨምሩበት፤ `ጠቅ ሲደረግ`{: class = "block3events"} `ስም ይጠይቃል`{: class = "block3sensing"} ከዚያም `"በጣም የሚያምር ስም! "`{: class = "block3looks"} ይላል።
+Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ይህ ስፕራይት ሲነካ
-[ስም ማን ልበል?] ጠይቅና ጠብቅ
-[በጣም የሚያምር ስም!] በል ለ (2) ሰከንዶች
+when this sprite clicked
+ask [What's your name?] and wait
+say [What a lovely name!] for (2) seconds
 ```
 
-\--- / task \---
+\--- /task \---
 
 \--- task \---
 
-ኮዱን ለመሞከር በንግግር ሮቦቱ ላይ ጠቅ አድርጉ. ሮቦቱ ስም ሲጠይቅ ስማችሁን ከመድረኩ በታች ባለው ሳጥን ውስጥ ተይቡ፣ ከዚያም ሰማያዊውን ምልክት ጠቅ አድርጉ ወይም <kbd>Enter</kbd>ን ተጫኑ.
+Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
 ![Testing a ChatBot response](images/chatbot-ask-test1.png)
 
 ![Testing a ChatBot response](images/chatbot-ask-test2.png)
 
-\--- / task \---
+\--- /task \---
 
 \--- task \---
 
-አሁን የንግግር ሮቦቱ እናንተ በመለሳችሁ ቁጥር "በጥም ደስ የሚል ስም!" በማለት ይመልሳል። የሮቦቱን መልስ የበለጠ የግል እንዲሆን ለማድረግ, የተለያየ ስም በሚተየብበት ጊዜ የሮቦቱ መልስ የተለያየ እንዲሆን ማድረግ ይቻላል።
+Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
 
-የንግግር ሮቦት ገጸ-ባህሪውን ኮድ እንደሚከተለው ለውጡት። "ሰላም" የሚለዉን "ስም ማን ልበል?" ከሚለው ጥያቄ `መልስ`{class = "block3operators"} ጋር `አገናኝ`{class = "block3operators"}።
+Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ይህ ስፕራይት ሲነካ
-[ስም ማን ልበል?] ጠይቅና ጠብቅ
-(አገናኝ [ሰላም!] (መልስ) :: +) ን በል ለ (2) ሰከንዶች
+when this sprite clicked
+ask [What's your name?] and wait
+say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- / task \---
+\--- /task \---
 
 \--- task \---
 
-መልሱን በ **ተለዋዋጭ** በማስቀመጥ በፕሮጀክቱ ውስጥ ማንኛውም ቦታ መጠቀም ይቻላል።
+By storing the answer in a **variable**, you can use it anywhere your project.
 
-`ስም`{: class = "block3variables"} የተባለ አዲስ ተለዋዋጭ ፍጠሩ።
+Create a new variable called `name`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-\--- / task \---
+\--- /task \---
 
 \--- task \---
 
-አሁን `ስም`{: class = "block3variables"} የሚባለዉን ተለዋዋጭ ዋጋ ወደ `መልስ`{: class = "block3sensing"} ለመለወጥ የንግግር ሮቦቱን ኮድ ቀይሩት።
+Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ይህ ስፕራይት ሲነካ
-[ስም ማን ልበል?] ጠይቅና ጠብቅ
+when this sprite clicked
+ask [What's your name?] and wait
 
-[ስም v] ወደ (መልስ) ለውጥ
-(አገናኝ [ሰላም!] (መልስ) :: +) ን በል ለ (2) ሰከንዶች
++ set [name v] to (answer)
+say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-ኮዱ ልክ እንደበፊቱ መስራት አለበት። የንግግር ሮቦቱ ስማችሁን ተጠቅሞ ሰላም ማለት አለበት።
+Your code should work as before: your chatbot should say hi using the name you type in.
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- / task \---
+\--- /task \---
 
-ፕሮግራሙን በድጋሚ ሞክሩት። የጻፋችሁት መልስ `ስም`{: class = "block3variables"} የሚባለው ተለዋዋጭ ውስጥ መቀመጡን እንዲሁም በላይኛው ግራ ጠርዝ ላይ መታየቱን አስተውሉ። ከመድረኩ እንዲጠፋ ለማድረግ ወደ `ተለዋዋጮች` {: class = "block3variables"} ከፍልፍ(ብሎክ) ሂዱና እና ከ `ስም` {: class = "block3variables"} ቀጥሎ ባለው ሳጥን ላይ ጠቅ ያድርጉ።
+Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
