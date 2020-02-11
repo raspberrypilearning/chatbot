@@ -1,13 +1,13 @@
-## আপনার চ্যাটবট
+## Your chatbot
 
 \--- task \---
 
-আপনার চ্যাটবোট তৈরি করা শুরু করার আগে, আপনাকে তার ব্যক্তিত্ব কী তা নির্ধারণ করতে হবে। **নিচের প্রশ্নগুলি সম্পর্কে চিন্তা করুন**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ চ্যাটবোটের নাম কি?
-+ এটা কোথায় বাস করে?
-+ এটা কি খুশি? সিরিয়াস? হাস্যকর? লাজুক? বন্ধুত্বপূর্ণ?
-+ এটা কি পছন্দ এবং অপছন্দ?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
