@@ -1,31 +1,31 @@
 ---
-title: Робот који разговара
+title: Chatbot
 hero_image: images/chatbot.png
-description: Научићете да програмирате сопственог робота који разговара!
+description: Learn how to program your own talking robot!
 theme: violet
 listed: true
 copyedit: false
-version: 4.1.0
-last_tested: 2017-01-01
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
-    title: Увод
+    title: Introduction
   - 
-    title: Твој робот који разговара
+    title: Your chatbot
   - 
-    title: Робот који разговара
+    title: A talking chatbot
   - 
-    title: "Изазов: Више питања"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: Доношење одлука
+    title: Making decisions
   - 
-    title: "Изазов: Више одлука"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Промена локације
+    title: Changing location
   - 
-    title: "Изазов: Доврши свог робота"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
-    title: Шта даље?
+    title: What next?
