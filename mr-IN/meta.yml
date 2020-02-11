@@ -11,21 +11,21 @@ steps:
   - 
     title: परिचय
   - 
-    title: आपला चॅटबोॉट
+    title: Your chatbot
   - 
-    title: बोलत चॅटबॉट
+    title: A talking chatbot
   - 
-    title: "आव्हानः अधिक प्रश्न"
+    title: "Challenge: more questions"
     challenge: true
   - 
     title: निर्णय घेणे
   - 
-    title: "आव्हानः अधिक निर्णय"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: बदलण्याचे स्थान
+    title: Changing location
   - 
-    title: "आव्हानः आपले चॅटबॉट समाप्त करा"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
     title: What next?
