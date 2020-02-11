@@ -1,11 +1,11 @@
-## Izziv: dokončaj svojega klepetalnega robota
+## Challenge: finish your chatbot
 
-Uporabi to, kar si se naučil, da dokončaš svojega klepetalnega robota. Nekaj predlogov:
+Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
 
-![Ideje za klepetalnega robota](images/chatbot-ideas1.png)
+![ChatBot ideas](images/chatbot-ideas1.png)
 
-![Ideje za klepetalnega robota](images/chatbot-ideas2.png)
+![ChatBot ideas](images/chatbot-ideas2.png)
 
-![Ideje za klepetalnega robota](images/chatbot-ideas3.png)
+![ChatBot ideas](images/chatbot-ideas3.png)
 
-Ko končaš s klepetom, se pojdi pogovoriti še s prijatelji! Ali jim je všeč tvoj lik? Ali opazijo kakšne težave?
+Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
