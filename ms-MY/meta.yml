@@ -1,15 +1,15 @@
 ---
 title: Chatbot
-hero_image: imej / chatbot.png
-description: Ketahui bagaimana untuk memprogram robot bercakap anda sendiri!
-theme: ungu
+hero_image: images/chatbot.png
+description: Learn how to program your own talking robot!
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Pengenalan
+    title: Introduction
   - 
     title: Your chatbot
   - 
@@ -18,7 +18,7 @@ steps:
     title: "Challenge: more questions"
     challenge: true
   - 
-    title: Membuat keputusan
+    title: Making decisions
   - 
     title: "Challenge: more decisions"
     challenge: true
