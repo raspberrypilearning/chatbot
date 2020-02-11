@@ -1,13 +1,13 @@
-## Senin chatbot
+## Your chatbot
 
 \--- task \---
 
-Sohbet aracınızı oluşturmaya başlamadan önce, kişiliğinin ne olduğuna karar vermeniz gerekir. **Aşağıdaki soruları düşünün**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Sohbetçinin adı ne?
-+ Nerede yaşıyor?
-+ Mutlu mu Ciddi? Komik? Utangaç? Arkadaş canlısı?
-+ Neyi beğenip beğenmediğini?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
