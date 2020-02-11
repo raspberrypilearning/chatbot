@@ -1,12 +1,12 @@
-## කතා කරන චැට්බෝට්(chatbot)
+## A talking chatbot
 
-දැන් ඔබට පෞරුෂයක්(personality එකක්) සහිත චැට්බෝට්(chatbot) එකක් ඇති බැවින්, එය ඔබ සමඟ කතා කරන පරිදි වැඩසටහන්ගත(program) කිරීමට හැකියි.
+Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
 \--- task \---
 
-ඔබගේ චැට්බෝට්(chatbot) sprite එක මත ක්ලික් කර මෙම කේතය එයට එක් කරන්න. එවිට `එය ක්ලික් කළ විට`{: class = "block3events"}, එය `ඔබේ නම ඉල්ලාවි`{:class="block3sensing"} ඉන්පසු එය ` "මොනතරම් ලස්සන නමක්දැයි!"`{:class="block3looks"} පවසාවි.
+Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
 
-![නැනෝ sprite](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -18,21 +18,21 @@ say [What a lovely name!] for (2) seconds
 
 \--- task \---
 
-ඔබේ කේතය(code එක) පරීක්ෂා(test) කිරීමට ඔබගේ චැට්බෝට්(chatbot එක) එක මත ක්ලික් කරන්න. චැට්බෝට්(chatbot) එක ඔබේ නම ඉල්ලූ විට, එය වේදිකාවේ පතුලේ ඇති කොටුවට ටයිප් කර නිල්(blue) සලකුණ(mark එක) මත ක්ලික් කරන්න, නැතහොත් <kbd>නිවේශන යතුර(Enter)</kbd> ඔබන්න.
+Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
-![චැට්බෝට්(chatbot ගේ) ප්‍රතිචාරයක් පරීක්ෂා(test) කිරීම](images/chatbot-ask-test1.png)
+![Testing a ChatBot response](images/chatbot-ask-test1.png)
 
-![චැට්බෝට්(chatbot ගේ) ප්‍රතිචාරයක් පරීක්ෂා(test) කිරීම](images/chatbot-ask-test2.png)
+![Testing a ChatBot response](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
 \--- task \---
 
-මේ මොහොතේ, ඔබේ චැට්බෝට් පිළිතුරු දෙන්නේ "මොනතරම් ලස්සන නමක්ද! (What a lovely name!)" ඔබ පිළිතුරු දෙන සෑම අවස්ථාවකම. ඔබට ලැබෙන චැට්බෝට්ගේ(chatbot ගේ) පිළිතුර වඩාත්(more) පුද්ගලික(personal) එකක් කළ හැකිය, එවිට වෙනස් නමක් ටයිප් කරන සෑම අවස්ථාවකම පිළිතුර වෙනස් වේ.
+Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
 
-චැට්බෝට්(chatbot) sprite එකේ කේතය(code එක) "ඔබේ නම කුමක්ද? (What's your name?)" ප්‍රශ්නයට `පිළිතුර`{:class="block3sensing"} "හායි (Hi)" සමඟ `සම්බන්ධ(join)`{:class="block3operators"} වන ලෙස වෙනස් කරන්න, එවිට කේතය(code එක) මේ ආකාරවේ:
+Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
 
-![නැනෝ sprite](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -40,15 +40,15 @@ ask [What's your name?] and wait
 say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![පුද්ගලීකරණය(personalised) කළ පිළිතුරක්(reply) පරීක්ෂා කිරීම](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-**විචල්‍යයක(variable එකක)** පිළිතුර ගබඩා කිරීමෙන්(storing), ඔබේ ව්‍යාපෘතියේ(project එකේ) ඕනෑම තැනක එය භාවිතා කළ හැකිය.
+By storing the answer in a **variable**, you can use it anywhere your project.
 
-`නාමය(name)`{:class="block3variables"} නමින් නව(new) විචල්‍යයක්(variable එකක්) සාදන්න.
+Create a new variable called `name`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,9 +56,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-දැන්, `නාමය(name)`{:class="block3variables"} විචල්‍යයේ නම `පිළිතුර(answer)`{:class="block3sensing"} ලෙස සැකසීමට, ඔබේ චැට්බෝට්(chatbot) sprite එකේ කේතය(code එක) වෙනස් කරන්න:
+Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
-![නැනෝ sprite](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -68,10 +68,10 @@ ask [What's your name?] and wait
 say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-ඔබගේ කේතය(code එක) පෙර පරිදිම ක්‍රියාත්මක විය යුතුය: ඔබේ චැට්බෝට්(chatbot) එක ඔබ ටයිප් කරන නම භාවිතා කරමින් හායි!(Hi!) කිව යුතුය.
+Your code should work as before: your chatbot should say hi using the name you type in.
 
-![පුද්ගලීකරණය(personalised) කළ පිළිතුරක්(reply) පරීක්ෂා(test) කිරීම](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-ඔබේ වැඩසටහන(program එක) නැවත පරීක්ෂා(test) කරන්න. ඔබ ටයිප් කරන පිළිතුර(answer එක) `නාමය(name)`{:class="block3variables"} නම් විචල්‍යය(variable එක) තුල ගබඩා කර ඇති බව ඔබට දැකගත හැකිවේවි, එය වේදිකාවේ(stage එකේ) ඉහළ වම් කෙළවරේ ද දැක්වේ. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
