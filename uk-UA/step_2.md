@@ -1,13 +1,13 @@
-## Ваш чат-бот
+## Your chatbot
 
 \--- task \---
 
-Перш ніж почати розробку вашого чат-бота, вам потрібно подумати над його особистістю. ** Подумайте про наступні питання**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Яке ім'я чат-боту?
-+ Де він проживає?
-+ Чи щасливий він? Серйозний? Смішний? Сором'язливий? Дружній?
-+ Що йому подобається і не подобається?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
