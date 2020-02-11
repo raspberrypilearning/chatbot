@@ -1,93 +1,93 @@
-## Konum değiştirme
+## Changing location
 
-Chatbot'unuzu konumunu değiştirmek için de programlayabilirsiniz!
+You can also program your chatbot to change its location!
 
-![Değişen bir zeminin test edilmesi](images/chatbot-backdrop-moon.png)
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Chatbotunuzu "Aya gitmek ister misiniz" diye sorabilir ve ardından cevap "evet" olduğunda fonu değiştirebilir misiniz?
+Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- ipuçları \---
+\--- hints \---
 
-\---hint\---
+\--- hint \---
 
-Sohbetçiniz `sormalı "Aya gitmek ister misiniz?"`{: class = "block3sensing"} ve `ise`{: class = "block3control"} size `cevap`{: class = "block3sensing"} "evet", `fonu`aya dönüştürmeli sınıf = "block3looks"}.
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
-\--- / ipucu \---
+\--- /hint \---
 
-\---hint\---
+\--- hint \---
 
-İşte chatbot kodunuza eklemeniz gereken kod blokları.
+Here are the code blocks you need to add to your chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-fonu değiştir (ay v)
+switch backdrop to (moon v)
 
-isteyin [Ay'a gitmek ister misiniz?] ve <(cevap) = [yes]> sonra 
+ask [Do you want to go to the moon?] and wait
 
-bitiyorsa
+if <(answer) = [yes]> then 
 
-bekleyin
+end
 ```
 
-\--- / ipucu \---
+\--- /hint \---
 
-\---hint\---
+\--- hint \---
 
-Bu, kodunuzun nasıl görünmesi gerektiğidir:
+This is what your code should look like:
 
 ```blocks3
-[? Eğer aya gitmek istiyorsunuz] sormak ve bekleyin
-ise <(cevap) = [yes]> sonra 
-  (ay v) geçiş zemin
-ucunda
+ask [Do you want to go to the moon?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+end
 ```
 
-\--- / ipucu \---
+\--- /hint \---
 
-\--- / ipuçları \---
+\--- /hints \---
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
-Şimdi, onunla konuşmak için tıkladığınızda sohbetinizin doğru yerde başladığından emin olmanız gerekir. Bu bloğu chatbot kodunuzun en üstüne ekleyin:
+Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-bu sprite
+when this sprite clicked
 
-tıklandığında fonu değiştir (boşluk v)
++ switch backdrop to (space v)
 ```
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
-Programınızı test edin ve chatbot aya gitmek isteyip istemediğinizi sorduğunda "evet" cevabını verin. Sohbetçi konumunun değiştiğini görmelisiniz.
+Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
-\--- /görev \---
+\--- /task \---
 
 \--- task \---
 
-Ayrıca " `" yanıtını verirseniz, chatbot'un dört kez aşağı ve yukarı zıplamasını sağlamak için aşağıdaki kodu yeni <code> eğer`{: class = "block3control"} bloğuna ekleyebilirsiniz:
+You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-Eğer <(cevap) = [yes]> , sonra 
-  (ay v) geçiş zemin
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 
-+ tekrar (4) 
-    (10) ile değişim y
-    bekleme (0.1) saniye
-    (-10) ile değişikliği y
-    bekleme (0.1) saniye
-  son
-son
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
+end
 ```
 
 \--- /task \---
