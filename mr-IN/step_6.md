@@ -1,5 +1,5 @@
-## आव्हानः अधिक निर्णय
+## Challenge: more decisions
 
-आपल्या चॅटबॉटला दुसर्या प्रश्नाची विचारणा करा ज्याचे उत्तर "होय" किंवा "नाही" असेल. आपण कोणता चॅट प्राप्त केल्याच्या आधारावर आपल्या चॅटबॉटला वेगळ्या प्रतिसाद देऊ शकता?
+Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
 
-![स्क्रीनशॉट](images/chatbot-joke.png)
+![screenshot](images/chatbot-joke.png)
