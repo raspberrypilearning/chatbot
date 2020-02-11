@@ -1,15 +1,15 @@
-## Jou chatbot
+## Your chatbot
 
-\--- taak \---
+\--- task \---
 
-Voordat jy begin met die skep van jou chatbot, moet jy besluit wat sy persoonlikheid is. **Dink aan die volgende vrae**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Wat is die naam van die chatbot?
-+ Waar woon dit?
-+ Is dit gelukkig? Ernstig? Snaaks? Skaam? Vriendelik?
-+ Wat hou dit van en hou nie van?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
-\--- / taak \---
+\--- /task \---
 
 \--- task \---
 
