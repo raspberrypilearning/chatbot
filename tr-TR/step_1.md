@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Bu, projenin **Scratch 3** sürümüdür. Projenin aynı zamanda [Scratch 2 sürümü](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) de vardır.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
 ## Giriş
 
-Sizinle konuşabilecek bir karakteri nasıl programlayacağınızı öğreneceksiniz! Bunun gibi bir karaktere sohbet robotu veya sohbetçi denir.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Ne yapacaksınız
+### What you will make
 
 \--- no-print \---
 
-Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine tıklayın. Sohbetçi bir soru sorduğunda cevabınızı Sahne Alanı'nın altındaki kutuya yazın ve ardından sohbetçinin cevabını görmek için sağdaki mavi işarete tıklayın (veya `Enter`basın).
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine 
 
 \--- print-only \---
 
-![tamamlanmış proje](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -31,17 +31,17 @@ Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine 
 
 ## title: What you will need
 
-### Donanım
+### Hardware
 
-- Scratch 3'ı çalıştırabilen bilgisayar
+- Computer capable of running Scratch 3
 
-### Yazılım
+### Software
 
-- Scratch 3 ( [online](https://rpf.io/scratchon) ya da [offline](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### İndirilenler
+### Downloads
 
-- [Buradan indirilecek dosyaları bulun](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -49,8 +49,8 @@ Yeşil bayrağa tıklayın ve sohbete başlamak için sohbet karakteri üzerine 
 
 ## title: What you will learn
 
-- Scratch'ta dizeleri birleştirmek için kod kullanın
-- Kullanıcı girişini saklamak için değişkenlerin kullanılabileceğini bilin
+- Use code to concatenate strings in Scratch
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
