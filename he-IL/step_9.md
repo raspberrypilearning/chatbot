@@ -1,6 +1,6 @@
-## מה הלאה?
+## What next?
 
-נסה את התיבה [ צבע ](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) פרויקט, בו תוכלו ליצור תוכנית ציור משלכם!
+Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
 
 --- no-print ---
 
