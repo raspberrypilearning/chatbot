@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Dies ist die ** Scratch 3 ** Version des Projekts. Es gibt auch eine [ Scratch-2-Version des Projekts ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
 ## Einleitung
 
-Du wirst lernen, einen Charakter zu programmieren, der mit dir sprechen kann! So ein Charakter wird chat robot, oder chatbot genannt.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Was du machen wirst
 
 \--- no-print \---
 
-Klicke auf die Grüne Flagge und danach auf das Chatbot-Männchen, um eine Unterhaltung zu beginnen. Wenn der Chatbot eine Frage stellt, tippe deine Antwort in die Box am unteren Ende der Bühne ein und klicke auf den blauen Haken (oder drücke die `Enter` -Taste), um die Antwort des Chatbots zu sehen.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -41,7 +41,7 @@ Klicke auf die Grüne Flagge und danach auf das Chatbot-Männchen, um eine Unter
 
 ### Downloads
 
-- [Hier findest du die Dateien zum herunterladen](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -49,8 +49,8 @@ Klicke auf die Grüne Flagge und danach auf das Chatbot-Männchen, um eine Unter
 
 ## title: What you will learn
 
-- Nutze Code-Blöcke, um Zeichenketten in Scratch zu verketten
-- Lerne, dass Variablen zum Speichern von Benutzereingaben verwendet werden können
+- Use code to concatenate strings in Scratch
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
