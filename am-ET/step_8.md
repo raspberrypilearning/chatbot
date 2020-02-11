@@ -1,6 +1,6 @@
-## ፈተና፦ የንግግር ሮቦቱን መጨረስ
+## Challenge: finish your chatbot
 
-እስካሁን የተማራችሁትን ነገር የንግግር ሮቦታችሁን ለመጨረስ ተጠቀሙበት። አንዳንድ ሃሳቦች እነኚሁና።
+Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
 
 ![ChatBot ideas](images/chatbot-ideas1.png)
 
@@ -8,4 +8,4 @@
 
 ![ChatBot ideas](images/chatbot-ideas3.png)
 
-አንድ ጊዜ ቻትቦቱን ከጨረሳችሁ በሁዋላ ጉዋደኞቻችሁ እንዲያዋሩት አድርጉ! የፈጠራችሁትን ገጸባህሪ ወደውታል? ምን ያዩበት ችግር አለ?
+Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
