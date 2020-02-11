@@ -23,13 +23,13 @@
 
 \--- print-only \---
 
-![पूर्ण परियोजनाएं](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: आपको किन चीज़ों की आवश्यकता होगी
 
 ### हार्डवेयर
 
@@ -47,10 +47,10 @@
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: आप क्या सीखेंगे
 
-- स्क्रैच में तारों को समतल करने के लिए कोड का उपयोग करें
-- पता है कि चर का उपयोग उपयोगकर्ता इनपुट को संग्रहीत करने के लिए किया जा सकता है
+- कोड का इस्तेमाल करके स्ट्रिंग यानि शब्दों या फिर वाक्यों को जोड़ना
+- यह पता होना चाहिए की वेरिएबल आपका इनपुट याद रख सकता है
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
