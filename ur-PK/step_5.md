@@ -10,7 +10,7 @@ Change your chatbot's code. Your chatbot should ask the question "Are you OK nam
 
 ![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-![چیٹ بٹ جواب کی جانچ پڑتال](images/chatbot-if-test2.png)
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -101,7 +101,7 @@ end
 
 Test and save your code. You should see your chatbot's face change depending on your answer.
 
-\--- / کام \---
+\--- /task \---
 
 Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
 
