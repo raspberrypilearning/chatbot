@@ -1,31 +1,31 @@
 ---
-title: චැට්බෝට්
-hero_image: images / chatbot.png
-description: ඔබේම කතා කරන චැට්බොට්(chatbot) එකක් ක්‍රමලේඛනය(program) කරන්නේ කෙසේදැයි ඉගෙන ගන්න!
-theme: වයලට්
+title: Chatbot
+hero_image: images/chatbot.png
+description: Learn how to program your own talking robot!
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: හැදින්වීම
+    title: Introduction
   - 
-    title: ඔබේ චැට්බෝට්(chatbot) එක
+    title: Your chatbot
   - 
-    title: කතා කරන චැට්බෝට්(chatbot) එකක්
+    title: A talking chatbot
   - 
-    title: "අභියෝගය: තවත් ප්‍රශ්න"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: තීරණ ගැනීම
+    title: Making decisions
   - 
-    title: "අභියෝගය: තවත් තීරණ(decisions)"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: ස්ථානය(location) වෙනස් කිරීම
+    title: Changing location
   - 
-    title: "අභියෝගය: ඔබේ චැට්බොට්(chatbot) සාදා අවසන් කිරීම"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
     title: What next?
