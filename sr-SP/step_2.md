@@ -1,13 +1,13 @@
-## Твој робот који разговара
+## Your chatbot
 
 \--- task \---
 
-Пре него што почнеш да правиш робота који разговара, мораш да одлучиш какав ће он бити. **Размисли о следећим питањима**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Како се зове?
-+ Где живи?
-+ Да ли је срећан? Озбиљан? Забаван? Стидљив? Дружељубљив?
-+ Шта воли, а шта не?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
