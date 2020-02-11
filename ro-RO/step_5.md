@@ -1,12 +1,12 @@
-## Luarea deciziilor
+## Making decisions
 
-Poți programa chatbot-ul să decidă ce să facă pe baza răspunsurilor tale.
+You can program your chatbot to decide what to do based on the answers it receives.
 
-În primul rând, vei face ca robotul tău vorbitor să pună o întrebare la care poți răspunde cu „da” sau „nu”.
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
 \--- task \---
 
-Schimbă codul robotului tău vorbitor. Robotul tău vorbitor ar trebui să pună întrebarea „Ești bine, nume”, folosind variabila `nume`{:class="block3variables"}. Apoi ar trebui să răspundă cu „Mă bucur să aud asta!” `dacă`{:class="block3control"} răspunsul primit este un „da”, dar să nu spună nimic atunci când răspunsul este „nu”.
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
 ![Testează răspunsul chatbot-ului](images/chatbot-if-test1-annotated.png)
 
@@ -15,41 +15,41 @@ Schimbă codul robotului tău vorbitor. Robotul tău vorbitor ar trebui să pun�
 ![personaj nano](images/nano-sprite.png)
 
 ```blocks3
-când se dă click pe personaj
-întreabă [Care este numele tău?] și așteaptă
-setează [nume v] la (răspuns)
-spune (alătură [Salut, ] (nume)) pentru (2) secunde
-+ întreabă (alătură [Ești bine, ] (nume)) și așteapta
-+ dacă <(răspuns) = [da]> atunci 
-   spune [Mă bucur să aud asta!] pentru (2) secunde
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
 end
 ```
 
-Pentru a testa bine noul cod, ar trebui să-l testezi de **două** ori: odată când răspunsul este „da” si odată când este „nu”.
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
 
 \--- /task \---
 
-În acest moment, robotul tău vorbitor nu spune nimic când răspunzi „nu”.
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
 
 \--- task \---
 
-Schimbă codul robotului tău vorbitor pentru ca acesta să răspundă cu „Oh nu!” dacă primește un „nu” ca răspuns la întrebarea „Ești bine, nume”.
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
 
-Înlocuiește blocul `dacă, atunci`{:class="block3control"} cu un bloc `dacă, atunci, altfel`{:class="block3control"} și include cod pentru ca robotul vorbitor să poată să `spună „Oh nu!”`{:class="block3looks"}.
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
 
 ![personaj nano](images/nano-sprite.png)
 
 ```blocks3
-când se dă click pe personaj
-întreabă [Care este numele tău?] și așteaptă
-setează [nume v] la (răspuns)
-spune (alătură [Salut, ] (nume)) pentru (2) secunde
-întreabă (alătură [Ești bine, ] (nume)) și așteapta
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
 
-+ dacă <(răspuns) = [da]> atunci 
-   spune [Mă bucur să aud asta!] pentru (2) secunde
-altfel 
-+  spune [Oh nu!] pentru (2) secunde
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
 end
 ```
 
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Testează-ți codul. Ar trebui să obții un răspuns diferit atunci când răspunzi cu „nu” și când răspunzi cu „da”: robotul tău vorbitor ar trebui să răspundă cu „Mă bucur să aud asta” atunci când răspunzi cu „da” (care nu e sensibil la majuscule) și să răspundă cu „Oh nu” atunci când răspunzi cu **orice altceva**.
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
 ![Testează răspunsul chatbot-ului](images/chatbot-if-test2.png)
 
@@ -65,60 +65,61 @@ Testează-ți codul. Ar trebui să obții un răspuns diferit atunci când răsp
 
 \--- /task \---
 
-Poți pune orice alt cod în interiorul unui bloc de tip `dacă, atunci, altfel`{:class="block3control"}, nu doar codul care face robotul vorbitor să vorbească!
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
 
-Dacă dai click pe tab-ul **Costume** al robotului vorbitor, vei vedea că acesta are mai multe costume.
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
 
 ![costume chatbot](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Schimbă codul robotului tău vorbitor pentru ca acesta să își schimbe costumele atunci când trimiți un răspuns.
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
 ![Testarea unui costum](images/chatbot-costume-test1.png)
 
 ![Testarea unui costum](images/chatbot-costume-test2.png)
 
-Schimbă codul din interiorul blocului de tip `dacă, atunci, altfel`{:class="block3control"} pentru a `schimba costumul`{:class="block3looks"}.
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
 
 ![personaj nano](images/nano-sprite.png)
 
 ```blocks3
-când se dă click pe personaj
-întreabă [Care este numele tău?] și așteaptă
-setează [nume v] la (răspuns)
-spune (alătură [Salut, ] (nume)) pentru (2) secunde
-întreabă (alătură [Ești bine, ] (nume)) și așteapta
-dacă <(răspuns) = [da]> atunci 
-+  schimbă costumul la (nano-c v)
-  spune [Mă bucur să aud asta!] pentru (2) secunde
-altfel 
-+  schimbă costumul la (nano-d v)
-  spune [Oh nu!] pentru (2) secunde
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
+
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
 end
 ```
 
-Testează și salvează-ți codul. Ar trebui să vezi cum se schimbă fața robotului vorbitor în funcție de răspuns.
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
 \--- /task \---
 
-Ai observat că după ce costumul robotului tău vorbitor s-a schimbat, acesta rămâne neschimbat?
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
 
-Poți încerca asta: execută codul tău și răspunde cu „nu” pentru a schimba fața robotului tău vorbitor în una tristă. Apoi, execută codul tău din nou și observă cum fața robotului tău vorbitor nu se schimbă înapoi la fața fericită înainte de a-ți cere numele.
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
 
 ![Eroare costum](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-Pentru a remedia această problemă, adaugă la codul robotului tău vorbitor pentru a `schimba costumul`{:class="block3looks"} la început `atunci când se dă click pe personaj`{:class="block3events"}.
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
 ![personaj nano](images/nano-sprite.png)
 
 ```blocks3
-când se dă click pe personaj
+when this sprite clicked
 
-+ schimbă costumul la (nano-a v)
-întreabă [Care este numele tău?] și așteaptă
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
 ```
 
 ![Testarea unui costum corectat](images/chatbot-costume-fix-test.png)
