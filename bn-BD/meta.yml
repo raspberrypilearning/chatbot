@@ -1,7 +1,7 @@
 ---
-title: চ্যাটবট
+title: Chatbot
 hero_image: images/chatbot.png
-description: কিভাবে নিজের তৈরি চ্যাটবট বা কথাবলা রোবট তৈরি করা যায় তা শিখুন!
+description: Learn how to program your own talking robot!
 theme: violet
 listed: true
 copyedit: false
@@ -9,23 +9,23 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: পরিচিতি
+    title: Introduction
   - 
-    title: আপনার চ্যাটবট
+    title: Your chatbot
   - 
-    title: একটি কথা বলা চ্যাটবট
+    title: A talking chatbot
   - 
-    title: "চ্যালেঞ্জ: আরো প্রশ্ন"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: সিদ্ধান্ত নেয়া
+    title: Making decisions
   - 
-    title: "চ্যালেঞ্জ: আরো সিদ্ধান্ত"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: অবস্থান পরিবর্তন
+    title: Changing location
   - 
-    title: "Challenge: আপনার চ্যাটবট বানানো শেষ করুন"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
-    title: এরপর কি?
+    title: What next?
