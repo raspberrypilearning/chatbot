@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Uvod
+## Introduction
 
 You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Šta ćeš napraviti
+### What you will make
 
 \--- no-print \---
 
@@ -31,13 +31,13 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: What you will need
 
-### Hardver
+### Hardware
 
-- Računar koji može da pokrene Scratch 3
+- Computer capable of running Scratch 3
 
-### Softver
+### Software
 
-- Scratch 3 ([online](https://rpf.io/scratchon) ili [offline](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
