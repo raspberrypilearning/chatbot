@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Ez a projekt **Scratch 3**-as verziója. Elérhető [Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2)-es változatban is.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
-## Bevezetés
+## Introduction
 
-Ebben a fejezetben megtanulhatod, hogyan programozhatsz egy karaktert, amivel beszélget veled! Egy ilyen karaktert chatbotnak hívnak.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Mit fogsz elkészíteni
+### What you will make
 
 \--- no-print \---
 
-Kattints a zöld zászlóra, majd a chatbot karakterre a beszélgetés megkezdéséhez. Amikor a chatbot feltesz egy kérdést, írd be a választ a színpad alján található mezőbe, majd kattints a jobb oldali kék jelre (vagy nyomd meg a `Enter`) a válasza megtekintéséhez.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Kattints a zöld zászlóra, majd a chatbot karakterre a beszélgetés megkezdé
 
 \--- print-only \---
 
-![teljes projekt](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -31,17 +31,17 @@ Kattints a zöld zászlóra, majd a chatbot karakterre a beszélgetés megkezdé
 
 ## title: What you will need
 
-### Hardver
+### Hardware
 
-- A Scratch 3 futtatására alkalmas számítógép
+- Computer capable of running Scratch 3
 
-### Szoftver
+### Software
 
-- Scratch 3 ([online](https://rpf.io/scratchon) vagy [offline](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### Letöltések
+### Downloads
 
-- [Innen töltheted le a fájlokat](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -49,8 +49,8 @@ Kattints a zöld zászlóra, majd a chatbot karakterre a beszélgetés megkezdé
 
 ## title: What you will learn
 
-- milyen kódot használj a karakterláncok összekapcsolásához a Scratchban
-- hogyan használhatók változók a felhasználó válaszainak tárolására
+- Use code to concatenate strings in Scratch
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
