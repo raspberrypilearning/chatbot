@@ -1,6 +1,6 @@
 ## チャレンジ: 自分のチャットボット
 
-今まで学んだことを使って自分のチャットボットを完成させましょう。 例えば：
+Use what you've learned to finish creating your interactive chatbot. 例えば：
 
 ![チャットボットのアイデア](images/chatbot-ideas1.png)
 
@@ -8,4 +8,4 @@
 
 ![チャットボットのアイデア](images/chatbot-ideas3.png)
 
-チャットボットが完成したら、友だちにチャットボットで会話をしてもらいましょう！ 友だちはあなたのキャラクターを気に入りましたか？ 何か問題を見つけますか？
+Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
