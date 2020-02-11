@@ -1,15 +1,15 @@
 ---
-title: چیٹ بٹ
-hero_image: تصاویر / chatbot.png
-description: جانیں کہ کس طرح آپ کے اپنے بولنے والے روبوٹ کو پروگرام کرنا ہے.
-theme: وایلیٹ
+title: Chatbot
+hero_image: images/chatbot.png
+description: Learn how to program your own talking robot!
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: تعارف
+    title: Introduction
   - 
     title: Your chatbot
   - 
@@ -18,7 +18,7 @@ steps:
     title: "Challenge: more questions"
     challenge: true
   - 
-    title: فیصلے کرنا
+    title: Making decisions
   - 
     title: "Challenge: more decisions"
     challenge: true
