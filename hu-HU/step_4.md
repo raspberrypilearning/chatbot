@@ -1,7 +1,7 @@
-## Kihívás: még több kérdés
+## Challenge: more questions
 
-Módosítd a chatbotod úgy, hogy feltegyen egy újabb kérdést. Tudod úgy módosítani, hogy az új kérdésre adott választ egy új változóban tárolja?
+Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
-![Több kérdés](images/chatbot-question1.png)
+![More questions](images/chatbot-question1.png)
 
-![Több kérdés](images/chatbot-question2.png)
+![More questions](images/chatbot-question2.png)
