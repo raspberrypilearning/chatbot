@@ -1,31 +1,31 @@
 ---
-title: צ’אט בוט (רובוט שיחה)
+title: Chatbot
 hero_image: images/chatbot.png
-description: אתה הולך ללמוד איך לתכנת צ’אט בוט (רובוט שיחה) לגמרי שלך!
-theme: סגול
+description: Learn how to program your own talking robot!
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
-last_tested: 20-09-2018
+last_tested: 2018-09-20
 steps:
   - 
-    title: הקדמה
+    title: Introduction
   - 
-    title: הצ'אטבוט שלכם
+    title: Your chatbot
   - 
-    title: צ'אטבוט מדבר
+    title: A talking chatbot
   - 
-    title: "אתגר: שאלות נוספות"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: קבלת החלטות
+    title: Making decisions
   - 
-    title: "אתגר: החלטות נוספות"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: שינוי מיקום
+    title: Changing location
   - 
-    title: "אתגר: סיים את הצ'אטבוט שלך"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
-    title: מה הלאה?
+    title: What next?
