@@ -52,7 +52,7 @@ Create a new variable called `name`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-\--- / tugas \---
+\--- /task \---
 
 \--- task \---
 
