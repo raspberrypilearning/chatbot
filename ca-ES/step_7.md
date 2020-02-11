@@ -1,93 +1,93 @@
-## S'està canviant la ubicació
+## Changing location
 
-També pots programar el teu xatbot per canviar la seva ubicació!
+You can also program your chatbot to change its location!
 
-![S'està provant un canvi de fons d'escenari](images / chatbot-backdrop-moon.png)
+![S'està provant un canvi de fons d'escenari](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Pots programar el teu xatbot perquè pregunti "Vols anar a la lluna?" i després canviar el fons d'escenari si contesta "sí"?
+Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+
+\--- hints \---
 
 \--- hint \---
 
-\--- hint \---
-
-El teu xatbot hauria de ` preguntar "Vols anar a la Lluna?" ` {: class = "block3sensing"} i ` si ` {: class = "block3control"}la teva ` resposta ` {: class = "block3sensing"} és "sí", hauria de ` canviar l'escenari de fons a la lluna ` {: class = "block3looks"}.
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Aquí tens els blocs de codi que has d’afegir al teu codi del xatbot.
+Here are the code blocks you need to add to your chatbot code.
 
-![nano sprite](images / nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-canvi de fons a (lluna v)
+switch backdrop to (moon v)
 
-pregunta [Voleu anar a la lluna?] i espera
+ask [Do you want to go to the moon?] and wait
 
-si <(resposta) = [sí]> llavors 
+if <(answer) = [yes]> then 
 
-fi
+end
 ```
 
 \--- /hint \---
 
 \--- hint \---
 
-Així és com s'hauria de veure el teu codi:
+This is what your code should look like:
 
 ```blocks3
-pregunta [Vols anar a la lluna?] i espera
-si <(resposta) = [si]> llavors 
-  canviar fons a (Lluna v)
-final
+ask [Do you want to go to the moon?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+end
 ```
 
 \--- /hint \---
 
-\--- /hint \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-Ara t'has d'assegurar que el teu xatbot comenca a la ubicació adequada quan fas clic per parlar amb ell. Afegeix aquest bloc a la part superior del codi del xatbot:
+Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
-![nano sprite](images / nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quan es fa clic a aquest sprite
+when this sprite clicked
 
-+ canviar de fons a (espai v)
++ switch backdrop to (space v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Posa a prova el teu programa i respon "sí" quan el xatbot et pregunta si vols anar a la Lluna. Hauries de veure que la ubicació del xatbot canvia.
+Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
 \--- /task \---
 
 \--- task \---
 
-També pots afegir el següent codi dins del nou bloc ` si ` {: class = "block3control"} per fer saltar el xatbot amunt i avall quatre vegades si respons que "sí":
+You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
-![nano sprite](images / nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-si <(resposta) = [yes]> després 
-  canvieu el fons a (lluna v)
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 
-+ repeteix (4) 
-    canvieu y per (10)
-    espera (0,1) segons
-    canvieu y per (-10)
-    espera (0,1) segons
-  final
-final
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
+end
 ```
 
 \--- /task \---
