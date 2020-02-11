@@ -1,47 +1,47 @@
 \--- no-print \---
 
-See on projekti **Scratch 3** versioon. Samuti on projekti [Scratch 2 versioon](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## Sissejuhatus
+## Introduction
 
-Te saate teada, kuidas programmeerida märki, mis teile rääkida! Sellist märki nimetatakse vestlusrobotiks või jututubiks.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Mida te teete
+### What you will make
 
 \--- no-print \---
 
-Klõpsake rohelist lippu ja klõpsake vestluse alustamiseks vestlusbotil. Kui vestlusküsimus küsib, sisestage oma vastus lava all olevasse kasti ja seejärel klikkige paremal asuvale sinisele märgile (või vajutage `Enter`), et näha vestluskeskuse vastust.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\--- ainult printimiseks \---
+\--- print-only \---
 
-![täielik projekt](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
-\--- / ainult printimiseks \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: What you will need
 
-### Riistvara
+### Hardware
 
-- Arvuti, mis suudab käivitada Scratch 3
+- Computer capable of running Scratch 3
 
-### Tarkvara
+### Software
 
-- Scratch 3 (kas [online](https://rpf.io/scratchon) või [offline](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### Allalaadimised
+### Downloads
 
-- [Leidke allalaaditavad failid](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,7 +53,7 @@ Klõpsake rohelist lippu ja klõpsake vestluse alustamiseks vestlusbotil. Kui ve
 - Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
-\--- / kollaps \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
