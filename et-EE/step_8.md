@@ -1,11 +1,11 @@
-## Väljakutse: lõpetage oma jututuba
+## Challenge: finish your chatbot
 
-Interaktiivse vestlusboti loomise lõpetamiseks kasutage seda, mida olete õppinud. Siin on mõned ideed:
+Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
 
-![ChatBoti ideed](images/chatbot-ideas1.png)
+![ChatBot ideas](images/chatbot-ideas1.png)
 
-![ChatBoti ideed](images/chatbot-ideas2.png)
+![ChatBot ideas](images/chatbot-ideas2.png)
 
-![ChatBoti ideed](images/chatbot-ideas3.png)
+![ChatBot ideas](images/chatbot-ideas3.png)
 
-Kui olete oma vestlusboti lõpetanud, võtke oma sõpradega vestlus! Kas neile meeldib sinu iseloom? Kas nad võivad leida probleeme?
+Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
