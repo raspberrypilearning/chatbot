@@ -1,47 +1,47 @@
 \--- no-print \---
 
-זוהי **Scratch 3** גרסה של הפרויקט. יש גם גרסה [שריטה 2 של הפרויקט](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## מבוא
+## Introduction
 
-אתה הולך ללמוד כיצד לתכנת אופי שיכול לדבר איתך! דמות כזאת נקראת רובוט צ'אט או צ'אט.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### מה תעשה
+### What you will make
 
 \--- no-print \---
 
-לחץ על דגל ירוק, ולאחר מכן לחץ על תו chatbot כדי להתחיל שיחה. כאשר ה- chatbot שואל שאלה, הקלד את התשובה שלך בתיבה בתחתית הבמה, ולאחר מכן לחץ על הסימן הכחול בצד ימין (או הקש `Enter`) כדי לראות את תשובת הצ'אט.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
 \--- print-only \---
 
-![פרוייקט שלם](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
-\--- / print-only \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: What you will need
 
-### חומרה
+### Hardware
 
-- מחשב המסוגל להריץ Scratch 3
+- Computer capable of running Scratch 3
 
-### תוכנה
+### Software
 
-- Scratch 3 (או [ מקוון ](https://rpf.io/scratchon) או [ במצב לא מקוון ](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### הורדות
+### Downloads
 
-- [מצא קבצים להורדה כאן](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -49,8 +49,8 @@
 
 ## title: What you will learn
 
-- השתמש בקוד כדי לשרשר מחרוזות בסקראצ׳
-- דע כי ניתן להשתמש במשתנים לאחסון קלט משתמשים
+- Use code to concatenate strings in Scratch
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
