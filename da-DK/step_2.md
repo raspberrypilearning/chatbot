@@ -1,13 +1,13 @@
-## Din chatbot
+## Your chatbot
 
 \--- task \---
 
-Før du begynder at oprette din chatbot, skal du bestemme, hvordan dens personlighed er. **Tænk over følgende spørgsmål**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Hvad er chatbots navn?
-+ Hvor bor den?
-+ Er den lykkeligt? Alvorlig? Sjov? Genert? Venlige?
-+ Hvad kan den lide og ikke lide?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
