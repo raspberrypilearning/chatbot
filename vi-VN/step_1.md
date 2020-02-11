@@ -1,47 +1,47 @@
-\--- không in \---
+\--- no-print \---
 
-Đây là phiên bản **Scratch 3** của dự án. Ngoài ra còn có một [phiên bản Scratch 2 của dự án](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- / không in \---
+\--- /no-print \---
 
-## Giới thiệu
+## Introduction
 
-Bạn sẽ học cách lập trình một nhân vật có thể nói chuyện với bạn! Một nhân vật như thế được gọi là robot trò chuyện, hay chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Những gì bạn sẽ làm
+### What you will make
 
-\--- không in \---
+\--- no-print \---
 
-Bấm vào cờ xanh, rồi bấm vào ký tự chatbot để bắt đầu một cuộc trò chuyện. Khi chatbot đặt câu hỏi, hãy nhập câu trả lời của bạn vào ô ở cuối Giai đoạn, sau đó bấm vào dấu màu xanh bên phải (hoặc nhấn `Enter`) để xem câu trả lời của chatbot.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / không in \---
+\--- /no-print \---
 
-\--- chỉ in \---
+\--- print-only \---
 
-![dự án hoàn thành](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
-\--- / chỉ in \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: What you will need
 
-### Phần cứng
+### Hardware
 
-- Máy tính có khả năng chạy Scratch 3
+- Computer capable of running Scratch 3
 
-### Phần mềm
+### Software
 
-- Scratch 3 ([trực tuyến](https://rpf.io/scratchon) hoặc [ngoại tuyến](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### Tải xuống
+### Downloads
 
-- [Tìm tập tin để tải về tại đây](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
