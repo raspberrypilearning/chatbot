@@ -1,6 +1,6 @@
 ## Desafio: Mais perguntas
 
-Programe seu chatbot para fazer outra pergunta. Você pode armazenar a resposta desta nova pergunta em uma nova variável?
+Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
 ![More questions](images/chatbot-question1.png)
 
