@@ -1,7 +1,7 @@
-## Repte: més preguntes
+## Challenge: more questions
 
-Programa el teu xat bot per fer una altra pregunta. Pots guardar la resposta en una nova variable?
+Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
-![Més preguntes](images / chatbot-characters.png)
+![More questions](images/chatbot-question1.png)
 
-![Més preguntes](images / chatbot-characters.png)
+![More questions](images/chatbot-question2.png)
