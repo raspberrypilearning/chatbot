@@ -1,7 +1,7 @@
 ---
 title: Chatbot
 hero_image: images/chatbot.png
-description: Pelajari cara memrogram robot bicara anda sendiri!
+description: Learn how to program your own talking robot!
 theme: violet
 listed: true
 copyedit: false
@@ -9,23 +9,23 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Pendahuluan
+    title: Introduction
   - 
-    title: Chatbot Anda
+    title: Your chatbot
   - 
-    title: Chatbot yang bisa bicara
+    title: A talking chatbot
   - 
-    title: "Tantangan: pertanyaan berikutnya"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: Membuat keputusan
+    title: Making decisions
   - 
-    title: "Tantangan: keputusan berikutnya"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Mengubah lokasi
+    title: Changing location
   - 
-    title: "Tantangan: selesaikan chatbot Anda"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
-    title: Apa selanjutnya?
+    title: What next?
