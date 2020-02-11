@@ -1,11 +1,11 @@
-## চ্যালেঞ্জ: আপনার চ্যাটবট বানানো শেষ করুন
+## Challenge: finish your chatbot
 
-আপনার ইন্টারেক্টিভ চ্যাটবোট তৈরি করতে আপনি কী শিখেছেন তা ব্যবহার করুন। এখানে কিছু ধারনা:
+Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
 
-![চ্যাটবোট ধারনা](images/chatbot-ideas1.png)
+![ChatBot ideas](images/chatbot-ideas1.png)
 
-![চ্যাটবোট ধারনা](images/chatbot-ideas2.png)
+![ChatBot ideas](images/chatbot-ideas2.png)
 
-![চ্যাটবোট ধারনা](images/chatbot-ideas3.png)
+![ChatBot ideas](images/chatbot-ideas3.png)
 
-একবার আপনি আপনার চ্যাটবোটটি শেষ করলে, আপনার বন্ধুদের সাথে কথোপকথন পেতে পারেন! তারা আপনার চরিত্র পছন্দ করেন? তারা কোন সমস্যা স্পট করতে পারেন?
+Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
