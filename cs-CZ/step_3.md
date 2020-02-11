@@ -1,54 +1,54 @@
-## Mluvící chatbot
+## A talking chatbot
 
-Nyní, když máte chatbot s osobností, plánujete to s vámi promluvit.
+Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
 \--- task \---
 
-Klepněte na vaše chatbot sprite a přidejte tento kód, takže `při jeho kliknutí`{: class = "block3events"}, `zeptá na vaše jméno`{: class = "block3sensing"} a pak `říká " krásné jméno!"`{: class = "block3looks"}.
+Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-když tento sprite kliknul
-zeptejte se [Jak se jmenuješ?] a počkej
-řekni [Co krásné jméno!] za (2) sekundy
+when this sprite clicked
+ask [What's your name?] and wait
+say [What a lovely name!] for (2) seconds
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Kliknutím na chatbot vyzkoušejte svůj kód. Když se chatbot zeptá na vaše jméno, zadejte do pole, které se zobrazí ve spodní části plochy, a klikněte na modrou značku nebo stiskněte <kbd>Zadat</kbd>.
+Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
-![Testování odpovědi ChatBot](images/chatbot-ask-test1.png)
+![Testing a ChatBot response](images/chatbot-ask-test1.png)
 
-![Testování odpovědi ChatBot](images/chatbot-ask-test2.png)
+![Testing a ChatBot response](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Právě teď vaše chatbot odpoví "Jak krásné jméno!" pokaždé, když odpovíte. Odpověď na chatbot můžete udělat osobnější, takže odpověď se liší při každém zadání jiného jména.
+Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
 
-Změňte kód Chatbot spritu na `připojit`{: class = "block3operators"} "Hi" s `odpovědi`: "Jak se jmenujete" {class = "block3sensing"} na otázka, takže kód vypadá takto:
+Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-když tento sprite kliknul
-zeptejte se [Jak se jmenuje?] a počkejte
-řekněte (připojte [Hi] (odpověď) :: +) po dobu (2) sekund
+when this sprite clicked
+ask [What's your name?] and wait
+say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![Testování přizpůsobené odpovědi](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-Uložením odpověď v **proměnné**, můžete jej použít kdekoli svůj projekt.
+By storing the answer in a **variable**, you can use it anywhere your project.
 
-Vytvořte novou proměnnou s názvem `název`{: class = "block3variables"}.
+Create a new variable called `name`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,22 +56,22 @@ Vytvořte novou proměnnou s názvem `název`{: class = "block3variables"}.
 
 \--- task \---
 
-Nyní změňte kód chatbot sprites tak, aby nastavila proměnnou `název`{: class = "block3variables"} na `odpovědi`{: class = "block3sensing"}:
+Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-když tento sprite kliknul
-zeptejte se [Jak se jmenuje?] a počkejte
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ nastavte [jméno v] na (odpověď)
-řekněte (připojte [Hi]
++ set [name v] to (answer)
+say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-Váš kód by měl fungovat stejně jako předtím: Váš chatbot by měl říkat hi používat jméno, které zadáte.
+Your code should work as before: your chatbot should say hi using the name you type in.
 
-![Testování přizpůsobené odpovědi](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Otestujte svůj program znovu. Všimněte si, že odpověď, kterou zadáte, je uložena v proměnné `jméno`{: class = "block3variables"} a je zobrazena také v levém horním rohu Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
