@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Toto je **Scratch 3** verze projektu. K dispozici je také [verze Scratch 2 projektu](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
-## Úvod
+## Introduction
 
-Naučíte se, jak programovat postavu, která s vámi mluví! Taková postava se nazývá chatový robot nebo chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Co budeš dělat
+### What you will make
 
 \--- no-print \---
 
-Klepněte na zelenou vlajku a potom klepněte na znak chatbot pro zahájení konverzace. Když se chatbot zeptá na otázku, zadejte odpověď do pole v dolní části plochy a poté klikněte na modrou značku vpravo (nebo stiskněte `Zadat`) a zobrazte odpověď chatbot.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Klepněte na zelenou vlajku a potom klepněte na znak chatbot pro zahájení kon
 
 \--- print-only \---
 
-![kompletní projekt](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -33,15 +33,15 @@ Klepněte na zelenou vlajku a potom klepněte na znak chatbot pro zahájení kon
 
 ### Hardware
 
-- Počítač schopný spustit aplikaci Scratch 3
+- Computer capable of running Scratch 3
 
 ### Software
 
-- Scratch 3 (buď [online](https://rpf.io/scratchon) nebo [offline](https://rpf.io/scratchoff) verzi)
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### Stahování
+### Downloads
 
-- [Najít soubory ke stažení zde](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -50,7 +50,7 @@ Klepněte na zelenou vlajku a potom klepněte na znak chatbot pro zahájení kon
 ## title: What you will learn
 
 - Use code to concatenate strings in Scratch
-- Vědět, že proměnné mohou být použity pro ukládání uživatelského vstupu
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
