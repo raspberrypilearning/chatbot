@@ -1,7 +1,7 @@
-## Изазов: Више питања
+## Challenge: more questions
 
-Програмирај свог робота да постави неко друго питање. Можеш ли да сачуваш одговор у новој променљивој?
+Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
-![Више питања](images/chatbot-question1.png)
+![More questions](images/chatbot-question1.png)
 
-![Више питања](images/chatbot-question2.png)
+![More questions](images/chatbot-question2.png)
