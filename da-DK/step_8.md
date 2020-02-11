@@ -1,11 +1,11 @@
-## Udfordring: Afslut din chatbot
+## Challenge: finish your chatbot
 
-Brug det, du har lært, til at afslutte at oprette din interaktive chatbot. Her er nogle ideer:
+Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
 
-![ChatBot ideer](images/chatbot-ideas1.png)
+![ChatBot ideas](images/chatbot-ideas1.png)
 
-![ChatBot ideer](images/chatbot-ideas2.png)
+![ChatBot ideas](images/chatbot-ideas2.png)
 
-![ChatBot ideer](images/chatbot-ideas3.png)
+![ChatBot ideas](images/chatbot-ideas3.png)
 
-Når du er færdig med din chatbot, få dine venner til at tale med den! Kan de lide din karakter? Kan de spotte nogen problemer?
+Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
