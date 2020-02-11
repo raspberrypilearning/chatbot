@@ -5,8 +5,8 @@ description: Lerne, Deinen eigenen sprechenden Roboter zu programmieren!
 theme: violet
 listed: true
 copyedit: false
-version: 4.1.0
-last_tested: 2017-01-01
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
     title: Einleitung
