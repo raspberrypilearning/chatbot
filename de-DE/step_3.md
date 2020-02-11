@@ -4,12 +4,12 @@ Jetzt, wo du einen Chatbot mit einer eigenen Persönlichkeit hast, lass' uns ihn
 
 \--- task \---
 
-Klicke auf deinen Chatbot-Sprite und füge diesen Code hinzu, sodass, `wenn darauf geklickt wird ` {: class = "block3events"}, `er nach deinem Namen fragt ` {: class = "block3sensing"} und dann ` "Was für ein schöner Name!" ` {: class = "block3looks"} sagt.
+Klicke auf deinen Chatbot-Sprite und füge diesen Code hinzu, sodass, `wenn darauf geklickt wird ` {: class = "block3events"}, er`nach deinem Namen fragt ` {: class = "block3sensing"} und dann ` "Was für ein schöner Name!" ` {: class = "block3looks"} sagt.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wenn die Figur angeklickt wirf
+wenn die Figur angeklickt wird
 frage [Wie heißt du?] und warte
 sage [Was für ein schöner Name!] für (2) Sekunden
 ```
@@ -28,14 +28,14 @@ Klicke auf deinen Chatbot, um deinen Code zu testen. Wenn der Chatbot nach deine
 
 \--- task \---
 
-Im Moment antwortet dein Chatbot "Was für ein schöner Name!" jedes Mal wenn du antwortest. Du kannst die Antwort des Chatbots persönlicher gestalten, sodass die Antwort jedes Mal anders ist, wenn ein anderer Name eingegeben wird.
+Jetzt antwortet dein Chatbot "Was für ein schöner Name!" jedes Mal wenn du antwortest. Du kannst die Antwort des Chatbots persönlicher gestalten, sodass die Antwort jedes Mal anders ist, wenn ein anderer Name eingegeben wird.
 
-Ändere den Sprite Codes des Chatbots to `join`{:class="block3operators"} "Hallo" mit der `answer` (Antwort) {:class="block3sensing"} zu der "Wie heißt du? - Frage, sodass der Code wie folgt aussieht:
+Ändere den Sprite Codes des Chatbots to `join`{:class="block3operators"} "Hallo" mit der `Antwort` {:class="block3sensing"} zu der "Wie heißt du? - Frage, sodass der Code wie folgt aussieht:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wenn die Figur angeklickt wirf
+wenn die Figur angeklickt wird
 frage [Wie heißt du?] und warte
 sage (teilnehmen [Hallo] (Antwort) :: +) für (2) Sekunden
 ```
@@ -48,7 +48,7 @@ sage (teilnehmen [Hallo] (Antwort) :: +) für (2) Sekunden
 
 Wenn du die Antwort in einer **Variable** speicherst, kannst du sie überall in deinem Projekt verwenden.
 
-Erstelle eine neue Variable namens `name`{:class="block3variables"}.
+Erstelle eine neue Variable gennant`name`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -61,14 +61,14 @@ Erstelle eine neue Variable namens `name`{:class="block3variables"}.
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wenn die Figur angeklickt wirf
+wenn die Figur angeklickt wird
 frage [Wie heißt du?] und warte
 
 + setze [name v] auf (Antwort)
 sage (teilnehmen [Hallo] (name :: Variable +)) für (2) Sekunden
 ```
 
-Dein Code sollte wie zuvor funktionieren: dein Chatbot sollte dich mit Hallo und dem Namen, den du eingetippt hast, begrüßen.
+Dein Code soll wie zuvor funktionieren: dein Chatbot soll dich mit Hallo und dem Namen, den du eingetippt hast, begrüßen.
 
 ![Eine personalisierte Antwort ausprobieren](images/chatbot-answer-test.png)
 
