@@ -1,13 +1,13 @@
-## Tu chatbot
+## Your chatbot
 
 \--- task \---
 
-Antes de empezar a crear tu chatbot, tienes que decidir cuál es su personalidad. **Piensa en las siguientes preguntas**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ ¿Cómo se llama tu chatbot?
-+ ¿Dónde vive?
-+ ¿Es feliz? ¿Serio? ¿Gracioso? ¿Tímido? ¿Amistoso?
-+ ¿Qué le gusta y qué no le gusta?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
