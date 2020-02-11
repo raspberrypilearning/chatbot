@@ -1,15 +1,15 @@
-## Sinu jututuba
+## Your chatbot
 
-\--- ülesanne \---
+\--- task \---
 
-Enne vestluse alustamise alustamist peate otsustama, milline on tema isikupära. **Mõtle järgmistele küsimustele**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Mis on chatboti nimi?
-+ Kus see elab?
-+ Kas see on õnnelik? Tõsine? Naljakas? Shy? Sõbralik?
-+ Mida see meeldib ja ei meeldi?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
-\--- / ülesanne \---
+\--- /task \---
 
 \--- task \---
 
