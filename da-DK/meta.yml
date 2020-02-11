@@ -1,31 +1,31 @@
 ---
-title: chatbot
+title: Chatbot
 hero_image: images/chatbot.png
-description: Nu skal du lære hvordan du programmerer din egen talende robot!
+description: Learn how to program your own talking robot!
 theme: violet
 listed: true
 copyedit: false
-version: 4.1.0
-last_tested: 2017-01-01
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
-    title: Tillykke Med Fødselsdagen
+    title: Introduction
   - 
-    title: Din chatbot
+    title: Your chatbot
   - 
-    title: En snakende chatbot
+    title: A talking chatbot
   - 
-    title: "Udfordring: flere spørgsmål"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: Tage beslutninger
+    title: Making decisions
   - 
-    title: "Udfordring: flere beslutninger"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Ændring af placering
+    title: Changing location
   - 
-    title: "Udfordring: Afslut din chatbot"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
-    title: Hvad er næste skridt?
+    title: What next?
