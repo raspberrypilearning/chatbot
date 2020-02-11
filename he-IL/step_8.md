@@ -1,11 +1,11 @@
-## אתגר: סיים את הצ'אטבוט שלך
+## Challenge: finish your chatbot
 
-השתמש מה שלמדת כדי לסיים את יצירת chatbot אינטראקטיבי שלך. הנה כמה רעיונות:
+Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
 
-![רעיונות צ'אט](images/chatbot-ideas1.png)
+![ChatBot ideas](images/chatbot-ideas1.png)
 
-![רעיונות צ'אט](images/chatbot-ideas2.png)
+![ChatBot ideas](images/chatbot-ideas2.png)
 
-![רעיונות צ'אט](images/chatbot-ideas3.png)
+![ChatBot ideas](images/chatbot-ideas3.png)
 
-לאחר שתסיים את chatbot, לקבל את החברים שלך כדי לנהל שיחה עם זה! האם הם אוהבים את הדמות שלך? האם הם יכולים לזהות כל בעיה?
+Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
