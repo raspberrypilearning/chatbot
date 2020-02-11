@@ -1,7 +1,7 @@
-## চ্যালেঞ্জ: আরো প্রশ্ন
+## Challenge: more questions
 
-আপনার চ্যাটবোট প্রোগ্রাম অন্য প্রশ্ন জিজ্ঞাসা। আপনি একটি নতুন পরিবর্তনশীল এই নতুন প্রশ্নের উত্তর সংরক্ষণ করতে পারেন?
+Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
-![আরো প্রশ্ন](images/chatbot-question1.png)
+![More questions](images/chatbot-question1.png)
 
-![আরো প্রশ্ন](images/chatbot-question2.png)
+![More questions](images/chatbot-question2.png)
