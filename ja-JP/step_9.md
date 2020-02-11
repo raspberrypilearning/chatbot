@@ -1,6 +1,6 @@
-## この次は？
+## What next?
 
-お絵かきができるプログラムを作る、[ペイントボックス](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)プロジェクトをお試しください。
+Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
 
 --- no-print ---
 
