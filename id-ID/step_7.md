@@ -1,93 +1,93 @@
-## Mengubah lokasi
+## Changing location
 
-Anda juga dapat memprogram chatbot Anda untuk mengubah lokasinya!
+You can also program your chatbot to change its location!
 
-![Menguji latar belakang yang berubah](images/chatbot-backdrop-moon.png)
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
-\--- tugas \---
+\--- task \---
 
-Bisakah Anda memprogram chatbot Anda untuk bertanya "Apakah Anda ingin pergi ke bulan", dan kemudian mengubah latar belakang ketika jawabannya adalah "ya"?
+Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- petunjuk \---
+\--- hints \---
 
-\--- petunjuk \---
+\--- hint \---
 
-Chatbot Anda harus `bertanya "Apakah Anda ingin pergi ke bulan?"`{: class = "block3sensing"}, dan `jika`{: class = "block3control"} Anda `menjawab`{: class = "block3sensing"} "ya", seharusnya `harus mengganti latar belakang ke bulan`{: class = "block3looks"}.
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
-\--- / petunjuk \---
+\--- /hint \---
 
-\--- petunjuk \---
+\--- hint \---
 
-Berikut adalah blok kode yang perlu Anda tambahkan ke kode chatbot Anda.
-
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-beralih latar belakang ke (bulan v)
-
-tanyakan [Apakah Anda ingin pergi ke bulan?] dan tunggu
-
-jika <(jawaban) = [yes]> lalu 
-
-akhir
-```
-
-\--- / petunjuk \---
-
-\--- petunjuk \---
-
-Seperti inilah seharusnya kode Anda:
-
-```blocks3
-tanyakan [Apakah Anda ingin pergi ke bulan?] dan tunggu
-jika <(jawaban) = [yes]> lalu 
-  ubah latar belakang ke (bulan v)
-ujung
-```
-
-\--- / petunjuk \---
-
-\--- / petunjuk \---
-
-\--- /tugas \---
-
-\--- tugas \---
-
-Sekarang Anda perlu memastikan bahwa chatbot Anda mulai di lokasi yang tepat ketika Anda mengkliknya untuk berbicara dengannya. Tambahkan blok ini ke bagian atas kode chatbot Anda:
+Here are the code blocks you need to add to your chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ketika sprite ini diklik
+switch backdrop to (moon v)
 
-+ alihkan latar ke (spasi v)
+ask [Do you want to go to the moon?] and wait
+
+if <(answer) = [yes]> then 
+
+end
 ```
 
-\--- /tugas \---
+\--- /hint \---
 
-\--- tugas \---
+\--- hint \---
 
-Uji program Anda, dan jawab "ya" ketika chatbot bertanya apakah Anda ingin pergi ke bulan. Anda harus melihat bahwa lokasi chatbot berubah.
+This is what your code should look like:
 
-\--- /tugas \---
+```blocks3
+ask [Do you want to go to the moon?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+end
+```
 
-\--- tugas \---
+\--- /hint \---
 
-Anda juga dapat menambahkan kode berikut di dalam blok `jika`{: class = "block3control"} baru untuk membuat chatbot melompat-lompat empat kali jika Anda menjawab "ya":
+\--- /hints \---
+
+\--- /task \---
+
+\--- task \---
+
+Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-jika <(jawab) = [yes]> maka 
-  beralih latar belakang ke (bulan v)
+when this sprite clicked
 
-+ ulangi (4) 
-    ubah y oleh (10)
-    tunggu (0,1) dtk
-    ubah y oleh (-10)
-    tunggu (0,1) dtk
++ switch backdrop to (space v)
+```
+
+\--- /task \---
+
+\--- task \---
+
+Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+
+\--- /task \---
+
+\--- task \---
+
+You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
   end
 end
 ```
 
-\--- /tugas \---
+\--- /task \---
