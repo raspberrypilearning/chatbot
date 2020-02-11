@@ -1,47 +1,47 @@
-\--- नो-प्रिंट \---
+\--- no-print \---
 
-हे प्रोजेक्टचे **स्क्रॅच 3** आवृत्ती आहे. प्रोजेक्ट</a>ची स्क्रॅच 2 आवृत्ती देखील आहे.</p> 
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- / नाही-प्रिंट \---
+\--- /no-print \---
 
 ## परिचय
 
-आपल्याशी बोलू शकणारी एक पात्र कशी वापरायची हे आपण शिकाल! त्यासारखे पात्र म्हणजे चॅट रोबोट किंवा चॅटबॉट म्हटले जाते.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### आपण काय बनवणार
 
-\--- नो-प्रिंट \---
+\--- no-print \---
 
-ग्रीन ध्वज वर क्लिक करा आणि नंतर संभाषण सुरू करण्यासाठी चॅटबॉट कॅरक्टरवर क्लिक करा. Chatbot एक प्रश्न विचारतो, तेव्हा स्टेज तळाशी बॉक्समध्ये आपले उत्तर टाइप करा, आणि नंतर उजवीकडे निळा चिन्ह क्लिक करा (किंवा दाबा `प्रविष्ट करा`) chatbot प्रत्युत्तर पाहण्यासाठी.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / नाही-प्रिंट \---
+\--- /no-print \---
 
-\--- केवळ प्रिंट \---
+\--- print-only \---
 
-![संपूर्ण प्रकल्प](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
-\--- / केवळ प्रिंट \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: What you will need
 
-### हार्डवेअर
+### Hardware
 
-- स्क्रॅच 3 चालविण्यास सक्षम संगणक
+- Computer capable of running Scratch 3
 
-### सॉफ्टवेअर
+### Software
 
-- सुरवातीपासून 3 (एकतर [ऑनलाइन](https://rpf.io/scratchon) किंवा [ऑफलाइन](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### डाउनलोड्स
+### Downloads
 
-- [डाउनलोड करण्यासाठी फायली शोधा](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,7 +53,7 @@
 - Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
-\--- / संकुचित \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
