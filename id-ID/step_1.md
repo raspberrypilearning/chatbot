@@ -1,47 +1,47 @@
-\--- tanpa dicetak \---
+\--- no-print \---
 
-Ini adalah proyek versi **Scratch 3**. Ada juga proyek versi [Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2)nya.
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- / tanpa dicetak \---
+\--- /no-print \---
 
-## Pendahuluan
+## Introduction
 
-Anda akan belajar bagaimana memrogram karakter yang dapat berbicara dengan Anda! Karakter seperti itu disebut robot mengobrol, atau chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Apa yang kamu akan buat
+### What you will make
 
-\--- tanpa cetak \---
+\--- no-print \---
 
-Klik pada bendera hijau, dan kemudian klik pada karakter chatbot untuk memulai percakapan. Ketika chatbot mengajukan pertanyaan, ketikkan jawaban Anda dalam kotak di bagian bawah Stage, dan kemudian klik pada tanda biru di sebelah kanan (atau tekan `Enter`) untuk melihat balasan chatbot.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / tanpa cetak \---
+\--- /no-print \---
 
-\--- hanya-dicetak \---
+\--- print-only \---
 
-![menyelesaikan proyek](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
-\--- /hanya-dicetak \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: What you will need
 
-### Perangkat keras
+### Hardware
 
-- Komputer yang mampu menjalankan Scratch 3
+- Computer capable of running Scratch 3
 
-### Perangkat lunak
+### Software
 
-- Scratch 3 (baik [daring](https://rpf.io/scratchon) atau [luring](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### Unduh
+### Downloads
 
-- [Temukan file untuk diunduh di sini](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -53,7 +53,7 @@ Klik pada bendera hijau, dan kemudian klik pada karakter chatbot untuk memulai p
 - Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
-\--- /gulung \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
