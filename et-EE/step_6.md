@@ -1,5 +1,5 @@
-## Väljakutse: rohkem otsuseid
+## Challenge: more decisions
 
-Programmeerige oma vestlusbot, et esitada mõni teine küsimus, millele saab vastata "jah" või "ei". Kas te saate oma vestlusboti reageerida erinevalt sõltuvalt sellest, millist vastust saab?
+Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
 
-![ekraanipilt](images/chatbot-joke.png)
+![screenshot](images/chatbot-joke.png)
