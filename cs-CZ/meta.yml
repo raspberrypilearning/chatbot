@@ -1,31 +1,31 @@
 ---
-title: Povídací robot
+title: Chatbot
 hero_image: images/chatbot.png
-description: V této lekci se naučíš, jak naprogramovat mluvícího robota!
+description: Learn how to program your own talking robot!
 theme: violet
 listed: true
 copyedit: false
-version: 4.1.0
-last_tested: 2017-01-01
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
-    title: Úvod
+    title: Introduction
   - 
-    title: Váš chatbot
+    title: Your chatbot
   - 
-    title: Mluvící chatbot
+    title: A talking chatbot
   - 
-    title: "Výzva: více otázek"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: Rozhodování
+    title: Making decisions
   - 
-    title: "Výzva: více rozhodnutí"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Změna polohy
+    title: Changing location
   - 
-    title: "Výzva: dokončete svůj chatbot"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
     title: What next?
