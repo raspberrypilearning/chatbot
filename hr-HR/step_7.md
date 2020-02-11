@@ -59,7 +59,6 @@ Sada se moraš pobrinuti da tvoj chatbot kreće sa odgovarajuće lokacije kada k
 
 ```blocks3
 Kada je lik kliknut
-
 + promijeni pozadinu na (svemir v)
 ```
 

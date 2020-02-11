@@ -9,7 +9,7 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - title: Uvod
-  - title: Tvoj chatbot
+  - title: Tvoj robot
   - title: Robot koji govori
   - title: "Izazov: još pitanja"
     challenge: true

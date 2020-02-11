@@ -21,7 +21,7 @@ Ako imaš Scratch korisnički račun, možeš napraviti kopiju klikom na **Remix
 
 **Offline:** preuzmi početni projekt s [rpf.io/p/hr-HR/chatbot-go](http://rpf.io/p/hr-HR/chatbot-go), a zatim ga otvori pomoću offline uređivača.
 
-Ako trebaš preuzeti i instalirati offline Scratch uređivač, to možeš napraviti na [https://rpf.io/scratchoff](rpf.io/scratchoff).--- /task.
+Ako trebaš preuzeti i instalirati offline Scratch uređivač, to možeš napraviti na [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
 --- /task ---
 
