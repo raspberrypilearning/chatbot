@@ -1,54 +1,54 @@
-## צ'אטבוט מדבר
+## A talking chatbot
 
-עכשיו שיש לך chatbot עם אישיות, אתה הולך לתכנת את זה כדי לדבר איתך.
+Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
 \--- task \---
 
-לחץ על ה- chatbot sprite והוסף קוד זה, כך ש `כאשר לוחצים עליו`{: class = "block3events"}, הוא מבקש `את שמך`{: class = "block3sensing"} ולאחר מכן `אומר "What a שם אהוב!"`{: class = "block3looks"}.
+Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
 
-![דמות ננו](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-כאשר זה ספרייט לחץ
-לשאול [מה שמך?] ולחכות
-לומר [איזה שם יפה!] עבור (2) שניות
+when this sprite clicked
+ask [What's your name?] and wait
+say [What a lovely name!] for (2) seconds
 ```
 
 \--- /task \---
 
 \--- task \---
 
-לחץ על chatbot שלך כדי לבדוק את הקוד שלך. כאשר ה- chatbot מבקש את שמך, הקלד אותו בתיבה שמופיעה בתחתית הבמה, ולאחר מכן לחץ על הסמל הכחול, או הקש <kbd>Enter</kbd>.
+Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
-![בדיקת תגובת הצ'אטבוט](images/chatbot-ask-test1.png)
+![Testing a ChatBot response](images/chatbot-ask-test1.png)
 
-![בדיקת תגובת הצ'אטבוט](images/chatbot-ask-test2.png)
+![Testing a ChatBot response](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
 \--- task \---
 
-כרגע, chatbot שלך משיב "איזה שם יפה!" בכל פעם שאתה עונה. תוכל להפוך את תשובתו של הצ'אט ליותר אישי, כך שהתשובה תהיה שונה בכל פעם שמוקליד שם אחר.
+Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
 
-שנו את הקוד של ספרייט chatbot כדי `להצטרף`{: class = "block3operators"} "היי" עם `התשובה`: "מה שמך" {class = "block3sensing"} אל , כך שהקוד נראה כך:
+Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
 
-![ננו ספרייט](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-כאשר זה ספרייט לחץ
-לשאול [מה שמך?] ולחכות
-לומר (הצטרף [היי] (תשובה) +) עבור (2) שניות
+when this sprite clicked
+ask [What's your name?] and wait
+say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![בדיקת תשובה מותאמת אישית](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-על ידי אחסון התשובה במשתנה ****, אתה יכול להשתמש בו בכל מקום הפרויקט שלך.
+By storing the answer in a **variable**, you can use it anywhere your project.
 
-צור משתנה חדש בשם `שם`{: class = "block3variables"}.
+Create a new variable called `name`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,22 +56,22 @@
 
 \--- task \---
 
-עכשיו, לשנות את הקוד של שדוני chatbot שלך כדי להגדיר את `השם`{: class = "block3variables"} משתנה `תשובה`{: class = "block3sensing"}:
+Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
-![ננו ספרייט](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-כאשר זה ספרייט לחץ
-לשאול [מה שמך?] ולחכות
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ להגדיר [שם v] ל (תשובה)
-אומר (הצטרף [היי] (שם :: משתנים +)) עבור (2) שניות
++ set [name v] to (answer)
+say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-הקוד שלך צריך לפעול כמו בעבר: chatbot שלך צריך להגיד שלום באמצעות שם אתה מקליד.
+Your code should work as before: your chatbot should say hi using the name you type in.
 
-![בדיקת תשובה מותאמת אישית](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-בדוק שוב את התוכנית שלך. שים לב כי התשובה שאתה מקליד מאוחסן `השם`{: class = "block3variables"} משתנה, וגם מוצגת בפינה השמאלית העליונה של הבמה. כדי לגרום לו להיעלם מהבמה, עבור אל ` המשתנים ` {: class = "block3variables"} חוסם את החלק ולחץ על התיבה שליד ` שם ` {: class = "block3variables"} כך שלא יסומן.
+Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
