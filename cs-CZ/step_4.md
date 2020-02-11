@@ -1,7 +1,7 @@
-## Výzva: více otázek
+## Challenge: more questions
 
-Naplánujte svůj chatbot a položte další otázku. Můžete uložit odpověď na tuto novou otázku v nové proměnné?
+Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
-![Více otázek](images/chatbot-question1.png)
+![More questions](images/chatbot-question1.png)
 
-![Více otázek](images/chatbot-question2.png)
+![More questions](images/chatbot-question2.png)
