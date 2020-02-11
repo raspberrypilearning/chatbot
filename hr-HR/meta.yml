@@ -5,8 +5,8 @@ description: U ovom projektu naučit ćeš programirati robota koji razgovara s 
 theme: ljubičasta
 listed: true
 copyedit: false
-version: 4.1.0
-last_tested: 2017-01-01
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
     title: Uvod
