@@ -1,29 +1,29 @@
 \--- no-print \---
 
-Dette er **Scratch 3** versionen af projektet. Der er også en [Scratch 2 version af projektet](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## Introduktion
+## Introduction
 
-Du skal lære at programmere en figur, der kan tale med dig! En figur som der hedder en chatrobot eller chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Hvad du vil lave
+### What you will make
 
 \--- no-print \---
 
-Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en samtale. Når chatboten stiller et spørgsmål, skal du skrive dit svar i boksen nederst på skærmen, og derefter klikke på det blå mærke til højre (eller tryk `Enter`) for at se chatbotets svar.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
 \--- print-only \---
 
-![komplet projekt](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -33,15 +33,15 @@ Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en
 
 ### Hardware
 
-- Computer, der er i stand til at køre Scratch 3
+- Computer capable of running Scratch 3
 
 ### Software
 
-- Scratch 3 (enten [online](https://rpf.io/scratchon) eller [offline](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
-- [Find filer til download her](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -49,8 +49,8 @@ Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en
 
 ## title: What you will learn
 
-- Brug kode til at sammenkæde strenge i Scratch
-- Ved at bruge variabler til at gemme bruger svar i
+- Use code to concatenate strings in Scratch
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
