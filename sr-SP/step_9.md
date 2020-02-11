@@ -1,6 +1,6 @@
-## Шта даље?
+## What next?
 
-Испробај пројекат [Програм за цртање](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), где ћеш направити сопствени програм за цртање!
+Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
 
 --- no-print ---
 
