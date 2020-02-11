@@ -1,31 +1,31 @@
 ---
 title: Chatbot
 hero_image: images/chatbot.png
-description: Tanuld meg, hogyan programozhatsz saját beszélő robotot!
-theme: ibolya
+description: Learn how to program your own talking robot!
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
-last_tested: 2018.09.20
+last_tested: 2018-09-20
 steps:
   - 
-    title: Bevezetés
+    title: Introduction
   - 
-    title: A chatbotod
+    title: Your chatbot
   - 
-    title: Beszélő chatbot
+    title: A talking chatbot
   - 
-    title: "Kihívás: még több kérdés"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: Döntéshozatal
+    title: Making decisions
   - 
-    title: "Kihívás: még több döntés"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Hely megváltoztatása
+    title: Changing location
   - 
-    title: "Kihívás: fejezd be a chatbotodat"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
-    title: Mi a következő lépés?
+    title: What next?
