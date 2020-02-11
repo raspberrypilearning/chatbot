@@ -5,27 +5,27 @@ description: このプロジェクトでは、おしゃべりするチャット�
 theme: violet
 listed: true
 copyedit: false
-version: 4.1.0
+version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
     title: はじめに
   - 
-    title: 自分のチャットボット
+    title: Your chatbot
   - 
-    title: おしゃべりチャットボット
+    title: A talking chatbot
   - 
-    title: "チャレンジ：質問（しつもん）をふやす"
+    title: "Challenge: more questions"
     challenge: true
   - 
     title: いろいろな答え方
   - 
-    title: "チャレンジ：もっといろいろな答え"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: 場所の変更
+    title: Changing location
   - 
     title: "チャレンジ: 自分のチャットボット"
     challenge: true
   - 
-    title: その先は？
+    title: What next?
