@@ -78,14 +78,14 @@ Možeš dodati i sljedeći kôd unutar novog `if`{:class="block3control"} bloka 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
+ako <(odgovor) = [da]> onda 
+  promijeni pozadinu na (Mjesecv)
+  
++  ponovi (4) 
+    promijeni y za (10)
+    čekaj (0.1) sekundi
+    promijeni y za (-10)
+    čekaj (0.1) sekundi
   end
 end
 ```
