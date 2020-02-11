@@ -1,127 +1,127 @@
-## Besluite neem
+## Making decisions
 
-Jy kan jou chatbot programmeer om te besluit wat om te doen, gebaseer op die antwoorde wat dit ontvang.
+You can program your chatbot to decide what to do based on the answers it receives.
 
-Eerstens gaan jy jou chatbot maak. Stel 'n vraag wat met 'ja' of 'nee' beantwoord kan word.
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
-\--- taak \---
+\--- task \---
 
-Verander jou chatbot se kode. Jou chatbot moet die vraag "Is jy OK naam", met die `naam`{: class = "block3variables"} veranderlike. Dan moet dit antwoord: "Dis lekker om te hoor!" `as`{: class = "block3control"} die antwoord wat dit ontvang is "ja", maar sê niks as die antwoord nee is nie.
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
-![Toets 'n chatbot antwoord](images/chatbot-if-test1-annotated.png)
+![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-![Toets 'n chatbot antwoord](images/chatbot-if-test2.png)
-
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-wanneer hierdie sprite geklik het
-vra [Wat is jou naam?] en wag
-stel [naam v] na (antwoord)
-sê (sluit by [Hi] (naam)) vir (2) sekondes
-+ vra (sluit aan [Is jy OK] (naam)) en wag
-+ as <(antwoord) = [yes]> dan 
-  sê [Dis lekker om te hoor!] vir (2) sekondes
-einde
-```
-
-Om u nuwe kode behoorlik te toets, moet u dit **keer twee keer toets**: een keer met die antwoord 'ja' en een keer met die antwoord 'nee'.
-
-\--- / taak \---
-
-Op die oomblik sê jou chatbot niks vir die antwoord "nee" nie.
-
-\--- taak \---
-
-Verander jou chatbot se kode sodat dit antwoord "O nee!" as dit "nee" ontvang as die antwoord op "Is jy OK naam".
-
-Vervang die `as, dan blokkeer`{: class = "block3control"} met 'n `indien, dan nog`(: class = "block3control") blok en sluit kode in sodat die chatbot `"Oh no!" Kan sê.`{: class = "block3looks"}.
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer hierdie sprite geklik het
-vra [Wat is jou naam?] en wag
-stel [naam v] na (antwoord)
-sê (sluit by [Hi] (naam)) vir (2) sekondes
-vra (sluit aan [Is jy OK] naam)) en wag
-
-+ as <(antwoord) = [yes]> dan 
-  sê [Dit is goed om te hoor!] vir (2) sekondes
-anders 
-+ sê [O nee!] vir (2) sekondes
-einde
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
 ```
 
-\--- / taak \---
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
 
-\--- taak \---
+\--- /task \---
 
-Toets jou kode. Jy moet 'n ander antwoord kry as jy 'nee' antwoord en wanneer jy 'ja' antwoord: jou chatbot moet antwoord met 'Dit is goed om te hoor!' wanneer jy 'ja' antwoord (wat nie hooflettergevoelig is nie) en antwoord met 'O nee!' wanneer jy **enigiets anders antwoord**.
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
 
-![Toets 'n chatbot antwoord](images/chatbot-if-test2.png)
+\--- task \---
 
-![Toets 'n ja / nee antwoord](images/chatbot-if-else-test.png)
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
 
-\--- / taak \---
-
-Jy kan enige kode in 'n `as daar dan nog`blokkie {: class = "block3control"} is, nie net kode om jou chatbot te laat praat nie!
-
-As jy op jou Chatbot se **Kostuums** oortjie kliek, sal jy sien dat daar meer as een kostuum is.
-
-![chatbot kostuums](images/chatbot-costume-view-annotated.png)
-
-\--- taak \---
-
-Verander jou chatbot se kode sodat die chatbot kostuums skakel wanneer jy jou antwoord invoer.
-
-![Toets 'n veranderende kostuum](images/chatbot-costume-test1.png)
-
-![Toets 'n veranderende kostuum](images/chatbot-costume-test2.png)
-
-Verander die kode binne die `as dan nog`{: class = "block3control"} blokkeer na `skakelaarkostuum`{: class = "block3looks"}.
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer hierdie sprite geklik het
-vra [Wat is jou naam?] en wag
-stel [naam v] na (antwoord)
-sê (sluit by [Hi] (naam)) vir (2) sekondes
-vra (sluit aan [Is jy OK] naam)) en wag
-as <(antwoord) = [yes]> dan 
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
 
-+ skakel kostuum na (nano-c v)
-  sê [Dit is goed om te hoor!] vir (2) sekondes
-anders 
-+ skakel kostuum na (nano- d v)
-  sê [O nee!] vir (2) sekondes
-einde
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
 ```
 
-Toets en stoor jou kode. Jy moet jou chatbot se gesigsverandering sien, afhangende van jou antwoord.
+\--- /task \---
 
-\--- / taak \---
+\--- task \---
 
-Het jy opgelet dat dit na jou chatbot se kostuum verander het, bly so bly en verander nie terug na wat dit was aan die begin nie?
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
-U kan dit uitprobeer: voer u kode uit en antwoord "nee" sodat u chatbot se gesig verander na 'n ongelukkige voorkoms. Voer dan jou kode weer uit en let op dat jou chatbot nie terug verander om gelukkig te lyk voordat dit jou naam vra nie.
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
-![Kostuum bug](images/chatbot-costume-bug-test.png)
+![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
-\--- taak \---
+\--- /task \---
 
-Om hierdie probleem op te los, voeg by die chatbot se kode by `skakel kostuum`(: class = "block3looks"} aan die begin `wanneer die sprite gekliek word`{: class = "block3events"}.
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+
+![chatbot costumes](images/chatbot-costume-view-annotated.png)
+
+\--- task \---
+
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+
+![Testing a changing costume](images/chatbot-costume-test1.png)
+
+![Testing a changing costume](images/chatbot-costume-test2.png)
+
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer hierdie sprite
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
 
-+ skakel kostuum na (nano-a v)
-vra [Wat is jou naam?] en wag
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
 ```
 
-![Toets 'n kostuum los](images/chatbot-costume-fix-test.png)
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
-\--- / taak \---
+\--- /task \---
+
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+
+![Costume bug](images/chatbot-costume-bug-test.png)
+
+\--- task \---
+
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
+```
+
+![Testing a costume fix](images/chatbot-costume-fix-test.png)
+
+\--- /task \---
