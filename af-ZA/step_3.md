@@ -1,77 +1,77 @@
-## 'N Praatjie chatbot
+## A talking chatbot
 
-Noudat jy 'n chatbot met 'n persoonlikheid het, gaan jy dit programmer om met jou te praat.
+Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
-\--- taak \---
+\--- task \---
 
-Klik op jou chatbot-sprite en voeg hierdie kode by sodat `as dit`gekliek word: {2: class = "block3events"}, vra `vir jou naam`{: class = "block3sensing"} en dan `sê "Wat 'n pragtige naam! "`{: class = "block3looks"}.
-
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-wanneer hierdie sprite geklik het
-vra [Wat is jou naam?] en wag
-sê [Wat 'n lieflike naam!] vir (2) sekondes
-```
-
-\--- / taak \---
-
-\--- taak \---
-
-Klik op jou chatbot om jou kode te toets. Wanneer die chatbot vir jou naam vra, tik dit in die boks wat onderaan die stadium verskyn, en klik dan op die blou punt, of druk <kbd>Enter</kbd>.
-
-![Toets 'n ChatBot-reaksie](images/chatbot-ask-test1.png)
-
-![Toets 'n ChatBot-reaksie](images/chatbot-ask-test2.png)
-
-\--- / taak \---
-
-\--- taak \---
-
-Op die oomblik antwoord jou chatbot "Wat 'n pragtige naam!" elke keer as jy antwoord. U kan die chatbot se antwoord persoonliker maak sodat die antwoord elke keer anders is as 'n ander naam ingevoer word.
-
-Verander die chatbot sprite se kode om `by`{: class = "block3operators"} "Hi" te wees met die `antwoord`{: class = "block3sensing"} na die "Wat is jou naam?" vraag, sodat die kode só lyk:
+Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer hierdie sprite geklik het
-vra [Wat is jou naam?] en wag
-sê (sluit aan [Hi] (antwoord) :: +) vir (2) sekondes
+when this sprite clicked
+ask [What's your name?] and wait
+say [What a lovely name!] for (2) seconds
 ```
 
-![Toets 'n gepersonaliseerde antwoord](images/chatbot-answer-test.png)
+\--- /task \---
 
-\--- / taak \---
+\--- task \---
 
-\--- taak \---
+Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
-Deur die antwoord in 'n **veranderlike**, kan jy dit oral jou projek gebruik.
+![Testing a ChatBot response](images/chatbot-ask-test1.png)
 
-Skep 'n nuwe veranderlike genaamd `naam`{: class = "block3variables"}.
+![Testing a ChatBot response](images/chatbot-ask-test2.png)
+
+\--- /task \---
+
+\--- task \---
+
+Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+
+Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+say (join [Hi ] (answer) :: +) for (2) seconds
+```
+
+![Testing a personalised reply](images/chatbot-answer-test.png)
+
+\--- /task \---
+
+\--- task \---
+
+By storing the answer in a **variable**, you can use it anywhere your project.
+
+Create a new variable called `name`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
-\--- / taak \---
+\--- /task \---
 
-\--- taak \---
+\--- task \---
 
-Verander nou jou chatbot sprites se kode om die `naam`{: class = "block3variables"} veranderlike te stel na `antwoord`{: class = "block3sensing"}:
+Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer hierdie sprite geklik het
-vra [Wat is jou naam?] en wag
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ stel [naam v] na (antwoord)
-sê (sluit aan [Hi] (naam :: veranderlikes +)) vir (2) sekondes
++ set [name v] to (answer)
+say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-Jou kode moet werk soos voorheen: jou chatbot moet sê hi met die naam wat jy ingetik het.
+Your code should work as before: your chatbot should say hi using the name you type in.
 
-![Toets 'n gepersonaliseerde antwoord](images/chatbot-answer-test.png)
+![Testing a personalised reply](images/chatbot-answer-test.png)
 
-\--- / taak \---
+\--- /task \---
 
-Toets jou program weer. Let daarop dat die antwoord wat u ingevoer word, in die `naam`{: class = "block3variables"} veranderlike gestoor word en ook in die boonste linkerhoek van die stadium vertoon word. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
