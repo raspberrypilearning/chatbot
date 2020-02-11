@@ -1,13 +1,13 @@
-## Váš chatbot
+## Your chatbot
 
 \--- task \---
 
-Než začnete vytvářet svůj chatbot, musíte se rozhodnout, jaká je jeho osobnost. **Přemýšlejte o následujících otázkách**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Jaký je název chatbotu?
-+ Kde to žije?
-+ Je to šťastné? Vážně? Legrační? Plachý? Přátelský?
-+ Co se vám líbí a nelíbí se?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
