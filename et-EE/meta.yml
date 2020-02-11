@@ -1,31 +1,31 @@
 ---
 title: Chatbot
-hero_image: images / chatbot.png
-description: Lugege, kuidas oma räägirobot programmeerida!
-theme: violetne
+hero_image: images/chatbot.png
+description: Learn how to program your own talking robot!
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Sissejuhatus
+    title: Introduction
   - 
-    title: Sinu jututuba
+    title: Your chatbot
   - 
-    title: Räägib jututuba
+    title: A talking chatbot
   - 
-    title: "Väljakutse: rohkem küsimusi"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: Otsuste tegemine
+    title: Making decisions
   - 
-    title: "Väljakutse: rohkem otsuseid"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Asukoha muutmine
+    title: Changing location
   - 
-    title: "Väljakutse: lõpetage oma jututuba"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
     title: What next?
