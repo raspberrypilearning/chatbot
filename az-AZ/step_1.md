@@ -4,11 +4,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Giriş
+## Introduction
 
 You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### Nə edəcəyiniz
+### What you will make
 
 \--- no-print \---
 
