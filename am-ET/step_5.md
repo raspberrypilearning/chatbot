@@ -1,12 +1,12 @@
-## አማራጮችን መፍጠር
+## Making decisions
 
-የንግግር ሮቦቱ በሚቀበላቸው መልሶች መሰረት ማድረግ ያለበትን እንዲወስን ፕሮግራም ማድረግ ይቻላል።
+You can program your chatbot to decide what to do based on the answers it receives.
 
-በመጀመሪያ የንግግር ሮቦቱ "አዎ" ወይም "አይደለም" የሚል መልስ ያለው ጥያቄን እንዲጠይቅ ታደርጉታላችሁ።.
+First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
 
 \--- task \---
 
-የ ንግግር ሮቦቱን ኮድ ቀይሩ። ቻትቦቱ `ስም`{: class = "block3variables"} የሚለውን ተለዋዋጭ በመጠቀም "ደህና ነህ/ሽ ስም" ብሎ መጠየቅ አለበት። ከዚያ የሚቀበለው መልስ "አዎ" `ከሆነ`{: class = "block3control"} "ይህን መስማት ያስደስታል!" በማለት መመለስ አለበት። መልሱ "አይ" ከሆነ ግን ምንም አይመልስም።
+Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
 ![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
@@ -15,111 +15,113 @@
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ይህ ስፕራይት ሲነካ
-[ስም ማን ልበል?] ጠይቅና ጠብቅ
-[ስም v] ወደ (መልስ) ለውጥ
-(አገናኝ [ሰላም] (ስም) ) ን በል ለ (2) ሰከንዶች
-(አገናኝ [ደህና ነህ/ሽ] (ስም) ) ጠይቅና ጠብቅ
-+ <(መልስ) = [አዎ]> ከሆነ
-  [ይህን መስማት ያስደስታል] ን በል ለ (2) ሰከንዶች
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
 end
 ```
 
-ኮዱን በትክክል ለመፈተን **ሁለት ጊዜ** መሞከር ይገባል፤ አንድ ጊዜ "አዎ" እና አንድ ጊዜ ደግሞ "አይ" ከሚል መልስ ጋር።
+To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
 
-\--- / task \---
+\--- /task \---
 
-ለጊዜው የንግግር ሮቦቱ "አይ" ለሚለው መልስ ምንም ምላሽ የለውም።
+At the moment, your chatbot doesn't doesn't say anything to the answer "no".
 
 \--- task \---
 
-የንግግር ሮቦቱ "ደህና ነህ/ሽ" የሚለው መልስ ጥያቄ መልስ "አይ" ከሆነ "ውይ!" በማለት እንዲመልስ ኮዱን ቀይሩ።
+Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
 
-`ከሆነ`{class = "block3control"} የሚለውን ክፍል `ከሆነ ካልሆነ`{: class = "block3control"} በሚለው ተኩትና ከዚያም ሮቦቱ `"ውይ!"`{: class = "block3looks"} እንዲል ኮድ ጨምሩበት።
+Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ይህ ስፕራይት ሲነካ
-[ስም ማን ልበል?] ጠይቅና ጠብቅ
-[ስም v] ወደ (መልስ) ለውጥ
-(አገናኝ [ሰላም ] (ስም) ) ን በል ለ (2) ሰከንዶች
-(አገናኝ [ደህና ነህ/ሽ] (ስም) ) ጠይቅና ጠብቅ
-+ <(መልስ) = [አዎ]> ከሆነ
-  [ይህን መስማት ያስደስታል] ን በል ለ (2) ሰከንዶች
-ካልሆነ 
-+ [ውይ!] ን በል ለ (2) ሰከንዶች
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
 end
 ```
 
-\--- / task \---
+\--- /task \---
 
 \--- task \---
 
-ኮዳችሁን ፈትሹ። "አይ" እና "አዎ" ብላችሁ ስትመልሱ የተለየ ምላሽ ማግኘት አለባችሁ። የንግግር ሮቦቱ "አዎ" ስትሉት "ይህን መስማት ያስደስታል!" ማለት አለበት እና **ሌላ ነገር** ካላችሁት ደግሞ "ውይ!" ብሎ መመለስ አለበት።
+Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
 
 ![Testing a chatbot reply](images/chatbot-if-test2.png)
 
 ![Testing a yes/no reply](images/chatbot-if-else-test.png)
 
-\--- / task \---
+\--- /task \---
 
-`ከሆነ ካልሆነ`{:class="block3control"} በሚለው ክፍል ውስጥ ቻትቦቱ እንዲናገር ብቻ ሳይሆን ሌላ ማንኛውንም ኮድ መክተት ትችላላችሁ!
+You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
 
-የቻትቦቱ **አልባሳት** ላይ ጠቅ ካደረጋችሁ ከአንድ ልብስ በላይ እንዳለ ታያላችሁ።
+If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
 
 ![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-መልሳችሁን በምትጽፉበት ጊዜ ቻትቦቱ ልብሱን እንዲቀይር ኮዱን አስተካክሉት።
+Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
 
 ![Testing a changing costume](images/chatbot-costume-test1.png)
 
 ![Testing a changing costume](images/chatbot-costume-test2.png)
 
-`ከሆነ ካልሆነ`{: class = "block3control"} በሚለው ክፍል ውስጥ ያለውን ኮድ `ልብስ ቀይር`{: class = "block3looks"} በሚለው ተኩት።
+Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ይህ ስፕራይት ሲነካ
-[ስም ማን ልበል?] ጠይቅና ጠብቅ
-[ስም v] ወደ (መልስ) ለውጥ
-(አገናኝ [ሰላም ] (ስም) ) ን በል ለ (2) ሰከንዶች
-(አገናኝ [ደህና ነህ/ሽ] (ስም) ) ጠይቅና ጠብቅ
-+ <(መልስ) = [አዎ]> ከሆነ 
-+ ልብስ ወደ (nano-c v) ለውጥ
-   [ይህን መስማት ያስደስታል] ን በል ለ (2) ሰከንዶች
-ካልሆነ 
-+ ልብስ ወደ (nano-d v) ለውጥ
-  [ውይ!] ን በል ለ (2) ሰከንዶች
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
+
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
 end
 ```
 
-ኮዱን ፈትሹና አስቀምጡ። የንግግር ሮቦቱ ፊት እንደ መልሳችሁ አይነት ይለዋወጣል።
+Test and save your code. You should see your chatbot's face change depending on your answer.
 
-\--- / task \---
+\--- /task \---
 
-የንግግር ሮቦቱ ልብስ አንዴ ከተቀየረ በሁዋላ እንደዛው እንደሚቀር እናም ወደ መጀመሪያው እንደማይመለስ አስተዋላችሁ?
+Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
 
-እስኪ ይህን ሞክሩ: ኮዱን አስጀምሩትና "አይ" ብላችሁ መልሱ፤ የቻትቦቱ ፊት ያዘነ ገጽታ ይኖረዋል። በመቀጠል ኮዱን እንደገና አስጀምሩት እና ስማችሁን ከመጠየቁ በፊት የ ቻትቦቱ ፊት ወደ በፊቱ ደስተኛ መልክ እንዳልተመለሰ አስተውሉ።
+You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
 
 ![Costume bug](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-ይህን ችግር ለማስተካከል ኮዱ መጀመሪያ ላይ `ይህ ስፕራይት ሲነካ`{: class = "block3events"} `ልብስ ለውጥ`{: class = "block3looks"} የሚለውን ጨምሩበት።
+To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-ይህ ስፕራይት ሲነካ
+when this sprite clicked
 
-+ ልብስ ወደ (nano-a v) ለውጥ
-[ስም ማን ልበል?] ጠይቅና ጠብቅ
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
 ```
 
 ![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
-\--- / task \---
+\--- /task \---
