@@ -1,15 +1,15 @@
-## የንግግር ሮቦት
+## Your chatbot
 
 \--- task \---
 
-ቻትቦትን ለመፍጠር ከመጀመር በፊት ባህሪው ምን እንደሆነ ማወቅ ያስፈልጋል። **የሚከተሉትን ጥያቄዎች አስቡ**፤
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ የ ንግግር ሮቦቱ ስም ማን ነው?
-+ የት ነው የሚኖረው?
-+ ደስተኛ ነው? ኮስታራ ነው? አስቂኝ ነው? አይናፋር? ተጫዋች?
-+ ምን ይወዳል እና አይወድም?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
-\--- / task \---
+\--- /task \---
 
 \--- task \---
 
