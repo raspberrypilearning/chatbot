@@ -1,15 +1,15 @@
-## आपला चॅटबोॉट
+## Your chatbot
 
-\--- कार्य \---
+\--- task \---
 
-आपण आपले चॅटबोट तयार करणे प्रारंभ करण्यापूर्वी, आपण त्याचे व्यक्तिमत्व काय आहे हे ठरविणे आवश्यक आहे. **खालील प्रश्नांबद्दल विचार करा**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ चॅटबॉटचे नाव काय आहे?
-+ ते कोठे राहते?
-+ हे आनंदी आहे का? गंभीर? मजेदार? लाजाळू? मैत्रीपूर्ण
-+ ते काय आवडते आणि नापसंत करतात?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
-\--- / कार्य \---
+\--- /task \---
 
 \--- task \---
 
