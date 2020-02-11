@@ -1,31 +1,31 @@
 ---
-title: የንግግር ሮቦት
-hero_image: images / chatbot.png
-description: የራሳችን የሆነ የንግግር ሮቦት እንዴት እንደሚሰራ እንማር!
-theme: ቫዮፔት
+title: Chatbot
+hero_image: images/chatbot.png
+description: Learn how to program your own talking robot!
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: መግቢያ
+    title: Introduction
   - 
-    title: የንግግር ሮቦት
+    title: Your chatbot
   - 
-    title: የሚያወራ የንግግር ሮቦት
+    title: A talking chatbot
   - 
-    title: "ፈተና: ተጨማሪ ጥያቄዎች"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: ውሳኔዎችን ማድረግ
+    title: Making decisions
   - 
-    title: "ፈተና: ተጨማሪ ጥያቄዎች"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: ቦታን መለወጥ
+    title: Changing location
   - 
-    title: "ፈተና ፦ የንግግር ሮቦቱን መጨረስ"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
-    title: ቀጣዩ ምንድነው?
+    title: What next?
