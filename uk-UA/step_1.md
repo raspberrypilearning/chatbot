@@ -6,13 +6,13 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## Вступ
 
-Ви дізнаєтеся, як запрограмувати персонажа, який може говорити з Вами! Такий персонаж називається чат-роботом або чат-ботом.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Що ви будете робити
 
 \--- no-print \---
 
-Натисніть на зелений прапорець, а потім на кнопку Чат-бот, щоб розпочати розмову. Коли чат-бот ставить запитання, вводьте свою відповідь у поле в нижній частині Платформи та натисніть синю позначку праворуч (або натисніть `Enter`), щоб побачити відповідь чат-бота.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -31,17 +31,17 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 ## title: What you will need
 
-### Обладнання
+### Hardware
 
-- Комп'ютер, що підтримує Scratch 3
+- Computer capable of running Scratch 3
 
-### Програмне забезпечення
+### Software
 
-- Scratch 3 ([онлайн](https://rpf.io/scratchon) або[офлайн](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### Завантаження
+### Downloads
 
-- [Знайдіть файли для завантаження тут](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
