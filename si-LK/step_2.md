@@ -1,13 +1,13 @@
-## ඔබේ චැට්බෝට්(chatbot)
+## Your chatbot
 
 \--- task \---
 
-ඔබ ඔබේ චැට්බෝට්(chatbot එක) නිර්මාණය කිරීමට පෙර, එහි පෞරුෂය(personality එක) කුමක්දැයි තීරණය කළ යුතුය. ** පහත සඳහන් ප්‍රශ්න ගැන සිතා බලන්න ** :
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ චැට්බෝට්ගේ(chatbot ගේ) නම කුමක්ද?
-+ එය ජීවත් වන්නේ කොහේද?
-+ එය සතුටින්ද? බැරෑරුම්ද? විනෝදජනකද? ලැජ්ජයිද? මිත්රශීලීද?
-+ එය කැමති හා අකමැති මොනවාටද?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
