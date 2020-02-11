@@ -1,8 +1,8 @@
-## Зміна розташування
+## Changing location
 
 You can also program your chatbot to change its location!
 
-![Тестування зміни фону](images/chatbot-backdrop-moon.png)
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
