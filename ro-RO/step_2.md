@@ -2,12 +2,12 @@
 
 \--- task \---
 
-Înainte să-ți construiești chatbot-ul, va trebui să te decizi asupra personalității sale. **Gândește-te la următoarele aspecte**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Care este numele robotului vorbitor?
-+ Unde trăiește?
-+ E fericit? Serios? Amuzant? Timid? Prietenos?
-+ Ce (nu) îi place?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
