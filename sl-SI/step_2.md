@@ -1,13 +1,13 @@
-## Tvoj čvekobot
+## Your chatbot
 
 \--- task \---
 
-Preden začneš ustvarjati svoj klepetalni robot, se moraš odločiti, kakšna je njegova osebnost. **Razmisli o naslednjih vprašanjih**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Kako mu je ime?
-+ Kje živi?
-+ Je srečen? Resen? Smešen? Sramežljiv? Prijazen?
-+ Kaj mu je všeč in kaj ne?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
