@@ -1,13 +1,13 @@
-## הצ'אטבוט שלכם
+## Your chatbot
 
 \--- task \---
 
-לפני שתתחיל ליצור את chatbot שלך, אתה צריך להחליט מה האישיות שלו. **חשבו על השאלות הבאות**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ מהו שמו של הצ'אט?
-+ איפה זה גר?
-+ האם זה מאושר? ברצינות? מצחיק? ביישן? ידידותי?
-+ מה זה אוהב ולא אוהב?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
