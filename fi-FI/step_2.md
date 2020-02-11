@@ -1,15 +1,15 @@
-## Sinun chatbot
+## Your chatbot
 
-\--- tehtävä \---
+\--- task \---
 
-Ennen kuin aloitat chatbotin luomisen, sinun täytyy päättää, mitä sen persoonallisuus on. **Ajattele seuraavia kysymyksiä**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Mikä on chatbotin nimi?
-+ Missä se asuu?
-+ Onko se onnellinen? Vakava? Hauska? Ujo? Ystävällinen?
-+ Mitä se pitää ja ei pidä?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
-\--- / tehtävä \---
+\--- /task \---
 
 \--- task \---
 
