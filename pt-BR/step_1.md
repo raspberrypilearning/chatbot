@@ -6,13 +6,13 @@ Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 d
 
 ## Introdução
 
-Você vai aprender a programar um personagem que pode falar com você! Um personagem como esse é chamado de robô de bate-papo, ou chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### O que você vai fazer
 
 \--- no-print \---
 
-Clique na bandeira verde e depois clique no personagem do chatbot para iniciar uma conversa. Quando o robô fizer uma pergunta, digite a sua resposta na caixa na parte inferior do Palco e clique na marca azul à direita (ou pressione ` Enter `), para ver a resposta do robô falante.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ Clique na bandeira verde e depois clique no personagem do chatbot para iniciar u
 
 \--- print-only \---
 
-![projeto concluído](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -41,7 +41,7 @@ Clique na bandeira verde e depois clique no personagem do chatbot para iniciar u
 
 ### Downloads
 
-- [Encontre os arquivos para baixar aqui](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -49,8 +49,8 @@ Clique na bandeira verde e depois clique no personagem do chatbot para iniciar u
 
 ## title: What you will learn
 
-- Usar o código para concatenar strings no Scratch
-- Saiba que variáveis podem ser usadas para armazenar a entrada do usuário
+- Use code to concatenate strings in Scratch
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
