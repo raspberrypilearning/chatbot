@@ -1,6 +1,6 @@
-## Hvad er næste skridt?
+## What next?
 
-Prøv [ Tegnakasse ](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) projekt, hvor du opretter dit eget maleriprogram!
+Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
 
 --- no-print ---
 
