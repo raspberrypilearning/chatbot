@@ -1,26 +1,26 @@
-## ස්ථානය(location) වෙනස් කිරීම
+## Changing location
 
-ඔබේ චැට්බෝට්හි(chatbot එකේ) පිහිටීම(location එක) වෙනස් කිරීම සඳහා ඔබට එය වැඩසටහන්ගත(program) කළ හැකිය!
+You can also program your chatbot to change its location!
 
-![වෙනස්වන පසුබිම(backdrop) පරීක්ෂා(test) කිරීම](images/chatbot-backdrop-moon.png)
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-"ඔබට සඳට යාමට අවශ්‍යද"("Do you want to go to the moon") යනුවෙන් විමසීමට ඔබේ චැට්බෝට්(chatbot එක) ක්‍රමලේඛනය(program) කළ හැකිද, ඉන්පසු පිළිතුර "ඔව්(yes)" වන විට පසුබිම(backdrop එක) වෙනස් කළ හැකිද?
+Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
 \--- hints \---
 
-\--- hints \---
+\--- hint \---
 
-ඔබේ චැට්බෝට්(chatbot එක) `"ඔබට සඳට යාමට අවශ්‍යද?"("Do you want to go to moon?")`{:class="block3sensing"}, සහ `පිළිතුර(answer)`{:class="block3sensing"} "ඔව්(yes)"`නම්(if)`{:class="block3control"}, එහි `පසුබිම සඳට මාරු කළ යුතුය(switch the backdrop to moon)`{:class="block3looks"}.
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
 \--- /hint \---
 
-\--- hints \---
+\--- hint \---
 
-ඔබේ චැට්බෝට්(chatbot ගේ) කේතයට(code එකට) එකතු කිරීමට අවශ්‍ය කේත(code) කට්ටිය(block එක) මෙහි දැක්වේ.
+Here are the code blocks you need to add to your chatbot code.
 
-![නැනෝ sprite](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 switch backdrop to (moon v)
@@ -34,28 +34,28 @@ end
 
 \--- /hint \---
 
-\--- hints \---
+\--- hint \---
 
-ඔබගේ කේතය(code එක) මෙබඳු එකක් විය යුතුයි:
+This is what your code should look like:
 
 ```blocks3
 ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then
-  switch backdrop to (moon v) 
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 end
 ```
 
 \--- /hint \---
 
-\--- /hint \---
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-දැන් ඔබ කතාබස් කිරීමට එය මත ක්ලික් කළ විට ඔබේ චැට්බෝට් නිවැරදි ස්ථානයෙන් ආරම්භ වන බවට වග බලා ගත යුතුය. ඔබගේ චැට්බෝට්(chatbot ගේ) කේතයේ(code එකේ) ඉහළට මෙම කට්ටිය(block එක) එක් කරන්න:
+Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
-![නැනෝ sprite](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -67,26 +67,26 @@ when this sprite clicked
 
 \--- task \---
 
-ඔබේ වැඩසටහන(program එක) පරීක්ෂා(test) කර, ඔබට සඳට යාමට අවශ්‍ය දැයි චැට්බෝට්(chatbot එක) ඇසූ විට "ඔව්(yes)" යනුවෙන් පිළිතුරු දෙන්න. චැට්බෝට්හි පිහිටීම වෙනස් වන බව ඔබට දැකගත හැකිය.
+Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
 \--- /task \---
 
 \--- task \---
 
-ඔබට නව `නම්(if)`{class="block3control"} කට්ටිය(block එක) ඇතුළත පහත කේතය(code එක) එකතු කළ හැකිය. එමගින් ඔබ "ඔව්(yes)" යනුවෙන් පිළිතුරු දෙන්නේ නම් චැට්බෝට්(chatbot එක) හතර වතාවක් ඉහළට හා පහළට පනීවි.
+You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
-![නැනෝ sprite](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then
+if <(answer) = [yes]> then 
   switch backdrop to (moon v)
 
-+ repeat (4) 
-   change y by (10)
-   wait (0.1) secs
-   change y by (-10)
-   wait (0.1) secs
-  end 
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
 end
 ```
 
