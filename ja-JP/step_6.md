@@ -1,5 +1,5 @@
 ## チャレンジ：もっといろいろな答え
 
-チャットボットをプログラムして、「はい」または「いいえ」で答えられる別の質問をします。どの回答を受け取るかによって、チャットボットの返答を変えることはできますか？
+Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
 
 ![スクリーンショット](images/chatbot-joke.png)
