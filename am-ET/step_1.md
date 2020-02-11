@@ -1,47 +1,47 @@
 \--- no-print \---
 
-ይህ የፕሮጀክቱ **ስክራች 3 ** ስሪት ነው። በተጨማሪም [ የፕሮጀክቱ ስክራች 2 ስሪት](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) ይገኛል።
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
-## መግቢያ
+## Introduction
 
-ከእናንተ ጋር ሊነጋገር የሚችል ገጸ-ባህሪ እንዴት ፕሮግራም እንደሚደረግ ይማራሉ! እንደዚህ አይነት ገጸ-ባህሪ የንግግር ሮቦት ወይም ቻትቦት ይባላል።
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### የሚሰራው ነገር
+### What you will make
 
 \--- no-print \---
 
-አረንጓዴው ባንዲራ ላይ ጠቅ አድርጉና ከዚያ ንግግር ለመጀመር የንግግር ሮቦት ምስሉን ጠቅ አድርጉ። የንግግር ሮቦቱ ጥያቄ በሚጠይቅበት ጊዜ, መልሱን ከመድረኩ በታች ባለው ሳጥን ውስጥ ተይቡ፣ ከዚያ የንግግር ሮቦቱን መልስ ለማየት በቀኝ በኩል ባለው ሰማያዊ ምልክት ላይ ጠቅ አድርጉ (ወይንም `Enter` ን ተጫኑ)።
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- / no-print \---
+\--- /no-print \---
 
-\--- / print-only \---
+\--- print-only \---
 
-![ሙሉ ፕሮጀክት](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
-\--- / print-only \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
 ## title: What you will need
 
-### ሃርድ ዌር
+### Hardware
 
-- ስክራች 3 መጫን የሚችል ኮምፒውተር
+- Computer capable of running Scratch 3
 
-### ሶፍትዌር
+### Software
 
-- ስክራች 3 (ወይ [ኦንላይን](https://rpf.io/scratchon) ወይም [ኦፍላይን](https://rpf.io/scratchoff))
+- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### የሚወርዱ ፋይሎች
+### Downloads
 
-- [የሚወርዱት ፋይሎች እዚህ ይገኛሉ](http://rpf.io/p/en/chatbot-go)።
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -49,8 +49,8 @@
 
 ## title: What you will learn
 
-- በስክራች ኮድን በመጠቀም ቃላትን መቀጣጠል
-- ተለዋዋጮች የተጠቃሚውን መልስ ለማስቀመጫ እንደሚያገለግሉ ማወቅ
+- Use code to concatenate strings in Scratch
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
