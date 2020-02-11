@@ -6,26 +6,26 @@ theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
-last_tested: 2017-01-01
+last_tested: 2018-09-20
 steps:
   - 
     title: Introdução
   - 
-    title: Seu chatbot
+    title: Your chatbot
   - 
-    title: Um chatbot falante
+    title: A talking chatbot
   - 
-    title: "Desafio: mais perguntas"
+    title: "Challenge: more questions"
     challenge: true
   - 
     title: Tomando decisões
   - 
-    title: "Desafio: mais decisões"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Mudando de lugar
+    title: Changing location
   - 
     title: "Desafio: Termine o seu ChatBot"
     challenge: true
   - 
-    title: E agora?
+    title: What next?
