@@ -1,15 +1,15 @@
 ---
 title: Chatbot
-hero_image: images / chatbot.png
-description: Öz söhbət edən robotunuzu necə proqramlaşdırmağı öyrənin!
-theme: bənövşəyi
+hero_image: images/chatbot.png
+description: Learn how to program your own talking robot!
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Giriş
+    title: Introduction
   - 
     title: Your chatbot
   - 
@@ -18,7 +18,7 @@ steps:
     title: "Challenge: more questions"
     challenge: true
   - 
-    title: Qərar qəbul etmə
+    title: Making decisions
   - 
     title: "Challenge: more decisions"
     challenge: true
