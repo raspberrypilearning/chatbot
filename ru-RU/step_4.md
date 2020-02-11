@@ -2,6 +2,6 @@
 
 Запрограммируй своего чат-бота, чтобы он задавал другой вопрос. Можешь ли ты сохранить ответ на этот новый вопрос в новой переменной?
 
-![Больше вопросов](images/chatbot-question1.png)
+![Больше вопросов](images/chatbot-characters.png)
 
-![Больше вопросов](images/chatbot-question2.png)
+![Больше вопросов](images/chatbot-characters.png)
