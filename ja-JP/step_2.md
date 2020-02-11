@@ -2,12 +2,12 @@
 
 \--- task \---
 
-チャットボットを作り始める前に性格を決めましょう。**以下の質問について考えてみてください**。
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ チャットボットの名前は何ですか？
-+ どこに住んでいますか？
-+ 明るい？まじめ？面白い？おとなしい？優しい？
-+ 好きなもの嫌いなものは何ですか？
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
