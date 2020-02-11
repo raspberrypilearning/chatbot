@@ -1,31 +1,31 @@
 ---
 title: Chatbot
-hero_image: beelde / chatbot.png
-description: Leer hoe om jou eie praatrobot te programmeer!
+hero_image: images/chatbot.png
+description: Learn how to program your own talking robot!
 theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
-last_tested: 2018/09/20
+last_tested: 2018-09-20
 steps:
   - 
-    title: inleiding
+    title: Introduction
   - 
-    title: Jou chatbot
+    title: Your chatbot
   - 
-    title: '''N Praatjie chatbot'
+    title: A talking chatbot
   - 
-    title: "Uitdaging: meer vrae"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: Besluite neem
+    title: Making decisions
   - 
-    title: "Uitdaging: meer besluite"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Ligging verander
+    title: Changing location
   - 
-    title: "Uitdaging: voltooi jou chatbot"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
     title: What next?
