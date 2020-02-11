@@ -1,24 +1,24 @@
 ## おしゃべりチャットボット
 
-チャットボットの性格が決まったので、おしゃべりできるようにプログラムしましょう。
+Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
 \--- task \---
 
-チャットボットのスプライトをクリックしてこのコードを追加し、`クリックされたときに`{:class="block3events"}`あなたの名前を尋ねて`{:class="block3sensing"}、`「素敵な名前ですね！」` {:class="block3looks"}と言うようにします。
+Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
 
-![ナノ スプライト](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-このスプライトが押されたとき
-[あなたの名前は何ですか？] と聞いて待つ
-[素敵な名前ですね！] と (2) 秒言う
+when this sprite clicked
+ask [What's your name?] and wait
+say [What a lovely name!] for (2) seconds
 ```
 
 \--- /task \---
 
 \--- task \---
 
-チャットボットをクリックしてコードをテストします。チャットボットが名前を尋ねたら、ステージの下部に表示されるボックスに名前を入力し、青いマークをクリックするか<kbd>Enter</kbd>を押します。
+Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
 
 ![チャットボットの答え](images/chatbot-ask-test1.png)
 
@@ -28,16 +28,16 @@
 
 \--- task \---
 
-すると、質問に答えるたびにチャットボットが「素敵な名前ですね！」と返答します。チャットボットの返答がより個人的なものになるように、異なる名前が入力されたら返答を変えるようにできます。
+Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
 
-チャットボットのスプライトのコードを`～と～`{:class="block3operators"}に書き換えて、「こんにちは」と「あなたの名前は何ですか？」という質問への`答え`{:class="block3sensing"}をつなげます。コードは次のようになります。
+Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
 
-![ナノ スプライト](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-このスプライトが押されたとき
-[あなたの名前は何ですか？] と聞いて待つ
-([こんにちは ] と (答え) :: +) と (2) 秒言う
+when this sprite clicked
+ask [What's your name?] and wait
+say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
 ![答えをかえてみる](images/chatbot-answer-test.png)
@@ -46,9 +46,9 @@
 
 \--- task \---
 
-**変数**に答えを保存することにより、プロジェクトのどこでも使うことができます。
+By storing the answer in a **variable**, you can use it anywhere your project.
 
-`名前`{:class="block3variables"}という新しい変数を作成します。
+Create a new variable called `name`{:class="block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,22 +56,22 @@
 
 \--- task \---
 
-次に、チャットボットスプライトのコードを変更して`名前`{:class="block3variables"}変数を`答え`{:class="block3sensing"}に設定します。
+Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
 
-![ナノ スプライト](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-このスプライトが押されたとき
-[あなたの名前は何ですか？] と聞いて待つ
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ [名前 v] を (答え) にする
-([こんにちは ] と (名前 :: + variables)) と (2) 秒言う
++ set [name v] to (answer)
+say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-前と同じようにコードは動きますが、チャットボットは入力された名前を使ってあいさつするはずです。
+Your code should work as before: your chatbot should say hi using the name you type in.
 
 ![答えをかえてみる](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-もう一度テストしてみましょう。 入力した答えは`名前`{:class="block3variables"}変数に保存されていて、ステージの左上隅にも表示されていることに注意してください。 ステージに表示されないようにするには、`変数`{:class="block3variables"}ブロックセクションに移動して、`名前`{:class="block3variables"}の隣にあるボックスをクリックしてマークを外します。
+Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
