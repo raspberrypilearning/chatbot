@@ -1,15 +1,15 @@
-## Chatbot của bạn
+## Your chatbot
 
 \--- task \---
 
-Trước khi bạn bắt đầu tạo chatbot, bạn cần quyết định tính cách của nó là gì. **Hãy nghĩ về những câu hỏi sau**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Tên của chatbot là gì?
-+ Nó sống ở đâu?
-+ Có vui không Nghiêm trọng? Buồn cười? Nhát? Thân thiện?
-+ Nó thích và không thích gì?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
-\--- /bài tập \---
+\--- /task \---
 
 \--- task \---
 
