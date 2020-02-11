@@ -29,7 +29,7 @@
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 你需要准备什么
 
 ### 硬件
 
@@ -47,24 +47,24 @@
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 你将学到什么
 
 - 使用代码在Scratch中连接字符串
 - 知道变量可用于存储用户输入
-- Use conditional selection to respond to user input in Scratch
+- 使用条件选择响应用户在 Scratch 中的输入
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 教师附加说明
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+你可以在这里找到 [完成的项目](http://rpf.io/p/en/chatbot-get)。
 
 \--- /collapse \---
