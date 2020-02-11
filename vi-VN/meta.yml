@@ -1,31 +1,31 @@
 ---
 title: Chatbot
 hero_image: images/chatbot.png
-description: Tìm hiểu cách lập trình robot biết trò chuyện của riêng bạn!
-theme: màu tím
+description: Learn how to program your own talking robot!
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Giới thiệu
+    title: Introduction
   - 
-    title: Chatbot của bạn
+    title: Your chatbot
   - 
-    title: Robot biết trò chuyện
+    title: A talking chatbot
   - 
-    title: "Thử thách: nhiều câu hỏi hơn"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: Đưa ra quyết định
+    title: Making decisions
   - 
-    title: "Thử thách: nhiều quyết định hơn"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Thay đổi vị trí
+    title: Changing location
   - 
-    title: "Thử thách: hoàn thành chatbot của bạn"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
     title: What next?
