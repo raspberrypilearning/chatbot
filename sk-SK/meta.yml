@@ -1,31 +1,31 @@
 ---
-title: Hovoriaci robot
+title: Chatbot
 hero_image: images/chatbot.png
-description: V tomto projekte sa naučíš ako naprogramovať svojho vlastného hovoriaceho robota!
+description: Learn how to program your own talking robot!
 theme: violet
 listed: true
 copyedit: false
-version: 4.1.0
-last_tested: 2017-01-01
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
   - 
-    title: Úvod
+    title: Introduction
   - 
-    title: Tvoj hovoriaci robot
+    title: Your chatbot
   - 
-    title: Hovoriaci robot
+    title: A talking chatbot
   - 
-    title: "Výzva: viac otázok"
+    title: "Challenge: more questions"
     challenge: true
   - 
-    title: Rozhodovanie
+    title: Making decisions
   - 
-    title: "Výzva: viac rozhodnutí"
+    title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Zmena miesta
+    title: Changing location
   - 
-    title: "Výzva: dokonči svojho hovoriaceho robota"
+    title: "Challenge: finish your chatbot"
     challenge: true
   - 
-    title: Čo ďalej?
+    title: What next?
