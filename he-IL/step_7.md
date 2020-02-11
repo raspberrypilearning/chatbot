@@ -1,93 +1,93 @@
-## שינוי מיקום
+## Changing location
 
-ניתן גם לתכנת את הצ'אט שלך כדי לשנות את מיקומו!
+You can also program your chatbot to change its location!
 
-![בדיקת רקע משתנה](images/chatbot-backdrop-moon.png)
+![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-אתה יכול לתכנת את chatbot שלך לשאול "האם אתה רוצה ללכת לירח", ולאחר מכן לשנות את הרקע כאשר התשובה היא "כן"?
+Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
 
-\--- רמזים \---
+\--- hints \---
 
-\--- רמז \---
+\--- hint \---
 
-Chatbot שלך צריך `לשאול "האם אתה רוצה ללכת לירח?"`: class = "block3sensing"}, ו `אם`{: class = "block3control"} אתה עונה ``: class = "block3sensing"} "כן", זה צריך `לעבור את הרקע לירח`{: class = "block3looks"}.
+Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
 
-\--- / רמז \---
+\--- /hint \---
 
-\--- רמז \---
+\--- hint \---
 
-הנה בלוקים קוד אתה צריך להוסיף את הקוד chatbot שלך.
+Here are the code blocks you need to add to your chatbot code.
 
-![ננו ספרייט](images/nano-sprite.png)
-
-```blocks3
-עבור ל [ירח v]
-
-לשאול [האם אתה רוצה ללכת לירח?] ולחכות
-
-אם <(תשובה) = [yes]> ואז 
-
-סוף
-```
-
-\--- / רמז \---
-
-\--- רמז \---
-
-כך ייראה הקוד שלך:
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-לשאול [האם אתה רוצה ללכת לירח?] ולהמתין
-אם <(תשובה) = [yes]> ואז 
-  רקע (ירח v)
-סוף
+switch backdrop to (moon v)
+
+ask [Do you want to go to the moon?] and wait
+
+if <(answer) = [yes]> then 
+
+end
 ```
 
-\--- / רמז \---
+\--- /hint \---
 
-\--- / hints \---
+\--- hint \---
+
+This is what your code should look like:
+
+```blocks3
+ask [Do you want to go to the moon?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+end
+```
+
+\--- /hint \---
+
+\--- /hints \---
 
 \--- /task \---
 
 \--- task \---
 
-עכשיו אתה צריך לוודא כי chatbot שלך מתחיל במיקום הנכון כאשר אתה לוחץ על זה כדי לדבר את זה. הוסף גוש זה לראש קוד הצ'אט שלך:
+Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
-![ננו ספרייט](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-כאשר זה ספרייט לחץ על
+when this sprite clicked
 
-+ מתג רקע (שטח v)
++ switch backdrop to (space v)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-בדוק את התוכנית שלך, וענה "כן" כאשר chatbot שואל אם אתה רוצה ללכת לירח. אתה אמור לראות את המיקום של chatbot משתנה.
+Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
 \--- /task \---
 
 \--- task \---
 
-אתה יכול גם להוסיף את הקוד הבא בתוך `חדש אם`{: class = "block3control"} לחסום כדי להפוך את chatbot לקפוץ למעלה ולמטה ארבע פעמים אם אתה עונה "כן":
+You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
 
-![ננו ספרייט](images/nano-sprite.png)
+![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-אם <(תשובה) = [yes]> ואז 
-  מתג רקע (נ ירח)
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 
-+ חוזר (4) 
-    השינוי y ידי (10)
-    המתנה (0.1) שניות
-    השינוי y ידי (-10)
-    המתנה (0.1) שניות
-  בסוף
-בסוף
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
+end
 ```
 
 \--- /task \---
