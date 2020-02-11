@@ -1,13 +1,13 @@
-## A chatbotod
+## Your chatbot
 
 \--- task \---
 
-Mielőtt elkezdenéd létrehozni a chatbotod, el kell döntened, hogy milyen lesz a személyisége. **Gondold végig az alábbi kérdéseket**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Mi a chatbot neve?
-+ Hol él?
-+ Boldog? Komoly? Vicces? Félénk? Barátságos?
-+ Mit és mit nem szeret?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
 \--- /task \---
 
