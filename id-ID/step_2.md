@@ -1,15 +1,15 @@
-## Chatbot Anda
+## Your chatbot
 
-\--- tugas \---
+\--- task \---
 
-Sebelum Anda mulai membuat chatbot, Anda perlu memutuskan kepribadiannya. **Pikirkan pertanyaan-pertanyaan berikut**:
+Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ Apa nama chatbot?
-+ Di mana dia tinggal?
-+ Apakah itu bahagia Serius? Lucu? Pemalu? Ramah?
-+ Apa yang disukai dan tidak disukai?
++ What is the chatbot's name?
++ Where does it live?
++ Is it happy? Serious? Funny? Shy? Friendly?
++ What does it like and dislike?
 
-\--- /tugas \---
+\--- /task \---
 
 \--- task \---
 
