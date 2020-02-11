@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Aceasta este versiunea **Scratch 3** a proiectului. Există, de asemenea, o [versiune Scratch 2 a proiectului](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
 ## Introducere
 
-Vei învăța cum să programezi un personaj care poate vorbi cu tine! Un personaj de genul acesta se numește robot vorbitor, sau chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Ce vei face
 
 \--- no-print \---
 
-Dă click pe stegulețul verde, iar apoi dă click pe robotul vorbitor pentru a începe o conversație. Atunci când chatbot-ul pune o întrebare, scrie răspunsul în caseta din partea de jos a Scenei, iar apoi dă click pe bifa albastră din dreapta (sau apasă `Enter`) pentru a vedea răspunsul robotului vorbitor.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -39,9 +39,9 @@ Dă click pe stegulețul verde, iar apoi dă click pe robotul vorbitor pentru a 
 
 - Scratch 3 (fie [online](https://rpf.io/scratchon) sau [offline](https://rpf.io/scratchoff))
 
-### Fișiere descărcabile
+### Downloads
 
-- [Găsești fișierele descărcabile aici](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -50,7 +50,7 @@ Dă click pe stegulețul verde, iar apoi dă click pe robotul vorbitor pentru a 
 ## title: What you will learn
 
 - Use code to concatenate strings in Scratch
-- Să afli ce fel de variabile pot fi folosite pentru a stoca răspunsul utilizatorului
+- Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
