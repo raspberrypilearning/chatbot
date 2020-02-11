@@ -29,7 +29,7 @@ Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma c
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Do que vais precisar
 
 ### Hardware
 
@@ -47,7 +47,7 @@ Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma c
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: O que vais aprender
 
 - Usar o código para concatenar strings no Scratch
 - Saber que variáveis podem ser usadas para armazenar as entradas do utilizador
@@ -57,14 +57,14 @@ Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma c
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Notas adicionais para educadores
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Se for necessário imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/chatbot-get){: target="_ blank.
 
 \--- /collapse \---
