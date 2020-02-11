@@ -1,7 +1,7 @@
-## Väljakutse: rohkem küsimusi
+## Challenge: more questions
 
-Programmeerige oma vestlusbot teise küsimuse esitamiseks. Kas saate sellele uuele küsimusele vastuse salvestada uues muutuja?
+Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
-![Veel küsimusi](images/chatbot-question1.png)
+![More questions](images/chatbot-question1.png)
 
-![Veel küsimusi](images/chatbot-question2.png)
+![More questions](images/chatbot-question2.png)
