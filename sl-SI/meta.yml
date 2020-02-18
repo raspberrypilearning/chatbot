@@ -1,0 +1,22 @@
+---
+title: Čvekobot
+hero_image: images/chatbot.png
+description: Nauči se programirati svoj lastni govoreči robot!
+theme: violet
+listed: true
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
+steps:
+  - title: Uvod
+  - title: Tvoj čvekobot
+  - title: Govoreči klepetalni robot
+  - title: "Izziv: več vprašanj"
+    challenge: true
+  - title: Sprejemanje odločitev
+  - title: "Izziv: več odločitev"
+    challenge: true
+  - title: Spreminjanje lokacije
+  - title: "Izziv: dokončaj svojega čvekobota"
+    challenge: true
+  - title: Kaj sledi?
