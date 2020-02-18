@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Dies ist die ** Scratch 3 ** Version des Projekts. Es gibt auch eine [ Scratch-2-Version des Projekts ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
 ## Einleitung
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Du wirst lernen, einen Charakter zu programmieren, der mit dir sprechen kann! So ein Charakter wird chat robot, oder chatbot genannt.
 
 ### Was du machen wirst
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Klicke auf die Grüne Flagge und danach auf das Chatbot-Männchen, um eine Unterhaltung zu beginnen. Wenn der Chatbot eine Frage stellt, tippe deine Antwort in die Box am unteren Ende der Bühne ein und klicke auf den blauen Haken (oder drücke die `Enter` -Taste), um die Antwort des Chatbots zu sehen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -29,7 +29,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Was du brauchen wirst
 
 ### Hardware
 
@@ -41,30 +41,30 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Downloads
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Hier findest du die Dateien zum herunterladen](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Was du lernen wirst
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch
+- Nutze Code-Blöcke, um Zeichenketten in Scratch zu verketten
+- Lerne, dass Variablen zum Speichern von Benutzereingaben verwendet werden können
+- Verwende bedingte Auswahl, um auf Benutzereingaben in Scratch zu reagieren
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Zusätzliche Hinweise für Pädagogen
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Du findest das [abgeschlossene Projekt hier](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
