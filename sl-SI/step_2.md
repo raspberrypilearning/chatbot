@@ -1,36 +1,36 @@
-## Your chatbot
+## Tvoj čvekobot
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Preden začneš ustvarjati svoj klepetalni robot, se moraš odločiti, kakšna je njegova osebnost. **Razmisli o naslednjih vprašanjih**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Kako mu je ime?
++ Kje živi?
++ Je srečen? Resen? Smešen? Sramežljiv? Prijazen?
++ Kaj mu je všeč in kaj ne?
 
 \--- /task \---
 
 \--- task \---
 
-Open the Chatbot Scratch starter project.
+Odpri začetni projekt za Chatbot/ Čvekbot.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Spletno:** Odpri začetni projekt na [rpf.io/chatbot-on](http://rpf.io/chatbot-on){: target = "_ blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+** Brez povezave: ** prenesi začetni projekt iz [ rpf.io/p/sl/chatbot-go ](http://rpf.io/p/en/chatbot-go) {: target = "_ blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Začetni projekt vsebuje štiri figure. Ena od teh bo tvoj čvekobot.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Lahko uporabiš že izbrano figuro ali izbereš drugo s klikom na tisto, ki jo želiš uporabiti, in izbiro ikone očesa **prikaz** ali **skrij**, ki se nahaja v meniju figure pod odrom.
 
-![Choose a character](images/chatbot-characters.png)
+![Izberi lik](images/chatbot-characters.png)
 
 \--- /task \---
