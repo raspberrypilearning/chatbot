@@ -50,8 +50,8 @@ vprašaj (združi [Ali si v redu, ] (ime)) in počakaj
 + če <(odgovor) = [da]> potem 
   reci [To je lepo slišati!] za (2) sekund
 sicer
-+ reci [Oh, ne!] za (2) sekunde
-konec
++ reci [Oh, ne!] za (2) sekund
+end
 ```
 
 --- /task ---

@@ -31,11 +31,11 @@ title: Kaj potrebuješ?
 
 ### Programska oprema
 
-- Scratch 3 (bodisi [na spletu](https://rpf.io/scratchon){:target="_blank"} ali [brez povezave](https://rpf.io/scratchoff){:target="_blank)
+- Scratch 3 (bodisi [na spletu](https://rpf.io/scratchon){:target="_blank"} ali [brez povezave](https://rpf.io/scratchoff){:target="_blank})
 
 ### Prenosi
 
-- [Tu se nahajajo datoteke za prenos](http://rpf.io/p/en/chatbot-go).
+- [Tu se nahajajo datoteke za prenos](http://rpf.io/p/sl-SI/chatbot-go).
 
 --- /collapse ---
 

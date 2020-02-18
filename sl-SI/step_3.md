@@ -65,7 +65,7 @@ ko kliknemo to figuro
 vprašaj [Kako ti je ime?] in počakaj
 
 + nastavi [ime v] na (odgovor)
-reci (združi [Živijo, ] (ime :: spremenljivke +)) za (2) sekund
+reci (združi [Živijo, ] (ime :: variables +)) za (2) sekund
 ```
 
 Tvoja koda bi morala delovati tako kot prej: tvoj klepetalni robot bi moral reči "Živijo, " in ime, ki je bilo vnešeno.

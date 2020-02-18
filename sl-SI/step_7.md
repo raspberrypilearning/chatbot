@@ -78,16 +78,15 @@ Naslednjo kodo lahko dodaš tudi v novi blok `če`:
 ![nano figura](images/nano-sprite.png)
 
 ```blocks3
-če <(odgovor) = [da]> then 
+če <(odgovor) = [da]> potem 
   zamenjaj ozadje na (moon v)
-
-+ ponovi (4) krat 
-    spremeni y za (10)
-    počakaj (0.1) sekund
-    spremeni y za (-10)
-    počakaj (0.1) sekund
-  konec
-konec
+  + ponovi (4) krat 
+  +   spremeni y za (10)
+  +   počakaj (0.1) sekund
+  +   spremeni y za (-10)
+  +   počakaj (0.1) sekund
+  + end
+end
 ```
 
 --- /task ---

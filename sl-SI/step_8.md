@@ -1,4 +1,4 @@
-## Izziv: dokončaj svojega klepetalnega robota
+## Izziv: dokončaj svojega čvekobota
 
 Uporabi to, kar si se naučil, da dokončaš svojega klepetalnega robota. Nekaj predlogov:
 
