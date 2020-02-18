@@ -1,10 +1,10 @@
-## What next?
+## Kaj sledi?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+Preizkusi projekt [Barvice](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects), v katerem boš ustvaril svoj lastni risarski program!
 
 --- no-print ---
 
-Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+Za začetek klikni na zeleno zastavico. Uporabi miško za premikanje svinčnika in drži levo tipko miške za risanje. Klikni na barvo, da zamenjaš barvo. Klikni na radirko, da jo izbereš in jo uporabiš za brisanje. Če želiš pobrisati cel list, klikni na križec.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,8 +15,8 @@ Click on the green flag to start. Use the mouse to move the pencil, and hold dow
 
 --- print-only ---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+Zaženi program s klikom na zeleno zastavico in uporabi miško za premikanje svinčnika. Drži levo tipko miške za risanje. Če klikneš na barvo, se bo spremenila barva svinčnika, klik na radirko pa bo izbral radirko!
 
-![showcase](images/paint-box-showcase.png)
+![vitrina](images/paint-box-showcase.png)
 
 --- /print-only ---
