@@ -1,12 +1,12 @@
 ## Entscheidungen treffen
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Du kannst deinen Chatbot so programmieren, dass er basierend auf den erhaltenen Antworten entscheidet, was zu tun ist.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Zuerst lässt du deinen Chatbot eine Frage stellen, die mit "Ja" oder "Nein" beantwortet werden kann.
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Ändere den Code deines Chatbots. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
 
 ![Eine ChatBot-Antwort ausprobieren](images/chatbot-if-test1-annotated.png)
 
