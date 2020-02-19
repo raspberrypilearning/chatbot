@@ -21,15 +21,15 @@ Wenn du bereits einen Scratch-Account besitzt, kannst du dir durch Klick auf **R
 
 **Offline:** Wenn du offline arbeiten möchtest, kannst du dir die benötigte Datei unter [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} herunterladen und diese dann mit dem Offline-Editor bearbeiten.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+Wenn du den Scratch-Offline-Editor herunterladen und installieren möchtest, findest du diesen unter [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Das Startprojekt beinhaltet vier Charakter-Sprites. Einer von ihnen wird dein Chatbot sein.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Du kannst entweder die bereits gewählte Figur verwenden oder wähle eine andere aus, indem du auf die gewünschte Figur klickst und anschließend **zeige dich** oder **verstecke dich** bei den Augensymbolen aus dem Menü unterhalb der Bühne auswählst.
 
 ![Choose a character](images/chatbot-characters.png)
 
