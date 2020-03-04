@@ -74,4 +74,4 @@ Je code zou moeten werken zoals voorheen: je chatbot zou hoi en je naam moeten z
 
 \--- /task \---
 
-Test je project opnieuw. Merk op dat het antwoord dat je invoert, is opgeslagen in de `naam`{:class="block3variables"} variabele, en ook wordt weergegeven in de linkerbovenhoek van het werkgebied. Om het uit het werkgebied wilt laten verdwijnen, gaat je naar de `Variabelen`{:class="block3variables"} blok sectie en klik op het hokje naast `naam`{:class="block3variables"} zodat deze niet meer aangevinkt is.
+Test je project opnieuw. Merk op dat het antwoord dat je invoert, is opgeslagen in de `naam`{:class="block3variables"} variabele, en ook wordt weergegeven in de linkerbovenhoek van het werkgebied. Om het uit het werkgebied wilt laten verdwijnen, ga je naar de `Variabelen`{:class="block3variables"} blok sectie en klik op het hokje naast `naam`{:class="block3variables"} zodat deze niet meer aangevinkt is.
