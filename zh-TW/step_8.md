@@ -1,11 +1,11 @@
-## Challenge: finish your chatbot
+## 挑戰：完成你的聊天機器人
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+用你學到的知識來完成一個互動式聊天機器人吧！ 給你一些靈感：
 
-![ChatBot ideas](images/chatbot-ideas1.png)
+![聊天機器人的創作點子](images/chatbot-ideas1.png)
 
-![ChatBot ideas](images/chatbot-ideas2.png)
+![聊天機器人的創作點子](images/chatbot-ideas2.png)
 
-![ChatBot ideas](images/chatbot-ideas3.png)
+![聊天機器人的創作點子](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+完成以後，分享給你的朋友，讓朋友與聊天機器人對話看看！ 他們喜歡你設計的東西嗎？ 他們發現了什麼問題嗎？
