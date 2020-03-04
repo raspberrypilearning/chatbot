@@ -1,54 +1,54 @@
-## A talking chatbot
+## 會對答的機器人
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+現在，你已經決定了聊天機器人的個性，你要開始為它編程，讓它能夠與使用者對話。
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+選取聊天機器人角色，然後添加程式，讓`角色在被點擊`{:class="block3events"}的時候，`詢問你叫什麼名字`{:class="block3sensing"}，然後`說出「這名字真好聽！」`{:class="block3looks"}。
 
-![nano sprite](images/nano-sprite.png)
+![Nano 角色](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+當角色被點擊
+詢問 (你叫什麼名字？) 並等待
+說出 (這名字真好聽！) 持續 (2) 秒
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+點擊聊天機器人，看看程式是否正確運行。當聊天機器人詢問你的名字時，你要把名字輸入在舞台底部的文字方塊裡，然後點擊藍色勾勾（或按下鍵盤上的 <kbd>Enter</kbd> 鍵）。
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![聊天機器人反應測試](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![聊天機器人反應測試](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+目前不管輸入什麼名字，你的聊天機器人都會回應「這名字真好聽！」。你可以讓它的反應不要這麼制式，我們讓它能針對不同的名字有不同的反應。
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+把回應的程式改成`字串組合`{:class="block3operators"}，把「哈囉！」和`詢問的答案`{:class="block3sensing"}給串在一起，程式看起來會像這樣：
 
-![nano sprite](images/nano-sprite.png)
+![Nano 角色](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+當角色被點擊
+詢問 (你叫什麼名字？) 並等待
+說出 (字串組合 (哈囉！) (詢問的答案) :: +) 持續 (2) 秒
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![個別化回應測試](images/chatbot-answer-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+再來只要把詢問的答案暫時儲存在**變數**裡，你就可以在專案的任何時機使用它。
 
-Create a new variable called `name`{:class="block3variables"}.
+建立一個新的變數，名稱叫`名字`{:class="block3variables"}。
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,22 +56,22 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+現在把聊天機器人的`詢問的答案`{:class="block3sensing"}替換成變數`名字`{:class="block3variables"}：
 
-![nano sprite](images/nano-sprite.png)
+![Nano 角色](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+當角色被點擊
+詢問 (你叫什麼名字？) 並等待
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ 變數 [名字 v] 設為 (詢問的答案)
+說出 (字串組合 (哈囉！) (名字 :: variables +)) 持續 (2) 秒
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+你的程式應該會像先前那樣運作：聊天機器人現在更像是對著你打招呼了。
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![個別化回應測試](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+再試試你的程式。 觀察一下，你輸入的答案會儲存在`名字`{:class="block3variables"}這個變數裡，而且會顯示在舞台的左上角。 要讓它在舞台上消失的話，請切換到`變數`類積木，然後取消勾選`名字`{:class="block3variables"}。
