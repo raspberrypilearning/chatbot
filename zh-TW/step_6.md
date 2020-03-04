@@ -1,5 +1,5 @@
-## Challenge: more decisions
+## 挑戰：更多的判斷
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+為你的聊天機器人編程，讓它能發問更多是非類型的題目，你能夠讓它在接收到不同的答案後做出不同的反應嗎？
 
-![screenshot](images/chatbot-joke.png)
+![截圖](images/chatbot-joke.png)
