@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+這個專案是 **Scratch 3** 版本。另外還有 [Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) 版本。
 
 \--- /no-print \---
 
-## Introduction
+## 介紹
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+你將學習到如果用程式寫出一個會跟你對話的角色！像這樣的玩意兒，我們稱它為 chatbot（聊天機器人）。
 
-### What you will make
+### 你會做出的玩意兒
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+點擊綠旗，然後點擊畫面上的聊天機器人角色，就可以開始與它對話。 當聊天機器人問你問題時，把你的答案輸入在畫面底部的文字方塊，輸入完後點擊右邊的藍色勾勾（或是按下 `Enter` 鍵），就可以看到機器人的回應。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,48 +23,48 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![完成的專案](images/chatbot-preview.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 你會用到
 
-### Hardware
+### 硬體
 
-- Computer capable of running Scratch 3
+- 可運行 Scratch 3 的電腦
 
-### Software
+### 軟體
 
-- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
+- Scratch 3（[線上版](https://rpf.io/scratchon){:target="_blank"} 或 [離線版](https://rpf.io/scratchoff){:target="_blank"}）
 
-### Downloads
+### 下載
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch
+- 材料包可[由此下載](http://rpf.io/p/en/chatbot-go)。
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: 你會學到
+
+- 用 Scratch 程式串接文字
+- 瞭解變數可以用來儲存使用者輸入的內容
+- 用 Scratch 程式的判斷式來回應使用者輸入
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## title: 給教師的其它資訊
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+如果你需要列印這個專案，可以先切換成[列印友好模式](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+你可以在這裡找到[已經完成的專案](http://rpf.io/p/en/chatbot-get)。
 
 \--- /collapse \---
