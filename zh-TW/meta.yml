@@ -1,7 +1,7 @@
 ---
-title: Chatbot
+title: 聊天機器人
 hero_image: images/chatbot.png
-description: Learn how to program your own talking robot!
+description: 學習如何編寫程式，打造一個會和使用者對話的機器人！
 theme: violet
 listed: true
 copyedit: false
@@ -9,23 +9,23 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introduction
+    title: 介紹
   - 
-    title: Your chatbot
+    title: 你的聊天機器人
   - 
-    title: A talking chatbot
+    title: 會對答的機器人
   - 
-    title: "Challenge: more questions"
+    title: "挑戰：更多的對答"
     challenge: true
   - 
-    title: Making decisions
+    title: 會判斷的機器人
   - 
-    title: "Challenge: more decisions"
+    title: "挑戰：更多的判斷"
     challenge: true
   - 
-    title: Changing location
+    title: 改變聊天場景
   - 
-    title: "Challenge: finish your chatbot"
+    title: "挑戰：完成你的聊天機器人"
     challenge: true
   - 
-    title: What next?
+    title: 然後呢？
