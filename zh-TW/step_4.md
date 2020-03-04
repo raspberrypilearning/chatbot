@@ -1,7 +1,7 @@
-## Challenge: more questions
+## 挑戰：更多的對答
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+編寫其它的程式，讓你的機器人提問其它的問題。你能把新問題的答案儲存在一個新的變數裡嗎？
 
-![More questions](images/chatbot-question1.png)
+![更多問題](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![更多問題](images/chatbot-question2.png)
