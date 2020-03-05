@@ -23,12 +23,11 @@ Hier sind die Codeblöcke, die du deinem Chatbot-Code hinzufügst.
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wechsele zu Hintergrund (moon v)
+wechsle zu Bühnenbild (moon v)
 
 frage [Möchtest du zum Mond fliegen?] und warte
 
-falls <(Antwort) = [Ja]>, dann 
-
+falls <(Antwort) = [Ja]> , dann
 end
 ```
 
@@ -40,8 +39,8 @@ So sollte dein Code aussehen:
 
 ```blocks3
 frage [Möchtest du zum Mond fliegen?] und warte
-wenn <(Antwort) = [Ja]> dann 
-  wechsele zu Hintergrund (moon v)
+falls <(Antwort) = [Ja]> , dann 
+  wechsle zu Bühnenbild (moon v)
 end
 ```
 
@@ -58,8 +57,8 @@ Jetzt musst du sicherstellen, dass dein Chatbot am richtigen Ort ist, wenn du da
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wenn diese Figur angeklickt wird
-+ wechsele zu Hintergrund (space v)
+Wenn diese Figur angeklickt wird
++ wechsle zu Bühnenbild (space v)
 ```
 
 --- /task ---
@@ -77,12 +76,12 @@ Du kannst auch den folgenden Code in den neuen `falls`{:class="block3control"} B
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wenn <(Antwort) = [Ja]> dann 
-  wechsele zu Hintergrund (moon v)
-+  wiederhole (4) 
-    verändere y um (10)
+falls <(Antwort) = [Ja]> , dann 
+  wechsle zu Bühnenbild (moon v)
++  wiederhole (4) mal 
+    ändere y um (10)
     warte (0.1) Sekunden
-    verändere y um (-10)
+    ändere y um (-10)
     warte (0.1) Sekunden
   end
 end

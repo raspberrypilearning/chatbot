@@ -1,6 +1,6 @@
 ## Wie geht es weiter?
 
-Schau dir das [Paint box](https://projects.raspberrypi.org/de-DE/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)-Projekt an, wo du dein eigenes Malprogramm erstellen kannst!
+Schau dir das [Malkasten](https://projects.raspberrypi.org/de-DE/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)-Projekt an, wo du dein eigenes Malprogramm erstellen kannst!
 
 --- no-print ---
 

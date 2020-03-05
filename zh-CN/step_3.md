@@ -4,7 +4,7 @@
 
 --- task ---
 
-点击你的聊天机器人精灵，加入以下代码，以便 `它被点击时`{:class="block3events"}，`它问你的姓名`{:class=“block3sensing”}，然后 `说：“你的名字真可爱！“`{:class ="block3looks"}。
+点击你的聊天机器人精灵，加入以下代码，以便 `它被点击时`{:class="block3events"}，`它问你的姓名`{:class="block3sensing"}，然后 `说：“你的名字真可爱！“`{:class="block3looks"}。
 
 ![纳米精灵](images/nano-sprite.png)
 
@@ -56,7 +56,7 @@
 
 --- task ---
 
-现在，改变你的聊天机器人精灵的代码所设置的 `名称`{:class=“block3variables”}变量 `回答`{:class=“block3sensing”}：
+现在，改变你的聊天机器人精灵的代码所设置的 `名称`{:class="block3variables"}变量 `回答`{:class="block3sensing"}：
 
 ![纳米精灵](images/nano-sprite.png)
 

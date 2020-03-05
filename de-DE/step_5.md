@@ -15,12 +15,12 @@ Zuerst lässt du deinen Chatbot eine Frage stellen, die mit "Ja" oder "Nein" bea
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wenn diese Figur angeklickt wird
-frage[Wie heißt du?] und warte
+Wenn diese Figur angeklickt wird
+frage [Wie heißt du?] und warte
 setze [Name v] auf (Antwort)
-sage (teilnehmen [Hallo ] (Name)) für (2) Sekunden
-+ frage (teilnehmen [Geht es Dir gut?] (Name)) und warte
-+ wenn <(Antwort) = [Ja]> dann  
+sage (verbinde [Hallo ] und (Name)) für (2) Sekunden
++ frage (verbinde [Geht es Dir gut ] und (Name)) und warte
++ falls <(Antwort) = [Ja]> , dann 
    sage [Das freut mich zu hören!] für (2) Sekunden
 end
 ```
@@ -40,16 +40,15 @@ Ersetze den `falls, dann`{:class="block3control"} Block mit einem `falls, dann, 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wenn diese Figur angeklickt wird
-frage[Wie heißt du?] und warte
+Wenn diese Figur angeklickt wird
+frage [Wie heißt du?] und warte
 setze [Name v] auf (Antwort)
-sage (teilnehmen [Hallo ] (Name)) für (2) Sekunden
-+ frage (teilnehmen [Geht es Dir gut?] (Name)) und warte
-
-+ wenn <(Antwort) = [Ja]> dann  
+sage (verbinde [Hallo ] und (Name)) für (2) Sekunden
++ frage (verbinde [Geht es Dir gut ] und (Name)) und warte
++ falls <(Antwort) = [Ja]> , dann 
    sage [Das freut mich zu hören!] für (2) Sekunden
 sonst 
-+ sage [Oh nein!] für (2) Sekunden
++  sage [Oh nein!] für (2) Sekunden
 end
 ```
 
@@ -84,17 +83,16 @@ Wenn du deines Chatbot **Kostüme** Reiter klickst, wirst du sehen, dass deine F
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wenn diese Figur angeklickt wird
-frage[Wie heißt du?] und warte
+Wenn diese Figur angeklickt wird
+frage [Wie heißt du?] und warte
 setze [Name v] auf (Antwort)
-sage (teilnehmen [Hallo ] (Name)) für (2) Sekunden
-frage (teilnehmen [Geht es Dir gut?] (Name)) und warte
-wenn <(Antwort) = [Ja]> dann  
-
-+  wechsle zu Kostüm (nano-c v)
-   sage [Das freut mich zu hören!] für (2) Sekunden
+sage (verbinde [Hallo ] und (Name)) für (2) Sekunden
+frage (verbinde [Geht es Dir gut ] und (Name)) und warte
+falls <(Antwort) = [Ja]> , dann 
++ wechsle zu Kostüm (nano-c v)
+  sage [Das freut mich zu hören!] für (2) Sekunden
 sonst 
-+  wechsle zu Kostüm (nano-d v)
++ wechsle zu Kostüm (nano-d v)
   sage [Oh nein!] für (2) Sekunden
 end
 ```
@@ -116,8 +114,8 @@ Um das Problem zu beheben, füge ein `wechsele zu Kostüm`{:class="block3looks"}
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wenn diese Figur angeklickt wird
-+ Wechsele zu Kostüm (nano-a v)
+Wenn diese Figur angeklickt wird
++ wechsle zu Kostüm (nano-a v)
 frage [Wie heißt du?] und warte
 ```
 
