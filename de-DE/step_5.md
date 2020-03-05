@@ -1,71 +1,126 @@
 ## Entscheidungen treffen
 
-Du kannst deinen Chatbot dazu programmieren, aufgrund deiner Antworten auf seine Fragen zu entscheiden, was er sagt oder tut.
+Du kannst deinen Chatbot so programmieren, dass er basierend auf den erhaltenen Antworten entscheidet, was zu tun ist.
+
+Zuerst lässt du deinen Chatbot eine Frage stellen, die mit "Ja" oder "Nein" beantwortet werden kann.
 
 --- task ---
 
-Kannst Du den Chatbot dazu programmieren, die Frage "Geht es dir gut?" zu stellen und dann mit "Das ist schön zu hören!" zurück zu antworten, aber nur **falls** die Antwort des Anwenders "ja" ist?
+Ändere den Code deines Chatbots. Dein Chatbot sollte die Frage "Geht's dir gut, Name?, und dabei die `Name`{:class="block3variables"}-Variable verwenden. Dann sollte er "Das freut mich zu hören!" antworten, `wenn`{:class="block3control"} die Antwort, die er bekommt "ja" ist, aber nichts sagen, wenn die Antwort "nein" ist.
 
-Um deinen neuen Code korrekt zu testen, solltest du ihn **zweimal** ausprobieren, einmal mit der Antwort "ja" und einmal mit "nein".
+![Eine ChatBot-Antwort ausprobieren](images/chatbot-if-test1-annotated.png)
 
-Dein Chatbot sollte antworten "Das ist schön zu hören!" wenn du "ja" antwortest, aber nichts sagen, wenn du "nein" antwortest.
+![Eine ChatBot-Antwort ausprobieren](images/chatbot-if-test2.png)
 
-![Eine ChatBot-Antwort ausprobieren](images/chatbot-if-test.png)
+![nano sprite](images/nano-sprite.png)
 
---- hints --- --- hint --- Nachdem dein Chatbot "Hi" gesagt hat, sollte er nun **fragen**: "Geht es dir gut?". **Falls** du mit "ja" antwortest, sollte der Chatbot "Das ist schön zu hören!" **sagen**. --- /hint --- --- hint --- Hier sind die zusätzlichen Code-Blöcke, die du brauchen wirst: ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![Code for a chatbot reply](images/chatbot-if-code.png) --- /hint --- --- /hints ---
+```blocks3
+wenn diese Figur angeklickt wird
+frage[Wie heißt du?] und warte
+setze [Name v] auf (Antwort)
+sage (teilnehmen [Hallo ] (Name)) für (2) Sekunden
++ frage (teilnehmen [Geht es Dir gut?] (Name)) und warte
++ wenn <(Antwort) = [Ja]> dann  
+   sage [Das freut mich zu hören!] für (2) Sekunden
+end
+```
+
+Um deinen neuen Code korrekt zu testen, solltest Du ihn **zweimal** ausprobieren, einmal mit der Antwort "ja" und einmal mit "nein".
+
+--- /task ---
+
+Im Moment sagt dein Chatbot nichts, wenn die Antwort "nein" ist.
+
+--- task ---
+
+Ändere den Code deines Chatbots so, dass er "Oh nein!" antwortet, wenn er "nein" als Antwort auf "Gehts dir gut, name" erhält.
+
+Ersetze den `falls, dann`{:class="block3control"} Block mit einem `falls, dann, sonst`{:class="block3control"} Block, und verwende einen Code, damit der Chatbot sagen kann `"Oh nein!"`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+wenn diese Figur angeklickt wird
+frage[Wie heißt du?] und warte
+setze [Name v] auf (Antwort)
+sage (teilnehmen [Hallo ] (Name)) für (2) Sekunden
++ frage (teilnehmen [Geht es Dir gut?] (Name)) und warte
+
++ wenn <(Antwort) = [Ja]> dann  
+   sage [Das freut mich zu hören!] für (2) Sekunden
+sonst 
++ sage [Oh nein!] für (2) Sekunden
+end
+```
 
 --- /task ---
 
 --- task ---
 
-Im Moment sagt dein Chatbot nichts, wenn du mit "nein" antwortest. Kannst du deinen Chatbot so verändern, dass er, wenn du seine Frage mit "nein" beantwortest, "Oh nein!" zurück antwortet?
+Teste deinen Code nochmals. Du solltest eine andere Antwort erhalten, wenn du mit "Nein" und mit "ja" antwortest: Dein Chatbot sollte mit "Das freut mich zu hören!" antworten, wenn du mit "ja" antwortest (ohne Berücksichtigung der Groß- und Kleinschreibung) und mit "Oh nein!" wenn du **etwas anderes antwortest**.
 
-Testen und speichern. Dein Chatbot sollte jetzt "Oh nein!" sagen wenn du mit "nein" antwortest. Er wird sogar dann "Oh nein!" sagen, wenn du irgendetwas anderes als "ja" antwortest. (Das **sonst** im `falls/sonst`-Block bedeutet **in allen anderen Fällen**).
+![Eine ChatBot-Antwort ausprobieren](images/chatbot-if-test2.png)
 
 ![Eine Ja/Nein-Antwort ausprobieren](images/chatbot-if-else-test.png)
 
---- hints --- --- hint --- Dein Chatbot sollte jetzt sagen: "Das ist schön zu hören!" **falls** du mit "ja" antwortest, sollte aber "Oh nein!" sagen, falls du **sonst** etwas antwortest. --- /hint --- --- hint --- Hier sind die Code-Blöcke, die du brauchen wirst: ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![Code for a yes/no reply](images/chatbot-if-else-code.png) --- /hint --- --- /hints ---
-
 --- /task ---
+
+Du kannst jeden Code in einen `falls, dann, sonst`{:class="block3control"} Block legen, nicht nur Code, dass dein Chatbot spricht!
+
+Wenn du deines Chatbot **Kostüme** Reiter klickst, wirst du sehen, dass deine Figur mehr als ein Kostüm hat.
+
+![Chatbot Kostüme](images/chatbot-costume-view-annotated.png)
 
 --- task ---
 
-Du kannst allen möglichen Code in einem `falls/sonst`-Block ablegen, nicht bloß Code, der deinen Chatbot sprechen lässt. Wenn du auf die Registerkarte **Kostüme** für die Figur deines Chatbots klickst, wirst du sehen, dass sie mehrere Kostüme hat.
+Ändere den Code deines Chatbots so, dass der Chatbot seine Kostüme wechselt, wenn du deine Antwort eingeben hast.
 
-![Chatbot Kostüme](images/chatbot-costume-view.png)
+![Ein Kostüm wechseln und ausprobieren](images/chatbot-costume-test1.png)
+
+![Ein Kostüm wechseln und ausprobieren](images/chatbot-costume-test2.png)
+
+Ändere den Code im `falls, dann, sonst`{:class="block3control"} Block um das `Kostüm zu wechseln`{:class="block3looks"}.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+wenn diese Figur angeklickt wird
+frage[Wie heißt du?] und warte
+setze [Name v] auf (Antwort)
+sage (teilnehmen [Hallo ] (Name)) für (2) Sekunden
+frage (teilnehmen [Geht es Dir gut?] (Name)) und warte
+wenn <(Antwort) = [Ja]> dann  
+
++  wechsle zu Kostüm (nano-c v)
+   sage [Das freut mich zu hören!] für (2) Sekunden
+sonst 
++  wechsle zu Kostüm (nano-d v)
+  sage [Oh nein!] für (2) Sekunden
+end
+```
+
+Speicher und teste deinen Code. Du solltest sehen, wie sich das Gesicht deines Chatbots ändert wenn du deine Antwort eingibst.
 
 --- /task ---
 
---- task ---
+Ist dir aufgefallen, dass das Kostüm deines Chatbots nach dem Wechsel so bleibt und sich nicht mehr zu dem Kostüm wechselt, wie es am Anfang war?
 
-Kannst du das Kostüm des Chatbots so anpassen, dass es zu deiner Antwort passt?
-
-Testen und speichern. Du solltest sehen, dass sich das Gesicht deines Chatbots in Abhängigkeit von deiner Antwort verändert.
-
-![Ein Kostüm wechseln und ausprobieren](images/chatbot-costume-test.png)
-
---- hints --- --- hint --- Dein Chatbot sollte jetzt zusätzlich je nach der gegebenen Antwort den Block **wechsle zu Kostüm** ausführen. --- /hint --- --- hint --- Hier sind die Code-Blöcke, die du brauchen wirst: ![Blocks for a changing costume](images/chatbot-costume-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![Code for a changing costume](images/chatbot-costume-code.png) --- /hint --- --- /hints ---
-
---- /task ---
-
---- task ---
-
-Ist dir aufgefallen, dass sich das Kostüm deines Chatbots nicht verändert hat, seit du das letzte Mal mit ihm gesprochen hast? Kannst Du dieses Problem beheben?
+Du kannst es ausprobieren: Führe deinen Code aus und antworte "Nein", so dass sich das Gesicht deines Chatbots zu einem unglücklichen Aussehen ändert wird. Führe dann deinen Code erneut aus und stelle fest, ob dein Chatbot erst dann wieder glücklich aussieht, wenn er dich nach deinen Namen gefragt hat.
 
 ![Kostüm-Fehler](images/chatbot-costume-bug-test.png)
 
-Testen und speichern - Führe deinen Code aus und gib "nein" ein, so dass dein Roboter traurig schaut. Wenn du dein Programm erneut startest, sollte dein Chatbot wieder ein fröhliches Gesicht zeigen, bevor er nach deinem Namen fragt.
+--- task ---
+
+Um das Problem zu beheben, füge ein `wechsele zu Kostüm`{:class="block3looks"} am Anfang zu `wenn diese Figur angeklickt wird`{:class="block3events"} hinzu.
+
+![nano sprite](images/nano-sprite.png)
+
+```blocks3
+wenn diese Figur angeklickt wird
++ Wechsele zu Kostüm (nano-a v)
+frage [Wie heißt du?] und warte
+```
 
 ![Ein anderes Kostüm testen](images/chatbot-costume-fix-test.png)
 
---- hints --- --- hint --- Wenn die **Figur angeklickt** wird, sollte dein Chatbot zuerst ein **wechsle zu Kostüm** "fröhliches Gesicht" ausführen. --- /hint --- --- hint --- Hier sind die zusätzlichen Code-Blöcke, die du brauchen wirst: ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) --- /hint --- --- hint --- So sollte dein Code aussehen: ![Code for a costume fix](images/chatbot-costume-fix-code.png) --- /hint --- --- /hints ---
-
 --- /task ---
-
---- challenge ---
-
-## Herausforderung: zusätzliche Entscheidungen
-
-Programmiere deinen Chatbot, um eine weitere Frage zu stellen - irgendetwas, auf das man mit "ja" oder "nein" antwortet. Kannst du deinen Chatbot auf die Antwort reagieren lassen?
-
-![screenshot](images/chatbot-joke.png) --- /challenge ---
