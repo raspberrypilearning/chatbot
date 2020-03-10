@@ -6,13 +6,13 @@ Dies ist die ** Scratch 3 ** Version des Projekts. Es gibt auch eine [ Scratch-2
 
 ## Einleitung
 
-Du wirst lernen, einen Charakter zu programmieren, der mit dir sprechen kann! So ein Charakter wird chat robot, oder chatbot genannt.
+Du wirst lernen, einen Charakter zu programmieren, der mit dir sprechen kann! So ein Charakter wird Chat Robot, oder Chatbot genannt.
 
 ### Was du machen wirst
 
 \--- no-print \---
 
-Klicke auf die Grüne Flagge und danach auf das Chatbot-Männchen, um eine Unterhaltung zu beginnen. Wenn der Chatbot eine Frage stellt, tippe deine Antwort in die Box am unteren Ende der Bühne ein und klicke auf den blauen Haken (oder drücke die `Enter` -Taste), um die Antwort des Chatbots zu sehen.
+Klicke auf die grüne Flagge und danach auf das Chatbot-Männchen, um eine Unterhaltung zu beginnen. Wenn der Chatbot eine Frage stellt, tippe deine Antwort in die Box am unteren Ende der Bühne ein und klicke auf den blauen Haken (oder drücke die `Enter` -Taste), um die Antwort des Chatbots zu sehen.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
