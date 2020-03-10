@@ -1,6 +1,6 @@
 ## Ein sprechender Chatbot
 
-Jetzt, wo du einen Chatbot mit einer eigenen Persönlichkeit hast, lass' uns ihn so programmieren, dass er mit dir spricht.
+Jetzt, wo du einen Chatbot mit einer eigenen Persönlichkeit hast, lass' ihn uns so programmieren, dass er mit dir spricht.
 
 \--- task \---
 
@@ -30,7 +30,7 @@ Klicke auf deinen Chatbot, um deinen Code zu testen. Wenn der Chatbot nach deine
 
 Jetzt antwortet dein Chatbot "Was für ein schöner Name!" jedes Mal wenn du antwortest. Du kannst die Antwort des Chatbots persönlicher gestalten, sodass die Antwort jedes Mal anders ist, wenn ein anderer Name eingegeben wird.
 
-Ändere den Sprite Codes des Chatbots to `join`{:class="block3operators"} "Hallo" mit der `Antwort` {:class="block3sensing"} zu der "Wie heißt du? - Frage, sodass der Code wie folgt aussieht:
+Ändere den Sprite-Code des Chatbots auf`join`{:class="block3operators"} "Hallo" mit der `Antwort` {:class="block3sensing"} zu der "Wie heißt du? - Frage, sodass der Code wie folgt aussieht:
 
 ![nano sprite](images/nano-sprite.png)
 
