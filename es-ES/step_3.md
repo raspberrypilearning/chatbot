@@ -22,7 +22,7 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 ![Comprobando una respuesta del chatbot](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![Comprobando una respuesta del chatbot](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
@@ -40,7 +40,7 @@ ask [What's your name?] and wait
 say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Comprobando una respuesta personalizada](images/chatbot-answer-test.png)
 
 \--- /task \---
 
@@ -70,7 +70,7 @@ say (join [Hi ] (name :: variables +)) for (2) seconds
 
 Your code should work as before: your chatbot should say hi using the name you type in.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Comprobando una respuesta personalizada](images/chatbot-answer-test.png)
 
 \--- /task \---
 
