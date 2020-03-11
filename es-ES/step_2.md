@@ -27,10 +27,10 @@ Si necesita descargar e instalar el editor de Scratch offline, puede encontrarlo
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+El proyecto de inicio contiene cuatro objetos de personaje, uno de ellos será tu chatbot.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Puedes usar el objeto que ya está seleccionado, o elegir uno diferente haciendo clic en el que te guste y luego seleccionando ** mostrar ** u ** ocultar ** en el icono con forma de ojo del menú del objeto, debajo del escenario.
 
-![Choose a character](images/chatbot-characters.png)
+![Elige un personaje](images/chatbot-characters.png)
 
 \--- /task \---
