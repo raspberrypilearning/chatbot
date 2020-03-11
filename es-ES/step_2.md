@@ -1,27 +1,27 @@
-## Your chatbot
+## Tu chatbot
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Antes de empezar a crear tu chatbot, tienes que decidir cuál es su personalidad. **Piensa en las siguientes preguntas**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ ¿Cómo se llama tu chatbot?
++ ¿Dónde vive?
++ ¿Es feliz? ¿Serio? ¿Gracioso? ¿Tímido? ¿Amistoso?
++ ¿Qué le gusta y qué no le gusta?
 
 \--- /task \---
 
 \--- task \---
 
-Open the Chatbot Scratch starter project.
+Abre el proyecto inicial para Scratch del 'Chatbot'.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**En línea:** abre el proyecto de inicio en [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tienes una cuenta de Scratch puedes hacer una copia haciendo clic en **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Sin conexión:** descarga el proyecto de inicio desde [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go) y luego ábrelo con el editor de Scratch sin conexión.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+Si necesita descargar e instalar el editor de Scratch offline, puede encontrarlo en [ https://rpf.io/scratchoff ](rpf.io/scratchoff).
 
 \--- /task \---
 
