@@ -1,127 +1,127 @@
 ## Tomando decisiones
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Puedes programar tu chatbot para que decida qué hacer en función de las respuestas que recibe.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Primero, vas a hacer que tu chatbot haga una pregunta que pueda responderse con "sí" o "no".
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Cambia el código de tu chatbot. Tu chatbot debe hacer la pregunta "Estás bien nombre", usando la variable `nombre`{:class="block3variables"}. Entonces debería responder "¡Me alegra oírlo!" `si`{:class="block3control"} la respuesta que recibe es "sí", pero no decir nada si la respuesta es "no".
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+![Comprobando la respuesta del chatbot](images/chatbot-if-test1-annotated.png)
 
 ![Comprobando la respuesta del chatbot](images/chatbot-if-test2.png)
 
-![nano sprite](images/nano-sprite.png)
+![objeto nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-end
+al hacer clic en sprite
+preguntar [¿Cúal es tu nombre?] y esperar
+dar a [nombre v] el valor (respuesta)
+decir (unir [Hola] (nombre)) durante (2) segundos
++preguntar (unir [¿Estás bien?,  ] (nombre)) y esperar
++si <(respuesta) = [sí]> entonces 
+  decir [¡Me alegra oírlo!] durante (2) segundos
+fin
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Para probar tu nuevo código correctamente, debes probarlo **dos veces **, una vez con la respuesta "sí", y otra con la respuesta "no".
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+De momento, tu chatbot no dice nada a la respuesta "no".
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Cambia el código de tu chatbot para que responda "¡Oh no!" si recibe "no" como respuesta a "¿Estás bien nombre?".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Sustituye el bloque `si, entonces`{:class="block3control"} con un bloque `si, entonces, si no`{:class="block3control"}, e incluye código para que el chatbot pueda `decir "Oh no!"`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![objeto nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
+al hacer clic en sprite
+preguntar [¿Cúal es tu nombre?] y esperar
+dar a [nombre v] el valor (respuesta)
+decir (unir [Hola] (nombre)) durante (2) segundos
++preguntar (unir [¿Estás bien?,  ] (nombre)) y esperar
 
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
-end
++ si <(respuesta) = [sí]> entonces 
+  decir [¡Me alegra oírlo!] durante (2) segundos
+si no 
++  decir [¡Oh no!] durante (2) segundos
+fin
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Prueba tu código. Deberías obtener una respuesta diferente cuando respondes "no" que cuando respondes "sí": tu chatbot debería responder con "¡Me alegra oírlo! cuando respondas "sí" (que no es sensible a mayúsculas/minúsculas), y responder con "¡Oh no!" cuando respondas **cualquier otra cosa**.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![Comprobando la respuesta del chatbot](images/chatbot-if-test2.png)
 
-![Comprobando una respuesta si/no](images/chatbot-if-else-test.png)
-
-\--- /task \---
-
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
-
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
-
-![chatbot costumes](images/chatbot-costume-view-annotated.png)
-
-\--- task \---
-
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
-
-![Testing a changing costume](images/chatbot-costume-test1.png)
-
-![Testing a changing costume](images/chatbot-costume-test2.png)
-
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
-
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
-
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
-end
-```
-
-Test and save your code. You should see your chatbot's face change depending on your answer.
+![Comprobando una respuesta sí/no](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Puedes poner cualquier código dentro de un bloque `si, entonces, si no`{:class="block3control"}, ¡no solo el código para hacer que tu chatbot hable!
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Si haces un clic en la pestaña ** Disfraces ** de tu chatbot, verás que tiene más de un disfraz.
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![disfraces del chatbot](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Cambia el código de tu chatbot para que el chatbot cambie de disfraz cuando escribas tu respuesta.
 
-![nano sprite](images/nano-sprite.png)
+![Comprobar un cambio de disfraz](images/chatbot-costume-test1.png)
+
+![Comprobar un cambio de disfraz](images/chatbot-costume-test2.png)
+
+Cambia el código dentro del bloque `si, entonces, si no`{:class="block3control"} a `cambiar disfraz a`{:class="block3looks"}.
+
+![objeto nano](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+al hacer clic en sprite
+preguntar [¿Cúal es tu nombre?] y esperar
+dar a [nombre v] el valor (respuesta)
+decir (unir [Hola] (nombre)) durante (2) segundos
+preguntar (unir [¿Estás bien?,  ] (nombre)) y esperar
+si <(respuesta)=[si]> entonces
 
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
++ cambiar disfraz a (nano-c v)
+ decir (¡Me alegra oirlo!) durante (2) segundos
+si no
++ cambiar disfraz a (nano-d v)
+ decir [¡Oh no!] durante (2) segundos
+fin
 ```
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+Prueba y guarda tu código. Deberías ver la cara de tu chatbot cambiar según tu respuesta.
+
+\--- /task \---
+
+¿Te has dado cuenta de que, después de que el disfraz de tu chatbot haya cambiado, se mantiene así y no cambia de nuevo a como era al principio?
+
+Puedes probar esto: ejecuta tu código y responde "no" para que la cara de tu chatbot cambie a un aspecto infeliz. Luego ejecuta tu código de nuevo y date cuenta de que tu chatbot no vuelve a verse feliz antes de que te pregunte el nombre.
+
+![Error de disfraz](images/chatbot-costume-bug-test.png)
+
+\--- task \---
+
+Para solucionar este problema, añade al código del chatbot `cambiar el disfraz`{:class="block3looks"} al principio `cuando se ha hecho clic en el objeto`{:class="block3events"}.
+
+![objeto nano](images/nano-sprite.png)
+
+```blocks3
+al hacer clic en sprite
+
++ cambiar disfraz a (nano-a v)
+preguntar [¿Cuál es tu nombre?] y esperar
+```
+
+![Comprobar el arreglo del disfraz](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
