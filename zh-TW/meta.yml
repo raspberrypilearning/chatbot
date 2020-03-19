@@ -1,0 +1,22 @@
+---
+title: 聊天機器人
+hero_image: images/chatbot.png
+description: 學習如何編寫程式，打造一個會和使用者對話的機器人！
+theme: violet
+listed: true
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
+steps:
+  - title: 介紹
+  - title: 你的聊天機器人
+  - title: 會對答的機器人
+  - title: "挑戰：更多的對答"
+    challenge: true
+  - title: 會判斷的機器人
+  - title: "挑戰：更多的判斷"
+    challenge: true
+  - title: 改變聊天場景
+  - title: "挑戰：完成你的聊天機器人"
+    challenge: true
+  - title: 然後呢？
