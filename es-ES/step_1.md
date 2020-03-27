@@ -1,67 +1,73 @@
+--- no-print ---
+
+Esta es la versión **Scratch 3** del proyecto. También hay una versión [Scratch 2 del proyecto](https://projects.raspberrypi.org/es-ES/projects/chatbot-scratch2).
+
+--- /no-print ---
+
 ## Introducción
 
-¡Vas a aprender a programar tu propio robot que habla!
+¡Vas a aprender cómo programar un personaje que puede hablar contigo! Este tipo de personaje se llama robot de chat, o chatbot.
 
-### Lo que crearás
+### Lo que harás
+
+--- no-print ---
+
+Haz clic en la bandera verde y después haz clic en el chatbot para iniciar una conversación. Cuando el chatbot haga una pregunta, escribe tu respuesta en el cuadro de la parte inferior del escenario y haz clic en la marca azul de la derecha (o presiona `Enter`) para ver la respuesta del chatbot.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/224729769/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/380203549/?autostart=false" 
+  frameborder="0" scrolling="no"></iframe>
 </div>
 
-Haz clic en la bandera verde y luego haz clic en el chatbot para iniciar una conversación. Cuando el chatbot te haga una pregunta, escribe tu respuesta en el recuadro que se encuentra en la parte inferior del escenario y haz clic en el signo de verificación (o presiona `Enter`).
+--- /no-print ---
 
-### Lo que aprenderás
+--- print-only ---
 
-Este proyecto incluye elementos de los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum):
+![proyecto completo](images/chatbot-preview.png)
 
-+ [Usa estructuras de programación básicas para crear programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-### Información adicional para los líderes del club
-
-Si necesita imprimir este proyecto, use la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/chatbot/print).
+--- /print-only ---
 
 --- collapse ---
 ---
-title: Notas para el líder del club
+title: Lo que necesitarás
 ---
-## Introducción:
 
-En este proyecto los niños aprenderán cómo utilizar sentencias 'si' para tomar decisiones en sus programas.
+### Hardware
 
-## Recursos
+- Ordenador capaz de ejecutar Scratch 3
 
-Para este proyecto usaremos Scratch 2. Scratch 2 se puede usar en línea en [jumpto.cc/scratch-on](http://jumpto.cc/scratch-on) o puede descargarse desde [jumpto.cc/scratch-off](http://jumpto.cc/scratch-off) y usarlo sin conexión.
+### Software
 
-Puedes encontrar una versión completa de este proyecto [en línea](https://scratch.mit.edu/projects/224729769/#editor) o puedes descargarlo haciendo clic en el enlace 'Materiales del proyecto', que contiene:
+- Scratch 3 (tanto [online](https://rpf.io/scratchon) como [offline](https://rpf.io/scratchoff))
 
-+ ChatBot.sb2
+### Descargas
 
-## Objetivos del Aprendizaje
-
-+ Entrada de texto;
-+ Decisiones: 
-    + sentencias `si ... entonces`{:class="blockcontrol"} ;
-    + sentencias `si ... entonces...si no`{:class="blockcontrol"}.
-
-Este proyecto incluye elementos desde los siguientes aspectos del [currículo de creación digital de Raspberry Pi](http://rpf.io/curriculum):
-
-+ [Usa estructuras de programación básicas para crear programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
-
-## Desafíos
-
-+ "Más preguntas": consolidación del aprendizaje de las entradas y el bloque de `la respuesta`{:class="blocksensing"};
-+ "Más decisiones" - usar decisiones;
-+ "Crea tu propio chatbot" - consolidación de lo aprendido en este proyecto y en proyectos anteriores.
+- [ Encuentra los archivos a descargar aquí ](http://rpf.io/p/es-ES/chatbot-go).
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Materiales del proyecto
+title: Lo que aprenderás
 ---
-## Recursos del líder del club
 
-+ [Proyecto de Scratch 2 acabado y descargable](resources/ChatBot.sb2)
-+ [Proyecto de Scratch 2 acabado en línea](https://scratch.mit.edu/projects/224729769/#editor)
+- Usar el código para concatenar cadenas en Scratch
+- Saber que las variables pueden ser usadas para almacenar la entrada del usuario
+- Usar selección condicional para responder a la entrada del usuario en Scratch
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: Información adicional para educadores
+---
+
+--- no-print ---
+
+Si necesitas imprimir este proyecto, por favor usa la [versión para imprimir](https://projects.raspberrypi.org/es-ES/projects/chatbot/print){:target="_blank"}.
+
+--- /no-print ---
+
+Puedes encontrar el [proyecto terminado aquí](http://rpf.io/p/es-ES/chatbot-get).
 
 --- /collapse ---
