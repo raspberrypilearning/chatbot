@@ -9,7 +9,7 @@ Haz clic en el objeto de tu chatbot y añade este código para que `cuando hagas
 ![objeto nano](images/nano-sprite.png)
 
 ```blocks3
-al hacer click en este sprite
+when this sprite clicked
 preguntar [¿Cuál es tu nombre?] y esperar
 decir [¡Que nombre más bonito!] durante (2) segundos
 ```
@@ -35,7 +35,7 @@ Cambia el código del sprite de tu chatbot a `unir`{:class="block3operators"} "H
 ![objeto nano](images/nano-sprite.png)
 
 ```blocks3
-al hacer click en este sprite
+when this sprite clicked
 preguntar [¿Cuál es tu nombre?] y esperar
 decir (unir [Hola ] (respuesta):: + ) durante (2) segundos
 ```
@@ -61,10 +61,10 @@ Ahora, cambia el código del objeto de tu chatbot para asignar en el valor de la
 ![objeto nano](images/nano-sprite.png)
 
 ```blocks3
-al hacer click en este sprite
-preguntar [¿Cuál es tu nombre?] y esperar
-dar a [nombre] el valor (respuesta)
-decir (unir [Hola ] (nombre) ) durante (2) segundos
+when this sprite clicked
+ask [¿Cuál es tu nombre?] and wait
++ set [nombre v] to (respuesta)
+say (join [Hola ] (nombre :: variables +)) for (2) seconds
 ```
 
 Tu código debería funcionar como antes: tu chatbot debería decir hola usando el nombre que escribiste.

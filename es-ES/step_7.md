@@ -59,8 +59,7 @@ Ahora tienes que asegurarte de que tu chatbot comienza en la ubicación correcta
 ![objeto nano](images/nano-sprite.png)
 
 ```blocks3
-al hacer clic en sprite
-
+when this sprite clicked
 +cambiar fondo a (space v)
 ```
 

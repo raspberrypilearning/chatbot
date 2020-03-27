@@ -15,7 +15,7 @@ Cambia el código de tu chatbot. Tu chatbot debe hacer la pregunta "Estás bien 
 ![objeto nano](images/nano-sprite.png)
 
 ```blocks3
-al hacer clic en sprite
+when this sprite clicked
 preguntar [¿Cúal es tu nombre?] y esperar
 dar a [nombre v] el valor (respuesta)
 decir (unir [Hola] (nombre)) durante (2) segundos
@@ -40,7 +40,7 @@ Sustituye el bloque `si, entonces`{:class="block3control"} con un bloque `si, en
 ![objeto nano](images/nano-sprite.png)
 
 ```blocks3
-al hacer clic en sprite
+when this sprite clicked
 preguntar [¿Cúal es tu nombre?] y esperar
 dar a [nombre v] el valor (respuesta)
 decir (unir [Hola] (nombre)) durante (2) segundos
@@ -83,14 +83,14 @@ Cambia el código dentro del bloque `si, entonces, si no`{:class="block3control"
 ![objeto nano](images/nano-sprite.png)
 
 ```blocks3
-al hacer clic en sprite
+when this sprite clicked
 preguntar [¿Cúal es tu nombre?] y esperar
 dar a [nombre v] el valor (respuesta)
 decir (unir [Hola] (nombre)) durante (2) segundos
 preguntar (unir [¿Estás bien?,  ] (nombre)) y esperar
 si <(respuesta)=[si]> entonces
 + cambiar disfraz a (nano-c v)
- decir (¡Me alegra oirlo!) durante (2) segundos
+ decir [¡Me alegra oirlo!] durante (2) segundos
 si no
 + cambiar disfraz a (nano-d v)
  decir [¡Oh no!] durante (2) segundos
@@ -114,8 +114,7 @@ Para solucionar este problema, añade al código del chatbot `cambiar el disfraz
 ![objeto nano](images/nano-sprite.png)
 
 ```blocks3
-al hacer clic en sprite
-
+when this sprite clicked
 + cambiar disfraz a (nano-a v)
 preguntar [¿Cuál es tu nombre?] y esperar
 ```
