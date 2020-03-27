@@ -1,7 +1,7 @@
 ---
 title: チャットボット
 hero_image: images/chatbot.png
-description: このプロジェクトでは、おしゃべりするチャットボットの作り方を学びます。
+description: 自分だけのおしゃべりするロボットを作ってみましょう！
 theme: violet
 listed: true
 copyedit: false
@@ -11,21 +11,21 @@ steps:
   - 
     title: はじめに
   - 
-    title: Your chatbot
+    title: 自分のチャットボット
   - 
-    title: A talking chatbot
+    title: おしゃべりチャットボット
   - 
-    title: "Challenge: more questions"
+    title: "チャレンジ: 質問 (しつもん) をふやす"
     challenge: true
   - 
-    title: いろいろな答え方
+    title: 他の答え方
   - 
     title: "Challenge: more decisions"
     challenge: true
   - 
-    title: Changing location
+    title: 場所をかえる
   - 
-    title: "チャレンジ: 自分のチャットボット"
+    title: "チャレンジ: チャットボットを仕上げる"
     challenge: true
   - 
-    title: What next?
+    title: 次は何をしよう？
