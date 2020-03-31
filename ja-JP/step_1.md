@@ -29,7 +29,7 @@ You are going to learn how to program a character that can talk to you! A charac
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: 必要 (ひつよう) なもの
 
 ### ハードウェア
 
