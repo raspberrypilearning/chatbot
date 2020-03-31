@@ -1,7 +1,7 @@
 ---
 title: チャットボット
 hero_image: images/chatbot.png
-description: 自分だけのおしゃべりするロボットを作ってみましょう！
+description: 自分だけのおしゃべりロボットを作ってみましょう！
 theme: violet
 listed: true
 copyedit: false
@@ -18,9 +18,9 @@ steps:
     title: "チャレンジ: 質問 (しつもん) をふやす"
     challenge: true
   - 
-    title: 他の答え方
+    title: '「はい」か「いいえ」で答える'
   - 
-    title: "Challenge: more decisions"
+    title: "チャレンジ: 質問 (しつもん) をふやす"
     challenge: true
   - 
     title: 場所をかえる
@@ -28,4 +28,4 @@ steps:
     title: "チャレンジ: チャットボットを仕上げる"
     challenge: true
   - 
-    title: 次は何をしよう？
+    title: 次は何をしましょうか？
