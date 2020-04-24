@@ -4,14 +4,14 @@ Ara que tens un xatbot amb personalitat, programem-lo per a què parli amb tu.
 
 \--- task \---
 
-Feu clic al vostre Sprite de xatbot i afegeix-li aquest codi perquè ` quan li facis clic ` {:class = "block3events"}, ` et demani el teu nom ` {:class = "block3sensing"} i després ` digui "Quin nom tan encantador"! ` {:class = "block3looks"}.
+Fes clic al teu personatge de xatbot i afegeix-li aquest codi perquè `quan li facis clic` {:class="block3events"}, `et demani el teu nom`{:class="block3sensing"} i després `digui "Quin nom tan bonic"!`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![personatge nano](images/nano-sprite.png)
 
 ```blocks3
-quan cliquis aquest sprite 
-pregunta [Quin és el teu nom?] i espera
-digues [Quin nom tan encantador!] durant (2) segons
+quan es cliqui aquest personatge
+pregunta [Com et dius?] i espera
+digues [Quin nom tan bonic!] durant (2) segons
 ```
 
 \--- /task \---
@@ -28,19 +28,19 @@ Fes clic al teu xatbot per provar el teu codi. Quan el xatbot et demani el teu n
 
 \--- task \---
 
-Ara mateix, el teu xatbot respon "Quin nom tan encantador!" cada vegada que respons. Pots fer que la resposta del xatbot sigui més personal, de manera que la resposta sigui diferent cada vegada que s'escriu un altre nom.
+Ara mateix, el teu xatbot respon "Quin nom tan bonic!" cada vegada que respons. Pots fer que la resposta del xatbot sigui més personal, de manera que la resposta sigui diferent cada vegada que s'escriu un altre nom.
 
-Canvia el codi de l'sprite del xatbot per ` afegir` {:class = "block3operators"} "Hola" amb la ` resposta` {:class = "block3sensing"} a la pregunta "Quin és el teu nom?", perquè el codi es vegi així:
+Canvia el codi del personatge del xatbot per `unir`{:class="block3operators"} "Hola" amb la `resposta`{:class = "block3sensing"} a la pregunta "Com et dius?", perquè el codi es vegi així:
 
-![nano sprite](images/nano-sprite.png)
+![personatge nano](images/nano-sprite.png)
 
 ```blocks3
-quan cliquis aquest sprite 
-pregunta [Quin és el teu nom?] i espera
-digues (afegir [hola] (resposta)::+) durant (2) segons
+quan es cliqui aquest personatge
+pregunta [Com et dius?] i espera
+digues (uneix [hola] (resposta) :: +) durant (2) segons
 ```
 
-![Prova una resposta personalitzada](images/chatbot-answer-test.png)
+![Provant una resposta personalitzada](images/chatbot-answer-test.png)
 
 \--- /task \---
 
@@ -56,22 +56,22 @@ Crea una nova variable anomenada `nom`{:class = "blockvariable"}.
 
 \--- task \---
 
-Ara, canvia el codi de l'sprite del teu xatbot per establir la variable `nom` {:class = "block3variables"} a `resposta` {:class = "block3sensing"}:
+Ara, canvia el codi del personatge del teu xatbot per assignar la variable `nom`{:class="block3variables"} a `resposta`{:class="block3sensing"}:
 
-![nano sprite](images/nano-sprite.png)
+![personatge nano](images/nano-sprite.png)
 
 ```blocks3
-quan cliques a aquest sprite
-pregunta [Quin és el teu nom?] i espera
+quan es cliqui aquest personatge
+pregunta [Com et dius?] i espera
 
-+ establir [nom v] a (resposta)
-dir (afegir (nom :: variables +)) durant (2) segons
++ assigna a [nom v] el valor (resposta)
+digues (uneix (nom :: variables +)) durant (2) segons
 ```
 
 El teu codi hauria de funcionar com abans: el teu xatbot hauria de saludar amb el nom que has escrit.
 
-![Prova una resposta personalitzada](images/chatbot-answer-test.png)
+![Provant una resposta personalitzada](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Torna a provar el teu programa. Tingues en compte que la resposta que escrius s'emmagatzema a la variable ` nom` {:class = "block3variables"} i també es mostra a l'extrem superior esquerre de l'Escenari. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Torna a provar el teu programa. Tingues en compte que la resposta que escrius s'emmagatzema a la variable ` nom` {:class = "block3variables"} i també es mostra a l'extrem superior esquerre de l'Escenari. Per fer que desaparegui de l'Escenari, ves a la secció de blocs anomenada `Variables`{:class="block3variables"} i fes clic a la casella que hi ha al costat de `nom`{:class="block3variables"} perquè no quedi marcat.
