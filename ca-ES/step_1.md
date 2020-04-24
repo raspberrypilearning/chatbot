@@ -1,8 +1,8 @@
 \--- no-print \---
 
-Aquest és la versió ** Scratch 3 ** del projecte. També hi ha una versió d'[ Scratch 2 ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Aquest és la versió **Scratch 3** del projecte. També hi ha una versió de [Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- / no-print \---
+\--- /no-print \---
 
 ## Introducció
 
@@ -23,13 +23,13 @@ Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar un
 
 \--- només imprimir \---
 
-![complete project](images/chatbot-preview.png)
+![projecte acabat](images/chatbot-preview.png)
 
-\--- / print-only \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Què necessitaràs
 
 ### Maquinari
 
@@ -47,24 +47,24 @@ Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar un
 
 ## \--- collapse \---
 
-## title: What you will learn
+## títol: Què aprendràs
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch
+- Utilitzar codi per concatenar cadenes a Scratch
+- Conèixer quines variables es poden emprar per guardar entrades de l'usuari
+- Utilitzar condicions per respondre a l’entrada de l’usuari a Scratch
 
-\--- / collapse \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Notes addicionals per a educadors
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Si necessites imprimir aquest projecte, si us plau, utilitza la [versió per imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Podeu trobar el [projecte complet aquí](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
