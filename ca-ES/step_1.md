@@ -19,9 +19,9 @@ Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar un
   frameborder="0" scrolling="no"></iframe>
 </div>
 
---- / no-print ---
+--- /no-print ---
 
---- només imprimir ---
+--- print-only ---
 
 ![projecte acabat](images/chatbot-preview.png)
 
