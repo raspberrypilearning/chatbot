@@ -1,8 +1,8 @@
 ---
-title: Chatbot
-hero_image: images / chatbot.png
+title: Xatbot
+hero_image: images/chatbot.png
 description: Aprèn a programar el teu propi robot parlant!
-theme: violeta
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
@@ -11,9 +11,9 @@ steps:
   - 
     title: Introducció
   - 
-    title: El vostre xat bot
+    title: El teu xatbot
   - 
-    title: Un xat bot parlant
+    title: Un xatbot parlant
   - 
     title: "Repte: més preguntes"
     challenge: true
@@ -23,9 +23,9 @@ steps:
     title: "Repte: més decisions"
     challenge: true
   - 
-    title: S'està canviant la ubicació
+    title: Canviant la ubicació
   - 
-    title: "Repte: acaba el teu xat bot"
+    title: "Repte: acaba el teu xatbot"
     challenge: true
   - 
-    title: What next?
+    title: I ara què ve?
