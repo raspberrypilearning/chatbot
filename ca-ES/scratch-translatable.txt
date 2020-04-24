@@ -1,21 +1,21 @@
-What's your name?
+Com et dius?
 
-What a lovely name!
+Quin nom tan bonic!
 
-Hi
+Hola
 
-name
+nom
 
-Where do you live?
+On vius?
 
-place
+lloc
 
-I've never been to
+Mai no he estat a
 
-Are you OK
+Estàs bé
 
-That's great to hear!
+És fantàstic escoltar-te!
 
-Oh no!
+Vaja!
 
-Do you want to go to the moon?
+Vols anar a la lluna?
