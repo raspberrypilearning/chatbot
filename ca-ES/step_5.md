@@ -20,7 +20,7 @@ ask [Com et dius?] and wait
 set [nom v] to (answer)
 say (join [Hola ] (nom)) for (2) seconds
 +ask (join [Estàs bé ] (nom)) and wait
-+if <(answer) = [si]>; then 
++if <(answer) = [si]> then 
   say [És fantàstic escoltar-te!] for (2) seconds
 end
 ```
@@ -46,7 +46,7 @@ set [nom v] to (answer)
 say (join [Hola ] (nom)) for (2) seconds
 ask (join [Estàs bé ] (nom)) and wait
 
-+ if <(answer) = [si]>; then 
++ if <(answer) = [si]> then 
   say [És fantàstic escoltar-te!] for (2) seconds
 else 
 +  say [Vaja!] for (2) seconds

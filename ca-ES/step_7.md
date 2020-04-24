@@ -27,7 +27,7 @@ switch backdrop to (moon v)
 
 ask [Vols anar a la lluna?] and wait
 
-if &lt;(answer) = [yes]&gt; then 
+if &lt;(answer) = [si]&gt; then 
 
 end
 ```
@@ -40,7 +40,7 @@ Així és com s'hauria de veure el teu codi:
 
 ```blocks3
 ask [[Vols anar a la lluna?] and wait
-if &lt;(answer) = [yes]&gt; then 
+if &lt;(answer) = [si]&gt; then 
   switch backdrop to (moon v)
 end
 ```
