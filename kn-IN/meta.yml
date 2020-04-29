@@ -1,0 +1,31 @@
+---
+title: Chatbot
+hero_image: images/chatbot.png
+description: Learn how to program your own talking robot!
+theme: violet
+listed: true
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
+steps:
+  - 
+    title: Introduction
+  - 
+    title: Your chatbot
+  - 
+    title: A talking chatbot
+  - 
+    title: "Challenge: more questions"
+    challenge: true
+  - 
+    title: Making decisions
+  - 
+    title: "Challenge: more decisions"
+    challenge: true
+  - 
+    title: Changing location
+  - 
+    title: "Challenge: finish your chatbot"
+    challenge: true
+  - 
+    title: What next?
