@@ -1,6 +1,6 @@
 ## 改变位置
 
-您还可以对聊天机器人进行编程以更改其位置！
+你还可以对聊天机器人进行编程以更改其位置！
 
 ![测试修改背景](images/chatbot-backdrop-moon.png)
 
@@ -12,13 +12,13 @@
 
 \--- hint \---
 
-你的聊天机器人应该 `问“你想去月亮？”`{:class= “block3sensing”}，和 `如果`{:class= “block3control”}你 `答案`{:class= “block3sensing”} “是”，就应该 `的背景下切换到月亮`{:class= “block3looks”}。
+你的聊天机器人应该 `问“你想去月亮吗？”`{:class= “block3sensing”}， `如果`{:class= “block3control”}你的`答案是`{:class= “block3sensing”} “是”，就应该 `切换背景到到月亮`{:class= “block3looks”}。
 
 \--- /hint \---
 
 \--- hint \---
 
-以下是您需要添加到聊天机器人代码的代码块。
+以下是你需要添加到聊天机器人代码的代码块。
 
 ![纳米精灵](images/nano-sprite.png)
 
@@ -36,7 +36,7 @@
 
 \--- hint \---
 
-这是你的代码应该是这样的：
+你的代码应该是这样的：
 
 ```blocks3
 询问[你想去月球吗？] 并等待
@@ -53,7 +53,7 @@
 
 \--- task \---
 
-现在，您需要确保当您点击聊天机会与其通话时，您的聊天机器人就会在正确的位置启动。将此块添加到聊天机器人代码的顶部：
+现在，你需要确保当你点击聊天机器人与其通话时，你的聊天机器人就会在正确的位置启动。将此代码段添加到聊天机器人代码的顶部：
 
 ![纳米精灵](images/nano-sprite.png)
 
@@ -67,13 +67,13 @@
 
 \--- task \---
 
-测试您的程序，并在聊天机器人询问您是否想登月时回答“是”。您应该看到聊天机器人的位置发生了变化。
+Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
 
 \--- /task \---
 
 \--- task \---
 
-您还可以添加以下代码新内 `，如果`{:class=“block3control”}块，使聊天机器人上下跳跃四次，如果你回答“是”：
+你还可以添加以下代码在新的`如果`{:class=“block3control”}块中，如果你回答“是”的时候，使聊天机器人上下跳跃四次：
 
 ![纳米精灵](images/nano-sprite.png)
 
