@@ -1,7 +1,7 @@
-## Challenge: more questions
+## ಸವಾಲು: ಹೆಚ್ಚಿನ ಪ್ರಶ್ನೆಗಳು
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+ಮತ್ತೊಂದು ಪ್ರಶ್ನೆ ಕೇಳಲು ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಅನ್ನು ಪ್ರೋಗ್ರಾಂ ಮಾಡಿ. ಈ ಹೊಸ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರವನ್ನು ಹೊಸ ವೇರಿಯೇಬಲ್ ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಬಹುದೇ?
 
-![More questions](images/chatbot-question1.png)
+![ಹೆಚ್ಚಿನ ಪ್ರಶ್ನೆಗಳು](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![ಹೆಚ್ಚಿನ ಪ್ರಶ್ನೆಗಳು](images/chatbot-question2.png)
