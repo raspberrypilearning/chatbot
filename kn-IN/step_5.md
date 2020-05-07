@@ -1,18 +1,18 @@
-## Making decisions
+## ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದು
 
-You can program your chatbot to decide what to do based on the answers it receives.
+ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಸ್ವೀಕರಿಸುವ ಉತ್ತರಗಳ ಆಧಾರದ ಮೇಲೆ ಏನು ಮಾಡಬೇಕೆಂದು ನಿರ್ಧರಿಸಲು ನೀವು ಅದನ್ನು ಪ್ರೋಗ್ರಾಂ ಮಾಡಬಹುದು.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+ಮೊದಲಿಗೆ, ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಅನ್ನು "ಹೌದು" ಅಥವಾ "ಇಲ್ಲ" ಎಂದು ಉತ್ತರಿಸಬಹುದಾದ ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳುವಂತೆ ಮಾಡಲಿದ್ದೀರಿ.
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್‌ನ ಕೋಡ್ ಬದಲಾಯಿಸಿ. ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ `name`{:class="block3variables"} ವೇರಿಯಬಲ್ ಬಳಸಿಕೊಂಡು "Are you OK name" ಎಂಬ ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಬೇಕು. ನಂತರ ಅದು ಪಡೆಯುವ ಉತ್ತರ "ಹೌದು"`ಎಂದಾದರೆ`{:class="block3control"} "ಬಹಳ ಸಂತೋಷ!" ಎಂಬ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ನೀಡಬಹುದು, ಉತ್ತರ "ಇಲ್ಲ" ಎಂದಾದರೆ ಏನನ್ನೂ ಹೇಳದಿರಬಹುದು.
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+![ಚಾಟ್‌ಬಾಟ್ ಉತ್ತರವನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-if-test1-annotated.png)
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![ಚಾಟ್‌ಬಾಟ್ ಉತ್ತರವನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-if-test2.png)
 
-![nano sprite](images/nano-sprite.png)
+![ನ್ಯಾನೋ ಸ್ಪ್ರೈಟ್](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -25,19 +25,19 @@ say (join [Hi ] (name)) for (2) seconds
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+ನಿಮ್ಮ ಹೊಸ ಕೋಡ್ ಅನ್ನು ಸರಿಯಾಗಿ ಪರೀಕ್ಷಿಸಲು, ನೀವು ಅದನ್ನು **ಎರಡು ಬಾರಿ** ಪರೀಕ್ಷಿಸಬೇಕು: ಒಮ್ಮೆ "ಹೌದು" ಎಂಬ ಉತ್ತರದೊಂದಿಗೆ, ಮತ್ತು ಒಮ್ಮೆ "ಇಲ್ಲ" ಎಂಬ ಉತ್ತರದೊಂದಿಗೆ.
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+ಈ ಸಮಯದಲ್ಲಿ, ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ "ಇಲ್ಲ" ಎಂಬ ಉತ್ತರಕ್ಕೆ ಏನನ್ನೂ ಹೇಳುವುದಿಲ್ಲ.
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+"Are you OK name" ಎಂಬ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ "ಇಲ್ಲ" ಎಂದಿದ್ದಲ್ಲಿ ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್‌ನ ಕೋಡ್ ಅನ್ನು "ಓಹ್ ಇಲ್ಲ!" ಎಂದು ಉತ್ತರಿಸುವಂತೆ ಬದಲಾಯಿಸಿ.
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+ಚಾಟ್‌ಬಾಟ್ `"ಓಹ್ ಇಲ್ಲ!"` {:class = "block3looks"} ಎಂದು ಉತ್ತರಿಸಲು `if, then`{:class="block3control"}` ಬ್ಲಾಕನ್ನು <0>if, then, else`{:class="block3control"} ಬ್ಲಾಕ್ನಿಂದ ಬದಲಾಯಿಸಿ, ಮತ್ತು ಕೋಡ್ ಅನ್ನು ಸೇರಿಸಿ.
 
-![nano sprite](images/nano-sprite.png)
+![ನ್ಯಾನೋ ಸ್ಪ್ರೈಟ್](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -57,31 +57,31 @@ end
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ. ನೀವು "ಇಲ್ಲ" ಎಂದು ಉತ್ತರಿಸುವಾಗ ಮತ್ತು "ಹೌದು" ಎಂದು ಉತ್ತರಿಸುವಾಗ ನೀವು ವಿಭಿನ್ನ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪಡೆಯಬೇಕು: ನೀವು "ಹೌದು" (ಅದು ಕೇಸ್ ಸೆನ್ಸಿಟಿವ್ ಆಗಿರುವುದಿಲ್ಲ) ಎಂದು ಉತ್ತರಿಸಿದಾಗ ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ "That’s great to hear!", ಮತ್ತು ನೀವು ** ಬೇರೆ ಯಾವುದೇ ಉತ್ತರ ನೀಡಿದಾಗ ** "Oh no!" ಎಂದು ಪ್ರತಿಕ್ರಿಯೆ ನೀಡುತ್ತದೆ.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![ಚಾಟ್‌ಬಾಟ್ ಉತ್ತರವನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![ಹೌದು / ಇಲ್ಲ ಉತ್ತರವನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಮಾತನಾಡಲು ಕೋಡ್ ಮಾತ್ರವಲ್ಲದೆ, ನೀವು ಯಾವುದೇ ಕೋಡ್ ಅನ್ನು `if, then, else`{:class="block3control"} ಬ್ಲಾಕ್ನಲ್ಲಿ ಹಾಕಬಹುದು.
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್‌ನ ** ವೇಷಭೂಷಣಗಳು** ಎಂಬ ಟ್ಯಾಬನ್ನು ನೀವು ಕ್ಲಿಕ್ ಮಾಡಿದರೆ, ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ವೇಷಭೂಷಣಗಳಿರುವುದನ್ನು ಎಂದು ನೀವು ನೋಡುತ್ತೀರಿ.
 
-![chatbot costumes](images/chatbot-costume-view-annotated.png)
+![ಚಾಟ್‌ಬಾಟ್ ವೇಷಭೂಷಣಗಳು](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+ನಿಮ್ಮ ಉತ್ತರವನ್ನು ಟೈಪ್ ಮಾಡಿದಾಗ ಚಾಟ್‌ಬಾಟ್ ವೇಷಭೂಷಣಗಳನ್ನು ಬದಲಾಯಿಸುವಂತೆ ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್‌ನ ಕೋಡ್ ಅನ್ನು ಬದಲಾಯಿಸಿ.
 
-![Testing a changing costume](images/chatbot-costume-test1.png)
+![ಬದಲಾಗುತ್ತಿರುವ ಉಡುಪನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-costume-test1.png)
 
-![Testing a changing costume](images/chatbot-costume-test2.png)
+![ಬದಲಾಗುತ್ತಿರುವ ಉಡುಪನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+`ವೇಷಭೂಷಣ ಬದಲಿ` {:class = "block3looks"} ಮಾಡಲು `if, then, else`{:class="block3control"} ಒಳಗೆ ಕೋಡ್ ಅನ್ನು ಬದಲಾಯಿಸಿ.
 
-![nano sprite](images/nano-sprite.png)
+![ನ್ಯಾನೋ ಸ್ಪ್ರೈಟ್](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -99,21 +99,21 @@ else
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ಉಳಿಸಿ. ನಿಮ್ಮ ಉತ್ತರವನ್ನು ಅವಲಂಬಿಸಿ ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್‌ನ ಮುಖ ಬದಲಾವಣೆಯನ್ನು ನೀವು ನೋಡಬೇಕು.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್‌ನ ವೇಷಭೂಷಣ ಬದಲಾದ ನಂತರ, ಅದು ಹಾಗೇ ಇರುತ್ತದೆ ಮತ್ತು ಆರಂಭದಲ್ಲಿ ಇದ್ದದ್ದಕ್ಕೆ ಬದಲಾಗುವುದಿಲ್ಲ ಎಂದು ನೀವು ಗಮನಿಸಿದ್ದೀರಾ?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+ನೀವು ಇದನ್ನು ಪ್ರಯತ್ನಿಸಬಹುದು: ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಚಲಾಯಿಸಿ ಮತ್ತು "ಇಲ್ಲ" ಎಂದು ಉತ್ತರಿಸಿ ಇದರಿಂದ ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್‌ನ ಮುಖವು ಅತೃಪ್ತಿಕರ ನೋಟಕ್ಕೆ ಬದಲಾಗುತ್ತದೆ. ನಂತರ ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಮತ್ತೆ ಚಲಾಯಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಹೆಸರನ್ನು ಕೇಳುವ ಮೊದಲು ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಸಂತೋಷವಾಗಿ ಕಾಣುವಂತೆ ಬದಲಾಗುವುದಿಲ್ಲ ಎಂಬುದನ್ನು ಗಮನಿಸಿ.
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![ವೇಷಭೂಷಣ ದೋಷ](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+ಈ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು, ಚಾಟ್‌ಬಾಟ್‌ನ `when the sprite is clicked`{:class="block3events"}ನ ಪ್ರಾರಂಭದಲ್ಲಿ `switch costume`{:class="block3looks"} ಕೋಡ್ ಸೇರಿಸಿ.
 
-![nano sprite](images/nano-sprite.png)
+![ನ್ಯಾನೋ ಸ್ಪ್ರೈಟ್](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -122,6 +122,6 @@ when this sprite clicked
 ask [What's your name?] and wait
 ```
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![ವೇಷಭೂಷಣ ಫಿಕ್ಸ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
