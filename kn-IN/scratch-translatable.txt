@@ -1,21 +1,21 @@
-What's your name?
+ನಿಮ್ಮ ಹೆಸರೇನು?
 
-What a lovely name!
+ಎಂತಹ ಸುಂದರ ಹೆಸರು!
 
-Hi
+ನಮಸ್ತೆ
 
-name
+ಹೆಸರು
 
-Where do you live?
+ನೀವು ಎಲ್ಲಿ ವಾಸಿಸುತ್ತೀರ?
 
-place
+ಸ್ಥಳ
 
-I've never been to
+ನಾನು ಎಂದೂ ಹೋಗಿಲ್ಲ,
 
-Are you OK
+ನೀವು ಸೌಖ್ಯವಾಗಿರುವಿರಾ
 
-That's great to hear!
+ಕೇಳಲು ಅದ್ಭುತವಾಗಿದೆ!
 
-Oh no!
+ಓಹ್ ಇಲ್ಲ!
 
-Do you want to go to the moon?
+ನೀವು ಚಂದ್ರನ ಬಳಿಗೆ ಹೋಗಲು ಬಯಸುವಿರಾ?
