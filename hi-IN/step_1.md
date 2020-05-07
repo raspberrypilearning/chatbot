@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![पूर्ण प्रोजेक्ट](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -51,20 +51,20 @@
 
 - कोड का इस्तेमाल करके स्ट्रिंग यानि शब्दों या फिर वाक्यों को जोड़ना
 - यह पता होना चाहिए की वेरिएबल आपका इनपुट याद रख सकता है
-- Use conditional selection to respond to user input in Scratch
+- स्क्रैच में यूज़र् इनपुट का जवाब देने के लिए कन्डिशनल चयन का उपयोग करें
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर-अनुकूल संस्करण](https://projects.raspberrypi.org/en/projects/chatbot/print){: target="_ blank"} का उपयोग करें।
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+आप यहां [ पूर्ण किया गया प्रोजेक्ट पा सकते हैं ](http://rpf.io/p/en/chatbot-get) ।
 
 \--- /collapse \---
