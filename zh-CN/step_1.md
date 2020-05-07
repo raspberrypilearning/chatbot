@@ -6,7 +6,7 @@
 
 ## 简介
 
-您将学习如何编程可以与您交谈的角色！像这样的角色称为聊天机器人或聊天机器人。
+你将学习如何编程与您的角色交谈！像这样的角色称为聊天机器人。
 
 ### 学习成果
 
@@ -50,7 +50,7 @@
 ## title: 你将学到什么
 
 - 使用代码在Scratch中连接字符串
-- 知道变量可用于存储用户输入
+- 了解变量可用于存储用户输入
 - 使用条件选择响应用户在 Scratch 中的输入
 
 \--- /collapse \---
@@ -61,7 +61,7 @@
 
 \--- no-print \---
 
-如果您需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}。
+如果你需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}。
 
 \--- /no-print \---
 
