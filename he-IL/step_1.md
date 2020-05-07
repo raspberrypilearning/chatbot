@@ -4,7 +4,7 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 \--- /no-print \---
 
-## Introduction
+## מבוא
 
 You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
@@ -23,31 +23,31 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![פרוייקט שלם](images/chatbot-preview.png)
 
-\--- /print-only \---
+\--- / print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: למה תזדקק
 
-### Hardware
+### חומרה
 
 - Computer capable of running Scratch 3
 
-### Software
+### תוכנה
 
 - Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
 
-### Downloads
+### הורדות
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [מצא קבצים להורדה כאן](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: מה תלמדו
 
 - Use code to concatenate strings in Scratch
 - Know that variables can be used to store user input
@@ -61,10 +61,10 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+אם אתה צריך להדפיס את הפרויקט הזה, אנא השתמש ב [ גרסה ידידותית למדפסת ](https://projects.raspberrypi.org/en/projects/chatbot/print).
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+אתם יכולים [ להוריד את הפרויקט השלם כאן ](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
