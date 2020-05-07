@@ -2,12 +2,12 @@
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+作る前に、チャットボットのせいかくを決めましょう。 **こんな風に考えてみましょう。**
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ チャットボットの名前は？
++ 住んでいる場所は?
++ 明るい？まじめ？面白い？おとなしい？親切？
++ 好きなものやきらいなものは何？
 
 \--- /task \---
 
@@ -15,11 +15,11 @@ Before you start creating your chatbot, you need to decide what its personality 
 
 Open the Chatbot Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**オンライン:** [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} から基本 (きほん) のプロジェクトを開きます。
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Scratch アカウントを持っている場合は、**リミックス**をクリックしてプロジェクトのコピーを作ることができます。
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**オフライン:** [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}から基本のプロジェクトをダウンロードして、オフラインエディターで開きます。
 
 If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
@@ -27,10 +27,10 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+基本のプロジェクトには4つのキャラクタースプライトがふくまれています。そのうちの一つがあなたのチャットボットになります。
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+すでに選択 (せんたく) されているスプライトを使うこともできますが、好きなスプライトをクリックし、ステージの下のスプライトメニューからスプライトを**表示 (ひょうじ) する**または**隠す (かくす)** ための目のアイコンをえらび、べつのスプライトを選択することもできます。
 
-![Choose a character](images/chatbot-characters.png)
+![キャラクターをえらぼう](images/chatbot-characters.png)
 
 \--- /task \---
