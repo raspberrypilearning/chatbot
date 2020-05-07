@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+ಇದು ಯೋಜನೆಯ ** ಸ್ಕ್ರ್ಯಾಚ್ 3 ** ಆವೃತ್ತಿ. ಯೋಜನೆಯ [ ಸ್ಕ್ರ್ಯಾಚ್ 2 ಆವೃತ್ತಿಯೂ ಇರುತ್ತದೆ ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## ಪರಿಚಯ
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+ನಿಮ್ಮೊಂದಿಗೆ ಮಾತನಾಡಬಲ್ಲ ಪಾತ್ರವನ್ನು ಹೇಗೆ ಪ್ರೋಗ್ರಾಂ ಮಾಡುವುದು ಎಂದು ನೀವು ಕಲಿಯಲಿದ್ದೀರಿ! ಅಂತಹ ಪಾತ್ರವನ್ನು ಚಾಟ್ ರೋಬೋಟ್ ಅಥವಾ ಚಾಟ್ಬಾಟ್ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.
 
-### What you will make
+### ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+ಹಸಿರು ಧ್ವಜದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ತದನಂತರ ಸಂಭಾಷಣೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಚಾಟ್‌ಬಾಟ್ ಅಕ್ಷರವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ. ಚಾಟ್‌ಬಾಟ್ ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಿದಾಗ, ನಿಮ್ಮ ಉತ್ತರವನ್ನು ಸ್ಟೇಜ್ ನ ಕೆಳಭಾಗದಲ್ಲಿರುವ ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ, ತದನಂತರ ಚಾಟ್‌ಬಾಟ್‌ನ ಉತ್ತರವನ್ನು ನೋಡಲು ಬಲಭಾಗದಲ್ಲಿರುವ ನೀಲಿ ಗುರುತನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ (ಅಥವಾ `Enter` ಒತ್ತಿ).
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,48 +23,48 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![ಸಂಪೂರ್ಣ ಯೋಜನೆ](images/chatbot-preview.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## ಶೀರ್ಷಿಕೆ: ನಿಮಗೆ ಬೇಕಾದುದು
 
-### Hardware
+### ಹಾರ್ಡ್ವೇರ್
 
-- Computer capable of running Scratch 3
+- ಸ್ಕ್ರ್ಯಾಚ್ 3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್
 
-### Software
+### ಸಾಫ್ಟ್ವೇರ್
 
-- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
+- ಸ್ಕ್ರ್ಯಾಚ್ 3 ([ಆನ್‌ಲೈನ್‌](https://rpf.io/scratchon) ಅಥವಾ [ಆಫ್‌ಲೈನ್](https://rpf.io/scratchoff))
 
-### Downloads
+### ಡೌನ್‌ಲೋಡ್‌ಗಳು
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch
+- [ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲು ಫೈಲ್‌ಗಳನ್ನು ಇಲ್ಲಿ ಪಡೆಯಿರಿ](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## ಶೀರ್ಷಿಕೆ: ನೀವು ಏನು ಕಲಿಯುವಿರಿ
+
+- ಸ್ಕ್ರ್ಯಾಚ್‌ನಲ್ಲಿ ಶಬ್ದಗಳನ್ನು ಜೋಡಿಸಲು ಕೋಡ್ ಬಳಸಿ
+- ಇನ್ಪುಟ್ ಗಳನ್ನು ಸಂಗ್ರಹಿಸಲು ವೇರಿಯಬಲ್ ಗಳನ್ನು ಬಳಸಬಹುದು ಎಂದು ತಿಳಿಯಿರಿ
+- ಸ್ಕ್ರ್ಯಾಚ್‌ನಲ್ಲಿ ಬಳಕೆದಾರರ ಆಯ್ಕೆಗಳನ್ನು ಪ್ರತಿಕ್ರಿಯಿಸಲು ಷರತ್ತುಬದ್ಧ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## ಶೀರ್ಷಿಕೆ: ಶಿಕ್ಷಣತಜ್ಞರಿಗೆ ಹೆಚ್ಚುವರಿ ಟಿಪ್ಪಣಿಗಳು
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿ ](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target = "_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+[ ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆಯನ್ನು ನೀವು ಇಲ್ಲಿ ಕಾಣಬಹುದು ](http://rpf.io/p/en/chatbot-get){:target="_blank.
 
 \--- /collapse \---
