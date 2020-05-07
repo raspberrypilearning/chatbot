@@ -1,26 +1,26 @@
-## Changing location
+## ಸ್ಥಳವನ್ನು ಬದಲಾಯಿಸುವುದು
 
-You can also program your chatbot to change its location!
+ಅದರ ಸ್ಥಳವನ್ನು ಬದಲಾಯಿಸಲು ಸಹ ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಅನ್ನು ನೀವು ಪ್ರೋಗ್ರಾಂ ಮಾಡಬಹುದು!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![ಬದಲಾಗುತ್ತಿರುವ ಹಿನ್ನೆಲೆಯನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+"ನೀವು ಚಂದ್ರನ ಬಳಿಗೆ ಹೋಗಲು ಬಯಸುತ್ತೀರಾ" ಎಂದು ಕೇಳಲು ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಅನ್ನು ಪ್ರೋಗ್ರಾಂ ಮಾಡಬಹುದು, ಮತ್ತು ಉತ್ತರ "ಹೌದು" ಆಗಿರುವಾಗ ಹಿನ್ನೆಲೆ ಬದಲಾಯಿಸಬಹುದೇ?
 
 \--- hints \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ` "ನೀವು ಚಂದ್ರನಿಗೆ ಹೋಗಲು ಬಯಸುವಿರಾ?" ` {:class = "block3sensing"}ಎಂದು ಕೇಳಬೇಕು, ಮತ್ತು ನಿಮ್ಮ ಉತ್ತರ "ಹೌದು", ಎಂದಾದರೆ ` ಬ್ಯಾಕ್‌ಡ್ರಾಪ್ ಅನ್ನು ಚಂದ್ರನಿಗೆ ಬದಲಾಯಿಸಬೇಕು ` {:class = "block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಕೋಡ್‌ಗೆ ನೀವು ಸೇರಿಸಬೇಕಾದ ಕೋಡ್ ಬ್ಲಾಕ್‌ಗಳು ಇಲ್ಲಿವೆ.
 
-![nano sprite](images/nano-sprite.png)
+![ನ್ಯಾನೋ ಸ್ಪ್ರೈಟ್](images/nano-sprite.png)
 
 ```blocks3
 switch backdrop to (moon v)
@@ -36,7 +36,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+ನಿಮ್ಮ ಕೋಡ್ ಹೀಗಿರಬೇಕು:
 
 ```blocks3
 ask [Do you want to go to the moon?] and wait
@@ -53,9 +53,9 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+ನಿಮ್ಮ ಚಾಟ್ಬಾಟ್ ನೊಂದಿಗೆ ಮಾತನಾಡಲು ನೀವು ಅದರ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ ಸರಿಯಾದ ಸ್ಥಳದಲ್ಲಿ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ ಎಂದು ಈಗ ನೀವು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಬೇಕು. ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಕೋಡ್‌ನ ಮೇಲ್ಭಾಗಕ್ಕೆ ಈ ಬ್ಲಾಕ್ ಅನ್ನು ಸೇರಿಸಿ:
 
-![nano sprite](images/nano-sprite.png)
+![ನ್ಯಾನೋ ಸ್ಪ್ರೈಟ್](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -67,15 +67,15 @@ when this sprite clicked
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಂ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ, ಮತ್ತು ನೀವು ಚಂದ್ರನ ಬಳಿಗೆ ಹೋಗಬೇಕೆ ಎಂದು ಚಾಟ್‌ಬಾಟ್ ಕೇಳಿದಾಗ "ಹೌದು" ಎಂದು ಉತ್ತರಿಸಿ. ಚಾಟ್‌ಬಾಟ್‌ನ ಸ್ಥಳವು ಬದಲಾಗುವುದನ್ನು ನೋಡಿ.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+ನೀವು "ಹೌದು" ಎಂದು ಉತ್ತರಿಸಿದರೆ ಚಾಟ್‌ಬಾಟ್ ನಾಲ್ಕು ಬಾರಿ ಮೇಲಕ್ಕೆ ಮತ್ತು ಕೆಳಕ್ಕೆ ನೆಗೆಯುವಂತೆ ಮಾಡಲು ಹೊಸದಾದ `if`{:class="block3control"} ಬ್ಲಾಕ್ ನಲ್ಲಿ ನೀವು ಈ ಕೆಳಗಿನ ಕೋಡ್ ಅನ್ನು ಕೂಡ ಸೇರಿಸಬಹುದು:
 
-![nano sprite](images/nano-sprite.png)
+![ನ್ಯಾನೋ ಸ್ಪ್ರೈಟ್](images/nano-sprite.png)
 
 ```blocks3
 if <(answer) = [yes]> then 
