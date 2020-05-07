@@ -67,7 +67,7 @@ Prueba tu código. Deberías obtener una respuesta diferente cuando respondes "n
 
 Puedes poner cualquier código dentro de un bloque `si, entonces, si no`{:class="block3control"}, ¡no solo el código para hacer que tu chatbot hable!
 
-Si haces un clic en la pestaña ** Disfraces ** de tu chatbot, verás que tiene más de un disfraz.
+Si haces un clic en la pestaña **Disfraces ** de tu chatbot, verás que tiene más de un disfraz.
 
 ![disfraces del chatbot](images/chatbot-costume-view-annotated.png)
 
