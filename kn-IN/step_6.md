@@ -1,5 +1,5 @@
-## Challenge: more decisions
+## ಸವಾಲು: ಹೆಚ್ಚಿನ ನಿರ್ಧಾರಗಳು
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+"ಹೌದು" ಅಥವಾ "ಇಲ್ಲ" ಎಂದು ಉತ್ತರಿಸಬಹುದಾದ ಮತ್ತೊಂದು ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಲು ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಅನ್ನು ಪ್ರೋಗ್ರಾಂ ಮಾಡಿ. ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಯಾವ ಉತ್ತರವನ್ನು ಪಡೆಯುತ್ತದೆ ಎಂಬುದರ ಆಧಾರದ ಮೇಲೆ ವಿಭಿನ್ನವಾಗಿ ಪ್ರತಿಕ್ರಿಯಿಸುವಂತೆ ನೀವು ಮಾಡಬಹುದೇ?
 
-![screenshot](images/chatbot-joke.png)
+![ಸ್ಕ್ರೀನ್‍ಶಾಟ್ ಅಥವಾ ಪರದೆ ಚಿತ್ರ](images/chatbot-joke.png)
