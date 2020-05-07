@@ -4,7 +4,7 @@
 
 --- no-print ---
 
-点击绿旗开始。 使用鼠标移动铅笔，然后按住鼠标左键进行绘制。 单击颜色可更改铅笔。 单击橡皮擦更改为它，并使用它擦除您的工作。 要清除页面，请单击十字。
+点击绿旗开始。 使用鼠标移动铅笔，然后按住鼠标左键进行绘制。 单击颜色可更改铅笔。 单击橡皮擦更改为它，并使用它擦除你的工作。 要清除页面，请单击十字。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
