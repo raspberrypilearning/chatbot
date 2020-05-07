@@ -1,33 +1,33 @@
 ## 背景（はいけい）をかえる
 
-You can also program your chatbot to change its location!
+チャットボットのいるところの背景をかえることができます。
 
 ![背景をかえる](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+チャットボットが「月に行きたい？」と聞いた後、答えが「はい」の時に背景をかえることができますか？
 
 \--- ヒント \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+チャットボットが`「月に行きたい？」と聞いて`{:class="block3sensing"}、`もし`{:class="block3control"}あなたの`答え`{:class="block3sensing"}が「はい」ならば、`背景を月にする`{:class="block3looks"}ようにします。
 
 \--- /ヒント \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+こちらがチャットボットのコードに追加するコードブロックです。
 
-![nano sprite](images/nano-sprite.png)
+![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-switch backdrop to (moon v)
+背景を (月 v) にする
 
-ask [Do you want to go to the moon?] and wait
+[月に行きたい？] と聞いて待つ
 
-if <(answer) = [yes]> then 
+もし <(答え) = [はい]> なら 
 
 end
 ```
@@ -36,12 +36,12 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+コードは次のようになります。
 
 ```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+[月に行きたい？] と聞いて待つ
+もし <(答え) = [はい]> なら 
+  背景を (月 v) にする
 end
 ```
 
@@ -53,39 +53,39 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+ここで、チャットボットをクリックして話しかけたときに、チャットボットが正しい場所で開始されることをたしかめる必要があります。このブロックをチャットボットのコードの先頭に追加しましょう。
 
-![nano sprite](images/nano-sprite.png)
+![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+このスプライトが押されたとき
 
-+ switch backdrop to (space v)
++ 背景を (宇宙 v) にする
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+プログラムをテストし、チャットボットが月に行きたいかどうかを聞いたら「はい」と答えます。チャットボットの場所がかわることがわかります。
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+新しい`もし`{:class="block3control"}ブロックと次のコードを追加して、「はい」と答えたときに、チャットボットを4回上下にジャンプさせます。
 
-![nano sprite](images/nano-sprite.png)
+![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
+もし <(答え) = [はい]> なら 
+  背景を (月 v) にする
 
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
++  (4) 回繰り返す 
+    y座標を (10) ずつ変える
+    (0.1) 秒待つ
+    y座標を (-10) ずつ変える
+    (0.1) 秒待つ
   end
 end
 ```
