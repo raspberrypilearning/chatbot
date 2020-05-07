@@ -1,6 +1,6 @@
-## チャレンジ：質問（しつもん）をふやす
+## チャレンジ: 質問 (しつもん) をふやす
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+チャットボットがもう一つ他のことを聞いてくるようにプログラムしてみましょう。 答えを新しい変数に入れることができますか？
 
 ![質問をふやす](images/chatbot-question1.png)
 
