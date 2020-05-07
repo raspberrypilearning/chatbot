@@ -1,12 +1,12 @@
-## A talking chatbot
+## ಮಾತನಾಡುವ ಚಾಟ್‌ಬಾಟ್
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+ಈಗ ನೀವು ವ್ಯಕ್ತಿತ್ವದೊಂದಿಗೆ ಚಾಟ್‌ಬಾಟ್ ಹೊಂದಿದ್ದೀರಿ, ನಿಮ್ಮೊಂದಿಗೆ ಮಾತನಾಡಲು ನೀವು ಅದನ್ನು ಪ್ರೋಗ್ರಾಂ ಮಾಡಲು ಹೊರಟಿದ್ದೀರಿ.
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಸ್ಪ್ರೈಟ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ಮತ್ತು ಈ ಕೋಡ್ ಅನ್ನು ಅದಕ್ಕೆ ಸೇರಿಸಿ ಇದರಿಂದ `ಕ್ಲಿಕ್ ಮಾಡಿದಾಗ`{:class = "block3events"}, ಅದು `ನಿಮ್ಮ ಹೆಸರನ್ನು ಕೇಳುತ್ತದೆ`{:class = "block3sensing"} ಮತ್ತು ನಂತರ `"ಎಂತಹ ಸುಂದರ ಹೆಸರು!"` {:class = "block3looks"} ಎಂದು ಉತ್ತರಿಸುತ್ತದೆ.
 
-![nano sprite](images/nano-sprite.png)
+![ನ್ಯಾನೋ ಸ್ಪ್ರೈಟ್](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -18,21 +18,21 @@ say [What a lovely name!] for (2) seconds
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+ನಿಮ್ಮ ಕೋಡ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಲು ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಕ್ಲಿಕ್ ಮಾಡಿ. ಚಾಟ್‌ಬಾಟ್ ನಿಮ್ಮ ಹೆಸರನ್ನು ಕೇಳಿದಾಗ, ಅದನ್ನು ಸ್ಟೇಜಿನ ಕೆಳಭಾಗದಲ್ಲಿ ಗೋಚರಿಸುವ ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ, ತದನಂತರ ನೀಲಿ ಗುರುತು ಕ್ಲಿಕ್ ಮಾಡಿ, ಅಥವಾ <kbd>Enter</kbd> ನಮೂದಿಸಿ.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![ಚಾಟ್‌ಬಾಟ್ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![ಚಾಟ್‌ಬಾಟ್ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+ಇದೀಗ, ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಪ್ರತಿ ಬಾರಿ ನೀವು ಉತ್ತರಿಸುವಾಗ "ಎಂತಹ ಸುಂದರ ಹೆಸರು!" ಎಂಬ ಪ್ರತಿಕ್ರಿಯೇ ನೀಡುತ್ತದೆ. ನೀವು ಚಾಟ್‌ಬಾಟ್‌ನ ಉತ್ತರವನ್ನು ಹೆಚ್ಚು ವೈಯಕ್ತಿಕಗೊಳಿಸಬಹುದು, ಇದರಿಂದಾಗಿ ಪ್ರತಿ ಬಾರಿ ಬೇರೆ ಹೆಸರನ್ನು ಟೈಪ್ ಮಾಡಿದಾಗ ಉತ್ತರವು ವಿಭಿನ್ನವಾಗಿರುತ್ತದೆ.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+ಚಾಟ್‌ಬಾಟ್ ಸ್ಪ್ರೈಟ್‌ನ ಕೋಡ್ ನಲ್ಲಿ{:class = "block3sensing"} "ನಿಮ್ಮ ಹೆಸರು ಏನು?" ಎಂಬ ಪ್ರಶ್ನೆಗೆ {:class = "block3operators"} `ನಿಮ್ಮ ಉತ್ತರದೊಂದಿಗೆ` "ಹಾಯ್" `ಸೇರಸಿ` ಕೋಡ್ ಈ ರೀತಿ ಕಾಣುವಂತಾಗುತ್ತದೆ:
 
-![nano sprite](images/nano-sprite.png)
+![ನ್ಯಾನೋ ಸ್ಪ್ರೈಟ್](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -40,15 +40,15 @@ ask [What's your name?] and wait
 say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![ವೈಯಕ್ತಿಕರಿಸಿದ ಉತ್ತರವನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-answer-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+ಉತ್ತರವನ್ನು **ವೇರಿಯೇಬಲ್ನಲ್ಲಿ** ಸಂಗ್ರಹಿಸುವ ಮೂಲಕ, ನಿಮ್ಮ ಪ್ರೊಜೆಕ್ಟ್ನಲ್ಲಿ ಅದನ್ನು ನೀವು ಎಲ್ಲಿ ಬೇಕಾದರೂ ಬಳಸಬಹುದು.
 
-Create a new variable called `name`{:class="block3variables"}.
+`ಹೆಸರು` {:class = "block3variables"} ಎಂಬ ಹೊಸ ವೇರಿಯೇಬಲ್ ಅನ್ನು ರಚಿಸಿ.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,9 +56,9 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+ಈಗ, `name`{:class = "block3variables"} ಅನ್ನು `answer`{:class = "block3sensing"} ಗೆ ಹೊಂದಿಸಲು ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಸ್ಪ್ರೈಟ್‌ಗಳ ಕೋಡ್ ಅನ್ನು ಬದಲಾಯಿಸಿ:
 
-![nano sprite](images/nano-sprite.png)
+![ನ್ಯಾನೋ ಸ್ಪ್ರೈಟ್](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -68,10 +68,10 @@ ask [What's your name?] and wait
 say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+ನಿಮ್ಮ ಕೋಡ್ ಮೊದಲಿನಂತೆ ಕಾರ್ಯನಿರ್ವಹಿಸಬೇಕು: ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ನೀವು ಟೈಪ್ ಮಾಡಿದ ಹೆಸರನ್ನು ಬಳಸಿಕೊಂಡು ಹಾಯ್ ಎಂದು ಹೇಳಬೇಕು.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![ವೈಯಕ್ತಿಕರಿಸಿದ ಉತ್ತರವನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+ನಿಮ್ಮ ಪ್ರೋಗ್ರಾಂ ಅನ್ನು ಮತ್ತೆ ಪರೀಕ್ಷಿಸಿ. ನೀವು ಟೈಪ್ ಮಾಡಿದ ಉತ್ತರವನ್ನು `name`{:class="block3variables"} ವೇರಿಯೇಬಲ್ನಲ್ಲಿ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ ಎಂಬುದನ್ನು ಗಮನಿಸಿ, ಮತ್ತು ಇದನ್ನು ಸ್ಟೇಜಿನ ಮೇಲಿನ ಎಡ ಮೂಲೆಯಲ್ಲಿ ತೋರಿಸಲಾಗುತ್ತದೆ. ಸ್ಟೇಜಿನಿಂದ ಅದು ಕಣ್ಮರೆಯಾಗುವಂತೆ ಮಾಡಲು, `Variables`{:class="block3variables"} ಬ್ಲಾಕಿನ ವಿಭಾಗಕ್ಕೆ ಹೋಗಿ ಮತ್ತು `name`{:class="block3variables"} ಮುಂದಿನ ಪೆಟ್ಟಿಗೆಯ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ.
