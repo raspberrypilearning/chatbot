@@ -1,4 +1,4 @@
-## Your chatbot
+## הצ'אטבוט שלכם
 
 \--- task \---
 
@@ -31,6 +31,6 @@ The starter project contains four character sprites. One of these will be your c
 
 You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
-![Choose a character](images/chatbot-characters.png)
+![בחרו דמות](images/chatbot-characters.png)
 
 \--- /task \---
