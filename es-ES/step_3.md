@@ -56,7 +56,7 @@ Crea una nueva variable llamada `nombre`{:class="block3variables"}.
 
 \--- task \---
 
-Ahora, cambia el código del objeto de tu chatbot para asignar en el valor de la variable `nombre`{:class="block3variables"} la `respuesta`{:class="block3sensing"}:
+Ahora, cambia el código del sprite de tu chatbot para asignar en el valor de la variable `nombre`{:class="block3variables"} la `respuesta`{:class="block3sensing"}:
 
 ![objeto nano](images/nano-sprite.png)
 
