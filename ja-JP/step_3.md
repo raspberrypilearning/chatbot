@@ -1,24 +1,24 @@
 ## おしゃべりチャットボット
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+チャットボットのせいかくが決まったので、おしゃべりできるようにプログラムしましょう。
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+チャットボットのスプライトをクリックしてこのコードを追加 (ついか) し、`スプライトが押された (おされた) とき`{:class="block3events"}に`あなたの名前を聞いて`{:class="block3sensing"}、`「すてきな名前だね！」` {:class="block3looks"}と言うようにします。
 
-![nano sprite](images/nano-sprite.png)
+![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) seconds
+このスプライトが押されたとき
+[きみの名前は？] と聞いて待つ
+[すてきな名前だね！] と (2) 秒言う
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+チャットボットをクリックしてコードをテストします。チャットボットが名前を聞いたら、ステージの下部に表示されるボックスに名前を入力し、青いマークをクリックするか<kbd>Enter</kbd>をおします。
 
 ![チャットボットの答え](images/chatbot-ask-test1.png)
 
@@ -28,16 +28,16 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+今のところ、チャットボットは毎回「すてきな名前だね！」と答えます。ちがう名前が入力されるたびに返事をかえるようにすることで、もっと親しみやすくできます。
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+チャットボットのスプライトのコードを`～と～`{:class="block3operators"}に書きかえて、「やあ！」と「きみの名前は？」という質問 (しつもん) への`答え`{:class="block3sensing"}をつなげます。コードは次のようになります。
 
-![nano sprite](images/nano-sprite.png)
+![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+このスプライトが押されたとき
+[きみの名前は？] と聞いて待つ
+([やあ！] と (答え) :: +) と (2) 秒言う
 ```
 
 ![答えをかえてみる](images/chatbot-answer-test.png)
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+**変数** (へんすう) に答えを入れることで、プロジェクトのどの部分でも答えを使うことができます。
 
-Create a new variable called `name`{:class="block3variables"}.
+`名前`{:class="block3variables"}という新しい変数を作成 (さくせい) します。
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,22 +56,22 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+次に、チャットボットのスプライトのコードをかえて`名前`{:class="block3variables"}変数を`答え`{:class="block3sensing"}に設定 (せってい) します。
 
-![nano sprite](images/nano-sprite.png)
+![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
+このスプライトが押されたとき
+[きみの名前は？] と聞いて待つ
 
-+ set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ [名前 v] を (答え) にする
+([やあ！] と (名前 :: + variables)) と (2) 秒言う
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+前と同じようにコードは動きますが、チャットボットは入力された名前を使ってあいさつするはずです。
 
 ![答えをかえてみる](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+もう一度テストしてみましょう。 入力した答えは`名前`{:class="block3variables"}変数に保存 (ほぞん) されていて、ステージの左上すみにも表示されていることに注意してください。 ステージに表示されないようにするには、`変数`{:class="block3variables"}ブロックセクションから、`名前`{:class="block3variables"}のとなりにあるボックスをクリックしてチェックを外します。
