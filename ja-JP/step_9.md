@@ -1,10 +1,10 @@
-## What next?
+## 次は何をしましょうか？
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+お絵かきができるプログラムを作る、[ペイントボックス](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects)プロジェクトをやってみましょう！
 
 --- no-print ---
 
-Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+緑の旗 (はた) をクリックしてスタートします。 マウスを使ってえんぴつを動かし、マウスの左ボタンを押して絵をかきます。 色をクリックしてえんぴつをかえます。 消しゴムをクリックすると消しゴムにかわり、かいた絵を消すことができます。 ☓印をクリックすると、かいた絵がすべて消えます。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,8 +15,8 @@ Click on the green flag to start. Use the mouse to move the pencil, and hold dow
 
 --- print-only ---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. 色をクリックするとえんぴつの色がかわり、消しゴムをクリックすると消しゴムにかわります！
 
-![showcase](images/paint-box-showcase.png)
+![事例 (じれい) ](images/paint-box-showcase.png)
 
 --- /print-only ---
