@@ -8,11 +8,11 @@ This is the **Scratch 3** version of the project. There is also a [Scratch 2 ver
 
 You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### What you will make
+### কী তৈরি করতে হবে
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+কথোপকথন শুরু করতে সবুজ পতাকাটিতে ক্লিক করুন এবং তারপরে চ্যাটবোট চরিত্রটিতে ক্লিক করুন।. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
