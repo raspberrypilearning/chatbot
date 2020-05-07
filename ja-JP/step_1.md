@@ -6,13 +6,13 @@
 
 ## はじめに
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+お話しができるキャラクターをプログラムする方法を学びます。このようなキャラクターのことをチャットロボットまたはチャットボットと言います。
 
 ### 作るもの
 
 \--- no-print \---
 
-緑の旗 (はた) をクリックし、チャットボットのキャラクターをクリックして会話を始めましょう。 When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+緑の旗 (はた) をクリックし、チャットボットのキャラクターをクリックして会話を始めましょう。 チャットボットが質問 (しつもん) をしたら、ステージの下部にあるボックスに答えを入力します。そして右にある青いマークをクリックして（または`Enter`をおして）チャットボットの返答を見ましょう。
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +23,7 @@ You are going to learn how to program a character that can talk to you! A charac
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![完成 (かんせい) したプロジェクト](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -39,32 +39,32 @@ You are going to learn how to program a character that can talk to you! A charac
 
 - Scratch 3 ([オンライン](https://rpf.io/scratchon)または[オフライン](https://rpf.io/scratchoff))
 
-### Downloads
+### ダウンロード
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [ここからダウンロードするファイルをさがす](http://rpf.io/p/en/chatbot-go)
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: 学ぶこと
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
+- Scratch でコードを使って文字列を連結 (れんけつ) する
+- 変数 (へんすう) を使ってユーザーの入力を保存 (ほぞん) できることを知る
 - Use conditional selection to respond to user input in Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## タイトル：教育者向けの追加メモ
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_ blank"}を使用してください。
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+[ここで完成したプロジェクト](http://rpf.io/p/en/chatbot-get)を見ることができます 。
 
 \--- /collapse \---
