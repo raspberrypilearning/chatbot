@@ -1,36 +1,36 @@
-## Your chatbot
+## आपका चैटबॉट
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+इससे पहले कि आप अपनी चैटबोट बनाना शुरू करें, आपको यह तय करने की आवश्यकता है कि इसका व्यक्तित्व क्या है। ** निम्नलिखित प्रश्नों के बारे में सोचें **:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ चैटबॉट का नाम क्या है?
++ वो कहाँ रहता है?
++ क्या वह खुश है? गंभीर? मजेदार? संकोच? अनुकूल?
++ उसकी पसंद और नापसंद क्या है?
 
 \--- /task \---
 
 \--- task \---
 
-Open the Chatbot Scratch starter project.
+चैटबोट स्क्रैच स्टार्टर प्रोजेक्ट खोलें।
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**ऑनलाइन:** [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें।
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+यदि आपके पास एक स्क्रैच खाता है, तो आप ** रीमिक्स** पर क्लिक करके कौपी बना सकते हैं।
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+** ऑफ़लाइन: ** स्टार्टर प्रोजेक्ट को [ rpf.io/p/en/chatbot-go ](http://rpf.io/p/en/chatbot-go) {:target= "_ blank"} से डाउनलोड करें और फिर इसे ऑफ़लाइन ऐडिटर का उपयोग करके खोलें।
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+यदि आपको स्क्रैच ऑफ़लाइन ऐडिटर को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इस [https://rpf.io/scratchoff](rpf.io/scratchoff) {:target="_blank"} पर पा सकते हैं।
 
 \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+स्टार्टर प्रोजेक्ट में चार वर्ण स्प्राइट होते हैं। इनमें से एक आपका चैटबॉट होगा।
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+आप या तो पहले से चुने गए स्प्राइट का उपयोग कर सकते हैं, या आप जो चाहते हैं उस पर क्लिक करके एक अलग चुन सकते हैं और फिर ** देखना **या ** छिपाना **आय आइकन का चयन कर सकते हैं मंच के नीचे स्प्राइट मेनू से।
 
-![Choose a character](images/chatbot-characters.png)
+![एक कैरेक्टर चुनें](images/chatbot-characters.png)
 
 \--- /task \---
