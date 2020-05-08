@@ -1,21 +1,20 @@
-## Making decisions
+## முடிவுகளை எடுத்தல்
 
-You can program your chatbot to decide what to do based on the answers it receives.
+உங்கள் சாட்போட்டைப் பெறும் பதில்களின் அடிப்படையில் என்ன செய்ய வேண்டும் என்பதைத் தீர்மானிக்க நீங்கள் அதை ப்ரொக்ராம் செய்யலாம்.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+முதலில், உங்கள் சாட்போட் "ஆம்" அல்லது "இல்லை" என்று பதிலளிக்கக்கூடிய கேள்வியைக் கேட்க வைக்கப் போகிறீர்கள்.
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+உங்கள் சாட்போட்டின் Codeஐ மாற்றவும். உங்கள் சாட்போட் `name`{:class="block3variables"} variable-ஐ பயன்படுத்தி "நீங்கள் நன்றாக இருக்கிறீர்களா name" என்ற கேள்வியைக் கேட்க வேண்டும். பின்னர், அதற்க்கு "ஆம்"(yes) என்று பதில் `வந்தால்0>{:class="block3control"}, "கேட்க மிகவும் நன்றாக உள்ளது!" என்ற திரும்ப சொல்ல வேண்டும். அதற்கு "இல்லை" என்று பதில் வந்தால் எதுவும் சொல்லக் கூடாது.</p>
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+<p><img src="images/chatbot-if-test1-annotated.png" alt="Testing a chatbot reply" /></p>
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+<p><img src="images/chatbot-if-test2.png" alt="Testing a chatbot reply" /></p>
 
-![nano sprite](images/nano-sprite.png)
+<p><img src="images/nano-sprite.png" alt="nano sprite" /></p>
 
-```blocks3
-when this sprite clicked
+<pre><code class="blocks3">when this sprite clicked
 ask [What's your name?] and wait
 set [name v] to (answer)
 say (join [Hi ] (name)) for (2) seconds
@@ -23,7 +22,7 @@ say (join [Hi ] (name)) for (2) seconds
 +if <(answer) = [yes]> then 
   say [That's great to hear!] for (2) seconds
 end
-```
+`</pre> 
 
 To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
 
