@@ -13,15 +13,15 @@
 
 \--- task \---
 
-Open the Chatbot Scratch starter project.
+「チャットボット」の基本 (きほん) のプロジェクトを開きます。 
 
-**オンライン:** [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} から基本 (きほん) のプロジェクトを開きます。
+**オンライン:** [rpf.i/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} から基本のプロジェクトを開きます。
 
 Scratch アカウントを持っている場合は、**リミックス**をクリックしてプロジェクトのコピーを作ることができます。
 
 **オフライン:** [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}から基本のプロジェクトをダウンロードして、オフラインエディターで開きます。
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+Scratch オフラインエディターは[https://rpf.io/scratchoff](rpf.io/scratchoff)からダウンロードしてインストールできます。
 
 \--- /task \---
 
