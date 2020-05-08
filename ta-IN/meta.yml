@@ -1,31 +1,31 @@
 ---
-title: Chatbot
-hero_image: images/chatbot.png
-description: Learn how to program your own talking robot!
-theme: violet
+title: சாட்போட்
+hero_image: படங்கள்/chatbot.png
+description: உங்கள் சொந்த பேசும் ரோபோவை எவ்வாறு நிரல் செய்வது என்பதை அறிக!
+theme: ஊதா
 listed: true
 copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introduction
+    title: முன்னுரை
   - 
-    title: Your chatbot
+    title: உங்கள் சாட்போட்
   - 
-    title: A talking chatbot
+    title: பேசும் சாட்போட்
   - 
-    title: "Challenge: more questions"
+    title: "சவால்: மேலும் சில கேள்விகள்"
     challenge: true
   - 
-    title: Making decisions
+    title: முடிவுகளை எடுத்தல்
   - 
-    title: "Challenge: more decisions"
+    title: "சவால்: மேலும் சில முடிவுகள்"
     challenge: true
   - 
-    title: Changing location
+    title: இருப்பிடத்தை மாற்றுதல்
   - 
-    title: "Challenge: finish your chatbot"
+    title: "சவால்: உங்கள் சாட்போட் ப்ரொக்ராமை நிறைவு செய்யவும்"
     challenge: true
   - 
-    title: What next?
+    title: அடுத்தது என்ன?
