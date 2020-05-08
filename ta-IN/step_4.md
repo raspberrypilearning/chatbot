@@ -1,7 +1,7 @@
-## Challenge: more questions
+## சவால்: மேலும் சில கேள்விகள்
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+மற்றொரு கேள்வியைக் கேட்க உங்கள் சாட்போட்டை ப்ரொக்ராம் செய்யவும். இந்த புதிய கேள்விக்கான பதிலை புதிய variable-ல் சேமிக்க முடியுமா என்று முயற்சிக்கவும்?
 
-![More questions](images/chatbot-question1.png)
+![மேலும் கேள்விகள்](images/chatbot-question1.png)
 
-![More questions](images/chatbot-question2.png)
+![மேலும் கேள்விகள்](images/chatbot-question2.png)
