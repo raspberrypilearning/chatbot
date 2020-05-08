@@ -15,7 +15,7 @@
 
 --- print-only ---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. 色をクリックするとえんぴつの色がかわり、消しゴムをクリックすると消しゴムにかわります！
+緑の旗をクリックして始めます。マウスを使ってえんぴつを動かし、マウスの左ボタンを押して絵をかきます。 色をクリックするとえんぴつの色がかわり、消しゴムをクリックすると消しゴムにかわります！
 
 ![事例 (じれい) ](images/paint-box-showcase.png)
 
