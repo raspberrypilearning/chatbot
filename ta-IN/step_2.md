@@ -1,36 +1,36 @@
-## Your chatbot
+## உங்கள் சாட்போட்
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+உங்கள் சாட்போட்டை உருவாக்கத் தொடங்குவதற்கு முன், அதன் திறன்கள் என்ன என்பதை நீங்கள் தீர்மானிக்க வேண்டும். **பின்வரும் கேள்விகளைப் பற்றி சிந்தியுங்கள்**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ உங்கள் சாட்போட்டின் பெயர் என்ன?
++ அது எங்கே வசிக்கிறது?
++ அது மகிழ்ச்சியானதா? கடுமையானதா? வேடிக்கையானதா? கூச்சமுடையதா? நட்பானதா?
++ அது எதை விரும்புகிறது மற்றும் விரும்பவில்லை?
 
 \--- /task \---
 
 \--- task \---
 
-Open the Chatbot Scratch starter project.
+சாட்போட் ஸ்க்ராட்ச் ஸ்டார்டர் ப்ரொஜெக்ட்டை திறக்கவும்.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**ஆன்லைன்:** ஒரு புதிய ஸ்டார்டர் ப்ரொஜெக்ட்டை [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target = "_ blank"} இல் திறக்கவும்.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+உங்களிடம் ஸ்க்ராட்ச் அக்கவுண்ட் இருந்தால் **Remix** என்பதைக் கிளிக் செய்வதன் மூலம் காப்பியை உருவாக்கலாம்.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**ஆஃப்லைன்:** ஸ்டார்டர் ப்ரொஜெக்ட்டை [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){: target = "_ blank"} இலிருந்து பதிவிறக்கவும் பின்னர் ஆஃப்லைன் எடிட்டரைப் பயன்படுத்தி திறக்கவும்.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+ஸ்க்ராட்ச் ஆஃப்லைன் எடிட்டரை நீங்கள் பதிவிறக்கி நிறுவ வேண்டும் என்றால், அதை [https://rpf.io/scratchoff](rpf.io/scratchoff){:target="_blank"} என்ற லின்க்-ல் காணலாம்.
 
 \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+ஸ்டார்டர் ப்ரொஜெக்ட்டில் நான்கு விதமான ஸ்பிரைட்ஸ் உள்ளன. இவற்றில் ஒன்று உங்கள் சாட்போட் ஆகும்.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+நீங்கள் ஏற்கனவே தேர்ந்தெடுக்கப்பட்ட ஸ்பிரைட்டைப் பயன்படுத்தலாம், அல்லது நீங்கள் விரும்பும் மற்றொன்றை ஒன்றைக் கிளிக் செய்யலாம், அதன் பின்னர் ஸ்டெஜ்க்கு கீழே உள்ள ஸ்ப்ரைட் மெனுவிலிருந்து கண் ஐகானை **Show** அல்லது **Hide** செய்க.
 
-![Choose a character](images/chatbot-characters.png)
+![ஒரு பாத்திரத்தை தேர்வுசெய்க](images/chatbot-characters.png)
 
 \--- /task \---
