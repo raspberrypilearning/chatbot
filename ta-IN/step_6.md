@@ -1,5 +1,5 @@
-## Challenge: more decisions
+## சவால்: மேலும் சில முடிவுகள்
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+"ஆம்" அல்லது "இல்லை" என்று பதிலளிக்கக்கூடிய மற்றொரு கேள்வியைக் கேட்க உங்கள் சாட்போட்டை ப்ரொக்ராம் செய்யவும். உங்கள் சாட்போட் எந்த பதிலைப் பெறுகிறது என்பதைப் பொறுத்து வித்தியாசமாக பதிலளிக்க முடியுமா?
 
-![screenshot](images/chatbot-joke.png)
+![ஸ்கிரீன்ஷாட்](images/chatbot-joke.png)
