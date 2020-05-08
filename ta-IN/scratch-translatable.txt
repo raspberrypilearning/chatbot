@@ -1,14 +1,14 @@
-What's your name?
+உங்கள் பெயர் என்ன?
 
-What a lovely name!
+என்ன ஒரு அழகான பெயர்!
 
-Hi
+வணக்கம்
 
-name
+பெயர்
 
-Where do you live?
+நீங்கள் எங்கு வசிக்கிறீர்கள்?
 
-place
+இடம்
 
 I've never been to
 
