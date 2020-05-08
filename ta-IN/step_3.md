@@ -1,12 +1,12 @@
-## A talking chatbot
+## பேசும் சாட்போட்
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+இப்போது நீங்கள் ஒரு தனிதிறனுள்ள ஒரு சாட்போட் வைத்திருக்கிறீர்கள், உங்களுடன் பேச அதை ப்ரொக்ராம் செய்யப் போகிறீர்கள்.
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+உங்கள் சாட்போட் ஸ்பிரைட்டைக் கிளிக் செய்து, இந்த Codeஐ அதில் சேர்க்கவும், அதனால் `கிளிக் செய்யப்படும் போது`{:class="block3events"}, அத`உங்கள் பெயரைக் கேட்கும்`{:class="block3sensing"} அதன் பின்னர் `"என்ன ஒரு அழகான பெயர்!"`{:class="block3looks"} என்று பதில் அளிக்கும்.
 
-![nano sprite](images/nano-sprite.png)
+![நானோ ஸ்பிரிட்](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -18,21 +18,21 @@ say [What a lovely name!] for (2) seconds
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+உங்கள் Codeஐ சரிபார்க்க உங்கள் சாட்போட்டைக் கிளிக் செய்க. சாட்போட் உங்கள் பெயரைக் கேட்கும்போது, ஸ்டெஜ் கீழே தோன்றும் பெட்டியில் பெயரை தட்டச்சு செய்து, பின்னர் நீல நிறக் குறியைக் கிளிக் செய்யவும் அல்லது <kbd>Enter</kbd> ஐ அழுத்தவும்.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![சாட்போட் பதிலைச் சோதித்தல்](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![சாட்போட் பதிலைச் சோதித்தல்](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+இப்போது, உங்கள் சாட்போட் "என்ன ஒரு அழகான பெயர்!" என ஒவ்வொரு முறையும் பதிலளிக்கும். நீங்கள் சாட்போட்டின் பதிலை உங்கள் விருப்பத்திற்க்கு மாற்றலாம், இதன்மூலம் ஒவ்வொரு முறையும் வேறு பெயர் தட்டச்சு செய்யும் போது வெவ்வேறு பதில் கிடைக்கும்.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+சாட்போட் ஸ்ப்ரைட்டின் Codeஐ "உங்கள் பெயர் என்ன?" கேள்விக்கு `பதிலாக</0{:class="block3sensing"} "Hi" <code>சேர்ந்து வருமாறு`{:class="block3operators"} மாற்றவும், இதன் மூலம் Code பின்வருவது போல் தெரியும்:
 
-![nano sprite](images/nano-sprite.png)
+![நானோ ஸ்பிரிட்](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -40,15 +40,15 @@ ask [What's your name?] and wait
 say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![தனிப்பதிலைச் சோதித்தல்](images/chatbot-answer-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+பதிலை **variable-ல்** சேமிப்பதன் மூலம், உங்கள் ப்ரொஜெக்ட்டை எங்கும் பயன்படுத்தலாம்.
 
-Create a new variable called `name`{:class="block3variables"}.
+`name`{: class = "block3variables"} எனப்படும் புதிய variable உருவாக்கவும்.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,9 +56,9 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+இப்போது, சாட்போட் ஸ்பிரிட்ஸ் பின் வரும் Codeஐ மாற்றவும், `name`{:class="block3variables"} variable-க்கு `பதிலை`{:class="block3sensing"} set செய்யவும்:
 
-![nano sprite](images/nano-sprite.png)
+![நானோ ஸ்பிரிட்](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -68,10 +68,10 @@ ask [What's your name?] and wait
 say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+உங்கள் Code முன்பு போலவே செயல்பட வேண்டும்: நீங்கள் தட்டச்சு செய்யும் பெயரைப் பயன்படுத்தி உங்கள் சாட்போட் ஹாய் என்று சொல்ல வேண்டும்.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![தனிப்பதிலைச் சோதித்தல்](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+உங்கள் Codeஐ மீண்டும் சோதிக்கவும். நீங்கள் தட்டச்சு செய்யும் பதில் `name`{:class="block3variables"} என்ற variables-ல் சேமிக்கப்படுகிறது என்பதைக் கவனியுங்கள்.மேலும் இது ஸ்டெஜ்-இன் மேல்-இடது மூலையிலும் காட்டப்படுகிறது. இது ஸ்டெஜ்-லிருந்து மறைந்து போக,`Variables`{:class="block3variables"} ப்ளாக் பகுதிக்கு செல்லவும், பிறகு `name`க்கு அடுத்துள்ள பெட்டியைக் கிளிக் செய்க.இதனால் அந்த பெட்டி mark செய்யப்படாமல் இருக்கும்.
