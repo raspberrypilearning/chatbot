@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+இது ப்ரொஜெக்டின், **ஸ்க்ராட்ச் 3ம்** பதிப்பு. இது போல [ஸ்க்ராட்ச் 2ம்](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) பதிப்பும் உள்ளது.
 
 \--- /no-print \---
 
-## Introduction
+## முன்னுரை
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+இந்த பகுதியில், உங்களுடன் பேசக்கூடிய ஒரு பாத்திரத்தை ப்ரொக்ராம் செய்வது எப்படி என்று நீங்கள் கற்றுக் கொள்ளப் போகிறீர்கள்! இந்த பாத்திரம் ஒரு சேட் ரோபொட் அல்லது சேட்போட் என்று அழைக்கப்படுகிறது.
 
-### What you will make
+### நீங்கள் உருவாக்கப் போவது
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+பச்சைக் கொடி மேல் கிளிக் செய்து, பின்னர் உரையாடலைத் தொடங்க Chatbot பாத்திரத்தை கிளிக் செய்க. Chatbot ஒரு கேள்வியைக் கேட்கும்போது, உங்கள் பதிலை Stageக்கு கீழே உள்ள பெட்டியில் டைப் செய்க. பின்னர் Chatbot-n பதிலைக் காண, வலதுபுறத்தில் உள்ள நீல நிறக் குறியைக் கிளிக் செய்க (அல்லது `Enter` கீயை ஐ அழுத்தவும்).
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,48 +23,48 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![நிறைவு செய்யப்பட்ட ப்ரொஜெக்ட்](images/chatbot-preview.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## தலைப்பு: உங்களுக்கு தேவையானவை
 
-### Hardware
+### வன்பொருள் (ஹார்டுவேர்)
 
-- Computer capable of running Scratch 3
+- ஸ்க்ராட்ச் 3 ஐ இயக்கும் திறன் கொண்ட கணினி (கம்ப்யூட்டர்)
 
-### Software
+### மென்பொருள் (சாஃப்ட்வேர்)
 
-- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
+- ஸ்க்ராட்ச் 3
 
-### Downloads
+### பதிவிறக்கங்கள்
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
-
-\--- /collapse \---
-
-## \--- collapse \---
-
-## title: What you will learn
-
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch
+- பதிவிறக்கம் செய்ய வேண்டிய கோப்புகளைக் இங்கே காணவும்.
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## தலைப்பு: நீங்கள் என்ன கற்றுக் கொள்வீர்கள்
+
+- ஸ்க்ராட்ச்சில், வார்த்தைகளை இணைக்க தேவையான கோடிங் பற்றி தெரிந்துக் கொள்வீர்கள்
+- உபயோகிப்பாளர் உள் செலுத்துவதை சேமிக்க பயன்படுத்தப்படுத்தப்படும் வேரியபல்களை அறிந்து கொள்வீர்கள்
+- நிபந்தனைக்குட்பட்ட தேர்வை பொருத்து உபயோகிப்பாளரின் உள்ளீட்டிற்கு (இன்புட்) எவ்வாறு பதிலளித்தல்.
+
+\--- /collapse \---
+
+## \--- collapse \---
+
+## தலைப்பு: கல்வியாளர்களுக்கான கூடுதல் குறிப்புகள்
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+இந்த ப்ரொஜெக்ட்டை நீங்கள் ப்ரிண்ட் செய்ய வேண்டும் என்றால், தயவுசெய்து [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"} ஐ பயன்படுத்தவும்.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+[நிறைவு செய்யப்பட்ட ப்ரொஜெக்ட்டை](http://rpf.io/p/en/chatbot-get) இங்கே காணலாம்.
 
 \--- /collapse \---
