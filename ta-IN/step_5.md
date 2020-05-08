@@ -8,11 +8,11 @@
 
 உங்கள் சாட்போட்டின் Codeஐ மாற்றவும். உங்கள் சாட்போட் `name`{:class="block3variables"} variable-ஐ பயன்படுத்தி "நீங்கள் நன்றாக இருக்கிறீர்களா name" என்ற கேள்வியைக் கேட்க வேண்டும். பின்னர், அதற்க்கு "ஆம்"(yes) என்று பதில் `வந்தால்0>{:class="block3control"}, "கேட்க மிகவும் நன்றாக உள்ளது!" என்ற திரும்ப சொல்ல வேண்டும். அதற்கு "இல்லை" என்று பதில் வந்தால் எதுவும் சொல்லக் கூடாது.</p>
 
-<p><img src="images/chatbot-if-test1-annotated.png" alt="Testing a chatbot reply" /></p>
+<p><img src="images/chatbot-if-test1-annotated.png" alt="சாட்போட் பதிலைச் சோதித்தல்" /></p>
 
-<p><img src="images/chatbot-if-test2.png" alt="Testing a chatbot reply" /></p>
+<p><img src="images/chatbot-if-test2.png" alt="சாட்போட் பதிலைச் சோதித்தல்" /></p>
 
-<p><img src="images/nano-sprite.png" alt="nano sprite" /></p>
+<p><img src="images/nano-sprite.png" alt="நானோ ஸ்பிரிட்" /></p>
 
 <pre><code class="blocks3">when this sprite clicked
 ask [What's your name?] and wait
@@ -24,19 +24,19 @@ say (join [Hi ] (name)) for (2) seconds
 end
 `</pre> 
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+உங்கள் புதிய Codeஐ சரியாக சோதிக்க, நீங்கள் அதை "ஆம்"(yes) என்ற பதிலுடனும், "இல்லை"(no) என்ற பதிலுடனும் **இரண்டு முறை**: சோதிக்க வேண்டும்.
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+இந்த நேரத்தில், உங்கள் சாட்போட் "இல்லை" என்ற பதிலுக்கு எதுவும் சொல்லக் கூடாது.
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+உங்கள் சாட்போட்டின் Codeஐ பின் கொண்டவாறு மாற்றவும், அது "நீங்கள் நன்றாக இருக்கிறீர்களா name" என்ற கேள்விக்கு "இல்லை(no)" என்று பதிலாக பெற்றால் , "Oh no!" என்று திரும்ப சொல்ல வேண்டும்.
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+`if, then`{:class="block3control"} என்ற பகுதியை `if, then, else`{:class="block3control"} பகுதியாக மாற்றவும். மேலும்,உங்கள் சாட்போட் "Oh no!"</code>{:class="block3looks"} என்று பதிலளிக்குமாறு Code செய்யவும். 
 
-![nano sprite](images/nano-sprite.png)
+![நானோ ஸ்பிரிட்](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -56,31 +56,31 @@ end
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Test your code. நீங்கள் "இல்லை"(no) என்று பதிலளிக்கும் போது "ஆம்"(yes) என்று பதிலளிக்கும் போது உங்கள் சாட்போடிடம் இருந்து வெவ்வேறு பதிலைப் பெற வேண்டும்: நீங்கள் "ஆம்"((yes - இது கேப்பிடல்/ஸ்மால் கேஸாக இருக்கலாம்) என்று பதிலளிக்கும் போது, உங்கள் சாட்போட் "கேட்க மிகவும் நல்லது!" என்றும், மற்ற பதிலுக்கு "Oh no!" என்றும் கூற வேண்டும்.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![சாட்போட் பதிலைச் சோதித்தல்](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![சாட்போட்டின் ஆம்/இல்லை பதிலைச் சோதித்தல்](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+உங்கள் சாட்போட் பேசுவதற்கான Code மட்டுமல்லாமல்,நீங்கள் வேறு எந்த Codeயும் `if, then, else`{:class="block3control"} பகுதியினுள் வைக்கலாம்!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+உங்கள் சாட்போட்டின் **Costumes** என்று இருக்கும் பகுதியைக் கிளிக் செய்தால், ஒன்றுக்கு மேற்பட்ட costume இருப்பதை நீங்கள் காண்பீர்கள்.
 
-![chatbot costumes](images/chatbot-costume-view-annotated.png)
+![சாட்போட் Costume-கள்](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+உங்கள் பதிலைத் டைப் செய்யும் போது சாட்போட் costume-களை மாற்றுமாறு, உங்கள் சாட்போட்டின் Codeஐ மாற்றவும்.
 
-![Testing a changing costume](images/chatbot-costume-test1.png)
+![Costume மாறுதலை சோதித்தல்](images/chatbot-costume-test1.png)
 
-![Testing a changing costume](images/chatbot-costume-test2.png)
+![Costume மாறுதலை சோதித்தல்](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+`if, then, else`{:class="block3control"} பகுதியில் உள்ள Codeஐ `switch costume`{:class="block3looks"} பகுதிக்கு மாற்றவும் 
 
-![nano sprite](images/nano-sprite.png)
+![நானோ ஸ்பிரிட்](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -98,21 +98,21 @@ else
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+உங்கள் Codeஐ சோதித்து சேவ் செய்யவும். உங்கள் பதிலைப் பொறுத்து உங்கள் சாட்போட்டின் முகம் மாற வேண்டும்.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+உங்கள் சாட்போட்டின் costume மாறிய பிறகு, அது அப்படியே இருக்கும், ஆரம்பத்தில் இருந்ததை போல் மாறாது என்பதை நீங்கள் கவனித்தீர்களா?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+நீங்கள் இதை முயற்சி செய்யலாம்: உங்கள் Codeஐ ரன் செய்து "இல்லை"(no) என்று பதிலளிக்கவும், இதனால் உங்கள் சாட்போட்டின் முகம் மகிழ்ச்சியற்ற தோற்றத்திற்கு மாறுகிறது. உங்கள் Codeஐ மீண்டும் ரன் செய்யவும், உங்கள் சாட்போட் உங்கள் பெயரைக் கேட்பதற்கு முன்பு மகிழ்ச்சியான முகமாக மாறாது என்பதைக் கவனியுங்கள்.
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Costume பிழை](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+இந்த சிக்கலை சரிசெய்ய, `ஸ்பிரிட்டை க்ளிக் செய்யும்பொது`{:class="block3events"}, உங்கள் சாட்போட் Codeஐ `switch costume`{:class="block3looks"} தொடக்கத்தில் சேர்க்கவும்.
 
-![nano sprite](images/nano-sprite.png)
+![நானோ ஸ்பிரிட்](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -121,6 +121,6 @@ when this sprite clicked
 ask [What's your name?] and wait
 ```
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![Costume சரிசெய்தல் சோதனை](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
