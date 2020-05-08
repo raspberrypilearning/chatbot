@@ -1,10 +1,10 @@
-## What next?
+## அடுத்தது என்ன?
 
-Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
+[பெயிண்ட் பாக்ஸ்](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) ப்ரொஜெக்ட்டை முயற்சிக்கவும், அங்கு நீங்கள் உங்கள் சொந்த பெயிண்ட்டிங் ப்ரொக்ராமை உருவாக்க முயல்வீர்கள்!
 
 --- no-print ---
 
-Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+பச்சைக் கொடியைக் கிளிக் செய்து தொடங்குக. பென்சிலை நகர்த்த மவுஸை பயன்படுத்தவும், வரைய இடது மவுஸ் பட்டனை அழுத்தவும். பென்சில்களை மாற்ற வண்ணத்தில் சொடுக்கவும். அழிப்பான்(எரேஸர்) மீது கிளிக் செய்து அதை மாற்றவும், உங்கள் பெயிண்ட்டிங்கை அழிக்க அதைப் பயன்படுத்தவும். இந்த பக்கத்தில் வரைந்ததை அழிக்க, கிராஸ் பட்டனை க்ளிக் செய்யவும்.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -15,8 +15,8 @@ Click on the green flag to start. Use the mouse to move the pencil, and hold dow
 
 --- print-only ---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+நீங்கள் வரைய தொடங்குவதற்கு பச்சைக் கொடியைக் கிளிக் செய்க, மேலும் நீங்கள் பென்சிலை நகர்த்த மவுஸை பயன்படுத்தவும், வரைய இடது மவுஸ் பட்டனை அழுத்திப் பிடிக்கவும். ஒரு வண்ணத்தைக மேல் கிளிக் செய்தால் பென்சில் வண்ணங்கள் மாறும், மற்றும் அழிப்பான்(எரேஸர்) ஐகான் மேல் கிளிக் செய்வதன் மூலம் பென்சில், அழிப்பானாக(எரேஸர்) மாறும்!
 
-![showcase](images/paint-box-showcase.png)
+![காட்சி பெட்டி](images/paint-box-showcase.png)
 
 --- /print-only ---
