@@ -1,12 +1,12 @@
 ## Прийняття рішень
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Ти можеш запрограмувати свого чат-бота, щоб він вирішував що робити на основі відповідей, які отримує.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Спочатку, ти запрограмуєш свого чат-бота задавати питання, на яке можна відповісти "так" або "ні".
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Зміни код свого чат-бота. Твій чат-бот має запитувати "В тебе все гаразд, <ім’я>", використовуючи змінну `ім’я`{:class="block3variables"}. Далі він має відповісти "Чудово!", `якщо`{:class="block3control"} отримує відповідь "так", і нічого не казати, якщо відповідь "ні".
 
 ![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
@@ -25,15 +25,15 @@ say (join [Hi ] (name)) for (2) seconds
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Щоб правильно перевірити свій новий код, потрібно зробити це **двічі**: один раз з відповіддю "так" і один раз з відповіддю "ні".
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+Наразі твій чат-бот нічого не каже після відповіді "ні".
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Зміни код свого чат-бота так, щоб він відповідав "О ні!", якщо отримує відповідь "ні" на питання "В тебе все гаразд, <ім’я>".
 
 Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
 
