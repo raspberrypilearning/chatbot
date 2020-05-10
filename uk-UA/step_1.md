@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Це — версія проєкту для **Скретч 3**. Також існує [версія проєкту для Скретч 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
 ## Вступ
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Ти дізнаєшся, як запрограмувати персонажа, який може з тобою говорити! Такого персонажа називають чат-роботом або чат-ботом.
 
-### Що ви будете робити
+### Що ти зробиш
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Натисни на зелений прапорець, а потім на персонажа чат-бота, щоб розпочати розмову. Коли чат-бот поставить запитання, введи свою відповідь у поле в нижній частині Сцени та клацни на синю позначку праворуч (або натисни `Enter`), щоб побачити відповідь чат-бота.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -29,27 +29,27 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Що тобі знадобиться
 
-### Hardware
+### Обладнання
 
-- Computer capable of running Scratch 3
+- Комп'ютер, що підтримує Скретч 3
 
-### Software
+### Програмне забезпечення
 
-- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
+- Скретч 3 ([онлайн](https://rpf.io/scratchon) або [офлайн](https://rpf.io/scratchoff))
 
-### Downloads
+### Завантаження
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Знайди файли для завантаження тут](http://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Чого ти навчишся
 
-- Use code to concatenate strings in Scratch
+- Використовувати код для з’єднання рядків у Скретч
 - Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
