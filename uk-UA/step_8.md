@@ -2,10 +2,10 @@
 
 Використай те, що вивчено, для завершення створення свого інтерактивного чат-бота. Ось деякі ідеї:
 
-![ChatBot ideas](images/chatbot-ideas1.png)
+![ідеї для Чат-бота](images/chatbot-ideas1.png)
 
-![ChatBot ideas](images/chatbot-ideas2.png)
+![ідеї для Чат-бота](images/chatbot-ideas2.png)
 
-![ChatBot ideas](images/chatbot-ideas3.png)
+![ідеї для Чат-бота](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+Після того, як завершиш свого чат-бота, дай своїм друзям поспілкуватися з ним! Чи подобається їм твій персонаж? Чи бачать вони якісь проблеми?
