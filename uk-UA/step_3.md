@@ -1,4 +1,4 @@
-## A talking chatbot
+## Чат-бот, що розмовляє
 
 Now that you have a chatbot with a personality, you're going to program it to talk to you.
 
