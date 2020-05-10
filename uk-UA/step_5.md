@@ -65,21 +65,21 @@ end
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Ти можеш помістити будь-який код всередину блоку `якщо, то, інакше`{:class="block3control"}, не лише код, щоб твій чат-бот розмовляв!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Якщо ти клацнеш на вкладку чат-бота **Образи**, то побачиш, що там більше одного образа.
 
 ![chatbot costumes](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Зміни код чат-бота, щоб він змінював образи, коли ти ввів свою відповідь.
 
 ![Testing a changing costume](images/chatbot-costume-test1.png)
 
 ![Testing a changing costume](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Зміни код всередині блока `якщо, то, інакше`{:class="block3control"}, щоб `змінити образ`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -99,7 +99,7 @@ else
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Протестуй та збережи свій код. Ти маєш побачити, як обличчя твого чат-бота змінюється в залежності від твоєї відповіді.
 
 \--- /task \---
 
