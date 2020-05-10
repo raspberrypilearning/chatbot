@@ -1,7 +1,7 @@
 ---
-title: Chatbot
+title: Чат-бот
 hero_image: images/chatbot.png
-description: Learn how to program your own talking robot!
+description: Дізнайся, як програмувати власного робота-співрозмовника!
 theme: violet
 listed: true
 copyedit: false
@@ -9,23 +9,23 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introduction
+    title: Вступ
   - 
-    title: Your chatbot
+    title: Твій чат-бот
   - 
-    title: A talking chatbot
+    title: Чат-бот, що розмовляє
   - 
-    title: "Challenge: more questions"
+    title: "Завдання: більше питань"
     challenge: true
   - 
-    title: Making decisions
+    title: Прийняття рішень
   - 
-    title: "Challenge: more decisions"
+    title: "Завдання: більше рішень"
     challenge: true
   - 
-    title: Changing location
+    title: Зміна розташування
   - 
-    title: "Challenge: finish your chatbot"
+    title: "Завдання: заверши свій чат-бот"
     challenge: true
   - 
-    title: What next?
+    title: Що далі?
