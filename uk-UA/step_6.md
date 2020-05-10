@@ -1,5 +1,5 @@
-## Challenge: more decisions
+## Завдання: більше рішень
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+Запрограмуй свого чат-бота ставити ще одне питання, на яке можна відповісти "так" або "ні". Чи можеш ти зробити так, щоб чат-бот відповідав по-різному в залежності від відповіді, яку отримує?
 
-![screenshot](images/chatbot-joke.png)
+![знімок екрана](images/chatbot-joke.png)
