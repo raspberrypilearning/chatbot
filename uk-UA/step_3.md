@@ -1,10 +1,10 @@
 ## Чат-бот, що розмовляє
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Тепер, коли у тебе є персонаж чат-бота, давай запрограмуємо його розмовляти з тобою.
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Натисни на свій спрайт чат-бота і додай до нього цей код, щоб `коли цей спрайт натиснуто`{:class="block3events"}, він `запитував твоє ім'я`{:class="block3sensing"}, а потім `говорив: "Яке чудове ім'я!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -18,7 +18,7 @@ say [What a lovely name!] for (2) seconds
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+Клацни на свого чат-бота, щоб протестувати свій код. Коли бот запитає твоє ім’я, введи його в поле внизу Сцени, а далі клацни на синю позначку або натисни <kbd>Enter</kbd>.
 
 ![Testing a ChatBot response](images/chatbot-ask-test1.png)
 
