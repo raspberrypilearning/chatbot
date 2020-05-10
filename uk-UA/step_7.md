@@ -2,7 +2,7 @@
 
 Також ти можеш запрограмувати свого чат-бота, щоб він змінював своє розташування!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Тестування зміни тла](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
@@ -12,15 +12,15 @@
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Твій чат-бот має `запитати "Хочеш полетіти на Місяць?"`{:class="block3sensing"}, і `якщо`{:class="block3control"} твоя `відповідь`{:class="block3sensing"} — "так", він має `змінити тло на moon`{:class="block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Ось блоки, які тобі треба буде додати до коду свого чат-бота.
 
-![nano sprite](images/nano-sprite.png)
+![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
 switch backdrop to (moon v)
@@ -36,7 +36,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Ось як має виглядати твій код:
 
 ```blocks3
 ask [Do you want to go to the moon?] and wait
@@ -53,9 +53,9 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Тепер тобі треба переконатися, що твій чат-бот розпочинає в правильному місці, коли ти клацаєш на нього для початку розмови. Додай цей блок вгорі коду для чат-бота:
 
-![nano sprite](images/nano-sprite.png)
+![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -67,15 +67,15 @@ when this sprite clicked
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Протестуй свою програму і скажи "так", коли чат-бот запитає, чи хочеш ти полетіти на Місяць. Ти маєш побачити, як змінюється розташування чат-бота.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+Ти також можеш додати наступний код всередині блоку `якщо`{:class="block3control"}, щоб твій чат-бот підстрибував чотири рази, коли ти відповідаєш "так":
 
-![nano sprite](images/nano-sprite.png)
+![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
 if <(answer) = [yes]> then 
