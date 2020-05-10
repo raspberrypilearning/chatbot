@@ -1,4 +1,4 @@
-## Making decisions
+## Прийняття рішень
 
 You can program your chatbot to decide what to do based on the answers it receives.
 
@@ -10,7 +10,7 @@ Change your chatbot's code. Your chatbot should ask the question "Are you OK nam
 
 ![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
 
-![Тестування відповіді Чат-бота](images/chatbot-if-test2.png)
+![Testing a chatbot reply](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
 
