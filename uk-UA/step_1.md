@@ -23,7 +23,7 @@
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![завершений проєкт](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -50,21 +50,21 @@
 ## title: Чого ти навчишся
 
 - Використовувати код для з’єднання рядків у Скретч
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch
+- Дізнаєшся, що змінні можуть використовуватися для зберігання вводу від користувача
+- Використовувати розгалуження, щоб реагувати на ввід користувача у Скретч
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Додаткові примітки для викладачів
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Якщо вам потрібно роздрукувати цей проєкт, будь ласка, скористайтеся [версією для друку](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_ blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Ви можете знайти [завершений проєкт тут](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
