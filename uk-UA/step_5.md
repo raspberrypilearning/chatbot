@@ -35,7 +35,7 @@ end
 
 Зміни код свого чат-бота так, щоб він відповідав "О ні!", якщо отримує відповідь "ні" на питання "В тебе все гаразд, <ім’я>".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Заміни блок `якщо, то`{:class="block3control"} на блок `якщо, то, інакше`{:class="block3control"} і додай код, щоб чат-бот міг `говорити "О ні!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Перевір свій код. Ти маєш отримати різні репліки, коли ти відповідаєш "так" і "ні": твій чат-бот має відповідати "Чудово!", коли ти відповідаєш "так" (великими чи малими літерами), і відповідати "О ні!", коли ти даєш **будь-яку іншу** відповідь.
 
 ![Testing a chatbot reply](images/chatbot-if-test2.png)
 
