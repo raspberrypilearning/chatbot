@@ -1,21 +1,21 @@
-What's your name?
+Як тебе звати?
 
-What a lovely name!
+Яке чудове ім’я!
 
-Hi
+Привіт,
 
-name
+ім’я
 
-Where do you live?
+Де ти живеш?
 
-place
+населений пункт
 
-I've never been to
+Я ніколи не відвідував
 
-Are you OK
+В тебе все гаразд,
 
-That's great to hear!
+Чудово!
 
-Oh no!
+О ні!
 
-Do you want to go to the moon?
+Хочеш полетіти на Місяць?
