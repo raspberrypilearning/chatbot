@@ -8,11 +8,11 @@
 
 Зміни код свого чат-бота. Твій чат-бот має запитувати "В тебе все гаразд, <ім’я>", використовуючи змінну `ім’я`{:class="block3variables"}. Далі він має відповісти "Чудово!", `якщо`{:class="block3control"} отримує відповідь "так", і нічого не казати, якщо відповідь "ні".
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+![Тестування відповіді Чат-бота](images/chatbot-if-test1-annotated.png)
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![Тестування відповіді Чат-бота](images/chatbot-if-test2.png)
 
-![nano sprite](images/nano-sprite.png)
+![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -37,7 +37,7 @@ end
 
 Заміни блок `якщо, то`{:class="block3control"} на блок `якщо, то, інакше`{:class="block3control"} і додай код, щоб чат-бот міг `говорити "О ні!"`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -59,9 +59,9 @@ end
 
 Перевір свій код. Ти маєш отримати різні репліки, коли ти відповідаєш "так" і "ні": твій чат-бот має відповідати "Чудово!", коли ти відповідаєш "так" (великими чи малими літерами), і відповідати "О ні!", коли ти даєш **будь-яку іншу** відповідь.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![Тестування відповіді Чат-бота](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Тестування позитивної/негативної відповіді](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
@@ -69,19 +69,19 @@ end
 
 Якщо ти клацнеш на вкладку чат-бота **Образи**, то побачиш, що там більше одного образа.
 
-![chatbot costumes](images/chatbot-costume-view-annotated.png)
+![образи чат-бота](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
 Зміни код чат-бота, щоб він змінював образи, коли ти ввів свою відповідь.
 
-![Testing a changing costume](images/chatbot-costume-test1.png)
+![Тестування зміни образу](images/chatbot-costume-test1.png)
 
-![Testing a changing costume](images/chatbot-costume-test2.png)
+![Тестування зміни образу](images/chatbot-costume-test2.png)
 
 Зміни код всередині блока `якщо, то, інакше`{:class="block3control"}, щоб `змінити образ`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -103,17 +103,17 @@ end
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Чи помітив (-ла) ти, що після того, як образ чат-бота змінюється, він таким залишається і не змінюється на той, яким був спочатку?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Можеш спробувати ось що: запусти свій код і дай відповідь "ні", щоб обличчя чат-бота стало сумним. Далі запусти свій код знову і зверни увагу, що твій чат-бот не стає знову радісним перед тим, як запитати твоє ім’я.
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Помилковий образ](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Щоб вирішити цю проблему, додай до коду чат-бота блок `змінити образ`{:class="block3looks"} на початку `коли спрайт натиснуто`{:class="block3events"}.
 
-![nano sprite](images/nano-sprite.png)
+![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -122,6 +122,6 @@ when this sprite clicked
 ask [What's your name?] and wait
 ```
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![Тестування виправлення образу](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
