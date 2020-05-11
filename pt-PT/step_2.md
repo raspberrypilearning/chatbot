@@ -27,7 +27,7 @@ Se precisares de descarregar e instalar o editor offline do Scratch, podes encon
 
 \--- task \---
 
-O projeto inicial contém quatro personagens de actor. Um deles será o seu robô falante.
+O projeto inicial contém quatro personagens actores. Um deles será o seu robô falante.
 
 You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
