@@ -15,14 +15,14 @@ Canvia el codi del teu xatbot. El teu xatbot hauria de fer la pregunta "Estàs b
 ![personatge nano](images/nano-sprite.png)
 
 ```blocks3
-quan es cliqui aquest personatge
-pregunta [Com et dius?] i espera
-assigna a  [nom v] el valor (resposta)
-digues (uneix [hola] (nom)) durant (2) segons
-+ pregunta (uneix [Estàs bé] (nom)) i espera
-+ si <(resposta) = [si]> llavors
-  digues [És fantàstic escoltar-te!] durant (2) segons
-fi
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
 ```
 
 Per posar a prova el nou codi correctament, l'hauràs de provar **dues vegades**, una vegada amb la resposta "sí" i una vegada amb la resposta "no".
@@ -40,17 +40,17 @@ Substitueix el bloc `si, llavors`{:class="block3control"} amb un `si, llavors, s
 ![personatge nano](images/nano-sprite.png)
 
 ```blocks3
-quan es cliqui aquest personatge
-pregunta [Com et dius?] i espera
-assigna a  [nom v] el valor (resposta)
-digues (uneix [hola] (nom)) durant (2) segons
-pregunta (uneix [Estàs bé] (nom)) i espera
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
 
-+ si <(resposta) = [si]> llavors
-  digues [És fantàstic escoltar-te!] durant (2) segons
-si no
-+ digues [Vaja!] durant (2) segons
-fi
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
 ```
 
 \--- /task \---
