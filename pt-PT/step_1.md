@@ -51,7 +51,7 @@ Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma c
 
 - Usar o código para concatenar strings no Scratch
 - Saber que variáveis podem ser usadas para armazenar as entradas do utilizador
-- Use conditional selection to respond to user input in Scratch
+- Usar a seleção condicional no Scratch para responder à entrada do utilizador
 
 \--- /collapse \---
 
