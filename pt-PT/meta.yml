@@ -14,9 +14,9 @@ steps:
   - title: "Desafio: mais perguntas"
     challenge: true
   - title: Tomar decisões
-  - title: "Desafio: mais perguntas"
+  - title: "Desafio: mais decisões"
     challenge: true
-  - title: Alterar local
+  - title: Mudar de localização
   - title: "Desafio: termina o teu robô falante"
     challenge: true
   - title: O que se segue?

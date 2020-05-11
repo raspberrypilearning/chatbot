@@ -19,7 +19,7 @@ Abre o projeto inicial do Scratch.
 
 Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares **Remix**.
 
-**Offline:** descarrega o projeto inicial de [rpf.io/p/en/chatbot-go](http://rpf.io/p/pt-PT/chatbot-go), e depois abre-o no editor Scratch offline.
+**Offline:** descarrega o projeto inicial de [rpf.io/p/pt-PT/chatbot-go](http://rpf.io/p/pt-PT/chatbot-go), e depois abre-o no editor Scratch offline.
 
 Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [https://rpf.io/scratchoff](rpf.io/scratchoff).
 

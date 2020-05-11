@@ -17,6 +17,6 @@ steps:
   - title: "チャレンジ: 「はい」か「いいえ」で答えられる質問をふやす"
     challenge: true
   - title: 場所をかえる
-  - title: "チャレンジ: チャットボットを仕上げる"
+  - title: "チャレンジ: 自分のチャットボット"
     challenge: true
   - title: 次は何をしましょうか？
