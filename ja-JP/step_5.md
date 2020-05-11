@@ -1,71 +1,124 @@
-## いろいろな答え方
+## 「はい」か「いいえ」で答える
 
-入力によって、チャットボットがちがう答え方をするようにプログラムすることができます。
+入力によって、チャットボットがちがう答え方をするようにプログラムできます。
+
+まず、「はい」または「いいえ」で答えることができる質問をチャットボットにさせます。
 
 --- task ---
 
-チャットボットが「元気？」と聞くと、入力が「はい」の時だけ「それはよかった！」と答えるようにできますか?
+チャットボットのコードをかえます。 `名前`{:class="block3variables"}変数を使い、チャットボットに「名前　元気？」という質問をさせます。 `もし`{:class="block3control"}「はい」という答えのときには「それはよかった！」と答えます。答えが「いいえ」の場合は何も言いません。
 
-新しいコードをきちんとテストするためには、2回テストします。答えが「はい」の時と、「いいえ」の時です。
+![チャットボットの答え](images/chatbot-if-test1-annotated.png)
 
-チャットボットは入力が「はい」の時は「それはよかった！」と答え、「いいえ」の時は何も言いません。
+![チャットボットの答え](images/chatbot-if-test2.png)
 
-![チャットボットの答え](images/chatbot-if-test.png)
+![ナノ スプライト](images/nano-sprite.png)
 
---- hints --- --- hint --- チャットボットが「やあ」と言うと、 「元気？」と聞きます。 チャットボットは答えが「はい」の時は、「それはよかった！」と言います。 --- /hint --- --- hint --- 新しく使うブロックはこちらです。 ![Blocks for a chatbot reply](images/chatbot-if-blocks.png) --- /hint --- --- hint --- コードの見本はこちらです。 ![Code for a chatbot reply](images/chatbot-if-code.png) --- /hint --- --- /hints ---
+```blocks3
+when this sprite clicked
+ask [きみの名前は？] and wait
+set [名前 v] to (answer)
+say (join [やあ ] (名前)) for (2) seconds
++ask (join [元気] (名前)) and wait
++if <(answer) = [はい]> then 
+  say [それはよかった！] for (2) seconds
+end
+```
+
+新しいコードをきちんとテストするためには、**2回**テストする必要があります。答えが「はい」の時と「いいえ」の時です。
+
+--- /task ---
+
+今のところ、チャットボットは答えが「いいえ」のときには何も言いません。
+
+--- task ---
+
+チャットボットのコードをかえて、「名前　元気？」という質問への答えが「いいえ」のときには、「あらら！」と答えるようにしましょう。
+
+`もし～なら`{:class="block3control"}ブロックを`もし～なら～でなければ`{:class="block3control"}ブロックにかえて、チャットボットが `「あらら！」と言う`{:class="block3looks"}コードを入れます。
+
+![ナノ スプライト](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [きみの名前は？] and wait
+set [名前 v] to (answer)
+say (join [やあ！] (名前)) for (2) seconds
+ask (join [元気？] (名前)) and wait
++ if <(answer) = [はい]> then 
+  say [それはよかった！] for (2) seconds
+else 
++  say [あらら！] for (2) seconds
+end
+```
 
 --- /task ---
 
 --- task ---
 
-今の所、チャットボットは入力が「いいえ」の時は何も言ってくれません。答えが「いいえ」の時に、チャットボットが「それはこまったね・・・。」と言うようにできますか？
+コードをテストしましょう。 あなたの答えが「いいえ」のときと「はい」のときではちがう答えが返ってくるはずです。「はい」と答えたときには、チャットボットは「それはよかった！」と答え、**他の答え**のときには「あらら！」と答えます 。
 
-テストして保存しましょう。 チャットボットは答えが「いいえ」の時は「それはこまったね・・・。」と言います。 「いいえ」だけでなく、入力が「はい」以外の時、チャットボットは「それはこまったね・・・。」と答えます。
+![チャットボットの答え](images/chatbot-if-test2.png)
 
 ![「はい」または「いいえ」と入力した時の答え](images/chatbot-if-else-test.png)
 
---- hints --- --- hint --- 入力が「はい」の時、チャットボットは「それはよかった！」と答えますが、 「はい」以外の時は「それはこまったね・・・。」と答えます。 --- /hint --- --- hint --- 使うブロックはこちらです。 ![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png) --- /hint --- --- hint --- コードの見本はこちらです。 ![Code for a yes/no reply](images/chatbot-if-else-code.png) --- /hint --- --- /hints ---
-
 --- /task ---
+
+`もし～なら～でなければ`{:class="block3control"}ブロックの中には、チャットボットの言葉だけではなく、ほかのコードも入れることができます。
+
+チャットボットの**コスチューム**を見てみると、いくつかあるのがわかると思います。
+
+![チャットボットのコスチューム](images/chatbot-costume-view-annotated.png)
 
 --- task ---
 
-`もし…なら／でなければ`のブロックには、チャットボットの言葉だけではなく、いろいろなコードを入れることができます。 チャットボットのコスチュームを見てみると、いくつかあるのがわかると思います。
+チャットボットのコードをかえて、答えを入力したときにチャットボットがコスチュームを切りかえるようにします。
 
-![チャットボットのコスチューム](images/chatbot-costume-view.png)
+![コスチュームをかえる](images/chatbot-costume-test1.png)
+
+![コスチュームをかえる](images/chatbot-costume-test2.png)
+
+`もし～なら～でなければ`{:class="block3control"}ブロックの中のコードをかえて、`コスチュームを～にする`{:class="block3looks"}を追加します。
+
+![ナノ スプライト](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [きみの名前は？] and wait
+set [名前 v] to (answer)
+say (join [やあ！] (名前)) for (2) seconds
+ask (join [元気？] (名前)) and wait
+if <(answer) = [はい]> then 
++  switch costume to (nano-c v)
+  say [それはよかった！] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [あらら！] for (2) seconds
+end
+```
+
+コードをテストして保存しましょう。あなたの答えによってチャットボットの顔がかわります。
 
 --- /task ---
 
---- task ---
+チャットボットのコスチュームが変わった後、はじめのコスチュームにもどらないことに気づきましたか？
 
-答えに合わせてチャットボットのコスチュームをかえることができますか?？
-
-テストして保存しましょう。答えによってチャットボットの顔がかわります。
-
-![コスチュームをかえる](images/chatbot-costume-test.png)
-
---- hints --- --- hint --- 答えによってチャットボットのがコスチュームがかわります。 --- /hint --- --- hint --- 使うブロックはこちらです。 ![Blocks for a changing costume](images/chatbot-costume-blocks.png) --- /hint --- --- hint --- コードの見本はこちらです。 ![Code for a changing costume](images/chatbot-costume-code.png) --- /hint --- --- /hints ---
-
---- /task ---
-
---- task ---
-
-チャットボットのコスチュームが、最後に話しかけた時と同じままであることに気づきましたか？ 直せますか？
+コードを実行して「いいえ」と答えると、チャットボットがおこった顔になります。 次にコードをもう一度実行して、チャットボットが名前を聞く前に、わらった顔にもどっていないことをたしかめます。
 
 ![コスチュームのバグ](images/chatbot-costume-bug-test.png)
 
-テストして保存しましょう。コードをテストして「いいえ」と入力すると、チャットボットは怒った顔になります。もう一度テストすると、名前を聞く前に、笑顔にもどります。
+--- task ---
+
+この問題をかいけつするには、チャットボットのコードの`スプライトが押されたとき`{:class="block3events"}の先頭に`コスチュームを～にする`{:class="block3looks"}を追加します。
+
+![ナノ スプライト](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
++ switch costume to (nano-a v)
+ask [きみの名前は？] and wait
+```
 
 ![コスチュームを直す](images/chatbot-costume-fix-test.png)
 
---- hints --- --- hint --- チャットボットがクリックされた時、コスチュームが笑顔にかわります。 --- /hint --- --- hint --- 追加のブロックはこちらです。 ![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png) --- /hint --- --- hint --- コードの見本はこちらです。 ![Code for a costume fix](images/chatbot-costume-fix-code.png) --- /hint --- --- /hints ---
-
 --- /task ---
-
---- challenge ---
-
-## チャレンジ：もっといろいろな答え
-
-チャットボットが他のことも聞くようにプログラムしてみましょう。「はい」か「いいえ」で答えられるようにしましょう。あなたのチャットボットはきちんと答えられるでしょうか？
-
-![スクリーンショット](images/chatbot-joke.png) --- /challenge ---
