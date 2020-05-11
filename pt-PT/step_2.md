@@ -13,7 +13,7 @@ Antes de começares a programar o teu robô falante, precisas de decidir qual é
 
 \--- task \---
 
-Open the Chatbot Scratch starter project.
+Abre o projeto inicial do Scratch.
 
 **Online:** abre o projeto inicial em [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
