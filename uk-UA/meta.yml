@@ -1,21 +1,22 @@
 ---
-title: Робот Балакун
+title: Чат-бот
 hero_image: images/chatbot.png
-description: Ви навчитеся програмувати власного робота-співрозмовника!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
+description: Дізнайся, як програмувати власного робота-співрозмовника!
 theme: violet
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-curriculum: 1, design-0, programming-1, phys-comp-0, manufacture-0, community-0
-interests: ''
-technology: scratch
-site_areas: projects
-technologies: scratch
-hardware: ''
-software: scratch
-version: 4.1.0
-last_tested: 2017-01-01
-steps: 
-- title: Робот Балакун
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
+steps:
+  - title: Вступ
+  - title: Твій чат-бот
+  - title: Чат-бот, що розмовляє
+  - title: "Завдання: більше питань"
+    challenge: true
+  - title: Прийняття рішень
+  - title: "Завдання: більше рішень"
+    challenge: true
+  - title: Зміна розташування
+  - title: "Завдання: заверши свого чат-бота"
+    challenge: true
+  - title: Що далі?
