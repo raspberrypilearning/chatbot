@@ -23,13 +23,13 @@ Aquí tens els blocs de codi que has d’afegir al teu codi del xatbot.
 ![personatge nano](images/nano-sprite.png)
 
 ```blocks3
-canvia el fons a (lluna v)
+switch backdrop to (moon v)
 
-pregunta [Vols anar a la lluna?] i espera
+ask [Do you want to go to the moon?] and wait
 
-si <(resposta) = [sí]> llavors 
+if <(answer) = [yes]> then 
 
-fi
+end
 ```
 
 \--- /hint \---
@@ -39,10 +39,10 @@ fi
 Així és com s'hauria de veure el teu codi:
 
 ```blocks3
-pregunta [Vols anar a la lluna?] i espera
-si <(resposta) = [sí]> llavors 
-  canvia el fons a (Lluna v)
-fi
+ask [Do you want to go to the moon?] and wait
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
+end
 ```
 
 \--- /hint \---
@@ -58,9 +58,9 @@ Ara t'has d'assegurar que el teu xatbot comença a la ubicació adequada quan fa
 ![personatge nano](images/nano-sprite.png)
 
 ```blocks3
-quan es cliqui aquest personatge
+when this sprite clicked
 
-+ canvia el fons a (espai v)
++ switch backdrop to (space v)
 ```
 
 \--- /task \---
@@ -78,16 +78,16 @@ També pots afegir el següent codi dins del nou bloc `si`{:class="block3control
 ![personatge nano](images/nano-sprite.png)
 
 ```blocks3
-si <(resposta) = [sí]> llavors 
-  canvia el fons a (lluna v)
+if <(answer) = [yes]> then 
+  switch backdrop to (moon v)
 
-+ repeteix (4) 
-    suma (10) a y
-    espera (0,1) segons
-    suma (-10) a y
-    espera (0,1) segons
-  fi
-fi
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
+end
 ```
 
 \--- /task \---
