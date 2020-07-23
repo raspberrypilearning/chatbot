@@ -1,21 +1,21 @@
-What's your name?
+מה שמך?
 
-What a lovely name!
+איזה שם מקסים!
 
-Hi
+שלום
 
-name
+שם
 
-Where do you live?
+איפה אתה גר?
 
-place
+מקום
 
-I've never been to
+מעולם לא ביקרתי ב
 
-Are you OK
+האם אתה בסדר
 
-That's great to hear!
+זה נהדר לשמוע!
 
-Oh no!
+אוי לא!
 
-Do you want to go to the moon?
+האם אתה רוצה לטוס לירח?
