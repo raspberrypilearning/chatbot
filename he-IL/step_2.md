@@ -2,34 +2,34 @@
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+לפני שתתחיל ליצור את הצ׳טבוט שלך, אתה צריך לבחור את האישיות שלו. **חשבו על השאלות הבאות**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
-
-\--- /task \---
-
-\--- task \---
-
-Open the Chatbot Scratch starter project.
-
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
-
-If you have a Scratch account you can make a copy by clicking **Remix**.
-
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
-
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
++ מהו שמו של הצ'אטבוט?
++ איפה הוא גר?
++ האם הוא שמח? רציני? מצחיק? ביישן? ידידותי?
++ מה הוא אוהב ולא אוהב?
 
 \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+פתח את פרויקט הצ׳אטבוט ההתחלתי.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+**מחובר לאינטרנט** פתח את הפרויקט ההתחלתי ב [rpf.io/chatbot-on](http://rpf.io/chatbot-on).
+
+אם יש לך חשבון סקראץ׳, באפשרותך ליצור עותק על-ידי לחיצה על ** כניסה **.
+
+** לא מחובר לאינטרנט: ** הורידו את הפרויקט האתחול הלא מחובר מ [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go), ולאחר מכן פתחו אותו באמצעות העורך הלא מחובר.
+
+אם אתם צריכים להוריד ולהתקין את העורך הלא מקוון של סקראץ׳, תוכלו למצוא אותו בכתובת [https://rpf.io/scratchoff ](rpf.io/scratchoff).
+
+\--- /task \---
+
+\--- task \---
+
+פרויקט התחלתי מכיל ארבע דמויות. אחד מהם יהיה הצ'אט בוט שלך.
+
+אתה יכול להשתמש בדמות שנבחרה כבר, או לבחור אחת אחרת על ידי לחיצה על זו שאתה רוצה ואז לבחור **הצגה ** או ** הסתרה ** של סמל העיניים מתפריט דמויות שמתחת לבמה.
 
 ![בחרו דמות](images/chatbot-characters.png)
 
