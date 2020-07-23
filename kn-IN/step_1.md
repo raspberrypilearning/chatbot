@@ -1,6 +1,6 @@
 \--- no-print \---
 
-ಇದು ಯೋಜನೆಯ ** ಸ್ಕ್ರ್ಯಾಚ್ 3 ** ಆವೃತ್ತಿ. ಯೋಜನೆಯ [ ಸ್ಕ್ರ್ಯಾಚ್ 2 ಆವೃತ್ತಿಯೂ ಇರುತ್ತದೆ ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+ಇದು ಯೋಜನೆಯ **Scratch 3 ** ಆವೃತ್ತಿ. ಯೋಜನೆಯ [Scratch 2 ಆವೃತ್ತಿಯೂ ಇರುತ್ತದೆ ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
@@ -33,11 +33,11 @@
 
 ### ಹಾರ್ಡ್ವೇರ್
 
-- ಸ್ಕ್ರ್ಯಾಚ್ 3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್
+- Scratch 3 ಅನ್ನು ಚಲಾಯಿಸುವ ಸಾಮರ್ಥ್ಯವಿರುವ ಕಂಪ್ಯೂಟರ್
 
 ### ಸಾಫ್ಟ್ವೇರ್
 
-- ಸ್ಕ್ರ್ಯಾಚ್ 3 ([ಆನ್‌ಲೈನ್‌](https://rpf.io/scratchon) ಅಥವಾ [ಆಫ್‌ಲೈನ್](https://rpf.io/scratchoff))
+- Scratch 3 ([ಆನ್‌ಲೈನ್‌](https://rpf.io/scratchon) ಅಥವಾ [ಆಫ್‌ಲೈನ್](https://rpf.io/scratchoff))
 
 ### ಡೌನ್‌ಲೋಡ್‌ಗಳು
 
