@@ -1,25 +1,25 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+זוהי **סקראץ׳ 3** של הפרויקט. יש גם גרסה [שריטה 2 של הפרויקט](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
-\--- /no-print \---
+\--- / no-print \---
 
 ## מבוא
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+אתה עומד ללמוד לתכנת דמות שיכולה לדבר איתך! דמות כזו נקראת רובוט צ'אט, או צ'אט בוט.
 
-### What you will make
+### מה תבנה
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+לחץ על הדגל הירוק ואז לחץ על דמות הצ'אט בוט כדי להתחיל שיחה. כאשר צ'אט בוט שואל שאלה, הקלד את התשובה שלך לתיבה שבתחתית ולחץ על הסימון הכחול מצד ימין (או לחץ על ` Enter `) כדי לראות את תשובת הצ'אט.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- /no-print \---
+\--- / no-print \---
 
 \--- print-only \---
 
@@ -33,11 +33,11 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### חומרה
 
-- Computer capable of running Scratch 3
+- מחשב המסוגל להריץ סקראץ׳ 3
 
 ### תוכנה
 
-- Scratch 3 (either [online](https://rpf.io/scratchon) or [offline](https://rpf.io/scratchoff))
+- Scratch 3 (או [ מחובר לאינטרנט ](https://rpf.io/scratchon) או [ לא מחובר לאינטרנט ](https://rpf.io/scratchoff))
 
 ### הורדות
 
@@ -49,15 +49,15 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: מה תלמדו
 
-- Use code to concatenate strings in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch
+- השתמש בקוד כדי לשרשר מחרוזות בסקראץ׳
+- דע כי ניתן להשתמש במשתנים לאחסון קלט מהמשתמש
+- השתמש בהתניות כדי להגיב על קלט מהמשתמש
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: מידע נוסף למורים
 
 \--- no-print \---
 
