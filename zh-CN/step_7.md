@@ -67,7 +67,7 @@
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+测试你的程序，并在聊天机器人询问你是否想登月时回答“是”。你应该看到聊天机器人的位置发生了变化。
 
 \--- /task \---
 
