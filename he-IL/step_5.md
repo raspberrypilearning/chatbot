@@ -1,127 +1,125 @@
-## Making decisions
+## קבלת החלטות
 
-You can program your chatbot to decide what to do based on the answers it receives.
+אתה יכול לתכנת את צ׳אטבוט שלך להחליט מה לעשות על סמך התשובות שהוא מקבל.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+ראשית, אתה הולך לגרום לצ׳אטבוט לשאול שאלה שניתן לענות עליה ב"כן" או "לא".
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+שנה את קוד של הצ'אט שלך. הצ׳אטבוט שלך צריך לשאול את השאלה "האם אתה בסדר, שם", באמצעות `שם`{: class = "block3variables"} משתנה. אז הוא צריך לענות "נהדר לשמוע!" `אם`{class = "block3control"} אם התשובה שהוא מקבלת היא "כן", אבל לא מגיב אם התשובה היא "לא".
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+![בדיקת תגובה בצ'אט](images/make-a-list-annotated.png)
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![בדיקת תגובה בצ'אט](images/chatbot-ask-test.png)
 
-![nano sprite](images/nano-sprite.png)
+![ננו ספרייט](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-+ask (join [Are you OK ] (name)) and wait
-+if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-end
+כאשר לוחצים על הדמות הזאת
+שאל [מה שמך?] וחכה
+שמור את ה[שם] במשתנה (שם)
+אמור [היי (שם)] למשך 2 שניות
+שאל [האם אתה בסדר (שם)?] וחכה לתשובה
+אם <התשובה = [כן] > אמור [זה נהדר לשמוע] למשך 2 שניות
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+כדי לבדוק את הקוד החדש שלך כראוי, אתה צריך לבדוק את זה **פעמיים**: פעם עם התשובה "כן", ופעם עם התשובה "לא".
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+כרגע, הצ׳אטבוט שלך לא אומר כלום לתשובה "לא".
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+שנה את הקוד של צ׳אטבוט שלך כך שהוא עונה "אוי לא!" אם הוא מקבל "לא" כתשובה "האם אתה שם בסדר".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+החלף את בלוק `אם, ולאחר מכן`{: class = "block3control"} עם בלוק `, אם כן, אחר,`: {class = "block3control"}, והוסף קוד כך שהצ'אטבוט יכול לומר `"לא!"`{: class = "block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![ננו ספרייט](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
+כאשר השיר הזה לחץ
+שאל [מה שמך] והמתן
+[שם v] ל [תשובה]
+אומר (הצטרף [היי] (שם)) עבור (2) שניות
+לשאול (הצטרף [האם אתה בסדר] שם)) והמתן
 
-+ if <(answer) = [yes]> then 
-  say [That's great to hear!] for (2) seconds
-else 
-+  say [Oh no!] for (2) seconds
-end
++ אם <(תשובה) = [yes]> ואז 
+  אמרו [זה נהדר לשמוע!] עבור (2) שניות
+אחר 
++ אומרים [הו לא!] עבור (2) שניות
+
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+בדוק את הקוד שלך. אתה צריך לקבל תגובה אחרת כאשר אתה עונה "לא" וכאשר אתה עונה "כן": צ׳אטבוט שלך צריך לענות עם "זה נהדר לשמוע!" כאשר אתה עונה "כן" (וזה לא תלוי במקרה), ולהשיב עם "אוי לא!" כשאתה עונה **דבר אחר**.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![בדיקת תגובה בצ'אט](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
-
-\--- /task \---
-
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
-
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
-
-![chatbot costumes](images/chatbot-costume-view-annotated.png)
-
-\--- task \---
-
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
-
-![Testing a changing costume](images/chatbot-costume-test1.png)
-
-![Testing a changing costume](images/chatbot-costume-test2.png)
-
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
-
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) seconds
-ask (join [Are you OK ] (name)) and wait
-if <(answer) = [yes]> then 
-
-+  switch costume to (nano-c v)
-  say [That's great to hear!] for (2) seconds
-else 
-+  switch costume to (nano-d v)
-  say [Oh no!] for (2) seconds
-end
-```
-
-Test and save your code. You should see your chatbot's face change depending on your answer.
+![בדיקת תשובה כן / לא](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+אתה יכול לשים כל קוד בתוך `, אם כן, אחר`{: class = "block3control"} לחסום, לא רק קוד כדי להפוך את chatbot לדבר!
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+אם תלחץ של chatbot שלך **תחפושות** כרטיסייה, תראה כי יש יותר תחפושת אחת.
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![צ 'אט](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+שנה את הקוד של הצ'אט שלך כך שהצ'אטבוט יעביר תלבושות כשאתה מקליד את תשובתך.
 
-![nano sprite](images/nano-sprite.png)
+![בדיקת תחפושת משתנה](images/chatbot-costume-test1.png)
+
+![בדיקת תחפושת משתנה](images/chatbot-costume-test2.png)
+
+לשנות את הקוד בתוך `, אם כן, אחר`{: class = "block3control"} לחסום לתלבושת מתג ``{: class = "block3looks"}.
+
+![ננו ספרייט](images/nano-sprite.png)
 
 ```blocks3
-when this sprite clicked
+כאשר השיר הזה לחץ
+שאל [מה שמך] והמתן
+[שם v] ל [תשובה]
+אומר (הצטרף [היי] (שם)) עבור (2) שניות
+לשאול (הצטרף [האם אתה בסדר] שם)) ולחכות
+אם <(התשובה) = [yes]> ואז 
 
-+ switch costume to (nano-a v)
-ask [What's your name?] and wait
++ לעבור תחפושת כדי (נ ננו-ג)
+  אומרים [זה נהדר לשמוע!] עבור (2) שניות
+אחר 
++ לעבור תחפושת כדי (ננו d v)
+  לומר [אוי לא!] עבור (2) שניות
+סוף
 ```
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+בדוק את הקוד שלך ושמור אותו. אתה צריך לראות את הפנים שלך chatbot לשנות בהתאם לתשובתך.
+
+\--- /task \---
+
+האם שמתם לב לכך שלאחר שמלת הצ'אבוט שלך השתנתה, היא נשארת ככה ואינה חוזרת למה שהיה בהתחלה?
+
+אתה יכול לנסות את זה: להפעיל את הקוד שלך לענות "לא", כך הפנים שלך chatbot משתנה למראה אומלל. לאחר מכן הפעל את הקוד שוב והבחין כי chatbot שלך לא משנה בחזרה למראה שמח לפני שהוא שואל את שמך.
+
+![בגד תלבושות](images/chatbot-costume-bug-test.png)
+
+\--- task \---
+
+כדי לתקן בעיה זו, הוסף את הקוד של chatbot ל `תחפושת מתג`:: class = "block3looks"} בתחילת `כאשר הספרייט נלחץ`{: class = "block3events"}.
+
+![ננו ספרייט](images/nano-sprite.png)
+
+```blocks3
+כאשר זה ספרייט לחץ על
+
++ תלבושת תחליף ל (nano-a)
+לשאול [מה שמך?] ולהמתין
+```
+
+![בדיקת תיקון תלבושות](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
