@@ -1,21 +1,21 @@
-உங்கள் பெயர் என்ன?
+What's your name?
 
-என்ன ஒரு அழகான பெயர்!
+What a lovely name!
 
-வணக்கம்
+Hi
 
-பெயர்
+name
 
-நீங்கள் எங்கு வசிக்கிறீர்கள்?
+Where do you live?
 
-இடம்
+place
 
-மிகவும் அழகான ஊர், உங்கள்
+I've never been to
 
-நீங்கள் நலமாக இருக்கிறீர்களா?
+Are you OK
 
-கேட்பதற்க்கு நன்றாக இருக்கிறது!
+That's great to hear!
 
-ஐயோ!
+Oh no!
 
-நீங்கள் சந்திரனுக்கு செல்ல விரும்புகிறீர்களா?
+Do you want to go to the moon?
