@@ -1,0 +1,22 @@
+---
+title: சாட்பாட்(Chatbot - பேசும் ரோபோ) 
+hero_image: images/chatbot.png
+description: உங்கள் சொந்த பேசும் ரோபோவை எவ்வாறு நிரல் செய்வது என்பதை அறிக!
+theme: violet
+listed: true
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
+steps:
+  - title: முன்னுரை
+  - title: உங்கள் சாட்பாட்
+  - title: பேசும் சாட்பாட்
+  - title: "சவால்: மேலும் சில கேள்விகள்"
+    challenge: true
+  - title: முடிவுகளை எடுத்தல்
+  - title: "சவால்: மேலும் சில முடிவுகள்"
+    challenge: true
+  - title: இருப்பிடத்தை மாற்றுதல்
+  - title: "சவால்: உங்கள் சாட்பாட் நிரலை நிறைவு செய்யவும்"
+    challenge: true
+  - title: அடுத்தது என்ன?
