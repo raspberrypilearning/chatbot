@@ -41,7 +41,7 @@
 
 ### Downloads
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [এখানে ডাউনলোড করতে ফাইল খুঁজুন](http://rpf.io/p/en/chatbot-go)।.
 
 \--- /collapse \---
 
