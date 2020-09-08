@@ -42,7 +42,7 @@ title: আপনার যা প্রয়োজন হবে
 
 ### Downloads
 
-- [Find files to download here](http://rpf.io/p/bn-IN/chatbot-go).
+- [এখানে ডাউনলোড করতে ফাইল খুঁজুন](http://rpf.io/p/bn-IN/chatbot-go).
 
 --- /collapse ---
 
