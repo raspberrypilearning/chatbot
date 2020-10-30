@@ -1,8 +1,8 @@
 ---
 title: சாட்பாட்(Chatbot - பேசும் ரோபோ) 
-hero_image: படங்கள்/chatbot.png
+hero_image: images/chatbot.png
 description: உங்கள் சொந்த பேசும் ரோபோவை எவ்வாறு நிரல் செய்வது என்பதை அறிக!
-theme: ஊதா
+theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
