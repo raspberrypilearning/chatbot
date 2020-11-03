@@ -1,5 +1,5 @@
 ---
-title: Chatbot
+title: चैटबॉट
 hero_image: images/chatbot.png
 description: Learn how to program your own talking robot!
 theme: violet
@@ -18,7 +18,7 @@ steps:
     title: "Challenge: more questions"
     challenge: true
   - 
-    title: Making decisions
+    title: निर्णय लेना
   - 
     title: "Challenge: more decisions"
     challenge: true
