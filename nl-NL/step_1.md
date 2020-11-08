@@ -49,7 +49,7 @@ Klik op de groene vlag en klik vervolgens op de chatbot om een ​​gesprek te 
 
 ## title: Wat ga je leren
 
-- Gebruik code om strings in Scratch samen te voegen
+- Use code to join text in Scratch
 - Weet dat variabelen kunnen worden gebruikt om gebruikersinvoer op te slaan
 - Gebruik voorwaardelijke selectie om te reageren op gebruikersinvoer in Scratch
 
