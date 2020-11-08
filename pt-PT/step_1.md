@@ -49,7 +49,7 @@ Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma c
 
 ## title: O que vais aprender
 
-- Usar o código para concatenar strings no Scratch
+- Use code to join text in Scratch
 - Saber que variáveis podem ser usadas para armazenar as entradas do utilizador
 - Usar a seleção condicional no Scratch para responder à entrada do utilizador
 
