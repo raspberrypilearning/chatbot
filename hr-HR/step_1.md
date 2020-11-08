@@ -49,7 +49,7 @@ Klikni na zelenu zastavicu, a zatim klikni na lika robota da započneš razgovor
 
 ## naslov: Što ćete naučiti
 
-- Koristiti kôd za povezivanje niza podataka u Scratchu
+- Use code to join text in Scratch
 - Razumijeti da se varijable mogu koristiti za spremanje korisničkih unosa
 - Upotrijebite uvjetni odabir da biste odgovorili na korisnikov unos u programu Scratch
 
