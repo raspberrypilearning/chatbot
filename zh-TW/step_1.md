@@ -49,7 +49,7 @@
 
 ## title: 你會學到
 
-- 用 Scratch 程式串接文字
+- Use code to join text in Scratch
 - 瞭解變數可以用來儲存使用者輸入的內容
 - 用 Scratch 程式的判斷式來回應使用者輸入
 
