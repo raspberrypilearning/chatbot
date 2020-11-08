@@ -49,7 +49,7 @@ Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae
 
 ## title: What you will learn
 
-- Defnyddiwch gôd i gydgadwyno tannau yn Scratch
+- Use code to join text in Scratch
 - Gwybod bod newidynnau yn gallu cael eu defnyddio i storio mewnbwn defnyddiwr
 - Use conditional selection to respond to user input in Scratch
 
