@@ -49,7 +49,7 @@
 
 ## title: What you will learn
 
-- Use code to concatenate strings in Scratch
+- Use code to join text in Scratch
 - Θα μάθεις ότι οι μεταβλητές μπορούν να χρησιμοποιηθούν για να αποθηκεύουν το κείμενο που εισάγεται από έναν χρήστη.
 - Use conditional selection to respond to user input in Scratch
 
