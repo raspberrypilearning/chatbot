@@ -49,7 +49,7 @@ Fes clic a la bandera verda i, a continuació, fes clic al xatbot per iniciar un
 
 ## títol: Què aprendràs
 
-- Utilitzar codi per concatenar cadenes a Scratch
+- Use code to join text in Scratch
 - Conèixer quines variables es poden emprar per guardar entrades de l'usuari
 - Utilitzar condicions per respondre a l’entrada de l’usuari a Scratch
 
