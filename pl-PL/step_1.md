@@ -49,7 +49,7 @@ Kliknij zieloną flagę, a następnie kliknij znak czatbota, aby rozpocząć roz
 
 ## title: What you will learn
 
-- Use code to concatenate strings in Scratch
+- Use code to join text in Scratch
 - Wiedz, że zmienne mogą być używane do przechowywania danych wprowadzanych przez użytkownika
 - Use conditional selection to respond to user input in Scratch
 
