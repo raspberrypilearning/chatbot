@@ -49,7 +49,7 @@
 
 ## title: 你将学到什么
 
-- 使用代码在Scratch中连接字符串
+- Use code to join text in Scratch
 - 了解变量可用于存储用户输入
 - 使用条件选择响应用户在 Scratch 中的输入
 
