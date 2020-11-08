@@ -49,7 +49,7 @@ Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para
 
 ## title: What you will learn
 
-- Usa el código para concatenar cadenas en Scratch
+- Use code to join text in Scratch
 - Sepa que las variables se pueden usar para almacenar la entrada del usuario
 - Use conditional selection to respond to user input in Scratch
 
