@@ -49,7 +49,7 @@
 
 ## title: What you will learn
 
-- استخدام البرمجة لتنسيق جملة في السكراتش (Scratch)
+- Use code to join text in Scratch
 - تعرف أن من الممكن استخدام المتغيرات لخزن مدخلات المستخدم
 - Use conditional selection to respond to user input in Scratch
 
