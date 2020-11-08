@@ -49,7 +49,7 @@
 
 ## title: What you will learn
 
-- Использовать код для объединения строк в Scratch
+- Use code to join text in Scratch
 - Узнаешь, что переменные могут быть использованы для хранения ввода пользователя
 - Use conditional selection to respond to user input in Scratch
 
