@@ -49,7 +49,7 @@ Klikni na zeleno zastavico in nato klikini na lik čvekbota, da začneš pogovor
 
 ## title: Kaj se boš naučil-a?
 
-- Uporabiti kodo, da združiš nize v Scratchu
+- Use code to join text in Scratch
 - Uporabiti spremenljivke za shranjevanje uporabnikovih vnosov
 - Uporabiti pogojen izbor, za odziv na uporabnikov vnos
 
