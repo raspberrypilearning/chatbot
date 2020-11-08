@@ -49,7 +49,7 @@
 
 ## title: What you will learn
 
-- Use code to concatenate strings in Scratch
+- Use code to join text in Scratch
 - 변수가 사용자 입력을 저장하는 데 사용될 수 있음을 이해하기
 - Use conditional selection to respond to user input in Scratch
 
