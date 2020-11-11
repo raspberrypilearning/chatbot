@@ -55,7 +55,7 @@ title: Lo que aprenderá
 - Sepa que las variables se pueden usar para almacenar la entrada del usuario
 - Usar selección condicional para responder a la entrada del usuario en Scratch
 
---- /cerrar ---
+--- /collapse ---
 
 --- collapse ---
 ---
