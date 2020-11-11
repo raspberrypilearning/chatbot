@@ -1,36 +1,36 @@
-## Your chatbot
+## Tu chatbot
 
 \--- task \---
 
-Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
+Antes de empezar a crear tu chatbot, necesitas decidir sobre su personalidad. **Piensa en las siguientes preguntas**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ ¿Cuál es el nombre del chatbot?
++ ¿Dónde vive?
++ ¿Está feliz? ¿Serio? ¿Gracioso? ¿Tímido? ¿Amistoso?
++ ¿Qué le gusta y qué no?
 
 \--- /task \---
 
 \--- task \---
 
-Open the Chatbot Scratch starter project.
+Abre el proyecto inicial para Scratch del 'Chatbot'.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+** Online **: abra un nuevo proyecto Scratch en línea en [ rpf.io/chatbot-on ](http://rpf.io/chatbot-on)"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Si tiene una cuenta de Scratch, puede hacer una copia haciendo clic en ** Remix **.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** descargue el proyecto de inicio desde [rpf.io/p/es/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} y luego abra el editor sin conexión.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+Si necesita descargar e instalar el editor de Scratch offline, puede encontrarlo en [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+El proyecto de inicio contiene cuatro personajes. Uno de estos será tu chatbot.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Puedes usar el sprite que ya está seleccionado, o elegir uno diferente haciendo clic en el que desee y luego seleccionando ** mostrar ** u ** ocultar ** icono de ojo del menú Sprite debajo del escenario.
 
-![Choose a character](images/chatbot-characters.png)
+![Elige un personaje](images/chatbot-characters.png)
 
 \--- /task \---
