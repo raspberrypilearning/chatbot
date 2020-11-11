@@ -1,16 +1,16 @@
-## Making decisions
+## Tomando decisiones
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Usted puede programar su chatbot para decidir qué hacer basado en las respuestas que recibe.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Primero, vas a hacer que tu chatbot haga una pregunta que se pueda responder con "sí" o "no".
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Cambia el código de tu chatbot. Su chatbot debe hacer la pregunta "¿Está bien su nombre", usando el nombre ` ` {: class = "block3variables"} variable. Entonces debería responder "¡Qué bueno escuchar!" ` si ` {: class = "block3control"} la respuesta que recibe es "sí", pero no digas nada si la respuesta es "no".
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+![Probando una respuesta del ChatBot](images/chatbot-if-test1-annotated.png)
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![Probando una respuesta del ChatBot](images/chatbot-if-test2.png)
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -25,17 +25,17 @@ say (join [Hi ] (name)) for (2) seconds
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+Para probar su nuevo código correctamente, debe probarlo ** dos veces **: una vez con la respuesta "sí", y una vez con la respuesta "no".
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+En este momento, tu chatbot no dice nada a la respuesta "no".
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Cambia el código de tu chatbot para que responda "¡Oh no!" si recibe "no" como respuesta a "¿Está bien su nombre?".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Reemplace el bloque `si, entonces`{:class="block3control"} con un bloque `si, entonces, otro`{:class="block3control"} y incluya código para que el chatbot pueda `decir "Oh no!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -57,29 +57,29 @@ end
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Prueba tu código. Obtendrás una respuesta diferente cuando respondes "no" y cuando responda "sí": el chatbot debe responder con "Que es fantástico escuchar!" al responder "sí" (que no distingue mayúsculas de minúsculas) y responder con "Oh no!" cuando respondes **cualquier cosa**.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![Probando una respuesta del ChatBot](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Probando una respuesta de sí / no](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Puedes poner cualquier código dentro de un bloque ` si / si no `, no solo el código para hacer que tu chatbot hable!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Si haces un clic en la pestaña ** disfraz ** de tu chatbot, verás que tiene más de un disfraz.
 
-![chatbot costumes](images/chatbot-costume-view-annotated.png)
+![Disfraces del chatbot](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Cambie el código de su chatbot para que el chatbot cambie de vestuario cuando escriba su respuesta.
 
-![Testing a changing costume](images/chatbot-costume-test1.png)
+![Probando un cambio de disfraz](images/chatbot-costume-test1.png)
 
-![Testing a changing costume](images/chatbot-costume-test2.png)
+![Probando un cambio de disfraz](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Cambie el código dentro del bloque `si, entonces, en otro caso`{:class="block3control"} a ` bloque para cambiar el traje`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -99,19 +99,19 @@ else
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Prueba y guarda tu código. Debería ver cambiar el disfraz de su chatbot dependiendo de su respuesta.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+¿Has notado que, después de que el disfraz de tu chatbot haya cambiado, se mantiene así y no cambia de nuevo a lo que fue al principio?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Puede probar esto: ejecute su código y responda "no" para que la cara de su chatbot cambie a un aspecto infeliz. Luego vuelva a ejecutar su código y observe que su chatbot no vuelve a verse feliz antes de preguntar su nombre.
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Error de disfraz](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+Para solucionar este problema, agregue al código del chatbot para ` cambiar traje ` {: class = "block3looks"} al inicio ` cuando se hace clic en el personaje ` {: class = "block3events"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -122,6 +122,6 @@ when this sprite clicked
 ask [What's your name?] and wait
 ```
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![Prueba una solución de traje](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
