@@ -4,14 +4,14 @@ Ahora que tienes un chatbot con una personalidad, lo vas a programar para hablar
 
 --- task ---
 
-Haga clic en su personaje y añada este código para que `cuando le haga clic en`{:class="block3events"}, le `pida su nombre`{:class="block3sensing"} y luego `diga "¡Qué nombre tan encantador!"`{:class="block3looks"}.
+Haga clic en su personaje y añada este código para que `cuando le haga clic en`{:class="block3events"}, le `pida su nombre`{:class="block3sensing"} y luego `diga "¡Qué nombre tan bonito!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
 ask [¿Cómo te llamas?] and wait
-say [¡Qué nombre tan encantador!] for (2) seconds
+say [¡Qué nombre tan bonito!] for (2) seconds
 ```
 
 --- /task ---
