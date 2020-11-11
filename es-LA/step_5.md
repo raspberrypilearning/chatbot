@@ -64,7 +64,7 @@ Prueba tu código. Obtendrás una respuesta diferente cuando respondes "no" y cu
 
 --- /task ---
 
-Puedes poner cualquier código dentro de un bloque `si / si no`, no solo el código para hacer que tu chatbot hable!
+Puedes poner cualquier código dentro de un bloque `si, entonces, otro`, no solo el código para hacer que tu chatbot hable!
 
 Si haces un clic en la pestaña **disfraz** de tu chatbot, verás que tiene más de un disfraz.
 
