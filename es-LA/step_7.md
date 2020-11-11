@@ -6,13 +6,13 @@ También puedes programar tu chatbot para cambiar su ubicación!
 
 \--- task \---
 
-¿Puedes programar tu chatbot para preguntar "Quieres ir a la luna", y luego cambiar el fondo cuando la respuesta es "sí"?
+¿Puedes programar tu chatbot para preguntar "¿Quieres ir a la luna?", y luego cambiar el fondo cuando la respuesta es "sí"?
 
 \--- hints \---
 
 \--- hint \---
 
-Tu chatbot debería `preguntar "Desea ir a la luna?"`{:class="block3sensing"}, y `si`{:class="block3control"} tú `respondes`{:class="block3sensing"} "sí", debería `cambiar el fondo a la luna`{:class="block3looks"}.
+Tu chatbot debería `preguntar "¿Quieres ir a la luna?"`{:class="block3sensing"}, y `si`{:class="block3control"} tú `respondes`{:class="block3sensing"} "sí", debería `cambiar el fondo a la luna`{:class="block3looks"}.
 
 \--- /hint \---
 
