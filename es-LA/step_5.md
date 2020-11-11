@@ -6,7 +6,7 @@ Primero, vas a hacer que tu chatbot haga una pregunta que se pueda responder con
 
 \--- task \---
 
-Cambia el código de tu chatbot. Su chatbot debe hacer la pregunta "¿Está bien su nombre", usando el ` nombre ` {: class = "block3variables"} variable. Entonces debería responder "¡Qué bueno escuchar!" ` si ` {: class = "block3control"} la respuesta que recibe es "sí", pero no digas nada si la respuesta es "no".
+Cambia el código de tu chatbot. Su chatbot debe hacer la pregunta "Estás bien nombre", usando el ` nombre ` {: class = "block3variables"} variable. Entonces debería responder "¡Qué bueno es oir eso!" ` si ` {: class = "block3control"} la respuesta que recibe es "sí", pero no digas nada si la respuesta es "no".
 
 ![Probando una respuesta del ChatBot](images/chatbot-if-test1-annotated.png)
 
@@ -33,7 +33,7 @@ En este momento, tu chatbot no dice nada a la respuesta "no".
 
 \--- task \---
 
-Cambia el código de tu chatbot para que responda "¡Oh no!" si recibe "no" como respuesta a "¿Está bien su nombre?".
+Cambia el código de tu chatbot para que responda "¡Oh no!" si recibe "no" como respuesta a "Estás bien nombre".
 
 Reemplace el bloque `si, entonces`{:class="block3control"} con un bloque `si, entonces, otro`{:class="block3control"} y incluya código para que el chatbot pueda `decir "Oh no!"`{:class="block3looks"}.
 
@@ -57,7 +57,7 @@ end
 
 \--- task \---
 
-Prueba tu código. Obtendrás una respuesta diferente cuando respondes "no" y cuando responda "sí": el chatbot debe responder con "Que es fantástico escuchar!" al responder "sí" (que no distingue mayúsculas de minúsculas) y responder con "Oh no!" cuando respondes **cualquier cosa**.
+Prueba tu código. Obtendrás una respuesta diferente cuando respondes "no" y cuando responda "sí": el chatbot debe responder con "¡Qué bueno es oir eso!" al responder "sí" (que no distingue mayúsculas de minúsculas) y responder con "¡Oh no!" cuando respondes **cualquier cosa**.
 
 ![Probando una respuesta del ChatBot](images/chatbot-if-test2.png)
 
@@ -65,7 +65,7 @@ Prueba tu código. Obtendrás una respuesta diferente cuando respondes "no" y cu
 
 \--- /task \---
 
-Puedes poner cualquier código dentro de un bloque ` si / si no `, no solo el código para hacer que tu chatbot hable!
+Puedes poner cualquier código dentro de un bloque `si, entonces, otro`, no solo el código para hacer que tu chatbot hable!
 
 Si haces un clic en la pestaña ** disfraz ** de tu chatbot, verás que tiene más de un disfraz.
 
