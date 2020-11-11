@@ -1,24 +1,24 @@
-## Changing location
+## Cambiando ubicación
 
-You can also program your chatbot to change its location!
+También puedes programar tu chatbot para cambiar su ubicación!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+![Probando un cambio de disfraz](images/chatbot-backdrop-moon.png)
 
 \--- task \---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+¿Puedes programar tu chatbot para preguntar "Quieres ir a la luna", y luego cambiar el fondo cuando la respuesta es "sí"?
 
 \--- hints \---
 
 \--- hint \---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+Tu chatbot debería `preguntar "Desea ir a la luna?"`{:class="block3sensing"}, y `if`{:class="block3control"} que `answer`{:class="block3sensing"} "sí", debería `cambiar el fondo a la luna`{:class="block3looks"}.
 
 \--- /hint \---
 
 \--- hint \---
 
-Here are the code blocks you need to add to your chatbot code.
+Aquí están los bloques de código que necesitas añadir a tu código de chatbot.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -36,7 +36,7 @@ end
 
 \--- hint \---
 
-This is what your code should look like:
+Así es como debería verse tu código:
 
 ```blocks3
 ask [Do you want to go to the moon?] and wait
@@ -53,7 +53,7 @@ end
 
 \--- task \---
 
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
+Ahora necesitas asegurarte de que tu chatbot comienza en la ubicación correcta cuando haces clic en él para hablar con él. Añade este bloque a la parte superior de tu código de chatbot:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -67,13 +67,13 @@ when this sprite clicked
 
 \--- task \---
 
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
+Prueba tu programa y responde "sí" cuando el chatbot te pregunte si quieres ir a la luna. Deberías ver como cambia la ubicación del chatbot.
 
 \--- /task \---
 
 \--- task \---
 
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
+También puedes añadir el siguiente código dentro del nuevo `si`{:class="block3control"} bloque para hacer que el chatbot salte y baje cuatro veces si respondes "sí":
 
 ![nano sprite](images/nano-sprite.png)
 
