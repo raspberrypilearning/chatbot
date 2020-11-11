@@ -1,11 +1,11 @@
-## Challenge: finish your chatbot
+## Desafío: termina tu chatbot
 
-Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
+Usa lo que has aprendido para terminar de crear tu chatbot interactivo. Aquí tienes algunas sugerencias:
 
-![ChatBot ideas](images/chatbot-ideas1.png)
+![Ideas para el ChatBot](images/chatbot-ideas1.png)
 
-![ChatBot ideas](images/chatbot-ideas2.png)
+![Ideas para el ChatBot](images/chatbot-ideas2.png)
 
-![ChatBot ideas](images/chatbot-ideas3.png)
+![Ideas para el ChatBot](images/chatbot-ideas3.png)
 
-Once you've finished your chatbot, get your friends to have a conversation with it! Do they like your character? Can they spot any problems?
+Una vez que hayas terminado tu chatbot, ¡consigue que tus amigos tengan una conversación con él! ¿Te gusta tu personaje? ¿Pueden detectar algún problema?
