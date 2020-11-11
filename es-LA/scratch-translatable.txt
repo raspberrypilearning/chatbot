@@ -1,21 +1,21 @@
-What's your name?
+¿Cómo te llamas?
 
-What a lovely name!
+¡Qué nombre tan bonito!
 
-Hi
+Hola
 
-name
+nombre
 
-Where do you live?
+¿Dónde vives?
 
-place
+lugar
 
-I've never been to
+Yo nunca he ido a
 
-Are you OK
+¿Estás bien?
 
-That's great to hear!
+¡Qué bueno es oir eso!
 
-Oh no!
+¡Oh, no!
 
-Do you want to go to the moon?
+¿Quieres ir a la luna?
