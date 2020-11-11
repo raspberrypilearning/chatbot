@@ -29,7 +29,7 @@ Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para
 
 ## \--- collapse \---
 
-## title: What you will need
+## título: Lo que necesitará
 
 ### Hardware
 
@@ -47,24 +47,24 @@ Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para
 
 ## \--- collapse \---
 
-## title: What you will learn
+## título: Lo que aprenderá
 
-- Use code to join text in Scratch
+- Usar código para unir texto en Scratch
 - Sepa que las variables se pueden usar para almacenar la entrada del usuario
-- Use conditional selection to respond to user input in Scratch
+- Usar selección condicional para responder a la entrada del usuario en Scratch
 
 \--- /cerrar \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## título: Notas adicionales para educadores
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Puedes [ descargar el proyecto completo aquí ](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
