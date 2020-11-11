@@ -6,7 +6,7 @@ Primero, vas a hacer que tu chatbot haga una pregunta que se pueda responder con
 
 \--- task \---
 
-Cambia el código de tu chatbot. Su chatbot debe hacer la pregunta "¿Está bien su nombre", usando el nombre ` ` {: class = "block3variables"} variable. Entonces debería responder "¡Qué bueno escuchar!" ` si ` {: class = "block3control"} la respuesta que recibe es "sí", pero no digas nada si la respuesta es "no".
+Cambia el código de tu chatbot. Su chatbot debe hacer la pregunta "¿Está bien su nombre", usando el ` nombre ` {: class = "block3variables"} variable. Entonces debería responder "¡Qué bueno escuchar!" ` si ` {: class = "block3control"} la respuesta que recibe es "sí", pero no digas nada si la respuesta es "no".
 
 ![Probando una respuesta del ChatBot](images/chatbot-if-test1-annotated.png)
 
