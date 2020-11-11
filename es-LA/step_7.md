@@ -12,7 +12,7 @@ También puedes programar tu chatbot para cambiar su ubicación!
 
 \--- hint \---
 
-Tu chatbot debería `preguntar "Desea ir a la luna?"`{:class="block3sensing"}, y `if`{:class="block3control"} que `answer`{:class="block3sensing"} "sí", debería `cambiar el fondo a la luna`{:class="block3looks"}.
+Tu chatbot debería `preguntar "Desea ir a la luna?"`{:class="block3sensing"}, y `si`{:class="block3control"} tú `respondes`{:class="block3sensing"} "sí", debería `cambiar el fondo a la luna`{:class="block3looks"}.
 
 \--- /hint \---
 
