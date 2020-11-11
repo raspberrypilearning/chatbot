@@ -28,7 +28,7 @@ Haga clic en su chatbot para probar su código. Cuando el chatbot pregunte por s
 
 --- task ---
 
-Ahora mismo, tu chatbot responde "¡Qué nombre encantador!" cada vez que contestas. Puedes hacer que la respuesta del chatbot sea más personal, de modo que la respuesta sea diferente cada vez que se escriba un nombre diferente.
+Ahora mismo, tu chatbot responde "¡Qué nombre tan bonito!" cada vez que contestas. Puedes hacer que la respuesta del chatbot sea más personal, de modo que la respuesta sea diferente cada vez que se escriba un nombre diferente.
 
 Cambia el código del personaje de tu chatbot a `unirse`{:class="block3operators"} "Hola" con `la respuesta`{:class="block3sensing"} al "¿Cómo te llamas?" Pregunta, para que el código se vea así:
 
