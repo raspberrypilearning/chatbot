@@ -30,7 +30,7 @@ Haga clic en su chatbot para probar su código. Cuando el chatbot pregunte por s
 
 Ahora mismo, tu chatbot responde "¡Qué nombre encantador!" cada vez que contestas. Puedes hacer que la respuesta del chatbot sea más personal, de modo que la respuesta sea diferente cada vez que se escriba un nombre diferente.
 
-Cambia el código del personaje de tu chatbot a ` unirse ` {: class = "block3operators"} "Hola" con la respuesta ` ` {: class = "block3sensing"} al "¿Cuál es tu nombre?" Pregunta, para que el código se vea así:
+Cambia el código del personaje de tu chatbot a ` unirse ` {: class = "block3operators"} "Hola" con `la respuesta` {: class = "block3sensing"} al "¿Cuál es tu nombre?" Pregunta, para que el código se vea así:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -46,9 +46,9 @@ say (join [Hi ] (answer) :: +) for (2) seconds
 
 \--- task \---
 
-Guardando la respuesta en una variable ****, puedes usarla en cualquier parte de tu proyecto.
+Guardando la respuesta en una **variable **, puedes usarla en cualquier parte de tu proyecto.
 
-Crear una nueva variable llamada nombre ` ` {: class = "block3variables"}.
+Crear una nueva variable llamada ` nombre ` {: class = "block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,7 +56,7 @@ Crear una nueva variable llamada nombre ` ` {: class = "block3variables"}.
 
 \--- task \---
 
-Ahora, cambie el código de su chatbot para establecer el nombre ` ` {: class = "block3variables"} variable para ` responder ` {: class = "block3sensing"}:
+Ahora, cambie el código de su chatbot para establecer el ` nombre ` {: class = "block3variables"} variable para ` responder ` {: class = "block3sensing"}:
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -74,4 +74,4 @@ Tu código debería funcionar como antes: tu chatbot debería decir hola usando 
 
 \--- /task \---
 
-Prueba tu programa de nuevo. Tenga en cuenta que la respuesta que escriba se almacena en la variable `name`{:class="block3variables"} y también se muestra en la esquina superior izquierda de la etapa. Para que desaparezca del Escenario, ve a `Variables`{:class="block3variables"} en la sección de bloques y haz clic en la caja junto a `nombre`{:class="block3variables"} para que quede desmarcada.
+Prueba tu programa de nuevo. Tenga en cuenta que la respuesta que escriba se almacena en la variable `nombre`{:class="block3variables"} y también se muestra en la esquina superior izquierda de la etapa. Para que desaparezca del Escenario, ve a `Variables`{:class="block3variables"} en la sección de bloques y haz clic en la caja junto a `nombre`{:class="block3variables"} para que quede desmarcada.
