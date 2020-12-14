@@ -1,18 +1,18 @@
 \--- no-print \---
 
-Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
-## Introdução
+## Introduction
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Você vai aprender a programar um personagem que pode falar com você! Um personagem como esse é chamado de robô de bate-papo, ou chatbot.
 
 ### O que você vai fazer
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Clique na bandeira verde e, em seguida, clique no chatbot para iniciar uma conversa. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
