@@ -4,10 +4,10 @@
 
 Before you start creating your chatbot, you need to decide what its personality is. **Think about the following questions**:
 
-+ What is the chatbot's name?
-+ Where does it live?
-+ Is it happy? Serious? Funny? Shy? Friendly?
-+ What does it like and dislike?
++ Qual é o nome do chatbot?
++ Onde ele mora?
++ Ele é feliz? Sério? Engraçado? Tímido? Amigável?
++ Do que ele gosta e não gosta?
 
 \--- /task \---
 
@@ -17,7 +17,7 @@ Open the Chatbot Scratch starter project.
 
 **Online:** open the starter project at [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Se você tiver uma conta Scratch, você pode fazer uma cópia clicando em **Remix**.
 
 **Offline:** download the starter project from [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
