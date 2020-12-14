@@ -1,18 +1,18 @@
 \--- no-print \---
 
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
+Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
 
 \--- /no-print \---
 
-## Introduction
+## Introdução
 
-Você vai aprender a programar um personagem que pode falar com você! Um personagem como esse é chamado de robô de bate-papo, ou chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
-### O que você vai fazer
+### What you will make
 
 \--- no-print \---
 
-Clique na bandeira verde e, em seguida, clique no chatbot para iniciar uma conversa. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Clique na bandeira verde e depois clique no personagem do chatbot para iniciar uma conversa. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,17 +23,17 @@ Clique na bandeira verde e, em seguida, clique no chatbot para iniciar uma conve
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![projeto concluído](images/chatbot-preview.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: O que você vai precisar
 
 ### Hardware
 
-- Um computador capaz de executar o Scratch 3
+- Computer capable of running Scratch 3
 
 ### Software
 
@@ -47,24 +47,24 @@ Clique na bandeira verde e, em seguida, clique no chatbot para iniciar uma conve
 
 ## \--- collapse \---
 
-## title: What you will learn
+## Recursos
 
 - Use code to join text in Scratch
-- Know that variables can be used to store user input
-- Use conditional selection to respond to user input in Scratch
+- Saiba que variáveis podem ser usadas para armazenar a entrada do usuário
+- Use a seleção condicional no Scratch para responder à entrada do usuário
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## Desafios
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+Você pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
