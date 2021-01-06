@@ -1,5 +1,3 @@
-yes
-
 What's your name?
 
 What a lovely name!
@@ -7,6 +5,8 @@ What a lovely name!
 Hi
 
 name
+
+yes
 
 Where do you live?
 
