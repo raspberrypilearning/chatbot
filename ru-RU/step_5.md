@@ -29,7 +29,7 @@
 
 \--- /task \---
 
-В данный момент твой чат-бот ничего не говорит в ответ на «нет».
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
