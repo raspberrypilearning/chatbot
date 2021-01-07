@@ -29,7 +29,7 @@
 
 \--- /task \---
 
-目前，你的聊天机器人在得到答案“不”时不说任何话。
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
