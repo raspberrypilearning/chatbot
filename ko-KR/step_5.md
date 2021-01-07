@@ -29,7 +29,7 @@
 
 \--- /task \---
 
-현재 챗봇은 "아니오"라는 대답에 아무 응답도 하지 않을 것입니다.
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
