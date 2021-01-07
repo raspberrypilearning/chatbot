@@ -30,7 +30,7 @@ Kodo sedaj preizkusi **dvakrat**: enkrat z odgovorom "da", in enkrat z odgovorom
 
 \--- /task \---
 
-Trenutno tvoj čvekobot na odgovor "ne", ne reče ničesar.
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
