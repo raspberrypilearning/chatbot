@@ -29,7 +29,7 @@ Provjeri radil li tvoj novi kôd, tako da ga testiraš **twice**: jednom s odgov
 
 \--- /task \---
 
-Trenutno tvoj chatbot ništa ne kaže kada je odgovor „ne“.
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
