@@ -27,7 +27,7 @@
 
 \--- /task \---
 
-כרגע, הצ׳אטבוט שלך לא אומר כלום לתשובה "לא".
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
