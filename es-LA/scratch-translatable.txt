@@ -6,6 +6,8 @@ Hola
 
 nombre
 
+yes
+
 ¿Dónde vives?
 
 lugar
