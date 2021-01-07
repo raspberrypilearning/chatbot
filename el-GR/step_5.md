@@ -30,7 +30,7 @@ end
 
 \--- /task \---
 
-Προς το παρόν, το chatbot σου δεν λέει τίποτα στην απάντηση "όχι".
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
