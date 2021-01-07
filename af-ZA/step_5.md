@@ -29,7 +29,7 @@ To test your new code properly, you should test it **twice**: once with the answ
 
 \--- /task \---
 
-At the moment, your chatbot doesn't doesn't say anything to the answer "no".
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
