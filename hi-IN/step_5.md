@@ -29,7 +29,7 @@ end
 
 \--- /task \---
 
-फिलहाल, आपका चैटबॉट जवाब "नहीं" के लिए कुछ भी नहीं कहता है।
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
