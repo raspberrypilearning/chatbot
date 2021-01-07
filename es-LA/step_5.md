@@ -29,7 +29,7 @@ Para probar su nuevo código correctamente, debe probarlo ** dos veces **: una v
 
 \--- /task \---
 
-En este momento, tu chatbot no dice nada a la respuesta "no".
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
