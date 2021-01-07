@@ -29,7 +29,7 @@ end
 
 \--- /task \---
 
-目前，你的聊天機器人對「不好」這個答案並不會有任何反應。
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
