@@ -29,7 +29,7 @@ Per posar a prova el nou codi correctament, l'hauràs de provar **dues vegades**
 
 \--- /task \---
 
-De moment, el teu xatbot no reacciona a la resposta "no".
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
