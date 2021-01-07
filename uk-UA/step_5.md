@@ -29,7 +29,7 @@ end
 
 \--- /task \---
 
-Наразі твій чат-бот нічого не каже після відповіді "ні".
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
