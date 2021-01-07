@@ -29,7 +29,7 @@ I brofi dy gôd newydd, fe ddylet ti ei brofi **ddwywaithi**: unwaith gyda'r ate
 
 \--- /task \---
 
-Ar hyn o bryd, nid yw dy sgwrsfot yn dweud dim wrth yr ateb "nac ydw".
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
