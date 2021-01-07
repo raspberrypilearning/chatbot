@@ -29,7 +29,7 @@ end
 
 \--- /task \---
 
-今のところ、チャットボットは答えが「いいえ」のときには何も言いません。
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
