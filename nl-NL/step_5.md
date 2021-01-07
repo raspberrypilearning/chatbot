@@ -29,7 +29,7 @@ Om je nieuwe code goed te testen, moet je deze **twee keer** uitvoeren: eenmaal 
 
 \--- /task \---
 
-Op dit moment zegt je chatbot niets bij het antwoord "nee".
+At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \----
 
