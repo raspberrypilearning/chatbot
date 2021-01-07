@@ -6,6 +6,8 @@ Hi
 
 name
 
+yes
+
 Where do you live?
 
 place
