@@ -54,6 +54,7 @@ title: ما الذي ستتعلمه
 - استخدام البرمجة لتنسيق جملة في السكراتش (Scratch)
 - تعرف أن من الممكن استخدام المتغيرات لخزن مدخلات المستخدم
 - استخدام الاختيار المشروط للرد على مدخلات المستخدم في السكراتش (Scratch)
+
 --- /collapse ---
 
 --- collapse ---
@@ -63,7 +64,7 @@ title: ملاحظات إضافية للمعلمين
 
 --- no-print ---
 
-اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/ar-SA/projects/chatbot/print){:target="_blank"}.
+اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/ar-SA/projects/chatbot/print) {:target="_blank"}.
 
 --- /no-print ---
 
