@@ -2,21 +2,21 @@
 title: चैटबॉट
 hero_image: images/chatbot.png
 description: अपने बोलने वाले रोबोट को प्रोग्राम करना सीखें!
-original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
-duration: 2
 listed: true
-ingredient: false
-copyedit: true
-interests: social
-technology: scratch
-site_areas: codeclub, scratch
+copyedit: false
+version: 4.2.0
+last_tested: 2018-09-20
 steps:
-- title: भूमिका
-- title: आपको किसकी ज़रूरत होगी
-- title: आपका चैटबॉट
-- title: बोलने वाला चैटबॉट
-- title: निर्णय लेना
-- title: स्थान बदलना
-- title: 'चुनौती: अपना चैटबॉट समाप्त करें'
-
+  - title: परिचय
+  - title: आपका चैटबॉट
+  - title: बात करने वाला चैटबॉट
+  - title: "चुनौती: अधिक प्रश्न"
+    challenge: true
+  - title: निर्णय लेना
+  - title: "चुनौती: अधिक निर्णय"
+    challenge: true
+  - title: स्थान बदलना
+  - title: "चुनौती: अपना चैटबॉट समाप्त करना"
+    challenge: true
+  - title: आगे क्या?
