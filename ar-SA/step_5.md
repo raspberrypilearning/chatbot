@@ -29,7 +29,7 @@
 
 \--- /task \---
 
-At the moment, your chatbot doesn't say anything to the answer "no".
+في الوقت الحالي ، لا يقول روبوتك أي شيء عند الاجابة بـ" لا".
 
 \--- task \---
 
