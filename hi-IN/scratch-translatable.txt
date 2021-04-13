@@ -1,23 +1,24 @@
-What's your name?
+आपका नाम क्या है?
 
-What a lovely name!
+कितना प्यारा नाम है!
 
-Hi
+नमस्ते
 
-name
+नाम
 
-yes
+हाँ
 
-Where do you live?
+आप कहाँ रहते हैं?
 
-place
+जगह
 
-I've never been to
+मैं कभी नहीं गया हूँ
 
-Are you OK
+तुम ठीक हो?
 
-That's great to hear!
+यह सुनकर अच्छा लगा!
 
-Oh no!
+अरे नहीं!
 
-Do you want to go to the moon?
+
+क्या आप चाँद पर जाना चाहते हैं?
