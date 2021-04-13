@@ -1,12 +1,12 @@
-## A talking chatbot
+## En snakkende chatbot
 
-Now that you have a chatbot with a personality, you're going to program it to talk to you.
+Nu hvor du har en chatbot med en personlighed, skal du programmere det til at tale med dig.
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Klik på din chatbot-sprite, og tilføj denne kode til den, så `når der klikkes`{: class = "block3events"}, beder den `om dit navn`{: class = "block3sensing"} og derefter siger `"Sikke et dejligt navn! "`{: class = "block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano-sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -18,21 +18,21 @@ say [What a lovely name!] for (2) seconds
 
 \--- task \---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+Klik på din chatbot for at teste din kode. Når den beder om dit navn, skal du skrive det i feltet, der vises nederst på skærmen, og derefter klikke på det blå mærke eller trykke på <kbd>Enter</kbd>.
 
-![Testing a ChatBot response](images/chatbot-ask-test1.png)
+![Test af et ChatBot-svar](images/chatbot-ask-test1.png)
 
-![Testing a ChatBot response](images/chatbot-ask-test2.png)
+![Test af et ChatBot-svar](images/chatbot-ask-test2.png)
 
 \--- /task \---
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+Lige nu svarer din chatbot "Det er et dejligt navn!" hver gang du svarer. Du kan gøre chatbots svar mere personlige, så svaret er anderledes hver gang et andet navn indtastes.
 
-Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
+Skift chatbot-sprite koden til `tilslutte`{: class = "block3operators"} "Hej" med `svaret`{: class = "block3sensing"} til "Hvad er dit navn?" spørgsmål, så koden ser sådan ud:
 
-![nano sprite](images/nano-sprite.png)
+![nano-sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -40,15 +40,15 @@ ask [What's your name?] and wait
 say (join [Hi ] (answer) :: +) for (2) seconds
 ```
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Test af et personlig svar](images/chatbot-answer-test.png)
 
 \--- /task \---
 
 \--- task \---
 
-By storing the answer in a **variable**, you can use it anywhere your project.
+Ved at gemme svaret i en **variabel**kan du bruge det overalt i dit projekt.
 
-Create a new variable called `name`{:class="block3variables"}.
+Opret en ny variabel kaldet `navn`{:class = "block3variables"}.
 
 [[[generic-scratch3-add-variable]]]
 
@@ -56,9 +56,9 @@ Create a new variable called `name`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Skift nu din chatbot-sprites kode til at sætte `navn`{: class = "block3variables"} variabel til `svar`{: class = "block3sensing"}:
 
-![nano sprite](images/nano-sprite.png)
+![nano-sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -68,10 +68,10 @@ ask [What's your name?] and wait
 say (join [Hi ] (name :: variables +)) for (2) seconds
 ```
 
-Your code should work as before: your chatbot should say hi using the name you type in.
+Din kode skal fungere som før: din chatbot skal sige hej ved at bruge det navn, du indtaster.
 
-![Testing a personalised reply](images/chatbot-answer-test.png)
+![Test af et personlig svar](images/chatbot-answer-test.png)
 
 \--- /task \---
 
-Test your program again. Notice that the answer you type in is stored in the `name`{:class="block3variables"} variable, and is also shown in the top left-hand corner of the Stage. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Test dit program igen. Bemærk, at svaret du indtaster gemmes i variablen `navn`{: class = "block3variables"}, og vises også øverst til venstre i scenen. Gå til `Variablerne` for at få det til at forsvinde fra scenen </code> {: class = "block3variables"} bloksektionen og klik på boksen ved siden af  navn </0> {:class = "block3variables"}, så det ikke er markeret.</p>
