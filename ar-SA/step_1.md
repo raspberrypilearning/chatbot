@@ -29,7 +29,7 @@
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: ما ستحتاج إليه
 
 ### الأجهزة
 
@@ -47,24 +47,24 @@
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: ما الذي ستتعلمه
 
-- Use code to join text in Scratch
+- استخدام البرمجة لتنسيق جملة في السكراتش (Scratch)
 - تعرف أن من الممكن استخدام المتغيرات لخزن مدخلات المستخدم
-- Use conditional selection to respond to user input in Scratch
+- استخدام الاختيار المشروط للرد على مدخلات المستخدم في السكراتش (Scratch)
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: ملاحظات إضافية للمعلمين
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/ar-SA/chatbot-get).
 
 \--- /collapse \---
