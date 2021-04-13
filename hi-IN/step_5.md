@@ -1,99 +1,124 @@
-## चरण 3: निर्णय लेना
+## निर्णय लेना
 
-आप अपने चैटबॉट को इसके प्रश्नों पर आपके प्रत्युत्तर के आधार पर यह तय करने के लिए प्रोग्राम कर सकते हैं कि यह क्या कहेगा या क्या करेगा।
+आप अपने चैटबोट को यह तय करने के लिए प्रोग्राम कर सकते हैं कि उसे प्राप्त उत्तरों के आधार पर क्या करना है।
 
-+ क्या आप चैटबॉट को आपसे "क्या आप ठीक हैं?" पूछने के लिए तैयार कर सकते हैं, और जवाब देने पर "यह सुनकर बहुत अच्छा लगा!" बोलने के लिए कोड कर सकते हैं, __अगर __ उपयोगकर्ता का उत्तर केवल "हाँ" हो?
+सबसे पहले, आप अपना चैटबॉट बनाने जा रहे हैं एक प्रश्न पूछें जिसका उत्तर "yes" या "no" के साथ दिया जा सकता है।
 
-    अपने नए कोड को ठीक से जांचने के लिए, आपको इसकी एक बार "हाँ" और एक  बार "नहीं" के साथ__दो बार__ जांच करनी चाहिए।
+--- task ---
 
-    यदि आपका उत्तर "हाँ" है, तो आपके चैटबॉट को "यह सुनकर बहुत अच्छा लगा!" जवाब देना चाहिए, परन्तु यदि आप "नहीं" उत्तर देते हैं, तो इसे कुछ नहीं कहना चाहिए।
+अपने चैटबोट का कोड बदलें। आपके चैटबोट को `name`{:class="block3variables"} का उपयोग करके "Are you OK name" सवाल पूछना चाहिए । तो यह जवाब देना चाहिए "That's great to hear!" `यदि`{:class="block3control"} इसे प्राप्त होने वाला उत्तर "yes" है, लेकिन यदि उत्तर "no" है तो कुछ भी न कहें।
 
-    ![Testing a chatbot reply](images/chatbot-if-test.png)
+![चैटबॉट प्रत्युत्तर का परीक्षण करना](images/chatbot-if-test1-annotated.png)
 
---- hints ---
---- hint ---
-आपके चॅटबोट द्वारा "हाय" कहने के बाद, अभी यह भी __पूछना__ चाहिए "क्या आप ठीक हैं?" __अगर __ आपका उत्तर "हां" है, तो चॅटबोट को __ कहना__ चाहिए "यह सुनकर बहुत अच्छा लगा!"
---- /hint ---
---- hint ---
-ये वे अतिरिक्त कोड ब्लॉक हैं, जिनकी आपको आवश्यकता होगी:
-![Blocks for a chatbot reply](images/chatbot-if-blocks.png)
---- /hint ---
---- hint ---
-आपका कोड कुछ इस प्रकार दिखाई देना चाहिए:
-![Code for a chatbot reply](images/chatbot-if-code.png)
---- /hint ---
---- /hints ---
+![चैटबॉट प्रत्युत्तर का परीक्षण करना](images/chatbot-if-test2.png)
 
-+ फ़िलहाल अगर आपका उत्तर "नहीं" है, तो आपका चैटबॉट कुछ नहीं कहता। क्या आप अपने चैटबॉट में परिवर्तन कर सकते हैं कि यह इसके प्रश्न पर आपकी "नहीं" प्रत्युत्तर पर "ओह नो" उत्तर दे?
+![नैनो स्प्राइट](images/nano-sprite.png)
 
-    परीक्षण करें और सहेजें। यदि आप "नहीं" उत्तर देते हैं, तो आपके चैटबॉट को "ओह नो!" कहना चाहिए। असल में, यदि आप "हाँ" के अलावा कोई अन्य उत्तर देते हैं, तो यह कहेगा "ओह नो!" (`अगर/या` ब्लॉक में __वरना __ का अर्थ __अन्यथा__होता है)।
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
++ask (join [Are you OK ] (name)) and wait
++if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+end
+```
 
-    ![Testing a yes/no reply](images/chatbot-if-else-test.png)
+अपने नए कोड को ठीक से जांचने के लिए, आपको इसको **दो बार**: जांचना चाहिए।एक बार "yes" और एक बार "no" के साथ।
 
---- hints ---
---- hint ---
-आपके चैटबॉट को अब कहना चाहिए, "यह सुनकर अच्छा लगा!" __अगर__ आपका उत्तर "हाँ" है, परन्तु यदि उत्तर __या__ है, तो कहना चाहिए, "ओह नो!"।
---- /hint ---
---- hint ---
-ये वे कोड ब्लॉक हैं, जिनकी आपको उपयोग के लिए आवश्यकता होगी:
-![Blocks for a yes/no reply](images/chatbot-if-else-blocks.png)
---- /hint ---
---- hint ---
-आपका कोड कुछ इस प्रकार दिखाई देना चाहिए:
-![Code for a yes/no reply](images/chatbot-if-else-code.png)
---- /hint ---
---- /hints ---
+--- /task ---
 
-+ आप `अगर/या` ब्लॉक के भीतर अपने चैटबॉट को बुलवाने के लिए यह कोड ही नहीं, कोई भी कोड जोड़ सकते हैं। यदि आप अपने चैटबॉट के **पोशाक** टैब पर क्लिक करें, तो आप देखेंगे कि इसमें एक से अधिक पोशाक हैं।
+फिलहाल, आपका चैटबॉट जवाब "no" के लिए कुछ भी नहीं कहता है।
 
-    ![chatbot costumes](images/chatbot-costume-view.png)
+--- task ---
 
-+ क्या आप चैटबॉट की पोशाक को अपने प्रत्युत्तर से मिलाने के लिए बदल सकते हैं?
+अपने चैटबोट का कोड बदलें ताकि यह जवाब दे कि "Oh no!" अगर यह "no" आपको "Are you OK name" के उत्तर के रूप में प्राप्त होता है।
 
-    परीक्षण करें और सहेजें। आपको अपने उत्तर के आधार पर चैटबॉट के चेहरे में बदलाव दिखना चाहिए।
+`if, then`{:class="block3control"} एकके साथ ब्लॉक करें `if, then, else`{:class="block3control"} ब्लॉक करें, और कोड शामिल करें ताकि चैटबोट `कहें (say) "Oh no!"`{:class="block3looks"}।
 
-    ![Testing a changing costume](images/chatbot-costume-test.png)
+![नैनो स्प्राइट](images/nano-sprite.png)
 
---- hints ---
---- hint ---
-आपके दिए गए उत्तर के आधार पर आपके चैटबॉट को अब __पोशाक भी बदलनी__ चाहिए।
---- /hint ---
---- hint ---
-ये वे कोड ब्लॉक हैं, जिनकी आपको उपयोग के लिए आवश्यकता होगी:
-![Blocks for a changing costume](images/chatbot-costume-blocks.png)
---- /hint ---
---- hint ---
-आपका कोड कुछ इस प्रकार दिखाई देना चाहिए:
-![Code for a changing costume](images/chatbot-costume-code.png)
---- /hint ---
---- /hints ---
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
+end
+```
 
-+ क्या आपने ध्यान दिया है कि आपके चैटबॉट की पोशाक का रंग समान रहता है, जो इसने तब बदला था, जब आपने इससे पिछली बार बात की थी? क्या आप इस समस्या को ठीक कर सकते हैं?
+--- /task ---
 
-    ![Costume bug](images/chatbot-costume-bug-test.png)
+--- task ---
 
-    परीक्षण करें और सहेजें: अपना कोड रन करें और "no" टाइप करें, ताकि आपका चैटबॉट नाखुश दिखाई दे। जब आप अपना कोड पुनः रन करते हैं, तो आपके चैटबॉट को आपका नाम पूछने से पहले खुशनुमा चेहरे में बदल जाना चाहिए।
+अपने कोड का परीक्षण करें। जब आप "no" का जवाब देते हैं और जब आप "yes" का जवाब देते हैं, तो आपको एक अलग प्रतिक्रिया मिलनी चाहिए: आपके चैटबोट को "That's great to hear!" जब आप "yes" (जो मामला-संवेदनशील नहीं है) का उत्तर देते हैं, और "Oh no!" जब आप जवाब देते हैं **कुछ और** ।
 
-    ![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![चैटबॉट प्रत्युत्तर का परीक्षण करना](images/chatbot-if-test2.png)
 
---- hints ---
---- hint ---
-जब __स्प्राइट पर क्लिक किया जाता है__, तो आपके चैटबॉट को पहले__ खुशनुमा चेहरे में __पोशाक__ बदलनी होगी।
---- /hint ---
---- hint ---
-ये वे कोड ब्लॉक हैं, जिनकी आपको जोड़ने के लिए आवश्यकता होगी:
-![Blocks for a costume fix](images/chatbot-costume-fix-blocks.png)
---- /hint ---
---- hint ---
-आपका कोड कुछ इस प्रकार दिखाई देना चाहिए:
-![Code for a costume fix](images/chatbot-costume-fix-code.png)
---- /hint ---
---- /hints ---
+![हाँ/नहीं जवाब परीक्षण करना](images/chatbot-if-else-test.png)
 
---- challenge ---
-## चुनौती: अधिक निर्णय
+--- /task ---
 
-अपने चैटबॉट को अन्य प्रश्न पूछने के लिए कोड करें - "हाँ" या "नहीं" उत्तर के साथ कुछ और। क्या आप ऐसा कर सकते हैं कि आपका चैटबॉट उत्तर पर प्रत्युत्तर दे?
+आप किसी भी कोड को के अंदर रख सकते हैं, `if, then, else`{:class="block3control"} ब्लॉक करें, न कि सिर्फ अपने चैटबोट को बोलने के लिए कोड बनाएं!
 
-![screenshot](images/chatbot-joke.png)
---- /challenge ---
+यदि आप अपने चैटबोट के **Costumes** टैब, आप देखेंगे कि एक से अधिक पोशाक है।
+
+![चैटबॉट पोशाक](images/chatbot-costume-view-annotated.png)
+
+--- task ---
+
+अपने चैटबोट का कोड बदलें ताकि जब आप अपने उत्तर में टाइप करें तो चैटबॉट कॉस्टयूम बदल दे।
+
+![पोशाक बदलने का परीक्षण करना](images/chatbot-costume-test1.png)
+
+![पोशाक बदलने का परीक्षण करना](images/chatbot-costume-test2.png)
+
+कोड को के अंदर बदलें, `if, then, else`{:class="block3control"} ब्लॉक को `switch costume`{:class="block3looks"}।
+
+![नैनो स्प्राइट](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) seconds
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
++  switch costume to (nano-c v)
+  say [That's great to hear!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
+end
+```
+
+टेस्ट करें और अपना कोड सेव करें। आपको अपने उत्तर के आधार पर अपने चैटबोट के चेहरे का बदलाव देखना चाहिए।
+
+--- /task ---
+
+क्या आपने देखा है कि, आपके चैटबोट की पोशाक बदल जाने के बाद, यह वैसा ही रहता है और जो शुरू में था, उसे वापस नहीं बदलता है।
+
+आप इसे आज़मा सकते हैं: अपना कोड चलाएं और "no" का उत्तर दें ताकि आपके चैटबोट का चेहरा दुखी नज़र आए। फिर अपना कोड फिर से चलाएं और ध्यान दें कि आपका चैटबॉट आपके नाम पूछने से पहले खुश दिखने के लिए वापस नहीं बदलता है।
+
+![पोशाक बग(bug)](images/chatbot-costume-bug-test.png)
+
+--- task ---
+
+इस समस्या को ठीक करने के लिए, चैटबॉट के कोड को स्विच कॉस्ट्यूम `में जोड़ें`{:class="block3looks"} शुरू में जब `स्प्राइट पर क्लिक किया जाता है`{:class="block3events"}।
+
+![नैनो स्प्राइट](images/nano-sprite.png)
+
+```blocks3
+when this sprite clicked
++ switch costume to (nano-a v)
+ask [What's your name?] and wait
+```
+
+![पोशाक फिक्स(fix) का परीक्षण करना](images/chatbot-costume-fix-test.png)
+
+--- /task ---
