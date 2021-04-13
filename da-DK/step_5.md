@@ -1,18 +1,18 @@
-## Making decisions
+## Tage beslutninger
 
-You can program your chatbot to decide what to do based on the answers it receives.
+Du kan programmere din chatbot for at beslutte, hvad du skal gøre, baseret på svarene der modtages.
 
-First, you're going to make your chatbot ask a question that can be answered with "yes" or "no".
+Først skal du få din chatbot stille et spørgsmål, der kan besvares med "ja" eller "nej".
 
 \--- task \---
 
-Change your chatbot's code. Your chatbot should ask the question "Are you OK name", using the `name`{:class="block3variables"} variable. Then it should reply "That's great to hear!" `if`{:class="block3control"} the answer it receives is "yes", but say nothing if the answer is "no".
+Skift din chatbots kode. Din chatbot skal stille spørgsmålet "Er du OK navn", ved hjælp af variablen `navn`{:class = "block3variables"}. Så skal den svare "Det er godt at høre!" `hvis`{:class = "block3control"} svaret, der modtages, er "ja", men ikke sige noget, hvis svaret er "nej".
 
-![Testing a chatbot reply](images/chatbot-if-test1-annotated.png)
+![Test af et chatbot-svar](images/chatbot-if-test1-annotated.png)
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![Test af et chatbot-svar](images/chatbot-if-test2.png)
 
-![nano sprite](images/nano-sprite.png)
+![nano-sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -25,7 +25,7 @@ say (join [Hi ] (name)) for (2) seconds
 end
 ```
 
-To test your new code properly, you should test it **twice**: once with the answer "yes", and once with the answer "no".
+For at teste din nye kode korrekt skal du teste den **to gange**: en gang med svaret "ja" og en gang med svaret "nej".
 
 \--- /task \---
 
@@ -33,11 +33,11 @@ At the moment, your chatbot doesn't say anything to the answer "no".
 
 \--- task \---
 
-Change your chatbot's code so that it replies "Oh no!" if it receives "no" as the answer to "Are you OK name".
+Skift din chatbots kode, så den svarer "Åh nej!", hvis den modtager "nej" som svaret på "Er du OK navn".
 
-Replace the `if, then`{:class="block3control"} block with an `if, then, else`{:class="block3control"} block, and include code so the chatbot can `say "Oh no!"`{:class="block3looks"}.
+Udskift `hvis, så`{: class = "block3control"} blok med en `hvis, da, ellers`{: class = "block3control"} blok, og inkludere kode, så chatbotten kan `sige "Åh nej!"`{: class = "block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano-sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -57,31 +57,31 @@ end
 
 \--- task \---
 
-Test your code. You should get a different response when you answer "no" and when you answer "yes": your chatbot should reply with "That’s great to hear!" when you answer "yes" (which is not case-sensitive), and reply with "Oh no!" when you answer **anything else**.
+Test din kode. Du skal få et andet svar, når du svarer "nej", og når du svarer "ja": skal din chatbot svare med "Det er dejligt at høre!" når du svarer "ja" (hvilket ikke casesensitivt), og svarer med "Åh nej!" når du svarer på **alt andet**.
 
-![Testing a chatbot reply](images/chatbot-if-test2.png)
+![Test af et chatbot-svar](images/chatbot-if-test2.png)
 
-![Testing a yes/no reply](images/chatbot-if-else-test.png)
+![Test af et ja / nej svar](images/chatbot-if-else-test.png)
 
 \--- /task \---
 
-You can put any code inside an `if, then, else`{:class="block3control"} block, not just code to make your chatbot speak!
+Du kan sætte en hvilken som helst kode inde i en `hvis, ellers`{: class = "block3control"} blok, ikke kun kode til at få din chatbot til at tale!
 
-If you click your chatbot's **Costumes** tab, you'll see that there is more than one costume.
+Hvis du klikker på din chatbots **Kostumer** faneblad, kan du se, at der er mere end et kostume.
 
-![chatbot costumes](images/chatbot-costume-view-annotated.png)
+![chatbot kostumer](images/chatbot-costume-view-annotated.png)
 
 \--- task \---
 
-Change your chatbot's code so that the chatbot switches costumes when you type in your answer.
+Skift din chatbots kode, så chatboten skifter kostume, når du skriver dit svar.
 
-![Testing a changing costume](images/chatbot-costume-test1.png)
+![Test af et skiftende kostume](images/chatbot-costume-test1.png)
 
-![Testing a changing costume](images/chatbot-costume-test2.png)
+![Test af et skiftende kostume](images/chatbot-costume-test2.png)
 
-Change the code inside the `if, then, else`{:class="block3control"} block to `switch costume`{:class="block3looks"}.
+Skift koden inde i `hvis, ellers`{:class="block3control"} blokken til `skifte kostume`{:class="block3looks"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano-sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -99,21 +99,21 @@ else
 end
 ```
 
-Test and save your code. You should see your chatbot's face change depending on your answer.
+Test og gem din kode. Du bør se din chatbots ansigtsændring afhængigt af dit svar.
 
 \--- /task \---
 
-Have you noticed that, after your chatbot's costume has changed, it stays like that and doesn't change back to what it was at the beginning?
+Har du bemærket, at når din chatbots kostume er ændret, forbliver det sådan og ændrer sig ikke tilbage til, hvad det var i begyndelsen?
 
-You can try this out: run your code and answer "no" so that your chatbot's face changes to an unhappy look. Then run your code again and notice that your chatbot does not change back to looking happy before it asks your name.
+Du kan prøve dette: kør din kode og svar "nej", så din chatbots ansigt skifter til et ulykkeligt udseende. Kør derefter din kode igen og bemærk, at din chatbot ikke ændres tilbage til at se glad ud, før den spørger om dit navn.
 
-![Costume bug](images/chatbot-costume-bug-test.png)
+![Kostume bug](images/chatbot-costume-bug-test.png)
 
 \--- task \---
 
-To fix this problem, add to the chatbot's code to `switch costume`{:class="block3looks"} at the start `when the sprite is clicked`{:class="block3events"}.
+For at løse dette problem skal du tilføje til chatbots kode `skift kostume`{:class = "block3looks"} i starten `når der klikkes på sprite`{: class = "block3events"}.
 
-![nano sprite](images/nano-sprite.png)
+![nano-sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -122,6 +122,6 @@ when this sprite clicked
 ask [What's your name?] and wait
 ```
 
-![Testing a costume fix](images/chatbot-costume-fix-test.png)
+![Test af et kostumefiks](images/chatbot-costume-fix-test.png)
 
 \--- /task \---
