@@ -1,23 +1,23 @@
-What's your name?
+ما هو اسمك؟
 
-What a lovely name!
+يا له من اسم جميل!
 
-Hi
+مرحباً
 
-name
+الاسم
 
-yes
+نعم
 
-Where do you live?
+أين تعيش؟
 
-place
+المكان
 
-I've never been to
+لم أذهب إليه قط
 
-Are you OK
+هل أنت بخير
 
-That's great to hear!
+يسرني سماع ذلك!
 
-Oh no!
+أوه لا!
 
-Do you want to go to the moon?
+هل تريد الذهاب الى القمر؟
