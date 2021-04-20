@@ -1,18 +1,12 @@
-\--- no-print \---
-
-이 프로젝트의 **스크래치 3** 버전입니다. [프로젝트의 스크래치 2 버전](https://projects.raspberrypi.org/en/projects/chatbot-scratch2)도 있습니다.
-
-\--- /no-print \---
-
 ## 들어가며
 
-여러분과 대화할 수 있는 캐릭터를 프로그래밍하는 방법에 대해 배우게 됩니다. 이런 캐릭터를 채팅 로봇 혹은 챗봇이라고 합니다.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### 만들게 될 것
 
 \--- no-print \---
 
-초록 깃발을 누른 후에, 챗봇을 눌러서 대화를 시작합니다. 위의 화면에서 챗봇이 질문을 하면 하단에 위치한 텍스트 상자에 대답을 입력하고 상자 우측에 위치한 파란색 마크를 클릭 (또는 `Enter`를 누르세요) 하세요. 그러면 챗봇이 응답을 합니다.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@
 
 \--- print-only \---
 
-![완료 된 프로젝트](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
