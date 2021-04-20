@@ -1,9 +1,3 @@
-\--- no-print \---
-
-This is the **Scratch 3** version of the project. There is also a [Scratch 2 version of the project](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
-
-\--- /no-print \---
-
 ## Introducere
 
 You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
@@ -23,7 +17,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![proiectul finalizat](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
