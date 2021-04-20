@@ -1,18 +1,12 @@
-\--- no-print \---
-
-这个项目是基于**Scratch 3**版本的，另外还有一个基于[Scratch 2的版本](https://projects.raspberrypi.org/en/projects/chatbot-scratch2)。
-
-\--- /no-print \---
-
 ## 简介
 
-你将学习如何编程与您的角色交谈！像这样的角色称为聊天机器人。
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### 学习成果
 
 \--- no-print \---
 
-点击绿旗，然后再点击聊天机器人角色开始与其对话。 当聊天机器人问你一个问题，在舞台底部的文本框中输入你的答案，然后再点击右侧的蓝色打勾标记（或直接按`回车`），就可以看到聊天机器人的回复。
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@
 
 \--- print-only \---
 
-![完成的项目](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -61,10 +55,10 @@
 
 \--- no-print \---
 
-如果你需要打印本项目文件，请使用[适合打印版本](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-你可以在这里找到 [完成的项目](http://rpf.io/p/en/chatbot-get)。
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
