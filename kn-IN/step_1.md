@@ -1,18 +1,12 @@
-\--- no-print \---
-
-ಇದು ಯೋಜನೆಯ **Scratch 3 ** ಆವೃತ್ತಿ. ಯೋಜನೆಯ [Scratch 2 ಆವೃತ್ತಿಯೂ ಇರುತ್ತದೆ ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
-
-\--- /no-print \---
-
 ## ಪರಿಚಯ
 
-ನಿಮ್ಮೊಂದಿಗೆ ಮಾತನಾಡಬಲ್ಲ ಪಾತ್ರವನ್ನು ಹೇಗೆ ಪ್ರೋಗ್ರಾಂ ಮಾಡುವುದು ಎಂದು ನೀವು ಕಲಿಯಲಿದ್ದೀರಿ! ಅಂತಹ ಪಾತ್ರವನ್ನು ಚಾಟ್ ರೋಬೋಟ್ ಅಥವಾ ಚಾಟ್ಬಾಟ್ ಎಂದು ಕರೆಯಲಾಗುತ್ತದೆ.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ
 
 \--- no-print \---
 
-ಹಸಿರು ಧ್ವಜದ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ, ತದನಂತರ ಸಂಭಾಷಣೆಯನ್ನು ಪ್ರಾರಂಭಿಸಲು ಚಾಟ್‌ಬಾಟ್ ಅಕ್ಷರವನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ. ಚಾಟ್‌ಬಾಟ್ ಪ್ರಶ್ನೆಯನ್ನು ಕೇಳಿದಾಗ, ನಿಮ್ಮ ಉತ್ತರವನ್ನು ಸ್ಟೇಜ್ ನ ಕೆಳಭಾಗದಲ್ಲಿರುವ ಪೆಟ್ಟಿಗೆಯಲ್ಲಿ ಟೈಪ್ ಮಾಡಿ, ತದನಂತರ ಚಾಟ್‌ಬಾಟ್‌ನ ಉತ್ತರವನ್ನು ನೋಡಲು ಬಲಭಾಗದಲ್ಲಿರುವ ನೀಲಿ ಗುರುತನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ (ಅಥವಾ `Enter` ಒತ್ತಿ).
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@
 
 \--- print-only \---
 
-![ಸಂಪೂರ್ಣ ಯೋಜನೆ](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -61,10 +55,10 @@
 
 \--- no-print \---
 
-ನೀವು ಈ ಯೋಜನೆಯನ್ನು ಮುದ್ರಿಸಬೇಕಾದರೆ, ದಯವಿಟ್ಟು [ ಮುದ್ರಕ-ಸ್ನೇಹಿ ಆವೃತ್ತಿಯನ್ನು ಬಳಸಿ ](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target = "_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-[ ಪೂರ್ಣಗೊಂಡ ಯೋಜನೆಯನ್ನು ನೀವು ಇಲ್ಲಿ ಕಾಣಬಹುದು ](http://rpf.io/p/en/chatbot-get){:target="_blank.
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
