@@ -1,18 +1,12 @@
-\--- no-print \---
-
-これは、**Scratch 3**バージョンのプロジェクトです。[Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2)バージョンのプロジェクトもあります。
-
-\--- /no-print \---
-
 ## はじめに
 
-お話しができるキャラクターをプログラムする方法を学びます。このようなキャラクターのことをチャットロボットまたはチャットボットと言います。
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### 作るもの
 
 \--- no-print \---
 
-緑の旗 (はた) をクリックし、チャットボットのキャラクターをクリックして会話を始めましょう。 チャットボットが質問 (しつもん) をしたら、ステージの下部にあるボックスに答えを入力します。右にある青いマークをクリックすると（または`Enter`をおすと) チャットボットが返事をします。
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@
 
 \--- print-only \---
 
-![完成 (かんせい) したプロジェクト](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -61,10 +55,10 @@
 
 \--- no-print \---
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_ blank"}を使用してください。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-[ここで完成したプロジェクト](http://rpf.io/p/en/chatbot-get)を見ることができます 。
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
