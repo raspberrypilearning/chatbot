@@ -1,18 +1,12 @@
-\--- no-print \---
-
-Αυτή είναι η έκδοση **Scratch 3** του έργου. Υπάρχει επίσης και μία έκδοση [Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) του έργου.
-
-\--- /no-print \---
-
 ## Εισαγωγή
 
-Πρόκειται να μάθεις πως να προγραμματίζεις έναν χαρακτήρα που θα μπορεί να σου μιλάει! Ένας τέτοιος χαρακτήρας ονομάζεται "ρομπότ συζήτησης" ή chatbot (στα αγγλικά).
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Τι θα κάνεις
 
 \--- no-print \---
 
-Κάνε κλικ στην πράσινη σημαία και στη συνέχεια κλικ στο chatbot για να αρχίσει μία συζήτηση. Όταν το chatbot σε ρωτήσει, πληκτρολόγησε την απάντησή σου στο πλαίσιο στο κάτω μέρος του Σκηνικού και κάνε κλικ στο μπλε σημάδι στα δεξιά (ή πάτησε `Enter`) για να δεις την απάντηση του chatbot.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@
 
 \--- print-only \---
 
-![ολοκληρωμένο έργο](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
