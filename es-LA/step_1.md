@@ -1,31 +1,25 @@
-\---no imprimir--
-
-Esta es la versión **Scratch 3** del proyecto. También hay una versión [Scratch 2 del proyecto](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
-
-\--- /no-imprimir \---
-
 ## Introducción
 
-¡Vas a aprender a programar un personaje que te pueda hablar! Un personaje como ese se llama un robot de chat, o chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Lo que harás
 
-\--- no-imprimir \---
+\--- no-print \---
 
-Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para iniciar una conversación. Cuando el chatbot haga una pregunta, escribe tu respuesta en el cuadro en la parte inferior del escenario y luego haga clic en la marca azul de la derecha (o presione ` Intro `) para ver la respuesta del chatbot.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
   frameborder="0" scrolling="no"></iframe>
 </div>
 
-\--- /no-imprimir \---
+\--- /no-print \---
 
-\--- solo imprimir \---
+\--- print-only \---
 
-![proyecto completo](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
-\--- /solo-imprimir \---
+\--- /print-only \---
 
 ## \--- collapse \---
 
@@ -53,7 +47,7 @@ Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para
 - Sepa que las variables se pueden usar para almacenar la entrada del usuario
 - Usar selección condicional para responder a la entrada del usuario en Scratch
 
-\--- /cerrar \---
+\--- /collapse \---
 
 ## \--- collapse \---
 
@@ -61,10 +55,10 @@ Haga clic en la bandera verde y luego haga clic en el personaje del chatbot para
 
 \--- no-print \---
 
-Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Puedes [ descargar el proyecto completo aquí ](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
