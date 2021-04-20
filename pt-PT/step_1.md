@@ -1,18 +1,12 @@
-\--- no-print \---
-
-Esta é a versão **Scratch 3** do projeto. Há também uma versão [Scratch 2 do projeto](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
-
-\--- /no-print \---
-
 ## Introdução
 
-Vais aprender a programar um personagem que possa falar contigo! Um personagem como este é chamado de robô falador ou robô falante.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### O que vais fazer
 
 \--- no-print \---
 
-Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma conversa. Quando o robô fizer uma pergunta, digita a tua resposta na caixa na parte inferior do Palco e clica no "certo" azul à direita (ou pressiona ` Enter `), para veres a resposta do robô falante.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@ Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma c
 
 \--- print-only \---
 
-![projeto concluído](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -61,10 +55,10 @@ Clica na bandeira verde e, em seguida, clica no robô falante para iniciar uma c
 
 \--- no-print \---
 
-Se for necessário imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/chatbot/print){: target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Pode encontrar o [projeto concluído aqui](http://rpf.io/p/en/chatbot-get){: target="_ blank.
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
