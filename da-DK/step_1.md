@@ -1,18 +1,12 @@
-\--- no-print \---
-
-Dette er **Scratch 3** versionen af projektet. Der er også en [Scratch 2 version af projektet](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
-
-\--- /no-print \---
-
 ## Introduktion
 
-Du skal lære at programmere en figur, der kan tale med dig! En figur som der hedder en chatrobot eller chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Hvad du vil lave
 
 \--- no-print \---
 
-Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en samtale. Når chatboten stiller et spørgsmål, skal du skrive dit svar i boksen nederst på skærmen, og derefter klikke på det blå mærke til højre (eller tryk `Enter`) for at se chatbotets svar.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@ Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en
 
 \--- print-only \---
 
-![komplet projekt](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -61,10 +55,10 @@ Klik på det grønne flag, og klik derefter på chatbot-figuren for at starte en
 
 \--- no-print \---
 
-Hvis du har brug for at udskrive dette projekt, skal du bruge den [ printervenlige version ](https://projects.raspberrypi.org/en/projects/chatbot/print) {: Target = "_ blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-Du kan finde det [ færdige projekt her ](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
