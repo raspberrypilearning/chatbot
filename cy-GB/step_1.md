@@ -1,18 +1,12 @@
-\--- no-print \---
-
-Dyma fersiwn **Scratch 3** y prosiect. Ceir hefyd [fersiwn Scratch 2 o'r prosiect](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
-
-\--- /no-print \---
-
 ## Cyflwyniad
 
-Rwyt ti'n mynd i ddysgu sut i raglennu cymeriad sy'n gallu siarad gyda ti! Gelwir cymeriad fel hynny yn robot sgwrsio, neu sgwrsbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Yr hyn byddi di'n ei greu
 
 \--- no-print \---
 
-Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae'r sgwrsfot yn gofyn cwestiwn, teipia dy ateb i'r bocs ar waelod y Llwyfan, yna clicia'r marc glas ar y dde (neu gwasga `Enter`) i weld ateb y sgwrsfot.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@ Clicia'r faner werdd, yna clicia ar y cymeriad sgwrsfot i gychwyn sgwrs. Pan mae
 
 \--- print-only \---
 
-![cwblhau'r prosiect](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
