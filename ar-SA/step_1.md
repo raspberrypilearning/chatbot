@@ -1,18 +1,12 @@
-\--- no-print \---
-
-هذا هو إصدار ** Scratch 3 ** من المشروع. هناك أيضًا [ إصدار Scratch 2 للمشروع ](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
-
-\--- /no-print \---
-
 ## المقدمة
 
-سوف تتعلم كيفية برمجة شخصية يمكنها التحدث معك! تسمى هذه الشخصية روبوت الدردشة او Chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### ما الذي ستصنعه
 
 \--- no-print \---
 
-انقر على العلم الاخضر، ثم انقر على شخصية روبوت الدردشة لبدء المحادثة. عندما يسأل روبوت الدردشة سؤالاً، اكتب اجابتك في المربع الموجود اسفل المنصة، ومن ثم انقر على العلامة الزرقاء في اليمين (أو اضغط على `Enter`) لترى جواب الروبوت.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@
 
 \--- print-only \---
 
-![المشروع كامل](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -61,10 +55,10 @@
 
 \--- no-print \---
 
-اذا كنت ترغب بطباعة هذا المشروع، الرجاء استخدام [نسخة سهلة الطباعة](https://projects.raspberrypi.org/en/projects/chatbot/print) {:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/ar-SA/chatbot-get).
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
