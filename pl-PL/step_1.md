@@ -1,18 +1,12 @@
-\--- no-print \---
-
-Ta wersja projektu jest przeznaczona dla języka **Scratch 3**. Projekt dostępny jest również [w wersji dla języka Scratch 2](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
-
-\--- /no-print \---
-
 ## Wprowadzenie
 
-Nauczysz się jak zaprogramować postać, która może z Tobą rozmawiać! Taka postać nazywana jest wirtualnym asystentem albo czatbotem.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Co stworzysz
 
 \--- no-print \---
 
-Kliknij zieloną flagę, a następnie kliknij znak czatbota, aby rozpocząć rozmowę. Gdy czatbot zada pytanie, wpisz odpowiedź w polu u dołu sceny, a następnie kliknij na niebieski znaczek po prawej stronie (lub naciśnij klawisz `Enter`), aby zobaczyć odpowiedź czatbota.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@ Kliknij zieloną flagę, a następnie kliknij znak czatbota, aby rozpocząć roz
 
 \--- print-only \---
 
-![skończony projekt](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
