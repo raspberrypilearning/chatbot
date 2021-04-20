@@ -1,18 +1,12 @@
-\--- no-print \---
-
-இது இந்த திட்டத்தின் **Scratch 3**(ஸ்க்ராட்ச் 3) பதிப்பாகும். மேலும் [திட்டத்தின் Scratch 2 பதிப்பும்](https://projects.raspberrypi.org/en/projects/chatbot-scratch2) உள்ளது.
-
-\--- /no-print \---
-
 ## முன்னுரை
 
-உங்களுடன் பேசக்கூடிய ஒரு கதாபாத்திரத்தை நிரல் செய்வது எப்படி என்று நீங்கள் கற்றுக் கொள்ளப் போகிறீர்கள்! இந்த கதாபாத்திரம் ஒரு பேசும் ரோபோ(chat robot) அல்லது சாட்பாட்(chatbot - (ச்)சாட்பாட் என்று உச்சரிக்கவும்) என்று அழைக்கப்படுகிறது.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### நீங்கள் உருவாக்கப் போவது
 
 \--- no-print \---
 
-பச்சைக் கொடியைக் கிளிக் செய்து, பின்னர், உரையாடலைத் தொடங்க சாட்பாட் கதாபாத்திரத்தை கிளிக் செய்யவும். சாட்பாட் ஒரு கேள்வியைக் கேட்கும்போது, உங்கள் பதிலை மேடையின்(stage) அடிப்பகுதியில் உள்ள பெட்டியில் தட்டச்சு செய்து, பின்னர், சாட்பாட்-இன் பதிலைப் பார்ப்பதற்கு, வலதுபுறத்தில் உள்ள நீல நிறக் குறியைக் கிளிக் செய்க (அல்லது ` Enter ` விசையை அழுத்தவும்).
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@
 
 \--- print-only \---
 
-![நிறைவு செய்யப்பட்ட திட்டம்](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -61,10 +55,10 @@
 
 \--- no-print \---
 
-இந்த திட்டத்தை நீங்கள் அச்சிட வேண்டுமானால், தயவுசெய்து [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target = "_ blank"} ஐப்(அச்சுப்பொறி நட்பு பதிப்பு) பயன்படுத்தவும்.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-நீங்கள் [ நிறைவு செய்யப்பட்ட திட்டத்தை இங்கே ](http://rpf.io/p/en/chatbot-get) காணலாம்.
+You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
