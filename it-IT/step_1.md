@@ -1,18 +1,12 @@
-\--- no-print \---
-
-Questa è la versione **Scratch 3** del progetto. C'è anche una [versione Scratch 2 del progetto](https://projects.raspberrypi.org/en/projects/chatbot-scratch2).
-
-\--- /no-print \---
-
 ## Introduzione
 
-Imparerai a programmare un personaggio che può parlare con te! Un elemento del genere è chiamato ChiacchieRobot o chatbot.
+You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
 
 ### Cosa creerai
 
 \--- no-print \---
 
-Clicca sulla bandierina verde, e poi clicca sul tuo chiacchierobot per iniziare una conversazione. Quando il chiacchierobot fa una domanda, digita la tua risposta nella casella in fondo, quindi fai clic sul segno blu a destra (o premi `Invio`) per vedere la risposta del chiacchierobot.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -23,7 +17,7 @@ Clicca sulla bandierina verde, e poi clicca sul tuo chiacchierobot per iniziare 
 
 \--- print-only \---
 
-![progetto completo](images/chatbot-preview.png)
+![complete project](images/chatbot-preview.png)
 
 \--- /print-only \---
 
