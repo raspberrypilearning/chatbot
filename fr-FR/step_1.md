@@ -23,7 +23,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Ce que tu auras besoin
 
 ### Matériel informatique
 
