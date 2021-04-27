@@ -15,7 +15,7 @@ Click on the green flag to start. Use the mouse to move the pencil, and hold dow
 
 --- print-only ---
 
-You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
+Tu cliqueras sur le drapeau vert pour commencer et tu utiliseras la souris pour déplacer le crayon et le bouton gauche de la souris pour dessiner. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser!
 
 ![showcase](images/paint-box-showcase.png)
 
