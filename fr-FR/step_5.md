@@ -15,14 +15,14 @@ Change le code de ton chatbot. Ton chatbot devrait poser la question "Est-ce que
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quand ce sprite est cliqué
-demander [Quel est ton nom?] et attendre
-mettre [nom v] à (répondre)
-dire (rejoindre [Hi] (nom)) pendant (2) secondes
-+ demander (regrouper [Est-ce que tu vas bien ] : et : (nom)) et attendre
-+ si <(réponse) = [oui]> alors
- dire [Ça fait plaisir à entendre!] pendant (2) secondes
-fin
+when this sprite clicked
+ask [Quel est ton nom?] and wait
+set [nom v] to (answer)
+say (join [Salut ] (nom)) for (2) seconds
++ask (join [Est-ce que tu vas bien ] (nom)) and wait
++if <(answer) = [oui]> then 
+  say [Ça fait plaisir à entendre!] for (2) seconds
+end
 ```
 
 Pour tester ton nouveau code correctement, tu dois le tester **deux fois**: une fois avec la réponse "oui" et une fois avec la réponse "non".
@@ -40,24 +40,23 @@ Remplace le bloc `si, alors`{:class="block3control"} par un bloc `if, alors, sin
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quand ce sprite est cliqué
-demander [Comment vous appelez-vous?] et attendre
-mettre [nom v] à (répondre)
-dire (regrouper [Salut ] : et : (nom)) pendant (2) secondes
-demander (regrouper [Est-ce que tu vas bien ] : et : ( name)) et attendre
-
-+ si <(réponse) = [yes]> alors 
-dire [Ça fait plaisir à entendre!] pendant (2) secondes
-sinon 
-+ dire [Oh non!] pendant (2) secondes
-fin
+when this sprite clicked
+ask [Quel est ton nom?] and wait
+set [nom v] to (answer)
+say (join [Salut ] (nom)) for (2) seconds
+ask (join [Est-ce que tu vas bien ] (nom)) and wait
++ if <(answer) = [oui]> then 
+  say [Ça fait plaisir à entendre!] for (2) seconds
+else 
++  say [Oh non!] for (2) seconds
+end
 ```
 
 --- /task ---
 
 --- task ---
 
-Teste ton code. Tu devrais obtenir une réponse différente lorsque tu réponds "non" et lorsque tu réponds "oui": ton chatbot doit dire "Ça fait plaisir à entendre!" lorsque tu réponds "oui" (ce n’est pas sensible à la casse), et répliquer par "Oh non!" quand tu réponds à **quelque chose d'autre**.
+Teste ton code. Tu devrais obtenir une réponse différente lorsque tu réponds "non" et lorsque tu réponds "oui" ton chatbot doit dire "Ça fait plaisir à entendre!" lorsque tu réponds "oui" (ce n’est pas sensible à la casse), et répliquer par "Oh non!" quand tu réponds à **quelque chose d'autre**.
 
 ![Test d'une réponse du ChatBot](images/chatbot-if-test2.png)
 
@@ -84,19 +83,18 @@ Modifie le code à l'intérieur du `si, alors, sinon`{:class="block3control"} bl
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quand ce sprite est cliqué
-demander [Quel est ton nom?] et attendre
-mettre [nom v] à (réponse)
-dire (regrouper [Salut ] : et : (nom)) pendant (2) secondes
-demander (regrouper [Est-ce que tu vas bien ] : et : (nom)) et attendre
-si <(réponse) = [oui]> alors 
-
-+ basculer sur le costume en (nano-c v)
-  dire [Ça fait plaisir à entendre!] pendant (2) secondes
-sinon 
-+ basculer sur le costume (nano-d v)
-  dire [Oh non!] pendant (2) secondes
-fin
+when this sprite clicked
+ask [Quel est ton nom?] and wait
+set [nom v] to (answer)
+say (join [Salut ] (nom)) for (2) seconds
+ask (join [Est-ce que tu vas bien ] (nom)) and wait
+if <(answer) = [oui]> then 
++  switch costume to (nano-c v)
+  say [Ça fait plaisir à entendre!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh non!] for (2) seconds
+end
 ```
 
 Teste et enregistre ton code. Tu devrais voir le visage de ton chatbot changer en fonction de ta réponse.
@@ -117,10 +115,9 @@ Pour résoudre ce problème, ajoute au code du chatbot l'action de `changer de c
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-lorsque ce sprite est cliqué
-
-+ basculer sur le costume (nano-a v)
-demander [Quel est ton nom?] et attendre
+when this sprite clicked
++ switch costume to (nano-a v)
+ask [Quel est ton nom?] and wait
 ```
 
 ![Test d'une correction de costume](images/chatbot-costume-fix-test.png)

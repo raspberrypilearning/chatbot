@@ -24,7 +24,7 @@ Voici les blocs de code que tu dois ajouter à ton code chatbot.
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-changer la toile de fond en (lune v)
+switch backdrop to (lune v)
 
 demander [Veux-tu aller sur la lune?] et attendre
 
@@ -42,7 +42,7 @@ Voici à quoi ton code devrait ressembler:
 ```blocks3
 demander [Veux-tu aller sur la lune?] et attendre
 si <(réponse) = [oui]> alors 
-basculer sur l'arrière plan (lune v)
+switch backdrop to (lune v)
 fin
 ```
 
@@ -59,9 +59,8 @@ Maintenant, tu dois t'assurer que ton chatbot commence au bon endroit lorsque tu
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-lorsque ce sprite est cliqué
-
-+ basculer sur arrière-plan (espace v)
+when this sprite clicked
++ switch backdrop to (espace v)
 ```
 
 --- /task ---
@@ -79,16 +78,15 @@ Tu peux également ajouter le code suivant dans le nouveau bloc `if`{:class="blo
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-si <(réponse) = [yes]> alors 
-  bascule sur l'arrière-plan (lune v)
-
-+ répéter (4) 
-mettre y à (10)
-attente (0,1) secondes
-mettre y à (-10)
-attente (0,1) secondes
-fin
-fin
+if <(answer) = [oui]> then 
+  switch backdrop to (lune v)
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
+end
 ```
 
 --- /task ---
