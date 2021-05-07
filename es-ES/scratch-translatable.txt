@@ -8,12 +8,6 @@ nombre
 
 yes
 
-¿Dónde vives?
-
-lugar
-
-Yo nunca he ido a
-
 ¿Estás bien?
 
 ¡Qué bueno es oir eso!
