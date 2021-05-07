@@ -8,12 +8,6 @@ name
 
 yes
 
-Where do you live?
-
-place
-
-I've never been to
-
 Are you OK
 
 That's great to hear!
