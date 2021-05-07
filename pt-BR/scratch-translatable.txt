@@ -8,12 +8,6 @@ nome
 
 yes
 
-Onde você mora?
-
-lugar
-
-Eu nunca estive em
-
 Você está bem
 
 Que bom ouvir isso!
