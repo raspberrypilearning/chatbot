@@ -17,5 +17,6 @@ hardware: ''
 software: scratch
 version: 4.1.0
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: צ’אט בוט (רובוט שיחה)
+  completion: engaged

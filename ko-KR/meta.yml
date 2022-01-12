@@ -8,16 +8,18 @@ copyedit: false
 version: 4.1.0
 last_tested: 2018-09-20
 steps:
-  - title: 들어가며
-  - title: 당신의 챗봇
-  - title: 말하는 챗봇
-  - title: "도전과제: 더 많은 질문들"
-    challenge: true
-  - title: 결정하기
-  - title: "도전과제: 더 많은 결정들"
-    challenge: true
-  - title: 장소 바꾸기
-  - title: "도전 과제: 챗봇 완성하기"
-    challenge: true
-  - title: 도전해 보기
-  - title: 더 나아가기
+- title: 들어가며
+  completion: engaged
+- title: 당신의 챗봇
+- title: 말하는 챗봇
+- title: '도전과제: 더 많은 질문들'
+  challenge: true
+- title: 결정하기
+- title: '도전과제: 더 많은 결정들'
+  challenge: true
+  completion: internal
+- title: 장소 바꾸기
+- title: '도전 과제: 챗봇 완성하기'
+  challenge: true
+- title: 도전해 보기
+- title: 더 나아가기

@@ -8,16 +8,18 @@ copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
-  - title: Εισαγωγή
-  - title: Το chatbot σου
-  - title: Ένα ομιλόν chatbot
-  - title: "Πρόκληση: περισσότερες ερωτήσεις"
-    challenge: true
-  - title: Λαμβάνοντας αποφάσεις
-  - title: "Πρόκληση: περισσότερες αποφάσεις"
-    challenge: true
-  - title: Αλλάζοντας τοποθεσία
-  - title: "Πρόκληση: ολοκλήρωσε το chatbot σου"
-    challenge: true
-  - title: Δοκίμασε μόνος σου
-  - title: Και τώρα;
+- title: Εισαγωγή
+  completion: engaged
+- title: Το chatbot σου
+- title: Ένα ομιλόν chatbot
+- title: 'Πρόκληση: περισσότερες ερωτήσεις'
+  challenge: true
+- title: Λαμβάνοντας αποφάσεις
+- title: 'Πρόκληση: περισσότερες αποφάσεις'
+  challenge: true
+  completion: internal
+- title: Αλλάζοντας τοποθεσία
+- title: 'Πρόκληση: ολοκλήρωσε το chatbot σου'
+  challenge: true
+- title: Δοκίμασε μόνος σου
+- title: Και τώρα;

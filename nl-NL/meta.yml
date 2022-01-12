@@ -8,16 +8,18 @@ copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
-  - title: Inleiding
-  - title: Jouw chatbot
-  - title: Een pratende chatbot
-  - title: "Uitdaging: meer vragen"
-    challenge: true
-  - title: Het nemen van beslissingen
-  - title: "Uitdaging: meer beslissingen"
-    challenge: true
-  - title: Verander locatie
-  - title: "Uitdaging: maak je chatbot af"
-    challenge: true
-  - title: Test jezelf
-  - title: Hoe nu verder?
+- title: Inleiding
+  completion: engaged
+- title: Jouw chatbot
+- title: Een pratende chatbot
+- title: 'Uitdaging: meer vragen'
+  challenge: true
+- title: Het nemen van beslissingen
+- title: 'Uitdaging: meer beslissingen'
+  challenge: true
+  completion: internal
+- title: Verander locatie
+- title: 'Uitdaging: maak je chatbot af'
+  challenge: true
+- title: Test jezelf
+- title: Hoe nu verder?

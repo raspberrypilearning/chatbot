@@ -1,22 +1,24 @@
 ---
 title: Chatbot
 hero_image: images/chatbot.png
-description: '¡Aprende a programar tu propio robot que habla!'
+description: "¡Aprende a programar tu propio robot que habla!"
 theme: violet
 listed: true
 copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
-  - title: Introducción
-  - title: Tu chatbot
-  - title: Un chatbot parlanchín
-  - title: "Desafío: más preguntas"
-    challenge: true
-  - title: Tomando decisiones
-  - title: "Desafío: más decisiones"
-    challenge: true
-  - title: Cambio de ubicación
-  - title: "Desafío: finaliza tu chatbot"
-    challenge: true
-  - title: '¿Qué sigue?'
+- title: Introducción
+  completion: engaged
+- title: Tu chatbot
+- title: Un chatbot parlanchín
+- title: 'Desafío: más preguntas'
+  challenge: true
+- title: Tomando decisiones
+- title: 'Desafío: más decisiones'
+  challenge: true
+  completion: internal
+- title: Cambio de ubicación
+- title: 'Desafío: finaliza tu chatbot'
+  challenge: true
+- title: "¿Qué sigue?"

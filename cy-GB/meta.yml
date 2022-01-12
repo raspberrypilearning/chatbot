@@ -8,16 +8,18 @@ copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
-  - title: Cyflwyniad
-  - title: Dy SgwrsBot
-  - title: SgwrsBot sy'n siarad
-  - title: "Her: mwy o gwestiynau"
-    challenge: true
-  - title: Gwneud penderfyniadau
-  - title: "Her: mwy o benderfyniadau"
-    challenge: true
-  - title: Newid lleoliad
-  - title: "Her: cwblhau dy sgwrsbot"
-    challenge: true
-  - title: Profwch eich hun
-  - title: Beth nesaf?
+- title: Cyflwyniad
+  completion: engaged
+- title: Dy SgwrsBot
+- title: SgwrsBot sy'n siarad
+- title: 'Her: mwy o gwestiynau'
+  challenge: true
+- title: Gwneud penderfyniadau
+- title: 'Her: mwy o benderfyniadau'
+  challenge: true
+  completion: internal
+- title: Newid lleoliad
+- title: 'Her: cwblhau dy sgwrsbot'
+  challenge: true
+- title: Profwch eich hun
+- title: Beth nesaf?
