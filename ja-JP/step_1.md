@@ -41,7 +41,7 @@ title: 必要 (ひつよう) なもの
 
 ### ダウンロード
 
-- [ここからダウンロードするファイルをさがす](http://rpf.io/p/ja-JP/chatbot-go)
+- [ここからダウンロードするファイルをさがす](https://rpf.io/p/ja-JP/chatbot-go)
 
 --- /collapse ---
 
@@ -65,6 +65,6 @@ title: 教育者向けの追加メモ
 
 --- /no-print ---
 
-[ここで完成したプロジェクト](http://rpf.io/p/ja-JP/chatbot-get)を見ることができます 。
+[ここで完成したプロジェクト](https://rpf.io/p/ja-JP/chatbot-get)を見ることができます 。
 
 --- /collapse ---

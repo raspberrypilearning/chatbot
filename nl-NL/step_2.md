@@ -13,11 +13,11 @@ Voordat je begint met het maken van je chatbot, moet je beslissen over zijn pers
 
 --- task --- Open het Chatbot Scratch-starter project.
 
-**Online**: open het online starter project op [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online**: open het online starter project op [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Als je een Scratch-account hebt, kun je een kopie maken door op **Remix** te klikken.
 
-**Offline** download het start project [rpf.io/p/nl-NL/chatbot-go ](http://rpf.io/p/nl-NL/chatbot-go){:target="_blank"} en open het vervolgens met behulp van de offline editor.
+**Offline** download het start project [rpf.io/p/nl-NL/chatbot-go ](https://rpf.io/p/nl-NL/chatbot-go){:target="_blank"} en open het vervolgens met behulp van de offline editor.
 
 Als je de Scratch offline editor wilt downloaden en installeren dan kan je die vinden op [https://rpf.io/scratchoff](rpf.io/scratchoff) --- /task ---
 

@@ -15,11 +15,11 @@
 
 「チャットボット」の基本 (きほん) のプロジェクトを開きます。 
 
-**オンライン:** [rpf.i/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} から基本のプロジェクトを開きます。
+**オンライン:** [rpf.i/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"} から基本のプロジェクトを開きます。
 
 Scratch アカウントを持っている場合は、**リミックス**をクリックしてプロジェクトのコピーを作ることができます。
 
-**オフライン:** [rpf.io/p/ja-JP/chatbot-go](http://rpf.io/p/ja-JP/chatbot-go){:target="_blank"}から基本のプロジェクトをダウンロードして、オフラインエディターで開きます。
+**オフライン:** [rpf.io/p/ja-JP/chatbot-go](https://rpf.io/p/ja-JP/chatbot-go){:target="_blank"}から基本のプロジェクトをダウンロードして、オフラインエディターで開きます。
 
 Scratch オフラインエディターは[https://rpf.io/scratchoff](rpf.io/scratchoff)からダウンロードしてインストールできます。
 

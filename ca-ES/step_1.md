@@ -41,7 +41,7 @@ title: Què necessitaràs
 
 ### Descàrregues
 
-- [ Trobeu fitxers per descarregar aquí ](http://rpf.io/p/ca-ES/chatbot-go).
+- [ Trobeu fitxers per descarregar aquí ](https://rpf.io/p/ca-ES/chatbot-go).
 
 --- /collapse ---
 
@@ -65,6 +65,6 @@ Si necessites imprimir aquest projecte, si us plau, utilitza la [versió per imp
 
 --- /no-print ---
 
-Podeu trobar el [projecte complet aquí](http://rpf.io/p/ca-ES/chatbot-get).
+Podeu trobar el [projecte complet aquí](https://rpf.io/p/ca-ES/chatbot-get).
 
 --- /collapse ---

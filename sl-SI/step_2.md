@@ -15,11 +15,11 @@ Preden začneš ustvarjati svoj klepetalni robot, se moraš odločiti, kakšna j
 
 Odpri začetni projekt za Chatbot/ Čvekbot.
 
-**Spletno:** Odpri začetni projekt na [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Spletno:** Odpri začetni projekt na [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Če imaš Scratch uporabniški račun, lahko ustvariš kopijo s klikom na **Predelaj**.
 
-**Brez povezave:** prenesi začetni projekt iz [rpf.io/p/sl-SI/chatbot-go](http://rpf.io/p/sl-SI/chatbot-go){:target="_blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
+**Brez povezave:** prenesi začetni projekt iz [rpf.io/p/sl-SI/chatbot-go](https://rpf.io/p/sl-SI/chatbot-go){:target="_blank"} in ga nato odpri s pomočjo namiznega urejevalnika.
 
 Če želiš prenesti in namestiti Namizni Scratch, ga lahko najdeš na [https://rpf.io/scratchoff](rpf.io/scratchoff).
 

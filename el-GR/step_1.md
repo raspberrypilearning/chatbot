@@ -42,7 +42,7 @@ title: Τι θα χρειαστείς
 
 ### Λήψεις
 
-- [Βρες αρχεία για να κατεβάσεις εδώ](http://rpf.io/p/el-GR/chatbot-go).
+- [Βρες αρχεία για να κατεβάσεις εδώ](https://rpf.io/p/el-GR/chatbot-go).
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ title: Πρόσθετες σημειώσεις για εκπαιδευτικού
 
 --- /no-print ---
 
-Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](http://rpf.io/p/el-GR/chatbot-get).
+Μπορείς να βρεις [το ολοκληρωμένο έργο εδώ](https://rpf.io/p/el-GR/chatbot-get).
 
 --- /collapse ---

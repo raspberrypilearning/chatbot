@@ -12,7 +12,7 @@ Klikni na zelenu zastavicu, a zatim klikni na robota da započneš razgovor. Kad
 
 ### Šta ćeš naučiti
 
-Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 + [Koristite osnovne programske konstrukcije za kreiranje jednostavnih programa.](https://www.raspberrypi.org/curriculum/programming/creator)
 
@@ -43,7 +43,7 @@ Završenu verziju projekta možete naći [online](http://scratch.mit.edu/project
     + `if ... then`{:class="blockcontrol"} (ako ... onda) naredbe;
     + `if ... then ... else`{:class="blockcontrol"} (ako ... onda ... inače) naredbe.
 
-Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Ovim projektom obuhvaćeni su elementi iz sljedećih dijelova [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 + [Koristite osnovne programske konstrukcije za kreiranje jednostavnih programa.](https://www.raspberrypi.org/curriculum/programming/creator)
 

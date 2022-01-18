@@ -15,11 +15,11 @@
 
 चैटबोट स्क्रैच स्टार्टर प्रोजेक्ट खोलें।
 
-**ऑनलाइन:** [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें।
+**ऑनलाइन:** [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"} पर स्टार्टर प्रोजेक्ट खोलें।
 
 यदि आपके पास एक स्क्रैच खाता है, तो आप **Remix** पर क्लिक करके कौपी बना सकते हैं।
 
-**ऑफ़लाइन:** स्टार्टर प्रोजेक्ट को [rpf.io/p/hi-IN/chatbot-go](http://rpf.io/p/hi-IN/chatbot-go){:target="_blank"} से डाउनलोड करें और फिर इसे ऑफ़लाइन ऐडिटर का उपयोग करके खोलें।
+**ऑफ़लाइन:** स्टार्टर प्रोजेक्ट को [rpf.io/p/hi-IN/chatbot-go](https://rpf.io/p/hi-IN/chatbot-go){:target="_blank"} से डाउनलोड करें और फिर इसे ऑफ़लाइन ऐडिटर का उपयोग करके खोलें।
 
 यदि आपको स्क्रैच ऑफ़लाइन ऐडिटर को डाउनलोड और इंस्टॉल करने की आवश्यकता है, तो आप इस [https://rpf.io/scratchoff](rpf.io/scratchoff){:target="_blank"} पर पा सकते हैं।
 
