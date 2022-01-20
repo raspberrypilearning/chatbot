@@ -15,11 +15,11 @@ Abans de començar a crear el teu xatbot, cal decidir la seva personalitat. **Pe
 
 Obre el projecte inicial Xatbot de Scratch.
 
-**En línia:** obre el projecte inicial a [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**En línia:** obre el projecte inicial a [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Si tens un compte a Scratch pots fer una còpia fent clic a **Reinventa**.
 
-**Fora de línia:** descarrega el projecte d'inici de [rpf.io/p/ca-ES/chatbot-go](http://rpf.io/p/ca-ES/chatbot-go){:target="_blank"} i, a continuació, obre'l utilitzant l'editor fora de línia.
+**Fora de línia:** descarrega el projecte d'inici de [rpf.io/p/ca-ES/chatbot-go](https://rpf.io/p/ca-ES/chatbot-go){:target="_blank"} i, a continuació, obre'l utilitzant l'editor fora de línia.
 
 Si necessites descarregar i installar l'editor Scratch fora de línia, el pots trobar a [https://rpf.io/scratchoff](rpf.io/scratchoff).
 

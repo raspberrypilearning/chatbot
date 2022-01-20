@@ -42,7 +42,7 @@ title: Lo que necesitará
 
 ### Descargas
 
-- [ Encuentra los archivos para descargar aquí](http://rpf.io/p/es-LA/chatbot-go).
+- [ Encuentra los archivos para descargar aquí](https://rpf.io/p/es-LA/chatbot-go).
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://pro
 
 --- /no-print ---
 
-Puedes [descargar el proyecto completo aquí](http://rpf.io/p/es-LA/chatbot-get).
+Puedes [descargar el proyecto completo aquí](https://rpf.io/p/es-LA/chatbot-get).
 
 --- /collapse ---

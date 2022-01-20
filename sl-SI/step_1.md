@@ -35,7 +35,7 @@ title: Kaj potrebuješ?
 
 ### Prenosi
 
-- [Tu se nahajajo datoteke za prenos](http://rpf.io/p/sl-SI/chatbot-go).
+- [Tu se nahajajo datoteke za prenos](https://rpf.io/p/sl-SI/chatbot-go).
 
 --- /collapse ---
 
@@ -59,6 +59,6 @@ title: Dodatne informacije za izobraževalce
 
 --- /no-print ---
 
-Dokončan projekt lahko najdete [tukaj](http://rpf.io/p/sl-SI/chatbot-get).
+Dokončan projekt lahko najdete [tukaj](https://rpf.io/p/sl-SI/chatbot-get).
 
 --- /collapse ---

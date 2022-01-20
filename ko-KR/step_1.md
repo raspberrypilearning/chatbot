@@ -42,7 +42,7 @@ title: 준비물
 
 ### 다운로드
 
-- [여기에서 다운로드 할 파일을 찾으십시오](http://rpf.io/p/ko-KR/chatbot-go).
+- [여기에서 다운로드 할 파일을 찾으십시오](https://rpf.io/p/ko-KR/chatbot-go).
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ title: 교육자를 위한 추가 정보
 
 --- /no-print ---
 
-여기서 [완료된 프로젝트를 확인할 수 있습니다](http://rpf.io/p/ko-KR/chatbot-get).
+여기서 [완료된 프로젝트를 확인할 수 있습니다](https://rpf.io/p/ko-KR/chatbot-get).
 
 --- /collapse ---

@@ -15,11 +15,11 @@
 
 சாட்பாட் scratch தொடக்கநிலை திட்டத்தை திறக்கவும்.
 
-**நிகழ்நிலை (ஆன்லைன்):** தொடக்கநிலை திட்டத்தை(starter project) இங்கு [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target ="_blank"} திறக்கவும்.
+**நிகழ்நிலை (ஆன்லைன்):** தொடக்கநிலை திட்டத்தை(starter project) இங்கு [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target ="_blank"} திறக்கவும்.
 
 உங்களிடம் Scratch கணக்கு இருந்தால் **Remix** என்பதைக் கிளிக் செய்வதன் மூலம் ஒரு நகலை உருவாக்கலாம்.
 
-**அகல்நிலை(ஆஃப்லைன்):**அகல்நிலை தொடக்கநிலை திட்டத்தை [rpf.io/p/ta-IN/chatbot-go](http://rpf.io/p/ta-IN/chatbot-go){:target="_blank"} இங்கிருந்து பதிவிறக்கவும், பின்னர் அகல்நிலை பதிப்பானை பயன்படுத்தி திறக்கவும்.
+**அகல்நிலை(ஆஃப்லைன்):**அகல்நிலை தொடக்கநிலை திட்டத்தை [rpf.io/p/ta-IN/chatbot-go](https://rpf.io/p/ta-IN/chatbot-go){:target="_blank"} இங்கிருந்து பதிவிறக்கவும், பின்னர் அகல்நிலை பதிப்பானை பயன்படுத்தி திறக்கவும்.
 
 நீங்கள் Scratch அகல்நிலை பதிப்பானை பதிவிறக்கி நிறுவ வேண்டும் என்றால், அதை [https://rpf.io/scratchoff](rpf.io/scratchoff){:target="_blank"} இங்கு காணலாம்.
 

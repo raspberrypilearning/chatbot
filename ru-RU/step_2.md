@@ -13,11 +13,11 @@
 
 --- task --- Открой стартовый проект Scratch Чат-бот.
 
-**Онлайн:** открой стартовый проект по адресу [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Онлайн:** открой стартовый проект по адресу [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Если у тебя есть учетная запись Scratch, то ты можешь сделать копию, нажав **Ремикс**.
 
-**Оффлайн:** скачай стартовый проект с [rpf.io/p/ru/chatbot-go](http://rpf.io/p/ru-RU/chatbot-go){:target="_blank"} и затем открой его с помощью оффлайн редактора.
+**Оффлайн:** скачай стартовый проект с [rpf.io/p/ru/chatbot-go](https://rpf.io/p/ru-RU/chatbot-go){:target="_blank"} и затем открой его с помощью оффлайн редактора.
 
 Если тебе нужно скачать и установить оффлайн редактор Scratch, ты можешь найти его по адресу [https://rpf.io/scratchoff](rpf.io/scratchoff) --- /task ---
 

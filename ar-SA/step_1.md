@@ -42,7 +42,7 @@ title: ما ستحتاج إليه
 
 ### للتحميل
 
-- [ابحث عن الملفات لتحميلها هنا](http://rpf.io/p/ar-SA/chatbot-go).
+- [ابحث عن الملفات لتحميلها هنا](https://rpf.io/p/ar-SA/chatbot-go).
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ title: ملاحظات إضافية للمعلمين
 
 --- /no-print ---
 
-يمكنك ايجاد [المشروع كامل هنا](http://rpf.io/p/ar-SA/chatbot-get).
+يمكنك ايجاد [المشروع كامل هنا](https://rpf.io/p/ar-SA/chatbot-get).
 
 --- /collapse ---

@@ -41,7 +41,7 @@ title: Di cosa avrai bisogno
 
 ### Download
 
-- [Trova i download qui](http://rpf.io/p/it-IT/chatbot-go).
+- [Trova i download qui](https://rpf.io/p/it-IT/chatbot-go).
 
 --- /collapse ---
 
@@ -63,6 +63,6 @@ Se intendete stampare questo progetto, cliccate su [Versione stampabile](https:/
 
 --- /no-print ---
 
-Puoi trovare il [progetto completo qui](http://rpf.io/p/it-IT/chatbot-get){:target="_blank}.
+Puoi trovare il [progetto completo qui](https://rpf.io/p/it-IT/chatbot-get){:target="_blank}.
 
 --- /collapse ---

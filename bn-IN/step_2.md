@@ -15,11 +15,11 @@
 
 চ্যাটবট scratch starter প্রকল্পটি খুলুন।.
 
-**Online:** starter প্রকল্প এখানে খুলুন [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** starter প্রকল্প এখানে খুলুন [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 আপনার যদি scratch অ্যাকাউন্ট থাকে তবে আপনি **Remix** ক্লিক করে এটির একটি অনুলিপি/copy তৈরি করতে পারেন ।.
 
-**Offline:** starter প্রজেক্ট টি [rpf.io/p/bn-IN/chatbot-go](http://rpf.io/p/bn-IN/chatbot-go) থেকে ডাউনলোড করুন এবং সেটি offline editor. ব্যবহার করে খুলুন.
+**Offline:** starter প্রজেক্ট টি [rpf.io/p/bn-IN/chatbot-go](https://rpf.io/p/bn-IN/chatbot-go) থেকে ডাউনলোড করুন এবং সেটি offline editor. ব্যবহার করে খুলুন.
 
 আপনার যদি scratchঅফলাইন এডিটর ডাউনলোড এবং ইনস্টল করতে হয় তবে আপনি এটি [https://rpf.io/scratchoff](rpf.io/scratchoff){:target="_blank"} তে খুঁজে পেতে পারেন।.
 
