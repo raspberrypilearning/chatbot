@@ -8,16 +8,18 @@ copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
-  - title: Wprowadzenie
-  - title: Twój robot gaduła
-  - title: Gadający robot
-  - title: "Wyzwanie: więcej pytań"
-    challenge: true
-  - title: Podejmowanie decyzji
-  - title: "Wyzwanie: więcej decyzji"
-    challenge: true
-  - title: Zmiana lokalizacji
-  - title: "Wyzwanie: ukończ swojego robota"
-    challenge: true
-  - title: Sprawdź się
-  - title: Co dalej?
+- title: Wprowadzenie
+  completion: engaged
+- title: Twój robot gaduła
+- title: Gadający robot
+- title: 'Wyzwanie: więcej pytań'
+  challenge: true
+- title: Podejmowanie decyzji
+- title: 'Wyzwanie: więcej decyzji'
+  challenge: true
+  completion: internal
+- title: Zmiana lokalizacji
+- title: 'Wyzwanie: ukończ swojego robota'
+  challenge: true
+- title: Sprawdź się
+- title: Co dalej?

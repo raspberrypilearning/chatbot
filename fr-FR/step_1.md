@@ -42,7 +42,7 @@ title: Ce qu'il te faut
 
 ### Téléchargements
 
-- [Trouve les fichiers à télécharger ici](http://rpf.io/p/fr-FR/chatbot-go).
+- [Trouve les fichiers à télécharger ici](https://rpf.io/p/fr-FR/chatbot-go).
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ Si vous besoin d'imprimer ce projet, utilisez la [version imprimable.](https://p
 
 --- /no-print ---
 
-Vous pouvez trouver le [projet terminé ici](http://rpf.io/p/fr-FR/chatbot-get).
+Vous pouvez trouver le [projet terminé ici](https://rpf.io/p/fr-FR/chatbot-get).
 
 --- /collapse ---

@@ -1,7 +1,8 @@
 ---
 title: Hovoriaci robot
 hero_image: images/chatbot.png
-description: V tomto projekte sa naučíš ako naprogramovať svojho vlastného hovoriaceho robota!
+description: V tomto projekte sa naučíš ako naprogramovať svojho vlastného hovoriaceho
+  robota!
 original_url: https://codeclubprojects.org/en-GB/scratch/chatbot?redirect=false
 theme: violet
 duration: 2
@@ -17,5 +18,6 @@ hardware: ''
 software: scratch
 version: 4.1.0
 last_tested: 2017-01-01
-steps: 
+steps:
 - title: Hovoriaci robot
+  completion: engaged

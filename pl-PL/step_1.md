@@ -42,7 +42,7 @@ title: Czego będziesz potrzebować
 
 ### Pliki do pobrania
 
-- [Znajdź pliki do pobrania](http://rpf.io/p/pl-PL/chatbot-go).
+- [Znajdź pliki do pobrania](https://rpf.io/p/pl-PL/chatbot-go).
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ Jeśli chcesz wydrukować ten projekt, użyj [wersji przygotowanej do wydruku](h
 
 --- /no-print ---
 
-Możesz znaleźć [ukończoną wersję projektu tutaj](http://rpf.io/p/pl-PL/chatbot-get).
+Możesz znaleźć [ukończoną wersję projektu tutaj](https://rpf.io/p/pl-PL/chatbot-get).
 
 --- /collapse ---

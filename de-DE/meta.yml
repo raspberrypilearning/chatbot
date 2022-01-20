@@ -8,15 +8,17 @@ copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
-  - title: Einleitung
-  - title: Dein Chatbot
-  - title: Ein sprechender Chatbot
-  - title: "Herausforderung: zusätzliche Fragen"
-    challenge: true
-  - title: Entscheidungen treffen
-  - title: "Herausforderung: zusätzliche Entscheidungen"
-    challenge: true
-  - title: Ortswechsel
-  - title: "Herausforderung: Vervollständige deinen Chatbot"
-    challenge: true
-  - title: Wie geht es weiter?
+- title: Einleitung
+  completion: engaged
+- title: Dein Chatbot
+- title: Ein sprechender Chatbot
+- title: 'Herausforderung: zusätzliche Fragen'
+  challenge: true
+- title: Entscheidungen treffen
+- title: 'Herausforderung: zusätzliche Entscheidungen'
+  challenge: true
+  completion: internal
+- title: Ortswechsel
+- title: 'Herausforderung: Vervollständige deinen Chatbot'
+  challenge: true
+- title: Wie geht es weiter?

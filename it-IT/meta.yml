@@ -8,15 +8,17 @@ copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
-  - title: Introduzione
-  - title: Il tuo ChiacchieRobot
-  - title: Un ChiacchieRobot parlante
-  - title: "Sfida: Altre domande"
-    challenge: true
-  - title: Prendere decisioni
-  - title: "Sfida: Altre decisioni"
-    challenge: true
-  - title: Cambiare posizione
-  - title: "Sfida: Completa il tuo ChiacchieRobot"
-    challenge: true
-  - title: E adesso?
+- title: Introduzione
+  completion: engaged
+- title: Il tuo ChiacchieRobot
+- title: Un ChiacchieRobot parlante
+- title: 'Sfida: Altre domande'
+  challenge: true
+- title: Prendere decisioni
+- title: 'Sfida: Altre decisioni'
+  challenge: true
+  completion: internal
+- title: Cambiare posizione
+- title: 'Sfida: Completa il tuo ChiacchieRobot'
+  challenge: true
+- title: E adesso?

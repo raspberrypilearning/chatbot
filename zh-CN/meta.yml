@@ -8,15 +8,17 @@ copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
-  - title: 简介
-  - title: 聊天机器人
-  - title: 一台会说话的聊天机器人
-  - title: "挑战：更多问题"
-    challenge: true
-  - title: 决策
-  - title: "挑战: 更多判断"
-    challenge: true
-  - title: 改变位置
-  - title: "挑战：完成你的聊天机器人"
-    challenge: true
-  - title: 接下来呢？
+- title: 简介
+  completion: engaged
+- title: 聊天机器人
+- title: 一台会说话的聊天机器人
+- title: 挑战：更多问题
+  challenge: true
+- title: 决策
+- title: '挑战: 更多判断'
+  challenge: true
+  completion: internal
+- title: 改变位置
+- title: 挑战：完成你的聊天机器人
+  challenge: true
+- title: 接下来呢？

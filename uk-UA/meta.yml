@@ -8,15 +8,17 @@ copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
-  - title: Вступ
-  - title: Твій чат-бот
-  - title: Чат-бот, що розмовляє
-  - title: "Завдання: більше питань"
-    challenge: true
-  - title: Прийняття рішень
-  - title: "Завдання: більше рішень"
-    challenge: true
-  - title: Зміна розташування
-  - title: "Завдання: заверши свого чат-бота"
-    challenge: true
-  - title: Що далі?
+- title: Вступ
+  completion: engaged
+- title: Твій чат-бот
+- title: Чат-бот, що розмовляє
+- title: 'Завдання: більше питань'
+  challenge: true
+- title: Прийняття рішень
+- title: 'Завдання: більше рішень'
+  challenge: true
+  completion: internal
+- title: Зміна розташування
+- title: 'Завдання: заверши свого чат-бота'
+  challenge: true
+- title: Що далі?

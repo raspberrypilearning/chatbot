@@ -42,7 +42,7 @@ title: 你需要准备什么
 
 ### 下载
 
-- [在此处查找要下载的文件](http://rpf.io/p/zh-CN/chatbot-go)。
+- [在此处查找要下载的文件](https://rpf.io/p/zh-CN/chatbot-go)。
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ title: 教师附加说明
 
 --- /no-print ---
 
-你可以在这里找到 [完成的项目](http://rpf.io/p/zh-CN/chatbot-get)。
+你可以在这里找到 [完成的项目](https://rpf.io/p/zh-CN/chatbot-get)。
 
 --- /collapse ---

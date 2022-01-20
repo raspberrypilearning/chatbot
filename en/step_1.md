@@ -36,7 +36,7 @@ title: What you will need
 
 ### Downloads
 
-+ [Find files to download here](http://rpf.io/p/en/chatbot-go).
++ [Find files to download here](https://rpf.io/p/en/chatbot-go).
 
 --- /collapse ---
 
@@ -45,7 +45,7 @@ title: What you will need
 title: What you will learn
 ---
 
-- Use code to concatenate strings in Scratch
+- Use code to join text in Scratch
 - Know that variables can be used to store user input
 - Use conditional selection to respond to user input in Scratch
 
@@ -62,7 +62,7 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 --- /no-print ---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](https://rpf.io/p/en/chatbot-get).
 
 --- /collapse ---
 

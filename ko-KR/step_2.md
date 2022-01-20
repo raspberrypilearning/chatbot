@@ -13,11 +13,11 @@
 
 --- task --- 챗봇 스크래치 스타터 프로젝트를 엽니다.
 
-**온라인:** [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}에서 새로운 스타터 프로젝트 열기.
+**온라인:** [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}에서 새로운 스타터 프로젝트 열기.
 
 스크래치 계정이있는 경우 **Remix를 클릭** 하여 사본을 만들 수 있습니다.
 
-**오프라인:** 오프라인 시작 프로그램을 [rpf.io/p/ko-KR/chatbot-go](http://rpf.io/p/ko-KR/chatbot-go){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다.
+**오프라인:** 오프라인 시작 프로그램을 [rpf.io/p/ko-KR/chatbot-go](https://rpf.io/p/ko-KR/chatbot-go){:target="_blank"} 에서 다운로드하고, 오프라인 에디터로 파일을 엽니다.
 
 스크래치 오프라인 에디터를 다운로드 받아 설치하려면, [https://rpf.io/scratchoff](rpf.io/scratchoff) 에서 다운 받을 수 있습니다. --- /task ---
 

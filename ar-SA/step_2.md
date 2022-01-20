@@ -15,11 +15,11 @@
 
 افتح مشروع بدء Scratch للروبوت.
 
-**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**بالاتصال بالانترنت**: افتح المشروع المبدئي من هنا [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 اذا كنت تملك حساب على منصة السكراتش (Scratch) فيمكنك عمل نسخة بالضغط على **Remix**.
 
-**بدون اتصال انترنيت** حمّل المشروع المبدئي من [rpf.io/p/ar-SA/chatbot-go](http://rpf.io/p/ar-SA/chatbot-go){:target="_blank"} ثم اقتحه باستخدام محرر البرنامج بدون اتصال انترنيت.
+**بدون اتصال انترنيت** حمّل المشروع المبدئي من [rpf.io/p/ar-SA/chatbot-go](https://rpf.io/p/ar-SA/chatbot-go){:target="_blank"} ثم اقتحه باستخدام محرر البرنامج بدون اتصال انترنيت.
 
 لتنزيل و تركيب محرر Scratch على جهازك الشخصي، يمكنك الحصول عليه من هنا [https://rpf.io/scratchoff](rpf.io/scratchoff).
 

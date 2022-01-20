@@ -42,7 +42,7 @@ title: Trebat ćeš
 
 ### Preuzimanja
 
-- [Ovdje ćeš pronaći datoteke za preuzimanje](http://rpf.io/p/hr-HR/chatbot-go).
+- [Ovdje ćeš pronaći datoteke za preuzimanje](https://rpf.io/p/hr-HR/chatbot-go).
 
 --- /collapse ---
 
@@ -68,6 +68,6 @@ Ako želite ispisati ovaj projekt, koristite [verziju koja je prilagođena za is
 
 --- /no-print ---
 
-[Ovdje](http://rpf.io/p/hr-HR/chatbot-get) možete pronaći dovršen projekt.
+[Ovdje](https://rpf.io/p/hr-HR/chatbot-get) možete pronaći dovršen projekt.
 
 --- /collapse ---

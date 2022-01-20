@@ -8,16 +8,18 @@ copyedit: false
 version: 4.2.0
 last_tested: 2018-09-20
 steps:
-  - title: Introduction
-  - title: Ton chatbot
-  - title: Un chatbot parlant
-  - title: "Défi: plus de questions"
-    challenge: true
-  - title: Prendre des décisions
-  - title: "Défi: plus de décisions"
-    challenge: true
-  - title: Changer d'emplacement
-  - title: "Défi: termine ton chatbot"
-    challenge: true
-  - title: Teste-toi
-  - title: Que faire ensuite?
+- title: Introduction
+  completion: engaged
+- title: Ton chatbot
+- title: Un chatbot parlant
+- title: 'Défi: plus de questions'
+  challenge: true
+- title: Prendre des décisions
+- title: 'Défi: plus de décisions'
+  challenge: true
+  completion: internal
+- title: Changer d'emplacement
+- title: 'Défi: termine ton chatbot'
+  challenge: true
+- title: Teste-toi
+- title: Que faire ensuite?

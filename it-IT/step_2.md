@@ -13,11 +13,11 @@ Prima di iniziare a creare il tuo ChiacchieRobot, dovrai decidere la sua persona
 
 --- task --- Apri il progetto Scratch di avvio del chiacchierobot.
 
-**Online:** apri il progetto iniziale su [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** apri il progetto iniziale su [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Se hai un account su Scratch, puoi farne una copia cliccando su **Remix**.
 
-**Offline:** scarica il progetto iniziale da [rpf.io/p/it-IT/chatbot-go](http://rpf.io/p/it-IT/chatbot-go){:target="_blank"}, e aprilo con l'editor offline.
+**Offline:** scarica il progetto iniziale da [rpf.io/p/it-IT/chatbot-go](https://rpf.io/p/it-IT/chatbot-go){:target="_blank"}, e aprilo con l'editor offline.
 
 Se hai bisogno di scaricare e installare l'editor di Scratch offline, puoi trovarlo all'indirizzo [https://rpf.io/scratchoff](rpf.io/scratchoff). --- /task ---
 

@@ -12,7 +12,7 @@ Clique na bandeira verde e, em seguida, clique no chatbot para iniciar uma conve
 
 ### O que você aprenderá
 
-Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 + [Use construções básicas de programação para criar programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 
@@ -43,7 +43,7 @@ Você pode encontrar a versão completa deste projeto [online](http://scratch.mi
     + comando `se ... então`{:class="blockcontrol"} ;
     + comando `se ... então ... senão`{:class="blockcontrol"}.
 
-Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
+Este projeto abrange elementos das seguintes vertentes do [Raspberry Pi Digital Making Curriculum](https://rpf.io/curriculum):
 
 + [Use construções básicas de programação para criar programas simples.](https://www.raspberrypi.org/curriculum/programming/creator)
 

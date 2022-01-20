@@ -42,7 +42,7 @@ title: Wat heb je nodig
 
 ### Downloads
 
-- [Zoek hier bestanden om te downloaden](http://rpf.io/p/nl-NL/chatbot-go).
+- [Zoek hier bestanden om te downloaden](https://rpf.io/p/nl-NL/chatbot-go).
 
 --- /collapse ---
 
@@ -66,6 +66,6 @@ Als je dit project wilt afdrukken, gebruik dan de [printvriendelijke versie](htt
 
 --- /no-print ---
 
-Hier kun je het [voltooide project](http://rpf.io/p/nl-NL/chatbot-get) downloaden.
+Hier kun je het [voltooide project](https://rpf.io/p/nl-NL/chatbot-get) downloaden.
 
 --- /collapse ---

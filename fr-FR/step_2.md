@@ -13,11 +13,11 @@ Avant de créer ton chatbot, tu dois définir sa personnalité. **Pense aux ques
 
 --- task --- Ouvrez le projet de démarrage Chatbot Scratch.
 
-**En ligne:** ouvre le projet de démarrage à [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**En ligne:** ouvre le projet de démarrage à [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Si tu as un compte Scratch, tu peux en créer une copie en cliquant sur **Remix**.
 
-**Hors ligne:** télécharge et démarre le projet depuis [pf.io/p/fr-FR/chatbot-go](http://rpf.io/p/fr-FR/chatbot-go){:target="_blank"} et ouvre le avec l'éditeur hors ligne.
+**Hors ligne:** télécharge et démarre le projet depuis [pf.io/p/fr-FR/chatbot-go](https://rpf.io/p/fr-FR/chatbot-go){:target="_blank"} et ouvre le avec l'éditeur hors ligne.
 
 Si tu dois télécharger et installer l'éditeur hors ligne Scratch, tu peux le trouver à [https://rpf.io/scratchoff](rpf.io/scratchoff). --- /task ---
 

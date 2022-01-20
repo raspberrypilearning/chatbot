@@ -13,11 +13,11 @@ Cyn i ti ddechrau creu dy sgwrsfot, mae angen i ti benderfynu ar ei bersonoliaet
 
 --- task --- Agora prosiect cychwynol Sgwrsfot Scratch.
 
-**Arlein:** agora brosiect Scratch newydd yma [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Arlein:** agora brosiect Scratch newydd yma [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Os oes ganddot ti gyfrif Scratch galli di wneud copi drwy glicio ar **Remix**.
 
-**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/chatbot-go](http://rpf.io/p/cy-GB/chatbot-go){:target="_blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein.
+**All-lein:** lawrlwytha'r prosiect cychwynnol o [rpf.io/p/cy-GB/chatbot-go](https://rpf.io/p/cy-GB/chatbot-go){:target="_blank"} ac yna ei agor gan ddefnyddio'r golygydd all-lein.
 
 Os oes angen i ti lawrlwytho a gosod golygydd Scratch all-lein, mae modd dod o hyd iddo yma [https://rpf.io/scratchoff](rpf.io/scratchoff). --- /task ---
 
