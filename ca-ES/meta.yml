@@ -9,16 +9,18 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
 - title: Introducció
-  completion: engaged
 - title: El teu xatbot
 - title: Un xatbot parlant
+  completion:
+  - engaged
 - title: 'Repte: més preguntes'
   challenge: true
 - title: Prenent decisions
 - title: 'Repte: més decisions'
   challenge: true
-  completion: internal
 - title: Canviant la ubicació
+  completion:
+  - internal
 - title: 'Repte: acaba el teu xatbot'
   challenge: true
 - title: I ara què ve?

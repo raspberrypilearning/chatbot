@@ -9,16 +9,18 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
 - title: Uvod
-  completion: engaged
 - title: Tvoj robot
 - title: Robot koji govori
+  completion:
+  - engaged
 - title: 'Izazov: još pitanja'
   challenge: true
 - title: Donošenje odluka
 - title: 'Izazov: više odluka'
   challenge: true
-  completion: internal
 - title: Promjena lokacije
+  completion:
+  - internal
 - title: 'Izazov: dovrši robota'
   challenge: true
 - title: Što dalje?

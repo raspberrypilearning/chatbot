@@ -9,16 +9,18 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
 - title: Cyflwyniad
-  completion: engaged
 - title: Dy SgwrsBot
 - title: SgwrsBot sy'n siarad
+  completion:
+  - engaged
 - title: 'Her: mwy o gwestiynau'
   challenge: true
 - title: Gwneud penderfyniadau
 - title: 'Her: mwy o benderfyniadau'
   challenge: true
-  completion: internal
 - title: Newid lleoliad
+  completion:
+  - internal
 - title: 'Her: cwblhau dy sgwrsbot'
   challenge: true
 - title: Profwch eich hun

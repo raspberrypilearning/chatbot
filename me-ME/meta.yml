@@ -19,11 +19,13 @@ version: 4.1.0
 last_tested: 2017-01-01
 steps:
 - title: Uvod
-  completion: engaged
 - title: Šta će ti biti potrebno
 - title: Tvoj robot koji razgovara
+  completion:
+  - engaged
 - title: Pričljivi robot
 - title: Donošenje odluka
 - title: Promjena lokacije
-  completion: internal
 - title: 'Izazov: dovrši svog robota'
+  completion:
+  - internal

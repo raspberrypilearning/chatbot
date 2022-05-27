@@ -19,4 +19,3 @@ version: 4.1.0
 last_tested: 2017-01-01
 steps:
 - title: ChatBot
-  completion: engaged
