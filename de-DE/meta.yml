@@ -9,16 +9,18 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
 - title: Einleitung
-  completion: engaged
 - title: Dein Chatbot
 - title: Ein sprechender Chatbot
+  completion:
+  - engaged
 - title: 'Herausforderung: zusätzliche Fragen'
   challenge: true
 - title: Entscheidungen treffen
 - title: 'Herausforderung: zusätzliche Entscheidungen'
   challenge: true
-  completion: internal
 - title: Ortswechsel
+  completion:
+  - internal
 - title: 'Herausforderung: Vervollständige deinen Chatbot'
   challenge: true
 - title: Wie geht es weiter?

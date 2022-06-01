@@ -9,16 +9,18 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
 - title: Вступ
-  completion: engaged
 - title: Твій чат-бот
 - title: Чат-бот, що розмовляє
+  completion:
+  - engaged
 - title: 'Завдання: більше питань'
   challenge: true
 - title: Прийняття рішень
 - title: 'Завдання: більше рішень'
   challenge: true
-  completion: internal
 - title: Зміна розташування
+  completion:
+  - internal
 - title: 'Завдання: заверши свого чат-бота'
   challenge: true
 - title: Що далі?

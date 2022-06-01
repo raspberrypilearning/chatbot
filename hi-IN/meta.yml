@@ -9,16 +9,18 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
 - title: परिचय
-  completion: engaged
 - title: आपका चैटबॉट
 - title: बात करने वाला चैटबॉट
+  completion:
+  - engaged
 - title: 'चुनौती: अधिक प्रश्न'
   challenge: true
 - title: निर्णय लेना
 - title: 'चुनौती: अधिक निर्णय'
   challenge: true
-  completion: internal
 - title: स्थान बदलना
+  completion:
+  - internal
 - title: 'चुनौती: अपना चैटबॉट समाप्त करना'
   challenge: true
 - title: आगे क्या?

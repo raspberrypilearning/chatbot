@@ -9,16 +9,18 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
 - title: Introdução
-  completion: engaged
 - title: O teu robô falante
 - title: Um robô falante
+  completion:
+  - engaged
 - title: 'Desafio: mais perguntas'
   challenge: true
 - title: Tomar decisões
 - title: 'Desafio: mais decisões'
   challenge: true
-  completion: internal
 - title: Mudar de localização
+  completion:
+  - internal
 - title: 'Desafio: termina o teu robô falante'
   challenge: true
 - title: O que se segue?

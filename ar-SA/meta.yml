@@ -9,16 +9,18 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
 - title: المقدمة
-  completion: engaged
 - title: روبوتك
 - title: روبوت مُحاوِر
+  completion:
+  - engaged
 - title: 'التحدي: مزيد من الأسئلة'
   challenge: true
 - title: اتخاذ القارارت
 - title: 'التحدي: مزيد من القرارات'
   challenge: true
-  completion: internal
 - title: تغيير المكان
+  completion:
+  - internal
 - title: 'التحدي: إكمال إنشاء روبوتك'
   challenge: true
 - title: ما التالي؟
