@@ -6,9 +6,9 @@ Olá
 
 nome
 
-yes
+sim
 
-Você está bem
+Você está bem?
 
 Que bom ouvir isso!
 
