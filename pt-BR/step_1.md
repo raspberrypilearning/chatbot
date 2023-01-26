@@ -1,12 +1,12 @@
 ## Introdução
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Você vai aprender a programar um personagem que pode falar com você! Um personagem como esse é chamado de robô de bate-papo ou chatbot.
 
-### What you will make
+### O que você vai fazer
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Clique na bandeira verde e, em seguida, clique no chatbot para iniciar uma conversa. Quando o chatbot fizer uma pergunta, digite sua resposta na caixa na parte inferior do Palco e clique no sinal de confirmação (ou pressione `Enter`).
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -27,7 +27,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Hardware
 
-- Computer capable of running Scratch 3
+- Um computador capaz de executar o Scratch 3
 
 ### Software
 
@@ -35,7 +35,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Downloads
 
-- [Find files to download here](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](https://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -43,7 +43,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## Recursos
 
-- Use code to join text in Scratch
+- Use código para juntar o texto no Scratch
 - Saiba que variáveis podem ser usadas para armazenar a entrada do usuário
 - Use a seleção condicional no Scratch para responder à entrada do usuário
 
@@ -59,6 +59,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](https://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
