@@ -14,18 +14,22 @@ steps:
     title: Tvoj chatbot
   - 
     title: Robot koji govori
+    completion:
+      - engaged
   - 
-    title: "Izazov: još pitanja"
+    title: 'Izazov: još pitanja'
     challenge: true
   - 
     title: Donošenje odluka
   - 
-    title: "Izazov: više odluka"
+    title: 'Izazov: više odluka'
     challenge: true
   - 
     title: Promjena lokacije
+    completion:
+      - internal
   - 
-    title: "Izazov: dovrši robota"
+    title: 'Izazov: dovrši robota'
     challenge: true
   - 
     title: Što dalje?
