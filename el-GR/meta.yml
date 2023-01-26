@@ -14,18 +14,22 @@ steps:
     title: Το chatbot σου
   - 
     title: Ένα  chatbot που ... μιλάει!
+    completion:
+      - engaged
   - 
-    title: "Πρόκληση: περισσότερες ερωτήσεις"
+    title: 'Πρόκληση: περισσότερες ερωτήσεις'
     challenge: true
   - 
     title: Λαμβάνοντας αποφάσεις
   - 
-    title: "Πρόκληση: περισσότερες αποφάσεις"
+    title: 'Πρόκληση: περισσότερες αποφάσεις'
     challenge: true
   - 
     title: Αλλάζοντας τοποθεσία
+    completion:
+      - internal
   - 
-    title: "Πρόκληση: ολοκλήρωσε το chatbot σου"
+    title: 'Πρόκληση: ολοκλήρωσε το chatbot σου'
     challenge: true
   - 
     title: What next?
