@@ -1,6 +1,6 @@
 ## Desafio: Mais perguntas
 
-Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
+Agora que você tem um chatbot com uma personalidade, vamos programá-lo para conversar com você?
 
 ![More questions](images/chatbot-question1.png)
 
