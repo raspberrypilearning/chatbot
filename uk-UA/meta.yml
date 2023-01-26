@@ -14,18 +14,22 @@ steps:
     title: Твій чат-бот
   - 
     title: Чат-бот, що розмовляє
+    completion:
+      - engaged
   - 
-    title: "Завдання: більше питань"
+    title: 'Завдання: більше питань'
     challenge: true
   - 
     title: Прийняття рішень
   - 
-    title: "Завдання: більше рішень"
+    title: 'Завдання: більше рішень'
     challenge: true
   - 
     title: Зміна розташування
+    completion:
+      - internal
   - 
-    title: "Завдання: заверши свого чат-бота"
+    title: 'Завдання: заверши свого чат-бота'
     challenge: true
   - 
     title: Що далі?
