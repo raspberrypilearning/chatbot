@@ -14,18 +14,22 @@ steps:
     title: O teu robô falante
   - 
     title: Um robô falante
+    completion:
+      - engaged
   - 
-    title: "Desafio: mais perguntas"
+    title: 'Desafio: mais perguntas'
     challenge: true
   - 
     title: Tomar decisões
   - 
-    title: "Desafio: mais perguntas"
+    title: 'Desafio: mais perguntas'
     challenge: true
   - 
     title: Alterar local
+    completion:
+      - internal
   - 
-    title: "Desafio: termina o teu robô falante"
+    title: 'Desafio: termina o teu robô falante'
     challenge: true
   - 
     title: O que se segue?
