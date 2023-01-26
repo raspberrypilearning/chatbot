@@ -4,7 +4,7 @@ Agora que você tem um chatbot com uma personalidade, você vai programá-lo par
 
 \--- task \---
 
-Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="block3events"}, it `asks for your name`{:class="block3sensing"} and then `says "What a lovely name!"`{:class="block3looks"}.
+Clique no seu ator de chatbot e adicione este código a ele para que `quando ele for clicado`{:class="block3events"}, ele `peça o seu nome`{:class="block3sensing"} e então `diga"Que nome adorável!"`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
@@ -28,11 +28,11 @@ Clique no seu chatbot para testar seu código. Quando o chatbot solicitar seu no
 
 \--- task \---
 
-Right now, your chatbot replies "What a lovely name!" every time you answer. You can make the chatbot’s reply more personal, so that the reply is different every time a different name is typed in.
+Neste momento, o seu chatbot responde "Que nome adorável!" toda vez que você responder. Você pode tornar a resposta do chatbot mais pessoal, para que a resposta seja diferente toda vez que um nome diferente for digitado.
 
 Mude o código do ator do chatbot para `juntar `{:class="block3operators"} "Oi" com a `resposta`{:class="block3sensing"} para "Qual é o seu nome?", para que o código fique assim:
 
-![nano sprite](images/nano-sprite.png)
+![ator nano](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -56,9 +56,9 @@ Cria uma nova variável chamada `nome`{:class="block3variables"}.
 
 \--- task \---
 
-Now, change your chatbot sprites’s code to set the `name`{:class="block3variables"} variable to `answer`{:class="block3sensing"}:
+Agora, mude o código do seu ator do chatbot para definir a variável `nome`{:class="block3variables"} como `resposta`{:class="block3sensing"}:
 
-![nano sprite](images/nano-sprite.png)
+![ator nano](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
@@ -74,4 +74,4 @@ Seu código deve funcionar como antes: seu chatbot deve dizer oi usando o nome q
 
 \--- /task \---
 
-Teste seu programa novamente. Observe que a resposta que você digita é armazenada no `nome`{:class="block3variables"} e também é mostrada no canto superior esquerdo do Palco. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Teste seu programa novamente. Observe que a resposta que você digita é armazenada no `nome`{:class="block3variables"} e também é mostrada no canto superior esquerdo do Palco. Para fazê-lo desaparecer do palco, vá para a seção de blocos `Variáveis`{:class="block3variables"} e clique na caixa ao lado do `nome`{:class="block3variables"} para que ela não seja marcada.
