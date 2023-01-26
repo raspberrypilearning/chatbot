@@ -14,18 +14,22 @@ steps:
     title: Robotul tău vorbitor
   - 
     title: Un robot vorbitor
+    completion:
+      - engaged
   - 
-    title: "Provocare: mai multe întrebări"
+    title: 'Provocare: mai multe întrebări'
     challenge: true
   - 
     title: Making decisions
   - 
-    title: "Provocare: mai multe decizii"
+    title: 'Provocare: mai multe decizii'
     challenge: true
   - 
     title: Schimbarea locației
+    completion:
+      - internal
   - 
-    title: "Provocare: finalizează-ți robotul vorbitor"
+    title: 'Provocare: finalizează-ți robotul vorbitor'
     challenge: true
   - 
     title: What next?
