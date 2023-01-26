@@ -15,11 +15,11 @@ Prije nego što započneš s izradom svojeg chatbota, moraš odlučiti o njegovo
 
 Otvori početni Scratch projekt Chatbot.
 
-**Online:** otvori početni projekt s [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Ako imaš Scratch korisnički račun, možeš napraviti kopiju klikom na **Remix**.
 
-**Offline:** preuzmi početni projekt s [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go), a zatim ga otvori pomoću offline uređivača.
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
 Ako trebaš preuzeti i instalirati offline Scratch uređivač, to možeš napraviti na [https://rpf.io/scratchoff](rpf.io/scratchoff).\--- /task.
 
