@@ -14,18 +14,22 @@ steps:
     title: הצ'אטבוט שלכם
   - 
     title: צ'אטבוט מדבר
+    completion:
+      - engaged
   - 
-    title: "אתגר: שאלות נוספות"
+    title: 'אתגר: שאלות נוספות'
     challenge: true
   - 
     title: קבלת החלטות
   - 
-    title: "אתגר: החלטות נוספות"
+    title: 'אתגר: החלטות נוספות'
     challenge: true
   - 
     title: שינוי מיקום
+    completion:
+      - internal
   - 
-    title: "אתגר: סיים את הצ'אטבוט שלך"
+    title: 'אתגר: סיים את הצ''אטבוט שלך'
     challenge: true
   - 
     title: מה הלאה?
