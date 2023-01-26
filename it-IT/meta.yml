@@ -14,18 +14,22 @@ steps:
     title: Il tuo ChiacchieRobot
   - 
     title: Il tuo ChiacchieRobot
+    completion:
+      - engaged
   - 
-    title: "Sfida: Altre domande"
+    title: 'Sfida: Altre domande'
     challenge: true
   - 
     title: Prendere decisioni
   - 
-    title: "Sfida: Altre decisioni"
+    title: 'Sfida: Altre decisioni'
     challenge: true
   - 
     title: Cambiare posizione
+    completion:
+      - internal
   - 
-    title: "Sfida: Completa il tuo ChiacchieRobot"
+    title: 'Sfida: Completa il tuo ChiacchieRobot'
     challenge: true
   - 
     title: E adesso?
