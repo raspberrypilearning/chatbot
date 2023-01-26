@@ -14,18 +14,22 @@ steps:
     title: 自分のチャットボット
   - 
     title: おしゃべりチャットボット
+    completion:
+      - engaged
   - 
-    title: "チャレンジ: 質問 (しつもん) をふやす"
+    title: 'チャレンジ: 質問 (しつもん) をふやす'
     challenge: true
   - 
     title: '「はい」か「いいえ」で答える'
   - 
-    title: "チャレンジ: 「はい」か「いいえ」で答えられる質問をふやす"
+    title: 'チャレンジ: 「はい」か「いいえ」で答えられる質問をふやす'
     challenge: true
   - 
     title: 場所をかえる
+    completion:
+      - internal
   - 
-    title: "チャレンジ: チャットボットを仕上げる"
+    title: 'チャレンジ: チャットボットを仕上げる'
     challenge: true
   - 
     title: 次は何をしましょうか？
