@@ -1,5 +1,5 @@
 ## Desafio: Mais decisões
 
-Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
+Programe seu chatbot para fazer outra pergunta que possa ser respondida com "sim" ou "não". Você pode fazer seu chatbot responder de forma diferente dependendo de qual resposta ele recebe?
 
 ![screenshot](images/chatbot-joke.png)
