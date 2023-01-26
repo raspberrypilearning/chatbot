@@ -15,11 +15,11 @@ Antes de começares a programar o teu robô falante, precisas de decidir qual é
 
 Abre o projeto inicial do Scratch.
 
-**Online:** abre o projeto inicial em [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares **Remix**.
 
-**Offline:** descarrega o projeto inicial de [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go), e depois abre-o no editor Scratch offline.
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
 Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
