@@ -14,18 +14,22 @@ steps:
     title: Twój robot gaduła
   - 
     title: Rozmawiający robot
+    completion:
+      - engaged
   - 
-    title: "Wyzwanie: więcej pytań"
+    title: 'Wyzwanie: więcej pytań'
     challenge: true
   - 
     title: Podejmowanie decyzji
   - 
-    title: "Wyzwanie: więcej decyzji"
+    title: 'Wyzwanie: więcej decyzji'
     challenge: true
   - 
     title: Zmiana lokalizacji
+    completion:
+      - internal
   - 
-    title: "Wyzwanie: ukończ swojego robota"
+    title: 'Wyzwanie: ukończ swojego robota'
     challenge: true
   - 
     title: What next?
