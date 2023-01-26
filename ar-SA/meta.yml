@@ -14,18 +14,22 @@ steps:
     title: روبوتك
   - 
     title: روبوت مُحاوِر
+    completion:
+      - engaged
   - 
-    title: "التحدي: مزيد من الأسئلة"
+    title: 'التحدي: مزيد من الأسئلة'
     challenge: true
   - 
     title: اتخاذ القارارت
   - 
-    title: "التحدي: مزيد من القرارات"
+    title: 'التحدي: مزيد من القرارات'
     challenge: true
   - 
     title: تغيير المكان
+    completion:
+      - internal
   - 
-    title: "التحدي: إكمال إنشاء روبوتك"
+    title: 'التحدي: إكمال إنشاء روبوتك'
     challenge: true
   - 
     title: ما التالي؟
