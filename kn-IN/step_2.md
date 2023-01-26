@@ -15,11 +15,11 @@
 
 ಚಾಟ್‌ಬಾಟ್ ಸ್ಕ್ರ್ಯಾಚ್ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ.
 
-** ಆನ್‌ಲೈನ್: ** [ rpf.io/chatbot-on ನಲ್ಲಿ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ತೆರೆಯಿರಿ ](http://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 ನೀವು ಸ್ಕ್ರ್ಯಾಚ್ ಖಾತೆಯನ್ನು ಹೊಂದಿದ್ದರೆ ** ರೀಮಿಕ್ಸ್ ಕ್ಲಿಕ್ ಮಾಡುವ ಮೂಲಕ ನೀವು ನಕಲನ್ನು ಮಾಡಬಹುದು **.
 
-** ಆಫ್‌ಲೈನ್: ** [ rpf.io/p/en/chatbot-go ನಿಂದ ಸ್ಟಾರ್ಟರ್ ಯೋಜನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ](http://rpf.io/p/en/chatbot-go) {: target = "_blank"} ತದನಂತರ ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕವನ್ನು ಬಳಸಿ ಅದನ್ನು ತೆರೆಯಿರಿ.
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
 ನೀವು ಸ್ಕ್ರ್ಯಾಚ್ ಆಫ್‌ಲೈನ್ ಸಂಪಾದಕವನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ ಸ್ಥಾಪಿಸಬೇಕಾದರೆ, ನೀವು ಅದನ್ನು [ https://rpf.io/scratchoff ನಲ್ಲಿ ಕಾಣಬಹುದು ](rpf.io/scratchoff).
 
