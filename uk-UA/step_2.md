@@ -15,11 +15,11 @@
 
 Відкрий початковий проєкт "Чат-бот" у Скретч.
 
-**Онлайн:** відкрий стартовий проєкт на [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target="_ blank"}.
+**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Якщо у тебе є обліковий запис Скретч, то ти можеш зробити копію проєкту, натиснувши **Ремікс**.
 
-**Офлайн:** завантаж стартовий проєкт з [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go), а потім відкрий його за допомогою офлайн-редактора.
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
 Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
