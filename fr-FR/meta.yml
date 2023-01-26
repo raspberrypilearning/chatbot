@@ -14,18 +14,22 @@ steps:
     title: Ton chatbot
   - 
     title: Un chatbot parlant
+    completion:
+      - engaged
   - 
-    title: "Challenge : plus de questions"
+    title: 'Challenge : plus de questions'
     challenge: true
   - 
     title: Prendre des décisions
   - 
-    title: "Challenge : plus de décisions"
+    title: 'Challenge : plus de décisions'
     challenge: true
   - 
     title: Changer d'emplacement
+    completion:
+      - internal
   - 
-    title: "Défi: termine ton chatbot"
+    title: 'Défi: termine ton chatbot'
     challenge: true
   - 
     title: What next?
