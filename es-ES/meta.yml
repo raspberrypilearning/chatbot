@@ -14,18 +14,22 @@ steps:
     title: Tu chatbot
   - 
     title: Un chatbot parlanchín
+    completion:
+      - engaged
   - 
-    title: "Desafío: más preguntas"
+    title: 'Desafío: más preguntas'
     challenge: true
   - 
     title: Tomando decisiones
   - 
-    title: "Desafío: más decisiones"
+    title: 'Desafío: más decisiones'
     challenge: true
   - 
     title: Cambio de ubicación
+    completion:
+      - internal
   - 
-    title: "Desafío: finaliza tu chatbot"
+    title: 'Desafío: finaliza tu chatbot'
     challenge: true
   - 
     title: '¿Qué sigue?'
