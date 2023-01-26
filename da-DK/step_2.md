@@ -15,11 +15,11 @@ Før du begynder at oprette din chatbot, skal du bestemme, hvordan dens personli
 
 Åbn Chatbot Scratch-startprojektet.
 
-**Online:** åbn startprojektet på [ rpf.io/chatbot-on ](http://rpf.io/chatbot-on) {:target="_ blank"}.
+**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Hvis du har en Scratch-konto, kan du oprette en kopi ved at klikke på **Remix**.
 
-**Offline:** download startprojektet fra [ rpf.io/p/en/chatbot-go ](http://rpf.io/p/en/chatbot-go) {:target="_ blank"}, og åbn det derefter ved hjælp af offline-editoren.
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
 Hvis du skal downloade og installere Scratch offline editoren, kan du finde den på [https://rpf.io/scratchoff](rpf.io/scratchoff).\--- /task.
 
