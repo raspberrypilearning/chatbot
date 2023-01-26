@@ -14,18 +14,22 @@ steps:
     title: 你的聊天機器人
   - 
     title: 會對答的機器人
+    completion:
+      - engaged
   - 
-    title: "挑戰：更多的對答"
+    title: '挑戰：更多的對答'
     challenge: true
   - 
     title: 會判斷的機器人
   - 
-    title: "挑戰：更多的判斷"
+    title: '挑戰：更多的判斷'
     challenge: true
   - 
     title: 改變聊天場景
+    completion:
+      - internal
   - 
-    title: "挑戰：完成你的聊天機器人"
+    title: '挑戰：完成你的聊天機器人'
     challenge: true
   - 
     title: 然後呢？
