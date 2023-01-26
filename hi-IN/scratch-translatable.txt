@@ -1,18 +1,17 @@
-आपका नाम क्या है?
+What's your name?
 
-कितना प्यारा नाम है!
+What a lovely name!
 
-नमस्ते
+Hi
 
-नाम
+name
 
-हाँ
+yes
 
-तुम ठीक हो?
+Are you OK
 
-यह सुनकर अच्छा लगा!
+That's great to hear!
 
-अरे नहीं!
+Oh no!
 
-
-क्या आप चाँद पर जाना चाहते हैं?
+Do you want to go to the moon?
