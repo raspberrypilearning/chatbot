@@ -15,11 +15,11 @@
 
 打开聊天机器人 Scratch入门项目。
 
-**在线:** 在 [rpf.io/chatbot-on](http://rpf.io/chatbot-on){:target ="_blank"}打开入门项目。
+**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 如果你有Scratch帐户，可以单击 **Remix**制作副本。
 
-**离线:** 从 [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go){:target="_blank"}下载启动项目，然后使用离线编辑器打开它。
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
 如果你需要下载并安装Scratch离线编辑器，你可以在[ https://rpf.io/scratchoff ](rpf.io/scratchoff)中获取。
 
