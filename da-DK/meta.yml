@@ -14,18 +14,22 @@ steps:
     title: Din chatbot
   - 
     title: En snakende chatbot
+    completion:
+      - engaged
   - 
-    title: "Udfordring: flere spørgsmål"
+    title: 'Udfordring: flere spørgsmål'
     challenge: true
   - 
     title: Tage beslutninger
   - 
-    title: "Udfordring: flere beslutninger"
+    title: 'Udfordring: flere beslutninger'
     challenge: true
   - 
     title: Ændring af placering
+    completion:
+      - internal
   - 
-    title: "Udfordring: Afslut din chatbot"
+    title: 'Udfordring: Afslut din chatbot'
     challenge: true
   - 
     title: Hvad er næste skridt?
