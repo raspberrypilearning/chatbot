@@ -14,18 +14,22 @@ steps:
     title: El teu xatbot
   - 
     title: Un xatbot parlant
+    completion:
+      - engaged
   - 
-    title: "Repte: més preguntes"
+    title: 'Repte: més preguntes'
     challenge: true
   - 
     title: Prenent decisions
   - 
-    title: "Repte: més decisions"
+    title: 'Repte: més decisions'
     challenge: true
   - 
     title: Canviant la ubicació
+    completion:
+      - internal
   - 
-    title: "Repte: acaba el teu xatbot"
+    title: 'Repte: acaba el teu xatbot'
     challenge: true
   - 
     title: I ara què ve?
