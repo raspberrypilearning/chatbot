@@ -14,18 +14,22 @@ steps:
     title: Jouw chatbot
   - 
     title: Een pratende chatbot
+    completion:
+      - engaged
   - 
-    title: "Uitdaging: meer vragen"
+    title: 'Uitdaging: meer vragen'
     challenge: true
   - 
     title: Het nemen van beslissingen
   - 
-    title: "Uitdaging: meer beslissingen"
+    title: 'Uitdaging: meer beslissingen'
     challenge: true
   - 
     title: Verander locatie
+    completion:
+      - internal
   - 
-    title: "Uitdaging: maak je chatbot af"
+    title: 'Uitdaging: maak je chatbot af'
     challenge: true
   - 
     title: Wat kun je verder nog doen?
