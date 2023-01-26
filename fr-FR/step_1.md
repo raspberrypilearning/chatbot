@@ -35,7 +35,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Téléchargements
 
-- [Trouve les fichiers à télécharger ici](http://rpf.io/p/en/chatbot-go).
+- [Find files to download here](https://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -59,6 +59,6 @@ If you need to print this project, please use the [printer-friendly version](htt
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](https://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
