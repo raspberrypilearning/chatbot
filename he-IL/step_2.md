@@ -15,11 +15,11 @@
 
 פתח את פרויקט הצ׳אטבוט ההתחלתי.
 
-**מחובר לאינטרנט** פתח את הפרויקט ההתחלתי ב [rpf.io/chatbot-on](http://rpf.io/chatbot-on).
+**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 אם יש לך חשבון סקראץ׳, באפשרותך ליצור עותק על-ידי לחיצה על ** כניסה **.
 
-** לא מחובר לאינטרנט: ** הורידו את הפרויקט האתחול הלא מחובר מ [rpf.io/p/en/chatbot-go](http://rpf.io/p/en/chatbot-go), ולאחר מכן פתחו אותו באמצעות העורך הלא מחובר.
+**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
 
 אם אתם צריכים להוריד ולהתקין את העורך הלא מקוון של סקראץ׳, תוכלו למצוא אותו בכתובת [https://rpf.io/scratchoff ](rpf.io/scratchoff).
 
