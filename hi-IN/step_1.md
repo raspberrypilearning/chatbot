@@ -1,12 +1,12 @@
-## परिचय
+## भूमिका
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+आप एक ऐसे चरित्र को प्रोग्राम करना सीखेंगे जो आपसे बात कर सकता है! इस तरह के चरित्र को चैट रोबोट या चैटबॉट कहा जाता है।
 
 ### आप क्या बनाएँगे
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+हरे झंडे पर क्लिक करें, और फिट चैटबॉट पर क्लिक करें बातचीत शुरू करने के लिए। जब चैटबॉट आपसे कुछ पूछे, तब अपना जवाब स्टेज के नीचे दिए डब्बे में लिख दीजिये, और फिर नीले निशान (या `Enter` प्रेस कीजिये) पर क्लिक करें ताकि आप अपने चैटबॉट का जवाब देख सकें।
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -17,13 +17,13 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![पूरा प्रोजेक्ट](images/chatbot-preview.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: क्लब लीडर के नोट्स
+## title: आपको किन चीज़ों की आवश्यकता होगी
 
 ### हार्डवेयर
 
@@ -31,11 +31,11 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### सॉफ्टवेयर
 
-- Scratch 3 ([ऑनलाइन](https://rpf.io/scratchon) या [ऑफ़लाइन](https://rpf.io/scratchoff))
+- Scratch 3 (या तो [ऑनलाइन](https://rpf.io/scratchon) या [ऑफ़लाइन](https://rpf.io/scratchoff))
 
 ### डाउनलोड
 
-- [ यहां डाउनलोड करने के लिए फ़ाइलें ढूंढें ](http://rpf.io/p/en/chatbot-go) ।
+- [Find files to download here](https://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -43,22 +43,22 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ## title: आप क्या सीखेंगे
 
-- कोड का उपयोग करें पाठ को Scratch में जोड़ने के लिये
-- यह पता होना चाहिए की वेरिएबल आपका इनपुट याद रख सकता है
+- Scratch में टेक्स्ट को जोड़ने के लिये कोड का उपयोग करें
+- जानें कि आपके इनपुट को स्टोर करने के लिए वेरिएबल्स का उपयोग किया जा सकता है
 - Scratch में यूज़र् इनपुट का जवाब देने के लिए कन्डिशनल चयन का उपयोग करें
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: शिक्षकों के लिए अतिरिक्त टिप्पणियाँ
+## title: शिक्षकों के लिए अतिरिक्त जानकारी
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+अगर आपको इस प्रोजेक्ट को प्रिंट करने की आवश्यकता है, तो कृप्या [प्रिंटर अनुकूल वर्ज़न](https://projects.raspberrypi.org/en/projects/chatbot/print){: target="_ blank"} का उपयोग करें।
 
 \--- /no-print \---
 
-You can find the [completed project here](http://rpf.io/p/en/chatbot-get).
+You can find the [completed project here](https://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
