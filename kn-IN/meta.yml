@@ -14,18 +14,22 @@ steps:
     title: ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್
   - 
     title: ಮಾತನಾಡುವ ಚಾಟ್‌ಬಾಟ್
+    completion:
+      - engaged
   - 
-    title: "ಸವಾಲು: ಹೆಚ್ಚಿನ ಪ್ರಶ್ನೆಗಳು"
+    title: 'ಸವಾಲು: ಹೆಚ್ಚಿನ ಪ್ರಶ್ನೆಗಳು'
     challenge: true
   - 
     title: ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದು
   - 
-    title: "ಸವಾಲು: ಹೆಚ್ಚಿನ ನಿರ್ಧಾರಗಳು"
+    title: 'ಸವಾಲು: ಹೆಚ್ಚಿನ ನಿರ್ಧಾರಗಳು'
     challenge: true
   - 
     title: ಸ್ಥಳವನ್ನು ಬದಲಾಯಿಸುವುದು
+    completion:
+      - internal
   - 
-    title: "ಸವಾಲು: ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಅನ್ನು ಮುಗಿಸಿ"
+    title: 'ಸವಾಲು: ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಅನ್ನು ಮುಗಿಸಿ'
     challenge: true
   - 
     title: ಮುಂದೆ ಏನು?
