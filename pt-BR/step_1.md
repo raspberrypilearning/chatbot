@@ -17,7 +17,7 @@ Clique na bandeira verde e, em seguida, clique no chatbot para iniciar uma conve
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![projeto concluído](images/chatbot-preview.png)
 
 \--- /print-only \---
 
@@ -35,7 +35,7 @@ Clique na bandeira verde e, em seguida, clique no chatbot para iniciar uma conve
 
 ### Downloads
 
-- [Find files to download here](https://rpf.io/p/en/chatbot-go).
+- [Encontre arquivos para download aqui](https://rpf.io/p/en/chatbot-go).
 
 \--- /collapse \---
 
@@ -55,10 +55,10 @@ Clique na bandeira verde e, em seguida, clique no chatbot para iniciar uma conve
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Se você precisar imprimir este projeto, por favor, use a [versão para impressão](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/chatbot-get).
+Você pode encontrar o [projeto concluído aqui](https://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
