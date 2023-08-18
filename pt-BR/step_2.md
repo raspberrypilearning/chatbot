@@ -15,11 +15,11 @@ Antes de começar a fazer seu chatbot, você precisa decidir sobre sua personali
 
 Abra o projeto inicial do Chatbot Scratch.
 
-**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** Abra o projeto inicial em [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_ blank"}.
 
 Se você tiver uma conta Scratch, você pode fazer uma cópia clicando em **Remix**.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** faça o download do projeto inicial de [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"}, e depois abra-o no editor Scratch offline.
 
 Se você precisa baixar e instalar o editor do Scratch offline, você pode encontrá-lo em [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
