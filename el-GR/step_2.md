@@ -11,7 +11,9 @@
 
 --- /task ---
 
---- task --- Άνοιξε το αρχικό έργο Scratch 'Chatbot'.
+--- task ---
+
+Άνοιξε το αρχικό έργο Scratch 'Chatbot'.
 
 **Online:** άνοιξε το αρχικό έργο στο [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
@@ -19,7 +21,9 @@
 
 **Offline:** κατέβασε το αρχικό έργο από το [rpf.io/p/el-GR/chatbot-go](https://rpf.io/p/el-GR/chatbot-go){:target="_blank"}, και μετά άνοιξέ το στην offline εφαρμογή Scratch της συσκευής σου.
 
-Αν χρειαστεί να κατεβάσετε και να εγκαταστήσετε τον Scratch editor, μπορείτε να τον βρείτε στο [https://rpf.io/scratchoff](rpf.io/scratchoff) --- /task ---
+Αν χρειαστεί να κατεβάσετε και να εγκαταστήσετε τον Scratch editor, μπορείτε να τον βρείτε στο [https://rpf.io/scratchoff](rpf.io/scratchoff)
+
+--- /task ---
 
 --- task ---
 
