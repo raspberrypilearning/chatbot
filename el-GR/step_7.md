@@ -24,11 +24,12 @@
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-άλλαξε υπόβαθρο σε (Galaxy v)
+switch backdrop to (Galaxy v)
 
-ρώτησε [Θέλεις να πας στο διάστημα;] και περίμενε
+ask [Θέλεις να πας στο διάστημα;] and wait
 
-εάν <(απάντηση) = [ναι]> τότε
+if <(απάντηση) = [ναι]> then
+
 end
 ```
 
@@ -39,9 +40,9 @@ end
 Έτσι πρέπει να μοιάζει ο κώδικάς σου:
 
 ```blocks3
-ρώτησε [Θέλεις να πας στο διάστημα;] και περίμενε
-εάν <(απάντηση) = [ναι]> τότε 
-  άλλαξε υπόβαθρο σε (Galaxy v)
+ask [Θέλεις να πας στο διάστημα;] and wait
+if <(απάντηση) = [ναι]> then 
+  switch backdrop to (Galaxy v)
 end
 ```
 
@@ -58,9 +59,8 @@ end
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-όταν γίνει κλικ σε αυτό το αντικείμενο
-
-+ άλλαξε υπόβαθρο σε (space v)
+when this sprite clicked
++ switch backdrop to (space v)
 ```
 
 --- /task ---
@@ -78,14 +78,14 @@ end
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-εάν <(απάντηση) = [ναι]> τότε 
-  άλλαξε υπόβαθρο σε (moon v)
-  + επανάλαβε (4) 
-  +   άλλαξε y κατά (10)
-  +   περίμενε (0.1) δευτερόλεπτα
-  +   άλλαξε y κατά (-10)
-  +   περίμενε (0.1) δευτερόλεπτα
-  + end
+if <(απάντηση) = [ναι]> then 
+  switch backdrop to (moon v)
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
 end
 ```
 
