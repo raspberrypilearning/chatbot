@@ -9,9 +9,9 @@ Clique sur le sprite chatbot et ajoute ce code afin que `quand on clique dessus`
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quand ce sprite est cliqué
-demander [Quel est ton nom?] et attendre
-dire [Quel joli nom!] pendant (2) secondes
+when this sprite clicked
+ask [Quel est ton nom?] and wait
+say [Quel joli nom!] for (2) seconds
 ```
 
 --- /task ---
@@ -37,7 +37,7 @@ Modifie le code du sprite du chatbot en `regrouper`{:class="block3operators"} "S
 ```blocks3
 when this sprite clicked
 ask [Quel est ton nom?] and wait
-say (join [Salut ] (answer) :: +) for (2) seconds
+say (join [Salut ] (answer) ) for (2) seconds
 ```
 
 ![Test d'une réponse personnalisée](images/chatbot-answer-test.png)
@@ -64,7 +64,7 @@ Maintenant, change le code de ton sprite chatbot pour définir la variable `nom`
 when this sprite clicked
 ask [Quel est ton nom?] and wait
 + set [nom v] to (answer)
-say (join [Salut ] (nom :: variables +)) for (2) seconds
++ say (join [Salut ] (nom)) for (2) seconds
 ```
 
 Ton code devrait fonctionner comme avant: ton chatbot devrait dire bonjour en utilisant le nom que vous as entré.

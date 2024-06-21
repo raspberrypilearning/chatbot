@@ -27,7 +27,7 @@ switch backdrop to (moon v)
 
 ask [Хочеш полетіти на Місяць?] and wait
 
-if <(answer) = [так]> then 
+if <(відповідь) = [так]> then 
 
 end
 ```
@@ -40,7 +40,7 @@ end
 
 ```blocks3
 ask [Хочеш полетіти на Місяць?] and wait
-if <(answer) = [так]> then 
+if <(відповідь) = [так]> then 
   switch backdrop to (moon v)
 end
 ```
@@ -78,7 +78,7 @@ when this sprite clicked
 ![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
-if <(answer) = [так]> then 
+if <(відповідь) = [так]> then 
   switch backdrop to (moon v)
 
 +  repeat (4) 

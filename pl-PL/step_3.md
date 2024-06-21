@@ -9,9 +9,9 @@ Kliknij na swoim duszku czatbocie i dodaj do niego ten kod, aby `po kliknięciu`
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy ten duszek kliknięty
-zapytaj [Jak masz na imię?] i czekaj
-powiedz [Co za piękne imię!] przez (2) sekund
+when this sprite clicked
+ask [Jak masz na imię?] and wait
+say [Co za piękne imię!] for (2) seconds
 ```
 
 --- /task ---
@@ -35,9 +35,9 @@ Zmień kod duszka czatbota na `połącz`{:class="block3operators"} "Witaj" z `od
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy ten duszek kliknięty
-zapytaj [Jak masz na imię?] i czekaj
-powiedz (połącz [Cześć ] i (odpowiedź) :: +) przez (2) sekund
+when this sprite clicked
+ask [Jak masz na imię?] and wait
++ say (join [Cześć ] (odpowiedź) ) for (2) seconds
 ```
 
 ![Testowanie spersonalizowanej odpowiedzi](images/chatbot-answer-test.png)
@@ -61,10 +61,10 @@ Teraz zmień kod duszka chatbota, aby ustawić zmienną `imię`{:class="block3va
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy ten duszek kliknięty
-zapytaj [Jak masz na imię?] i czekaj
-ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] i (name :: + variables)) przez (2) sekund
+when this sprite clicked
+ask [Jak masz na imię?] and wait
++ set [imię v] to (answer)
++ say (join [Cześć ] (odpowiedź)) for (2) seconds
 ```
 
 Twój kod powinien działać, jak wcześniej: robot powinien powiedzieć "cześć" i użyć wprowadzonego imienia.

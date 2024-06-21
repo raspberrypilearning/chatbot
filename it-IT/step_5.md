@@ -15,13 +15,13 @@ Cambia il codice del tuo chiacchierobot. Il tuo chatbot dovrebbe porre la domand
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quando si clicca questo sprite
-chiedi [Come ti chiami?] e attendi
-porta [nome v] a (risposta)
-dire (unione di [Ciao ] e (nome)) per (2) secondi
-+chiedi (unione di [Come stai, ] e (nome)) e attendi
-+se <(risposta) = [si]> allora 
-  dire [Ne sono lieto!] per (2) secondi
+when this sprite clicked
+ask [Come ti chiami?] and wait
+set [nome v] to (risposta)
+say (join [Ciao ] (nome)) for (2) seconds
++ask (join [Come stai, ] (nome)) and wait
++if <(risposta) = [si]> then 
+  say [Ne sono lieto!] for (2) seconds
 end
 ```
 
@@ -40,16 +40,15 @@ Sostituisci `se`{:class="block3control"} con un `se, allora, altrimenti`{:class=
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quando si clicca questo sprite
-chiedi [Come ti chiami?] e attendi
-porta [nome v] a (risposta)
-dire (unione di [Ciao ] e (nome)) per (2) secondi
-chiedi (unione di [Come stai, ] e (nome)) e attendi
-
-+ se <(risposta) = [si]> allora 
-  dire [Ne sono lieto!] per (2) secondi
-altrimenti 
-+ dire [Oh no!] per (2) secondi
+when this sprite clicked
+ask [Come ti chiami?] and wait
+set [nome v] to (risposta)
+say (join [Ciao ] (nome)) for (2) seconds
+ask (join [Come stai, ] (nome)) and wait
++ if <(risposta) = [si]> then 
+  say [Ne sono lieto!] for (2) seconds
+else 
++  say [Oh no!] for (2) seconds
 end
 ```
 
@@ -79,22 +78,22 @@ Modifica il codice del tuo chatbot in modo che cambi i costumi quando digiti la 
 
 ![Testare un cambio di costume](images/chatbot-costume-test2.png)
 
-Cambia il codice all'interno del `se,allora, altrimenti`{:class="block3control"} per `Cambiare costume`{:class="block3look"}.
+Cambia il codice all'interno del `se,allora, altrimenti`{:class="block3control"} per `Cambiare costume`{:class="block3looks"}.
 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
 when this sprite clicked
-chiedi [Come ti chiami?] e attendi
-porta [nome v] a (risposta)
-dire (unione di [Ciao ] e (nome)) per (2) secondi
-chiedi (unione di [Come stai ] e (name)) e attendi
-se <(risposta) = [si]> allora 
-+  passa al costume (nano-c v)
-  dire [Ne sono lieto!] per (2) secondi
-altrimenti 
-+  passa al costume (nano-d v)
-  dire [Oh no!] per (2) secondi
+ask [Come ti chiami?] and wait
+set [nome v] to (risposta)
+say (join [Ciao ] (nome)) for (2) seconds
+ask (join [Come stai, ] (nome)) and wait
+if <(risposta) = [si]> then 
++  switch costume to (nano-c v)
+  say [Ne sono lieto!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh no!] for (2) seconds
 end
 ```
 
@@ -115,10 +114,9 @@ Per risolvere questo problema, aggiungi il codice del chatbot a `cambia costume`
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quando si clicca questo sprite
-
-+ passa al costume (nano-a v)
-chiedi [Come ti chiami?] e attendi
+when this sprite clicked
++ switch costume to (nano-a v)
+ask [Come ti chiami?] and wait
 ```
 
 ![Sistemare i costumi](images/chatbot-costume-fix-test.png)

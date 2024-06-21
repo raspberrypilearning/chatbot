@@ -24,11 +24,12 @@
 ![كائن نانو](images/nano-sprite.png)
 
 ```blocks3
-غيِّر الخلفية إلى (moon v)
+switch backdrop to (moon v)
 
-اسأل [هل ترغب بالذهاب الى القمر؟] وانتظر
+ask [هل ترغب بالذهاب الى القمر؟] and wait
 
-إذا <(الإجابة) = [نعم]>
+if <(الإجابة) = [نعم]> then 
+
 end
 ```
 
@@ -39,9 +40,9 @@ end
 و هذا ما يجب أن تبدو عليه التعليمات البرمجية الخاصة بك:
 
 ```blocks3
-اسأل [هل ترغب بالذخاب الى القمر؟] وانتظر
-إذا <(الإجابة) = [نعم]> 
-  غيِّر الخلفية إلى (moon v)
+ask [هل ترغب بالذخاب الى القمر؟] and wait
+if <(الإجابة) = [نعم]> then 
+  switch backdrop to (moon v)
 end
 ```
 
@@ -58,8 +59,8 @@ end
 ![كائن نانو](images/nano-sprite.png)
 
 ```blocks3
-عند نقر هذا الكائن
-+غيِّر الخلفية إلى (space v)
+when this sprite clicked
++ switch backdrop to (space v)
 ```
 
 --- /task ---
@@ -77,14 +78,14 @@ end
 ![كائن نانو](images/nano-sprite.png)
 
 ```blocks3
-إذا <(الإجابة) = [نعم]> 
-  غيِّر الخلفية إلى (moon v)
-+  كرِّر (4) مرة 
-     غيِّر الموضع ص بمقدار (10)
-     انتظر (0.1) ثانية
-     غيِّر الموضع ص بمقدار (-10)
-     انتظر (0.1) ثانية
-   end
+if <(الإجابة) = [نعم]> then 
+  switch backdrop to (moon v)
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
 end
 ```
 

@@ -9,9 +9,9 @@ Klicke auf deinen Chatbot-Sprite und füge diesen Code hinzu, sodass, `wenn dara
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-Wenn diese Figur angeklickt wird
-frage [Wie heißt du?] und warte
-sage [Was für ein schöner Name!] für (2) Sekunden
+when this sprite clicked
+ask [Wie heißt du?] and wait
+say [Was für ein schöner Name!] for (2) seconds
 ```
 
 --- /task ---
@@ -35,9 +35,9 @@ Jetzt antwortet dein Chatbot "Was für ein schöner Name!" jedes Mal wenn du ant
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-Wenn diese Figur angeklickt wird
-frage [Wie heißt du?] und warte
-sage (verbinde [Hallo ] und (Antwort) :: +) für (2) Sekunden
+when this sprite clicked
+ask [Wie heißt du?] and wait
++ say (join [Hallo ] (Antwort) ) for (2) seconds
 ```
 
 ![Eine personalisierte Antwort ausprobieren](images/chatbot-answer-test.png)
@@ -61,10 +61,10 @@ Erstelle eine neue Variable gennant `Name`{:class="block3variables"}.
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-Wenn diese Figur angeklickt wird
-frage [Wie heißt du?] und warte
-+ setze [Name v] auf (Antwort)
-sage (verbinde [Hallo ] und (Name :: + variables)) für (2) Sekunden
+when this sprite clicked
+ask [Wie heißt du?] and wait
++ set [Name v] to (Antwort)
++ say (join [Hallo ] (Name)) for (2) seconds
 ```
 
 Dein Code soll wie zuvor funktionieren: dein Chatbot soll dich mit Hallo und dem Namen, den du eingetippt hast, begrüßen.

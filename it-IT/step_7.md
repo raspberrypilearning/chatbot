@@ -12,7 +12,7 @@ Puoi programmare il tuo chatbot in modo che chieda "Vuoi andare sulla luna", e q
 
 --- hint ---
 
-Il tuo chatbot dovrebbe `chiedere "Vuoi andare alla luna?"`{:class="block3sensitive"}, e `se`{:class="block3control"} tu `rispondi`{:class="block3sensitive"} "sì", dovrebbe `cambiare lo sfondo`{:class="block3look"}.
+Il tuo chatbot dovrebbe `chiedere "Vuoi andare alla luna?"`{:class="block3sensing"}, e `se`{:class="block3control"} tu `rispondi`{:class="block3sensing"} "sì", dovrebbe `cambiare lo sfondo`{:class="block3looks"}.
 
 --- /hint ---
 
@@ -23,11 +23,12 @@ Ecco i blocchi di codice che devi aggiungere al tuo codice chiacchierobot.
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-passa allo sfondo (moon v)
+switch backdrop to (moon v)
 
-chiedi [Vuoi andare sulla luna?] e attendi
+ask [Vuoi andare sulla luna?] and wait
 
-se <(risposta) = [si]> allora
+if <(risposta) = [si]> then 
+
 end
 ```
 
@@ -39,7 +40,7 @@ Ecco come dovrebbe apparire il risultato:
 
 ```blocks3
 ask [Vuoi andare sulla luna?] and wait
-if <(answer) = [si]> then 
+if <(risposta) = [si]> then 
   switch backdrop to (moon v)
 end
 ```
@@ -57,9 +58,8 @@ Ora devi assicurarti che il tuo chatbot si avvii nella posizione giusta quando f
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-quando si clicca questo sprite
-
-+ passa allo sfondo (space v)
+when this sprite clicked
++ switch backdrop to (space v)
 ```
 
 --- /task ---
@@ -77,16 +77,15 @@ Puoi anche aggiungere il seguente codice all'interno del nuovo blocco `se`{:clas
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-se <(risposta) = [si]> allora 
-  passa allo sfondo (moon v)
-
-+ ripeti (4) volte 
-  cambia y di (10)
-  attendi (0.1) secondi
-  cambia y di (-10)
-  attendi (0.1) secondi
+if <(risposta) = [si]> then 
+  switch backdrop to (moon v)
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
   end
-  end
+end
 ```
 
 --- /task ---

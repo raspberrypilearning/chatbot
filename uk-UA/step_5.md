@@ -17,10 +17,10 @@
 ```blocks3
 when this sprite clicked
 ask [Як тебе звати?] and wait
-set [ім’я v] to (answer)
+set [ім’я v] to (відповідь)
 say (join [Привіт, ] (ім’я)) for (2) seconds
 +ask (join [В тебе все гаразд, ] (ім’я)) and wait
-+if <(answer) = [так]> then 
++if <(відповідь) = [так]> then 
   say [Чудово!] for (2) seconds
 end
 ```
@@ -42,11 +42,11 @@ end
 ```blocks3
 when this sprite clicked
 ask [Як тебе звати?] and wait
-set [ім’я v] to (answer)
+set [ім’я v] to (відповідь)
 say (join [Привіт, ] (ім’я)) for (2) seconds
 ask (join [В тебе все гаразд, ] (ім’я)) and wait
 
-+ if <(answer) = [так]> then 
++ if <(відповідь) = [так]> then 
   say [Чудово!] for (2) seconds
 else 
 +  say [О ні!] for (2) seconds
@@ -86,10 +86,10 @@ end
 ```blocks3
 when this sprite clicked
 ask [Як тебе звати?] and wait
-set [ім’я v] to (answer)
+set [ім’я v] to (відповідь)
 say (join [Привіт, ] (ім’я)) for (2) seconds
 ask (join [В тебе все гаразд, ] (ім’я)) and wait
-if <(answer) = [так]> then 
+if <(відповідь) = [так]> then 
 
 +  switch costume to (nano-c v)
   say [Чудово!] for (2) seconds

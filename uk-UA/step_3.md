@@ -37,7 +37,7 @@ say [Яке чудове ім’я!] for (2) seconds
 ```blocks3
 when this sprite clicked
 ask [Як тебе звати?] and wait
-say (join [Привіт, ] (answer) :: +) for (2) seconds
++ say (join [Привіт, ] (answer) ) for (2) seconds
 ```
 
 ![Тестування персоналізованої відповіді](images/chatbot-answer-test.png)
@@ -63,9 +63,8 @@ say (join [Привіт, ] (answer) :: +) for (2) seconds
 ```blocks3
 when this sprite clicked
 ask [Як тебе звати?] and wait
-
 + set [ім’я v] to (answer)
-say (join [Привіт, ] (ім’я :: variables +)) for (2) seconds
++ say (join [Привіт, ] (ім’я)) for (2) seconds
 ```
 
 Твій код має працювати так само як і раніше: твій чат-бот має привітатися, використовуючи введене тобою ім’я.

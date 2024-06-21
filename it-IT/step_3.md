@@ -9,9 +9,9 @@ Fai clic sul tuo sprite chiacchierobot e aggiungi questo codice in modo che `qua
 ![sprite nano](images/nano-sprite.png)
 
 ```blocks3
-quando si clicca questo sprite
-chiedi [Come ti chiami?] e attendi
-dire [Che bel nome!] per (2) secondi
+when this sprite clicked
+ask [Come ti chiami?] and wait
+say [Che bel nome!] for (2) seconds
 ```
 
 --- /task ---
@@ -35,9 +35,9 @@ Cambia il codice dello sprite del chiacchierobot così da `concatenare`{:class="
 ![sprite nano](images/nano-sprite.png)
 
 ```blocks3
-quando si clicca questo sprite
-chiedi [Come ti chiami?] e attendi
-dire (unione di [Ciao ] e (risposta) :: +) per (2) secondi
+when this sprite clicked
+ask [Come ti chiami?] and wait
++ say (join [Ciao ] (risposta) ) for (2) seconds
 ```
 
 ![Testare una risposta personalizzata](images/chatbot-answer-test.png)
@@ -56,16 +56,15 @@ Crea una nuova variabile chiamata `nome`{:Class="block3variables"}.
 
 --- task ---
 
-Ora, modifica il codice dello sprite del chiacchierobot per impostare la variabile `nome`{:class="block3variables"} al valore della `risposta`{:Class="block3sensing"}:
+Ora, modifica il codice dello sprite del chiacchierobot per impostare la variabile `nome`{:class="block3variables"} al valore della `risposta`{:class="block3sensing"}:
 
 ![sprite nano](images/nano-sprite.png)
 
 ```blocks3
-quando si clicca questo sprite
-chiedi [Come ti chiami?] e attendi
-
-+ porta [nome v] a (risposta)
-dire (unione di [Ciao ] e (nome :: + variables)) per (2) secondi
+when this sprite clicked
+ask [Come ti chiami?] and wait
++ set [nome v] to (risposta)
++ say (join [Ciao ] (nome)) for (2) seconds
 ```
 
 Il tuo codice dovrebbe funzionare come prima: il tuo ChiacchieRobot dovrebbe dire ciao usando il tuo nome.
