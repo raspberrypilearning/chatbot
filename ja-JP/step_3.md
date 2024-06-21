@@ -35,9 +35,10 @@
 ![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-このスプライトが押されたとき
-[きみの名前は？] と聞いて待つ
-([やあ！] と (答え) :: +) と (2) 秒言う
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![答えをかえてみる](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@
 ![ナノ スプライト](images/nano-sprite.png)
 
 ```blocks3
-このスプライトが押されたとき
-[きみの名前は？] と聞いて待つ
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ [名前 v] を (答え) にする
-([やあ！] と (名前 :: variables +)) と (2) 秒言う
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 前と同じようにコードは動きますが、チャットボットは入力された名前を使ってあいさつするはずです。
