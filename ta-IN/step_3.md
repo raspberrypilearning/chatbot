@@ -37,7 +37,8 @@ say [What a lovely name!] for (2) seconds
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![தனிப்பயனாக்கப்பட்ட பதிலைச் சோதித்தல்](images/chatbot-answer-test.png)
@@ -65,7 +66,7 @@ when this sprite clicked
 ask [What's your name?] and wait
 
 + set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 உங்கள் குறியீடு முன்பு போலவே செயல்பட வேண்டும்: நீங்கள் தட்டச்சு செய்யும் பெயரைப் பயன்படுத்தி உங்கள் சாட்பாட் ஹாய் சொல்ல வேண்டும்.
