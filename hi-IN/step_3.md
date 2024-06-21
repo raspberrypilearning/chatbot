@@ -37,7 +37,8 @@ say [What a lovely name!] for (2) seconds
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![एक वैयक्तिकृत उत्तर का परीक्षण करना](images/chatbot-answer-test.png)
@@ -65,7 +66,7 @@ when this sprite clicked
 ask [What's your name?] and wait
 
 + set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 आपका कोड पहले की तरह काम करना चाहिए: आपके चैटबॉट को आपके द्वारा लिखे गए नाम का उपयोग करके हाय कहना चाहिए।
