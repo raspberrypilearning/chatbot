@@ -1,17 +1,17 @@
-What's your name?
+Jak masz na imię?
 
-What a lovely name!
+Co za piękne imię!
 
-Hi
+Cześć
 
-name
+imię
 
-yes
+tak
 
-Are you OK
+Czy jesteś OK
 
-That's great to hear!
+Dobrze to słyszeć!
 
-Oh no!
+O nie!
 
-Do you want to go to the moon?
+Czy chcesz polecieć na księżyc?
