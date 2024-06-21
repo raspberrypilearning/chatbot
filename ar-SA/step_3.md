@@ -35,9 +35,10 @@
 ![كائن نانو](images/nano-sprite.png)
 
 ```blocks3
-عند النقر على هذا الكائن
-إسال [ما أسمك؟] وانتظر
-قل (اربط [مرحبا] (الاجابة) ::+) لمدة (2) ثانية
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![اختبار رد شخصي](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@
 ![كائن نانو](images/nano-sprite.png)
 
 ```blocks3
-عند النقر عل هذا الكائن
-اسأل [ما أسمك؟] وانتظر
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ عيّن [اسم v] الى (الاجابة)
-قل (اربط [مرحبا] (اسم :: متغيرات +)) لمدة (2) ثانية
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 يجب أن تعمل التعليمة البرمجية التي تُدخلها كما سبق: يجب أن يقول روبوت الدردشة مرحبًا، مستخدما الاسم الذي كتبته.
