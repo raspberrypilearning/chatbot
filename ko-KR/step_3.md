@@ -35,9 +35,10 @@
 ![나노 스프라이트](images/nano-sprite.png)
 
 ```blocks3
-이 스프라이트를 클릭했을 때
-[너 이름이 뭐니?] 라고 묻고 기다리기
-[결합하기[Hi ] (답변) :: +] 을(를) (2) 초 동안 말하기
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![개별화된 답변 테스트](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@
 ![나노 스프라이트](images/nano-sprite.png)
 
 ```blocks3
-이 스프라이트를 클릭했을 때
-[너 이름이 뭐니?] 라고 묻고 기다리기
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ [name v] 을(를) (answer) 로 정하기
- (join [안녕 ] (name :: variables +)) 을(를) (2) 초 동안 말하기
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 코드는 이전과 같이 작동해야 합니다: 챗봇은 여러분이 알려준 이름을 사용해서 인사해야 합니다.
