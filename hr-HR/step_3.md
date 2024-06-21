@@ -36,8 +36,9 @@ Izmijeni kôd lika chatbota tako da `join`{:class="block3operators"} „Bok” s
 
 ```blocks3
 when this sprite clicked
-ask [Kako se zoveš?] and wait
-say (join [Bok ] (answer) :: +) for (2) seconds
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
@@ -62,10 +63,10 @@ Sada izmijeni kôd chatbot lika i postavi varijablu `name`{:class="block3variabl
 
 ```blocks3
 when this sprite clicked
-ask [Kako se zoveš?] and wait
+ask [What's your name?] and wait
 
-+ set [ime v] to (answer)
-say (join [Bok ] (name :: variables +)) for (2) seconds
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 Tvoj kôd bi trebao funkcionirati kao i prije. Robot bi trebao pozdravljati koristeći ime koje upišeš.
