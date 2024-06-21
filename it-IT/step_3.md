@@ -35,9 +35,10 @@ Cambia il codice dello sprite del chiacchierobot così da `concatenare` {:class=
 ![sprite nano](images/nano-sprite.png)
 
 ```blocks3
-quando si clicca questo sprite
-chiedi [Come ti chiami?] e attendi
-dire (unione di [Ciao ] e (risposta) :: +) per (2) secondi
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Testare una risposta personalizzata](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@ Ora, modifica il codice dello sprite del chiacchierobot per impostare la variabi
 ![sprite nano](images/nano-sprite.png)
 
 ```blocks3
-quando si clicca questo sprite
-chiedi [Come ti chiami?] e attendi
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ porta [nome v] a (risposta)
-dire (unione di [Ciao ] e (nome :: + variables)) per (2) secondi
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 Il tuo codice dovrebbe funzionare come prima: il tuo ChiacchieRobot dovrebbe dire ciao usando il tuo nome.
