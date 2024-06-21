@@ -35,9 +35,10 @@
 ![ננו ספרייט](images/nano-sprite.png)
 
 ```blocks3
-כאשר זה ספרייט לחץ
-לשאול [מה שמך?] ולחכות
-לומר (הצטרף [היי] (תשובה) +) עבור (2) שניות
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![בדיקת תשובה מותאמת אישית](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@
 ![ננו ספרייט](images/nano-sprite.png)
 
 ```blocks3
-כאשר זה ספרייט לחץ
-לשאול [מה שמך?] ולחכות
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ להגדיר [שם v] ל (תשובה)
-אומר (הצטרף [היי] (שם :: משתנים +)) עבור (2) שניות
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 הקוד שלך צריך לפעול כמו בעבר: chatbot שלך צריך להגיד שלום באמצעות שם אתה מקליד.
