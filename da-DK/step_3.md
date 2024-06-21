@@ -37,7 +37,8 @@ Skift chatbot-sprite koden til `tilslutte`{: class = "block3operators"} "Hej" me
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Test af et personlig svar](images/chatbot-answer-test.png)
@@ -65,7 +66,7 @@ when this sprite clicked
 ask [What's your name?] and wait
 
 + set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 Din kode skal fungere som før: din chatbot skal sige hej ved at bruge det navn, du indtaster.
