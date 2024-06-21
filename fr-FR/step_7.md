@@ -26,11 +26,11 @@ Voici les blocs de code que tu dois ajouter à ton code chatbot.
 ```blocks3
 switch backdrop to (lune v)
 
-demander [Veux-tu aller sur la lune?] et attendre
+ask [Veux-tu aller sur la lune?] and wait
 
-si <(réponse) = [oui]> alors
+if <(réponse) = [oui]> then
 
-fin
+end
 ```
 
 --- /hint---
@@ -40,10 +40,10 @@ fin
 Voici à quoi ton code devrait ressembler:
 
 ```blocks3
-demander [Veux-tu aller sur la lune?] et attendre
-si <(réponse) = [oui]> alors 
+ask [Veux-tu aller sur la lune?] and wait
+if <(réponse) = [oui]> then
 switch backdrop to (lune v)
-fin
+end
 ```
 
 --- /hint ---

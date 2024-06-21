@@ -15,13 +15,13 @@ Wijzig de code van je chatbot. Je chatbot moet de vraag "Alles goed naam", met b
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-vraag [Wat is je naam?] en wacht
-maak [naam v] (antwoord)
-zeg (voeg [Hoi ] en (naam) samen) (2) sec.
-+ vraag (voeg [Alles goed] en (naam) samen) en wacht
-+ als <(antwoord) = [ja]> dan 
-zeg [Dat is goed om te horen!] (2) sec.
+when this sprite clicked
+ask [Wat is je naam?] and wait
+set [naam v] to (antwoord)
+say (join [Hoi ] (naam)) for (2) seconds
++ask (join [Alles goed] (naam)) and wait
++if <(antwoord) = [ja]> then 
+  say [Dat is goed om te horen!] for (2) seconds
 end
 ```
 
@@ -40,16 +40,15 @@ Vervang het `als, dan`{:class="block3control"} blok door een `als, dan, anders`{
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-vraag [Wat is je naam?] en wacht
-maak [naam v] (antwoord)
-zeg (voeg [Hoi ] en (naam) samen) (2) sec.
-vraag (voeg [Alles ok ] en (naam) samen) en wacht
-
-+ als <(antwoord) = [ja]> dan 
-zeg [Dat is goed om te horen!] (2) sec.
-anders
-+ zeg [Oh nee!] (2) sec.
+when this sprite clicked
+ask [Wat is je naam?] and wait
+set [naam v] to (answer)
+say (join [Hoi ] (naam)) for (2) seconds
+ask (join [Alles ok ] (naam)) and wait
++ if <(antwoord) = [ja]> then 
+  say [Dat is goed om te horen!] for (2) seconds
+else 
++  say [Oh nee!] for (2) seconds
 end
 ```
 
@@ -84,18 +83,17 @@ Verander de code in het `als, dan, anders`{:class="block3control"} blok om `van 
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-vraag [Wat is je naam?] en wacht
-maak [naam v] (antwoord)
-zeg (voeg [Hoi ] en (naam) samen) (2) sec.
-vraag (voeg [Alles goed] en (naam) samen :: operators) en wacht
-als <(antwoord) = [ja]> dan 
-
-+ verander uiterlijk naar (nano-c v)
-zeg [Dat is goed om te horen!] (2) sec.
-anders
-+ verander uiterlijk naar (nano-d v)
-zeg [Oh nee!] (2) sec.
+when this sprite clicked
+ask [Wat is je naam?] and wait
+set [naam v] to (antwoord)
+say (join [Hoi ] (naam)) for (2) seconds
+ask (join [Alles goed ] (naam)) and wait
+if <(antwoord) = [ja]> then 
++  switch costume to (nano-c v)
+  say [Dat is goed om te horen!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [Oh nee!] for (2) seconds
 end
 ```
 
@@ -116,10 +114,9 @@ Om dit probleem op te lossen, voeg je aan de code van de chatbot `verander uiter
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-
-+ verander uiterlijk naar (nano-a v)
-vraag [Wat is je naam?] en wacht
+when this sprite clicked
++ switch costume to (nano-a v)
+ask [Wat is je naam?] and wait
 ```
 
 ![Testen van een uiterlijk-oplossing](images/chatbot-costume-fix-test.png)

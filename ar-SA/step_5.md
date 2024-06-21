@@ -17,10 +17,10 @@
 ```blocks3
 when this sprite clicked
 ask [ما أسمك؟] and wait
-set [الاسم v] to (answer)
+set [الاسم v] to (الإجابة)
 say (join [مرحبا ] (الاسم)) for (2) seconds
 +ask (join [هل انت بخير ] (الاسم)) and wait
-+if <(answer) = [نعم]> then 
++if <(الإجابة) = [نعم]> then 
   say [شيء رائع أسمعه!] for (2) seconds
 end
 
@@ -43,10 +43,10 @@ end
 ```blocks3
 when this sprite clicked
 ask [ما أسمك؟] and wait
-set [الاسم v] to (answer)
+set [الاسم v] to (الإجابة)
 say (join [مرحبا ] (الاسم)) for (2) seconds
 ask (join [هل انت بخير ] (الاسم)) and wait
-+ if <(answer) = [نعم]> then 
++ if <(الإجابة) = [نعم]> then 
   say [شيء رائع أسمعه!] for (2) seconds
 else 
 +  say [أو لا!] for (2) seconds
@@ -86,10 +86,10 @@ end
 ```blocks3
 when this sprite clicked
 ask [ما أسمك؟] and wait
-set [الاسم v] to (answer)
+set [الاسم v] to (الإجابة)
 say (join [مرحبا ] (الاسم)) for (2) seconds
 ask (join [هل انت بخير ] (الاسم)) and wait
-if <(answer) = [نعم]> then
+if <(الإجابة) = [نعم]> then
 +  switch costume to (nano-c v)
   say [شيء رائع أسمعه!] for (2) seconds
 else 

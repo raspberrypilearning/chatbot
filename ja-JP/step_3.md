@@ -37,7 +37,7 @@ say [すてきな名前だね！] for (2) seconds
 ```blocks3
 when this sprite clicked
 ask [きみの名前は？] and wait
-say (join [やあ！ ] (answer) :: +) for (2) seconds
++ say (join [やあ！ ] (answer) ) for (2) seconds
 ```
 
 ![答えをかえてみる](images/chatbot-answer-test.png)
@@ -64,7 +64,7 @@ say (join [やあ！ ] (answer) :: +) for (2) seconds
 when this sprite clicked
 ask [きみの名前は？] and wait
 + set [名前 v] to (answer)
-say (join [やあ！ ] (名前 :: variables +)) for (2) seconds
++ say (join [やあ！ ] (名前 )) for (2) seconds
 ```
 
 前と同じようにコードは動きますが、チャットボットは入力された名前を使ってあいさつするはずです。

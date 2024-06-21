@@ -1,12 +1,6 @@
---- no-print ---
-
-Ta wersja projektu jest przeznaczona dla języka **Scratch 3**. Projekt dostępny jest również [w wersji dla języka Scratch 2](https://projects.raspberrypi.org/pl-PL/projects/chatbot-scratch2).
-
---- /no-print ---
-
 ## Wprowadzenie
 
-Nauczysz się jak zaprogramować postać, która może z Tobą rozmawiać! Taka postać nazywana jest wirtualnym asystentem albo czatbotem.
+Nauczysz się jak zaprogramować postać, która może z Tobą rozmawiać! Taka postać nazywana jest robotem gadułą albo czatbotem.
 
 ### Co stworzysz
 
@@ -42,7 +36,7 @@ title: Czego będziesz potrzebować
 
 ### Pliki do pobrania
 
-- [Znajdź pliki do pobrania](https://rpf.io/p/pl-PL/chatbot-go).
+- [Znajdź pliki do pobrania tutaj](https://rpf.io/p/pl-PL/chatbot-go).
 
 --- /collapse ---
 
@@ -53,7 +47,9 @@ title: Czego będziesz potrzebować
 
 - Use code to concatenate strings in Scratch
 - Wiedz, że zmienne mogą być używane do przechowywania danych wprowadzanych przez użytkownika
-- Użyj instrukcji warunkowej, aby zareagować na dane wprowadzone przez użytkownika w programie Scratch --- /collapse ---
+- Użyj instrukcji warunkowej, aby zareagować na dane wprowadzone przez użytkownika w programie Scratch
+
+--- /collapse ---
 
 --- collapse ---
 ---

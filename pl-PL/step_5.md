@@ -15,13 +15,13 @@ Zmień kod swojego robota. Twój robot gaduła powinien zadać pytanie „Czy ws
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy ten duszek kliknięty
-zapytaj [Jak masz na imię?] i czekaj
-ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] i (imię)) przez (2) sekund
-+zapytaj (połącz [Czy wszystko OK ] i (imię)) i czekaj
-+jeżeli <(odpowiedź) = [tak]> to 
-  powiedz [To świetnie!] przez (2) sekund
+when this sprite clicked
+ask [Jak masz na imię?] and wait
+set [imię v] to (odpowiedź)
+say (join [Cześć ] (imię)) for (2) seconds
++ask (join [Czy wszystko OK ] (imię)) and wait
++if <(odpowiedź) = [tak]> then 
+  say [To świetnie!] for (2) seconds
 end
 ```
 
@@ -40,15 +40,15 @@ Zastąp blok `jeżeli...to`{:class="block3control"} na blok `jeżeli...to, w prz
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy ten duszek kliknięty
-zapytaj [Jak masz na imię?] i czekaj
-ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] i (imię)) przez (2) sekund
-zapytaj (połącz [Czy wszystko OK ] i (imię)) i czekaj
-+ jeżeli <(odpowiedź) = [tak]> to 
-  powiedz [To świetnie!] przez (2) sekund
-w przeciwnym razie 
-+ powiedz [O nie!] przez (2) sekund
+when this sprite clicked
+ask [Jak masz na imię?] and wait
+set [imię v] to (odpowiedź)
+say (join [Cześć ] (imię)) for (2) seconds
+ask (join [Czy wszystko OK ] (imię)) and wait
++ if <(odpowiedź) = [tak]> then 
+  say [To świetnie!] for (2) seconds
+else 
++  say [O nie!] for (2) seconds
 end
 ```
 
@@ -83,17 +83,17 @@ Zmień kod wewnątrz bloku `jeżeli...to, w przeciwnym razie`{:class="block3cont
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy ten duszek kliknięty
-zapytaj [Jak masz na imię?] i czekaj
-ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] i (imię)) przez (2) sekund
-zapytaj (połącz [Czy wszystko OK ] i (imię)) i czekaj
-jeżeli <(odpowiedź) = [tak]> to 
-+  zmień kostium na (nano-c v)
-  powiedz [To świetnie!] przez (2) sekund
-w przeciwnym razie 
-+  zmień kostium na (nano-d v)
-  powiedz [O nie!] przez (2) sekund
+when this sprite clicked
+ask [Jak masz na imię?] and wait
+set [imię v] to (odpowiedź)
+say (join [Cześć ] (imię)) for (2) seconds
+ask (join [Czy wszystko OK ] (imię)) and wait
+if <(odpowiedź) = [tak]> then 
++  switch costume to (nano-c v)
+  say [To świetnie!] for (2) seconds
+else 
++  switch costume to (nano-d v)
+  say [O nie!] for (2) seconds
 end
 ```
 
@@ -114,9 +114,9 @@ Aby rozwiązać ten problem, dodaj kod robota do bloku `zmień kostium`{:class="
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy ten duszek kliknięty
-+ zmień kostium na (nano-a v)
-zapytaj [Jak masz na imię?] i czekaj
+when this sprite clicked
++ switch costume to (nano-a v)
+ask [Jak masz na imię?] and wait
 ```
 
 ![Testowanie poprawki kostiumu](images/chatbot-costume-fix-test.png)

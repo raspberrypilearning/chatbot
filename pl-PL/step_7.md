@@ -23,11 +23,11 @@ Oto bloki kodu, które musisz dodać do kodu swojego robota.
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-zmień tło na (księżyc v)
+switch backdrop to (księżyc v)
 
-zapytaj [Czy chcesz polecieć na księżyc?] i czekaj
+ask [Czy chcesz polecieć na księżyc?] and wait
 
-jeżeli <(odpowiedź) = [yes]> to 
+if <(odpowiedź) = [tak]> then 
 
 koniec
 ```
@@ -39,10 +39,10 @@ koniec
 Tak powinien wyglądać Twój kod:
 
 ```blocks3
-zapytaj [Czy chcesz polecieć na księżyc?] i czekaj
-jeżeli <(odpowiedź) = [yes]> to 
-  zmień tło na (księżyc v)
-koniec
+ask [Czy chcesz polecieć na księżyc?] and wait
+if <(odpowiedź) = [tak]> then 
+  switch backdrop to (księżyc v)
+end
 ```
 
 --- /hint ---
@@ -58,8 +58,8 @@ Teraz musisz się upewnić, że robot gaduła znajduje się w odpowiednim miejsc
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy ten duszek kliknięty
-+ zmień tło na (kosmos v)
+when this sprite clicked
++ switch backdrop to (kosmos v)
 ```
 
 --- /task ---
@@ -77,15 +77,15 @@ Możesz również dodać następujący kod do nowego bloku `jeżeli`{:class="blo
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-jeżeli <(odpowiedź) = [yes]> to 
-  zmień tło na (księżyc v)
-+ powtarzaj (4) 
-    zmień y o (10)
-    czekaj (0.1) sekund
-    zmień y o (-10)
-    czekaj (0.1) sekund
-  koniec
-koniec
+if <(odpowiedź) = [tak]> then
+  switch backdrop to (księżyc v)
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
+end
 ```
 
 --- /task ---

@@ -24,11 +24,11 @@ Hier zijn de code blokken die je moet toevoegen aan je chatbot code.
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-verander achtergrond naar (moon v)
+switch backdrop to (moon v)
 
-vraag [Ik ga naar de maan. Ga je mee?] en wacht
+ask [Ik ga naar de maan. Ga je mee?] and wait
 
-als <(antwoord) = [ja]> dan
+if <(antwoord) = [ja]> then
 
 end
 ```
@@ -40,9 +40,9 @@ end
 Dit is hoe je code eruit zou moeten zien:
 
 ```blocks3
-vraag [Ik ga naar de maan. Ga je mee?] en wacht
-als <(antwoord) = [ja]> dan 
-verander achtergrond naar (moon v)
+ask [Ik ga naar de maan. Ga je mee?] and wait
+if <(antwoord) = [ja]> then 
+  switch backdrop to (moon v)
 end
 ```
 
@@ -59,9 +59,8 @@ Nu moet je ervoor zorgen dat je chatbot op de juiste locatie start als je erop k
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-
-+ verander achtergrond naar (space v)
+when this sprite clicked
++ switch backdrop to (space v)
 ```
 
 --- /task ---
@@ -79,15 +78,14 @@ Je kunt ook de volgende code toevoegen binnen het nieuwe `als`{:class="block3con
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-als <(antwoord) = [ja]> dan 
-verander achtergrond naar (moon v)
-
-+ herhaal (4) keer 
-verander y met (10)
-wacht (0.1) sec.
-verander y met (-10)
-wacht (0.1) sec.
-end
+if <(antwoord) = [ja]> then 
+  switch backdrop to (moon v)
++  repeat (4) 
+    change y by (10)
+    wait (0.1) secs
+    change y by (-10)
+    wait (0.1) secs
+  end
 end
 ```
 
