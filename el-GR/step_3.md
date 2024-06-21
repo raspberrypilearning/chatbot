@@ -35,9 +35,10 @@
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-όταν γίνει κλικ σε αυτό το αντικείμενο
-ρώτησε [Πώς σε λένε;] και περίμενε
-πες (ένωσε [Γεια σου ] (απάντηση) :: +) για (2) δευτερόλεπτα
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Δοκιμάζοντας μια προσωπική απάντηση](images/chatbot-answer-test.png)
@@ -61,10 +62,11 @@
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-όταν γίνει κλικ σε αυτό το αντικείμενο
-ρώτησε [Πώς σε λένε;] και περίμενε
-+ όρισε [όνομα v] σε (απάντηση)
-πες (ένωσε [Γεια σου ] (όνομα :: + variables)) για (2) δευτερόλεπτα
+when this sprite clicked
+ask [What's your name?] and wait
+
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 Ο κώδικάς σου θα πρέπει να λειτουργεί όπως πριν: το chatbot σου θα πρέπει να πει "Γεια" χρησιμοποιώντας το όνομα που πληκτρολόγησες.
