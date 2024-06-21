@@ -1,12 +1,12 @@
 ## Wprowadzenie
 
-You are going to learn how to program a character that can talk to you! A character like that is called a chat robot, or chatbot.
+Nauczysz się jak zaprogramować postać, która może z Tobą rozmawiać! Taka postać nazywana jest robotem gadułą albo czatbotem.
 
 ### Co stworzysz
 
 \--- no-print \---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Kliknij zieloną flagę, a następnie kliknij znak czatbota, aby rozpocząć rozmowę. Gdy czatbot zada pytanie, wpisz odpowiedź w polu u dołu sceny, a następnie kliknij na niebieski znaczek po prawej stronie (lub naciśnij klawisz `Enter`), aby zobaczyć odpowiedź czatbota.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" 
@@ -17,13 +17,13 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 \--- print-only \---
 
-![complete project](images/chatbot-preview.png)
+![skończony projekt](images/chatbot-preview.png)
 
 \--- /print-only \---
 
 ## \--- collapse \---
 
-## title: What you will need
+## title: Czego będziesz potrzebować
 
 ### Sprzęt
 
@@ -35,30 +35,30 @@ Click on the green flag, and then click on the chatbot character to start a conv
 
 ### Pliki do pobrania
 
-- [Find files to download here](https://rpf.io/p/en/chatbot-go).
+- [Znajdź pliki do pobrania tutaj](https://rpf.io/p/pl-PL/chatbot-go).
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: What you will learn
+## title: Czego się nauczysz
 
-- Use code to join text in Scratch
+- Użyj kodu do łączenia ciągów znaków (np. wyrazów) w Scratchu
 - Wiedz, że zmienne mogą być używane do przechowywania danych wprowadzanych przez użytkownika
-- Use conditional selection to respond to user input in Scratch
+- Użyj instrukcji warunkowej, aby zareagować na dane wprowadzone przez użytkownika w programie Scratch
 
 \--- /collapse \---
 
 ## \--- collapse \---
 
-## title: Additional notes for educators
+## title: Dodatkowe informacje dla nauczycieli
 
 \--- no-print \---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
+Jeśli chcesz wydrukować ten projekt, użyj [wersji przygotowanej do wydruku](https://projects.raspberrypi.org/en/projects/chatbot/print){:target="_blank"}.
 
 \--- /no-print \---
 
-You can find the [completed project here](https://rpf.io/p/en/chatbot-get).
+Możesz znaleźć [ukończoną wersję projektu tutaj](https://rpf.io/p/en/chatbot-get).
 
 \--- /collapse \---
