@@ -35,9 +35,10 @@ Canvia el codi del personatge del xatbot per `unir`{:class="block3operators"} "H
 ![personatge nano](images/nano-sprite.png)
 
 ```blocks3
-quan es cliqui aquest personatge
-pregunta [Com et dius?] i espera
-digues (uneix [hola] (resposta) :: +) durant (2) segons
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Provant una resposta personalitzada](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@ Ara, canvia el codi del personatge del teu xatbot per assignar la variable `nom`
 ![personatge nano](images/nano-sprite.png)
 
 ```blocks3
-quan es cliqui aquest personatge
-pregunta [Com et dius?] i espera
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ assigna a [nom v] el valor (resposta)
-digues (uneix (nom :: variables +)) durant (2) segons
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 El teu codi hauria de funcionar com abans: el teu xatbot hauria de saludar amb el nom que has escrit.
