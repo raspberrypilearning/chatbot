@@ -8,7 +8,7 @@ Możesz również zaprogramować swojego robota tak, żeby zmienił swoje poło�
 
 Czy potrafisz zakodować swojego robota tak, by zapytał "Chcesz polecieć na księżyc?" a następnie zmienił tło, jeśli odpowiesz "tak"?
 
-\--- wskazówka \---
+\--- hints \---
 
 \--- hint \---
 
