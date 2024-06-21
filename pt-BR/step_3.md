@@ -37,7 +37,8 @@ Mude o código do ator do chatbot para `juntar `{:class="block3operators"} "Oi" 
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Testando uma resposta personalizada](images/chatbot-answer-test.png)
@@ -65,7 +66,7 @@ when this sprite clicked
 ask [What's your name?] and wait
 
 + set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 Seu código deve funcionar como antes: seu chatbot deve dizer oi usando o nome que você digitou.
