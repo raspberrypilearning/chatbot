@@ -30,14 +30,15 @@ Kliknij na swojego czatbota, aby przetestować swój kod. Gdy czatbot zapyta o T
 
 Teraz Twój czatbot stwierdza „Co za piękne imię!” za każdym razem, gdy odpowiadasz na jego pytanie. Możesz sprawić, aby odpowiedź czatbota była bardziej osobista i inna za każdym razem, gdy wpisywane jest kolejne imię.
 
-Zmień kod duszka czatbota na `połącz`{:class="block3operators"} "Witaj" z `odpowiedzią`{:class="block3sensing"} do pytania "Jak masz na imię?", aby kod wyglądał tak:
+Zmień kod duszka czatbota na `połącz`{:class="block3operators"} "Cześć" z `odpowiedzią`{:class="block3sensing"} do pytania "Jak masz na imię?", aby kod wyglądał tak:
 
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek został kliknięty
-zapytaj [Jak masz na imię?] i poczekaj
-powiedz [(połącz [Cześć ] (odpowiedź) :: +) przez (2) sekundy
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Testowanie spersonalizowanej odpowiedzi](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@ Teraz zmień kod duszka chatbota, aby ustawić zmienną `imię`{:class="block3va
 ![nano duszek](images/nano-sprite.png)
 
 ```blocks3
-kiedy duszek został kliknięty
-zapytaj [Jak masz na imię?] i poczekaj
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ ustaw [imię v] na (odpowiedź)
-powiedz (połącz [Cześć ] (imię :: zmienne +)) przez (2) sekundy
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 Twój kod powinien działać, jak wcześniej: robot powinien powiedzieć "cześć" i użyć wprowadzonego imienia.
@@ -74,4 +75,4 @@ Twój kod powinien działać, jak wcześniej: robot powinien powiedzieć "cześ�
 
 \--- /task \---
 
-Przetestuj swój program ponownie. Zwróć uwagę, że wpisana odpowiedź jest zapisana w zmiennej `imię`{:class="block3variables"} i jest również wyświetlana w lewym górnym rogu sceny. To make it disappear from the Stage, go to the `Variables`{:class="block3variables"} blocks section and click on the box next to `name`{:class="block3variables"} so that it is not marked.
+Przetestuj swój program ponownie. Zwróć uwagę, że wpisana odpowiedź jest zapisana w zmiennej `imię`{:class="block3variables"} i jest również wyświetlana w lewym górnym rogu sceny. Aby spowodować, że odpowiedź zniknie ze sceny, przejdź do sekcji bloczków `Zmienne`{:class="block3variables"} i kliknij pole obok `imię`{:class="block3variables"} tak, aby nie było zaznaczone.
