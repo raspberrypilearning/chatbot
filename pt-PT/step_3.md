@@ -35,9 +35,10 @@ Altera o código do actor robô para ` juntar ` {: class = "block3operators"} "O
 ![actor nano](images/nano-sprite.png)
 
 ```blocks3
-quando alguém clicar em ti
-pergunta [Como te chamas?] e espera pela resposta
-diz (a junção de [Olá] com (a resposta) :: +) durante (2) s
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Testar uma resposta personalizada](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@ Agora, altera o código dos actores do teu robô para definir a variável ` nome
 ![actor nano](images/nano-sprite.png)
 
 ```blocks3
-quando alguém clicar em ti
-pergunta [Como te chamas?] e espera pela resposta
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ altera [nome v] para (a resposta)
-diz (a junção de [Olá ] com (nome :: + variables)) durante (2) s
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 O teu código deve funcionar como antes: o teu robô falante deve dizer olá usando o teu nome.
