@@ -37,7 +37,8 @@ say [What a lovely name!] for (2) seconds
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
@@ -65,7 +66,7 @@ when this sprite clicked
 ask [What's your name?] and wait
 
 + set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 আপনার কোডটি আগের মতোই কাজ করা উচিত: আপনার চ্যাটবটটিতে আপনার টাইপ করা নামটি ব্যবহার করে হাই বলা উচিত।.
