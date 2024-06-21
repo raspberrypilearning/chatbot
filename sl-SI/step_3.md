@@ -35,9 +35,10 @@ Spremeni kodo figure čvekobota, tako da `združi`{: class="block3operators"} "�
 ![nano figura](images/nano-sprite.png)
 
 ```blocks3
-ko kliknemo to figuro
-vprašaj [Kako ti je ime?] in počakaj
-reci (združi [Živjo, ] (odgovor) :: +) za (2) sekund
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Testiranje personaliziranega odgovora](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@ Sedaj spremeni kodo za figuro čvekobota, da nastavi spremenljivko `ime`{: class
 ![nano figura](images/nano-sprite.png)
 
 ```blocks3
-ko kliknemo to figuro
-vprašaj [Kako ti je ime?] in počakaj
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ nastavi [ime v] na (odgovor)
-reci (združi [Živijo, ] (ime :: spremenljivke +)) za (2) sekund
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 Tvoja koda bi morala delovati tako kot prej: tvoj klepetalni robot bi moral reči "Živijo, " in ime, ki je bilo vnešeno.
