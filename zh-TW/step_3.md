@@ -35,9 +35,10 @@
 ![Nano 角色](images/nano-sprite.png)
 
 ```blocks3
-當角色被點擊
-詢問 (你叫什麼名字？) 並等待
-說出 (字串組合 (哈囉！) (詢問的答案) :: +) 持續 (2) 秒
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![個別化回應測試](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@
 ![Nano 角色](images/nano-sprite.png)
 
 ```blocks3
-當角色被點擊
-詢問 (你叫什麼名字？) 並等待
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ 變數 [名字 v] 設為 (詢問的答案)
-說出 (字串組合 (哈囉！) (名字 :: variables +)) 持續 (2) 秒
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 你的程式應該會像先前那樣運作：聊天機器人現在更像是對著你打招呼了。
