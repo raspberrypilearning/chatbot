@@ -35,9 +35,10 @@ Newida côd y sgwrsfot i `uno`{:class="block3operators"} "Helo" gydag `ateb` {:c
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-pan gaiff y ciplun yma ei glicio
-gofyn [Beth yw dy enw?] ac aros
-dweud (uno [Helo ] (ateb) :: +) am (2) eiliad
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Profi ateb personol](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@ Nawr, newida côd dy sgwrsfot i osod y newidyn `enw` {: class = "block3variables
 ![corlun nano](images/nano-sprite.png)
 
 ```blocks3
-pan gaiff y ciplun yma ei glicio
-gofyn [Beth yw dy enw?] ac aros
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ gosod [enw v] i (ateb)
-dweud (uno [Helo ] (enw :: + variables)) am (2) eiliad
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 Fe ddylai dy gôd weithio fel o'r blaen: dy sgwrsfot yn dweud helo pan wyt ti'n teipio dy enw.
