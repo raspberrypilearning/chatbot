@@ -29,7 +29,7 @@ Aby dokładnie przetestować swój program, musisz sprawdzić go **dwa razy** - 
 
 \--- /task \---
 
-At the moment, your chatbot doesn't say anything to the answer "no".
+Teraz Twój robot nic nie mówi na odpowiedź „nie”.
 
 \--- task \---
 
