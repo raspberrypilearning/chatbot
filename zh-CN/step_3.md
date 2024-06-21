@@ -35,9 +35,10 @@
 ![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-当角色被点击
-询问 [你的名字是什么？] 并等待
-说 (连接 [嗨 ] 和 (回答) :: +) (2) 秒
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![测试个性化回复](images/chatbot-answer-test.png)
@@ -61,10 +62,11 @@
 ![纳米精灵](images/nano-sprite.png)
 
 ```blocks3
-当角色被点击
-询问 [你的名字是什么？] 并等待
-+将 [name v] 设为 (回答)
-说 (连接 [嗨] 和 (name :: + variables)) (2) 秒
+when this sprite clicked
+ask [What's your name?] and wait
+
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 你的代码应该像以前一样工作：你的聊天机器人应该使用你输入的名称打招呼。
