@@ -37,7 +37,8 @@ say [What a lovely name!] for (2) seconds
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![ವೈಯಕ್ತಿಕರಿಸಿದ ಉತ್ತರವನ್ನು ಪರೀಕ್ಷಿಸಲಾಗುತ್ತಿದೆ](images/chatbot-answer-test.png)
@@ -65,7 +66,7 @@ when this sprite clicked
 ask [What's your name?] and wait
 
 + set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 ನಿಮ್ಮ ಕೋಡ್ ಮೊದಲಿನಂತೆ ಕಾರ್ಯನಿರ್ವಹಿಸಬೇಕು: ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ನೀವು ಟೈಪ್ ಮಾಡಿದ ಹೆಸರನ್ನು ಬಳಸಿಕೊಂಡು ಹಾಯ್ ಎಂದು ಹೇಳಬೇಕು.
