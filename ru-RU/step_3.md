@@ -35,9 +35,10 @@
 ![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
-когда спрайт нажат
-спросить [Как тебя зовут?] и ждать
-говорить (объединить [Привет, ] (ответ) :: +) (2) секунд
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Тестирование персонального ответа](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@
 ![спрайт nano](images/nano-sprite.png)
 
 ```blocks3
-когда спрайт нажат
-спросить [Как тебя зовут?] и ждать
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ задать [имя v] значение (ответ)
-говорить (объединить [Привет, ] (имя :: variables +)) (2) секунд
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 Твой код должен работать как прежде: твой чат-бот должен сказать "привет", используя имя, которое ты вводишь.
