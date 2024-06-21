@@ -37,7 +37,8 @@ Cambia el código del personaje de tu chatbot a ` unirse ` {: class = "block3ope
 ```blocks3
 when this sprite clicked
 ask [What's your name?] and wait
-say (join [Hi ] (answer) :: +) for (2) seconds
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Probando una respuesta personalizada](images/chatbot-answer-test.png)
@@ -65,7 +66,7 @@ when this sprite clicked
 ask [What's your name?] and wait
 
 + set [name v] to (answer)
-say (join [Hi ] (name :: variables +)) for (2) seconds
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 Tu código debería funcionar como antes: tu chatbot debería decir hola usando el nombre que escribes.
