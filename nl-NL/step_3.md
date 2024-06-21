@@ -35,9 +35,10 @@ Wijzig de code van de chatbot sprite in `voeg en samen`{:class="block3operators"
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-vraag [Wat is je naam?] en wacht
-zeg (voeg [Hoi ] en (antwoord) samen) (2) sec.
+when this sprite clicked
+ask [What's your name?] and wait
+
++ say (join [Hi ] (answer) ) for (2) seconds
 ```
 
 ![Een persoonlijk antwoord testen](images/chatbot-answer-test.png)
@@ -61,11 +62,11 @@ Wijzig nu de code van je chatbot sprite door de `antwoord`{:class="block3variabl
 ![nano sprite](images/nano-sprite.png)
 
 ```blocks3
-wanneer op deze sprite wordt geklikt
-vraag [Wat is je naam?] en wacht
+when this sprite clicked
+ask [What's your name?] and wait
 
-+ maak [naam v] (antwoord)
-zeg (voeg [Hoi ] en (naam :: variables) samen) (2) sec.
++ set [name v] to (answer)
++ say (join [Hi ] (name)) for (2) seconds
 ```
 
 Je code zou moeten werken zoals voorheen: je chatbot zou hoi en je naam moeten zeggen.
