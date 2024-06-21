@@ -13,24 +13,24 @@ Zanim zaczniesz tworzyć swojego czatbota, musisz zdecydować o jego osobowości
 
 \--- task \---
 
-Open the Chatbot Scratch starter project.
+Otwórz projekt początkowy "Robot gaduła".
 
-**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
+**Online:** otwórz projekt początkowy Scratch na stronie [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
+Jeśli masz konto Scratch, możesz wykonać kopię klikając **Remiks**.
 
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
+**Offline:** pobierz projekt początkowy z [rpf.io/p/pl-PL/chatbot-go](https://rpf.io/p/en/chatbot-go), i otwórz w programie Scratch Desktop.
 
-If you need to download and install the Scratch offline editor, you can find it at [https://rpf.io/scratchoff](rpf.io/scratchoff).
+Jeśli potrzebujesz pobrać i zainstalować program Scratch Desktop, znajdziesz go na [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-The starter project contains four character sprites. One of these will be your chatbot.
+Projekt startowy zawiera cztery duszki. Jednym z nich będzie Twój czatbot.
 
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+Możesz użyć duszka, który jest już wybrany albo wybrać innego, klikając prawym przyciskiem myszy na danym duszku, a następnie wybierając opcję **pokaż** lub **ukryj** z menu, które się pojawi.
 
-![Choose a character](images/chatbot-characters.png)
+![Wybierz postać](images/chatbot-characters.png)
 
 \--- /task \---
