@@ -25,11 +25,10 @@ If you need to download and install the Scratch offline editor, you can find it 
 
 --- /task ---
 
+
 --- task ---
 
-The starter project contains four character sprites. One of these will be your chatbot.
-
-You can either use the sprite that is already selected, or choose a different one by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
+The starter project contains four character sprites. Choose one of these to represent your chatbot by clicking the one you want and then selecting the **show** or **hide** eye icon from the Sprite menu below the stage.
 
 ![Choose a character](images/chatbot-characters.png)
 
