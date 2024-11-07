@@ -6,7 +6,7 @@ You are going to learn how to program a character that can talk to you! A charac
 
 --- no-print ---
 
-Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the blue mark on the right (or press `Enter`) to see the chatbot's reply.
+Click on the green flag, and then click on the chatbot character to start a conversation. When the chatbot asks a question, type your answer into the box at the bottom of the Stage, and then click on the purple tick on the right (or press `Enter`) to see the chatbot's reply.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/248864190/?autostart=false" frameborder="0" scrolling="no"></iframe>
@@ -25,7 +25,7 @@ Click on the green flag, and then click on the chatbot character to start a conv
 Scratch 3 (either [online](https://rpf.io/scratchon){:target="_blank"} or [offline](https://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
-+ [Find files to download here](https://rpf.io/p/en/chatbot-go){:target="_blank"}
++ [Starter Project](https://rpf.io/p/en/chatbot-go){:target="_blank"}
 
 --- collapse ---
 ---

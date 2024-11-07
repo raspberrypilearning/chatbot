@@ -18,7 +18,7 @@ say [What a lovely name!] for (2) seconds
 
 --- task ---
 
-Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the blue mark, or press <kbd>Enter</kbd>.
+Click on your chatbot to test your code. When the chatbot ask for your name, type it into the box that appears at the bottom of the Stage, and then click on the purple mark, or press <kbd>Enter</kbd>.
 
 ![Testing a ChatBot response](images/chatbot-ask-test1.png)
 
@@ -70,7 +70,7 @@ Your code should work as before: your chatbot should say hi using the name you t
 
 --- /task ---
 
----- task ---
+--- task ---
 
 Test your program again.
 
