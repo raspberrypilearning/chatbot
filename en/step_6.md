@@ -14,7 +14,7 @@ Once you've finished your chatbot, get your friends to have a conversation with 
 
 --- /task ---
 
----- task ---
+--- task ---
 
 Program your chatbot to ask another question. Can you store the answer to this new question in a new variable?
 
@@ -25,7 +25,7 @@ Program your chatbot to ask another question. Can you store the answer to this n
 --- /task ---
 
 
----- task ---
+--- task ---
 
 Program your chatbot to ask another question that can be answered with "yes" or "no". Can you make your chatbot respond differently depending on which answer it receives?
 

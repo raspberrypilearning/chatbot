@@ -1,4 +1,4 @@
-## What next?
+## What can you do now?
 
 Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
 
@@ -20,3 +20,4 @@ You will click on the green flag to start, and you'll use the mouse to move the 
 ![showcase](images/paint-box-showcase.png)
 
 --- /print-only ---
+
