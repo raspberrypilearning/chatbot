@@ -10,17 +10,14 @@ last_tested: 2018-09-20
 steps:
 - title: Introduction
 - title: Your chatbot
-- title: A talking chatbot
   completion:
   - engaged
-- title: 'Challenge: more questions'
-  challenge: true
-- title: Making decisions
-- title: 'Challenge: more decisions'
-  challenge: true
-- title: Changing location
+- title: A talking chatbot
   completion:
   - internal
-- title: 'Challenge: finish your chatbot'
-  challenge: true
-- title: What next?
+- title: Making decisions
+- title: Changing location
+  completion:
+  - external
+- title: Challenge
+- title: What can you do now?

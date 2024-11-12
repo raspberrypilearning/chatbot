@@ -1,91 +1,25 @@
-## Changing location
+## What can you do now?
 
-You can also program your chatbot to change its location!
+Try the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project, where you will create your own painting program!
 
-![Testing a changing backdrop](images/chatbot-backdrop-moon.png)
+Or, you can have a look at the [More Scratch Pathway](https://projects.raspberrypi.org/en/pathways/more-scratch), where you will make apps, games and simulations using `message` broadcasting, `if..then` and `if..then..else` decisions and variables.
 
---- task ---
+--- no-print ---
 
-Can you program your chatbot to ask "Do you want to go to the moon", and then change the backdrop when the answer is "yes"?
+Click on the green flag to start. Use the mouse to move the pencil, and hold down the left mouse button to draw. Click on a colour to change pencils. Click on the eraser to change to it, and use it to erase your work. To clear the page, click on the cross.
+   
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/267243161/?autostart=false" frameborder="0" scrolling="no"></iframe>
+  <img src="images/paint-box-showcase.png">
+</div>
 
---- hints ---
+--- /no-print ---
 
---- hint ---
+--- print-only ---
 
-Your chatbot should `ask "Do you want to go to the moon?"`{:class="block3sensing"}, and `if`{:class="block3control"} you `answer`{:class="block3sensing"} "yes", it should `switch the backdrop to the moon`{:class="block3looks"}.
+You will click on the green flag to start, and you'll use the mouse to move the pencil and hold down the left mouse button to draw. Clicking on a colour will change pencil colours, and clicking on the eraser will change to the eraser! 
 
---- /hint ---
+![showcase](images/paint-box-showcase.png)
 
---- hint ---
+--- /print-only ---
 
-Here are the code blocks you need to add to your chatbot code.
-
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-switch backdrop to (moon v)
-
-ask [Do you want to go to the moon?] and wait
-
-if <(answer) = [yes]> then 
-
-end
-```
-
---- /hint ---
-
---- hint ---
-
-This is what your code should look like:
-
-```blocks3
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-end
-```
-
---- /hint ---
-
---- /hints ---
-
---- /task ---
-
---- task ---
-
-Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
-
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-when this sprite clicked
-+ switch backdrop to (space v)
-```
-
---- /task ---
-
---- task ---
-
-Test your program, and answer "yes" when the chatbot asks if you want to go to the moon. You should see that the chatbot’s location changes.
-
---- /task ---
-
---- task ---
-
-You can also add the following code inside the new `if`{:class="block3control"} block to make the chatbot jump up and down four times if you answer "yes":
-
-![nano sprite](images/nano-sprite.png)
-
-```blocks3
-if <(answer) = [yes]> then 
-  switch backdrop to (moon v)
-+  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
-```
-
---- /task ---
