@@ -1,5 +1,7 @@
 ## Challenge
 
+--- challenge ---
+
 Use what you've learned to finish creating your interactive chatbot. Here are some ideas:
 
 ![ChatBot ideas](images/chatbot-ideas1.png)
@@ -32,3 +34,5 @@ Program your chatbot to ask another question that can be answered with "yes" or 
 ![screenshot](images/chatbot-joke.png)
 
 --- /task ---
+
+--- /challenge ---
