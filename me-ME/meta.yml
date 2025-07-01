@@ -26,6 +26,5 @@ steps:
 - title: Pričljivi robot
 - title: Donošenje odluka
 - title: Promjena lokacije
-- title: 'Izazov: dovrši svog robota'
   completion:
   - internal

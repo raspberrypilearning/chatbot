@@ -26,6 +26,5 @@ steps:
 - title: Um ChatBot falante
 - title: Tomando decisões
 - title: Mudando de lugar
-- title: 'Desafio: Termine o seu ChatBot'
   completion:
   - internal
