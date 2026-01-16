@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introdução
+    title: What you will make
   - 
     title: Seu chatbot
-  - 
-    title: Um chatbot falante
     completion:
       - engaged
   - 
-    title: 'Desafio: mais perguntas'
-    challenge: true
-  - 
-    title: Tomando decisões
-  - 
-    title: 'Desafio: mais decisões'
-    challenge: true
-  - 
-    title: Mudando de lugar
+    title: Um chatbot falante
     completion:
       - internal
   - 
-    title: 'Desafio: Termine o seu ChatBot'
-    challenge: true
+    title: Making decisions
   - 
-    title: E agora?
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
