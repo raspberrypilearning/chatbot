@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Uvod
+    title: What you will make
   - 
     title: Tvoj čvekobot
-  - 
-    title: Govoreči klepetalni robot
     completion:
       - engaged
   - 
-    title: 'Izziv: več vprašanj'
-    challenge: true
-  - 
-    title: Sprejemanje odločitev
-  - 
-    title: 'Izziv: več odločitev'
-    challenge: true
-  - 
-    title: Spreminjanje lokacije
+    title: Govoreči klepetalni robot
     completion:
       - internal
   - 
-    title: 'Izziv: dokončaj svojega čvekobota'
-    challenge: true
+    title: Making decisions
   - 
-    title: Kaj sledi?
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
