@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: ಪರಿಚಯ
+    title: What you will make
   - 
     title: ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್
-  - 
-    title: ಮಾತನಾಡುವ ಚಾಟ್‌ಬಾಟ್
     completion:
       - engaged
   - 
-    title: 'ಸವಾಲು: ಹೆಚ್ಚಿನ ಪ್ರಶ್ನೆಗಳು'
-    challenge: true
-  - 
-    title: ನಿರ್ಧಾರಗಳನ್ನು ತೆಗೆದುಕೊಳ್ಳುವುದು
-  - 
-    title: 'ಸವಾಲು: ಹೆಚ್ಚಿನ ನಿರ್ಧಾರಗಳು'
-    challenge: true
-  - 
-    title: ಸ್ಥಳವನ್ನು ಬದಲಾಯಿಸುವುದು
+    title: ಮಾತನಾಡುವ ಚಾಟ್‌ಬಾಟ್
     completion:
       - internal
   - 
-    title: 'ಸವಾಲು: ನಿಮ್ಮ ಚಾಟ್‌ಬಾಟ್ ಅನ್ನು ಮುಗಿಸಿ'
-    challenge: true
+    title: Making decisions
   - 
-    title: ಮುಂದೆ ಏನು?
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
