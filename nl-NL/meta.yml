@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Inleiding
+    title: What you will make
   - 
     title: Jouw chatbot
-  - 
-    title: Een pratende chatbot
     completion:
       - engaged
   - 
-    title: 'Uitdaging: meer vragen'
-    challenge: true
-  - 
-    title: Het nemen van beslissingen
-  - 
-    title: 'Uitdaging: meer beslissingen'
-    challenge: true
-  - 
-    title: Verander locatie
+    title: Een pratende chatbot
     completion:
       - internal
   - 
-    title: 'Uitdaging: maak je chatbot af'
-    challenge: true
+    title: Making decisions
   - 
-    title: Wat kun je verder nog doen?
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
