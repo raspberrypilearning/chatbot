@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Εισαγωγή
+    title: What you will make
   - 
     title: Το chatbot σου
-  - 
-    title: Ένα  chatbot που ... μιλάει!
     completion:
       - engaged
   - 
-    title: 'Πρόκληση: περισσότερες ερωτήσεις'
-    challenge: true
-  - 
-    title: Λαμβάνοντας αποφάσεις
-  - 
-    title: 'Πρόκληση: περισσότερες αποφάσεις'
-    challenge: true
-  - 
-    title: Αλλάζοντας τοποθεσία
+    title: Ένα  chatbot που ... μιλάει!
     completion:
       - internal
   - 
-    title: 'Πρόκληση: ολοκλήρωσε το chatbot σου'
-    challenge: true
+    title: Making decisions
   - 
-    title: What next?
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
