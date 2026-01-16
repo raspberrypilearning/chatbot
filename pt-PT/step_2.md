@@ -13,23 +13,15 @@ Antes de começares a programar o teu robô falante, precisas de decidir qual é
 
 \--- task \---
 
-Abre o projeto inicial do Scratch.
-
-**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Se tiveres uma 'conta Scratch' podes fazer uma cópia ao clicares **Remix**.
-
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
-
-Se precisares de descarregar e instalar o editor offline do Scratch, podes encontrá-lo em [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-O projeto inicial contém quatro personagens actores. Um deles será o seu robô falante.
-
-Podes usar o actor já selecionado, ou escolher um diferente clicando com o botão direito do rato no actor desejado e selecionando ** mostrar ** ou ** ocultar ** no menu que aparece.
+Click on the character you want, then click the 'eye' icon to show that character on the stage.
 
 ![Escolhe um personagem](images/chatbot-characters.png)
 
