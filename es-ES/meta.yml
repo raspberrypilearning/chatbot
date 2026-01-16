@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introducción
+    title: What you will make
   - 
     title: Tu chatbot
-  - 
-    title: Un chatbot parlanchín
     completion:
       - engaged
   - 
-    title: 'Desafío: más preguntas'
-    challenge: true
-  - 
-    title: Tomando decisiones
-  - 
-    title: 'Desafío: más decisiones'
-    challenge: true
-  - 
-    title: Cambio de ubicación
+    title: Un chatbot parlanchín
     completion:
       - internal
   - 
-    title: 'Desafío: finaliza tu chatbot'
-    challenge: true
+    title: Making decisions
   - 
-    title: '¿Qué sigue?'
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
