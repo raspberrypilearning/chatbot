@@ -13,23 +13,15 @@
 
 \--- task \---
 
-Відкрий початковий проєкт "Чат-бот" у Скретч.
-
-**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 Якщо у тебе є обліковий запис Скретч, то ти можеш зробити копію проєкту, натиснувши **Ремікс**.
-
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
-
-Якщо тобі треба завантажити та встановити офлайн-редактор Скретч, то ти можеш його знайти на [https://rpf.io/scratchoff](rpf.io/scratchoff).
 
 \--- /task \---
 
 \--- task \---
 
-Початковий проєкт містить чотири спрайти персонажів. Один з них буде твоїм чат-ботом.
-
-Можна або використати спрайт, який вже вибрано, або перейти на інший, натиснувши на потрібний і клікнувши іконку-око **показати** чи **приховати** в меню цього спрайта під сценою.
+Click on the character you want, then click the 'eye' icon to show that character on the stage.
 
 ![Вибрати персонажа](images/chatbot-characters.png)
 
