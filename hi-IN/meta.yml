@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: भूमिका
+    title: What you will make
   - 
     title: आपका चैटबॉट
-  - 
-    title: बोलने वाला चैटबॉट
     completion:
       - engaged
   - 
-    title: 'चुनौती: अधिक प्रश्न'
-    challenge: true
-  - 
-    title: निर्णय लेना
-  - 
-    title: 'चुनौती: अधिक निर्णय'
-    challenge: true
-  - 
-    title: स्थान बदलना
+    title: बोलने वाला चैटबॉट
     completion:
       - internal
   - 
-    title: 'चुनौती: अपना चैटबॉट पूरा करें'
-    challenge: true
+    title: Making decisions
   - 
-    title: आगे क्या?
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
