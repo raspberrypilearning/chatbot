@@ -13,23 +13,15 @@
 
 \--- task \---
 
-打開聊天機器人這個專案的材料包。
-
-**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 如果你有 Scratch 帳戶，你就可以直接**改編**專案。
-
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
-
-如果你需要 Scratch 離線版編輯器，可以連結到 [https://rpf.io/scratchoff](rpf.io/scratchoff){:target="_blank"}。
 
 \--- /task \---
 
 \--- task \---
 
-材料包裡有四個角色，你可以選擇其中一個做為你的聊天機器人。
-
-我們預設是使用 Nano，如果你想換到其它角色，可以透過角色面板上的**顯示**或**隱藏**按鈕（眼睛圖示）來更改。
+Click on the character you want, then click the 'eye' icon to show that character on the stage.
 
 ![選個角色](images/chatbot-characters.png)
 
