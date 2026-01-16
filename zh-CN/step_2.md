@@ -13,23 +13,15 @@
 
 \--- task \---
 
-打开聊天机器人 Scratch入门项目。
-
-**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 如果你有Scratch帐户，可以单击 **Remix**制作副本。
-
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
-
-如果你需要下载并安装Scratch离线编辑器，你可以在[ https://rpf.io/scratchoff ](rpf.io/scratchoff)中获取。
 
 \--- /task \---
 
 \--- task \---
 
-入门项目包含四个角色精灵。其中一个将是你的聊天机器人。
-
-你可以使用已选择的精灵，也可以通过单击所需的精灵，然后选择舞台下方精灵菜单中的眼睛图标**显示**或**隐藏**来选择其他精灵。
+Click on the character you want, then click the 'eye' icon to show that character on the stage.
 
 ![选择角色](images/chatbot-characters.png)
 
