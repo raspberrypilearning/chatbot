@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: முன்னுரை
+    title: What you will make
   - 
     title: உங்கள் சாட்பாட்
-  - 
-    title: பேசும் சாட்பாட்
     completion:
       - engaged
   - 
-    title: 'சவால்: மேலும் சில கேள்விகள்'
-    challenge: true
-  - 
-    title: முடிவுகளை எடுத்தல்
-  - 
-    title: 'சவால்: மேலும் சில முடிவுகள்'
-    challenge: true
-  - 
-    title: இருப்பிடத்தை மாற்றுதல்
+    title: பேசும் சாட்பாட்
     completion:
       - internal
   - 
-    title: 'சவால்: உங்கள் சாட்பாட் நிரலை நிறைவு செய்யவும்'
-    challenge: true
+    title: Making decisions
   - 
-    title: அடுத்தது என்ன?
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
