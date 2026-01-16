@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introduktion
+    title: What you will make
   - 
     title: Din chatbot
-  - 
-    title: En snakende chatbot
     completion:
       - engaged
   - 
-    title: 'Udfordring: flere spørgsmål'
-    challenge: true
-  - 
-    title: Tage beslutninger
-  - 
-    title: 'Udfordring: flere beslutninger'
-    challenge: true
-  - 
-    title: Ændring af placering
+    title: En snakende chatbot
     completion:
       - internal
   - 
-    title: 'Udfordring: Afslut din chatbot'
-    challenge: true
+    title: Making decisions
   - 
-    title: Hvad er næste skridt?
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
