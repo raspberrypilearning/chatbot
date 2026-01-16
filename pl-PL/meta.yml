@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Wprowadzenie
+    title: What you will make
   - 
     title: Twój robot gaduła
-  - 
-    title: Gadający robot
     completion:
       - engaged
   - 
-    title: 'Wyzwanie: więcej pytań'
-    challenge: true
-  - 
-    title: Podejmowanie decyzji
-  - 
-    title: 'Wyzwanie: więcej decyzji'
-    challenge: true
-  - 
-    title: Zmiana lokalizacji
+    title: Gadający robot
     completion:
       - internal
   - 
-    title: 'Wyzwanie: ukończ swojego robota'
-    challenge: true
+    title: Making decisions
   - 
-    title: Co dalej?
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
