@@ -13,23 +13,15 @@
 
 \--- task \---
 
-சாட்பாட் scratch தொடக்கநிலை திட்டத்தை திறக்கவும்.
-
-**Online:** open the starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
+Open the Chatbot Scratch starter project at [rpf.io/chatbot-on](https://rpf.io/chatbot-on){:target="_blank"}.
 
 உங்களிடம் Scratch கணக்கு இருந்தால் **Remix** என்பதைக் கிளிக் செய்வதன் மூலம் ஒரு நகலை உருவாக்கலாம்.
-
-**Offline:** download the starter project from [rpf.io/p/en/chatbot-go](https://rpf.io/p/en/chatbot-go){:target="_blank"} and then open it using the offline editor.
-
-நீங்கள் Scratch அகல்நிலை பதிப்பானை பதிவிறக்கி நிறுவ வேண்டும் என்றால், அதை [https://rpf.io/scratchoff](rpf.io/scratchoff){:target="_blank"} இங்கு காணலாம்.
 
 \--- /task \---
 
 \--- task \---
 
-தொடக்கநிலை திட்டத்தில் நான்கு கதாபாத்திர sprite-கள்(ஸ்ப்ரைட்) உள்ளன. இவற்றில் ஒன்று உங்கள் சாட்பாட் ஆகும்.
-
-நீங்கள் ஏற்கனவே தேர்ந்தெடுக்கப்பட்ட sprite-ஐப் பயன்படுத்தலாம், அல்லது நீங்கள் விரும்பும் மற்றொன்றை தேர்ந்தெடுக்க, அதனைக் கிளிக் செய்து, பின், மேடைக்குக் கீழே உள்ள sprite பட்டியிலிருந்து **Show** (காட்டு)அல்லது **Hide** (மறை) கண் பணிக்குறியைத்(icon) தேர்வு செய்க.
+Click on the character you want, then click the 'eye' icon to show that character on the stage.
 
 ![ஒரு கதாபாத்திரத்தைத்(character) தேர்வுசெய்க](images/chatbot-characters.png)
 
