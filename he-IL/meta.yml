@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 20-09-2018
 steps:
   - 
-    title: הקדמה
+    title: What you will make
   - 
     title: הצ'אטבוט שלכם
-  - 
-    title: צ'אטבוט מדבר
     completion:
       - engaged
   - 
-    title: 'אתגר: שאלות נוספות'
-    challenge: true
-  - 
-    title: קבלת החלטות
-  - 
-    title: 'אתגר: החלטות נוספות'
-    challenge: true
-  - 
-    title: שינוי מיקום
+    title: צ'אטבוט מדבר
     completion:
       - internal
   - 
-    title: 'אתגר: סיים את הצ''אטבוט שלך'
-    challenge: true
+    title: Making decisions
   - 
-    title: מה הלאה?
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
