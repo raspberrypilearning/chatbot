@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: Introduzione
-  - 
-    title: Il tuo ChiacchieRobot
+    title: What you will make
   - 
     title: Il tuo ChiacchieRobot
     completion:
       - engaged
   - 
-    title: 'Sfida: Altre domande'
-    challenge: true
-  - 
-    title: Prendere decisioni
-  - 
-    title: 'Sfida: Altre decisioni'
-    challenge: true
-  - 
-    title: Cambiare posizione
+    title: Il tuo ChiacchieRobot
     completion:
       - internal
   - 
-    title: 'Sfida: Completa il tuo ChiacchieRobot'
-    challenge: true
+    title: Making decisions
   - 
-    title: E adesso?
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
