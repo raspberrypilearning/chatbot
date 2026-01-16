@@ -9,27 +9,21 @@ version: 4.2.0
 last_tested: 2018-09-20
 steps:
   - 
-    title: はじめに
+    title: What you will make
   - 
     title: 自分のチャットボット
-  - 
-    title: おしゃべりチャットボット
     completion:
       - engaged
   - 
-    title: 'チャレンジ: 質問 (しつもん) をふやす'
-    challenge: true
-  - 
-    title: '「はい」か「いいえ」で答える'
-  - 
-    title: 'チャレンジ: 「はい」か「いいえ」で答えられる質問をふやす'
-    challenge: true
-  - 
-    title: 場所をかえる
+    title: おしゃべりチャットボット
     completion:
       - internal
   - 
-    title: 'チャレンジ: チャットボットを仕上げる'
-    challenge: true
+    title: Making decisions
   - 
-    title: 次は何をしましょうか？
+    title: Changing location
+    completion:
+      - external
+  - 
+    title: Challenge
+    challenge: true
