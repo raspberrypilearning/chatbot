@@ -27,6 +27,7 @@ Click on your chatbot to test your code. When the chatbot ask for your name, typ
 --- /task ---
 
 --- task ---
+
 Change the chatbot sprite’s code to `join`{:class="block3operators"} "Hi" with the `answer`{:class="block3sensing"} to the "What's your name?" question, so that the code looks like this:
 
 ![nano sprite](images/nano-sprite.png)
