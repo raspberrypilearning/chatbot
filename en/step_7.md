@@ -1,6 +1,6 @@
 ## What can you do now?
 
-If you are following the [Scratch: Module 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1) pathway, you can move on to the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project. In this project, you will do DESCRIPTION.
+If you are following the [Scratch: Module 1](https://projects.raspberrypi.org/en/pathways/scratch-module-1) pathway, you can move on to the [Paint box](https://projects.raspberrypi.org/en/projects/paint-box?utm_source=pathway&utm_medium=whatnext&utm_campaign=projects) project. In this project, you will make a drawing program with coloured pencils and an eraser.
 
 
 --- print-only ---
